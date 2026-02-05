@@ -1,0 +1,320 @@
+{
+  "tables": [
+    {
+      "name": "repos_enhanced",
+      "columns": [
+        {
+          "name": "repo_id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "nullable": true
+        },
+        {
+          "name": "full_name",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": false
+        },
+        {
+          "name": "original_description",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "readme_optimized",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "enhanced_text",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "processed_at",
+          "type": "TIMESTAMP",
+          "primary_key": false,
+          "nullable": true
+        }
+      ],
+      "row_count": 999
+    },
+    {
+      "name": "repositories",
+      "columns": [
+        {
+          "name": "id",
+          "type": "INTEGER",
+          "primary_key": true,
+          "nullable": true
+        },
+        {
+          "name": "node_id",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "name",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": false
+        },
+        {
+          "name": "full_name",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": false
+        },
+        {
+          "name": "html_url",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "description",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "homepage",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "fork",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "archived",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "disabled",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "private",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "visibility",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "is_template",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "created_at",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "updated_at",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "pushed_at",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "size",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "stargazers_count",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "watchers_count",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "forks_count",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "open_issues_count",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "language",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "default_branch",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "has_issues",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "has_projects",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "has_downloads",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "has_wiki",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "has_pages",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "has_discussions",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "allow_forking",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "web_commit_signoff_required",
+          "type": "INTEGER",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "score",
+          "type": "REAL",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "license_json",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "readme_content",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "readme_info_json",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "owner_json",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "topics_json",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "permissions_json",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "imported_at",
+          "type": "TIMESTAMP",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "readme_cleaned",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "processing_notes",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "processed_at",
+          "type": "TIMESTAMP",
+          "primary_key": false,
+          "nullable": true
+        },
+        {
+          "name": "enhanced_text",
+          "type": "TEXT",
+          "primary_key": false,
+          "nullable": true
+        }
+      ],
+      "row_count": 1000
+    }
+  ],
+  "relationships": [
+    {
+      "from_table": "repos_enhanced",
+      "from_column": "repo_id",
+      "to_table": "repositories",
+      "to_column": "id",
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    }
+  ]
+}

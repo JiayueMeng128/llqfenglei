@@ -1,0 +1,125 @@
+{
+  "batch_id": 68,
+  "timestamp": "2026-02-05T14:47:54.679135",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1093708164,
+      "name": "coder/ghostty-web",
+      "stars": 1725,
+      "enhanced_text": "Ghostty for the web with xterm.js API compatibility.",
+      "tag": "终端仿真库"
+    },
+    {
+      "id": 147433436,
+      "name": "guybedford/es-module-shims",
+      "stars": 1711,
+      "enhanced_text": "Shims for new ES modules features on top of the basic modules support in browsers.",
+      "tag": "ES模块垫片库"
+    },
+    {
+      "id": 26687918,
+      "name": "dmester/jdenticon",
+      "stars": 1704,
+      "enhanced_text": "Javascript library for generating identicons. Running in the browser and on Node.js.",
+      "tag": "头像生成库"
+    },
+    {
+      "id": 95022732,
+      "name": "jdalrymple/gitbeaker",
+      "stars": 1695,
+      "enhanced_text": "🦊🧪 A comprehensive and typed Gitlab SDK for Node.js, Browsers, Deno and CLI.",
+      "tag": "GitLab API客户端"
+    },
+    {
+      "id": 201809645,
+      "name": "gram-js/gramjs",
+      "stars": 1690,
+      "enhanced_text": "NodeJS/Browser MTProto API Telegram client library,.",
+      "tag": "Telegram客户端库"
+    },
+    {
+      "id": 58160283,
+      "name": "xbrowsersync/app",
+      "stars": 1676,
+      "enhanced_text": "xBrowserSync browser extensions / mobile app.",
+      "tag": "跨浏览器书签同步扩展"
+    },
+    {
+      "id": 194140521,
+      "name": "thomasloven/hass-browser_mod",
+      "stars": 1668,
+      "enhanced_text": "🔹 A Home Assistant integration to turn your browser into a controllable entity and media player.",
+      "tag": "家庭自动化集成扩展"
+    },
+    {
+      "id": 506639818,
+      "name": "VideoTogether/VideoTogether",
+      "stars": 1643,
+      "enhanced_text": "Browser Extension to Sync Video Playback on All Video Platforms / 一起看视频浏览器插件，兼容所有平台.",
+      "tag": "视频播放同步扩展"
+    },
+    {
+      "id": 510116998,
+      "name": "LadybirdBrowser/ancient-history",
+      "stars": 1641,
+      "enhanced_text": "The Ladybird web browser.\n\nThe Ladybird web browser has moved into the SerenityOS monorepo.",
+      "tag": "独立浏览器"
+    },
+    {
+      "id": 178741592,
+      "name": "leggett/simplify",
+      "stars": 1636,
+      "enhanced_text": "Issue tracker for Simplify Gmail, a browser extension to simplify Gmail's interface.",
+      "tag": "Gmail界面优化扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1093708164,
+        "tag": "终端仿真库"
+      },
+      {
+        "id": 147433436,
+        "tag": "ES模块垫片库"
+      },
+      {
+        "id": 26687918,
+        "tag": "头像生成库"
+      },
+      {
+        "id": 95022732,
+        "tag": "GitLab API客户端"
+      },
+      {
+        "id": 201809645,
+        "tag": "Telegram客户端库"
+      },
+      {
+        "id": 58160283,
+        "tag": "跨浏览器书签同步扩展"
+      },
+      {
+        "id": 194140521,
+        "tag": "家庭自动化集成扩展"
+      },
+      {
+        "id": 506639818,
+        "tag": "视频播放同步扩展"
+      },
+      {
+        "id": 510116998,
+        "tag": "独立浏览器"
+      },
+      {
+        "id": 178741592,
+        "tag": "Gmail界面优化扩展"
+      }
+    ]
+  }
+}

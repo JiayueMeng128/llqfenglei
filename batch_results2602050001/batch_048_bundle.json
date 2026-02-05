@@ -1,0 +1,180 @@
+{
+  "batch_id": 48,
+  "timestamp": "2026-02-05T13:31:45.652219",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 606157889,
+      "name": "betterbrowser/arcfox",
+      "stars": 1242,
+      "enhanced_text": "Make your production flow.\n\n# What is ArcFox?\nArcFox is a pack of firefox improvements and modifications inspired by the appearance and some of the features of arc browser to firefox. Developed by a non-profit with the community of passionate browser enthusiats to let people experience a better firefox experience.\nPlease refer to the roadmap to check the development or our discord for helps and leaks :D",
+      "tag": "浏览器界面定制"
+    },
+    {
+      "id": 4172236,
+      "name": "gwatts/jquery.sparkline",
+      "stars": 1241,
+      "enhanced_text": "A plugin for the jQuery javascript library to generate small sparkline charts directly in the browser.\n\nThis jQuery plugin makes it easy to generate a number of different types\nof sparklines directly in the browser, using online a line of two of HTML\nThe plugin has no dependencies other than jQuery and works with all modern\nbrowsers and also Internet Explorer 6 and later (excanvas is not required\nSee the jQuery Sparkline project page\nfor live examples and documentation.\nReleased under the New BSD License",
+      "tag": "jQuery图表插件"
+    },
+    {
+      "id": 146150693,
+      "name": "Rich-Harris/shimport",
+      "stars": 1239,
+      "enhanced_text": "Use JavaScript modules in all browsers, including dynamic imports.\n\n## Quick start\nSuppose you have a module called . We want to:\n1. check to see if modules are fully supported in the current browser, including dynamic imports\n2. if they are, just use the native module loader\n3. if not, use Shimport\nWe can do this by adding a simple script tag to our  file:",
+      "tag": "JavaScript模块加载器"
+    },
+    {
+      "id": 23987312,
+      "name": "delight-im/HTML-Sheets-of-Paper",
+      "stars": 1237,
+      "enhanced_text": "Word processor in your browser using HTML and CSS (for invoices, legal notices, etc.).\n\n* Like the foundation of Microsoft Word or LibreOffice — but in your web browser\n* Emulates sheets of paper in web documents (but without skeuomorphic paper textures)\n**Live demo**: Try modifying or printing the page\n1. Copy all files to any desired directory\n2. Modify the HTML source in  to your liking",
+      "tag": "HTML打印样式库"
+    },
+    {
+      "id": 3550046,
+      "name": "sbstjn/noduino",
+      "stars": 1236,
+      "enhanced_text": "JavaScript and Node.js Framework for controlling Arduino with HTML and WebSockets.\n\nWelcome to the awesome Noduino project! All information is available at:\nhttp://sbstjn.github.io/noduino/",
+      "tag": "Node.js硬件控制框架"
+    },
+    {
+      "id": 45477976,
+      "name": "Art-of-WiFi/UniFi-API-browser",
+      "stars": 1235,
+      "enhanced_text": "Tool to browse data exposed by Ubiquiti's UniFi Controller API.\n\n### Features\nThe UniFi API browser tool offers the following features:\n- Browse data collections and API endpoints exposed by the UniFi Controller API in an easy manner\n- Switch between sites managed by the connected controller\n- Switch between output formats (currently **JSON**, **JSON highlighted**, **PHP array**, **interactive**, and\n**PHP array, highlighted**)\n- Copy the results to clipboard (this is only supported with the JSON output format and will fail gracefully with\n- Switch between the default Bootstrap theme and the Bootswatch themes\n- An **About** modal that shows version information for PHP, cURL, and the UniFi Controller\n- Very easy setup with minimal dependencies\n- Timing details of API calls can be useful to \"benchmark\" your UniFi Controller\n- A useful tool when developing applications that make use of the UniFi Controller API\n- The API exposes more data than is visible through the UniFi controller's web interface, making it useful for\ntroubleshooting purposes\n- Debug mode to troubleshoot cURL connections (set  to  in the config file to enable debug mode)\n\n### Installation\n\nInstallation of this tool is quite straightforward. The easiest way to do this is by using  which also allows\n- open up a terminal window on your server and  to the root folder of your web server (on Ubuntu this is\n) and execute the following command from your command prompt:\n- when git is done cloning, follow the configuration steps below to configure the settings for access to your UniFi\nAlternatively, you may choose to download the zip file and unzip it in your directory of choice, then follow the\nconfiguration steps below.",
+      "tag": "API数据浏览工具"
+    },
+    {
+      "id": 55432924,
+      "name": "chromium/permission.site",
+      "stars": 1232,
+      "enhanced_text": "A site to test the interaction of web APIs and browser permissions.\n\nA simple site to test permission-related UI for web APIs.\nThis is a testing site brought to life by @lgarron, and currently maintained by Chromium project members, but note that this is not an official Google product.\nYou can develop this codebase using flatfile development in an editor and browser of your choice.\nWe use Biome to ensure a consistent style and catch common issues. You can run Biome by installing  and running:\nTo automatically format your changes, run:",
+      "tag": "Web权限测试工具"
+    },
+    {
+      "id": 72826023,
+      "name": "Borewit/music-metadata",
+      "stars": 1231,
+      "enhanced_text": "Metadata parser for audio and video media files. Supports file and stream inputs in Node.js and browser environments, extracting format, tag, and duration information.\n\nInstall using npm:\n\n### Overview\n**Node.js specific** functions to read an audio file or stream:\n1. **File Parsing**: Parse audio files directly from the filesystem using the parseFile function\n1. **Stream Parsing**: Parse audio metadata from a Node.js Readable stream using the parseStream function.\n**Cross-platform** functions available to read an audio file or stream:\nThere are multiple ways to parse (read) audio tracks:\n1. **Web Stream Parsing**: Parse audio data from a web-compatible ReadableStream using the parseWebStream function.\n1. **Blob Parsing**: Parse audio metadata from a (Web API) Blob or File using the parseBlob function.\n1. **Buffer Parsing**: Parse audio metadata from a Uint8Array or Buffer using the parseBuffer function.\n1. **Tokenizer Parsing:** Use a custom or third-party strtok3  to parse using the parseFromTokenizer function.\n> Direct file access in Node.js is generally faster because it can 'jump' to various parts of the file without reading intermediate data.\n### Node.js specific function\nThese functions are tailored for Node.js environments and leverage Node.js-specific APIs,\nmaking them incompatible with browser-based JavaScript engines.\nThe  function is intended for extracting metadata from audio files on the local filesystem in a Node.js environment.\n\n##### Usage Notes\n- This function is **Node.js-only** and relies on Node.js-specific APIs to access the filesystem.\n- For browser environments, consider using the parseBlob to parse File object objects.\nThe following example demonstrates how to use the parseFile function to read metadata from an audio file:\nThe parseStream function is used to parse metadata from an audio track provided as a Node.js  stream.\nThis is particularly useful for processing audio data that is being streamed or piped from another source, such as a web server or file system.\nThe Node.js Readable stream from which the audio data is read.\nThis stream should provide the raw audio data to be analyzed.\nAn object containing file-related information or a string representing the MIME-type of the audio stream.\nThe fileInfo parameter can help the parser to correctly identify the audio format and may include:\n- : A string representing the MIME-type (e.g., ).\nIf provided, it is assumed the streamed file content is to be the MIME-type.\nIf not provided, the parser will attempt to determine the format based on the content of the stream...",
+      "tag": "跨平台媒体元数据解析库"
+    },
+    {
+      "id": 107745806,
+      "name": "michaelbull/kotlin-result",
+      "stars": 1228,
+      "enhanced_text": "A multiplatform Result monad for modelling success or failure operations.\n\n## Installation\n\n## Introduction\nIn functional programming, the result [][result] type is a monadic type holding a returned [value][result-value]\nor an [error][result-error].\nTo indicate an operation that succeeded, return an [][result-Ok] with the successful . If it failed,\nreturn an [][result-Err] with the  that caused the failure.\nThis helps to define a clear happy/unhappy path of execution that is commonly referred to\nas [Railway Oriented Programming][rop], whereby the happy and unhappy paths are represented as separate railways.",
+      "tag": "Kotlin多平台Result库"
+    },
+    {
+      "id": 24103044,
+      "name": "filamentgroup/select-css",
+      "stars": 1227,
+      "enhanced_text": "Cross-browser styles for consistent select element styling.\n\n:warning: This project is archived and the repository is no longer maintained.\nCross-browser select element CSS for consistent select element styling.\nArticle: https://www.filamentgroup.com/lab/select-css.html\nDemo page: http://filamentgroup.github.io/select-css/demo/\nIts CSS will style any select with a class of",
+      "tag": "CSS选择器样式库"
+    },
+    {
+      "id": 221179329,
+      "name": "rpldy/react-uploady",
+      "stars": 1223,
+      "enhanced_text": "Modern file uploading - components & hooks for React.\n\n### Getting Started\n**The best place to get started is at our: React-Uploady Documentation Website**\nAnother great place to learn about React-Uploady is our video series on Youtube.\nFor a list of versions and changes, see the CHANGELOG\nPlease check the discussions area here in Github. If you have a question about use-cases or flows you'd like to achieve with Uploady, discussions is the place to look for existing answers or add your own.\nIf you're using Uploady in Production, please drop a comment here. It's always great to hear how people and companies use it.",
+      "tag": "React文件上传组件库"
+    },
+    {
+      "id": 252358889,
+      "name": "minio/object-browser",
+      "stars": 1214,
+      "enhanced_text": "Simple UI for MinIO Object Storage :abacus:.\n\nA graphical user interface for MinIO\n| Object Browser                       | Creating a bucket                     | Object Details                  |\n- 2. Create a policy for  with admin access to all resources (for testing)\n- 3. Set the policy for the new  user",
+      "tag": "对象存储Web界面"
+    },
+    {
+      "id": 294501642,
+      "name": "QuiteAFancyEmerald/Holy-Unblocker",
+      "stars": 1212,
+      "enhanced_text": "Holy Unblocker LTS is a web proxy service that helps you access websites that may be blocked by your network, government or policy all within your browser with no download or setup. It does this securely and with additional privacy features. Browse Tor/Onion sites in any browser, hide browsing activity and bypass filters. (Star if you fork it!).\n\nHoly Unblocker LTS is an experimental web proxy service that can bypass web filters or \"blockers\" regardless of whether the method of censorship is client-side or network-based. This includes the ability to bypass content blockers from governments, chrome extensions, localized client firewalls, and network-related filters. The project even allows the ability to browse Tor/Onion sites in any browser (even Chromium) all through a website!\n## You can support Holy Unblocker by starring the repository!\nThis project serves mostly as a proof of concept for the ideal clientless solution to bypassing censorship. A good use case of this project would be if you ever needed a clientless solution to use Tor or leave minimal traces of device activity. Simply host this project on any domain and have an alternative solution to a VPN without needing to download anything on said device. Being a secure web proxy service, it supports numerous sites while being updated frequently and concentrating on being easy to self-host. Holy Unblocker LTS works with a large number of sites, including YouTube, Discord, GeForce NOW and more!\nAlso has a good amount of locally hosted games featured on the site.\n### Over 30M+ users since 2020. Thank you so much for the support I could have never imagined how massive the web proxy community has become.\n- Latest (master; built for FOSS and SEO)\n- Beta (pending changes; changes that may break things)",
+      "tag": "Web代理服务"
+    },
+    {
+      "id": 465383,
+      "name": "cowboy/jquery-hashchange",
+      "stars": 1211,
+      "enhanced_text": "This jQuery plugin enables very basic bookmarkable #hash history via a cross-browser HTML5 window.onhashchange event.\n\nhttp://benalman.com/projects/jquery-hashchange-plugin/\nVersion: 1.3, Last updated: 7/21/2010\nThis jQuery plugin enables very basic bookmarkable #hash history via a cross-browser window.onhashchange event.\nVisit the project page for more information and usage examples!\nhttp://benalman.com/code/projects/jquery-hashchange/docs/\nThese working examples, complete with fully commented code, illustrate a few\nways in which this plugin can be used.",
+      "tag": "jQuery哈希历史插件"
+    },
+    {
+      "id": 1873461,
+      "name": "jaysalvat/buzz",
+      "stars": 1206,
+      "enhanced_text": "Buzz is a small but powerful Javascript library that allows you to easily take advantage of the new HTML5 audio element. It tries to degrade silently on non-modern browsers.\n\nBuzz is a small but powerful Javascript library that allows you to easily take advantage of the new HTML5 audio element. It tries to degrade properly on non-modern browsers.\nhttp://buzz.jaysalvat.com/demo/\nhttp://buzz.jaysalvat.com/documentation/\nPlease don't edit files in the  subdirectory as it is generated via Grunt. You'll find source code in the  subdirectory!",
+      "tag": "HTML5音频库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 606157889,
+        "tag": "浏览器界面定制"
+      },
+      {
+        "id": 4172236,
+        "tag": "jQuery图表插件"
+      },
+      {
+        "id": 146150693,
+        "tag": "JavaScript模块加载器"
+      },
+      {
+        "id": 23987312,
+        "tag": "HTML打印样式库"
+      },
+      {
+        "id": 3550046,
+        "tag": "Node.js硬件控制框架"
+      },
+      {
+        "id": 45477976,
+        "tag": "API数据浏览工具"
+      },
+      {
+        "id": 55432924,
+        "tag": "Web权限测试工具"
+      },
+      {
+        "id": 72826023,
+        "tag": "跨平台媒体元数据解析库"
+      },
+      {
+        "id": 107745806,
+        "tag": "Kotlin多平台Result库"
+      },
+      {
+        "id": 24103044,
+        "tag": "CSS选择器样式库"
+      },
+      {
+        "id": 221179329,
+        "tag": "React文件上传组件库"
+      },
+      {
+        "id": 252358889,
+        "tag": "对象存储Web界面"
+      },
+      {
+        "id": 294501642,
+        "tag": "Web代理服务"
+      },
+      {
+        "id": 465383,
+        "tag": "jQuery哈希历史插件"
+      },
+      {
+        "id": 1873461,
+        "tag": "HTML5音频库"
+      }
+    ]
+  }
+}

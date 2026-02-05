@@ -1,0 +1,125 @@
+{
+  "batch_id": 57,
+  "timestamp": "2026-02-05T14:37:31.264267",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1701968,
+      "name": "bitcoinjs/bitcoinjs-lib",
+      "stars": 5967,
+      "enhanced_text": "A javascript Bitcoin library for node.js and browsers.",
+      "tag": "加密数字货币库"
+    },
+    {
+      "id": 3069402,
+      "name": "lindell/JsBarcode",
+      "stars": 5829,
+      "enhanced_text": "Barcode generation library written in JavaScript that works in both the browser and on Node.js.",
+      "tag": "条码生成库"
+    },
+    {
+      "id": 744296994,
+      "name": "outerbase/studio",
+      "stars": 5656,
+      "enhanced_text": "A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite.",
+      "tag": "浏览器数据库GUI"
+    },
+    {
+      "id": 1141441,
+      "name": "assaf/zombie",
+      "stars": 5640,
+      "enhanced_text": "Insanely fast, full-stack, headless browser testing using node.js.",
+      "tag": "无头浏览器测试框架"
+    },
+    {
+      "id": 743456842,
+      "name": "versotile-org/verso",
+      "stars": 5430,
+      "enhanced_text": "Mirror of https://gitlab.com/verso-browser/verso.",
+      "tag": "隐私安全浏览器"
+    },
+    {
+      "id": 443774525,
+      "name": "ComicSparks/jasmine",
+      "stars": 4904,
+      "enhanced_text": "A comic browser，support Android / iOS / MacOS / Windows / Linux.",
+      "tag": "跨平台漫画浏览器"
+    },
+    {
+      "id": 427384949,
+      "name": "Hufe921/canvas-editor",
+      "stars": 4809,
+      "enhanced_text": "rich text editor by canvas/svg.",
+      "tag": "Canvas富文本编辑器"
+    },
+    {
+      "id": 12018530,
+      "name": "jenssegers/agent",
+      "stars": 4731,
+      "enhanced_text": "👮 A PHP desktop/mobile user agent parser with support for Laravel, based on Mobiledetect.",
+      "tag": "用户代理解析库"
+    },
+    {
+      "id": 30484966,
+      "name": "michael-lazar/rtv",
+      "stars": 4644,
+      "enhanced_text": "Browse Reddit from your terminal.",
+      "tag": "终端Reddit客户端"
+    },
+    {
+      "id": 19901927,
+      "name": "browserify/browserify-handbook",
+      "stars": 4608,
+      "enhanced_text": "how to build modular applications with browserify.",
+      "tag": "模块打包工具手册"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1701968,
+        "tag": "加密数字货币库"
+      },
+      {
+        "id": 3069402,
+        "tag": "条码生成库"
+      },
+      {
+        "id": 744296994,
+        "tag": "浏览器数据库GUI"
+      },
+      {
+        "id": 1141441,
+        "tag": "无头浏览器测试框架"
+      },
+      {
+        "id": 743456842,
+        "tag": "隐私安全浏览器"
+      },
+      {
+        "id": 443774525,
+        "tag": "跨平台漫画浏览器"
+      },
+      {
+        "id": 427384949,
+        "tag": "Canvas富文本编辑器"
+      },
+      {
+        "id": 12018530,
+        "tag": "用户代理解析库"
+      },
+      {
+        "id": 30484966,
+        "tag": "终端Reddit客户端"
+      },
+      {
+        "id": 19901927,
+        "tag": "模块打包工具手册"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 54,
+  "timestamp": "2026-02-05T14:36:46.683085",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 58360147,
+      "name": "javascript-obfuscator/javascript-obfuscator",
+      "stars": 15836,
+      "enhanced_text": "A powerful obfuscator for JavaScript and Node.js.",
+      "tag": "JavaScript混淆工具"
+    },
+    {
+      "id": 2609642,
+      "name": "feathersjs/feathers",
+      "stars": 15249,
+      "enhanced_text": "The API and real-time application framework.",
+      "tag": "实时应用框架"
+    },
+    {
+      "id": 931039,
+      "name": "browserify/browserify",
+      "stars": 14731,
+      "enhanced_text": "browser-side require() the node.js way.",
+      "tag": "模块打包器"
+    },
+    {
+      "id": 17618901,
+      "name": "Tonejs/Tone.js",
+      "stars": 14690,
+      "enhanced_text": "A Web Audio framework for making interactive music in the browser.",
+      "tag": "Web音频框架"
+    },
+    {
+      "id": 45213667,
+      "name": "Chocobozzz/PeerTube",
+      "stars": 14478,
+      "enhanced_text": "ActivityPub-federated video streaming platform using P2P directly in your web browser.",
+      "tag": "P2P流媒体平台"
+    },
+    {
+      "id": 743723,
+      "name": "marcuswestin/store.js",
+      "stars": 14012,
+      "enhanced_text": "Cross-browser storage for all use cases, used across the web.",
+      "tag": "浏览器存储封装库"
+    },
+    {
+      "id": 9795883,
+      "name": "louischatriot/nedb",
+      "stars": 13567,
+      "enhanced_text": "The JavaScript Database, for Node.js, nw.js, electron and the browser.",
+      "tag": "嵌入式JavaScript数据库"
+    },
+    {
+      "id": 341139727,
+      "name": "kysely-org/kysely",
+      "stars": 13408,
+      "enhanced_text": "A type-safe TypeScript SQL query builder.",
+      "tag": "类型安全SQL查询构建器"
+    },
+    {
+      "id": 7711472,
+      "name": "zealdocs/zeal",
+      "stars": 12515,
+      "enhanced_text": "Offline documentation browser inspired by Dash.",
+      "tag": "离线文档浏览器"
+    },
+    {
+      "id": 286179743,
+      "name": "DustinBrett/daedalOS",
+      "stars": 12391,
+      "enhanced_text": "Desktop environment in the browser.",
+      "tag": "浏览器桌面环境"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 58360147,
+        "tag": "JavaScript混淆工具"
+      },
+      {
+        "id": 2609642,
+        "tag": "实时应用框架"
+      },
+      {
+        "id": 931039,
+        "tag": "模块打包器"
+      },
+      {
+        "id": 17618901,
+        "tag": "Web音频框架"
+      },
+      {
+        "id": 45213667,
+        "tag": "P2P流媒体平台"
+      },
+      {
+        "id": 743723,
+        "tag": "浏览器存储封装库"
+      },
+      {
+        "id": 9795883,
+        "tag": "嵌入式JavaScript数据库"
+      },
+      {
+        "id": 341139727,
+        "tag": "类型安全SQL查询构建器"
+      },
+      {
+        "id": 7711472,
+        "tag": "离线文档浏览器"
+      },
+      {
+        "id": 286179743,
+        "tag": "浏览器桌面环境"
+      }
+    ]
+  }
+}

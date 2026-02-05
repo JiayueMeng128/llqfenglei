@@ -1,0 +1,59 @@
+{
+  "batch_id": 76,
+  "timestamp": "2026-02-05T15:30:00.940628",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 4,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 10452358,
+      "name": "toggl/track-extension",
+      "stars": 1135,
+      "enhanced_text": "Toggl Track browser extension for Chrome and Firefox.",
+      "tag": "生产力扩展"
+    },
+    {
+      "id": 59907561,
+      "name": "Cloud-CV/Fabrik",
+      "stars": 1134,
+      "enhanced_text": ":factory: Collaboratively build, visualize, and design neural nets in browser.",
+      "tag": "浏览器AI建模平台"
+    },
+    {
+      "id": 835650091,
+      "name": "diffusionstudio/core",
+      "stars": 1134,
+      "enhanced_text": "A fast, browser based video compositing engine powered by WebCodecs.",
+      "tag": "Web视频处理引擎"
+    },
+    {
+      "id": 506162055,
+      "name": "emuell/restic-browser",
+      "stars": 1130,
+      "enhanced_text": "A GUI to browse and restore restic backup repositories.",
+      "tag": "备份管理工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 10452358,
+        "tag": "生产力扩展"
+      },
+      {
+        "id": 59907561,
+        "tag": "浏览器AI建模平台"
+      },
+      {
+        "id": 835650091,
+        "tag": "Web视频处理引擎"
+      },
+      {
+        "id": 506162055,
+        "tag": "备份管理工具"
+      }
+    ]
+  }
+}

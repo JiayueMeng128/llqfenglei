@@ -1,0 +1,16 @@
+{
+  "batch_id": 75,
+  "timestamp": "2026-02-05T15:29:58.575324",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 3082672,\n      \"tag\": \"jQuery插件库\"\n    },\n    {\n      \"id\": 564141286,\n      \"tag\": \"社交媒体扩展\"\n    },\n    {\n      \"id\": 118652595,\n      \"tag\": \"无头浏览器测试\"\n    },\n    {\n      \"id\": 4340323,\n      \"tag\": \"Web行为实验框架\"\n    },\n    {\n      \"id\": 370396971,\n      \"tag\": \"浏览器音频合成平台\"\n    },\n    {\n      \"id\": 4141506,\n      \"tag\": \"浏览器快捷键扩展\"\n    },\n    {\n      \"id\": 22472379,\n      \"tag\": \"HTML文档转换库\"\n    },\n    {\n      \"id\": 155305174,\n      \"tag\": \"浏览器大数据可视化\"\n    },\n    {\n      \"id\": 198628872,\n      \"tag\": \"实验性浏览器引擎\"\n    },\n    {\n      \"id\": 14976714,\n      \"tag\": \"Laravel浏览器检测包\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 579,
+    "completion_tokens": 239,
+    "total_tokens": 818
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984b776b55c32e7604ea3fa6d44b9a7",
+  "created": 1770305393,
+  "finish_reason": "stop"
+}

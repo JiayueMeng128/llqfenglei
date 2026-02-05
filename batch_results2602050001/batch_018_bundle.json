@@ -1,0 +1,180 @@
+{
+  "batch_id": 18,
+  "timestamp": "2026-02-05T13:23:49.033684",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 1248263,
+      "name": "novnc/websockify",
+      "stars": 4325,
+      "enhanced_text": "Websockify is a WebSocket to TCP proxy/bridge. This allows a browser to connect  to any application/server/service.",
+      "tag": "WebSocket代理"
+    },
+    {
+      "id": 121876351,
+      "name": "Authenticator-Extension/Authenticator",
+      "stars": 4325,
+      "enhanced_text": "Authenticator generates 2-Step Verification codes in your browser.\n\n## Available for Chrome, Firefox, and Microsoft Edge\nA Safari edition of Authenticator is available on the App Store. We do not provide official support for the Safari edition.\nTo reproduce a build for Safari, please follow contribution guidance in Authenticator-Extension/Authen\nNote that Windows users should download a tool like Git Bash or Cygwin to build.",
+      "tag": "浏览器扩展"
+    },
+    {
+      "id": 154024534,
+      "name": "MrOtherGuy/firefox-csshacks",
+      "stars": 4311,
+      "enhanced_text": "Collection of userstyles affecting the browser.\n\n# Collection of random CSS hacks for Firefox\nThis repository contains various styles to modify appearance of Mozilla Firefox. These stylesheets are mostly self-contained and can be mixed with each other somewhat freely, but there are no promises about compatibility with third-party styles.\nIn the case that a particular style relies on another style, the fact will be noted at the start of the file that requires so.\nStylesheets in this repository are tested only on Windows 10 and to a lesser amount on Linux. Most of them should also work on OSX and Windows7, but there may be wrong behavior especially when native widgets such as window titlebar or window control buttons are being styled.\nAs an overview, you will make Firefox load two special stylesheets -  and . Doing so requires setting a specific preference (see below) and then creating those files inside your Firefox user profile.\nThe setup is quite straightforward with the exception of how to find the profile folder so pay attention to that.\n## Set the pref to load stylesheets\nAfter you set this pref, Firefox will try to load  and  - but those files don't exist yet so now let's create them.",
+      "tag": "浏览器样式修改"
+    },
+    {
+      "id": 44012035,
+      "name": "guysoft/FullPageOS",
+      "stars": 4306,
+      "enhanced_text": "A raspberrypi distro to display a full page browser on boot.\n\nHow to use it?\n#. Unzip the image and install it to an SD card _\n#. Configure your WiFi by editing wifi.nmconnection on the first partition of the flashed card when using it like a flash drive\n#. Boot the Pi from the SD card\n#. Log into your Pi via SSH (it is located at fullpageos.local _ or the IP address assigned by your router), default username is \"pi\", default password is \"raspberry\" and change the password using the passwd command. Consider also changing the vnc password as well by .\n* Raspberry Pi 2 and newer or device running Armbian. Older Raspberry Pis are not currently supported.  See _ and _.\n* SD card, 4GB or larger, Class 10. (Early June 2020 was the image size 3GB.)\n* Loads Chromium at boot in full screen\n* Webpage can be changed from /boot/firmware/fullpageos.txt\n* You can use variable  in the url to get device's serialnumber in the URL\n* Default app is _, which lets you add multiple tabs changes that switch automatically.\n* Ships with preconfigured _, for remote connection (password 'raspberry')\n* Specify a custom Splashscreen that gets displayed in the booting process instead of Kernel messages/text\n#. Downloaded _ image.\n#. root privileges for chroot",
+      "tag": "专用浏览器系统"
+    },
+    {
+      "id": 903304373,
+      "name": "StructuredLabs/preswald",
+      "stars": 4291,
+      "enhanced_text": "Preswald is a WASM packager for Python-based interactive data apps: bundle full complex data workflows, particularly visualizations, into single files, runnable completely in-browser, using Pyodide, DuckDB, Pandas, and Plotly, Matplotlib, etc. Build dashboards, reports, and notebooks that run offline, load fast, and share like a document.\n\nCreate interactive data apps with a full data stack that runs in the browser (no local dependencies!),runs offline, and is shareable in a single file.\nPreswald is a static-site generator for building interactive data apps in Python. It packages compute, data access, and UI into self-contained data apps that run locally in the browser. Built on a WASM runtime with Pyodide and DuckDB, Preswald enables portable, file-based apps that are fast, reactive, and shareable.\nYou can think of Preswald as a lightweight alternative to heavier web app platforms. It provides built-in UI components and reactive state tracking, so you can use it to build dashboards, reports, prototypes, workflows, and notebooks that are reactive, portable, and secure by default.\nPreswald is especially useful when:\n- You want to bundle logic, UI, and data into a shareable file\n- You need to ship a tool to a stakeholder who shouldn't need to install anything\n- You're working with sensitive data and want full local control\n- You want to give AI systems structured, modifiable tools",
+      "tag": "WASM应用打包器"
+    },
+    {
+      "id": 5542032,
+      "name": "mdaines/viz-js",
+      "stars": 4285,
+      "enhanced_text": "Graphviz in your browser.\n\nThis is a collection of packages for working with Graphviz in JavaScript. The main package, viz, is a WebAssembly build of Graphviz with a simple JavaScript wrapper.\nWith Viz.js, you can easily render a graph diagram as an SVG element to display it in a webpage:\n- lang-dot — CodeMirror language support for the Graphviz DOT language.\n- Viz.js is published on NPM as .\n- lang-dot is published on NPM as .",
+      "tag": "WebAssembly图形库"
+    },
+    {
+      "id": 207392577,
+      "name": "capricorn86/happy-dom",
+      "stars": 4277,
+      "enhanced_text": "A JavaScript implementation of a web browser without its graphical user interface.\n\nDocumentation | Getting started | Setup as Test Environment\n- Custom Elements (Web Components)",
+      "tag": "无头DOM实现"
+    },
+    {
+      "id": 264192686,
+      "name": "supabase/supabase-js",
+      "stars": 4276,
+      "enhanced_text": "An isomorphic Javascript client for Supabase. Query your Supabase database, subscribe to realtime events, upload and download files, browse typescript examples, invoke postgres functions via rpc, invoke supabase edge functions, query pgvector.",
+      "tag": "JavaScript客户端SDK"
+    },
+    {
+      "id": 709571808,
+      "name": "AndrewWalsh/openapi-devtools",
+      "stars": 4276,
+      "enhanced_text": "Browser extension that generates API specs for any app or website.\n\n## Installation\n[Download the extension in the Chrome Web Store][chrome-url].\n[Download the extension in the Firefox Add-on Store][firefox-url].\nOtherwise, to install manually:\n- Download and extract the dist.zip file in the latest release\n- In Chrome, navigate to\n- In the top right enable the  toggle\n- In the top left click  and select the extracted  directory\n- Open a new tab and then select  in the developer tools (open with  or )\n- Firefox is more challenging. Please use the add-on store.\nThe specification will automatically populate based on JSON requests that fire as you browse the web. In the settings menu you can filter hosts and parameterise paths in URLs. Once you do so all matching existing and future requests to that endpoint will be merged. This process is irreversible, but you can clear the specification and restart at any time.\nWhen the same endpoint responds with different data, such as a value that is sometimes a string and sometimes null, the specification for that value will be *either* string or null. All information is accounted for in the final specification. If you see something missing from a request, trigger a request that contains the missing information.\nThe settings menu contains several options. Here you can enable real examples in the specification. You can also export the current state of the app as a string, share or store it, and import it later.\n\n## About The Project\nOpenAPI DevTools is a browser extension that generates OpenAPI specifications in real time from network requests. Once installed it adds a new tab to DevTools called . While the tool is open it automatically converts network requests into a specification.\n- Instantly generate an OpenAPI 3.1 specification for any website or application just by using it\n- Automatically merges new request & response headers, bodies, and query parameters per endpoint\n- Click on a path parameter and the app will automatically merge existing and future matching requests\n- View the specification inside the tool using Redoc and download with a click\n- Export and save a session at any time, or share it with others",
+      "tag": "API规范生成器"
+    },
+    {
+      "id": 29598525,
+      "name": "gdh1995/vimium-c",
+      "stars": 4262,
+      "enhanced_text": "A keyboard shortcut browser extension for keyboard-based navigation and tab operations with an advanced omnibar.\n\n![Version](https://github.com/gdh1995/vimium-c/releases)\n![GitHub stars](https://github.com/gdh1995/vimium-c/stargazers)\n![Gitee star](https://gitee.com/gdh1995/vimium-c/stargazers)\n![Firefox 101+](https://addons.mozilla.org/firefox/addon/vimium-c/?src=external-readme)\n![users](https://addons.mozilla.org/firefox/addon/vimium-c/?src=external-readme)\n![rating](https://addons.mozilla.org/firefox/addon/vimium-c/reviews/?src=external-readme)\n![Edge 102+](https://microsoftedge.microsoft.com/addons/detail/aibcglbfblnogfjhbcmmpobjhnomhcdo)\n![users](https://microsoftedge.microsoft.com/addons/detail/aibcglbfblnogfjhbcmmpobjhnomhcdo)\n![rating](https://microsoftedge.microsoft.com/addons/detail/aibcglbfblnogfjhbcmmpobjhnomhcdo)",
+      "tag": "键盘导航扩展"
+    },
+    {
+      "id": 255242703,
+      "name": "doodlewind/jshistory-cn",
+      "stars": 4247,
+      "enhanced_text": "🇨🇳 《JavaScript 二十年》中文版.\n\n本项目已与博文视点合作推出纸质版，其版税收入将有 10% 捐献给 Mozilla，点击购买。\n本书由 JavaScript 之父 Brendan Eich 与 ES6 规范首席作者 Allen Wirfs-Brock 联合编写，详细记载和解读了自 1995 年语言诞生到 2015 年 ES6 规范制定为止，共计 20 年的 JavaScript 语言演化历程。全书不仅讲解了大量语言技术细节层面的演进，更复盘了更高层面上规范制定与标准博弈中的历史成败，是一部讲述人类如何在商业与技术上的竞争合作中促进产业发展的故事。\n这个故事相当漫长而复杂。全文分为四个部分，每部分都对应 JavaScript 演化历程中的一个主要阶段。各部分之间还有一段简短的插曲，介绍彼时的开发者们是如何看待与使用 JavaScript 的。\n1. **语言诞生**（The Origins of JavaScript），介绍了 JavaScript 的创建与早期发展，包括语言的诞生背景、命名方式、初始特性及其设计理念等。这一节还追溯了它在 Netscape 与其他公司最初的演化，例如微软的 JScript。\n2. **创立标准**（Creating a Standard），介绍了从 JavaScript 到 ECMAScript 标准的历程。这主要涵盖 JavaScript 标准化工作的启动、规范的创建、相关贡献者以及决策方式等。\n3. **改革失败**（Failed Reformations），介绍了在 Eich 离开后，缺乏「仁慈独裁者」的 ECMAScript 委员会修改语言的失败尝试。这主要涉及委员会的分裂、对 ES4 的两轮投入，以及 Flash 与 ActionScript 在其中的渊源等。\n4. **继往开来**（Modernizing JavaScript），介绍了 2009 年 ES5 与 2015 年 ES6 这两个成功标准背后的故事，主要包括对 ES5 与 ES6 的目标、重大基础性更改与重要新特性的介绍与回顾。",
+      "tag": "JavaScript历史文献"
+    },
+    {
+      "id": 326059244,
+      "name": "miroslavpejic85/mirotalk",
+      "stars": 4235,
+      "enhanced_text": "🚀 WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 8k and 60fps, compatible with all browsers and platforms.",
+      "tag": "WebRTC视频会议"
+    },
+    {
+      "id": 123563464,
+      "name": "code-charity/ImprovedTube",
+      "stars": 4213,
+      "enhanced_text": "Open YouTube / Video browser-extension [top~1] Enrich your experience&choice!🧰250+options; clever features📌set&forget📌  - Longest-standing. Join🧩us?👨‍👩‍👧‍👧  ⋮ {playback|discovery|extra player buttons|quality|codec|full tab|full screen|no distraction|shorts}.\n\n/ImprovedTube/ a powerful but lightweight extension,  to enrich your video experience & enable your content selection.\n'Might  be the only YouTube Extension you'll ever need'  'enhances YouTube in meaningful ways'   'Strong Add-on, full control. Yet clear & easy'\nThanks ♡ to our contributors, Alan Tan, Raszpl\ntranslators (+ wiki-authors? +donators?):bowtie:\n«Improve YouTube!»  &nbsp;&nbsp;",
+      "tag": "YouTube增强扩展"
+    },
+    {
+      "id": 23384104,
+      "name": "bendc/sprint",
+      "stars": 4201,
+      "enhanced_text": "A tiny, lightning fast jQuery-like library for modern browsers.\n\nSprint is a high-performance, 5KB (gzipped) DOM library for modern browsers. Sprint notably shines on bandwidth and resource constrained devices such as phones and tablets.\nSprint has a familiar, jQuery-like chainable API:\nSprint is an alternative—not a replacement—for jQuery. jQuery offers more features, handles more edge cases and supports more browsers. Sprint is just a thin layer making the DOM friendlier without sacrificing on performance.\nSprint relies on newer APIs supported by modern browsers (read: IE10+) and  optimizes a bunch of other things in order to provide you with fast DOM operations.\nHere are a few performance tests of some popular methods (Chrome 42, OS X 10.10.3) :",
+      "tag": "轻量DOM库"
+    },
+    {
+      "id": 10182205,
+      "name": "scrapinghub/splash",
+      "stars": 4199,
+      "enhanced_text": "Lightweight, scriptable browser as a service with an HTTP API.\n\nSplash - A javascript rendering service\n:target: https://travis-ci.org/scrapinghub/splash\n:target: http://codecov.io/github/scrapinghub/splash?branch=master\n:alt: Join the chat at https://gitter.im/scrapinghub/splash\n:target: https://gitter.im/scrapinghub/splash\nSplash is a javascript rendering service with an HTTP API. It's a lightweight\nbrowser with an HTTP API, implemented in Python 3 using Twisted and QT5.\nIt's fast, lightweight and state-less which makes it easy to distribute.",
+      "tag": "脚本化无头浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1248263,
+        "tag": "WebSocket代理"
+      },
+      {
+        "id": 121876351,
+        "tag": "浏览器扩展"
+      },
+      {
+        "id": 154024534,
+        "tag": "浏览器样式修改"
+      },
+      {
+        "id": 44012035,
+        "tag": "专用浏览器系统"
+      },
+      {
+        "id": 903304373,
+        "tag": "WASM应用打包器"
+      },
+      {
+        "id": 5542032,
+        "tag": "WebAssembly图形库"
+      },
+      {
+        "id": 207392577,
+        "tag": "无头DOM实现"
+      },
+      {
+        "id": 264192686,
+        "tag": "JavaScript客户端SDK"
+      },
+      {
+        "id": 709571808,
+        "tag": "API规范生成器"
+      },
+      {
+        "id": 29598525,
+        "tag": "键盘导航扩展"
+      },
+      {
+        "id": 255242703,
+        "tag": "JavaScript历史文献"
+      },
+      {
+        "id": 326059244,
+        "tag": "WebRTC视频会议"
+      },
+      {
+        "id": 123563464,
+        "tag": "YouTube增强扩展"
+      },
+      {
+        "id": 23384104,
+        "tag": "轻量DOM库"
+      },
+      {
+        "id": 10182205,
+        "tag": "脚本化无头浏览器"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "batch_id": 51,
+  "timestamp": "2026-02-05T13:32:03.103162",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 6,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 1398323,
+      "name": "QupZilla/qupzilla",
+      "stars": 1133,
+      "enhanced_text": "Cross-platform Qt web browser.\n\nHomepage: https://www.qupzilla.com\nQupZilla was renamed to Falkon and moved to KDE infrastructure\nNew repository is available at https://phabricator.kde.org/source/falkon/.\nSource code: https://cgit.kde.org/falkon.git\nCode review: https://phabricator.kde.org",
+      "tag": "Qt浏览器"
+    },
+    {
+      "id": 3386825,
+      "name": "EventSource/eventsource",
+      "stars": 1132,
+      "enhanced_text": "EventSource client for Node.js, browsers and other JavaScript runtimes.\n\n## Installation\nBasically, any environment that supports:\n- Event, MessageEvent, EventTarget\nIf you need to support older runtimes, try the  branch/version range (note: 2.x branch is primarily targetted at Node.js, not browsers).\nMake sure you have configured your TSConfig so it matches the environment you are targetting. If you are targetting browsers, this would be :\nIf you're using Node.js, ensure you have  installed (and it is version 18 or higher). Cloudflare workers have  etc.\nThe following errors are caused by targetting an environment that does not have the necessary types available:\n## Migrating from v1 / v2\nSee MIGRATION.md for a detailed migration guide.\n## Extensions to the WhatWG/W3C API\n### Message and code properties on errors\nThe  event has a  and  property that can be used to get more information about the error. In the specification, the Event\n### Specify  implementation\nThe  constructor accepts an optional  property in the second argument that can be used to specify the  implementation to use.\nThis can be useful in environments where the global  function is not available - but it can also be used to alter the request/response behaviour.",
+      "tag": "EventSource客户端"
+    },
+    {
+      "id": 713052876,
+      "name": "pastelsky/tsdocs",
+      "stars": 1132,
+      "enhanced_text": "Browse type documentation for JS libraries.\n\nTSDocs.dev is a service that lets you browse type reference documentation\nIt works even with packages that aren't written in Typescript (sourced from DefinitelyTyped)\nor when packages re-export types from other packages.\nIts depends heavily on a customized version of typedoc\nfor generating API docs documentation.\n## Writing good documentation for your library\nextracts documentation from the type definitions that ships with libraries. In case a type definition is\nunavailable, it searches DefinitelyTyped for the closest equivalent.",
+      "tag": "TypeScript文档工具"
+    },
+    {
+      "id": 962079433,
+      "name": "browserable/browserable",
+      "stars": 1132,
+      "enhanced_text": "Open source and self-hostable browser automation library for AI agents.\n\n## Quick start\nThe fastest way to get started is to run the npx command. This will guide you through the setup process and ensure you have all required dependencies.\nVisit  to set your LLM and Remote Browser API Keys to start using.\nClone the repository:\n- Install Docker Compose\nStart the development environment:\n- Open Browserable admin dashboard: http://localhost:2001/dash/@admin/settings.\n- Set API key of any one LLM provider (Gemini/ Open AI/ Claude).\n- Sign up for a free plan with any one remote browser provider (Hyperbrowser/ Steel).\n- Set the API key of the remote browser provider in your Browserable admin dashboard.\nOnce running, you'll have access to the following services:\n| Service | URL/Port | Description |\n| UI Server | http://localhost:2001 | Main user interface |\n| Documentation | http://localhost:2002 | Local documentation |\n| Tasks Server | http://localhost:2003 | Task management API |",
+      "tag": "AI浏览器自动化库"
+    },
+    {
+      "id": 529238370,
+      "name": "KonghaYao/cn-font-split",
+      "stars": 1131,
+      "enhanced_text": "划时代的字体切割工具，CJK与任何字符！支持 otf、ttf、woff2 字体多线程切割，完美地细颗粒度地进行包大小控制。A revolutionary font subetter that supports CJK and any characters! It enables multi-threaded subset of otf, ttf, and woff2 fonts, allowing for precise control over package size.\n\n# 中文 Web Font 切割工具 7.0 —— Rust Speed\n是 **中文网字计划** 所使用的字体分包工具，通过高性能的各种技术将庞大的字体包拆分为适合网络分发的版本。经过七个大版本的字体研究与代码迭代，这项技术在我们的网站中得到了充分的应用，实现了中文字体在 Web 领域的加载速度与效率的双飞跃。\n不仅支持中文，针对于中韩日文字、少数民族文字、阿拉伯文等皆有优化，可以根据实际字体包内字符进行智能地分包。\n- 💻 坚持 Web 平台为基底，兼容性极强。浏览器、WASI、Linux、MacOS、Windows，统统可以运行。Rust、JS、Python 多语言复用。\n- 📦 跨平台产物一致，无论哪个平台，运行 cn-font-split 得到的结果都是一致的。\n- 🔧 功能齐全完备，支持生成文字图片预览，支持完整全字符，支持复杂字形，支持可变字体！\n- ⛰️ 自研 Rust 工具，构建文本 SVG 引擎，独立渲染文本图像。\n- 🚄 **我们有前端编译器插件啦! —— vite-plugin-font, 支持 Vite、Nuxt、Next、Webpack、Rspack，快速嵌入你的前端工具链。**",
+      "tag": "Web字体分包工具"
+    },
+    {
+      "id": 105390095,
+      "name": "gajus/roarr",
+      "stars": 1130,
+      "enhanced_text": "JSON logger for Node.js and browser.\n\nFor a long time I have been a big fan of using .  is simple to use, works in Node.js and browser, does not require configuration and it is fast. However, problems arise when you need to parse logs. Anything but one-line text messages cannot be parsed in a safe way.\nTo log structured data, I have been using Winston and Bunyan. These packages are great for application-level logging. I have preferred Bunyan because of the Bunyan CLI program used to pretty-print logs. However, these packages require program-level configuration – when constructing an instance of a logger, you need to define the transport and the log-level. This makes them unsuitable for use in code designed to be consumed by other applications.\nThen there is pino. pino is fast JSON logger, it has CLI program equivalent to Bunyan, it decouples transports, and it has sane default configuration. Unfortunately, you still need to instantiate logger instance at the application-level. This makes it more suitable for application-level logging just like Winston and Bunyan.\n* Does not block the event cycle (=fast).\n* Does not require initialization.",
+      "tag": "JSON日志库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1398323,
+        "tag": "Qt浏览器"
+      },
+      {
+        "id": 3386825,
+        "tag": "EventSource客户端"
+      },
+      {
+        "id": 713052876,
+        "tag": "TypeScript文档工具"
+      },
+      {
+        "id": 962079433,
+        "tag": "AI浏览器自动化库"
+      },
+      {
+        "id": 529238370,
+        "tag": "Web字体分包工具"
+      },
+      {
+        "id": 105390095,
+        "tag": "JSON日志库"
+      }
+    ]
+  }
+}

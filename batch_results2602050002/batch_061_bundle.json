@@ -1,0 +1,125 @@
+{
+  "batch_id": 61,
+  "timestamp": "2026-02-05T14:46:47.733810",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 94629944,
+      "name": "dessant/search-by-image",
+      "stars": 3104,
+      "enhanced_text": "Browser extension for reverse image search, available for Chrome, Edge and Safari.",
+      "tag": "浏览器扩展"
+    },
+    {
+      "id": 575485391,
+      "name": "gluon-framework/gluon",
+      "stars": 3074,
+      "enhanced_text": "A new framework for creating desktop apps from websites, using system installed browsers and NodeJS.",
+      "tag": "跨平台桌面应用框架"
+    },
+    {
+      "id": 154541438,
+      "name": "gruns/ImmortalDB",
+      "stars": 3064,
+      "enhanced_text": ":nut_and_bolt: A relentless key-value store for the browser.",
+      "tag": "浏览器数据存储库"
+    },
+    {
+      "id": 263157374,
+      "name": "lukeed/uvu",
+      "stars": 3036,
+      "enhanced_text": "uvu is an extremely fast and lightweight test runner for Node.js and the browser.",
+      "tag": "JavaScript测试运行器"
+    },
+    {
+      "id": 61934962,
+      "name": "schmich/instascan",
+      "stars": 3024,
+      "enhanced_text": "HTML5 QR code scanner using your webcam.",
+      "tag": "浏览器媒体API应用"
+    },
+    {
+      "id": 628250345,
+      "name": "ElricLiu/AutoGPT-Next-Web",
+      "stars": 3018,
+      "enhanced_text": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.一键免费部署你的私人AutoGPT 网页应用.",
+      "tag": "浏览器AI代理应用"
+    },
+    {
+      "id": 7136348,
+      "name": "laurentj/slimerjs",
+      "stars": 2995,
+      "enhanced_text": "A scriptable browser like PhantomJS, based on Firefox.",
+      "tag": "无头浏览器"
+    },
+    {
+      "id": 47116945,
+      "name": "BrasilAPI/cep-promise",
+      "stars": 2952,
+      "enhanced_text": "Busca por CEP integrado diretamente aos serviços dos Correios, ViaCEP e outros (Node.js e Browser).",
+      "tag": "浏览器API客户端"
+    },
+    {
+      "id": 256692482,
+      "name": "kiwibrowser/src",
+      "stars": 2940,
+      "enhanced_text": "Source-code used in Kiwi Browser for Android.",
+      "tag": "移动浏览器源码"
+    },
+    {
+      "id": 5543656,
+      "name": "meltingice/psd.js",
+      "stars": 2847,
+      "enhanced_text": "A Photoshop PSD file parser for NodeJS and browsers.",
+      "tag": "浏览器文件解析库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 94629944,
+        "tag": "浏览器扩展"
+      },
+      {
+        "id": 575485391,
+        "tag": "跨平台桌面应用框架"
+      },
+      {
+        "id": 154541438,
+        "tag": "浏览器数据存储库"
+      },
+      {
+        "id": 263157374,
+        "tag": "JavaScript测试运行器"
+      },
+      {
+        "id": 61934962,
+        "tag": "浏览器媒体API应用"
+      },
+      {
+        "id": 628250345,
+        "tag": "浏览器AI代理应用"
+      },
+      {
+        "id": 7136348,
+        "tag": "无头浏览器"
+      },
+      {
+        "id": 47116945,
+        "tag": "浏览器API客户端"
+      },
+      {
+        "id": 256692482,
+        "tag": "移动浏览器源码"
+      },
+      {
+        "id": 5543656,
+        "tag": "浏览器文件解析库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 58,
+  "timestamp": "2026-02-05T14:37:38.330927",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 343654752,
+      "name": "Mzying2001/CefFlashBrowser",
+      "stars": 4582,
+      "enhanced_text": "Flash浏览器 / Flash Browser.",
+      "tag": "专有格式浏览器"
+    },
+    {
+      "id": 37319088,
+      "name": "johnste/finicky",
+      "stars": 4579,
+      "enhanced_text": "A macOS app for customizing which browser to start.",
+      "tag": "浏览器启动管理器"
+    },
+    {
+      "id": 52322425,
+      "name": "gitbrent/PptxGenJS",
+      "stars": 4483,
+      "enhanced_text": "Build PowerPoint presentations with JavaScript. Works with Node, React, web browsers, and more.",
+      "tag": "JavaScript办公库"
+    },
+    {
+      "id": 64409189,
+      "name": "improbable-eng/grpc-web",
+      "stars": 4476,
+      "enhanced_text": "gRPC Web implementation for Golang and TypeScript.",
+      "tag": "浏览器RPC框架"
+    },
+    {
+      "id": 90042534,
+      "name": "pojala/electrino",
+      "stars": 4406,
+      "enhanced_text": "Desktop runtime for apps built on web technologies, using the system's own web browser engine.",
+      "tag": "轻量桌面应用框架"
+    },
+    {
+      "id": 3346928,
+      "name": "chjj/tty.js",
+      "stars": 4223,
+      "enhanced_text": "A terminal for your browser, using node/express/socket.io.",
+      "tag": "浏览器终端模拟器"
+    },
+    {
+      "id": 18102026,
+      "name": "winjs/winjs",
+      "stars": 4131,
+      "enhanced_text": "A UI toolkit for modern browsers.",
+      "tag": "浏览器UI框架"
+    },
+    {
+      "id": 32012345,
+      "name": "AdguardTeam/AdguardBrowserExtension",
+      "stars": 3956,
+      "enhanced_text": "AdGuard browser extension.",
+      "tag": "隐私安全扩展"
+    },
+    {
+      "id": 49692445,
+      "name": "tholman/cursor-effects",
+      "stars": 3882,
+      "enhanced_text": "Old-school cursor effects for your browser built with modern JavaScript.",
+      "tag": "网页交互动效"
+    },
+    {
+      "id": 105665728,
+      "name": "googlecreativelab/teachable-machine-v1",
+      "stars": 3880,
+      "enhanced_text": "Explore how machine learning works, live in the browser. No coding required.",
+      "tag": "浏览器机器学习工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 343654752,
+        "tag": "专有格式浏览器"
+      },
+      {
+        "id": 37319088,
+        "tag": "浏览器启动管理器"
+      },
+      {
+        "id": 52322425,
+        "tag": "JavaScript办公库"
+      },
+      {
+        "id": 64409189,
+        "tag": "浏览器RPC框架"
+      },
+      {
+        "id": 90042534,
+        "tag": "轻量桌面应用框架"
+      },
+      {
+        "id": 3346928,
+        "tag": "浏览器终端模拟器"
+      },
+      {
+        "id": 18102026,
+        "tag": "浏览器UI框架"
+      },
+      {
+        "id": 32012345,
+        "tag": "隐私安全扩展"
+      },
+      {
+        "id": 49692445,
+        "tag": "网页交互动效"
+      },
+      {
+        "id": 105665728,
+        "tag": "浏览器机器学习工具"
+      }
+    ]
+  }
+}

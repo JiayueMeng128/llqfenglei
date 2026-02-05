@@ -1,0 +1,180 @@
+{
+  "batch_id": 42,
+  "timestamp": "2026-02-05T13:28:51.587563",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 27718804,
+      "name": "eqcss/eqcss",
+      "stars": 1493,
+      "enhanced_text": "EQCSS is a CSS Reprocessor that introduces Element Queries, Scoped CSS, a Parent selector, and responsive JavaScript to all browsers IE8 and up.",
+      "tag": "CSS预处理器"
+    },
+    {
+      "id": 31642967,
+      "name": "ricmoo/aes-js",
+      "stars": 1490,
+      "enhanced_text": "A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers.",
+      "tag": "JavaScript加密库"
+    },
+    {
+      "id": 9672786,
+      "name": "Subash/Prepros",
+      "stars": 1482,
+      "enhanced_text": "Compile almost any preprocessing language with live browser refresh.\n\nThis repository contains very old Prepros code for archival purposes. Please visit https://prepros.io for latest updates.",
+      "tag": "前端构建工具"
+    },
+    {
+      "id": 78135042,
+      "name": "anttiviljami/browser-autofill-phishing",
+      "stars": 1482,
+      "enhanced_text": "A simple demo of phishing by abusing the browser autofill feature.\n\nThis is a simple demonstration of form fields hidden from the user, but will be\nfilled anyways when using the browser form autofill feature, which poses a\nsecurity risk for users, unaware of giving their information to the website.\nHere's the demo in action on the Google Chrome Browser:\nIt works differently in some other browsers. For example:\n* In Safari, it will tell you all the data it is filling into the form, even",
+      "tag": "浏览器安全演示"
+    },
+    {
+      "id": 37339157,
+      "name": "Consensys/eth-lightwallet",
+      "stars": 1481,
+      "enhanced_text": "Lightweight JS Wallet for Node and the browser.\n\nA minimal ethereum javascript wallet.\nLightWallet is a HD wallet that can store your private keys encrypted in the browser to allow you to run Ethereum dapps even if you're not running a local Ethereum node. It uses [BIP32][] and [BIP39][] to generate an HD tree of addresses from a randomly generated 12-word seed.\nLightWallet is primarily intended to be a signing provider for the Hooked Web3 provider through the  module. This allows you to have full control over your private keys while still connecting to a remote node to relay signed transactions. Moreover, the  functions can be used to construct transactions when offline, for use in e.g. air-gapped coldwallet implementations.\nThe default BIP32 HD derivation path has been , but any HD path can be chosen.\nPlease note that LightWallet has not been through a comprehensive security review at this point. It is still experimental software, intended for small amounts of Ether to be used for interacting with smart contracts on the Ethereum blockchain. Do not rely on it to store larger amounts of Ether yet.\nThe  package contains  that can be included in an HTML page:\nThe file  exposes the global object  to the browser which has the two main modules  and .",
+      "tag": "JavaScript加密钱包"
+    },
+    {
+      "id": 574666627,
+      "name": "wieslawsoltes/ChatGPT",
+      "stars": 1475,
+      "enhanced_text": "A ChatGPT C# client for MacOS, Windows, Linux, Android, iOS and Browser. Powered by Avalonia UI framework.\n\nA ChatGPT C# client for graphical user interface runs on MacOS, Windows, Linux, Android, iOS and Browser. Powered by Avalonia UI framework.\nTo make the app work, you need to set the OpenAI API key as the  environment variable or set API key directly in app settings.\nYou can try client using browser version here.\n- Ctrl+Shift+A - Toggle between transparent and acrylic blur window style.\n- Ctrl+Shift+S - Toggle between visible and hidden window state.",
+      "tag": "跨平台桌面应用"
+    },
+    {
+      "id": 5194068,
+      "name": "mmin18/AndroidDynamicLoader",
+      "stars": 1474,
+      "enhanced_text": "A plugin system that runs like a browser, but instead of load web pages, it load apk plugins which runs natively on Android system.\n\n## About UI Container\nIn a normal Android application, we use Activity as the root UI container. But since Activity is registered in AndroidManifest.xml, and we can't modify manifest in runtime, we must find an alternative UI container - Fragment.\nThe Fragment itself, introduced in Android 3.0 Honeycomb, is a perfect UI container, and it has lifecycle and state management.\nOnce the plugin and its dependency is downloaded, an Activity (MainActivity.java) will be started, create an instance of the specific fragment, and add the fragment into the root view.\nSee the HelloFragment.java sample.\n\n## About URL Mapping\nSince we use Fragment as UI container, each page is implemented in Fragment instead of Activity. So how do we start a new page?\nWe use URL, just like a browser does. For instance, in a browser, we open . In plugins, we open .\nIntent i = new Intent(Intent.ACTION_VIEW, Uri.parse(\"app://helloworld\"));\nEach host is mapped to a single fragment, you define the url mapping table in **project/fragment.properties**.\nSee the helloworld fragment.properties sample.",
+      "tag": "Android插件框架"
+    },
+    {
+      "id": 14086422,
+      "name": "cryptii/cryptii",
+      "stars": 1468,
+      "enhanced_text": "A web app for modular conversion, encoding, and encryption, all performed directly in your browser with no server interaction.",
+      "tag": "浏览器端编码工具"
+    },
+    {
+      "id": 16862339,
+      "name": "flask-api/flask-api",
+      "stars": 1468,
+      "enhanced_text": "Browsable web APIs for Flask.\n\n## Overview\nFlask API is a drop-in replacement for Flask that provides an implementation of browsable APIs similar to what Django REST framework offers. It gives you properly content-negotiated responses and smart request parsing:\n\n## Installation",
+      "tag": "Flask API框架"
+    },
+    {
+      "id": 111427718,
+      "name": "jhildenbiddle/css-vars-ponyfill",
+      "stars": 1464,
+      "enhanced_text": "Client-side support for CSS custom properties (aka \"CSS variables\") in legacy and modern browsers.\n\n## Features\n- Client-side transformation of CSS custom properties to static values\n- Live updates of runtime values in both modern and legacy browsers\n- Transforms , , and  CSS\n- Transforms relative  paths to absolute URLs\n- Supports chained and nested  functions\n- Supports  function fallback values\n- Supports web components / shadow DOM CSS\n- Watch mode auto-updates on  and  changes\n- UMD and ES6 module available\n- TypeScript definitions included\n- Lightweight (6k min+gzip) and dependency-free\n- Custom property declaration support is limited to  and  rulesets\n- The use of  is limited to property values (per W3C specification)\n- CSS changes made using CSSOM APIs are not supported (see #19, #23, #77, #154).",
+      "tag": "CSS兼容性填充库"
+    },
+    {
+      "id": 5099405,
+      "name": "linuxmint/nemo",
+      "stars": 1460,
+      "enhanced_text": "File browser for Cinnamon.\n\nNemo is a free and open-source software and official file manager of the Cinnamon desktop environment.\nIt is a fork of GNOME Files (formerly named Nautilus).\nNemo also manages the Cinnamon desktop.\nSince Cinnamon 6.0 (Mint 21.3), users can enhance their own Nemo with Spices named Actions.\nNemo started as a fork of the GNOME file manager Nautilus v3.4. Version 1.0.0 was released in July 2012 along with version 1.6 of Cinnamon,\nreaching version 1.1.2 in November 2012.\nDeveloper Gwendal Le Bihan named the project \"nemo\" after Jules Verne's famous character Captain Nemo, who is the captain of the Nautilus.\nNemo v1.0.0 had the following features as described by the developers:\n1. Ability to SSH into remote servers\n2. Native support for FTP (File Transfer Protocol) and MTP (Media Transfer Protocol)",
+      "tag": "Linux文件管理器"
+    },
+    {
+      "id": 46812728,
+      "name": "Synzvato/decentraleyes",
+      "stars": 1460,
+      "enhanced_text": "This repository has a new home: https://git.synz.io/Synzvato/decentraleyes.\n\nA web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported resources locally, and injects them into the environment. All of this happens automatically, so no prior configuration is required. Feel free to use the following testing utility to find out if you are properly protected.\n> **Note:** Decentraleyes is no silver bullet, but it does prevent a lot of websites from making you send these kinds of requests. Ultimately, you can make Decentraleyes block requests for any missing CDN resources, too.\nSuggestions in the form of **Issues**, and contributions in the form of **Pull Requests**, are highly welcome. You can also use the public contact details and PGP key on the extension's contact page to get in touch.\n* Mozilla Firefox 56 *(or higher)*.\n> **Note:** If you want to contribute to the Firefox legacy extension, please check out the  branch. If you are looking for the Chromium-compatible codebase, please see the  branch.\nPlease read this short guide for information on how to run this extension from source.",
+      "tag": "隐私保护浏览器扩展"
+    },
+    {
+      "id": 1083887818,
+      "name": "thelastoutpostworkshop/ESPConnect",
+      "stars": 1459,
+      "enhanced_text": "Zero-installation web application that lets you explore, back up, and manage your ESP32… right from your browser.\n\n## Quick Start\n2. Click **Connect** and choose your device when the browser asks for permission.\n3. After the handshake completes, the navigation drawer unlocks every tool: Device Info, Partitions, SPIFFS, Apps, Flash, Console, and Logs.\n4. Use **Disconnect** whenever you want to free the USB port for another application.",
+      "tag": "Web串口设备管理"
+    },
+    {
+      "id": 14065064,
+      "name": "MattKetmo/darkroomjs",
+      "stars": 1457,
+      "enhanced_text": "Extensible image editing tool in your browser.\n\nDarkroomJS is a JavaScript library which provides basic image editing tools in\nyour browser, such as **rotation** or **cropping**. It is based on the awesome\nFabricJS library to handle images in HTML5 canvas.\nThis library has been discontinued and is **no longer maintained**.\nIf you're looking for an alternative, you should have a look at **Pintura Image Editor**.\n- intuitive UI and mobile touch friendly",
+      "tag": "浏览器图像编辑库"
+    },
+    {
+      "id": 600278518,
+      "name": "anaclumos/bing-chat-for-all-browsers",
+      "stars": 1454,
+      "enhanced_text": "Enable Bing ChatGPT on Chrome and Firefox.\n\n> **Warning** I am shutting down the extension. https://github.com/anaclumos/bing-chat-for-all-browsers/issues/119",
+      "tag": "浏览器功能解锁扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 27718804,
+        "tag": "CSS预处理器"
+      },
+      {
+        "id": 31642967,
+        "tag": "JavaScript加密库"
+      },
+      {
+        "id": 9672786,
+        "tag": "前端构建工具"
+      },
+      {
+        "id": 78135042,
+        "tag": "浏览器安全演示"
+      },
+      {
+        "id": 37339157,
+        "tag": "JavaScript加密钱包"
+      },
+      {
+        "id": 574666627,
+        "tag": "跨平台桌面应用"
+      },
+      {
+        "id": 5194068,
+        "tag": "Android插件框架"
+      },
+      {
+        "id": 14086422,
+        "tag": "浏览器端编码工具"
+      },
+      {
+        "id": 16862339,
+        "tag": "Flask API框架"
+      },
+      {
+        "id": 111427718,
+        "tag": "CSS兼容性填充库"
+      },
+      {
+        "id": 5099405,
+        "tag": "Linux文件管理器"
+      },
+      {
+        "id": 46812728,
+        "tag": "隐私保护浏览器扩展"
+      },
+      {
+        "id": 1083887818,
+        "tag": "Web串口设备管理"
+      },
+      {
+        "id": 14065064,
+        "tag": "浏览器图像编辑库"
+      },
+      {
+        "id": 600278518,
+        "tag": "浏览器功能解锁扩展"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "batch_id": 24,
+  "timestamp": "2026-02-05T13:25:20.149248",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 12105498,
+      "name": "nicoespeon/gitgraph.js",
+      "stars": 3062,
+      "enhanced_text": "[ARCHIVED] A JavaScript library to draw pretty git graphs in the browser.\n\n## Getting started\nGitGraph.js codebase is a monorepo. Packages are released under  scope.\nAs a user, you're probably interested in one of the rendering libraries:\n- [gitgraph-js][gitgraph-js]\n- [gitgraph-react][gitgraph-react]\n- [gitgraph-node][gitgraph-node]\nYou'll find usage details in their README.\nAs a contributor, you might be interested in checking out [gitgraph-core][gitgraph-core]. It contains the core logic for rendering libraries to use.",
+      "tag": "数据可视化库"
+    },
+    {
+      "id": 125568868,
+      "name": "symfony/panther",
+      "stars": 3059,
+      "enhanced_text": "A browser testing and web crawling library for PHP and Symfony.\n\n**A browser testing and web scraping library for PHP and Symfony**\n*Panther* is a convenient standalone library to scrape websites and to run end-to-end tests **using real browsers**.\nPanther is super powerful. It leverages the W3C's WebDriver protocol to drive native web browsers such as Google Chrome and Firefox.\n* Report issues and send Pull Requests in the main Symfony repository\nMany of the wild cat species are highly threatened.\nIf you like this software, help save the (real) panthers by donating to the Panthera organization.",
+      "tag": "浏览器自动化测试"
+    },
+    {
+      "id": 481185579,
+      "name": "pacexy/flow",
+      "stars": 3051,
+      "enhanced_text": "Browser-based ePub reader.\n\n## Features\n- Highlight and Annotation\n- Share/Download book with link\nFor planed features, see our roadmap.",
+      "tag": "电子书阅读器"
+    },
+    {
+      "id": 622876059,
+      "name": "Textualize/frogmouth",
+      "stars": 3048,
+      "enhanced_text": "A Markdown browser for your terminal.\n\n## Installing\nThe easiest way to install Frogmouth is with pipx (particularly if you aren't a Python developer).\nYou can also install Frogmouth with :\nOn systems using Homebrew, you can tap into the Textualize tap and install Frogmouth with :\nWhichever method you use, you should have a  command on your path.\nEnter  at the prompt to run the app, optionally followed by a path to a Markdown file:\nYou can navigate with the mouse or the keyboard.\nUse tab and shift+tab to navigate between the various controls on screen.",
+      "tag": "终端Markdown浏览器"
+    },
+    {
+      "id": 39774073,
+      "name": "sunnylqm/react-native-storage",
+      "stars": 3042,
+      "enhanced_text": "local storage wrapper for both react-native and browser. Support size controlling, auto expiring, remote data auto syncing and getting batch data in one query.\n\nThis is a local storage wrapper for both react native apps (using AsyncStorage) and web apps (using localStorage). ES6 syntax, promise for async load, fully tested with jest.\nFor a more modern and unified approach to handling requests, caching, and persistent storage, I recommend using  together with . It’s cleaner, more elegant, and more powerful.\nThere are two ways to set the sync method.\nYou can pass the sync method in the constructor's parameter, as a function in an object,\nor you can define it at any time as shown below:\nIn the following example the sync method is called, when you invoke :",
+      "tag": "跨平台本地存储"
+    },
+    {
+      "id": 1398628,
+      "name": "symfony/browser-kit",
+      "stars": 3024,
+      "enhanced_text": "Simulates the behavior of a web browser, allowing you to make requests, click on links and submit forms programmatically.\n\nto make requests, click on links and submit forms programmatically.\nThe component comes with a concrete implementation that uses the HttpClient\ncomponent to make real HTTP requests.",
+      "tag": "HTTP客户端模拟"
+    },
+    {
+      "id": 502586319,
+      "name": "FossifyOrg/Gallery",
+      "stars": 3020,
+      "enhanced_text": "Browse your memories without any interruptions with this photo and video gallery.\n\nUnleash memories, not personal data. Fossify Gallery is the ultimate photo and video app that's as powerful as it is private. No ads, no unnecessary permissions – just a seamless experience tailored for you.\n**🖼️ PHOTO EDITING AT YOUR FINGERTIPS:**\nEnhance your photos with our basic yet powerful photo editor. Crop, resize, rotate, flip, draw, and apply stunning filters, all without compromising your privacy. Take control of your memories like never before.\nYour privacy matters. Ditch the data-hungry giants. Fossify Gallery puts you in control. Strip away EXIF metadata like GPS coordinates and camera details, keeping your memories yours, and yours alone.\nLock down your memories with pin, pattern, or fingerprint protection. Secure specific photos, videos, or the entire app – you decide who gets access. Peace of mind, guaranteed.\nBreathe easy, accidents happen! Fossify Gallery's built-in recycle bin lets you recover deleted photos and videos in seconds. No more lost treasures, just pure relief.",
+      "tag": "隐私相册应用"
+    },
+    {
+      "id": 230036026,
+      "name": "Qianlitp/crawlergo",
+      "stars": 3017,
+      "enhanced_text": "A powerful browser crawler for web vulnerability scanners.\n\n## Installation\n**Please read and confirm disclaimer carefully before installing and using。**\n- compilation for current platform\n- compile for all platforms\n1. crawlergo relies only on the chrome environment to run, go to download for the new version of chromium.\n2. Go to download page for the latest version of crawlergo and extract it to any directory. If you are on linux or macOS, please give crawlergo **executable permissions (+x)**.\n3. Or you can modify the code and build it yourself.\n> If you are using a linux system and chrome prompts you with missing dependencies, please see TroubleShooting below",
+      "tag": "浏览器爬虫框架"
+    },
+    {
+      "id": 27359938,
+      "name": "micromatch/micromatch",
+      "stars": 3008,
+      "enhanced_text": "Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by square, webpack, babel core, yarn, jest, ract-native, taro, bulma, browser-sync, stylelint, nyc, ava, and many others! Follow micromatch's author: https://github.com/jonschlinkert.",
+      "tag": "通配符匹配库"
+    },
+    {
+      "id": 166780923,
+      "name": "remirror/remirror",
+      "stars": 3004,
+      "enhanced_text": "ProseMirror toolkit for React 🎉.\n\n## Installation\nIf you run into any issues we recommend any of the following:\n- Open an issue in our github repo.\n- Join our discord server and discuss the problem with our community.\n- Create a pull request with your proposed improvement by clicking the edit button on the relevant page.\nWhatever you decide thanks for taking the time to explore the **remirror** project.\n**Become a sponsor!**\n### Community spotlight\nView our documentation website [**here**][introduction].\n- Use an out-of-the-box editor\n- Create your own editor\n- CodeSandbox starter\n\n## Features\n- A11y focused and ARIA compatible.\n- I18n support via lingui.\n- Great support for mobile devices.\n- Out-of-the-box editors, or create own by composing extensions.\n- Create your own extensions for bare-metal ProseMirror integration.\n- Collaborative editing with yjs or prosemirror-collab.\n- 30+ extensions for creating fully customized editing experiences.\n- TypeScript as a first class citizen for great developer experience.\n\n## Introduction\nWith this code snippet your editor now supports basic editing functionality.\nAlternatively, take a look at our 5 minute tutorial to get up and running with an out-of-the-box WYSIWYG editor.",
+      "tag": "ProseMirror React工具包"
+    },
+    {
+      "id": 33571868,
+      "name": "chromium/badssl.com",
+      "stars": 2981,
+      "enhanced_text": ":lock: Memorable site for testing clients against bad SSL configs.\n\nVisit  for a list of test subdomains, including:\nStock Ubuntu VM, DNS A records for  and  pointing to the VM.\n1. Follow the instructions to install Docker.\n2. Clone into the badssl repo by running .\n3. In order to access the various badssl subdomains locally you will need to add them to your system hosts file. Run  and copy and paste the output into .\n5. You can now navigate to  in your browser, and you should see a certificate error.\n6. The badssl root certificate is at . In order to get the rest of the badssl subdomains working, you will need to add this to your machine's list of trusted certificates.",
+      "tag": "SSL/TLS测试站点"
+    },
+    {
+      "id": 6180186,
+      "name": "bgrins/devtools-snippets",
+      "stars": 2978,
+      "enhanced_text": "A collection of helpful snippets to use inside of browser devtools.\n\nView them all on a single page: http://bgrins.github.io/devtools-snippets/ or all of them inside of github.  I have a more long winded article about snippets detailing why you might use them and additional features that would be nice, if you are interested.\nIf you have a useful snippet or updates to an existing one that you'd like to share, please contribute it or open an issue!  Feel free to use, modify, or share any of these snippets.\n## To Use DevTools Snippets in Chrome\nYou can read more about snippets at the Chrome developer tools documentation.\n* Go to \"Snippets\" tab, and add whichever ones you want.\n## To Use DevTools Snippets in Firefox Scratchpad\n*Note: you can read more about scratchpad at the  Firefox developers tools documentation.*",
+      "tag": "开发者工具代码片段"
+    },
+    {
+      "id": 103043228,
+      "name": "chromelyapps/Chromely",
+      "stars": 2976,
+      "enhanced_text": "Build Cross Platform HTML Desktop Apps on .NET using native GUI, HTML5, JavaScript, CSS, Owin, AspNetCore (MVC, RazorPages, Blazor).\n\n# ** Announcement ** - Chromely is no longer being maintained!\nFor those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.\nThanks to all the contributors over the years for making the platform a great learning place.\nFor developers who are interested in WebView2 there is EdgeSharp, an offshoot of Chromely.\nChromely is a lightweight alternative to Electron.NET, Electron for .NET/.NET Core developers.\nChromely is a .NET/.NET Core HTML5 Chromium desktop framework. It is focused on building apps based on Xilium.CefGlue, CefSharp implementations of  embedded Chromium (CEF) **without WinForms or WPF**, but can be extended to use WinForms or WPF. Chromely uses **Windows**, **Linux** and **MacOS** native GUI API as \"thin\" chromium hosts.\nWith Chromely you can build Single Page Application (SPA) HTML5 desktop apps with or without Node/npm. Building SPA apps using Blazor or javascript frameworks like Angular, React, Vue or similar is easy. You can use Visual Studio Code or any IDE you are familiar with as long as Chromely knows the entry html file from the compiled/bundled files. For more info please see - Blazor-Demos and Chromely-Apps.\nOptions of communicating (IPC) with rendering process are via:\n- Generic Message Routing - more info @ Generic Message Routing.",
+      "tag": "CEF跨平台桌面框架"
+    },
+    {
+      "id": 22076748,
+      "name": "morkt/GARbro",
+      "stars": 2966,
+      "enhanced_text": "Visual Novels resource browser.\n\nRequires .NET Framework v4.6 or newer (https://www.microsoft.com/net)\nBrowse through the file system to a file of interest.  If you think it's an\narchive, try to 'enter' inside by pressing 'Enter' on it.  If GARbro\nrecognizes format its contents will be displayed just like regular file\nsystem.  Some archives are encrypted, so you will be asked for credentials or\na supposed game title.  If game is not listed among presented options then\nmost likely archive could not be opened by current GARbro version.",
+      "tag": "视觉小说资源浏览器"
+    },
+    {
+      "id": 256332800,
+      "name": "argyleink/gui-challenges",
+      "stars": 2966,
+      "enhanced_text": "Components from the YouTube show GUI Challenges: accessible, responsive, adaptive and cross browser components.\n\n> I build interfaces my way, then challenge you to do it your way.\nWith our creative minds combined,\n**we'll find multiple ways to solve these interfaces\nand expand the diversity of our skills.**",
+      "tag": "前端UI组件示例"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 12105498,
+        "tag": "数据可视化库"
+      },
+      {
+        "id": 125568868,
+        "tag": "浏览器自动化测试"
+      },
+      {
+        "id": 481185579,
+        "tag": "电子书阅读器"
+      },
+      {
+        "id": 622876059,
+        "tag": "终端Markdown浏览器"
+      },
+      {
+        "id": 39774073,
+        "tag": "跨平台本地存储"
+      },
+      {
+        "id": 1398628,
+        "tag": "HTTP客户端模拟"
+      },
+      {
+        "id": 502586319,
+        "tag": "隐私相册应用"
+      },
+      {
+        "id": 230036026,
+        "tag": "浏览器爬虫框架"
+      },
+      {
+        "id": 27359938,
+        "tag": "通配符匹配库"
+      },
+      {
+        "id": 166780923,
+        "tag": "ProseMirror React工具包"
+      },
+      {
+        "id": 33571868,
+        "tag": "SSL/TLS测试站点"
+      },
+      {
+        "id": 6180186,
+        "tag": "开发者工具代码片段"
+      },
+      {
+        "id": 103043228,
+        "tag": "CEF跨平台桌面框架"
+      },
+      {
+        "id": 22076748,
+        "tag": "视觉小说资源浏览器"
+      },
+      {
+        "id": 256332800,
+        "tag": "前端UI组件示例"
+      }
+    ]
+  }
+}

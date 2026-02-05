@@ -1,0 +1,180 @@
+{
+  "batch_id": 33,
+  "timestamp": "2026-02-05T13:27:17.054272",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 3008757,
+      "name": "Automattic/expect.js",
+      "stars": 2099,
+      "enhanced_text": "Minimalistic BDD-style assertions for Node.JS and the browser.\n\n## Features\n- Cross-browser: works on IE6+, Firefox, Safari, Chrome, Opera.\n- Compatible with all test frameworks.\n- Standalone. Single global with no prototype extensions or shims.\n\n## How to use",
+      "tag": "BDD断言库"
+    },
+    {
+      "id": 126883328,
+      "name": "magenta/magenta-js",
+      "stars": 2099,
+      "enhanced_text": "Magenta.js: Music and Art Generation with Machine Learning in the browser.\n\n**Magenta.js** is a collection of TypeScript libraries for doing inference with pre-trained Magenta models.\nAll libraries are published as npm packages.\nMore information and example applications can be found at g.co/magenta/js.\nComplete documentation is available at https://magenta.github.io/magenta-js.\nLearn more about the Magenta project on our blog and main Magenta repo.\n* music: Contains TensorFlow.js implementations and support libraries for Magenta's musical note-based models including MusicVAE, MelodyRNN, DrumsRNN, PerformanceRNN, and ImprovRNN.\n* sketch: Contains TensorFlow.js implementations and support libraries for Magenta's sketch models including SketchRNN.\n* image: Contains TensorFlow.js implementations and support libraries for Magenta's image models including Arbitrary Style Transfer.",
+      "tag": "浏览器端机器学习"
+    },
+    {
+      "id": 100034375,
+      "name": "ueokande/vim-vixen",
+      "stars": 2094,
+      "enhanced_text": "Accelerates your web browsing with Vim power!!\n\n:warning: **This project is no longer under active maintainenance.  Check the new project Vimmatic.  See the announcement in more details.**\nVim Vixen is a Firefox add-on which allows you to easily navigate the web by\nkeyboard. Since version 57, Firefox has migrated to the WebExtensions API and\nhas dropped support for legacy add-ons. Vim Vixen is a new choice for Vim users\nsince it uses the WebExtensions API.\nTo get Vim Vixen, install it from [Firefox add-ons][AMO].\nFor usage and more detailed information, check out our [documentations][documentations].",
+      "tag": "Vim式浏览器扩展"
+    },
+    {
+      "id": 887031138,
+      "name": "leaperone/MultiPost-Extension",
+      "stars": 2086,
+      "enhanced_text": "A browser extension that helps users publish content to multiple social media platforms with one click.\n\n> A browser extension that helps users publish content to multiple social media platforms with one click.\n⭐ If you find this project helpful, please consider giving it a star! Your support helps us grow and improve! ⭐\n- 一键发布内容（文本、图片、视频等）到多个平台。（支持知乎、微博、小红书、抖音等10多个主流平台）无需登录、无需注册、无需API Key。完全免费！\nPost your content (text, images, videos, etc.) to multiple platforms with one click. (Over 10 mainstream platforms including TikTok, YouTube Zhihu, Weibo, Xiaohongshu, TikTok, etc.) No login, no registration, no API Key required. Free!\n- 两种API接口 / 2 types of API Interface:\n- 扩展API：在您自己的Web应用中调用扩展的API发布内容。",
+      "tag": "社交媒体发布扩展"
+    },
+    {
+      "id": 747929369,
+      "name": "logdyhq/logdy-core",
+      "stars": 2080,
+      "enhanced_text": "Realtime log viewer with web UI, tail -f for logs with a web interface browser.\n\n## Install with Homebrew (MacOS)\nOn MacOS you can use homebrew to install Logdy.\n## Download precompiled binary\nNavigate to releases Github page and download the latest release for your architecture.\nAdditionally, you can add the binary to your PATH for easier access.\n\n## Install using script\nThe command below will download the latest release and add the executable to your system's PATH. You can also use it to update Logdy.\n\n## Quick start\nWhatever the below command will produce to the output, will be forwarded to a Web UI.\nThe following should appear\nOpen the URL Address and start building parsers, columns and filters.\nThere are multiple other ways you can run Logdy, check the docs.",
+      "tag": "Web日志查看器"
+    },
+    {
+      "id": 14127490,
+      "name": "scoutapp/scout_realtime",
+      "stars": 2077,
+      "enhanced_text": "Realtime server metrics in your browser.\n\nStream realtime server and process metrics to your browser!\n* On the server you want to monitor:\n* create an SSH tunnel to your server:  (where user@ip_or_hostname is the same as you usually use to SSH to your server)\n* Point your browser to http://localhost:5555\nWhen you're done, you can stop the daemon with:",
+      "tag": "服务器监控仪表盘"
+    },
+    {
+      "id": 67236461,
+      "name": "csstree/csstree",
+      "stars": 2074,
+      "enhanced_text": "A tool set for CSS including fast detailed parser, walker, generator and lexer based on W3C specs and browser implementations.\n\n## Features\n- **Detailed parsing with an adjustable level of detail**\nBy default CSSTree parses CSS as detailed as possible, i.e. each single logical part is representing with its own AST node (see AST format for all possible node types). The parsing detail level can be changed through parser options, for example, you can disable parsing of selectors or declaration values for component parts.\n- **Tolerant to errors by design**\nParser behaves as spec says: \"When errors occur in CSS, the parser attempts to recover gracefully, throwing away only the minimum amount of content before returning to parsing as normal\". The only thing the parser departs from the specification is that it doesn't throw away bad content, but wraps it in a special node type () that allows processing it later.\n- **Fast and efficient**\nCSSTree is created with focus on performance and effective memory consumption. Therefore it's one of the fastest CSS parsers at the moment.\n- **Syntax validation**\nThe built-in lexer can test CSS against syntaxes defined by W3C. CSSTree uses mdn/data as a basis for lexer's dictionaries and extends it with vendor specific and legacy syntaxes. Lexer can only check the declaration values and at-rules currently, but this feature will be extended to other parts of the CSS in the future.\n## Projects using CSSTree\n- Svelte – Cybernetically enhanced web apps\n- SVGO – Node.js tool for optimizing SVG files\n- CSSO – CSS minifier with structural optimizations\n- NativeScript – NativeScript empowers you to access native APIs from JavaScript directly\n- react-native-svg – SVG library for React Native, React Native Web, and plain React web projects",
+      "tag": "CSS解析工具集"
+    },
+    {
+      "id": 1129945442,
+      "name": "corbindavenport/just-the-browser",
+      "stars": 2052,
+      "enhanced_text": "Remove AI features, telemetry data reporting, sponsored content, product integrations, and other annoyances from web browsers.",
+      "tag": "浏览器反追踪工具"
+    },
+    {
+      "id": 539497279,
+      "name": "mullvad/mullvad-browser",
+      "stars": 2049,
+      "enhanced_text": "Privacy-focused browser for Linux, macOS and Windows. Made in collaboration between @torproject and @mullvad.\n\nThe Mullvad Browser is a privacy-focused web browser developed in a collaboration between Mullvad VPN and the Tor Project. It’s designed to minimize tracking and fingerprinting. You could say it’s a Tor Browser to use without the Tor Network. Instead, you can use it with a trustworthy VPN. The idea is to provide one more alternative – beside the Tor Network – to browse the internet with more privacy. To get as many people as possible to fight the big data gathering of today. To free the internet from mass surveillance.\nLearn more about Mullvad Browser on our website\nYou can visit our download page to get the latest stable release.\n- Windows 10 or later (64 bit only)\n**\\***  and  packages are available for Linux through our repositories.",
+      "tag": "隐私增强浏览器"
+    },
+    {
+      "id": 81535817,
+      "name": "kroitor/asciichart",
+      "stars": 2040,
+      "enhanced_text": "Nice-looking lightweight console ASCII line charts ╭┈╯ for NodeJS, browsers and terminal, no dependencies.\n\nConsole ASCII line charts in pure Javascript (for NodeJS and browsers) with no dependencies.\nThe width of the chart will always equal the length of data series. The height and range are determined automatically.\noffset:  3,          // axis offset from the left (min 2)\npadding: '       ',  // padding string for label formatting (can be overridden)\nheight:  10,         // any height you want\n// the label format function applies default padding\nformat:  function (x, i) { return (padding + x.toFixed (2)).slice (-padding.length) }",
+      "tag": "终端ASCII图表库"
+    },
+    {
+      "id": 10744004,
+      "name": "Keyang/node-csvtojson",
+      "stars": 2036,
+      "enhanced_text": "Blazing fast and Comprehensive CSV Parser for Node.JS / Browser / Command Line.\n\n# Quick Start\n* As Command Line Tool\n\n### Installation\n### From CSV File to JSON Array\n### From CSV String to CSV Row\n### Asynchronously process each line from csv url\n### Convert to CSV lines\nTo find more detailed usage, please see API section\n## Command Line Usage",
+      "tag": "CSV解析SDK"
+    },
+    {
+      "id": 18427025,
+      "name": "ali-sdk/ali-oss",
+      "stars": 2030,
+      "enhanced_text": "Aliyun OSS(Object Storage Service) JavaScript SDK for the Browser and Node.js.\n\n[![NPM version][npm-image]][npm-url]\n[![build status][travis-image]][travis-url]\n[![coverage][cov-image]][cov-url]\n[![David deps][david-image]][david-url]\n[npm-url]: https://npmjs.org/package/ali-oss\n[travis-url]: https://travis-ci.org/ali-sdk/ali-oss.svg?branch=master\n[cov-image]: http://codecov.io/github/ali-sdk/ali-oss/coverage.svg?branch=master\n[cov-url]: http://codecov.io/github/ali-sdk/ali-oss?branch=master\n[david-url]: https://david-dm.org/ali-sdk/ali-oss",
+      "tag": "云存储JavaScript SDK"
+    },
+    {
+      "id": 37490572,
+      "name": "streamich/memfs",
+      "stars": 2030,
+      "enhanced_text": "Node.js \"fs\" and browser \"File System API\" adapters and in-memory implementations 👍.\n\n[npm-url]: https://www.npmjs.com/package/memfs\nJavaScript file system utilities for Node.js and browser. Implementation of in-memory Node.js  module API and in-memory browser File System API, as well as adapters from  module to File Sytem API and from File Sytem API to  module.\n- In-memory browser File System (Access) API\n-  to File System (Access) API adapter\n- File System (Access) API to  adapter",
+      "tag": "内存文件系统适配器"
+    },
+    {
+      "id": 42366054,
+      "name": "ValveResourceFormat/ValveResourceFormat",
+      "stars": 2021,
+      "enhanced_text": "Source 2 Viewer is a powerful tool that allows you to browse VPK archives, view, extract, and decompile Source 2 assets, including maps, models, materials, textures, sounds, and more.\n\n*\\* The library component of Source 2 Viewer is called ValveResourceFormat (VRF).*\nValve's Source 2 resource file format parser, decompiler, and exporter.\nSource 2 files usually end with , for example .\nThis repository is split into four components:\n- **Command-line utility** - File data viewer, decompiler and a playground for testing new formats and features.\n- **GUI Viewer** - A vpk archive viewer and extractor. Also supports viewing resources such as sounds, textures, models, maps, and much more.\n- **Renderer** - OpenGL-based rendering engine for Source 2 game assets.\n- **Library** - Provides public API to parse resource files and some helpers.\n⚒ View the official website for downloads.",
+      "tag": "游戏资源解析工具"
+    },
+    {
+      "id": 41527911,
+      "name": "linb/CrossUI",
+      "stars": 2010,
+      "enhanced_text": "CrossUI is a free Cross-Browser Javascript framework with cutting-edge functionality for rich web application.",
+      "tag": "跨浏览器JavaScript框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 3008757,
+        "tag": "BDD断言库"
+      },
+      {
+        "id": 126883328,
+        "tag": "浏览器端机器学习"
+      },
+      {
+        "id": 100034375,
+        "tag": "Vim式浏览器扩展"
+      },
+      {
+        "id": 887031138,
+        "tag": "社交媒体发布扩展"
+      },
+      {
+        "id": 747929369,
+        "tag": "Web日志查看器"
+      },
+      {
+        "id": 14127490,
+        "tag": "服务器监控仪表盘"
+      },
+      {
+        "id": 67236461,
+        "tag": "CSS解析工具集"
+      },
+      {
+        "id": 1129945442,
+        "tag": "浏览器反追踪工具"
+      },
+      {
+        "id": 539497279,
+        "tag": "隐私增强浏览器"
+      },
+      {
+        "id": 81535817,
+        "tag": "终端ASCII图表库"
+      },
+      {
+        "id": 10744004,
+        "tag": "CSV解析SDK"
+      },
+      {
+        "id": 18427025,
+        "tag": "云存储JavaScript SDK"
+      },
+      {
+        "id": 37490572,
+        "tag": "内存文件系统适配器"
+      },
+      {
+        "id": 42366054,
+        "tag": "游戏资源解析工具"
+      },
+      {
+        "id": 41527911,
+        "tag": "跨浏览器JavaScript框架"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "batch_id": 1,
+  "timestamp": "2026-02-05T13:19:12.754909",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 23088740,
+      "name": "axios/axios",
+      "stars": 108566,
+      "enhanced_text": "Promise based HTTP client for the browser and node.js.\n\n## Features\n- **Browser Requests:** Make XMLHttpRequests directly from the browser.\n- **Node.js Requests:** Make http requests from Node.js environments.\n- **Promise-based:** Fully supports the Promise API for easier asynchronous code.\n- **Interceptors:** Intercept requests and responses to add custom logic or transform data.\n- **Data Transformation:** Transform request and response data automatically.\n- **Request Cancellation:** Cancel requests using built-in mechanisms.\n- **Automatic JSON Handling:** Automatically serializes and parses JSON data.\n- **Form Serialization:** 🆕 Automatically serializes data objects to  or  formats.\n- **XSRF Protection:** Client-side support to protect against Cross-Site Request Forgery.\n|                                                     Chrome                                                     |                                                      Firefox                                                      |                                                     Safari                                                     |                                                    Opera                                                    |                                                   Edge                                                   |\n|                                                    Latest ✔                                                    |                                                     Latest ✔                                                      |                                                    Latest ✔                                                    |                                                  Latest ✔                                                   |                                                 Latest ✔                                                 |",
+      "tag": "HTTP客户端库"
+    },
+    {
+      "id": 2561582,
+      "name": "animate-css/animate.css",
+      "stars": 82624,
+      "enhanced_text": "🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.\n\nInstall with yarn:\n\n## Installation\n\nInstall with npm:",
+      "tag": "CSS动画库"
+    },
+    {
+      "id": 881458615,
+      "name": "browser-use/browser-use",
+      "stars": 77766,
+      "enhanced_text": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.\n\n🌤️ Want to skip the setup? Use our cloud for faster, scalable, stealth-enabled browser automation!\n1. Direct your favorite coding agent (Cursor, Claude Code, etc) to Agents.md\n**1. Create environment with uv (Python>=3.11):**\n**2. Install Browser-Use package:**\n**3. Get your API key from Browser Use Cloud and add it to your  file (new signups get $10 free credits):**\n**4. Install Chromium browser:**",
+      "tag": "AI浏览器自动化"
+    },
+    {
+      "id": 9185792,
+      "name": "apache/echarts",
+      "stars": 65624,
+      "enhanced_text": "Apache ECharts is a powerful, interactive charting and data visualization library for browser.\n\nApache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.\n**中文官网** | **ENGLISH HOMEPAGE**\nYou may choose one of the following methods:\n+ Download from the official website",
+      "tag": "数据可视化库"
+    },
+    {
+      "id": 824874689,
+      "name": "cline/cline",
+      "stars": 57569,
+      "enhanced_text": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+      "tag": "IDE智能编码代理"
+    },
+    {
+      "id": 348060227,
+      "name": "withastro/astro",
+      "stars": 56518,
+      "enhanced_text": "The web framework for content-driven websites. ⭐️ Star to support our work!\n\nAstro is a website build tool for the modern web &mdash;\npowerful developer experience meets lightweight output.\nThe **recommended** way to install the latest version of Astro is by running the command below:\nYou can also install Astro **manually** by running this command instead:\nLooking for help? Start with our Getting Started guide.\nLooking for quick examples? Open a starter project right in your browser.\nVisit our official documentation.\nHaving trouble? Get help in the official Astro Discord.",
+      "tag": "现代Web框架"
+    },
+    {
+      "id": 14194174,
+      "name": "alex/what-happens-when",
+      "stars": 42681,
+      "enhanced_text": "An attempt to answer the age old interview question \"What happens when you type google.com into your browser and press enter?\".\n\nThis repository is an attempt to answer the age-old interview question \"What\nhappens when you type google.com into your browser's address box and press\nExcept instead of the usual story, we're going to try to answer this question\nin as much detail as possible. No skipping out on anything.\nThis is a collaborative process, so dig in and try to help out! There are tons\nof details missing, just waiting for you to add them! So send us a pull\nThis is all licensed under the terms of the _ license.\nRead this in _ (simplified Chinese), _ (Japanese), _",
+      "tag": "浏览器工作原理"
+    },
+    {
+      "id": 9393759,
+      "name": "phaserjs/phaser",
+      "stars": 38970,
+      "enhanced_text": "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.\n\nInstall via npm:\n## Using Phaser from a CDN\nPhaser is on jsDelivr which is a \"super-fast CDN for developers\". Include _either_ of the following in your html:\nIt is also available from Cloudflare's cdnjs:\n## Phaser TypeScript Definitions\nFull TypeScript definitions can be found inside the types folder. They are also referenced in the  entry in , meaning modern editors such as VSCode will detect them automatically.\nDepending on your project, you may need to add the following to your  file:\nRead our full API Documentation at https://docs.phaser.io/. Use the links at the top of the page to navigate the namespaces, classes, events and Game Objects and also to use the search box.\nWe maintain documentation for the most recent versions of Phaser on this site.\n\n## Installing Phaser from NPM",
+      "tag": "HTML5游戏框架"
+    },
+    {
+      "id": 3065454,
+      "name": "impress/impress.js",
+      "stars": 38586,
+      "enhanced_text": "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.\n\n### Getting Started Guide\nCheck out our new Getting Started guide if you want a quick introduction to the project!\n### Checking out and initializing the git repository\ngit clone --recursive https://github.com/impress/impress.js.git\nNote: For a minimal checkout, omit the  option. This will leave out extra plugins.\nNew features and fixes are continuously merged into the master branch, which is what the above command will check out. For the latest stable release, see the Github Releases page.\nReference documentation of core impress.js features and API you can find it in DOCUMENTATION.md.\nThe HTML source code of the official impress.js demo serves as a good example usage and contains comments explaining various features of impress.js. For more information about styling you can look into CSS code which shows how classes provided by impress.js can be used. Last but not least JavaScript code of impress.js has some useful comments if you are interested in how everything works. Feel free to explore!\nimpress.js demo by @bartaz\n### Examples and demos\nThe Classic Slides demo is targeted towards beginners, or can be used as a template for presentations that look like the traditional PowerPoint slide deck. Over time, it also grew into the example presentation that uses most of the features and addons available.\nMore examples and demos can be found on Examples and demos wiki page.\nFeel free to add your own example presentations (or websites) there.\n### Other tutorials and learning resources\nIf you want to learn even more there is a list of tutorials and other learning resources\n\nHOW TO USE IT\n\n### Getting Started Guide\nCheck out our new Getting Started guide if you want a quick introduction to the project!\n### Direct download link to only impress.js\nYou can include this link directly inside of your HTML file in its header. If you want to learn how to do this, you can find a how-to in the Getting Started guide.\n- V2.0.0: https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js\n- V1.1.0: https://cdn.jsdelivr.net/gh/impress/impress.js@1.1.0/js/impress.js\n- Source: https://cdn.jsdelivr.net/gh/impress/impress.js/js/impress.js",
+      "tag": "CSS3演示框架"
+    },
+    {
+      "id": 52773157,
+      "name": "typeorm/typeorm",
+      "stars": 36293,
+      "enhanced_text": "ORM for TypeScript and JavaScript. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.",
+      "tag": "跨平台ORM"
+    },
+    {
+      "id": 3390243,
+      "name": "servo/servo",
+      "stars": 35364,
+      "enhanced_text": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "tag": "浏览器渲染引擎"
+    },
+    {
+      "id": 21393871,
+      "name": "sorrycc/awesome-javascript",
+      "stars": 34891,
+      "enhanced_text": "🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.\n\nA collection of awesome browser-side JavaScript libraries, resources and shiny things.",
+      "tag": "JavaScript资源集合"
+    },
+    {
+      "id": 355959597,
+      "name": "Textualize/textual",
+      "stars": 34069,
+      "enhanced_text": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser.",
+      "tag": "Python终端UI框架"
+    },
+    {
+      "id": 7613257,
+      "name": "SeleniumHQ/selenium",
+      "stars": 33977,
+      "enhanced_text": "A browser automation framework and ecosystem.\n\nInstalling •\nSelenium is an umbrella project encapsulating a variety of tools and\nlibraries enabling web browser automation. Selenium specifically\nprovides an infrastructure for the W3C WebDriver specification\n— a platform and language-neutral coding interface compatible with all\nThe project is made possible by volunteer contributors who've\ngenerously donated thousands of hours in code development and upkeep.\nThis README is for developers interested in contributing to the project.\nFor people looking to get started using Selenium, please check out\nour User Manual for detailed examples and descriptions, and if you\nget stuck, there are several ways to Get Help.\nPlease read CONTRIBUTING.md\nbefore submitting your pull requests.\n\n## Installing\nThese are the requirements to create your own local dev environment to contribute to Selenium.\n* Bazelisk, a Bazel wrapper that automatically downloads\nthe version of Bazel specified in  file and transparently passes through all\ncommand-line arguments to the real Bazel binary.\n* Java JDK version 17 or greater (e.g., Java 17 Temurin)\n* Set  environment variable to location of Java executable (the JDK not the JRE)\n* To test this, try running the command . This command won't exist if you only have the JRE",
+      "tag": "浏览器自动化框架"
+    },
+    {
+      "id": 42332863,
+      "name": "filebrowser/filebrowser",
+      "stars": 33304,
+      "enhanced_text": "📂 Web File Browser.\n\nFile Browser provides a file managing interface within a specified directory and it can be used to upload, delete, preview and edit your files. It is a **create-your-own-cloud**-kind of software where you can just install it on your server, direct it to a path and access your files through a nice web interface.\nDocumentation on how to install, configure, and contribute to this project is hosted at filebrowser.org.\nThis project is a finished product which fulfills its goal: be a single binary web File Browser which can be run by anyone anywhere. That means that File Browser is currently on **maintenance-only** mode. Therefore, please note the following:\n- It can take a while until someone gets back to you. Please be patient.\n- Issues are meant to track bugs. Unrelated issues will be converted into discussions.\n- No new features will be implemented by maintainers. Pull requests for new features will be reviewed on a case by case basis.\n- The priority is triaging issues, addressing security issues and reviewing pull requests meant to solve bugs.",
+      "tag": "Web文件管理器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 23088740,
+        "tag": "HTTP客户端库"
+      },
+      {
+        "id": 2561582,
+        "tag": "CSS动画库"
+      },
+      {
+        "id": 881458615,
+        "tag": "AI浏览器自动化"
+      },
+      {
+        "id": 9185792,
+        "tag": "数据可视化库"
+      },
+      {
+        "id": 824874689,
+        "tag": "IDE智能编码代理"
+      },
+      {
+        "id": 348060227,
+        "tag": "现代Web框架"
+      },
+      {
+        "id": 14194174,
+        "tag": "浏览器工作原理"
+      },
+      {
+        "id": 9393759,
+        "tag": "HTML5游戏框架"
+      },
+      {
+        "id": 3065454,
+        "tag": "CSS3演示框架"
+      },
+      {
+        "id": 52773157,
+        "tag": "跨平台ORM"
+      },
+      {
+        "id": 3390243,
+        "tag": "浏览器渲染引擎"
+      },
+      {
+        "id": 21393871,
+        "tag": "JavaScript资源集合"
+      },
+      {
+        "id": 355959597,
+        "tag": "Python终端UI框架"
+      },
+      {
+        "id": 7613257,
+        "tag": "浏览器自动化框架"
+      },
+      {
+        "id": 42332863,
+        "tag": "Web文件管理器"
+      }
+    ]
+  }
+}

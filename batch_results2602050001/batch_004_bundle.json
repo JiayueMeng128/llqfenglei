@@ -1,0 +1,180 @@
+{
+  "batch_id": 4,
+  "timestamp": "2026-02-05T13:19:52.182818",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 906022,
+      "name": "gildas-lormeau/SingleFile",
+      "stars": 20155,
+      "enhanced_text": "Web Extension for saving a faithful copy of a complete web page in a single HTML file.\n\n## Getting started\n- Click on the SingleFile button in the extension toolbar to save the page.\n- You can click again on the button to cancel the action when processing a page.\n- Open the context menu by right-clicking the SingleFile button in the extension\ntoolbar or on the webpage. It allows you to save:\n- the selected content,\n- the selected frame.\n- You can also process multiple tabs in one click and save:\n- Select \"Annotate and save the page...\" in the context menu to:\n- The context menu also allows you to activate the auto-save of:\n- With auto-save active, pages are automatically saved every time after being\nloaded (or before being unloaded if not).\n- Right-click on the SingleFile button and select \"Manage extension\" (Firefox) /\n\"Options\" (Chrome) to open the options page.\n- Enable the option \"Destination > save to Google Drive\" or \"Destination >",
+      "tag": "浏览器扩展"
+    },
+    {
+      "id": 18477927,
+      "name": "segment-boneyard/nightmare",
+      "stars": 20000,
+      "enhanced_text": "A high-level browser automation library.\n\n*NOTICE: This library is no longer maintained.*\nNightmare is a high-level browser automation library from Segment.\nThe goal is to expose a few simple methods that mimic user actions (like ,  and ), with an API that feels synchronous for each block of scripting, rather than deeply nested callbacks. It was originally designed for automating tasks across sites that don't have APIs, but is most often used for UI testing and crawling.\nUnder the covers it uses Electron, which is similar to PhantomJS but roughly twice as fast and more modern.\n**⚠️ Security Warning:** We've implemented many of the security recommendations outlined by Electron to try and keep you safe, but undiscovered vulnerabilities may exist in Electron that could allow a malicious website to execute code on your computer. Avoid visiting untrusted websites.\n**🛠 Migrating to 3.x:** You'll want to check out this issue before upgrading. We've worked hard to make improvements to nightmare while limiting the breaking changes and there's a good chance you won't need to do anything.\nNiffy is a perceptual diffing tool built on Nightmare. It helps you detect UI changes and bugs across releases of your web app.\nDaydream is a complementary chrome extension built by @stevenmiller888 that generates Nightmare scripts for you while you browse.\nMany thanks to @matthewmueller and @rosshinkley for their help on Nightmare.",
+      "tag": "浏览器自动化库"
+    },
+    {
+      "id": 40808571,
+      "name": "yudai/gotty",
+      "stars": 19387,
+      "enhanced_text": "Share your terminal as a web application.\n\n# Installation\nDownload the latest stable binary file from the Releases page. Note that the release marked  is built for testing purpose, which can include unstable or breaking changes. Download a release marked Latest release for a stabale build.\n(Files named with  are for Mac OS X users)\n## Homebrew Installation\nYou can install GoTTY with Homebrew as well.",
+      "tag": "终端Web化工具"
+    },
+    {
+      "id": 461710233,
+      "name": "pyscript/pyscript",
+      "stars": 18701,
+      "enhanced_text": "PyScript is an open source platform for Python in the browser. Try PyScript: https://pyscript.com  Examples: https://tinyurl.com/pyscript-examples  Community: https://discord.gg/HxvBtukrg2.\n\nUsing PyScript is as simple as:\nPyScript enables the creation of rich Python applications in the browser using\nWASM, and modern web technologies. It means Python\nnow runs anywhere a browser runs: desktop, laptop, mobile, tablet, or any other",
+      "tag": "浏览器内Python运行时"
+    },
+    {
+      "id": 4414698,
+      "name": "compiler-explorer/compiler-explorer",
+      "stars": 18524,
+      "enhanced_text": "Run compilers interactively from your web browser and interact with the assembly.\n\nFeature Request\n· Report Vulnerability\nMultiple compilers are supported for each language, many different tools and visualizations are available, and the UI\nlayout is configurable (thanks to GoldenLayout).\nTry out at godbolt.org, or run your own local instance. An overview\nof what the site lets you achieve, why it's useful, and how to use it is\navailable here, or in this talk.\n**Compiler Explorer** follows a Code of Conduct which aims to foster an open and welcoming\n**Compiler Explorer** was started in 2012 to show how C++ constructs are translated to assembly code. It started as a\nsession with  running in one pane and  running in the other.\nSince then, it has become a public website serving over\n3,000,000 compilations per week.\nYou can financially support this project on Patreon,\nor by buying cool gear on the Compiler Explorer store.\n## Using Compiler Explorer",
+      "tag": "编译器Web交互工具"
+    },
+    {
+      "id": 125791597,
+      "name": "InterviewMap/CS-Interview-Knowledge-Map",
+      "stars": 18309,
+      "enhanced_text": "Build the best interview map. The current content includes JS, network, browser related, performance optimization, security, framework, Git, data structure, algorithm, etc.\n\n| 微信扫码关注公众号，订阅更多精彩内容                                                                 | 加笔者微信进群与大厂大佬讨论技术                                                                    |\n很荣幸在「掘金」平台发售了这个开源项目的进阶版面试小册「前端面试之道」。\n如果需要用一句话来介绍这本小册的话，「**一年磨一剑**」应该是最好的答案了。\n为什么这样说呢？在出小册之前，我花了半年的时间做了一个这个开源项目。在半年的时间里，我收集了大量的一线大厂面试题，通过大数据统计出了近百个常考知识点，然后根据这些知识点写成了**近十万字**的内容。\n这本小册是基于本开源项目重新写的一份前端面试书籍（目前已经写作三个月，预计成品需要五个月），对原本的内容进行了大幅度的优化，并且新增了很多新的内容。这本小册可以说是一线互联网大厂的面试精华总结，同时还包含了如何写简历和面试技巧的内容，能够帮助你省时省力地准备面试，让找工作不再是一个难题。\n当然小册面向的群体不单单是求职者，同时也适合初级进阶，中级查漏补缺。如果你是一名面试官的话，说不定这本小册也能给你带来一些灵感。\n面试是每个程序员都绕不开的坎，虽然这本小册不能帮你一夜之间技术一蹴而就，但是如果你能**细细阅读**的话，绝对能让你醍醐灌顶。",
+      "tag": "前端知识图谱"
+    },
+    {
+      "id": 48576134,
+      "name": "xifangczy/cat-catch",
+      "stars": 17940,
+      "enhanced_text": "猫抓 浏览器资源嗅探扩展 / cat-catch Browser Resource Sniffing Extension.\n\n猫抓(cat-catch) 资源嗅探扩展，能够帮你筛选列出当前页面的资源。\nhttps://chrome.google.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb\nhttps://microsoftedge.microsoft.com/addons/detail/oohmdefbjalncfplafanlagojlakmjci\nhttps://addons.mozilla.org/addon/cat-catch/ 😂需非国区IP访问\n💔猫抓是开源的，任何人都可以下载修改上架到应用商店，已经有不少加上广告代码后上架的伪猫抓，请注意自己的数据安全。所有安装地址以github和用户文档为准。\nhttps://o2bmm.gitbook.io/cat-catch/",
+      "tag": "资源嗅探扩展"
+    },
+    {
+      "id": 627561173,
+      "name": "mlc-ai/web-llm",
+      "stars": 17232,
+      "enhanced_text": "High-performance In-browser LLM Inference Engine.\n\n## Overview\nWebLLM is a high-performance in-browser LLM inference engine that brings language model inference directly onto web browsers with hardware acceleration.\nEverything runs inside the browser with no server support and is accelerated with WebGPU.\nWebLLM is **fully compatible with OpenAI API.**\nThat is, you can use the same OpenAI API on **any open source models** locally, with functionalities\nincluding streaming, JSON-mode, function-calling (WIP), etc.\nWe can bring a lot of fun opportunities to build AI assistants for everyone and enable privacy while enjoying GPU acceleration.\nYou can use WebLLM as a base npm package and build your own web application on top of it by following the examples below. This project is a companion project of MLC LLM, which enables universal deployment of LLM across hardware environments.\n**Check out WebLLM Chat to try it out!**\n- **In-Browser Inference**: WebLLM is a high-performance, in-browser language model inference engine that leverages WebGPU for hardware acceleration, enabling powerful LLM operations directly within web browsers without server-side processing.\n- **Full OpenAI API Compatibility**: Seamlessly integrate your app with WebLLM using OpenAI API with functionalities such as streaming, JSON-mode, logit-level control, seeding, and more.\n- **Structured JSON Generation**: WebLLM supports state-of-the-art JSON mode structured generation, implemented in the WebAssembly portion of the model library for optimal performance. Check WebLLM JSON Playground on HuggingFace to try generating JSON output with custom JSON schema.\n- **Extensive Model Support**: WebLLM natively supports a range of models including Llama 3, Phi 3, Gemma, Mistral, Qwen(通义千问), and many others, making it versatile for various AI tasks. For the complete supported model list, check MLC Models.\n- **Custom Model Integration**: Easily integrate and deploy custom models in MLC format, allowing you to adapt WebLLM to specific needs and scenarios, enhancing flexibility in model deployment.\n- **Plug-and-Play Integration**: Easily integrate WebLLM into your projects using package managers like NPM and Yarn, or directly via CDN, complete with comprehensive examples and a modular design for connecting with UI components.",
+      "tag": "浏览器内LLM推理引擎"
+    },
+    {
+      "id": 215530281,
+      "name": "ffmpegwasm/ffmpeg.wasm",
+      "stars": 17133,
+      "enhanced_text": "FFmpeg for browser, powered by WebAssembly.\n\nffmpeg.wasm is a pure Webassembly / Javascript port of FFmpeg. It enables video & audio record, convert and stream right inside browsers.\nPlease sponsor ffmpeg.wasm to make it sustainable. :heart:",
+      "tag": "WebAssembly多媒体处理库"
+    },
+    {
+      "id": 247350713,
+      "name": "m1k1o/neko",
+      "stars": 16927,
+      "enhanced_text": "A self hosted virtual browser that runs in docker and uses WebRTC.\n\nWelcome to Neko, a self-hosted virtual browser that runs in Docker and uses WebRTC technology. Neko is a powerful tool that allows you to **run a fully-functional browser in a virtual environment**, giving you the ability to **access the internet securely and privately from anywhere**. With Neko, you can browse the web, **run applications**, and perform other tasks just as you would on a regular browser, all within a **secure and isolated environment**. Whether you are a developer looking to test web applications, a **privacy-conscious user seeking a secure browsing experience**, or simply someone who wants to take advantage of the **convenience and flexibility of a virtual browser**, Neko is the perfect solution.\nIn addition to its security and privacy features, Neko offers the **ability for multiple users to access it simultaneously**. This makes it an ideal solution for teams or organizations that need to share access to a browser, as well as for individuals who want to use **multiple devices to access the same virtual environment**. With Neko, you can **easily and securely share access to a browser with others**, without having to worry about maintaining separate configurations or settings. Whether you need to **collaborate on a project**, access shared resources, or simply want to **share access to a browser with friends or family**, Neko makes it easy to do so.\nNeko is also a great tool for **hosting watch parties** and interactive presentations. With its virtual browser capabilities, Neko allows you to host watch parties and presentations that are **accessible from anywhere**, without the need for in-person gatherings. This makes it easy to **stay connected with friends and colleagues**, even when you are unable to meet in person. With Neko, you can easily host a watch party or give an **interactive presentation**, whether it's for leisure or work. Simply invite your guests to join the virtual environment, and you can share the screen and **interact with them in real-time**.\nThis app uses WebRTC to stream a desktop inside of a docker container, original author made this because rabb.it went under and his internet could not handle streaming and discord kept crashing when his friend attempted to. He just wanted to watch anime with his friends ლ(ಠ益ಠლ) so he started digging throughout the internet and found a few *kinda* clones, but none of them had the virtual browser, then he found Turtus and he was able to figure out the rest...",
+      "tag": "WebRTC虚拟浏览器"
+    },
+    {
+      "id": 44424200,
+      "name": "vasanthk/how-web-works",
+      "stars": 16697,
+      "enhanced_text": "What happens behind the scenes when we type www.google.com in a browser?\n\nWhat happens behind the scenes when we type google.com in a browser?\n- Opening of a socket + TLS handshake",
+      "tag": "Web工作原理图解"
+    },
+    {
+      "id": 1607357,
+      "name": "forwardemail/superagent",
+      "stars": 16658,
+      "enhanced_text": "Ajax for Node.js and browsers (JS HTTP client). Maintained for @forwardemail, @ladjs, @spamscanner, @breejs, @cabinjs, and @lassjs.\n\n> Small progressive client-side HTTP request library, and Node.js module with the same API, supporting many high-level HTTP client features.  Maintained for Forward Email and Lad.\n* Upgrading from previous versions\n**The browser-ready, minified version of  is only 50 KB (minified and gzipped).**\nBrowser-ready versions of this module are available via [jsdelivr][], [unpkg][], and also in the  folder in downloads of the  package.",
+      "tag": "同构HTTP客户端库"
+    },
+    {
+      "id": 40089578,
+      "name": "janeczku/calibre-web",
+      "stars": 16480,
+      "enhanced_text": ":books: Web app for browsing, reading and downloading eBooks stored in a Calibre database.\n\n## Quick Start\n1. **Access Calibre-Web**: Open your browser and navigate to:\nor for the OPDS catalog:\n2. **Log in**: Use the default admin credentials:\n- **Username:** admin\n- **Password:** admin123\n3. **Database Setup**: If you do not have a Calibre database, download a sample from:\nMove it out of the Calibre-Web folder to avoid overwriting during updates.\n4. **Configure Calibre Database**: In the admin interface, set the  to the path of the folder containing your Calibre library (where  is located) and click \"Save\".\n5. **Google Drive Integration**: For hosting your Calibre library on Google Drive, refer to the Google Drive integration guide.\n6. **Admin Configuration**: Configure your instance via the admin page, referring to the Basic Configuration and UI Configuration guides.\n- **Python Version**: Ensure you have Python 3.7 or newer.\n- **Imagemagick**: Required for cover extraction from EPUBs. Windows users may also need to install Ghostscript for PDF cover extraction.\n- **Optional Tools**:\n- **Calibre desktop program**: Recommended for on-the-fly conversion and metadata editing. Set the path to Calibre’s converter tool on the setup page.\n\n### Installation via pip (recommended)\n1. **Create a virtual environment**: It’s essential to isolate your Calibre-Web installation to avoid dependency conflicts. You can create a virtual environment by running:\n2. **Activate the virtual environment**:\n3. **Install Calibre-Web**: Use pip to install the application:\n4. **Install optional features**: For additional functionality, you may need to install optional features. Refer to this page for details on what can be installed.\n5. **Start Calibre-Web**: After installation, you can start the application with:\n*Note: Users of Raspberry Pi OS may encounter installation issues...",
+      "tag": "Calibre电子书Web客户端"
+    },
+    {
+      "id": 101109137,
+      "name": "PavelDoGreat/WebGL-Fluid-Simulation",
+      "stars": 16099,
+      "enhanced_text": "Play with fluids in your browser (works even on mobile).\n\nhttps://developer.nvidia.com/gpugems/gpugems/part-vi-beyond-triangles/chapter-38-fast-fluid-dynamics-simulation-gpu\nhttps://github.com/mharrys/fluids-2d\nhttps://github.com/haxiomic/GPU-Fluid-Experiments\nThe code is available under the MIT license",
+      "tag": "WebGL流体模拟"
+    },
+    {
+      "id": 591273534,
+      "name": "fathyb/carbonyl",
+      "stars": 15889,
+      "enhanced_text": "Chromium running inside your terminal.\n\nCarbonyl is a Chromium based browser built to run in a terminal. Read the blog post.\nIt supports pretty much all Web APIs including WebGL, WebGPU, audio and video playback, animations, etc..\nIt's snappy, starts in less than a second, runs at 60 FPS, and idles at 0% CPU usage. It does not require a window server (i.e. works in a safe-mode console), and even runs through SSH.\nCarbonyl originally started as  and is now the runtime behind it.\n> Carbonyl on Linux without Docker requires the same dependencies as Chromium.",
+      "tag": "终端内Chromium浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 906022,
+        "tag": "浏览器扩展"
+      },
+      {
+        "id": 18477927,
+        "tag": "浏览器自动化库"
+      },
+      {
+        "id": 40808571,
+        "tag": "终端Web化工具"
+      },
+      {
+        "id": 461710233,
+        "tag": "浏览器内Python运行时"
+      },
+      {
+        "id": 4414698,
+        "tag": "编译器Web交互工具"
+      },
+      {
+        "id": 125791597,
+        "tag": "前端知识图谱"
+      },
+      {
+        "id": 48576134,
+        "tag": "资源嗅探扩展"
+      },
+      {
+        "id": 627561173,
+        "tag": "浏览器内LLM推理引擎"
+      },
+      {
+        "id": 215530281,
+        "tag": "WebAssembly多媒体处理库"
+      },
+      {
+        "id": 247350713,
+        "tag": "WebRTC虚拟浏览器"
+      },
+      {
+        "id": 44424200,
+        "tag": "Web工作原理图解"
+      },
+      {
+        "id": 1607357,
+        "tag": "同构HTTP客户端库"
+      },
+      {
+        "id": 40089578,
+        "tag": "Calibre电子书Web客户端"
+      },
+      {
+        "id": 101109137,
+        "tag": "WebGL流体模拟"
+      },
+      {
+        "id": 591273534,
+        "tag": "终端内Chromium浏览器"
+      }
+    ]
+  }
+}

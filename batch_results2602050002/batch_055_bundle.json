@@ -1,0 +1,125 @@
+{
+  "batch_id": 55,
+  "timestamp": "2026-02-05T14:36:56.643712",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 2560988,
+      "name": "karma-runner/karma",
+      "stars": 11974,
+      "enhanced_text": "Spectacular Test Runner for JavaScript.",
+      "tag": "JavaScript测试运行器"
+    },
+    {
+      "id": 21244505,
+      "name": "qutebrowser/qutebrowser",
+      "stars": 11252,
+      "enhanced_text": "A keyboard-driven, vim-like browser based on Python and Qt.",
+      "tag": "键盘驱动浏览器"
+    },
+    {
+      "id": 15642233,
+      "name": "karpathy/convnetjs",
+      "stars": 11135,
+      "enhanced_text": "Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.",
+      "tag": "浏览器端深度学习库"
+    },
+    {
+      "id": 2630230,
+      "name": "mixmark-io/turndown",
+      "stars": 10744,
+      "enhanced_text": "🛏 An HTML to Markdown converter written in JavaScript.",
+      "tag": "HTML转Markdown工具"
+    },
+    {
+      "id": 614258120,
+      "name": "ChatGPTBox-dev/chatGPTBox",
+      "stars": 10733,
+      "enhanced_text": "Integrating ChatGPT into your browser deeply, everything you need is here.",
+      "tag": "浏览器AI助手扩展"
+    },
+    {
+      "id": 249480042,
+      "name": "yokoffing/Betterfox",
+      "stars": 9978,
+      "enhanced_text": "Firefox user.js for optimal privacy and security. Your favorite browser, but better.",
+      "tag": "Firefox隐私配置"
+    },
+    {
+      "id": 319779344,
+      "name": "maplibre/maplibre-gl-js",
+      "stars": 9820,
+      "enhanced_text": "MapLibre GL JS - Interactive vector tile maps in the browser.",
+      "tag": "Web地图渲染库"
+    },
+    {
+      "id": 17592572,
+      "name": "bpmn-io/bpmn-js",
+      "stars": 9416,
+      "enhanced_text": "A BPMN 2.0 rendering toolkit and web modeler.",
+      "tag": "BPMN建模工具库"
+    },
+    {
+      "id": 985839104,
+      "name": "browseros-ai/BrowserOS",
+      "stars": 9188,
+      "enhanced_text": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
+      "tag": "智能体浏览器"
+    },
+    {
+      "id": 1012503,
+      "name": "mwaterfall/MWPhotoBrowser",
+      "stars": 8744,
+      "enhanced_text": "A simple iOS photo and video browser with grid view, captions and selections.",
+      "tag": "iOS媒体浏览组件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 2560988,
+        "tag": "JavaScript测试运行器"
+      },
+      {
+        "id": 21244505,
+        "tag": "键盘驱动浏览器"
+      },
+      {
+        "id": 15642233,
+        "tag": "浏览器端深度学习库"
+      },
+      {
+        "id": 2630230,
+        "tag": "HTML转Markdown工具"
+      },
+      {
+        "id": 614258120,
+        "tag": "浏览器AI助手扩展"
+      },
+      {
+        "id": 249480042,
+        "tag": "Firefox隐私配置"
+      },
+      {
+        "id": 319779344,
+        "tag": "Web地图渲染库"
+      },
+      {
+        "id": 17592572,
+        "tag": "BPMN建模工具库"
+      },
+      {
+        "id": 985839104,
+        "tag": "智能体浏览器"
+      },
+      {
+        "id": 1012503,
+        "tag": "iOS媒体浏览组件"
+      }
+    ]
+  }
+}

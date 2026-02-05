@@ -1,0 +1,180 @@
+{
+  "batch_id": 40,
+  "timestamp": "2026-02-05T13:28:33.293271",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 778000,
+      "name": "simplegeo/polymaps",
+      "stars": 1605,
+      "enhanced_text": "Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers.\n\nmodern web browsers. See  for more details.\nThis is the  branch, which contains the Polymaps source code. If\nyou're looking for the Polymaps website, you should checkout the\nYou'll find lots of Polymaps examples in the suitably-named\ndirectory. Open any of the HTML files there in your browser to view the\nexamples, or open them in your text editor of choice to view the source. Most\nof the examples are replicated on the Polymaps website,",
+      "tag": "Web地图库"
+    },
+    {
+      "id": 756293439,
+      "name": "kubetail-org/kubetail",
+      "stars": 1602,
+      "enhanced_text": "Real-time logging dashboard for Kubernetes. View logs in a terminal or a browser. Run on your desktop or in your cluster.\n\n## Introduction\n**Kubetail** is a general-purpose logging dashboard for Kubernetes, optimized for tailing logs across multi-container workloads in real-time. With Kubetail, you can view logs from all the containers in a workload (e.g. Deployment or DaemonSet) merged into a single, chronological timeline, delivered to your browser or terminal.\nThe primary entry point for Kubetail is the  CLI tool, which can launch a local web dashboard on your desktop or stream raw logs directly to your terminal. Behind the scenes, Kubetail uses your cluster's Kubernetes API to fetch logs directly from your cluster, so it works out of the box without needing to forward your logs to an external service first. Kubetail also uses your Kubernetes API to track container lifecycle events in order to keep your log timeline in sync as containers start, stop or get replaced. This makes it easy to follow logs seamlessly as user requests move from one ephemeral container to another across services.\nOur goal is to build the most powerful, user-friendly logging platform for Kubernetes and we'd love your input. If you notice a bug or have a suggestion please create a GitHub Issue or send us an email (hello@kubetail.com)!\n\n## Features\n* Clean, easy-to-use interface\n* View log messages in real-time\n* Workload (e.g. Deployment, CronJob, StatefulSet)\n* Absolute or relative time range\n* Node properties (e.g. availability zone, CPU architecture, node ID)\n* Uses your Kubernetes API to retrieve log messages so data never leaves your possession (private by default)\n* Switch between multiple clusters (Desktop-only)\n* Run anywhere: Desktop, Cluster, Docker\n## Quickstart [Desktop]\n\n### Install\nTo run Kubetail on your desktop, you can use the  CLI tool which can be installed using the latest release binary or by using a package manager:\nSee 12 other options (e.g. Ubuntu, Fedora, SUSE, Alpine, Arch, Gentoo, Nix, asdf, Chocolatey, Scoop, MacPorts)\nYou can also use our install script:\nStart the web dashboard using the  command:\nThis will open the dashboard at http://localhost:7500. You can also view logs in your terminal using the  command:\nSee the documentation for a full list of commands. Have fun tailing your logs!\n## Quickstart [Cluster]",
+      "tag": "Kubernetes日志仪表盘"
+    },
+    {
+      "id": 787362890,
+      "name": "dahlia/logtape",
+      "stars": 1601,
+      "enhanced_text": "Unobtrusive logging library with zero dependencies for Deno, Node.js, Bun, browsers, and edge functions.",
+      "tag": "JavaScript日志库"
+    },
+    {
+      "id": 1931328,
+      "name": "gildas-lormeau/JSONVue",
+      "stars": 1599,
+      "enhanced_text": "Fork of JSONView for Chromium-based browsers.\n\nFork of JSONView for Chromium-based browsers\nThis is the source code of JSONVue on Chrome, see https://chrome.google.com/webstore/detail/jsonvue/chklaanhfefbnpoihckbnefhakgolnmc",
+      "tag": "JSON格式化扩展"
+    },
+    {
+      "id": 248498386,
+      "name": "joaomoreno/gifcap",
+      "stars": 1598,
+      "enhanced_text": "Capture your screen to a GIF in your browser.\n\nRecord your screen into an animated GIF, all you need is a browser!\n- No installations, no bloatware, no updates: this works in any modern browser, including Google Chrome, Firefox, Edge and Safari;\n- No server side, everything is **100% client-side only**. All data stays in your machine, nothing gets uploaded to any server, the entire application is made of static files;\n- PWA support makes it easy to add gifcap to your OS list of applications;\n- Blazing fast GIF rendering powered by WASM, libimagequant and gifsicle;\n- Highly optimized GIF file sizes, thanks to frame deduplication, boundary delta detection and lossy encoding;\n- Entire screen recordings, or selection of single window;",
+      "tag": "浏览器端GIF录制"
+    },
+    {
+      "id": 1234795,
+      "name": "1602/compound",
+      "stars": 1596,
+      "enhanced_text": "MVC framework. Built on Node.JS. Works on server and browser.\n\nInstallation\nShort functionality review\n#### compound init [appname][ option(s)]\n#### compound generate smth\nsmth = generator name (controller, model, scaffold, ...can be extended via plugins)\nmore information about generators available here:\nhttp://compoundjs.github.com/generators\n#### compound server 8000\nequals to  - run server on port\n#### compound console\nrun debugging console (see details below)\nprint routes map (see details below)\nOn initialization directories tree generated, like that:\nJust place your key and cert into config directory, compound will use it.\nDefault names for keys are  and , but you can store in in another place, in that case just pass filenames to createServer function:",
+      "tag": "同构MVC框架"
+    },
+    {
+      "id": 492128644,
+      "name": "whitphx/stlite",
+      "stars": 1592,
+      "enhanced_text": "In-browser Streamlit 🎈🚀.\n\n**Serverless Streamlit Running Entirely in Your Browser**\nThis project is tested with BrowserStack.\nStreamlit is a Python web app framework for the fast development of data apps. This project is to make it run completely on web browsers with the power of Pyodide, WebAssembly (Wasm)-ported Python.\n## Try it out online (_Stlite Sharing_)\n## Integrate _Stlite_ into your React app ()\n## Use _Stlite_ on your web page ()\n> Since 0.76.0,  is renamed to , and the API is changed. See the Migration guide for the details.",
+      "tag": "Wasm应用框架"
+    },
+    {
+      "id": 132371769,
+      "name": "generativefm/generative.fm",
+      "stars": 1591,
+      "enhanced_text": "A platform for playing generative music in the browser.\n\n## Overview\nThis site uses Tone.js to play audio in the browser through the Web Audio API.\nSource code for the music generators can be found in the generative-music/pieces-alex-bainter repository.",
+      "tag": "Web音频应用"
+    },
+    {
+      "id": 103780549,
+      "name": "keraf/NoCoin",
+      "stars": 1581,
+      "enhanced_text": "No Coin is a tiny browser extension aiming to block coin miners such as Coinhive.\n\n:warning: Discontinued project :warning:\n> As most browsers have built-in measures to prevent coin mining nowadays and there are more up-to-date lists (see https://github.com/hoshsadiq/adblock-nocoin-list) that work with popular adblockers, this project is not relevant anymore. It served its purpose; protecting users from unwanted coin mining on the web while there was no available alternative, and kickstarting more coin miner blocking intiatives. Thank you for supporting NoCoin and surf safe!\nNo coin is a tiny browser extension aiming to block coin miners such as Coinhive.\nYou can grab the extension from:\nRelated article: https://ker.af/stop-coin-mining-in-the-browser-with-no-coin/\n*Made by Rafael Keramidas (keraf [at] protonmail [dot] com - @iamkeraf - ker.af).*\nEven though I think using coin mining in browser to monetize content is a great idea, abusing it is not. Some websites are running it during the entire browsing session which results in high consumption of your computers resources. I do believe that using it occasionally such as for the proof of work of a captcha is OK. But for an entire browsing session, the user should have the choice to opt-in which is the aim of this extension.\n### Why not just block the URLs in an adblocker?\nThe idea was to keep it separate from adblocking. Coin mining in the browser is a different issue. Where ads are tracking you and visually interfering with your browsing experience, coin mining, if abused, is eating your computer resources resulting in slow downs (from high CPU usage) and excessive power consumption. You might be OK with that and not with ads, or vice versa. Or you might just want to keep ads blocked entirely and just enable the coin mining script for a minute to pass a Captcha. That's why I believe having a separate extension is useful.",
+      "tag": "隐私安全扩展"
+    },
+    {
+      "id": 1079469057,
+      "name": "lackeyjb/playwright-skill",
+      "stars": 1581,
+      "enhanced_text": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.\n\nInstall via Claude Code's plugin system for automatic updates and team distribution:\nVerify installation by running  to confirm the skill is available.\n### Option 2: Standalone Skill Installation\nTo install as a standalone skill (without the plugin system), extract only the skill folder:\n**Global Installation (Available Everywhere):**\n**Project-Specific Installation:**\n**Why this structure?** The plugin format requires the  directory for organizing multiple skills within a plugin. When installing as a standalone skill, you only need the inner  folder contents.\n### Option 3: Download Release\n1. Download and extract the latest release from GitHub Releases\n2. Copy only the  folder to:\n3. Navigate to the skill directory and run setup:\n### Verify Installation\nRun  to confirm the skill is loaded, then ask Claude to perform a simple browser task like \"Test if google.com loads\".\n\n## Quick Start\nAfter installation, simply ask Claude to test or automate any browser task. Claude will write custom Playwright code, execute it, and return results with screenshots and console output.\n\n## Usage Examples\n### Interaction Testing\n1. Describe what you want to test or automate\n2. Claude writes custom Playwright code for the task\n3. The universal executor (run.js) runs it with proper module resolution\n4. Browser opens (visible by default) and automation executes\n5. Results are displayed with console output and screenshots\n- **Headless:**  (browser visible unless explicitly requested otherwise)\n- **Slow Motion:**  for visibility\n- **Screenshots:** Saved to\nClaude will automatically load  when needed for comprehensive documentation on selectors, network interception, authentication, visual regression testing, mobile emulation, performance testing, and debugging.\n- Playwright (installed via )\n- Chromium (installed via )\n**Playwright not installed?**\nNavigate to the skill directory and run .\n\n## Features\n- **Any Automation Task** - Claude writes custom code for your specific request, not limited to pre-built scripts\n- **Visible Browser by Default** - See automation in real-time with\n- **Zero Module Resolution Errors** - Universal executor ensures proper module access\n- **Progressive Disclosure** - Concise SKILL...",
+      "tag": "浏览器自动化技能"
+    },
+    {
+      "id": 74512824,
+      "name": "GrapheneOS/Vanadium",
+      "stars": 1573,
+      "enhanced_text": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS.\n\nVanadium is a privacy and security hardened variant of Chromium providing the WebView (used by\nother apps to render web content) and standard browser for GrapheneOS.\nIt depends on hardening and compatibility fixes in GrapheneOS rather than reinventing the wheel\ninside Vanadium. For example, GrapheneOS already provides a hardened malloc implementation so\nthere's no need for Vanadium to replace it. Similarly, it can deploy security features causing\nbreakage on other operating systems due to the ability to fix compatibility problems in the OS.\nSee the official build documentation for build",
+      "tag": "隐私增强浏览器"
+    },
+    {
+      "id": 78952857,
+      "name": "laobubu/HyperMD",
+      "stars": 1566,
+      "enhanced_text": "A WYSIWYG Markdown Editor for browsers. Break the Wall between writing and previewing.\n\n**Breaks the Wall** between *writing* and *preview*, in a Markdown Editor.\nOnline Demo | [Examples][] | [Documentation][doc]\nAlso for RequireJS, Parcel, webpack, plain browser env. Read the Doc\nHyperMD is a set of [CodeMirror][] add-ons / modes / themes / commands / keymap etc.\nYou may use both original CodeMirror and HyperMD on the same page.\n### 🌈 Write, and preview on the fly\n- **Regular Markdown** blocks and elements\n+ **Strong**, *Emphasis*, ~~Strikethrough~~,",
+      "tag": "Markdown编辑器库"
+    },
+    {
+      "id": 734872201,
+      "name": "ZFC-Digital/puppeteer-real-browser",
+      "stars": 1562,
+      "enhanced_text": "This package is designed to bypass puppeteer's bot-detecting captchas such as Cloudflare. It acts like a real browser and can be managed with puppeteer.",
+      "tag": "Puppeteer反检测工具"
+    },
+    {
+      "id": 997189255,
+      "name": "johansan/notebook-navigator",
+      "stars": 1558,
+      "enhanced_text": "Replace the default file explorer in Obsidian with a clean two-pane interface featuring folder tree, tag browsing, file previews, keyboard navigation, drag-and-drop, pinned notes, and customizable display options.\n\nRead in your language: English • العربية • Deutsch • Español • فارسی • Français • Bahasa Indonesia • Italiano • Nederlands • Polski • Português • Português (Brasil) • Русский • ไทย • Türkçe • Українська • Tiếng Việt • 日本語 • 한국어 • 中文简体 • 中文繁體\nTurn Obsidian into a fast, customizable notes browser with folders, tags and shortcuts in one view.\nVisual previews. Full keyboard navigation. Dual-pane layout. Mobile optimized. Works with 100,000+ notes.\nIf you love using Notebook Navigator, please consider ☕️ Buying me a coffee or Sponsor on GitHub ❤️.\n1. **Install Obsidian** - Download and install from obsidian.md\n2. **Enable community plugins** - Go to Settings → Community plugins → Turn on community plugins\n3. **Install Notebook Navigator** - Click \"Browse\" → Search for \"Notebook Navigator\" → Install\n4. **Install Style Settings (optional)** - For customizing colors and appearance, install Style Settings plugin by searching for \"Style Settings\" in Community plugins\nFor precise image management, consider also installing Pixel Perfect Image which lets you resize images to exact pixel dimensions and perform advanced image operations.",
+      "tag": "Obsidian插件"
+    },
+    {
+      "id": 16955777,
+      "name": "nickola/web-console",
+      "stars": 1557,
+      "enhanced_text": ":desktop_computer: Web-based shell in your browser.\n\nInstallation process is really simple:\n- Download latest version of the Web Console.\n- Unpack archive and open file  in your favorite text editor.\n- At the beginning of the file enter your  and  credentials, edit any other settings that you like (see description in the comments).\n- Upload changed  file to the web server and open it in the browser.\nBuild and start container:\nNow you can visit: http://localhost:8000\n\n# Installation",
+      "tag": "Web终端"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 778000,
+        "tag": "Web地图库"
+      },
+      {
+        "id": 756293439,
+        "tag": "Kubernetes日志仪表盘"
+      },
+      {
+        "id": 787362890,
+        "tag": "JavaScript日志库"
+      },
+      {
+        "id": 1931328,
+        "tag": "JSON格式化扩展"
+      },
+      {
+        "id": 248498386,
+        "tag": "浏览器端GIF录制"
+      },
+      {
+        "id": 1234795,
+        "tag": "同构MVC框架"
+      },
+      {
+        "id": 492128644,
+        "tag": "Wasm应用框架"
+      },
+      {
+        "id": 132371769,
+        "tag": "Web音频应用"
+      },
+      {
+        "id": 103780549,
+        "tag": "隐私安全扩展"
+      },
+      {
+        "id": 1079469057,
+        "tag": "浏览器自动化技能"
+      },
+      {
+        "id": 74512824,
+        "tag": "隐私增强浏览器"
+      },
+      {
+        "id": 78952857,
+        "tag": "Markdown编辑器库"
+      },
+      {
+        "id": 734872201,
+        "tag": "Puppeteer反检测工具"
+      },
+      {
+        "id": 997189255,
+        "tag": "Obsidian插件"
+      },
+      {
+        "id": 16955777,
+        "tag": "Web终端"
+      }
+    ]
+  }
+}

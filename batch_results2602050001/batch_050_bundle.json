@@ -1,0 +1,180 @@
+{
+  "batch_id": 50,
+  "timestamp": "2026-02-05T13:31:58.911358",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 229514441,
+      "name": "developit/web-worker",
+      "stars": 1170,
+      "enhanced_text": "Consistent Web Workers in browser and Node.\n\n### Features\n_Here's how this is different from worker_threads:_\n- makes Worker code compatible across browser and Node\n- supports Module Workers () natively in Node 12.8+\n- uses DOM-style events (, , etc)\n- supports event handler properties ()\n-  accepts a module URL, Blob URL or Data URL\n- emulates browser-style [WorkerGlobalScope] within the worker",
+      "tag": "跨平台Web Worker"
+    },
+    {
+      "id": 164151,
+      "name": "browsermedia/browsercms",
+      "stars": 1169,
+      "enhanced_text": "BrowserCMS: Humane Content Management for Rails.\n\n## Features\nBrowserCMS is intended to offer features comparable to commercial CMS products, which can support larger teams of editors. This means having a robust set of features as part of its core, as well as the capability to customize it via modules.\nHere's a quick overview of some of the more notable features:\n* Standalone CMS: BrowserCMS is designed to provide a robust CMS capabilities out of the box for content heavy web sites.\n* Mobile Friendly: Sites can be built to use mobile optimized designs that are optimized for small screens, with low bandwidth, with responsive design.\n* In Context Editing: Users can browse their site to locate content and make changes from the page itself.\n* Design friendly Templates: Pages aren't just a template and giant single chunk of HTML. Templates can be built to have multiple editable areas, to allow for rich designs that are still easy to manage by non-technical users.\n* Highly Extensible: Developer have access to the full Rails development stack, and can customize their project by adding their own controllers, views as well as CMS content types.\n* Sitemap: An explorer/finder style view of sections and pages in a site allowing users to add and organize pages.\n* Content Library: Provides a standardized 'CRUD' interface to allow users to manage both core and custom content types.\n* Content API: A set of behaviors added to ActiveRecord which allow for versioning, auditing, tagging and other content services provided by the CMS.\n* Section Based Security: Admins can control which users can access specific sections (public users), as well as who can edit which pages (cms users).\n* Workflow: Supports larger website teams where some users can contribute, but not publish. Users can assign work to other publishers to review.\n* Page Caching: Full page caching allows the web server (Apache) to serve HTML statically when they don't change.\n* CMSify your Rails App: BrowserCMS can be added to existing Rails applications to add content management capabilities.",
+      "tag": "Ruby内容管理系统"
+    },
+    {
+      "id": 94889537,
+      "name": "danny0838/webscrapbook",
+      "stars": 1168,
+      "enhanced_text": "A browser extension that captures web pages to local device or backend server for future retrieval, organization, annotation, and edit. This project inherits from legacy Firefox add-on ScrapBook X.\n\n*WebScrapBook* is a browser extension that captures the web page faithfully with various archive formats and customizable configurations, for future retrieval, organization, annotation, and editing. This project inherits from legacy Firefox add-on ScrapBook X.\nThis extension is available for Chromium-based browsers and Firefox-based browsers, and can be installed from the corresponding web store:\n* Known supported Chromium-based browsers: Google Chrome, Microsoft Edge, Chromium, Opera, Vivaldi, Brave. Mobile: Kiwi.\n* Known supported Firefox-based browsers: Firefox, Waterfox, Tor Browser. Mobile: Firefox for Android.\nFor installation and usage guide, frequently asked questions, and further details, visit the documentation wiki.",
+      "tag": "网页存档扩展"
+    },
+    {
+      "id": 99478934,
+      "name": "tsejx/javascript-guidebook",
+      "stars": 1168,
+      "enhanced_text": ":books:JavaScript 前端知识图谱 A guidebook for the convenience of the front-end developers.\n\n项目内容按照 中文文案排版指北 进行排版，以保证内容的可读性。\n- MDN web docs：MDN Web Docs 网站提供开放网络（Open Web）技术有关的信息\n- ecma-international ecma 262 5.1（英）：ECMAScript 5\n- ECMAScript® 2015 Language Specification（ES6 英）：ECMAScript 2015 规范文档\n- ECMAScript® 2016 Language Specification（ES7 英）：ECMAScript 2016 规范文档",
+      "tag": "前端开发指南"
+    },
+    {
+      "id": 813783,
+      "name": "apache/groovy-geb",
+      "stars": 1167,
+      "enhanced_text": "Apache Geb: Very Groovy Browser Automation.\n\nGeb (pronounced “jeb”) is a browser automation solution. It brings together the power of WebDriver, the elegance of jQuery content selection, the robustness of Page Object modelling and the expressiveness of the Groovy language.\nFor more information about the project, see the https://groovy.apache.org/geb/.\nPlease see CONTRIBUTING.md for contribution guidelines.\nIf you'd like to submit an issue against Geb then please use the Geb GitHub issue tracker.\nPlease avoid submitting usage questions as issues\nand instead join and ask your question on one of the following forums:\n| Forum                                                                                                                                                                                                                                            |\n| The  mailing list: Browse Subscribe Unsubscribe |",
+      "tag": "Groovy浏览器自动化"
+    },
+    {
+      "id": 82470022,
+      "name": "FirefoxBar/HeaderEditor",
+      "stars": 1167,
+      "enhanced_text": "Manage browser's requests, include modify the request headers, response headers, response body, redirect requests, cancel requests.\n\nAn extension which can modify the request, include request headers, response headers, response body, redirect requests, and cancel requests.\nIt's 100% FREE, no ADs, no data collection.\nVisit he.firefoxcn.net for more documentations.\n|  Firefox | Official Download or Mozilla Add-ons | Official Download or Mozilla Add-ons |\n|  Chrome | Chrome Web Store | Install full version |\n* The official download is exactly the same as Mozilla Add-ons, but the Mozilla Add-ons review is very slow, usually taking more than a week, and you may not be able to get the latest version.",
+      "tag": "HTTP请求修改扩展"
+    },
+    {
+      "id": 706643137,
+      "name": "ivnvxd/arc-export",
+      "stars": 1165,
+      "enhanced_text": "Export pinned Arc Browser tabs for importing bookmarks into other browsers.\n\n## Installation\n1. Clone the repository:\n2. Navigate to the project folder:\nRun the  script from the command line:\nIf you encounter any problems, manually copy the  file from the  directory to the project's directory and run the script again.\n\n## Overview\nThis project provides a script for converting pinned tabs in the **Arc Browser** to standard HTML bookmarks file. These bookmarks can then be imported into any web browser.\nThis addresses the lack of a pinned tabs export feature in Arc Browser.\n- Arc Browser installed",
+      "tag": "浏览器书签导出工具"
+    },
+    {
+      "id": 43045691,
+      "name": "KirillOsenkov/SourceBrowser",
+      "stars": 1155,
+      "enhanced_text": "Source browser website generator that powers https://source.dot.net, https://referencesource.microsoft.com and https://sourceroslyn.io.",
+      "tag": "源码浏览器生成器"
+    },
+    {
+      "id": 20765046,
+      "name": "jcubic/sysend",
+      "stars": 1151,
+      "enhanced_text": "Web application synchronization between different tabs.\n\nabout this can be found in #54.\nInformation about the API can also be found in Google Chrome documentation:\nThere is a new API: Storage Access API. It's available when you\nYou can register two and more domains, you will have a token that you need to add to the HTML files (in the head tag):\nYou can also use the HTTP header:\nRight now, the API only works with localStorage fallback (when inside iframes).",
+      "tag": "浏览器标签页同步库"
+    },
+    {
+      "id": 90465794,
+      "name": "masatokinugawa/filterbypass",
+      "stars": 1150,
+      "enhanced_text": "Browser's XSS Filter Bypass Cheat Sheet.\n\n# Browser's XSS Filter Bypass Cheat Sheet\nhttps://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet",
+      "tag": "XSS过滤器绕过指南"
+    },
+    {
+      "id": 588898,
+      "name": "tautologistics/node-htmlparser",
+      "stars": 1146,
+      "enhanced_text": "Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers.\n\n##Installing\nnpm install htmlparser\n###Run tests under node:\n###Run tests in browser:\nView runtests.html in any browser\n\n##Usage In Node",
+      "tag": "HTML/XML解析库"
+    },
+    {
+      "id": 14822868,
+      "name": "convos-chat/convos",
+      "stars": 1143,
+      "enhanced_text": "Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.\n\n## Quick start guide\nSee \"Getting started\" for other\noptions and more information.",
+      "tag": "Web端IRC客户端"
+    },
+    {
+      "id": 116883257,
+      "name": "privacytests/privacytests.org",
+      "stars": 1139,
+      "enhanced_text": "Source code for privacytests.org. Includes browser testing code and site rendering.\n\nPrivacyTests.org is an open-source testing program that measures browser privacy characteristics, and a website, https://privacytests.org, that renders the results for human consumption.\nPrivacyTests.org uses the MIT license.\n* aioquic: a submodule with a fork of the aioquic project for HTTP3-related tests\n* assets: copy, css, icons, images, fonts for running tests and rendering pages\n* live: express JS files for the test server\n* results: raw results are saved in this directory\n* scripts: scripts for running tests and rendering website and results pages\n* static: static files for the test server\n* website: the HTML pages where results are published",
+      "tag": "浏览器隐私测试套件"
+    },
+    {
+      "id": 57244664,
+      "name": "microsoft/XmlNotepad",
+      "stars": 1138,
+      "enhanced_text": "XML Notepad provides a simple intuitive User Interface for browsing and editing XML documents.\n\nXML Notepad is a Windows program that provides a simple intuitive User Interface for browsing and editing XML documents. There are four ways to install it:\n1. ClickOnce® installer - this is the most convenient, install it directly from the web browser.\n2. Standalone downloadable installer if you need something that works offline.\nJust download the zip file, copy it to the machine you want to install it on, unzip the file on that machine and run .\n3. Windows MSIX installer if you need a trusted Windows installer.\n4. You can also use WinGet as follows:\nXML Notepad provides the following useful features:\n- XML Schema aware Intellisense\n- Find dialog that supports XPath",
+      "tag": "XML文档编辑器"
+    },
+    {
+      "id": 20268869,
+      "name": "nodecg/nodecg",
+      "stars": 1135,
+      "enhanced_text": "Create broadcast graphics using Node.js and a browser.\n\nNodeCG is a broadcast graphics framework and application. It enables you to write complex, dynamic broadcast graphics using the web platform. NodeCG has no graphics or drawing primitives of its own. Instead, NodeCG provides a structure for your code and an API to facilitate moving data between the dashboard, the server, and your graphics. It makes few assumptions about how to best code a graphic, and gives you freedom to use whatever libraries, frameworks, tools, and methodologies you want. As such, NodeCG graphics can be rendered in any environment that can render HTML, including:\n> Don't see your preferred streaming software on this list? NodeCG graphics require a modern browser engine. If your streaming software's implementation of browser source uses a recent-ish browser engine, chances are that NodeCG graphics will work in it. You can check what version your streaming software uses for its browser sources by opening whatversion.net/chrome as a browser source.\nHave questions about NodeCG, or just want to say 'hi'? Join our Discord server!\n## Documentation & API Reference\nFull docs and API reference are available at https://nodecg.dev\nTo contribute to NodeCG development:\nFor more details on contributing to NodeCG core, see the contributor guide on the official docs site",
+      "tag": "广播图形框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 229514441,
+        "tag": "跨平台Web Worker"
+      },
+      {
+        "id": 164151,
+        "tag": "Ruby内容管理系统"
+      },
+      {
+        "id": 94889537,
+        "tag": "网页存档扩展"
+      },
+      {
+        "id": 99478934,
+        "tag": "前端开发指南"
+      },
+      {
+        "id": 813783,
+        "tag": "Groovy浏览器自动化"
+      },
+      {
+        "id": 82470022,
+        "tag": "HTTP请求修改扩展"
+      },
+      {
+        "id": 706643137,
+        "tag": "浏览器书签导出工具"
+      },
+      {
+        "id": 43045691,
+        "tag": "源码浏览器生成器"
+      },
+      {
+        "id": 20765046,
+        "tag": "浏览器标签页同步库"
+      },
+      {
+        "id": 90465794,
+        "tag": "XSS过滤器绕过指南"
+      },
+      {
+        "id": 588898,
+        "tag": "HTML/XML解析库"
+      },
+      {
+        "id": 14822868,
+        "tag": "Web端IRC客户端"
+      },
+      {
+        "id": 116883257,
+        "tag": "浏览器隐私测试套件"
+      },
+      {
+        "id": 57244664,
+        "tag": "XML文档编辑器"
+      },
+      {
+        "id": 20268869,
+        "tag": "广播图形框架"
+      }
+    ]
+  }
+}

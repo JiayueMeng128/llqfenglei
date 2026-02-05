@@ -1,0 +1,180 @@
+{
+  "batch_id": 5,
+  "timestamp": "2026-02-05T13:20:04.663910",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 910986056,
+      "name": "browser-use/web-ui",
+      "stars": 15562,
+      "enhanced_text": "🖥️ Run AI Agent in your browser.\n\n## Installation Guide\n### Option 1: Local Installation\nRead the quickstart guide or follow the steps below to get started.\n#### Step 1: Clone the Repository\n#### Step 2: Set Up Python Environment\nWe recommend using uv for managing the Python environment.\nUsing uv (recommended):\nActivate the virtual environment:\n- Windows (Command Prompt):\n- Windows (PowerShell):\n#### Step 3: Install Dependencies\n\nInstall Python packages:",
+      "tag": "浏览器AI代理"
+    },
+    {
+      "id": 924303,
+      "name": "madrobby/zepto",
+      "stars": 15371,
+      "enhanced_text": "Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API.\n\n# Zepto.js – a minimalist JavaScript library\nZepto is a minimalist JavaScript library for modern browsers with a\nlargely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.\nSee [zeptojs.com][] for an extended introduction, downloads\nZepto.js is licensed under the terms of the MIT License.\nWant to give us money or a tip? Don't.\nInstead please donate to charity: water.\nThe official site offers a download of the default distribution of Zepto. This",
+      "tag": "轻量级JavaScript库"
+    },
+    {
+      "id": 601161044,
+      "name": "huggingface/transformers.js",
+      "stars": 15314,
+      "enhanced_text": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
+      "tag": "浏览器端机器学习"
+    },
+    {
+      "id": 144624857,
+      "name": "checkly/headless-recorder",
+      "stars": 15242,
+      "enhanced_text": "Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script.\n\nHeadless recorder is a Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. Install it from the Chrome Webstore to get started!\nThis project builds on existing open source projects (see Credits) but adds extensibility, configurability and a smoother UI. For more information, please check our documentation.\n> 🤔 Do you want to learn more about Puppeteer and Playwright? Check our open Headless Guides\n- Records clicks and type events.\n- Add waitForNavigation, setViewPort and other useful clauses.\n- Generates a Playwright & Puppeteer script.\n- Preview CSS selectors of HTML elements.\n- Take full page and element screenshots.\n- Pause, resume and restart recording.\n- Persist latest script in your browser\n- Run generated scripts directly on Checkly\n- Flexible configuration options and dark mode support.\n- Allows  configuration for element selection.\n> This collection will be expanded in future releases. 💪\n\n## How to use?\n1. Click the icon and hit the red button.\n2. 👉 Hit tab after you finish typing in an  element. 👈\n3. Click on links, inputs and other elements.\n4. Wait for full page load on each navigation.\n**The icon will switch from\nto  to indicate it is ready for more input from you.**\n5. Click Pause when you want to navigate without recording anything. Hit Resume to continue recording.\n- : Take full page screenshot\n- : Take element screenshot\nAfter cloning the project, open the terminal and navigate to project root directory.",
+      "tag": "浏览器自动化录制扩展"
+    },
+    {
+      "id": 1338813,
+      "name": "paperjs/paper.js",
+      "stars": 14966,
+      "enhanced_text": "The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey.\n\n## Installing Paper.js\nThe recommended way to install and maintain Paper.js as a dependency in your\nproject is through the Node.js Package Manager (NPM)\nfor browsers, Node.js or Electron.\nIf NPM is already installed, simply type one of these commands in your project\nUpon execution, you will find a  folder inside the project's\nFor more information on how to install Node.js and NPM, read the chapter\n\nInstalling Node.js and NPM.\n### Which Version to Use\nThe various distributions come with two different pre-build versions of\nPaper.js, in minified and normal variants:\n-  – The full version for the browser, including PaperScript\n-  – The core version for the browser, without PaperScript\nsupport nor Acorn.js. You can use this to shave off some bytes and compilation\ntime when working with JavaScript directly.\n\n### Installing Node.js and NPM\nNode.js comes with the Node Package Manager (NPM). There are many tutorials\nexplaining the different ways to install Node.js on different platforms. It is\ngenerally not recommended to install Node.js through OS-supplied package\nmanagers, as the its development cycles move fast and these versions are often\nOn macOS, Homebrew is a good option if one version of\nNode.js that is kept up to date with  is enough:\nNVM can be used instead to install and\nmaintain multiple versions of Node.js on the same platform, as often required by\nHomebrew is recommended on macOS also if you intend to install Paper.js with\nrendering to the Canvas on Node.js, as described in the next paragraph.\nFor Linux, see  to locate 32-bit and 64-bit\nNode.js binaries as well as sources, or use NVM, as described in the paragraph\n\n### Installing Paper.js Using NPM\nPaper.js comes in three different versions on NPM: ,  and\n. Depending on your use case, you need to required a\n-  is the main library, and can be used directly in a browser\ncontext, e.g. a web browser or worker.\n-  is a shim module for Node.js, offering headless use with SVG\nimporting and exporting through jsdom.\n-  is a shim module for Node.js, offering canvas rendering\nthrough Node-Canvas as well as\nSVG importing and exporting through jsdom.\nIn order to install , you need the Cairo Graphics\nlibrary installed in your system:\n\n### Installing Native Dependencies\nPaper.js relies on Node-Canvas for\nrendering, which in turn relies on the native libraries\n\n#### Installing Native Dependencies on macOS\nPaper.js relies on Node-Canvas for rendering, which in turn relies on Cairo and\nPango...",
+      "tag": "矢量图形脚本库"
+    },
+    {
+      "id": 51658450,
+      "name": "BrainJS/brain.js",
+      "stars": 14855,
+      "enhanced_text": "🤖 GPU accelerated Neural networks in JavaScript for Browsers and Node.js.\n\n## Installation and Usage\nIf you can install  with npm:\nDownload the latest brain.js for browser",
+      "tag": "浏览器端神经网络库"
+    },
+    {
+      "id": 445599288,
+      "name": "faker-js/faker",
+      "stars": 14851,
+      "enhanced_text": "Generate massive amounts of fake data in the browser and node.js.\n\nGenerate massive amounts of fake (but realistic) data for testing and development.\n⚠️ You are reading the docs for the next branch ⚠️\nPlease proceed to the Getting Started Guide for the **stable** release of Faker.\nFor detailed API documentation, please select the version of the documentation you are looking for.\n|   Version    | Website                   |\n|  v10 (next)  | https://next.fakerjs.dev/ |\n| v10 (stable) | https://fakerjs.dev/      |",
+      "tag": "数据生成库"
+    },
+    {
+      "id": 7323572,
+      "name": "davidshimjs/qrcodejs",
+      "stars": 14229,
+      "enhanced_text": "Cross-browser QRCode generator for javascript.\n\nQRCode.js is javascript library for making QRCode. QRCode.js supports Cross-browser with HTML5 Canvas and table tag in DOM.\nIE6~10, Chrome, Firefox, Safari, Opera, Mobile Safari, Android, Windows Mobile, ETC.",
+      "tag": "二维码生成库"
+    },
+    {
+      "id": 709027512,
+      "name": "getmaxun/maxun",
+      "stars": 14195,
+      "enhanced_text": "Turn websites into clean data pipelines & structured APIs in minutes!\n\n### Installation\nMaxun can run locally with or without Docker\n1. Setup with Docker Compose\n2. Setup without Docker\n3. Environment Variables\n### Upgrading & Self Hosting\n1. Self Host Maxun With Docker & Portainer\n2. Upgrade Maxun With Docker Compose Setup\n3. Upgrade Maxun Without Docker Compose Setup\nThe Native AI-Agentic Cloud Platform to Supercharge Quality Engineering. Test Intelligently and Ship Faster.\n\n## What is Maxun?\nMaxun helps you transform websites into structured APIs, clean markdown for AI workflows, and production-ready data pipelines — all in minutes.\n1. **Extract** – Emulate real user behavior and collect structured data from any website.\n* **Recorder Mode** - Record your actions as you browse; Maxun turns them into a reusable extraction robot.\n* **AI Mode** - Describe what you want in natural language and let LLM-powered extraction do the rest.\n2. **Scrape** – Convert full webpages into clean Markdown or HTML and capture screenshots.\n3. **Crawl** - Crawl entire websites and extract content from every relevant page, with full control over scope and discovery.\n4. **Search** - Run automated web searches to discover or scrape results, with support for time-based filters.\n5. **SDK** – A complete developer toolkit for scraping, extraction, scheduling, and end-to-end data automation.\nMaxun robots are automated tools that help you collect data from websites without writing any code. Think of them as your personal web assistants that can navigate websites, extract information, and organize data just like you would manually - but faster and more efficiently.\nThere are four types of robots, each designed for a different job.\nExtract emulates real user behavior and captures structured data.\n- Recorder Mode - Record your actions as you browse; Maxun turns them into a reusable extraction robot.\n### Example: Extract 10 Property Listings from Airbnb\nhttps://github.com/user-attachments/assets/recorder-mode-demo-video\n\n## Quick Start\n\n### Getting Started\nThe simplest & fastest way to get started is to use the hosted version: https://app.maxun.dev. You can self-host if you prefer!",
+      "tag": "网页数据提取平台"
+    },
+    {
+      "id": 122663163,
+      "name": "pyodide/pyodide",
+      "stars": 14187,
+      "enhanced_text": "Pyodide is a Python distribution for the browser and Node.js based on WebAssembly.\n\n## What is Pyodide?\nPyodide is a port of CPython to WebAssembly/Emscripten.\nPyodide makes it possible to install and run Python packages in the browser with\nmicropip. Any pure Python package with a wheel\navailable on PyPi is supported. Many packages with C, C++, and Rust extensions\nhave also been ported for use with Pyodide. These include many general-purpose\npackages such as regex, PyYAML, and cryptography, and scientific Python packages\nincluding NumPy, pandas, SciPy, Matplotlib, and scikit-learn.\nPyodide comes with a robust Javascript ⟺ Python foreign function interface so\nthat you can freely mix these two languages in your code with minimal friction.\nThis includes full support for error handling, async/await, and much more.\nWhen used inside a browser, Python has full access to the Web APIs.\n## Try Pyodide (no installation needed)\nyour browser. For further information, see the",
+      "tag": "WebAssembly Python运行时"
+    },
+    {
+      "id": 37834277,
+      "name": "openstf/stf",
+      "stars": 13819,
+      "enhanced_text": "Control and manage Android devices from your browser.\n\n## Features\n* Supports versions 2.3.3 (SDK level 10) to 9.0 (SDK level 28)\n* Supports Wear 5.1 (but not 5.0 due to missing permissions)\n* Supports Fire OS, CyanogenMod, and other heavily Android based distributions\n*  is **not** required for any current functionality\n* Remote control any device from your browser\n- Real-time screen view\n* Refresh speed can reach 30-40 FPS depending on specs and Android version. See minicap for more information.\n- Supports typing text from your own keyboard\n* Copy and paste support (although it can be a bit finicky on older devices, you may need to long-press and select paste manually)\n* May sometimes not work well with non-Latin languages unfortunately.\n- Multitouch support on touch screens via minitouch, two finger pinch/rotate/zoom gesture support on regular screens by pressing  while dragging\n- Drag & drop installation and launching of  files\n* Launches main launcher activity if specified in the manifest\n- Reverse port forwarding via minirev",
+      "tag": "安卓设备远程控制"
+    },
+    {
+      "id": 169149127,
+      "name": "pomber/git-history",
+      "stars": 13685,
+      "enhanced_text": "Quickly browse the history of a file from any git repository.\n\nQuickly browse the history of files in any git repo:\n1. Go to a file in **GitHub** (or **GitLab**, or **Bitbucket**)\n> If you like this project consider backing my open source work on Patreon!\n> And follow @pomber on twitter for updates.\nYou can also add an  button to GitHub, GitLab and Bitbucket with the Chrome and Firefox extensions.",
+      "tag": "Git历史查看扩展"
+    },
+    {
+      "id": 28704549,
+      "name": "philipwalton/flexbugs",
+      "stars": 13591,
+      "enhanced_text": "A community-curated list of flexbox issues and cross-browser workarounds for them.\n\n:warning: _**UPDATE:** this repo is no longer maintained, as most of the bugs listed here are fixed in modern browsers._\nThis repository is a community-curated list of flexbox issues and cross-browser workarounds for them. The goal is that if you're building a website using flexbox and something isn't working as you'd expect, you can find the solution here.\nAs the spec continues to evolve and vendors nail down their implementations, this repo will be updated with newly discovered issues and remove old issues as they're fixed or become obsolete. If you discover a bug that's not listed here, please report it so everyone else can benefit.\n## The bugs and their workarounds\n1. Minimum content sizing of flex items not honored\n2. Column flex items set to  overflow their container\n3.  on a flex container won't apply to its flex items\n4.  shorthand declarations with unitless  values are ignored\n5. Column flex items don't always preserve intrinsic aspect ratios\n6. The default  value has changed",
+      "tag": "CSS Flexbox问题库"
+    },
+    {
+      "id": 122835005,
+      "name": "nextapps-de/flexsearch",
+      "stars": 13573,
+      "enhanced_text": "Next-generation full-text search library for Browser and Node.js.\n\nGetting instant help by the DeepWiki AI assistant:\nNext-Generation full-text search library for Browser and Node.js\nAPI Reference &ensp;&bull;&ensp;\nDocument Search &ensp;&bull;&ensp;\nPersistent Indexes &ensp;&bull;&ensp;\nUsing Worker &ensp;&bull;&ensp;\nHighlighting &ensp;&bull;&ensp;",
+      "tag": "全文检索引擎"
+    },
+    {
+      "id": 2688455,
+      "name": "lokesh/color-thief",
+      "stars": 13542,
+      "enhanced_text": "Grab the color palette from an image using just Javascript.  Works in the browser and in Node.\n\n### View the demo page for examples, API docs, and more.\n+  - Simple script that copies and renames files into the /dist folder.\n+  - Generated distribution files created by microbundle package and a couple of files copied via build script.\n+  - CSS, JS, and Images for the index.html example page.\n+  - Source for the Node (commonjs) compatible version of the script.",
+      "tag": "图像色彩提取库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 910986056,
+        "tag": "浏览器AI代理"
+      },
+      {
+        "id": 924303,
+        "tag": "轻量级JavaScript库"
+      },
+      {
+        "id": 601161044,
+        "tag": "浏览器端机器学习"
+      },
+      {
+        "id": 144624857,
+        "tag": "浏览器自动化录制扩展"
+      },
+      {
+        "id": 1338813,
+        "tag": "矢量图形脚本库"
+      },
+      {
+        "id": 51658450,
+        "tag": "浏览器端神经网络库"
+      },
+      {
+        "id": 445599288,
+        "tag": "数据生成库"
+      },
+      {
+        "id": 7323572,
+        "tag": "二维码生成库"
+      },
+      {
+        "id": 709027512,
+        "tag": "网页数据提取平台"
+      },
+      {
+        "id": 122663163,
+        "tag": "WebAssembly Python运行时"
+      },
+      {
+        "id": 37834277,
+        "tag": "安卓设备远程控制"
+      },
+      {
+        "id": 169149127,
+        "tag": "Git历史查看扩展"
+      },
+      {
+        "id": 28704549,
+        "tag": "CSS Flexbox问题库"
+      },
+      {
+        "id": 122835005,
+        "tag": "全文检索引擎"
+      },
+      {
+        "id": 2688455,
+        "tag": "图像色彩提取库"
+      }
+    ]
+  }
+}

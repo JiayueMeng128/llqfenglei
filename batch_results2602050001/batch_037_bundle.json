@@ -1,0 +1,180 @@
+{
+  "batch_id": 37,
+  "timestamp": "2026-02-05T13:28:11.285354",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 102619418,
+      "name": "microlinkhq/browserless",
+      "stars": 1771,
+      "enhanced_text": "The headless Chrome/Chromium driver on top of Puppeteer. Take screenshots, generate PDFs, extract text and HTML with a production-ready API.\n\n## Installation\nYou can install it via npm:\n**Browserless** runs on top of Puppeteer, so you need that installed to get started.\nYou can choose between  and  depending on your use case.\nHere is a complete example showcasing some **Browserless** capabilities:\nAs you can see, **Browserless** uses a single browser process, allowing you to create and destroy multiple browser contexts within that same process.\nIf you're already using Puppeteer in your project, you can layer **Browserless** on top simply by installing it.\nYou can also include additional **Browserless** packages to suit your specific needs, all of which work well with Puppeteer.\n## The cloud API solution\nIf you don’t want to manage that infrastructure, you can use the fully managed\nIt covers every **browserless** use case but automatically handles proxy rotation, paywalls, bot detection, and restricted platforms such as major social networks, while scaling on demand.\nPricing is pay-as-you-go and starts for free.\nUsing the **Browserless** command-line tool, you can interact with Browserless through a terminal window, or use it as part of an automated process:",
+      "tag": "无头浏览器服务"
+    },
+    {
+      "id": 24677116,
+      "name": "joni2back/angular-filemanager",
+      "stars": 1762,
+      "enhanced_text": "JavaScript File Manager Material Design Folder Explorer Navigator Browser Manager in AngularJS with CSS3 Responsive (with FTP in PHP / Java / Node).",
+      "tag": "Web文件管理器"
+    },
+    {
+      "id": 278011746,
+      "name": "nsfw-filter/nsfw-filter",
+      "stars": 1760,
+      "enhanced_text": "A free, open source, and privacy-focused browser extension to block “not safe for work” content built using TypeScript and TensorFlow.js.",
+      "tag": "隐私安全扩展"
+    },
+    {
+      "id": 124411852,
+      "name": "intoli/remote-browser",
+      "stars": 1755,
+      "enhanced_text": "A low-level browser automation framework built on top of the Web Extensions API standard.\n\n## Introduction\nThe core technology that makes Remote Browser possible is the Web Extensions API.\nThis API is what allows third party browser addons to extend and modify the capabilities of browsers such as Firefox, Chrome, Edge, and Opera.\nIf you've never written a browser extension before, then you might be surprised at just how powerful this API is.\nCreating tabs and interacting with pages is just the beginning; it's also possible to intercept and modify network requests/responses, create and control containerized sessions within a single browser instance, take screenshots, and *much* more.\nThe central idea behind Remote Browser is that there's no need to reinvent the wheel when modern browsers *already* ship with an extremely powerful cross-browser compatible API that's suitable for automation tasks.\nLet's take a look at a quick example of how you would navigate to a tab and take a screenshot using Remote Browser.\nOn the surface, this probably looks pretty similar to examples from other browser automation frameworks.\nThe difference is that browser.tabs.create() and browser.tabs.captureVisibleTab aren't part of the Remote Browser API; they're part of the Web Extensions API.\nIn a web extension, you would typically interact with the Web Extensions API through a global  object.\nYou could make a call to  in your extension's background script, and it would create a new tab.\nRemote Browser lets you make this call from the environment where you're running your browser control code as though you were inside of an extension.\nThe following three calls are actually all exactly equivalent with Remote Browser.\nIt's mostly immediately clear what's really happening here with the the first  call.\nA function and it's argument are being transmitted to the background script context of a web extension where they're evaluated.\n\n## Usage Examples\n### Connecting to a Running Browser\nAll of the browser control code for Remote Browser is implemented as a cross-browser compatible web extension.\nWhen you execute , it simply runs a browser instance with the extension installed and passes it the parameters necessary to connect to the remote client.\nYou can also install this same extension in your day-to-day browser, and tell it to connect to a remote client manually.\nThis can be a very useful debugging tool while you're developing scripts, or as a means to quickly automate simple tasks without needing to create a whole browser extension from scratch...",
+      "tag": "浏览器自动化框架"
+    },
+    {
+      "id": 55375779,
+      "name": "gridsound/daw",
+      "stars": 1754,
+      "enhanced_text": "GridSound (1.56.0) is a work-in-progress free browser-based digital audio workstation following the Web Audio API 🎛🎹🎵✨ -- If you can, please sponsor us a little on our Patreon ❤️.\n\n# GridSound's digital audio workstation (DAW)\nGridSound is a free, work-in-progress, half open-source digital audio\nworkstation written with HTML5 and more precisely with the WebAudio API.\nThe application can be used at daw.gridsound.com\nyou are invited to create an account at gridsound.com to\nsave your compositions online to retrieve them from anywhere at any time.\nFacebook to have the latest news related to",
+      "tag": "Web音频工作站"
+    },
+    {
+      "id": 253150295,
+      "name": "plateaukao/einkbro",
+      "stars": 1733,
+      "enhanced_text": "A small, fast web browser based on Android WebView. It's tailored for E-Ink devices but also works great on normal android devices.\n\n# EinkBro: Small Android Browser made for Eink devices\nEinkBro is designed to fit Eink devices' needs; no unnecessary UI transitions and animations, clear B&W icons, useful features for eink reading experience. It's originated from FOSS Browser, which is fully free/libre (as in freedom) Android app.\n## EinkBro has a book about how it was developed!\n|Main Screen|Menu Items|Toolbar Configuration|\n|Touch Setting|Settings|Vertical Read|\n- **tap on screen left/right area for pageUp/Down**\n- **use physical volume keys for pageUp/pageDown**",
+      "tag": "Android浏览器"
+    },
+    {
+      "id": 403928729,
+      "name": "mmazzarolo/react-native-universal-monorepo",
+      "stars": 1732,
+      "enhanced_text": "React Native boilerplate supporting multiple platforms: Android, iOS, macOS, Windows, web, browser extensions, Electron.\n\n## Overview\nThis monorepo uses Yarn workspaces and TypeScript to support a modular React Native project.\nThe core idea is to isolate the JavaScript app code from the platform configurations (native code + the app bundlers like Metro and Webpack).\nThis isolation happens by using different workspaces: We have an  workspace for the JavaScript app code, a  workspace for the React Native mobile configuration, a  workspace for the React Native macOS configuration, and so on.\nWe fully embrace Yarn  to allow using different versions of React Native on each platform (which is recommended but not required), simplifying the adoption of new React Native updates.\nThanks nohoist, each platform workspace (, , etc.) can depend on any React Native version, regardless of what version the other platform workspaces are using.\nFor example, we can use  on the mobile app and  on the macOS app — as long as the JavaScript app code supports both versions.\nThis approach promotes gradual React Native updates over updates in lockstep.\nFor more details, check out \"Running React Native everywhere: Yarn Workspaces monorepo setup\".\n> ⚠️ Please notice that I'm not saying this is the _right_ way to do React Native monorepos. This is just an approach that I enjoy using on larger codebases :)\n## Supported platforms\n- Android (React Native 0.65)\n- iOS (React Native 0.65)\n- Windows (React Native 0.65)\n- MacOS (React Native 0.63)",
+      "tag": "跨平台React Native"
+    },
+    {
+      "id": 7810676,
+      "name": "jakiestfu/Behave.js",
+      "stars": 1731,
+      "enhanced_text": "A lightweight, cross browser library for adding IDE style behaviors to plain text areas.\n\nBehave.js is a lightweight library for adding IDE style behaviors to plain text areas, making it much more enjoyable to write code in.\n* Supports Partial IE6, IE7+, Firefox 8+, Safari 4+, Chrome X+, Opera 12\n* Auto Open/Close Paranthesis, Brackets, Braces, Double and Single Quotes\n* Auto delete a paired character\n* Multi-line Indentation/Unindentation",
+      "tag": "文本编辑器库"
+    },
+    {
+      "id": 176058541,
+      "name": "cs01/termpair",
+      "stars": 1727,
+      "enhanced_text": "View and control terminals from your browser with end-to-end encryption 🔒.\n\n## What is TermPair?\nTermPair lets developers securely share and control terminals in real time.\nYou can **try it now** at https://chadsmith.dev/termpair or **check out the YouTube Demo**.\n\n## Features\n* Share unix terminals in real time\n* Type from the terminal or browser; both are kept in sync\n* Multiple browsers can connect simultaneously\n* Browser permissions can be read/write or read only\n* Server cannot read terminal data even if it wanted to, since it is encrypted with AES 128 bit encryption\n* Secure web environment required (https)\n* Optional static-site hosting -- build the web app yourself to ensure the integrity of the web app (example)\n* Broadcasting terminal's dimensions are sent to the browser in realtime so rendering always matches\nFirst start the TermPair server with , or use the one already running at https://chadsmith.dev/termpair.\nThe server is used to route encrypted data between terminals and connected browsers — it doesn't actually start sharing any terminals on its own.\nNow that you have the server running, you can share your terminal by running .\nThis connects your terminal to the server, and allows browsers to access the terminal through the server.\nThe URL printed contains a unique terminal ID and encryption key. You can share the URL with whoever you like. **Anyone who has it can access your terminal while the  process is running,** so be sure you trust the person you are sharing the link with.\nBy default, the process that is shared is a new process running the current shell, determined by the  evironment variable.",
+      "tag": "终端共享工具"
+    },
+    {
+      "id": 749283842,
+      "name": "KiKaraage/ArcWTF",
+      "stars": 1727,
+      "enhanced_text": "A userChrome.css theme to bring Arc Browser look on Windows to Firefox. Work with Windows, Linux and macOS ✨.\n\n### Reworked and streamlined for Firefox 137+\n- Still working on every platform! Windows, Linux and macOS\n- Based on current Firefox vertical tabs & sidebar system. (Plus Firefox is working on locally-processed Link Preview and sidebar show on hover!)\n- Refined layout compared to past ArcWTF version. Popup URL bar is enabled by default.\n- Plus: Now that tab group is available natively, I can provide closer \"folder\" styling to Arc.\n- Plus: You can utilize the Firefox sidebar for \"tab splitting\" using extensions like Page Sidebar.\n- No need to setup Sidebery or Userchrome Toggle, all recommended extensions would be optional.\n- Tradeoff: No Spaces. There's no tree-group tabs system. Still no URL bar on the left. (Install Zen! I've made some mods and worked on its documentations.)",
+      "tag": "Firefox主题样式"
+    },
+    {
+      "id": 113486284,
+      "name": "brave/brave-ios",
+      "stars": 1723,
+      "enhanced_text": "Brave iOS Browser.\n\nThe iOS codebase has moved to https://github.com/brave/brave-core\nThis respository will be archived in the future.",
+      "tag": "iOS浏览器"
+    },
+    {
+      "id": 2955224,
+      "name": "blueimp/JavaScript-Templates",
+      "stars": 1722,
+      "enhanced_text": "1KB lightweight, fast & powerful JavaScript templating engine with zero dependencies. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.\n\n1KB lightweight, fast & powerful JavaScript templating engine with zero\nCompatible with server-side environments like Node.js,\nmodule loaders like RequireJS or\nwebpack and all web browsers.\n\nInstall the **blueimp-tmpl** package with NPM:\nInclude the (minified) JavaScript Templates script in your HTML markup:\nAdd a script section with type **\"text/x-tmpl\"**, a unique **id** property and\nyour template definition as content:\n**\"o\"** (the lowercase letter) is a reference to the data parameter of the\ntemplate function (see the API section on how to modify this identifier).\nIn your application code, create a JavaScript object to use as data for the\nIn a real application, this data could be the result of retrieving a\nRender the result by calling the **tmpl()** method with the id of the template\nand the data object as arguments:\nThe following is an example how to use the JavaScript Templates engine on the\nserver-side with Node.js.",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 120834196,
+      "name": "ninoseki/mitaka",
+      "stars": 1720,
+      "enhanced_text": "A browser extension for OSINT search.\n\n## Features\n### Supported IoCs (Indicators of Compromise)\n| Name      | Desc.                       | E.g.                                         |\n| ANS       | ASN                         |                                     |\n| BTC       | BTC address                 |          |\n| CVE       | CVE number                  |                              |\n| Domain    | Domain name                 |                                  |\n| Email     | Email address               |                               |\n| ETH       | Ethereum address            |  |\n| GaPubID   | Google Adsense Publisher ID |                        |\n| GaTrackID | Google Analytics Tracker ID |                               |\n| Hash      | MD5, SHA1, SHA256           |            |\n| IP        | IPv4 address                |                                     |\n| URL       | URL                         |                          |\n### Supported Search Engines",
+      "tag": "OSINT搜索扩展"
+    },
+    {
+      "id": 497608,
+      "name": "coresmart/persistencejs",
+      "stars": 1719,
+      "enhanced_text": "persistence.js is an asynchronous Javascript database mapper library. You can use it in the browser, as well on the server (and you can share data models between them).",
+      "tag": "JavaScript数据库映射"
+    },
+    {
+      "id": 13765363,
+      "name": "FrDH/dotdotdot-js",
+      "stars": 1716,
+      "enhanced_text": "dotdotdot.js, advanced cross-browser ellipsis for multiple line content.\n\nDotdotdot is a javascript plugin for truncating multiple line content on a webpage.\nIt uses an ellipsis to indicate that there is more text than currently visible.\nOptionally, the plugin can keep a \"read more\" anchor visible at the end of the content, after the ellipsis.\nWhen using dotdotdot to truncate HTML, you don't need to worry about your HTML markup, the plugin knows its way around most elements.\nIt's responsive, so when resizing the browser, the ellipsis will update on the fly.\nNeed help? Have a look at the documentation.\nThe dotdotdot javascript plugin is licensed under the CC-BY-NC-4.0 license.\nYou can purchase a license if you want to use it in a commercial project.",
+      "tag": "文本截断库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 102619418,
+        "tag": "无头浏览器服务"
+      },
+      {
+        "id": 24677116,
+        "tag": "Web文件管理器"
+      },
+      {
+        "id": 278011746,
+        "tag": "隐私安全扩展"
+      },
+      {
+        "id": 124411852,
+        "tag": "浏览器自动化框架"
+      },
+      {
+        "id": 55375779,
+        "tag": "Web音频工作站"
+      },
+      {
+        "id": 253150295,
+        "tag": "Android浏览器"
+      },
+      {
+        "id": 403928729,
+        "tag": "跨平台React Native"
+      },
+      {
+        "id": 7810676,
+        "tag": "文本编辑器库"
+      },
+      {
+        "id": 176058541,
+        "tag": "终端共享工具"
+      },
+      {
+        "id": 749283842,
+        "tag": "Firefox主题样式"
+      },
+      {
+        "id": 113486284,
+        "tag": "iOS浏览器"
+      },
+      {
+        "id": 2955224,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 120834196,
+        "tag": "OSINT搜索扩展"
+      },
+      {
+        "id": 497608,
+        "tag": "JavaScript数据库映射"
+      },
+      {
+        "id": 13765363,
+        "tag": "文本截断库"
+      }
+    ]
+  }
+}

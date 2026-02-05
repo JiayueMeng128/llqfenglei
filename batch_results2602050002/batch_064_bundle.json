@@ -1,0 +1,125 @@
+{
+  "batch_id": 64,
+  "timestamp": "2026-02-05T14:47:21.638516",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 50896111,
+      "name": "js-primer/js-primer",
+      "stars": 2398,
+      "enhanced_text": ":book: JavaScript Primer - 迷わないための入門書.",
+      "tag": "JavaScript学习指南"
+    },
+    {
+      "id": 266196,
+      "name": "oyvindkinsey/easyXDM",
+      "stars": 2367,
+      "enhanced_text": "A javascript library providing cross-browser, cross-site messaging/method invocation.",
+      "tag": "跨域通信库"
+    },
+    {
+      "id": 74061137,
+      "name": "Unity-Technologies/AssetBundles-Browser",
+      "stars": 2365,
+      "enhanced_text": "Editor tool for viewing and debugging asset bundle contents before and after builds.",
+      "tag": "游戏开发调试工具"
+    },
+    {
+      "id": 7964711,
+      "name": "anthonycr/Lightning-Browser",
+      "stars": 2364,
+      "enhanced_text": "A lightweight Android browser with modern navigation.",
+      "tag": "轻量级安卓浏览器"
+    },
+    {
+      "id": 23404128,
+      "name": "alephdata/aleph",
+      "stars": 2315,
+      "enhanced_text": "Search and browse documents and data; find the people and companies you look for.",
+      "tag": "调查分析平台"
+    },
+    {
+      "id": 141128198,
+      "name": "chinedufn/percy",
+      "stars": 2307,
+      "enhanced_text": "Build frontend browser apps with Rust + WebAssembly. Supports server side rendering.",
+      "tag": "Rust WebAssembly框架"
+    },
+    {
+      "id": 190765263,
+      "name": "NetrisTV/ws-scrcpy",
+      "stars": 2299,
+      "enhanced_text": "Web client prototype for scrcpy.",
+      "tag": "安卓设备投屏客户端"
+    },
+    {
+      "id": 187544570,
+      "name": "sh-dv/hat.sh",
+      "stars": 2274,
+      "enhanced_text": "Encrypt and Decrypt files securely in your browser.",
+      "tag": "浏览器端文件加密工具"
+    },
+    {
+      "id": 225990209,
+      "name": "SwiftLaTeX/SwiftLaTeX",
+      "stars": 2247,
+      "enhanced_text": "SwiftLaTeX, a WYSIWYG Browser-based LaTeX Editor.",
+      "tag": "浏览器LaTeX编辑器"
+    },
+    {
+      "id": 527309421,
+      "name": "berthubert/googerteller",
+      "stars": 2231,
+      "enhanced_text": "audible feedback on just how much your browsing feeds into google.",
+      "tag": "隐私监控扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 50896111,
+        "tag": "JavaScript学习指南"
+      },
+      {
+        "id": 266196,
+        "tag": "跨域通信库"
+      },
+      {
+        "id": 74061137,
+        "tag": "游戏开发调试工具"
+      },
+      {
+        "id": 7964711,
+        "tag": "轻量级安卓浏览器"
+      },
+      {
+        "id": 23404128,
+        "tag": "调查分析平台"
+      },
+      {
+        "id": 141128198,
+        "tag": "Rust WebAssembly框架"
+      },
+      {
+        "id": 190765263,
+        "tag": "安卓设备投屏客户端"
+      },
+      {
+        "id": 187544570,
+        "tag": "浏览器端文件加密工具"
+      },
+      {
+        "id": 225990209,
+        "tag": "浏览器LaTeX编辑器"
+      },
+      {
+        "id": 527309421,
+        "tag": "隐私监控扩展"
+      }
+    ]
+  }
+}

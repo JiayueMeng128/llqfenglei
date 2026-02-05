@@ -1,0 +1,125 @@
+{
+  "batch_id": 72,
+  "timestamp": "2026-02-05T15:29:22.130655",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 30087179,
+      "name": "immersive-web/webvr-polyfill",
+      "stars": 1406,
+      "enhanced_text": "Use WebVR today, without requiring a special browser build.",
+      "tag": "WebXR兼容层"
+    },
+    {
+      "id": 147781722,
+      "name": "proyecto26/react-native-inappbrowser",
+      "stars": 1402,
+      "enhanced_text": "📱InAppBrowser for React Native (Android & iOS) 🤘.",
+      "tag": "移动应用浏览器组件"
+    },
+    {
+      "id": 49662454,
+      "name": "junegunn/gv.vim",
+      "stars": 1399,
+      "enhanced_text": "A git commit browser in Vim.",
+      "tag": "Vim Git工具"
+    },
+    {
+      "id": 239604498,
+      "name": "webrecorder/archiveweb.page",
+      "stars": 1396,
+      "enhanced_text": "A High-Fidelity Web Archiving Extension for Chrome and Chromium based browsers!",
+      "tag": "高保真网页存档扩展"
+    },
+    {
+      "id": 688870667,
+      "name": "syt2/zotero-addons",
+      "stars": 1395,
+      "enhanced_text": "Zotero Add-on Market  | Zotero插件市场 | Browsing, installing, and reviewing plugins within Zotero.",
+      "tag": "文献管理插件市场"
+    },
+    {
+      "id": 36111399,
+      "name": "sudodoki/copy-to-clipboard",
+      "stars": 1394,
+      "enhanced_text": "Copy stuff into clipboard from your browser using JS.",
+      "tag": "剪贴板操作库"
+    },
+    {
+      "id": 15204429,
+      "name": "HashNuke/hound",
+      "stars": 1379,
+      "enhanced_text": "Elixir library for writing integration tests and browser automation.",
+      "tag": "Elixir浏览器自动化库"
+    },
+    {
+      "id": 494727853,
+      "name": "ComicSparks/wax",
+      "stars": 1379,
+      "enhanced_text": "A comic browser，support Android / iOS / MacOS / Windows / Linux.",
+      "tag": "跨平台漫画浏览器"
+    },
+    {
+      "id": 44635242,
+      "name": "liaohuqiu/android-UCToast",
+      "stars": 1376,
+      "enhanced_text": "Demonstrate how UC browser display a system overlay view in any platform above API level 9.",
+      "tag": "Android悬浮窗示例"
+    },
+    {
+      "id": 20046426,
+      "name": "obsidianforensics/hindsight",
+      "stars": 1374,
+      "enhanced_text": "Browser forensics tool for Google Chrome (and other Chromium-based browsers).",
+      "tag": "Chromium浏览器取证工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 30087179,
+        "tag": "WebXR兼容层"
+      },
+      {
+        "id": 147781722,
+        "tag": "移动应用浏览器组件"
+      },
+      {
+        "id": 49662454,
+        "tag": "Vim Git工具"
+      },
+      {
+        "id": 239604498,
+        "tag": "高保真网页存档扩展"
+      },
+      {
+        "id": 688870667,
+        "tag": "文献管理插件市场"
+      },
+      {
+        "id": 36111399,
+        "tag": "剪贴板操作库"
+      },
+      {
+        "id": 15204429,
+        "tag": "Elixir浏览器自动化库"
+      },
+      {
+        "id": 494727853,
+        "tag": "跨平台漫画浏览器"
+      },
+      {
+        "id": 44635242,
+        "tag": "Android悬浮窗示例"
+      },
+      {
+        "id": 20046426,
+        "tag": "Chromium浏览器取证工具"
+      }
+    ]
+  }
+}

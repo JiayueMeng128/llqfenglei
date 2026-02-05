@@ -1,0 +1,125 @@
+{
+  "batch_id": 71,
+  "timestamp": "2026-02-05T14:50:33.084060",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 502105368,
+      "name": "ehmicky/modern-errors",
+      "stars": 1480,
+      "enhanced_text": "Handle errors in a simple, stable, consistent way.",
+      "tag": "JavaScript错误处理库"
+    },
+    {
+      "id": 17480011,
+      "name": "puleos/object-hash",
+      "stars": 1474,
+      "enhanced_text": "Generate hashes from javascript objects in node and the browser.",
+      "tag": "JavaScript哈希生成库"
+    },
+    {
+      "id": 12384349,
+      "name": "fortunejs/fortune",
+      "stars": 1453,
+      "enhanced_text": "Non-native graph database abstraction layer for Node.js and web browsers.",
+      "tag": "跨平台图数据库抽象层"
+    },
+    {
+      "id": 500684,
+      "name": "jmesnil/stomp-websocket",
+      "stars": 1448,
+      "enhanced_text": "Stomp client for Web browsers and node.js apps.",
+      "tag": "WebSocket消息协议客户端"
+    },
+    {
+      "id": 16372438,
+      "name": "jsforce/jsforce",
+      "stars": 1448,
+      "enhanced_text": "Salesforce API Library for JavaScript applications (both on Node.js and web browser).",
+      "tag": "Salesforce API JavaScript库"
+    },
+    {
+      "id": 390541506,
+      "name": "ulixee/hero",
+      "stars": 1440,
+      "enhanced_text": "The web browser built for scraping.",
+      "tag": "浏览器自动化爬虫框架"
+    },
+    {
+      "id": 11170365,
+      "name": "fergiemcdowall/search-index",
+      "stars": 1426,
+      "enhanced_text": "A persistent, network resilient, full text search library for the browser and Node.js.",
+      "tag": "跨平台全文搜索库"
+    },
+    {
+      "id": 3125454,
+      "name": "icecoder/ICEcoder",
+      "stars": 1421,
+      "enhanced_text": "Browser code editor awesomeness.",
+      "tag": "浏览器端代码编辑器"
+    },
+    {
+      "id": 746320301,
+      "name": "TheGP/untidetect-tools",
+      "stars": 1420,
+      "enhanced_text": "List of anti-detect and humanizing tools and browsers, including captcha solvers and sms-activation.",
+      "tag": "反检测浏览器工具集"
+    },
+    {
+      "id": 789046020,
+      "name": "McGill-NLP/webllama",
+      "stars": 1407,
+      "enhanced_text": "Llama-3 agents that can browse the web by following instructions and talking to you.",
+      "tag": "AI网页浏览智能体"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 502105368,
+        "tag": "JavaScript错误处理库"
+      },
+      {
+        "id": 17480011,
+        "tag": "JavaScript哈希生成库"
+      },
+      {
+        "id": 12384349,
+        "tag": "跨平台图数据库抽象层"
+      },
+      {
+        "id": 500684,
+        "tag": "WebSocket消息协议客户端"
+      },
+      {
+        "id": 16372438,
+        "tag": "Salesforce API JavaScript库"
+      },
+      {
+        "id": 390541506,
+        "tag": "浏览器自动化爬虫框架"
+      },
+      {
+        "id": 11170365,
+        "tag": "跨平台全文搜索库"
+      },
+      {
+        "id": 3125454,
+        "tag": "浏览器端代码编辑器"
+      },
+      {
+        "id": 746320301,
+        "tag": "反检测浏览器工具集"
+      },
+      {
+        "id": 789046020,
+        "tag": "AI网页浏览智能体"
+      }
+    ]
+  }
+}

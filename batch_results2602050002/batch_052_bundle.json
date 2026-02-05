@@ -1,0 +1,125 @@
+{
+  "batch_id": 52,
+  "timestamp": "2026-02-05T14:36:35.488171",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 70107786,
+      "name": "vercel/next.js",
+      "stars": 137504,
+      "enhanced_text": "The React Framework.",
+      "tag": "React全栈框架"
+    },
+    {
+      "id": 172953845,
+      "name": "coder/code-server",
+      "stars": 76108,
+      "enhanced_text": "VS Code in the browser.",
+      "tag": "云端开发环境"
+    },
+    {
+      "id": 808045485,
+      "name": "LadybirdBrowser/ladybird",
+      "stars": 58190,
+      "enhanced_text": "Truly independent web browser.",
+      "tag": "独立浏览器引擎"
+    },
+    {
+      "id": 31629751,
+      "name": "cypress-io/cypress",
+      "stars": 49557,
+      "enhanced_text": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "tag": "端到端测试框架"
+    },
+    {
+      "id": 60630844,
+      "name": "microsoft/monaco-editor",
+      "stars": 45502,
+      "enhanced_text": "A browser based code editor.",
+      "tag": "浏览器代码编辑器"
+    },
+    {
+      "id": 13840241,
+      "name": "freeCodeCamp/devdocs",
+      "stars": 38447,
+      "enhanced_text": "API Documentation Browser.",
+      "tag": "API文档聚合器"
+    },
+    {
+      "id": 624681066,
+      "name": "reworkd/AgentGPT",
+      "stars": 35654,
+      "enhanced_text": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "tag": "浏览器AI智能体"
+    },
+    {
+      "id": 160083795,
+      "name": "SerenityOS/serenity",
+      "stars": 32877,
+      "enhanced_text": "The Serenity Operating System 🐞.",
+      "tag": "桌面操作系统"
+    },
+    {
+      "id": 1200050,
+      "name": "ariya/phantomjs",
+      "stars": 29496,
+      "enhanced_text": "Scriptable Headless Browser.",
+      "tag": "无头浏览器"
+    },
+    {
+      "id": 30638861,
+      "name": "fingerprintjs/fingerprintjs",
+      "stars": 26420,
+      "enhanced_text": "The most advanced free and open-source browser fingerprinting library.",
+      "tag": "浏览器指纹库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 70107786,
+        "tag": "React全栈框架"
+      },
+      {
+        "id": 172953845,
+        "tag": "云端开发环境"
+      },
+      {
+        "id": 808045485,
+        "tag": "独立浏览器引擎"
+      },
+      {
+        "id": 31629751,
+        "tag": "端到端测试框架"
+      },
+      {
+        "id": 60630844,
+        "tag": "浏览器代码编辑器"
+      },
+      {
+        "id": 13840241,
+        "tag": "API文档聚合器"
+      },
+      {
+        "id": 624681066,
+        "tag": "浏览器AI智能体"
+      },
+      {
+        "id": 160083795,
+        "tag": "桌面操作系统"
+      },
+      {
+        "id": 1200050,
+        "tag": "无头浏览器"
+      },
+      {
+        "id": 30638861,
+        "tag": "浏览器指纹库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "batch_id": 21,
+  "timestamp": "2026-02-05T13:24:46.369186",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 976095156,
+      "name": "JetBrains/koog",
+      "stars": 3695,
+      "enhanced_text": "Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems.",
+      "tag": "AI代理框架"
+    },
+    {
+      "id": 148713303,
+      "name": "pichillilorenzo/flutter_inappwebview",
+      "stars": 3686,
+      "enhanced_text": "A Flutter plugin that allows you to add an inline webview, to use a headless webview, and to open an in-app browser window.",
+      "tag": "Flutter WebView插件"
+    },
+    {
+      "id": 326547939,
+      "name": "GRVYDEV/Project-Lightspeed",
+      "stars": 3664,
+      "enhanced_text": "A self contained OBS -> FTL -> WebRTC live streaming server. Comprised of 3 parts once configured anyone can achieve sub-second OBS to the browser livestreaming.\n\nInstallation\nCommunity Installation\n\nAbout The Project\n\n## About The Project\nProject Lightspeed is a fully self-contained live streaming server. With Lightspeed you will be able to deploy your\nown sub-second latency live streaming platform. The Lightspeed repository contains the instructions for installing\nand deploying the entire application. So far, Lightspeed includes an ingest service, broadcast service via webRTC\nand a web application for viewing. Lightspeed is however completely modular. What this means is that you can write\nyour own web app, ingest server or broadcast server.\nLightspeed Ingest listens on port 8084 which is the port used by the FTL protocol. Upon receiving a connection it completes the FTL handshake and negotiates a port (this is currently bugged however and defaults to 65535). Once the negotiation is done Lightspeed WebRTC listens on the negotiated port (in the future Lightspeed WebRTC will listen on the loopback interface so the ingest has more control on what packets we accept) and relays the incoming RTP packets over WebRTC. Lightspeed React communicates via websocket with Lightspeed WebRTC to exchange ICE Candidates and once a connection is established the video can be viewed.\nHere is a diagram that outlines the current implementation and the future implementation that I would like to achieve. The reason I want the packets relayed from Ingest to WebRTC on the loopback interface is so that we have more control over who can send packets. Meaning that when a DISCONNECT command is recieved we can terminate the UDP listener so that someone could not start sending packets that we do not want\nWe now have a Discord server! This is a great way to stay up to date with the project and join in on the conversation! Come stop by!\n\nGetting Started\n\n## Getting Started\nIn order to get a copy running you will need to install all 3 repositories. There are installation instructions in\neach repo however I will include them here for the sake of simplicity.\nIn order to run Lightspeed, Golang, Rust, and npm are required. Additionally the Rust repo requires a C compiler. If you get a  error then you need to install a C compiler.\n\n### Installation\n#### Clone Repository\n#### Build Ingest Server\n#### Build WebRTC Server\n**Warning: Deprecated method (relies on outdated repository)**\n#### Frontend (Based on React.JS)\n### Community Installation (**Warning: Outdated...",
+      "tag": "WebRTC直播服务器"
+    },
+    {
+      "id": 33659097,
+      "name": "JadenGeller/Helium",
+      "stars": 3663,
+      "enhanced_text": "A floating browser window for OS X.\n\n> :warning: **Helium is no longer maintained.**\nHelium is a floating browser window that allows you to watch media, browse the\nweb and do much more while you stay productive. Your content will never fall\nbehind your other windows even as you switch tasks. Helium supports a\ncustomizable translucency mode that allows you to simultaneously see your\ncontent and your work, without intercepting mouse clicks when it's translucent.\nYou have the ability to click, drag, scroll behind your floating content.",
+      "tag": "OS X浮动浏览器"
+    },
+    {
+      "id": 1514130,
+      "name": "nst/RuntimeBrowser",
+      "stars": 3644,
+      "enhanced_text": "Objective-C Runtime Browser, for Mac OS X and iOS.\n\nThis is a class browser for the Objective-C runtime on iOS and OS X. It gives you full access to all classes loaded in the runtime; allows you to dynamically load new modules and their classes; shows every method implemented on each class; and displays information in a header (.h) file format.\nWe have found this to be a useful development tool. Please note, however, that each user is responsible for their own usage.\nThe original version was released in April 2002 by Ezra Epstein. The project is maintained by Nicolas Seriot since August, 2008.\n* browse by class tree, image or indexed list\n* headers retrieval through HTTP port 10000\n* instantiates most classes including allocation of non-shared instances\n* allows invocation of methods including inputting of parameters at runtime",
+      "tag": "Objective-C运行时浏览器"
+    },
+    {
+      "id": 18154829,
+      "name": "jasonlong/isometric-contributions",
+      "stars": 3634,
+      "enhanced_text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.\n\n## Installation\n\nInstall from the Chrome Web Store\n\nInstall from Mozilla Add-ons site",
+      "tag": "GitHub贡献图扩展"
+    },
+    {
+      "id": 31442355,
+      "name": "Netflix/vector",
+      "stars": 3574,
+      "enhanced_text": "Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser.",
+      "tag": "主机性能监控框架"
+    },
+    {
+      "id": 17492418,
+      "name": "fregante/GhostText",
+      "stars": 3568,
+      "enhanced_text": "👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).",
+      "tag": "编辑器-浏览器同步扩展"
+    },
+    {
+      "id": 79149882,
+      "name": "lbryio/lbry-desktop",
+      "stars": 3528,
+      "enhanced_text": "A browser and wallet for LBRY, the decentralized, user-controlled content marketplace.\n\nThis repo contains the UI code that powers the official LBRY desktop app. The LBRY app is a graphical browser for the decentralized content marketplace provided by the\nLBRY protocol. It is essentially the\nlbry daemon bundled with a UI using\nWe provide installers for Windows, macOS (v10.12.4, Sierra, or greater), and Debian-based Linux. See community maintained builds section for alternative Linux installations.\n|                       | Windows                                       | macOS                                         | Linux                                         |\n| Latest Stable Release | Download     | Download     | Download     |",
+      "tag": "去中心化内容浏览器"
+    },
+    {
+      "id": 5548784,
+      "name": "caolan/highland",
+      "stars": 3507,
+      "enhanced_text": "High-level streams library for Node.js and the browser.\n\n## Introduction\nRe-thinking the JavaScript\nHighland manages synchronous and asynchronous code easily, using nothing more than\nstandard JavaScript and Node-like Streams.\nYou may be familiar with Promises, EventEmitters and callbacks, but moving\nbetween them is far from seamless. Thankfully, there exists a deeper abstraction\nwhich can free our code. By updating the tools we use on Arrays, and applying them\nto values distributed in time instead of space, we can discard plumbing and\nfocus on the important things. With Highland, you can switch between\nsynchronous and asynchronous data sources at will, without having to\nre-write your code. Time to dive in!\nMade by @caolan, with help and patience from friends :)\nThis branch tracks the ongoing development of version 3.0, which will feature a\nrewritten Highland core implementation, extensibility support, limited stream\nlifecycle, and some breaking changes to certain transforms.  See",
+      "tag": "JavaScript流处理库"
+    },
+    {
+      "id": 10098528,
+      "name": "open-xml-templating/docxtemplater",
+      "stars": 3501,
+      "enhanced_text": "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node.js or the browser. Demo: https://www.docxtemplater.com/demo. #docx #office #generator #templating #report #json #generate #generation #template #create #pptx #docx #xlsx #react #vuejs #angularjs #browser #typescript #image #html #table #chart.\n\n## Features\n- Replace a {placeholder} by a value\n- Use loops: {#users} {name} {/users}\n- Use loops in tables to generate columns\n- Use conditions (if users.length>3) with angular Parsing\n- Insert custom XML {@rawXml} (for formatted text for example)\n- Get started with docxtemplater on nodejs\n- Get started with docxtemplater in the browser (react, angular, vue, nextjs)\nThe full documentation of the latest version can be found here.\nSee CHANGELOG.md for information about how to migrate from older versions.\nFunctionality can be added with the following paid modules :\n- Image module to add a given image with the syntax: ;\n- Html Module to insert formatted text in a docx document with the syntax ;\n- XLSX Module to be able to do templating on Excel files (xlsx extension), also with loops and conditions;\n- Chart Module to replace a chart by using data from the JSON object that you give with the syntax ;",
+      "tag": "Office文档模板引擎"
+    },
+    {
+      "id": 365565979,
+      "name": "CyberPunkMetalHead/Binance-volatility-trading-bot",
+      "stars": 3490,
+      "enhanced_text": "This is a fully functioning Binance trading bot that measures the volatility of every coin on Binance and places trades with the highest gaining coins If you like this project consider donating though the Brave browser to allow me to continuously improve the script.",
+      "tag": "加密货币交易机器人"
+    },
+    {
+      "id": 269668754,
+      "name": "kiwibrowser/src.next",
+      "stars": 3482,
+      "enhanced_text": "Source-code for Kiwi Next, a Kiwi Browser auto-rebased with latest Chromium.\n\nImportant note: Kiwi Browser is now archived. It will no longer be maintained after January 2025.\nTo support users who rely on extensions, we've partnered with the Microsoft Edge team to offer a smooth migration path.\nClicking the link will prompt you to install Microsoft Edge, reveal a hidden message in the Edge Extensions Hub, and uNBlock a powerful Manifest V2 extension there.\nThe extensions code for Kiwi Browser also has been integrated into the development version of Microsoft Edge: Microsoft Edge Canary.\nTo install extensions on Microsoft Edge Canary:\n1. Open **Microsoft Edge Canary** and go to **Settings > About Microsoft Edge**.\n2. Tap the **Edge build number** (e.g., ) 5 times to enable **Developer Options**.\n3. In Developer Options, select **Extension install by id**.",
+      "tag": "Chromium移动浏览器"
+    },
+    {
+      "id": 27855953,
+      "name": "google/google-api-javascript-client",
+      "stars": 3470,
+      "enhanced_text": "Google APIs Client Library for browser JavaScript, aka gapi.\n\n## Description\nThe Google API Client Library for JavaScript is designed for JavaScript client-application\ndevelopers. It offers simple, flexible access to many Google APIs.\n> Note: This repo does not contain the source code for the  client.",
+      "tag": "Google API JS客户端库"
+    },
+    {
+      "id": 8083731,
+      "name": "bastillion-io/Bastillion",
+      "stars": 3444,
+      "enhanced_text": "A modern, web-based SSH console and key management tool.  Bastillion gives you a clean, browser-based way to manage SSH access across all your systems. Think of it like a bastion host with a friendly dashboard.\n\n## Installation Options\n**Free:** https://github.com/bastillion-io/Bastillion/releases\n**AWS Marketplace:** https://aws.amazon.com/marketplace/pp/prodview-x2imjupuydrj6\n### Java 21 (OpenJDK or Oracle JDK)\n> Oracle JDK download: http://www.oracle.com/technetwork/java/javase/downloads/index.html\n### Authenticator (for 2FA)\n| Application | Android | iOS |\n| **Authy** | Google Play | iTunes |\n| **Google Authenticator** | Google Play | iTunes |\n## Run with Jetty (Bundled)\nDownload: https://github.com/bastillion-io/Bastillion/releases\n### Set Environment Variables\nForeground (interactive):\n(or for AMI instances: )",
+      "tag": "Web SSH管理平台"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 976095156,
+        "tag": "AI代理框架"
+      },
+      {
+        "id": 148713303,
+        "tag": "Flutter WebView插件"
+      },
+      {
+        "id": 326547939,
+        "tag": "WebRTC直播服务器"
+      },
+      {
+        "id": 33659097,
+        "tag": "OS X浮动浏览器"
+      },
+      {
+        "id": 1514130,
+        "tag": "Objective-C运行时浏览器"
+      },
+      {
+        "id": 18154829,
+        "tag": "GitHub贡献图扩展"
+      },
+      {
+        "id": 31442355,
+        "tag": "主机性能监控框架"
+      },
+      {
+        "id": 17492418,
+        "tag": "编辑器-浏览器同步扩展"
+      },
+      {
+        "id": 79149882,
+        "tag": "去中心化内容浏览器"
+      },
+      {
+        "id": 5548784,
+        "tag": "JavaScript流处理库"
+      },
+      {
+        "id": 10098528,
+        "tag": "Office文档模板引擎"
+      },
+      {
+        "id": 365565979,
+        "tag": "加密货币交易机器人"
+      },
+      {
+        "id": 269668754,
+        "tag": "Chromium移动浏览器"
+      },
+      {
+        "id": 27855953,
+        "tag": "Google API JS客户端库"
+      },
+      {
+        "id": 8083731,
+        "tag": "Web SSH管理平台"
+      }
+    ]
+  }
+}

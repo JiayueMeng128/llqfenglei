@@ -1,0 +1,180 @@
+{
+  "batch_id": 39,
+  "timestamp": "2026-02-05T13:28:25.833513",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 358925855,
+      "name": "CyberPunkMetalHead/Binance-News-Sentiment-Bot",
+      "stars": 1641,
+      "enhanced_text": "This is a fully functioning Binance trading bot that takes into account the news sentiment for the top 100 crypto feeds. If you like this project consider donating though the Brave browser to allow me to continuously improve the script.\n\nFully functioning Binance Trading bot that Buys cryptocurrency based on Daily news sentiment from the top 100 crypto feeds.\nPull and analyse the last headline from the top 100 crypto news sites\nProvide an overview on the most mentioned coin across all the headlines\nAnalyse the sentiment of each headline and categorise the output by coin\nPlace a Buy order if the compound sentiment is positive\nThe bot sells %99.5 of the coins it bought in order to avoid exceptions\n\"coins_in_hand\" dictionary stores the amount of coins the bot bought and currently holding.\nWorks with any number of cryptocurrencies",
+      "tag": "加密货币交易脚本"
+    },
+    {
+      "id": 11469930,
+      "name": "vthibault/roBrowser",
+      "stars": 1637,
+      "enhanced_text": "roBrowser is a free and open-source implementation of the Ragnarok Online MMORPG for web browsers written from scratch using the latest web standards (WebGL, HTML5, File API, Javascript, Threads, ...).",
+      "tag": "浏览器游戏引擎"
+    },
+    {
+      "id": 27195805,
+      "name": "foliojs/fontkit",
+      "stars": 1637,
+      "enhanced_text": "An advanced font engine for Node and the browser.\n\n## Features\n* Supports TrueType (.ttf), OpenType (.otf), WOFF, WOFF2, TrueType Collection (.ttc), and Datafork TrueType (.dfont) font files\n* Supports mapping characters to glyphs, including support for ligatures and other advanced substitutions (see below)\n* Supports reading glyph metrics and laying out glyphs, including support for kerning and other advanced layout features (see below)\n* Advanced OpenType features including glyph substitution (GSUB) and positioning (GPOS)\n* Apple Advanced Typography (AAT) glyph substitution features (morx table)\n* Support for getting glyph vector paths and converting them to SVG paths, or rendering them to a graphics context\n* Supports TrueType (glyf) and PostScript (CFF) outlines\n* Support for color glyphs (e.g. emoji), including Apple’s SBIX table, and Microsoft’s COLR table\n* Support for AAT variation glyphs, allowing for nearly infinite design control over weight, width, and other axes.\n* Font subsetting support - create a new font including only the specified glyphs",
+      "tag": "字体处理引擎"
+    },
+    {
+      "id": 143921593,
+      "name": "Novage/p2p-media-loader",
+      "stars": 1636,
+      "enhanced_text": "An open-source engine for P2P streaming of live and on demand video directly in a web browser HTML page.\n\n**P2P Media Loader** is an open-source JavaScript library that uses modern browser technologies — like HTML5 video and WebRTC — to enable peer-to-peer (P2P) media delivery. It integrates seamlessly with popular HTML5 video players and requires no additional browser plugins or add-ons. Try the demo to see it in action.\nThis library makes it possible to build large-scale P2P mesh networks — often called peer-to-peer content delivery networks (P2P CDN), Hybrid CDN, Multi CDN, peer-to-peer television (P2PTV), or Enterprise Content Delivery Networks (eCDN) — enabling users who are watching the same live or on-demand (VOD) streams via HLS or MPEG-DASH to share traffic in real time.\n## Why Use Hybrid CDN + P2P Delivery?\nP2P Media Loader **supports all modern desktop and mobile browsers** — Chrome, Safari, Edge, Firefox, and Opera — across Windows, macOS, Android, iOS, iPadOS, and Linux. Check out our guide to set up P2P video in five minutes. You can also embed it into **native iOS and Android** apps and use it with **native players**.\n- **No Setup Cost and No Server Software Needed:**\nFor smaller setups (1,000–2,000 simultaneous viewers), public trackers alone can handle peer connections. This means you **don’t need to install or maintain any additional server-side components** in many cases. **Free** alternatives are available for larger setups that can handle 100k simultaneous peers and above. Check our article on running dedicated trackers.\nOffloading requests from the CDN or media server to peers eases the strain on centralized infrastructure, increasing system reliability.",
+      "tag": "P2P流媒体库"
+    },
+    {
+      "id": 124293504,
+      "name": "ghostery/ghostery-extension",
+      "stars": 1633,
+      "enhanced_text": "Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari.\n\nGhostery is a powerful Tracker & Adblocker browser extension with over 100 million downloads. Block ads, stop trackers, and speed up websites. Privacy at its best.\n* Block all ads on websites, including YouTube and Facebook, to focus on the information that matters.\n* Stop trackers from collecting your personal data.\n* Automatically remove intrusive cookie pop-ups and express dissent to online tracking.\n* Get detailed tracker information on any website you visit, including the number of trackers, their type, and the company operating them.\n* Preview tracker information on search engine result pages to make informed choices.\n* Inspect the largest database of trackers, updated fast and reliably for all users.\n* X, formerly Twitter (@ghostery)",
+      "tag": "隐私保护扩展"
+    },
+    {
+      "id": 98123131,
+      "name": "Donaldcwl/browser-image-compression",
+      "stars": 1630,
+      "enhanced_text": "Image compression in web browser.\n\n## Features\n- You can use this module to compress jpeg, png, webp, and bmp images by reducing **resolution** or **storage size** before uploading to the application server to save bandwidth.\n- **Multi-thread** (web worker) non-blocking compression is supported through options.\nopen https://donaldcwl.github.io/browser-image-compression/example/basic.html\nor check the \"[example]\" folder in this repo\n### async await syntax:\n### Promise.then().catch() syntax:",
+      "tag": "前端图像压缩库"
+    },
+    {
+      "id": 1055738080,
+      "name": "saifyxpro/HeadlessX",
+      "stars": 1623,
+      "enhanced_text": "The undetected self-hosted browser automation platform. Powered by Camoufox (Firefox) for 0% detection rates. Built for speed, privacy, and scalability.\n\n### **The World's Most Advanced Anti-Detection Scraping Full Stack Web App**\n### 🎯 **0% Detection Rate** on all major anti-bot systems\n*Powered by **Camoufox** — Firefox with C++ level fingerprint spoofing*\n📖 Documentation • 🚀 Quick Start • 🐛 Report Bug • ✨ Request Feature\n|           🦊 **Camoufox Engine**           |              🛡️ **0% Detection**              |      ⚡ **3x Faster**      |\n| Firefox with binary-level stealth patches | Passes CreepJS, Sannysoft, & all major tests | Optimized context pooling |\n## 📊 Detection Benchmark Comparison",
+      "tag": "浏览器自动化平台"
+    },
+    {
+      "id": 23899906,
+      "name": "js-data/js-data",
+      "stars": 1621,
+      "enhanced_text": "Give your data the treatment it deserves with a framework-agnostic, datastore-agnostic JavaScript ORM built for ease of use and peace of mind. Works in Node.js and in the Browser. Main Site: http://js-data.io, API Reference Docs: http://api.js-data.io/js-data.\n\n# js-data v3 [![Slack][1]][2] [![NPM][3]][4] [![Downloads][5]][6] [![Coverage][7]][8]\n| __Browser tests__ | __Node.js tests__ |\n| [![Tests][9]][10] | [![Tests][11]][12] [![Tests][13]][12] [![Tests][14]][12] [![Tests][15]][12] [![Tests][16]][12] [![Tests][17]][12] |\n[1]: http://slack.js-data.io/badge.svg\n[4]: https://www.npmjs.org/package/js-data\n[6]: https://www.npmjs.org/package/js-data\n[8]: https://codecov.io/github/js-data/js-data\n[9]: https://saucelabs.com/browser-matrix/jsdata.svg\n[10]: https://saucelabs.com/u/jsdata",
+      "tag": "JavaScript ORM框架"
+    },
+    {
+      "id": 686775715,
+      "name": "CADmium-Co/CADmium",
+      "stars": 1621,
+      "enhanced_text": "A CAD program that runs in the browser.\n\n>This repo is inactive. No PRs or issues will be accepted.\nThis project aims to create a new CAD program from scratch. It is small, it runs in a web browser, and the source code is available for free here on Github.\nLegacy CAD programs have taken many thousands of years of collective engineering time to get where they are so this program will never be able to compete on breadth of features. But CADmium is intended to capture 80% of the most common CAD use cases while doing less than 10% of the work. For now we are targeting the home hobbyist who just wants to design a widget for their 3D printer, not a company that wants to design a car or airplane, although that will come later.\n- A simple, modern, parametric CAD UI that runs in a browser\n- That can export solids as .step, .obj, or .cadmium (a json-based CAD format that this project is inventing)\n- That can export sketches as .svg or .dxf\n- That works without an internet connection\nThen this project may be for you!",
+      "tag": "浏览器CAD应用"
+    },
+    {
+      "id": 116272692,
+      "name": "homerchen19/github-file-icons",
+      "stars": 1619,
+      "enhanced_text": "🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.\n\nA simple browser extension changes file's icon on GitHub, GitLab, Gitea and Gogs.\n- Safari Extension built by @christopherpickering\n> ⚠️ If you enjoy the Safari extension please consider contributing to help cover the App Store fees.\nRight click on the extension's icon to open the menu.\nChange icon's color between colorful and monochrome.",
+      "tag": "代码仓库图标扩展"
+    },
+    {
+      "id": 25791650,
+      "name": "kilianc/rtail",
+      "stars": 1618,
+      "enhanced_text": "rtail(1) - Terminal output to the browser in seconds, using UNIX pipes.\n\n## Installation\n$ npm install -g rtail\nWhether you deploy your code on remote servers using multiple environments or simply have multiple projects, **you must  to each machine running your code, in order to monitor the logs in realtime**.\nThere are many log aggregation tools out there, but few of them are realtime. **Most other tools require you to change your application source code to support their logging protocol/transport**.\nis meant to be a replacement of logio, which isn't actively maintained anymore, doesn't support node v0.12., and uses *TCP. (TCP requires strict client / server handshaking, is resource-hungry, and very difficult to scale.)*\n**The  approach is very simple:**\n* pipe something into  using UNIX I/O redirection [[2]](http://www.codecoffee.com/tipsforlinux/articles2/042.html)\n* broadcast every line using UDP\n* , **if listening**, will dispatch the stream into your browser, using socket.io.\nis a realtime debugging and monitoring tool, which can display multiple aggregate streams via a modern web interface. **There is no persistent layer, nor does the tool store any data**. If you need a persistent layer, use something like loggly.\nIn your app init script:\n$ node server.js 2>&1 | rtail --id \"api.myproject.com\"\n$ mycommand | rtail > server.log\n$ node server.js 2>&1 | rtail --mute\nSupports JSON5 lines:\n\nUsage: cmd | rtail [OPTIONS]\n--host, -h     The server host                 [string] [default: \"127.0.0.1\"]\n--port, -p     The server port                        [string] [default: 9999]\n--id, --name   The log stream id                 [string] [default: (moniker)]\n--mute, -m     Don't pipe stdin with stdout                          [boolean]\n--tty          Keeps ansi colors                     [boolean] [default: true]\n--parse-date   Looks for dates to use as timestamp   [boolean] [default: true]\n--help         Show help                                             [boolean]\n--version, -v  Show version number                                   [boolean]\nserver | rtail > server.log         localhost + file\nserver | rtail --id api.domain.com  Name the log stream\nserver | rtail --host example.com   Sends to example.com\nserver | rtail --port 43567         Uses custom port\nserver | rtail --mute               No stdout\nserver | rtail --no-tty             Strips ansi colors",
+      "tag": "实时日志流工具"
+    },
+    {
+      "id": 58388867,
+      "name": "mattdesl/color-wander",
+      "stars": 1618,
+      "enhanced_text": ":art: Generative artwork in node/browser based on a seeded random.\n\nGenerative artwork in node/browser based on a seeded random.\nGenerative Art with Node.js and Canvas\nYou can view the algorithm in real-time here:\nIn Chrome, you can right-click the canvas an \"Save As\" to get the full resolution.\nYou can download some of these as lossless PNG here.",
+      "tag": "生成艺术算法"
+    },
+    {
+      "id": 70820054,
+      "name": "ken107/read-aloud",
+      "stars": 1617,
+      "enhanced_text": "An awesome browser extension that reads aloud webpage content with one click.\n\n## Overview\nRead Aloud is a Chrome and Firefox extension that uses text-to-speech technology to convert webpage text to audio.&nbsp; It works on a variety of websites, including news sites, blogs, fan fiction, publications, textbooks, school and class websites, online universities and course materials.\nRead Aloud is aimed at users who prefer to listen to content instead of reading, people with dyslexia or other learning disabilities, children learning to read, or simply to provide users with alternative way to consume web content.\nRead Aloud allows you to select from a variety of text-to-speech voices, including those provided natively by the browser, as well as by text-to-speech cloud service providers such as Google Wavenet, Amazon Polly, IBM Watson, and Microsoft.&nbsp; Some of the cloud-based voices may require additional in-app purchase to enable.\nYou can change the voice, reading speed, pitch, or enable text highlighting:\n1. Click the Read Aloud icon on the Extensions menu.\n2. Stop any text that may be playing.\n3. Click on the Gear icon in the Read Aloud context menu. (It may take a second or two for settings to appear)\n### Using Premium Voices\nUsing Premium Voices (Google Wavenet & Amazon Polly)",
+      "tag": "文本转语音扩展"
+    },
+    {
+      "id": 230486850,
+      "name": "gautamkrishnar/motrix-webextension",
+      "stars": 1615,
+      "enhanced_text": "A browser extension for the Motrix Download Manager.\n\n## How to use\n1. Open the Motrix download manager installed on your computer, and go to  and create a random secret key and copy it.\nThere is also an option to update the RPC Listen Port, you dont have to do it. If you are updating it please make sure that you set it to the extension  using the set port option in the extension.\n2. Go to chrome extensions, go to Motrix WebExtension settings, paste the key and click on \"SET KEY\" button.\nNote: **You should keep Motrix always running in the background for this extension to work. We cant launch motrix programmatically.**\n\n## Installing\n### Chrome / Opera / Edge\n[link-chrome]: https://chrome.google.com/webstore/detail/motrix-webextension/djlkbfdlljbachafjmfomhaciglnmkgj 'Version published on Chrome Web Store'\n[][link-chrome] [][link-chrome] also compatible with [][link-chrome] [][link-chrome]\n[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/motrixwebextension/ 'Version published on Mozilla Add-ons'\n[][link-firefox] [][link-firefox]\n### Building from sources",
+      "tag": "下载管理器扩展"
+    },
+    {
+      "id": 188643934,
+      "name": "sveltejs/svelte-devtools",
+      "stars": 1613,
+      "enhanced_text": "A browser extension to inspect Svelte application by extending your browser devtools capabilities.\n\nSvelte DevTools is a browser extension for the Svelte framework. It allows you to inspect the Svelte state and component hierarchies in the Developer Tools.\nAfter installing you will see a new tab in Developer Tools. This tab displays a tree of Svelte components, HTMLx blocks, and DOM elements that were rendered on the page. By selecting one of the nodes in the tree, you can inspect and edit its current state in the panel to the right.\n> For Firefox users, you can install the  file of the latest version from the GitHub releases page. Note that if you grab the  file, you will need to load it as a temporary extension and enable \"Always Allow on localhost\" in the extension settings.\nThe  extension requires the following to be true:\n- Chrome or Firefox version 121 or higher\n- Application running Svelte version\n- Application compiled with  (SvelteKit does this automatically for you)",
+      "tag": "前端框架开发工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 358925855,
+        "tag": "加密货币交易脚本"
+      },
+      {
+        "id": 11469930,
+        "tag": "浏览器游戏引擎"
+      },
+      {
+        "id": 27195805,
+        "tag": "字体处理引擎"
+      },
+      {
+        "id": 143921593,
+        "tag": "P2P流媒体库"
+      },
+      {
+        "id": 124293504,
+        "tag": "隐私保护扩展"
+      },
+      {
+        "id": 98123131,
+        "tag": "前端图像压缩库"
+      },
+      {
+        "id": 1055738080,
+        "tag": "浏览器自动化平台"
+      },
+      {
+        "id": 23899906,
+        "tag": "JavaScript ORM框架"
+      },
+      {
+        "id": 686775715,
+        "tag": "浏览器CAD应用"
+      },
+      {
+        "id": 116272692,
+        "tag": "代码仓库图标扩展"
+      },
+      {
+        "id": 25791650,
+        "tag": "实时日志流工具"
+      },
+      {
+        "id": 58388867,
+        "tag": "生成艺术算法"
+      },
+      {
+        "id": 70820054,
+        "tag": "文本转语音扩展"
+      },
+      {
+        "id": 230486850,
+        "tag": "下载管理器扩展"
+      },
+      {
+        "id": 188643934,
+        "tag": "前端框架开发工具"
+      }
+    ]
+  }
+}

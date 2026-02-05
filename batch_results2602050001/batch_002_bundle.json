@@ -1,0 +1,180 @@
+{
+  "batch_id": 2,
+  "timestamp": "2026-02-05T13:19:21.568645",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 61412022,
+      "name": "ianstormtaylor/slate",
+      "stars": 31508,
+      "enhanced_text": "A completely customizable framework for building rich text editors. (Currently in beta.).\n\nA completely customizable framework\nfor building rich text editors.\nSlate lets you build rich, intuitive editors like those in Medium, Dropbox Paper or Google Docs—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.\nIt can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what _is_ or _isn't_ in \"core\". You can think of it like a pluggable implementation of  built on top of React. It was inspired by libraries like Draft.js, Prosemirror and Quill.\n> 🤖 **Slate is currently in beta.** Its core API is useable right now, but you might need to pull request improvements for advanced use cases, or fixes for some bugs. Some of its APIs are not \"finalized\" and will have breaking changes over time as we discover better solutions. There isn't currently a  release schedule, we're still getting the architecture right.\n> 🤖 **Slate is also contributor-driven.** It is not backed by any huge company, which means that all contributions are voluntary and done by the people who need them. If you need something improved, added, or fixed, please contribute it yourself or no one will. And if you want to become a more active maintainer, let us know in the Slack channel.\nWhy create Slate? Well... _(Beware: this section has a few of my opinions!)_",
+      "tag": "富文本编辑器框架"
+    },
+    {
+      "id": 15308499,
+      "name": "SortableJS/Sortable",
+      "stars": 31007,
+      "enhanced_text": "Reorderable drag-and-drop lists for modern browsers and touch devices. No jQuery or framework required.\n\n## Features\n* Supports touch devices and modern browsers (including IE9)\n* Can drag from one list to another or within the same list\n* CSS animation when moving items\n* Supports drag handles *and selectable text* (better than voidberg's html5sortable)\n* Smart auto-scrolling\n* Advanced swap detection\n* Support for CSS transforms\n* Built using native HTML5 drag and drop API\n* Supports any CSS library, e.g. Bootstrap\n* Support for plugins\n* No jQuery required (but there is support)\n* Typescript definitions at\n* Dragging Multiple Items in Sortable (April 26, 2019)\n* Swap Thresholds and Direction (December 2, 2018)\n\n### Getting Started\n\nInstall with NPM:",
+      "tag": "拖拽排序库"
+    },
+    {
+      "id": 13584262,
+      "name": "webtorrent/webtorrent",
+      "stars": 30739,
+      "enhanced_text": "⚡️ Streaming torrent client for the web.\n\n### Features\n- **Torrent client for node.js & the browser** (same npm package!)\n- Download **multiple torrents** simultaneously, efficiently\n- **Pure Javascript** (no native dependencies)\n- Exposes files as **streams**\n- Fetches pieces from the network on-demand so seeking is supported (even before torrent is finished)\n- Seamlessly switches between sequential and rarest-first piece selection strategy\n- Supports advanced torrent client features\n- **magnet uri** support via **ut_metadata**\n- **peer discovery** via **dht**,\n- **protocol extension api**\nfor adding new extensions\n- **Comprehensive test suite** (runs completely offline, so it's reliable and fast)\n- Check all the **supported BEPs here**\n#### Browser/WebRTC environment features",
+      "tag": "WebTorrent客户端"
+    },
+    {
+      "id": 46273445,
+      "name": "transloadit/uppy",
+      "stars": 30621,
+      "enhanced_text": "The next open source file uploader for web browsers :dog:.\n\nabout more important problems than building a file uploader.\n- **Fetch** files from local disk, remote URLs, Google Drive, Dropbox, Box,\nInstagram or snap and record selfies with a camera\n- **Preview** and edit metadata with a nice interface\n- **Upload** to the final destination, optionally process/encode\nUppy is being developed by the folks at Transloadit,\na versatile API to handle any file in your app.\nCode used in the above example:\n**read the docs** for more details on how to use Uppy\nUppy has first-class support for plain JS/HTML,\nFor the supported frameworks (except Angular) Uppy offers three ways to build user interfaces:\n1. **Pre-composed, plug-and-play components.** Mainly .\nThe downside is that you can’t customize the UI.\n2. **Headless components.** Smaller components, easier to override the styles\nor compose them together with your own components.\n\n## Features\n- Lightweight, modular plugin-based architecture, light on dependencies :zap:\n- Resumable file uploads via the open tus standard, so large\nuploads survive network hiccups\n- Supports picking files from: Webcam, Dropbox, Box, Google Drive, Instagram,\nbypassing the user’s device where possible, syncing between servers directly\n- Works great with file encoding and processing backends, such as\nTransloadit, works great without (all you need is\nto roll your own Apache/Nginx/Node/FFmpeg/etc backend)\n- Sleek user interface :sparkles:\n- Optional file recovery (after a browser crash) with\n- Speaks several languages (i18n) :earth_africa:\n- Built with accessibility in mind\n- Free for the world, forever (as in beer 🍺, pizza 🍕, and liberty 🗽)\n- Cute as a puppy, also accepts cat pictures :dog:",
+      "tag": "文件上传器SDK"
+    },
+    {
+      "id": 51769689,
+      "name": "refined-github/refined-github",
+      "stars": 30312,
+      "enhanced_text": ":octocat: Browser extension that simplifies the GitHub interface and adds useful features.\n\n> Browser extension that simplifies the GitHub interface and adds useful features\nWe use GitHub a lot and notice many annoyances we'd like to fix. So here be dragons.\nOur hope is that GitHub will notice and implement some of these much-needed improvements. So if you like any of these improvements, please open a discussion on GitHub feedback or contact GitHub support about doing it.\nGitHub Enterprise is also supported: How to enable it.\n*The GITHUB and REFINED GITHUB trademarks are owned by GitHub, Inc. and used under license.*\n[link-chrome]: https://chrome.google.com/webstore/detail/refined-github/hlepfoohegkhhmjieoechaddaejaokhf 'Version published on Chrome Web Store'\n[link-firefox]: https://addons.mozilla.org/firefox/addon/refined-github-/ 'Version published on Mozilla Add-ons'\n[link-safari]: https://apps.apple.com/app/id1519867270 'Version published on the Mac App Store'\n[][link-chrome] [][link-chrome] and other Chromium browsers",
+      "tag": "GitHub界面增强扩展"
+    },
+    {
+      "id": 14964475,
+      "name": "AvaloniaUI/Avalonia",
+      "stars": 29977,
+      "enhanced_text": "Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The most popular .NET UI client technology.\n\nAvalonia is a cross-platform UI framework for dotnet, providing a flexible styling system and supporting a wide range of platforms such as Windows, macOS, Linux, iOS, Android and WebAssembly. Avalonia is mature and production ready and is used by companies, including Schneider Electric, Unity, JetBrains and GitHub.\nConsidered by many to be the spiritual successor to WPF, Avalonia UI provides a familiar, modern development experience for XAML developers creating cross-platform applications. While Avalonia UI is similar to WPF, it isn't a 1:1 copy, and you'll find plenty of improvements.\nFor those seeking a cross-platform WPF, we have created Avalonia XPF), enabling WPF applications to run on macOS and Linux with little to no code changes. Avalonia XPF is a commercial product and is licensed per-app, per-platform.\nTo see the latest announcements and read about the state of Avalonia, check out the Avalonia UI Blog.\nYou can also see what breaking changes we have planned and what our past breaking changes have been.\nAwesome Avalonia is community-curated list of awesome Avalonia UI tools, libraries, projects and resources. Go and see what people are building with Avalonia!\nSee our Get Started guide to begin developing apps with Avalonia UI.",
+      "tag": "跨平台UI框架"
+    },
+    {
+      "id": 21484781,
+      "name": "jumpserver/jumpserver",
+      "stars": 29800,
+      "enhanced_text": "JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.",
+      "tag": "浏览器堡垒机"
+    },
+    {
+      "id": 698041,
+      "name": "caolan/async",
+      "stars": 28210,
+      "enhanced_text": "Async utilities for node and the browser.\n\nAsync is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via , it can also be used directly in the browser.  An ESM/MJS version is included in the main  package that should automatically be used with compatible bundlers such as Webpack and Rollup.\nA pure ESM version of Async is available as .\n*For Async v1.5.x documentation, go HERE*",
+      "tag": "异步编程工具库"
+    },
+    {
+      "id": 283211901,
+      "name": "yuliskov/SmartTube",
+      "stars": 27955,
+      "enhanced_text": "Browse media content with your own rules on Android TV.\n\n### Installation (Xiaomi devices with Chinese firmware)\nXiaomi's **Chinese firmware** might block the installation **of the beta version**. The international firmware is not affected. Solutions:\n1. Use SmartTube's **stable version** instead (**recommended**)\n2. Use the international firmware for your device\n3. (if your device is from 2020 or before) You can do a factory reset and then install SmartTube beta before doing any system updates. You can then safely update your system, SmartTube should continue working.\nThe app has a built-in updater. You only need to follow the installation procedure **once**. A few seconds after launching SmartTube, it will notify you if there is any update and also show a changelog. You can disable automatic update checks or manually update in the settings under \"about\".\nIf the installation fails, either your **disk space is full** or the update didn't download correctly; clear up space and try updating again (_Settings > About > Check for updates_).\nSmartTube requires Android 4.3 or above. It does not work on non-Android devices (incl. LG or Samsung TVs). On unsupported TVs, you can use a TV stick or TV box. Though this app technically runs on smartphones and tablets, it is not optimized for such and offers no official support!\nIt has been successfully tested on TVs, TV boxes and TV sticks that are based on Android, including:\n- Android TVs & Google TVs (e.g. Philips, Sony)\n- Chromecast with Google TV & TVs with _Chromecast built-in_\n- Amazon FireTV stick (all generations)\n- TV boxes running Android (many cheap chinese no-name boxes)\n\n## Installation\n> video of the installation (note: download url changed to  or )\n**Do not** download SmartTube from any **app store**, APK websites or blogs; these were uploaded by other people and may contain malware or ads. SmartTube is not officially published on any app store. Sadly, the Google PlayStore does not allow ad-free Youtube apps using unofficial APIs.\nThere is a **beta release** (recommended) and a **stable release**. Beta gets new features and bugfixes faster than the stable release.\nYou can use either of the following methods to install the app:\n- (**Easiest**) Install Downloader by AFTVnews on your Android TV, open it and enter  or , then read, understand and confirm the security prompts. (You can also enter **79015** (for beta) or **28544** (for stable), but this requires an extra step to install the AFTVnews Downloader browser addon if you haven't already...",
+      "tag": "Android TV应用"
+    },
+    {
+      "id": 1254497,
+      "name": "codemirror/codemirror5",
+      "stars": 27228,
+      "enhanced_text": "In-browser code editor (version 5, legacy).\n\n### Installation\nEither get the zip file with\nthe latest version, or make sure you have Node",
+      "tag": "浏览器代码编辑器"
+    },
+    {
+      "id": 90356372,
+      "name": "ArchiveBox/ArchiveBox",
+      "stars": 26758,
+      "enhanced_text": "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...\n\nInstall Docker on your system (if not already installed).\nDownload the docker-compose.yml file into a new empty directory (can be anywhere).\nmkdir -p ~/archivebox/data && cd ~/archivebox\n# Read and edit docker-compose.yml options as-needed after downloading\ncurl -fsSL 'https://docker-compose.archivebox.io' > docker-compose.yml\nRun the initial setup to create an admin user (or set ADMIN_USER/PASS in docker-compose.yml)\ndocker compose run archivebox init --setup\nNext steps: Start the server then login to the Web UI http://127.0.0.1:8000 ⇢ Admin.\n# completely optional, CLI can always be used without running a server\n# docker compose run [-T] archivebox [subcommand] [--help]\ndocker compose run archivebox add 'https://example.com'\ndocker compose run archivebox help\nFor more info, see Install: Docker Compose in the Wiki. ➡️\nSee below for more usage examples using the CLI, Web UI, or filesystem/SQL/Python to manage your archive.\ndocker run  (macOS/Linux/Windows)\n\nInstall Docker on your system (if not already installed).\nCreate a new empty directory and initialize your collection (can be anywhere).\nmkdir -p ~/archivebox/data && cd ~/archivebox/data\ndocker run -v $PWD:/data -it archivebox/archivebox init --setup\nOptional: Start the server then login to the Web UI http://127.0.0.1:8000 ⇢ Admin.\ndocker run -v $PWD:/data -p 8000:8000 archivebox/archivebox\n# completely optional, CLI can always be used without running a server\n# docker run -v $PWD:/data -it [subcommand] [--help]\ndocker run -v $PWD:/data -it archivebox/archivebox help\nFor more info, see Install: Docker Compose in the Wiki. ➡️\nSee below for more usage examples using the CLI, Web UI, or filesystem/SQL/Python to manage your archive.\nbash auto-setup script  (macOS/Linux)\n\nInstall Docker on your system (optional, highly recommended but not required).\nRun the automatic setup script.\ncurl -fsSL 'https://get.archivebox.io' | bash\nFor more info, see Install: Bare Metal in the Wiki. ➡️\nSee below for more usage examples using the CLI, Web UI, or filesystem/SQL/Python to manage your archive.\nSee setup.sh for the source code of the auto-install script.\nSee \"Against curl | sh as an install method\" blog post for my thoughts on the shortcomings of this install method.\n#### 🛠&nbsp; Package Manager Setup\npip (macOS/Linux/BSD)\n\nInstall Python >= v3.10 and Node >= v18 on your system (if not already installed).\n\nInstall the ArchiveBox package using pip3 (or uvx)...",
+      "tag": "自托管网页归档"
+    },
+    {
+      "id": 312262,
+      "name": "philc/vimium",
+      "stars": 25974,
+      "enhanced_text": "The hacker's browser.\n\n# Vimium - The Hacker's Browser\nVimium is a browser extension that provides keyboard-based navigation and control of the web in the\nTo install from source, see here.\nVimium's Options page can be reached via a link on the help dialog (type ) or via the button next",
+      "tag": "键盘导航扩展"
+    },
+    {
+      "id": 317757,
+      "name": "Modernizr/Modernizr",
+      "stars": 25690,
+      "enhanced_text": "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.\n\n- Read this file in Portuguese-BR here\n- Read this file in Indonesian here\n- Read this file in Spanish here\n- Read this file in Swedish here\n- Read this file in Kannada here\n- Our Website is outdated and broken, please DO NOT use it (https://modernizr.com) but rather build your modernizr version from npm.",
+      "tag": "浏览器特性检测库"
+    },
+    {
+      "id": 935604638,
+      "name": "Fosowl/agenticSeek",
+      "stars": 24927,
+      "enhanced_text": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account).",
+      "tag": "本地AI代理"
+    },
+    {
+      "id": 609416865,
+      "name": "nextai-translator/nextai-translator",
+      "stars": 24845,
+      "enhanced_text": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.\n\n# How to use\n1. It offers three modes: translation, polishing and summarization.\n2. Our tool allows for mutual translation, polishing and summarization across 55 different languages.\n3. Streaming mode is supported!\n4. It allows users to customize their translation text.\n6. Text-to-Speech (TTS)\n7. Available on all platforms (Windows, macOS, and Linux) for both browsers and Desktop\n8. Support screenshot translation\n9. Support for vocabulary books, as well as support for generating memory aids based on the words in the vocabulary books\n10. Supports both OpenAI and Azure OpenAI Service at the same time\n-   (required) Apply for an OpenAI API key here or Azure OpenAI Service API Key\n-   (optional) If you cannot access OpenAI, you can use the OpenAI API Proxy.\n\n# Installation\n\n### Install Manually\n1. Download the installation package ending in  from the Latest Release page.\n2. Double click the downloaded file to install it.\n3. If prompted as unsafe, you can click on  ->  to proceed with the installation.\n\n### Install Manually\n1. Go to the Latest Release page and download the corresponding chip's  installation package. Note: Use aarch64 version for Apple Silicon machines and run  command below.\n2. Double click the downloaded file to install it.\n-   \"NextAI Translator\" can’t be opened because the developer cannot be verified.\n-   Click the  button, then go to the  ->  page, click the  button, and then click the  button in the pop-up window. After that, there will be no more pop-up warnings when opening . 🎉\n-   If you cannot find the above options in , or get error prompts such as broken files with Apple Silicon machines. Open  and enter the following command (you may need to enter a password halfway through), then restart :\n-   If you encounter a permission prompt every time you open it, or if you cannot perform a shortcut translation, please go to  ->  ->  to remove NextAI Translator, and then re-add NextAI Translator.",
+      "tag": "AI划词翻译扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 61412022,
+        "tag": "富文本编辑器框架"
+      },
+      {
+        "id": 15308499,
+        "tag": "拖拽排序库"
+      },
+      {
+        "id": 13584262,
+        "tag": "WebTorrent客户端"
+      },
+      {
+        "id": 46273445,
+        "tag": "文件上传器SDK"
+      },
+      {
+        "id": 51769689,
+        "tag": "GitHub界面增强扩展"
+      },
+      {
+        "id": 14964475,
+        "tag": "跨平台UI框架"
+      },
+      {
+        "id": 21484781,
+        "tag": "浏览器堡垒机"
+      },
+      {
+        "id": 698041,
+        "tag": "异步编程工具库"
+      },
+      {
+        "id": 283211901,
+        "tag": "Android TV应用"
+      },
+      {
+        "id": 1254497,
+        "tag": "浏览器代码编辑器"
+      },
+      {
+        "id": 90356372,
+        "tag": "自托管网页归档"
+      },
+      {
+        "id": 312262,
+        "tag": "键盘导航扩展"
+      },
+      {
+        "id": 317757,
+        "tag": "浏览器特性检测库"
+      },
+      {
+        "id": 935604638,
+        "tag": "本地AI代理"
+      },
+      {
+        "id": 609416865,
+        "tag": "AI划词翻译扩展"
+      }
+    ]
+  }
+}

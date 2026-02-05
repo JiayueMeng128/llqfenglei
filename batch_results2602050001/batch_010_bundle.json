@@ -1,0 +1,180 @@
+{
+  "batch_id": 10,
+  "timestamp": "2026-02-05T13:21:28.550733",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 12261520,
+      "name": "smartystreets/goconvey",
+      "stars": 8419,
+      "enhanced_text": "Go testing in the browser. Integrates with `go test`. Write behavioral tests in Go.\n\nInstallation\n$ go install github.com/smartystreets/goconvey",
+      "tag": "Go测试框架"
+    },
+    {
+      "id": 802006,
+      "name": "mediaelement/mediaelement",
+      "stars": 8304,
+      "enhanced_text": "HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.\n\n## Introduction\n_MediaElementPlayer: HTML5  and  player_\nA complete HTML/CSS audio/video player built on top .\nIn general,  supports **IE11+, MS Edge, Chrome, Firefox, Safari, iOS 8+** and **Android 4.0+**.\n**It is strongly recommended to read the entire documentation and check the  folder to get the most out of this package**. Visit here to start.",
+      "tag": "HTML5媒体播放器"
+    },
+    {
+      "id": 2931111,
+      "name": "chaijs/chai",
+      "stars": 8268,
+      "enhanced_text": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.\n\n## Installation\nis available on npm. To install it, type:\n$ npm install --save-dev chai\nYou can also use it within the browser; install via npm and use the  file found within the download. For example:\nImport the library in your code, and then pick one of the styles you'd like to use - either ,  or :\n### Register the chai testing style globally\n### Import assertion styles as local variables\n\n## What is Chai?\nChai is an _assertion library_, similar to Node's built-in . It makes testing much easier by giving you lots of assertions you can run against your code.",
+      "tag": "断言测试库"
+    },
+    {
+      "id": 741365632,
+      "name": "apify/crawlee-python",
+      "stars": 8013,
+      "enhanced_text": "Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.\n\n## Installation\nWe recommend visiting the Introduction tutorial in Crawlee documentation for more information.\nCrawlee is available as  package on PyPI. This package includes the core functionality, while additional features are available as optional extras to keep dependencies and package size minimal.\nTo install Crawlee with all features, run the following command:\nThen, install the Playwright dependencies:\nVerify that Crawlee is successfully installed:\nFor detailed installation instructions see the Setting up documentation page.\nThe quickest way to get started with Crawlee is by using the Crawlee CLI and selecting one of the prepared templates. First, ensure you have uv installed:\nIf uv is not installed, follow the official installation guide.\nThen, run the CLI and choose from the available templates:\nIf you already have  installed, you can spin it up by running:\nHere are some practical examples to help you get started with different types of crawlers in Crawlee. Each example demonstrates how to set up and run a crawler for specific use cases, whether you need to handle simple HTML pages or interact with JavaScript-heavy sites. A crawler run will create a  directory in your current working directory.\n### BeautifulSoupCrawler\nThe  downloads web pages using an HTTP library and provides HTML-parsed content to the user. By default it uses  for HTTP communication and BeautifulSoup for parsing HTML. It is ideal for projects that require efficient extraction of data from HTML content. This crawler has very good performance since it does not use a browser. However, if you need to execute client-side JavaScript, to get your content, this is not going to be enough and you will need to use . Also if you want to use this crawler, make sure you install  with  extra.\n### PlaywrightCrawler",
+      "tag": "Python爬虫框架"
+    },
+    {
+      "id": 230881127,
+      "name": "luruke/browser-2020",
+      "stars": 8000,
+      "enhanced_text": "Things you can do with a browser in 2020 ☕️.\n\nIt's 2020, and browsers can do amazing stuff.\nThis repo contains a non-exhaustive list of less-known features implemented in browsers **today**.\nThis list isn't intended for a technical audience; instead it wants to be a \"I didn't know we could do that in a browser!\" list.\nIn many cases, listed features aren't yet part of the standard, and may only be available on certain browsers or configurations.\nMany OSes provide light or dark color theme (notably dark mode on macOS). Websites can detect the preferred color scheme.\nSimilarly to dark mode, users in their OS can remove/reduce animations, we can also detect that.\nProcess payments via native browser UI which will be autofilled with credit card, shipping info etc.",
+      "tag": "浏览器技术概览"
+    },
+    {
+      "id": 437505831,
+      "name": "Floorp-Projects/Floorp",
+      "stars": 7976,
+      "enhanced_text": "All of source code of Floorp 12, the most Advanced and Fastest Firefox derivative 🦊.\n\nA browser built for keeping the Open, Private and Sustainable Web alive. Based on Mozilla Firefox.\n[![Contributors][contributors-shield]][contributors-url]\n[![Forks][forks-shield]][forks-url]\n[![Stargazers][stars-shield]][stars-url]\n[![Issues][issues-shield]][issues-url]\n[![License][license-shield]][license-url]\n[contributors-url]: https://github.com/Floorp-Projects/Floorp/graphs/contributors\n[forks-url]: https://github.com/Floorp-Projects/Floorp/network/members\n[stars-url]: https://github.com/Floorp-Projects/Floorp/stargazers",
+      "tag": "Firefox衍生浏览器"
+    },
+    {
+      "id": 62937181,
+      "name": "PrivateBin/PrivateBin",
+      "stars": 7969,
+      "enhanced_text": "A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.\n\n**PrivateBin** is a minimalist, open source online\nwhere the server has zero knowledge of stored data.\nData is encrypted and decrypted in the browser using 256bit AES in\nThis is a fork of ZeroBin, originally developed by\nSébastien Sauvage. PrivateBin was\nrefactored to allow easier and cleaner extensions and has many additional\n+ As a server administrator you don't have to worry if your users post content",
+      "tag": "浏览器端加密工具"
+    },
+    {
+      "id": 46891997,
+      "name": "brave/browser-laptop",
+      "stars": 7932,
+      "enhanced_text": "[DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave.\n\nInstall from your package manager, nvm, or download from https://nodejs.org\n2. npm version 5 or greater (to make use of the )\n#### On Debian / Ubuntu /Mint",
+      "tag": "Chromium浏览器"
+    },
+    {
+      "id": 5839692,
+      "name": "webpack/webpack-dev-server",
+      "stars": 7853,
+      "enhanced_text": "Serves a webpack app. Updates the browser on changes. Documentation https://webpack.js.org/configuration/dev-server/.\n\n## Getting Started\nFirst things first, install the module:\n_Note: While you can install and run webpack-dev-server globally, we recommend",
+      "tag": "Webpack开发服务器"
+    },
+    {
+      "id": 11621778,
+      "name": "danialfarid/ng-file-upload",
+      "stars": 7822,
+      "enhanced_text": "Lightweight Angular directive to upload files with optional FileAPI shim for cross browser support.\n\n##  Features\n* file upload progress, cancel/abort\n* file drag and drop (html5 only)\n* image paste from clipboard and drag and drop from browser pages (html5 only).\n* image resize and center crop (native) and user controlled crop through ngImgCrop. See crop sample (html5 only)\n* orientation fix for jpeg image files with exif orientation data\n* resumable uploads: pause/resume upload (html5 only)\n* native validation support for file type/size, image width/height/aspect ratio, video/audio duration, and  with pluggable custom sync or async validations.\n* show thumbnail or preview of selected images/audio/videos\n* supports CORS and direct upload of file's binary data using\n* plenty of sample server side code, available on nuget\n* on demand flash FileAPI shim loading no extra load for html5 browsers.\n* HTML5 FileReader.readAsDataURL shim for IE8-9\n* available on npm, bower, meteor, nuget",
+      "tag": "Angular文件上传"
+    },
+    {
+      "id": 12558645,
+      "name": "violentmonkey/violentmonkey",
+      "stars": 7810,
+      "enhanced_text": "Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.",
+      "tag": "用户脚本管理器"
+    },
+    {
+      "id": 89785877,
+      "name": "robinmoisson/staticrypt",
+      "stars": 7808,
+      "enhanced_text": "Password protect a static HTML page, decrypted in-browser in JS with no dependency. No server logic needed.\n\n### Installation\nStaticrypt is available through npm as a CLI, install with\nYou can then run it with . You can also install globally with  and then just call  from anywhere.\n> These examples will create a  file in the current directory (here's why). This file isn't secret and you don't need to protect it. You can prevent this by setting the  flag to  (a string).\nEncrypt  and create a  file (use  to change the output directory):\n#### Encrypt a file with the password in an environment variable\nSet your long password in the  environment variable ( files are supported):\n#### Encrypt multiple HTML files at once\nThis will put the HTML files in an  directory, created where you run the  command. Non-HTML files will be copied as-is from the input directory, so you can easily overwrite it with the encrypted directory if you want.\n#### Replace all the files in a folder with encrypted ones\n#### Get a shareable auto-decrypt link\nThe link contains the hashed password, that will auto-decrypt the file - you can include your file URL or leave blank. (⚠️ you should keep your  so the salt is the same each time you encrypt, or re-encrypting will invalidate the link):\n#### Pin the salt to use staticrypt in your CI or build step\nIf you want want the \"Remember-me\" or share features to work accross multiple pages or multiple successive deployment, the salt needs to stay the same (see why). If you run StatiCrypt in a CI step, you can pin the salt in two ways:\n- either commit the  config file - you can generate a random salt and config file on your local machine with:",
+      "tag": "静态页面加密"
+    },
+    {
+      "id": 69316510,
+      "name": "weolar/miniblink49",
+      "stars": 7794,
+      "enhanced_text": "a lighter, faster browser kernel of blink to integrate HTML UI in your app. 一个小巧、轻量的浏览器内核，用来取代wke和libcef.\n\n# 特性 Features\n- 极致小巧的体积 (small size)\n- C++，C#，Delphi等语言调用 (support C++，C#，Delphi language to call)\n- 内嵌Nodejs，支持electron (with Nodejs, can run electron)\n- 随心所欲的定制功能、模拟环境 (simulate other browser environment)\n- 支持Windows xp、npapi (support windows xp and npapi)\n- 完善的HTML5支持，对各种前端库友好 (support HTML5, and friendly to front framework)\n- 关闭跨域开关后，可以使用各种跨域功能 (support cross domain)\n- 网络资源拦截，替换任意网站任意js为本地文件 (network intercept, you can replace any resource to local file)\n- headless模式，极大节省资源，适用于爬虫 (headless mode, be suitable for Web Crawler)\n\n# 简介 Abstract\nminiblink is a open source, one file, small browser widget base on chromium.\nBy using C interface, you can create a browser just some line code.\nmore information at http://miniblink.net\nminiblink是一个开源的、单文件、且目前已知的最小的基于chromium的，浏览器控件。\n通过其导出的纯C接口，几行代码即可创建一个浏览器控件。\n您可以通过官网http://miniblink.net 来获取更多的关于miniblink的信息。",
+      "tag": "嵌入式浏览器内核"
+    },
+    {
+      "id": 109200851,
+      "name": "microsoft/azuredatastudio",
+      "stars": 7719,
+      "enhanced_text": "Azure Data Studio is a data management and development tool with connectivity to popular cloud and on-premises databases. Azure Data Studio supports Windows, macOS, and Linux, with immediate capability to connect to Azure SQL and SQL Server. Browse the extension library for more database support options including MySQL, PostgreSQL, and MongoDB.\n\n> Azure Data Studio will be retired on **February 28, 2026**.  Read more\nAzure Data Studio is a data management and development tool with connectivity to popular cloud and on-premises databases. Azure Data Studio supports Windows, macOS, and Linux, with immediate capability to connect to Azure SQL and SQL Server.  Browse the extension library for additional database support options including MySQL, PostgreSQL, and MongoDB.\n## **Download the latest Azure Data Studio release**\nPlease visit our download page for more specific installation instructions.\nCheck out the change log or release notes for additional details of what's in the each release.\nThe Azure Data Studio documentation includes complete details on getting started, connection quickstarts, and feature tutorials.\nYou can also find the latest release here.",
+      "tag": "数据库管理工具"
+    },
+    {
+      "id": 711976,
+      "name": "octokit/octokit.js",
+      "stars": 7682,
+      "enhanced_text": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno.\n\nInstall with npm/pnpm install octokit, or yarn add octokit\n> As we use conditional exports, you will need to adapt your  by setting .\n> See the TypeScript docs on package.json \"exports\".\n> See this helpful guide on transitioning to ESM from @sindresorhus\n**standalone minimal Octokit**: .\nThe  client can be used to send requests to GitHub's REST API and queries to GitHub's GraphQL API.\n**Example**: Get the username for the authenticated user.\n### Constructor options\nThe most commonly used options are\n\ndescription\nSetting a user agent is required for all requests sent to GitHub's Platform APIs. The user agent defaults to something like this: . It is recommend to set your own user agent, which will prepend the default one.\nSee Authentication below.\nSet to a personal access token unless you changed the  option.\nSee Authentication below.\nWhen using with GitHub Enterprise Server, set  to the root URL of the API. For example, if your GitHub Enterprise Server's hostname is , then set  to . Example\n\n## Features\n- **Complete**. All features of GitHub's platform APIs are covered.\n- **Prescriptive**. All recommended best practices are implemented.\n- **Universal**. Works in all modern browsers, Node.js, and Deno.\n- **Tested**. All libraries have a 100% test coverage.\n- **Typed**. All libraries have extensive TypeScript declarations.\n- **Decomposable**. Use only the code you need. You can build your own Octokit in only a few lines of code or use the underlying static methods. Make your own tradeoff between functionality and bundle size.\n- **Extendable**. A feature missing? Add functionalities with plugins, hook into the request or webhook lifecycle or implement your own authentication strategy.\nLoad octokit directly from esm.sh\nLoad octokit directly from esm.sh",
+      "tag": "GitHub API客户端"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 12261520,
+        "tag": "Go测试框架"
+      },
+      {
+        "id": 802006,
+        "tag": "HTML5媒体播放器"
+      },
+      {
+        "id": 2931111,
+        "tag": "断言测试库"
+      },
+      {
+        "id": 741365632,
+        "tag": "Python爬虫框架"
+      },
+      {
+        "id": 230881127,
+        "tag": "浏览器技术概览"
+      },
+      {
+        "id": 437505831,
+        "tag": "Firefox衍生浏览器"
+      },
+      {
+        "id": 62937181,
+        "tag": "浏览器端加密工具"
+      },
+      {
+        "id": 46891997,
+        "tag": "Chromium浏览器"
+      },
+      {
+        "id": 5839692,
+        "tag": "Webpack开发服务器"
+      },
+      {
+        "id": 11621778,
+        "tag": "Angular文件上传"
+      },
+      {
+        "id": 12558645,
+        "tag": "用户脚本管理器"
+      },
+      {
+        "id": 89785877,
+        "tag": "静态页面加密"
+      },
+      {
+        "id": 69316510,
+        "tag": "嵌入式浏览器内核"
+      },
+      {
+        "id": 109200851,
+        "tag": "数据库管理工具"
+      },
+      {
+        "id": 711976,
+        "tag": "GitHub API客户端"
+      }
+    ]
+  }
+}

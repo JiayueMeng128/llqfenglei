@@ -1,0 +1,180 @@
+{
+  "batch_id": 22,
+  "timestamp": "2026-02-05T13:24:53.493945",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 18382480,
+      "name": "matomo-org/device-detector",
+      "stars": 3432,
+      "enhanced_text": "The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.",
+      "tag": "用户代理解析库"
+    },
+    {
+      "id": 29791986,
+      "name": "paulirish/git-open",
+      "stars": 3419,
+      "enhanced_text": "Type `git open` to open the GitHub page or website for a repository in your browser.\n\n## Installation\nThe preferred way of installation is to simply add the  script\nsomewhere into your path (e.g. add the directory to your  environment\nor copy  into an existing included path like ).",
+      "tag": "Git命令行工具"
+    },
+    {
+      "id": 209153343,
+      "name": "qawolf/qawolf",
+      "stars": 3416,
+      "enhanced_text": "🐺 Create browser tests 10x faster.\n\nWe take testing off your plate. We build complete coverage in 4 months and keep you there. You get unlimited, parallel test runs on our infrastructure, and we guarantee zero flakes. It’s like magic but it’s QA Wolf.\nAt QA Wolf, we’re building the magical QA experience that we wanted when we were managing engineering teams. With zero effort on your part, we get you to 80% automated test coverage in 4 months — and keep you there.\n- **We plan.** You’ll get a test matrix covering every user flow in your web app, from happy path to edge case and everything in between.\n- **We automate.** Using vanilla, open source Microsoft Playwright so that there’s no vendor lock-in — you own every test.\n- **We run.** Every test in full parallel, on our own infrastructure, as many times as you want — no extra charge.\n- **We triage.** When tests fail, we have full-time human QA engineers review the tests. We clear out all the noise of flaky tests and give you clear, human-verified bug reports.\n- **We maintain.** Flaky and broken tests are fixed automatically, 24-hours a day.\n- **We integrate.** Into your CI/CD, your issue tracker, your messaging app — we’ll feel like part of your team.",
+      "tag": "浏览器自动化测试"
+    },
+    {
+      "id": 272808853,
+      "name": "tiny-pilot/tinypilot",
+      "stars": 3386,
+      "enhanced_text": "Use your Raspberry Pi as a browser-based KVM.\n\n## Overview\nTurn your Raspberry Pi into a browser-based KVM.",
+      "tag": "浏览器KVM工具"
+    },
+    {
+      "id": 83772716,
+      "name": "SilenceLove/HXPhotoPicker",
+      "stars": 3384,
+      "enhanced_text": "图片/视频选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、编辑图片/视频、浏览网络图片 功能    Imitation wx photo/image picker - support for LivePhoto, GIF image selection, 3DTouch preview, Download the resources on iCloud online, browse the web image function.\n\n一款图片/视频选择器-支持LivePhoto、GIF选择、iCloud/网络资源在线下载、图片/视频编辑",
+      "tag": "媒体选择器组件"
+    },
+    {
+      "id": 25076124,
+      "name": "kovacsv/Online3DViewer",
+      "stars": 3377,
+      "enhanced_text": "A solution to visualize and explore 3D models in your browser.\n\nOnline 3D Viewer (https://3dviewer.net) is a free and open source web solution to visualize and explore 3D models in your browser. This repository contains the source code of the website and the library behind it.\nLive website &nbsp;-&nbsp; Website documentation &nbsp;-&nbsp; Developer documentation &nbsp;-&nbsp; Discord server\n* **Import**: 3dm, 3ds, 3mf, amf, bim, brep, dae, fbx, fcstd, gltf, ifc, iges, step, stl, obj, off, ply, wrl.\n* **Export**: 3dm, bim, gltf, obj, off, stl, ply.\nOnline 3D Viewer uses these wonderful libraries: three.js, pickr, fflate, draco, rhino3dm, web-ifc, occt-import-js.",
+      "tag": "Web 3D可视化库"
+    },
+    {
+      "id": 14939303,
+      "name": "EFForg/https-everywhere",
+      "stars": 3360,
+      "enhanced_text": "A browser extension that encrypts your communications with many websites that offer HTTPS but still allow unencrypted connections.",
+      "tag": "HTTPS强制扩展"
+    },
+    {
+      "id": 82643171,
+      "name": "EmailThis/extension-boilerplate",
+      "stars": 3325,
+      "enhanced_text": "⚡️ A template for building cross browser extensions for Chrome, Opera & Firefox.\n\n## Features\nWrite once and deploy to Chrome, Opera & Firefox\nBased on WebExtensions. It also includes a tiny polyfill to bring uniformity to the APIs exposed by different browsers.\nYour changes to CSS, HTML & JS files will be relayed instantly without having to manually reload the extension. This ends up saving a lot of time and improving the developer experience.\nSensible starting point\nThis comes with a gulp based workflow that converts modern ES6 JavaScript and SCSS to JS/CSS.\nScripts are transpiled using Babel and bundled using Browserify.\nSourcemaps are available for both JS and SCSS.\nSketch (.sketch) assets for icons and promo images\nA .sketch file is included in the resources directory. This has all the icons and promo images that will be needed while uploading the extensions to the app stores.\nEasily configurable and extendable\nThe gulpfile is easily understandable and configurable. If you want to add additional tasks or remove un-used ones, you can easily tweak that file to suit your needs.\nPlatform specific & Environment specific variables.\nYou might need to specify different data variables based on your environment. For example, you might want to use a localhost API endpoint during development and a production API endpoint once the extension is submitted to the appstore. You can specify such data in the json files inside  directory.\nYou can also set custom data variables based on the platform (different variable for Chrome, FF, Opera).",
+      "tag": "跨浏览器扩展模板"
+    },
+    {
+      "id": 249063259,
+      "name": "ianramzy/decentralized-video-chat",
+      "stars": 3321,
+      "enhanced_text": "🚀 Zipcall- Acquired @ 250k users 🚀 Peer to peer browser video calling platform with unmatched video quality and latency.",
+      "tag": "WebRTC视频通话"
+    },
+    {
+      "id": 955169955,
+      "name": "imskyleen/animate-ui",
+      "stars": 3320,
+      "enhanced_text": "Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.\n\nVisit animate-ui.com to view the documentation.\nVisit our contributing guide to learn how to contribute.\nThis project follows a Code of Conduct to help create a welcoming community.\nPlease read CODE_OF_CONDUCT.md before contributing.\nLicensed under the MIT license.",
+      "tag": "React动画组件库"
+    },
+    {
+      "id": 15085215,
+      "name": "UI5/openui5",
+      "stars": 3254,
+      "enhanced_text": "OpenUI5 lets you build enterprise-ready web applications, responsive to all devices, running on almost any browser of your choice.",
+      "tag": "企业级Web框架"
+    },
+    {
+      "id": 418086942,
+      "name": "ismartcoding/plain-app",
+      "stars": 3246,
+      "enhanced_text": "PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop.",
+      "tag": "远程设备管理应用"
+    },
+    {
+      "id": 615439742,
+      "name": "xenova/whisper-web",
+      "stars": 3233,
+      "enhanced_text": "ML-powered speech recognition directly in your browser.\n\n> Experimental WebGPU support has been added to this branch (demo), if you'd like to run with GPU acceleration!\nhttps://github.com/xenova/whisper-web/assets/26504141/fb170d84-9678-41b5-9248-a112ecc74c27\n1. Clone the repo and install dependencies:\n> Firefox users need to change the  setting in  to  to enable Web Workers.",
+      "tag": "浏览器端语音识别"
+    },
+    {
+      "id": 3224614,
+      "name": "cocos2d/cocos2d-html5",
+      "stars": 3232,
+      "enhanced_text": "Cocos2d for Web Browsers. Built using JavaScript.\n\n[Cocos2d-html5][1] is a cross-platform 2D game engine written in JavaScript, based on [Cocos2d-X][2] and licensed under MIT.\nIt incorporates the same high level api as “Cocos2d JS-binding engine” and compatible with Cocos2d-X.\nIt currently supports canvas and WebGL renderer.\n#### Cocos2d-html5 has evolved to [Cocos Creator][11], new generation of Cocos game engine with a full featured editor and content creation friendly workflow. It supports all major platforms allowing games to be quickly released for the web, iOS, Android, Windows, Mac, and various mini-game platforms. A pure JavaScript-developed engine runtime is available on the web and mini-game platforms for better performance and smaller packages. On other native platforms, C++ is used to implement the underlying framework, providing greater operational efficiency. The latest repository is maintained in here [Engine of Cocos Creator][9].\n* Popular browsers:  Chrome 14+, Safari 5.0+, IE9+, Firefox 3.5+.\n* Mobile platforms: Mobile browsers,Facebook Instant Games and Mini Games.\n* Native App: Same piece of code can run on \"Cocos2d JS-Binding Engine\" without or with little modification.",
+      "tag": "JavaScript游戏引擎"
+    },
+    {
+      "id": 29885833,
+      "name": "stefanbuck/awesome-browser-extensions-for-github",
+      "stars": 3220,
+      "enhanced_text": "A collection of awesome browser extensions for GitHub.\n\nInstalls: 113 | Stars: 79 | Last update: 2 Jun 2023\nRemoves clutter from your pull request by automatically marking as viewed files that aren't worth reviewing.\n\nInstalls: 39 | Stars: 8 | Last update: n/a\nNext level code navigation for GitHub.\n\nInstalls: 599 | Stars: 65 | Last update: n/a\nVisualize GitHub repos as d3 force-directed graphs. The extension gives you a quick overview of the size and composition of any repo.\n\nInstalls: 18 | Stars: 15 | Last update: 25 Apr 2022\n### CoderStats link for GitHub\nThe CoderStats link for GitHub Chrome extension displays a link to the CoderStats page for the currently displayed user or organization profile page on GitHub.\n\nInstalls: 13 | Stars: 20 | Last update: 2 May 2023\n### Contributors on GitHub\nShow the # of PRs and other contributors stats in the Issues/PRs tab. Can be helpful for maintainers that want to know if it's a contributor's first PR.\n\nInstalls: 6 | Stars: 467 | Last update: 1 Mar 2021\nDisplays size of each file, download link and an option of copying file contents directly to clipboard\n\nInstalls: 626 | Stars: 2071 | Last update: 3 Jun 2024\nEasily search GIPHY to add a GIF into any GitHub comment box.\n\nInstalls: 519 | Stars: 184 | Last update: 18 Jan 2024\n### Gifhub Pull Request\nFind the best GIFs for your awesome pull requests.\n\nInstalls: 136 | Stars: 22 | Last update: n/a\nQuickly browse the history of a file from any git repository.\n\nInstalls: 192 | Stars: 13534 | Last update: 13 Oct 2023\nGitHub provides a page that only shows diffs with a .diff at the end of the URL of the pull request. This browser extension makes it easier to view csv diffs by using daff on that page.\n\nInstalls: 34 | Stars: 4 | Last update: n/a\n### GitHub Code Folding\nCode folding - the ability to selectively hide and display sections of a code - is an invaluable feature in many text editors and IDEs. Now, developers can utilize that same style code-folding while poring over source code on the web in GitHub. Works for any type of indentation- spaces or tabs.\n\nInstalls: 104 | Stars: 289 | Last update: 25 Apr 2024\n### GitHub Custom Tab Size\nSet custom tab size for code view on GitHub.com\n\nInstalls: 558 | Stars: 69 | Last update: n/a\n### GitHub Diff Navigator\nEasily navigate through the changes in a file that has been edited on GitHub.\n\nInstalls: 3 | Stars: 19 | Last update: 24 Jun 2020\nA browser extension which gives different filetypes different icons on GitHub...",
+      "tag": "GitHub扩展集合"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 18382480,
+        "tag": "用户代理解析库"
+      },
+      {
+        "id": 29791986,
+        "tag": "Git命令行工具"
+      },
+      {
+        "id": 209153343,
+        "tag": "浏览器自动化测试"
+      },
+      {
+        "id": 272808853,
+        "tag": "浏览器KVM工具"
+      },
+      {
+        "id": 83772716,
+        "tag": "媒体选择器组件"
+      },
+      {
+        "id": 25076124,
+        "tag": "Web 3D可视化库"
+      },
+      {
+        "id": 14939303,
+        "tag": "HTTPS强制扩展"
+      },
+      {
+        "id": 82643171,
+        "tag": "跨浏览器扩展模板"
+      },
+      {
+        "id": 249063259,
+        "tag": "WebRTC视频通话"
+      },
+      {
+        "id": 955169955,
+        "tag": "React动画组件库"
+      },
+      {
+        "id": 15085215,
+        "tag": "企业级Web框架"
+      },
+      {
+        "id": 418086942,
+        "tag": "远程设备管理应用"
+      },
+      {
+        "id": 615439742,
+        "tag": "浏览器端语音识别"
+      },
+      {
+        "id": 3224614,
+        "tag": "JavaScript游戏引擎"
+      },
+      {
+        "id": 29885833,
+        "tag": "GitHub扩展集合"
+      }
+    ]
+  }
+}

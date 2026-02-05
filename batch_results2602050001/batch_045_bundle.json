@@ -1,0 +1,180 @@
+{
+  "batch_id": 45,
+  "timestamp": "2026-02-05T13:30:12.220261",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 12617171,
+      "name": "jordwest/news-feed-eradicator",
+      "stars": 1363,
+      "enhanced_text": "A browser extension that deletes your news feed and replaces it with a nice quote.\n\nInstall Firefox Add-on\n## Contributing to News Feed Eradicator\nFor *bugs only*, please use the issue tracker.\n\nInstall Chrome Extension",
+      "tag": "浏览器扩展"
+    },
+    {
+      "id": 24239833,
+      "name": "sindresorhus/is-online",
+      "stars": 1362,
+      "enhanced_text": "Check if the internet connection is up.\n\n> Check if the internet connection is up\nWorks in Node.js and the browser *(with a bundler)*.\nIn the browser, there is already , but it's useless as it only tells you if there's a local connection, and not whether the internet is accessible.\n- Works in modern browsers when bundled (requires  API support)",
+      "tag": "网络状态检测库"
+    },
+    {
+      "id": 80326656,
+      "name": "mmozeiko/RcloneBrowser",
+      "stars": 1358,
+      "enhanced_text": "Simple cross platform GUI for rclone.\n\n**WARNING: This project is not longer active or maintaned.**\n**Initially I created it only because rclone mount did not work in the beginning. Now mount on Windows works fine, so this project is not useful for me anymore.**\n**I suggest to try out rclone built-in web based GUI instead**\n[![Travis CI Build Status][img1]][1] [![AppVeyor Build Status][img2]][2] [![Downloads][img3]][3] [![Release][img4]][4] [![License][img5]][5]\nSimple cross platfrom GUI for rclone command line tool.\nSupports Windows, macOS and GNU/Linux.\n* Allows to browse and modify any rclone remote, including encrypted ones\n* Uses same configuration file as rclone, no extra configuration required\n* Supports custom location and encryption for  configuration file",
+      "tag": "跨平台GUI工具"
+    },
+    {
+      "id": 256300799,
+      "name": "ttalvitie/browservice",
+      "stars": 1358,
+      "enhanced_text": "Browservice: Browse the modern web on historical browsers.\n\n# Browservice: Browser as a Service\nA web \"proxy\" server that enables browsing the modern web on historical browsers. It works by rendering the browser viewport into images, which are then shown by a JavaScript application running on the client browser.\nAs some of the users may have noticed, I (@ttalvitie) have already greatly fallen behind in responding to the suggestions and problems in the issues section. The situation now (and for the foreseaable future) is the following: the time I have available for developing Browservice further is very limited (due to work, other projects and other hobbies). Thus my main focus will be regularly providing up-to-date builds with latest Chromium versions (because it is critical for security) and fixing the most critical bugs. Developing new features and improvements will unfortunately have to be put on the back burner: I might add new features occasionally, but very irregularly and mostly based on my own needs as a user. I remind that Browservice is open source and anyone can build and distribute improved or modified versions of it. Thank you in advance for your understanding.\n2025-11-04: Browservice 0.9.12.1 has been released.\n2025-07-13: Browservice 0.9.12.0 has been released.\n2024-12-01: Browservice 0.9.11.0 has been released.\n2024-09-09: Browservice 0.9.10.0 has been released.\n2024-06-27: Browservice 0.9.9.2 has been released. Starting from this release, the binaries for the patched CEF distribution used for building Browservice are also distributed with the release; this makes it possible to build modified versions of Browservice without having to build CEF/Chromium from scratch.\n2024-01-25: Browservice 0.9.9.0 has been released. This release adds support for three new command line arguments:  for making exceptions to SSL/TLS certificate checking,  for hiding the control bar (useful with kiosk software) and  that makes it possible to disable the client back/forward button forwarding feature that may cause compatibility issues with some clients.",
+      "tag": "浏览器渲染代理"
+    },
+    {
+      "id": 913574546,
+      "name": "sauravpanda/BrowserAI",
+      "stars": 1358,
+      "enhanced_text": "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser.\n\n### Run Production-Ready LLMs Directly in Your Browser\nSimple • Fast • Private • Open Source\n> 🎉 **Featured Project**: Check out Browseragent.dev - A no-code AI Agent builder powered by BrowserAI with unlimited executions! Build your own AI agents in minutes.\n| Demo | Description | Try It |\n| **Chat** | Multi-model chat interface | chat.browserai.dev |",
+      "tag": "浏览器端AI运行时"
+    },
+    {
+      "id": 68707338,
+      "name": "ascoders/gaea-editor",
+      "stars": 1354,
+      "enhanced_text": "Design websites in your browser. A smart web editor!\n\n## Quick start\nAnd then, it's easy to use:\n- For vue - gaea-editor-vue, thanks CharlieLau.\n## Add custom component to the drag menu\nYou can add any react components to the drag menu, through the following line of code:\n>  support , , , , . And there must be at least one component to set  that can be used as outer container.\n> Generally speaking, with  concat is ok, because the component   offered is a container.\nAdd  to each component props, to let the editor know how to edit it visualizations:\ngaea-editor provides several built-in type editing props. If you need to expand it, you can refer to custom plugin.\n- : which props to edit. EX:   .\n- : If exist, will appear in the form label to prompt the user.\nThe following are the built-in types:\nSuitable for any string editing scene.\nSuitable for any number editing scene.\nIn many cases, it is suggested that  and  be set to the same value.",
+      "tag": "网页可视化编辑器"
+    },
+    {
+      "id": 38978941,
+      "name": "NeutroniumCore/Neutronium",
+      "stars": 1353,
+      "enhanced_text": "🚀 Build .NET desktop applications using HTML, CSS and javascript.\n\nWhat is Neutronium?\n* Neutronium is a library to create **.NET desktop applications** using **HTML, CSS** and **javascript**.\n* Neutronium uses **MVVM pattern** exactly the same way as WPF application.\n* Neutronium provides bindings with **Vue.js** and **Knockout.js** to build powerful HTML5 UI.\n* Use all the **power of the javascript stack** to build .NET desktop applications.\n* Architecture Neutronium application **just like standard WPF** application.\n* **Compatible** with popular **MVVM libraries** such as MVVM Light Toolkit and reactiveUi\n* Use **standard javascript frameworks** to build UI\n* **Easy to set-up**:\n* **Solution template** available for a quick start\n* **Use javascript framework cli tools** to use the same tool chain as web developmenet taking chance of tools such as live reload.\n* **Reuse** ViewModel designed for WPF with a different View Engine.\n* Build UI on a 100% **Open Source Stack**\n* Create an application from scratch\n* Migrate an existing WPF MVVM application to Neutronium",
+      "tag": "桌面应用Web框架"
+    },
+    {
+      "id": 166713531,
+      "name": "Macro-Deck-App/Macro-Deck",
+      "stars": 1353,
+      "enhanced_text": "Macro Deck transforms your phone, tablet, or any device equipped with a modern internet browser into an efficient remote macro pad. With this tool, you can execute single or multi-step actions seamlessly with just a single tap.\n\n- Built in package manager (to download plugins and icon packs)",
+      "tag": "远程控制面板"
+    },
+    {
+      "id": 110955493,
+      "name": "QuintGao/GKPhotoBrowser",
+      "stars": 1346,
+      "enhanced_text": "iOS仿微信、今日头条等图片浏览器.\n\nGKPhotoBrowser是一个可高度自定义的图片、视频浏览器，支持多种显示、隐藏方式，支持自定义遮罩等\n如果在使用过程中遇到问题，请先检查使用的版本是否是最新版本（可在说明最上面的pod后面查看），如果不是最新版本，请先更新到最后版本，看看问题是否存在，如果依然存在，可提issue说明或加我QQ1094887059直接问我，最好能提供demo。\n** 3.1.0版本之后对项目部分代码进行了拆分，增加了GKPhotoBrowserConfigure配置类，升级后可按以下方式进行配置",
+      "tag": "iOS图片浏览器组件"
+    },
+    {
+      "id": 281976889,
+      "name": "gzuidhof/starboard-notebook",
+      "stars": 1339,
+      "enhanced_text": "In-browser literate notebooks.\n\nIn-browser literal notebook runtime used in **Starboard**.\nRead more about the project on the Starboard About page.\n* The **Starboard Website** front-page has some demo notebooks. This may not be the latest version available.\n* You can view the barebones demo, click the small button in the top right to create the initial cell. This link will always point to the latest version on NPM.",
+      "tag": "浏览器端笔记本运行时"
+    },
+    {
+      "id": 12897630,
+      "name": "gorhill/httpswitchboard",
+      "stars": 1330,
+      "enhanced_text": "Point & click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.",
+      "tag": "网络请求控制扩展"
+    },
+    {
+      "id": 99437640,
+      "name": "truefedex/tv-bro",
+      "stars": 1328,
+      "enhanced_text": "Simple web browser for android optimized to use with TV remote.\n\nSimple web browser optimized to use with TV remote\n- use Android builtin web rendering engine (WebKit/Blink based)",
+      "tag": "Android TV浏览器"
+    },
+    {
+      "id": 2278307,
+      "name": "flatiron/flatiron",
+      "stars": 1326,
+      "enhanced_text": "framework components for node.js and the browser.\n\n## Installation\n\n### Installing NPM (Node Package Manager)\n\n### Installing Flatiron",
+      "tag": "JavaScript应用框架"
+    },
+    {
+      "id": 376269131,
+      "name": "Eugeny/tabby-web",
+      "stars": 1324,
+      "enhanced_text": "Tabby Web - an SSH/Telnet/Serial client in your browser.\n\n> At this time I don't have the time to work on  and won't be able to provide help or support for it. I'm still happy to merge any fixes/improvement PRs. :v:\nThis is the Tabby terminal, served as a web app. It also provides the config sync service for the Tabby app.\nTabby Web serves the Tabby Terminal as a web application while managing multiple config files, authentication, and providing TCP connections via a separate gateway service.\n- **Deployment Guide** - Complete guide for production deployment\n- **Connection Gateway** - For SSH/Telnet connections",
+      "tag": "浏览器终端客户端"
+    },
+    {
+      "id": 29913000,
+      "name": "wnr/element-resize-detector",
+      "stars": 1318,
+      "enhanced_text": "Optimized cross-browser resize listener for elements.\n\nInclude the script in the browser:\nThis will create a global function , which is the maker function that makes an element resize detector instance.\nflex: nonecallOnAddonAnimationStartoptions.idHandler.getdir=RTLuninstalluninstalluninstalluninstalllistenTowindow.getComputedStyle` instead of relying on the method being available in the global scope. This enables this library to be used in simulated browser environments such as jsdom.\n* Event-based solution for detecting attached/rendered events so that detached/unrendered elements can be listened to without polling\n* Now all changes that affects the offset size of an element are properly detected (such as padding and font-size).",
+      "tag": "DOM元素尺寸监听库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 12617171,
+        "tag": "浏览器扩展"
+      },
+      {
+        "id": 24239833,
+        "tag": "网络状态检测库"
+      },
+      {
+        "id": 80326656,
+        "tag": "跨平台GUI工具"
+      },
+      {
+        "id": 256300799,
+        "tag": "浏览器渲染代理"
+      },
+      {
+        "id": 913574546,
+        "tag": "浏览器端AI运行时"
+      },
+      {
+        "id": 68707338,
+        "tag": "网页可视化编辑器"
+      },
+      {
+        "id": 38978941,
+        "tag": "桌面应用Web框架"
+      },
+      {
+        "id": 166713531,
+        "tag": "远程控制面板"
+      },
+      {
+        "id": 110955493,
+        "tag": "iOS图片浏览器组件"
+      },
+      {
+        "id": 281976889,
+        "tag": "浏览器端笔记本运行时"
+      },
+      {
+        "id": 12897630,
+        "tag": "网络请求控制扩展"
+      },
+      {
+        "id": 99437640,
+        "tag": "Android TV浏览器"
+      },
+      {
+        "id": 2278307,
+        "tag": "JavaScript应用框架"
+      },
+      {
+        "id": 376269131,
+        "tag": "浏览器终端客户端"
+      },
+      {
+        "id": 29913000,
+        "tag": "DOM元素尺寸监听库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "batch_id": 25,
+  "timestamp": "2026-02-05T13:25:37.673866",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 110198384,
+      "name": "brave/brave-core",
+      "stars": 2959,
+      "enhanced_text": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues.\n\nBrave Core is a set of changes, APIs, and scripts used for customizing Chromium to make the Brave browser. Please also check https://github.com/brave/brave-browser\nFollow @brave on Twitter for important announcements.\nYou can ask questions and interact with the community in the following\n-  channel on Brave Software's Slack",
+      "tag": "浏览器内核定制"
+    },
+    {
+      "id": 849500524,
+      "name": "obsidianmd/obsidian-clipper",
+      "stars": 2956,
+      "enhanced_text": "Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian.\n\nInstall the extension by downloading it from the official directory for your browser:\n- **Chrome Web Store** for Chrome, Brave, Arc, Orion, and other Chromium-based browsers.\n- **Firefox Add-Ons** for Firefox and Firefox Mobile.\n- **Safari Extensions** for macOS, iOS, and iPadOS.\n- **Edge Add-Ons** for Microsoft Edge.\nDocumentation is available on the Obsidian Help site, which covers how to use highlighting, templates, variables, filters, and more.\nYou can help translate Web Clipper into your language. Submit your translation via pull request using the format found in the /_locales folder.\n\n### Features and bug fixes\nSee the help wanted tag for issues where contributions are welcome.\nIn no particular order:\n- [ ] A separate icon for Web Clipper\n- [ ] Translate UI into more languages — help is welcomed\n- [ ] Annotate highlights\n- [ ] Template directory\n- [ ] Template validation\n- [x] Template logic (if/for)\n- [x] Save images locally, added in Obsidian 1.8.0\nTo build the extension:\nThis will create three directories:\n-  for the Chromium version\n-  for the Firefox version\n-  for the Safari version",
+      "tag": "浏览器内容剪藏扩展"
+    },
+    {
+      "id": 1557647,
+      "name": "ded/reqwest",
+      "stars": 2934,
+      "enhanced_text": "browser asynchronous http requests.\n\nAll over again. Includes support for xmlHttpRequest, JSONP, CORS, and CommonJS Promises A.\nIt is also isomorphic allowing you to  in  through the peer dependency xhr2, albeit the original intent of this library is for the browser. For a more thorough solution for Node.js, see mikeal/request.\n*  entity body for ,  and  requests. Must be a query  or  object\n*  a string enum. , , , or . Default is inferred by resource extension. Eg:  will set  to .  to  etc.\n*  sets the  of the request. Eg:",
+      "tag": "浏览器HTTP客户端库"
+    },
+    {
+      "id": 832300204,
+      "name": "supabase-community/database-build",
+      "stars": 2928,
+      "enhanced_text": "In-browser Postgres sandbox with AI assistance (formerly postgres.new).\n\n# database.build (formerly postgres.new)\nIn-browser Postgres sandbox with AI assistance.\nWith database.build, you can instantly spin up an unlimited number of Postgres databases that run directly in your browser (and soon, deploy them to S3).\nEach database is paired with a large language model (LLM) which opens the door to some interesting use cases:\n- Drag-and-drop CSV import (generate table on the fly)\nAll queries in database.build run directly in your browser. There’s no remote Postgres container or WebSocket proxy.",
+      "tag": "浏览器内数据库沙箱"
+    },
+    {
+      "id": 1823764,
+      "name": "EventEmitter2/EventEmitter2",
+      "stars": 2927,
+      "enhanced_text": "A nodejs event emitter implementation with namespaces, wildcards, TTL, works in the browser.\n\n# DESCRIPTION\n\n### FEATURES\n- ES5 compatible UMD module, that supports node.js, browser and workers of any kind\n- Namespaces/Wildcards\n- Times To Listen (TTL), extends the  concept with\n- Async listeners (using setImmediate|setTimeout|nextTick) with promise|async function support\n- The emitAsync method to return the results of the listeners via Promise.all\n- Subscription methods (on, once, many, ...) can return a\nlistener object that makes it easy to remove the subscription when needed - just call the listener.off() method.\n- Feature-rich waitFor method to wait for events using promises\n- listenTo & stopListeningTo methods\nfor listening to an external event emitter of any kind and propagate its events through itself using optional reducers/filters\n- Extended version of the events.once method from the node events API\n- Browser & Workers environment compatibility\n- Demonstrates good performance in benchmarks\nTo find out what's new see the project CHANGELOG",
+      "tag": "跨环境事件发射器"
+    },
+    {
+      "id": 169158585,
+      "name": "victordibia/handtrack.js",
+      "stars": 2920,
+      "enhanced_text": "A library for prototyping realtime hand detection (bounding box), directly in the browser.\n\n> View a live demo in your browser here.\n](https://victordibia.github.io/handtrack.js/) -->\nVersion  is the old version of handtrack.js which tracks only hands and was trained on the egohands dataset. It is slightly more stable than the recent version v  which is trained on a new dataset (still in active development) and supports more classes (open, closed, pinch, point, zoom etc.). You might see some issues with the new version (feel free to downgrade to  as needed) and also report the issues you see.\nHandtrack.js is a library for prototyping realtime hand detection (bounding box), directly in the browser. It frames handtracking as an object detection problem, and uses a trained convolutional neural network to predict bounding boxes for the location of hands in an image.\nHandtrack.js is currently being updated (mostly around optimizations for speed/accuracy and functionality). Here is a list of recent changes:\n- **New dataset curation**: A  new dataset (~2000 images, 6000 labels) has been curated to cover new hand poses (discussed below) and focuses on the viewpoint of a user facing a webcam. Note that the dataset is not released (mostly because it contains personal information on the participants and effort is still underway to extract a subset that is free of PII). In the meantime, the project can still be reproduced using the egohands dataset which is public.\n- **New Classes**: Following a review of the use cases that developers have created so far with handtrack.js (e.g. game controls, detect face touching to minimize covid spread, air guitar etc), a new set of hand pose labels have been curated:\n- Open:  All fingers are extended in an open palm position.  This represents an open hand which can be the drop mode of a drag and drop operation.",
+      "tag": "浏览器内手部检测库"
+    },
+    {
+      "id": 3813151,
+      "name": "linkedin/dustjs",
+      "stars": 2913,
+      "enhanced_text": "Asynchronous Javascript templating for the browser and server.\n\n**Important**: We recommend that you lock your version of Dust to a specific minor version, instead of a major version. By default, NPM will add  to your package.json, which will install new minor versions automatically.\nnpm install --save --production dustjs-linkedin\n# If you want the dustc compiler available globally\nnpm install --global --production dustjs-linkedin\nIf you want to add the Dust helpers or secure filters:\nnpm install --save --production dustjs-helpers\nbower install --save dustjs-linkedin\n* Read dustjs.com for guides, tutorials, and documentation.",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 47918643,
+      "name": "TranscryptOrg/Transcrypt",
+      "stars": 2913,
+      "enhanced_text": "Python 3.9 to JavaScript compiler - Lean, fast, open!\n\n.. figure:: https://www.transcrypt.org/illustrations/ruler_banner2.png\n:target: https://www.transcrypt.org\nPython in the browser, precompiled for speed: https://www.transcrypt.org\n- Precompiled into highly readable, efficient JavaScript, downloads kB's rather than MB's\n- Multiple inheritance, optional operator overloading, metaclasses, async/await, properties, decorators, hierarchical modules etc.\n- Seamless integration with the universe of high-quality web-oriented JavaScript libraries, rather than the desktop-oriented Python ones\n- Pure Python 3.9 syntax, using Python's native parser\n- Debug directly from Python sourcecode, through integrated sourcemaps\n- Generates JavaScript for humans, resembling the Python source line by line, optionally annotated with source line numbers\n- Lightning fast JavaScript 6 code: call caching, for-loop optimization, in-line JavaScript etc.",
+      "tag": "Python转JavaScript编译器"
+    },
+    {
+      "id": 18901345,
+      "name": "bhauman/lein-figwheel",
+      "stars": 2878,
+      "enhanced_text": "Figwheel builds your ClojureScript code and hot loads it into the browser as you are coding!\n\n## Features\n#### Live code reloading\nIf you write **reloadable\nfigwheel can facilitate automated live interactive programming. Every\ntime you save your ClojureScript source file, the changes are sent to\nthe browser so that you can see the effects of modifying your code in\n#### Supports Node.js\nYou can use figwheel to live code ClojureScript in Node.js!\n#### Static file server\nThe inclusion of a **static file server** allows you to get a decent\nClojureScript development environment up and running quickly. For\nconvenience there is a  option so you can load a ring\nhandler into the figwheel server.\n#### Live CSS reloading\nFigwheel will reload your CSS live as well.",
+      "tag": "ClojureScript热重载工具"
+    },
+    {
+      "id": 81788261,
+      "name": "da2x/EdgeDeflector",
+      "stars": 2877,
+      "enhanced_text": "A tiny helper application to force Windows 10 to use your preferred web browser instead of ignoring the setting to promote Microsoft Edge. Only runs for a microsecond when needed.",
+      "tag": "浏览器协议劫持工具"
+    },
+    {
+      "id": 470251843,
+      "name": "mrd0x/BITB",
+      "stars": 2876,
+      "enhanced_text": "Browser In The Browser (BITB) Templates.\n\nUsage of these templates for attacking targets without prior consent is illegal. It's the end user's responsibility to obey all applicable laws. The developer is not responsible for any misuse of these templates.",
+      "tag": "浏览器钓鱼攻击模板"
+    },
+    {
+      "id": 237387592,
+      "name": "yume-chan/ya-webadb",
+      "stars": 2870,
+      "enhanced_text": "ADB in your browser.\n\nTango is a TypeScript re-implementation of ADB (Android Debugging Bridge) client that works in Chromium-based browsers (including Chrome for Android), Node.js, and Electron.\nTry it out at https://tangoapp.dev\nCheck the latest documentation at https://tangoadb.dev/\nSee CONTRIBUTING.md for how to run and develop this project.\nThis project is tested with BrowserStack\nBecome a backer and get your image on our README on Github with a link to your site.",
+      "tag": "浏览器内ADB客户端"
+    },
+    {
+      "id": 248697283,
+      "name": "remix-project-org/remix-project",
+      "stars": 2868,
+      "enhanced_text": "Remix is a browser-based compiler and IDE that enables users to build Ethereum contracts with Solidity language and to debug transactions.\n\n**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.\n**Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:\n**Remix Online IDE**, see: https://remix.ethereum.org\n:point_right: Supported browsers: Firefox v100.0.1 & Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.\n**Remix Desktop IDE**, see releases: https://github.com/remix-project-org/remix-desktop/releases\nRemix libraries are essential for Remix IDE's native plugins. Read more about libraries here",
+      "tag": "浏览器智能合约IDE"
+    },
+    {
+      "id": 589830814,
+      "name": "easychen/CookieCloud",
+      "stars": 2865,
+      "enhanced_text": "CookieCloud是一个和自架服务器同步浏览器Cookie和LocalStorage的小工具，支持端对端加密，可设定同步时间间隔。本仓库包含了插件和服务器端源码。CookieCloud is a small tool for synchronizing browser cookies and LocalStorage with a self-hosted server. It supports end-to-end encryption and allows for setting the synchronization interval. This repository contains both the plugin and the server-side source code.\n\nCookieCloud is a small tool for syncing cookies with your self-hosted server, allowing you to synchronize browser cookies and local storage to your phone and cloud. It features built-in end-to-end encryption and allows you to set a synchronization interval.\n> Since version 0.3.0, the project has been rewritten using **wxt**. It now supports encryption algorithms with a fixed IV and supports more standard libraries for decryption. See the **wxt** branch for details.\n> The latest version now supports synchronization of local storage under the same domain name.\nTelegram channel | Telegram group\nDue to the high demand for local storage support, plugin version 0.1.5+ now also supports local storage in addition to cookies. This has resulted in a change to the encrypted text format (from a separate cookie object to ).\nFurthermore, to avoid conflicts in configuration synchronization, the configuration storage has been moved from remote to local. Users of previous versions will need to reconfigure their setup.\nWe apologize for any inconvenience this may cause 🙇🏻‍♂️",
+      "tag": "浏览器数据同步扩展"
+    },
+    {
+      "id": 140996605,
+      "name": "casbin/node-casbin",
+      "stars": 2864,
+      "enhanced_text": "An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser.",
+      "tag": "跨环境访问控制库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 110198384,
+        "tag": "浏览器内核定制"
+      },
+      {
+        "id": 849500524,
+        "tag": "浏览器内容剪藏扩展"
+      },
+      {
+        "id": 1557647,
+        "tag": "浏览器HTTP客户端库"
+      },
+      {
+        "id": 832300204,
+        "tag": "浏览器内数据库沙箱"
+      },
+      {
+        "id": 1823764,
+        "tag": "跨环境事件发射器"
+      },
+      {
+        "id": 169158585,
+        "tag": "浏览器内手部检测库"
+      },
+      {
+        "id": 3813151,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 47918643,
+        "tag": "Python转JavaScript编译器"
+      },
+      {
+        "id": 18901345,
+        "tag": "ClojureScript热重载工具"
+      },
+      {
+        "id": 81788261,
+        "tag": "浏览器协议劫持工具"
+      },
+      {
+        "id": 470251843,
+        "tag": "浏览器钓鱼攻击模板"
+      },
+      {
+        "id": 237387592,
+        "tag": "浏览器内ADB客户端"
+      },
+      {
+        "id": 248697283,
+        "tag": "浏览器智能合约IDE"
+      },
+      {
+        "id": 589830814,
+        "tag": "浏览器数据同步扩展"
+      },
+      {
+        "id": 140996605,
+        "tag": "跨环境访问控制库"
+      }
+    ]
+  }
+}

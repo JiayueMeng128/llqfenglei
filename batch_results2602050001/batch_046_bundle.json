@@ -1,0 +1,180 @@
+{
+  "batch_id": 46,
+  "timestamp": "2026-02-05T13:30:50.355793",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 9681561,
+      "name": "XRPLF/xrpl.js",
+      "stars": 1310,
+      "enhanced_text": "A JavaScript/TypeScript API for interacting with the XRP Ledger in Node.js and the browser.\n\n## Features\n1. Managing keys & creating test credentials ( && )\n2. Submitting transactions to the XRP Ledger ( & transaction types)\n3. Sending requests to observe the ledger ( using public API methods)\n4. Subscribing to changes in the ledger (Ex. ledger, transactions, & more...)\n5. Parsing ledger data into more convenient formats ( and )\nAll of which works in Node.js (tested for v20+) & web browsers (tested for Chrome).\n+ **Node.js v22** is recommended. We also support v20. Other versions may work but are not frequently tested.",
+      "tag": "区块链API库"
+    },
+    {
+      "id": 464832370,
+      "name": "lindylearn/unclutter",
+      "stars": 1310,
+      "enhanced_text": "A modern reader mode and article library for your browser.\n\nUnclutter is a modern reader mode and article library for your browser.\nThere many other \"reader modes\", but they all extract article text and re-render it their own format. Unclutter \"unclutters\" the original web pages itself, leaving their visual style and interactive elements intact.\nArticles you read with Unclutter are automatically saved and can be easily added to your read-it-later queue.\nEverything happens instantly in your browser.\n- Crowdsourced blocklists for annoyances on specific websites\n- Automatically activating the reader mode\n- Showing page chapters to navigate long articles",
+      "tag": "浏览器阅读模式扩展"
+    },
+    {
+      "id": 273337347,
+      "name": "makew0rld/amfora",
+      "stars": 1308,
+      "enhanced_text": "A fancy terminal browser for the Gemini protocol.\n\n## Installation\nDownload a binary from the releases page. On Unix-based systems you will have to make the file executable with . You can rename the file to just  for easy access, and move it to .\nOn Windows, make sure you click \"Advanced > Run anyway\" after double-clicking, or something like that.\nUnix systems can install the desktop entry file to get Amfora to appear when they search for applications:\nMake sure to click \"Watch\" in the top right, then \"Custom\" > \"Releases\" to get notified about new releases!\nAmfora is packaged in many Linux distros. It's also on Scoop for Windows users.\nIf you use Homebrew, you can install Amfora with:\nYou can update it with:\nOn macOS, Amfora can also be installed through MacPorts:\nYou can update it with:\n**NOTE:** this installation source is community-maintained. More information here.\nIf you're using Termux on Android you can't just run Amfora like normal. After installing Amfora, run . Then run  before running the Amfora binary. You can exit out of the chroot after closing Amfora. See here for why this is needed.\nThis section is for advanced users who want to install the latest (possibly unstable) version of Amfora.\nPlease note the Makefile does not intend to support Windows, and so there may be issues.\nBecause you installed with the Makefile, running  will tell you exactly what commit the binary was built from.\n\n## Features\n\nFeatures in *italics* are in the master branch, but not in the latest release.\n- URL browsing with TOFU and error handling\n- Support ANSI color codes on pages, even for Windows\n- Styled page content (headings, links)\n- Basic forward/backward history, for each tab\n- Input (Status Code 10 & 11)\n- Multiple charset support (over 55)\n- Built-in search (uses geminispace.info by default)\n- Download pages and arbitrary data\n- Check out the user contributed themes!\n- Schemes like Gopher or HTTP can be proxied through a Gemini server\n- Client certificate support\n- Subscribing to RSS, Atom, and JSON Feeds are all supported\n- So is subscribing to a page, to know when it changes\n- Open non-text files in another application",
+      "tag": "终端Gemini浏览器"
+    },
+    {
+      "id": 113491980,
+      "name": "sindresorhus/refined-twitter",
+      "stars": 1307,
+      "enhanced_text": "Browser extension that simplifies the Twitter interface and adds useful features.\n\n**This project is not maintained anymore. Twitter rewrote their website and completely broke this extension, and it's much harder to reliably modify the new website. I also don't have time to fix these things and no one has stepped up to do so either. It had a great run. Thanks for all the love.**\nWe use Twitter a lot and notice many dumb annoyances we'd like to fix. So here be dragons.\n- **Opera** extension: Use this to enable installing Chrome extensions and then install Refined Twitter\n*Note: You **must** be logged in for this extension to work.*\n*You can configure many of these features in the extension settings.*",
+      "tag": "社交媒体界面优化扩展"
+    },
+    {
+      "id": 108566111,
+      "name": "trustedsec/trevorc2",
+      "stars": 1306,
+      "enhanced_text": "TrevorC2 is a legitimate website (browsable) that tunnels client/server communications for covert command execution.",
+      "tag": "隐蔽通信隧道工具"
+    },
+    {
+      "id": 2521861,
+      "name": "OSBI/saiku",
+      "stars": 1304,
+      "enhanced_text": "Saiku Analytics - The Worlds Greatest Open Source OLAP Browser.\n\nWhen something doesn't work as expected, then please subscribe to the\nand send your doubt. If that doesn't solve your problem, then please ask for help on\nThe world's greatest open source OLAP browser\nSaiku allows business users to explore complex data sources,",
+      "tag": "OLAP数据浏览工具"
+    },
+    {
+      "id": 80214003,
+      "name": "salvadordf/CEF4Delphi",
+      "stars": 1302,
+      "enhanced_text": "CEF4Delphi is an open source project to embed Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows, Linux and MacOS.\n\nCEF4Delphi is an open source project created by Salvador Díaz Fau to embed Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows, Linux and MacOS.\nCEF4Delphi is based on DCEF3 and fpCEF3. The original license of those projects still applies to CEF4Delphi. Read the license terms in the LICENSE.md file.\nCEF4Delphi uses CEF 144.0.12 which includes Chromium 144.0.7559.110.\nThe CEF binaries used by CEF4Delphi are available for download at Spotify :",
+      "tag": "Chromium嵌入式框架"
+    },
+    {
+      "id": 77928713,
+      "name": "hectorm/otpauth",
+      "stars": 1297,
+      "enhanced_text": "One Time Password (HOTP/TOTP) library for Node.js, Deno, Bun and browsers.\n\nOne Time Password library for Node.js, Deno, Bun and browsers.\nIt supports the generation and validation of\nHMAC-Based One-Time Passwords (HOTP) as specified in RFC 4226 and\nTime-Based One-Time Passwords (TOTP) as specified in RFC 6238.\nFrequently used in Multi-Factor Authentication (MFA) / Two-Factor Authentication (2FA) systems.\n> You can try the library with the demo application available at otpauth.molinero.dev.\n> If you wish to interact with the library in your browser console, the following snippet can be used:\nThis section presents an overview of the most common usage patterns, along with some security recommendations.",
+      "tag": "跨平台OTP库"
+    },
+    {
+      "id": 1047442186,
+      "name": "enetx/surf",
+      "stars": 1297,
+      "enhanced_text": "SURF - Advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass for web automation and scraping.\n\nSurf - Advanced HTTP Client for Go\nSurf is a powerful, feature-rich HTTP client library for Go that makes working with HTTP requests intuitive and enjoyable. With advanced features like browser impersonation, JA3/JA4 fingerprinting, and comprehensive middleware support, Surf provides everything you need for modern web interactions.\n### 🎭 **Browser Impersonation**\n- **Chrome & Firefox Support**: Accurately mimic Chrome v144 and Firefox v147 browser fingerprints\n- **Platform Diversity**: Impersonate Windows, macOS, Linux, Android, and iOS devices\n- **TLS Fingerprinting**: Full JA3/JA4 fingerprint customization for enhanced privacy\n- **Automatic Headers**: Proper header ordering and browser-specific values\n- **WebKit Form Boundaries**: Accurate multipart form boundary generation matching real browsers\n### 🔒 **Advanced TLS & Security**",
+      "tag": "Go HTTP客户端库"
+    },
+    {
+      "id": 296251053,
+      "name": "zthxxx/react-dev-inspector",
+      "stars": 1295,
+      "enhanced_text": "jump to local IDE code directly from browser React component by just a simple click.\n\n## Introduction\n**react-dev-inspector** is the tool for seamlessly code navigation from browser to IDE.\nWith **just a simple click**, you can jump from a React component on the browser to its source code in your local IDE instantly.\nThink of it as a more advanced version of Chrome's Inspector.\nSee the document on: https://react-dev-inspector.zthxxx.me\n#### Why React Dev Inspector\nHave you ever run into any of these issues 🤔:\n- You've got to fix some bugs in your team's project, but you have no idea where the heck page/component's code is located.\n- You're eager to dive into an open-source project that interests you, but it's hard to find where the code for the page/component is implemented.\n- You may thinking about a component and want to quickly peek at its code, but don't want to memorize or manually expand those never-ending deep file paths.\nThat's exactly why react-dev-inspector was created.\nJust check out this demo below and you'll get it in a snap.\nShowcase: https://react-dev-inspector.zthxxx.me/showcase\nWanna try out the demo right now? Sure, here is the online demo:",
+      "tag": "React开发调试工具"
+    },
+    {
+      "id": 628453268,
+      "name": "Uminosachi/sd-webui-inpaint-anything",
+      "stars": 1283,
+      "enhanced_text": "Inpaint Anything extension performs stable diffusion inpainting on a browser UI using masks from Segment Anything.",
+      "tag": "AI图像修复扩展"
+    },
+    {
+      "id": 10756392,
+      "name": "contentful/contentful.js",
+      "stars": 1280,
+      "enhanced_text": "JavaScript library for Contentful's Delivery API (node & browser).\n\n## Introduction\nJavaScript library for the Contentful Content Delivery API and Content Preview API. It helps you to easily access your content stored in Contentful with your JavaScript applications.\n**What is Contentful?**\nContentful provides content infrastructure for digital teams to power websites, apps, and devices. Unlike a CMS, Contentful was built to integrate with the modern software stack. It offers a central hub for structured content, powerful management and delivery APIs, and a customizable web app that enables developers and content creators to ship their products faster.\n- Supported browsers and Node.js versions\n- Using in Legacy Environments Without ESM/Import Support\n- Using it directly in the browser\n- Using this library with the Preview API\n- Cursor-based Pagination\n- Documentation \\& References\n- Request configuration options\n- Response configuration options\n- Client chain modifiers\n- Reference documentation\n- Tutorials \\& other resources\n\n## Getting started\nIn order to get started with the Contentful JS library you'll need not only to install it, but also to get credentials which will allow you to have access to your content in Contentful.\n- Using this library with the Preview API\n- Cursor-based pagination\n- Documentation & References",
+      "tag": "内容管理API库"
+    },
+    {
+      "id": 366950533,
+      "name": "hikerpig/pintora",
+      "stars": 1276,
+      "enhanced_text": "An extensible text-to-diagrams library that works in both browser and node.js.\n\n> **pintora** Spanish for \"female painter\"\nPintora is an extensible javascript text-to-diagrams library that works in both browser and Node.js.\nExpressing your thoughts in a diagram is better than a thousand words. With the help of pintora.js, you can create diagrams with intuitive text.\nHeavily inspired by Mermaid.js and PlantUML.\n- In browser side, output SVG or Canvas.\n- In Node.js side, output PNG/JPG/SVG file.\n- Outputs are clean and self contained, won't pollute the page with global style.",
+      "tag": "文本转图表库"
+    },
+    {
+      "id": 206873569,
+      "name": "streamlit/demo-self-driving",
+      "stars": 1275,
+      "enhanced_text": "Streamlit app demonstrating an image browser for the Udacity self-driving-car dataset with realtime object detection using YOLO.\n\n# Streamlit Demo: The Udacity Self-driving Car Image Browser\nThis project demonstrates the Udacity self-driving-car dataset and YOLO object detection into an interactive Streamlit app.\nThe complete demo is implemented in less than 300 lines of Python and illustrates all the major building blocks of Streamlit.\nPlease ask in the Streamlit community.",
+      "tag": "交互式数据可视化应用"
+    },
+    {
+      "id": 445686840,
+      "name": "mjakeman/extension-manager",
+      "stars": 1275,
+      "enhanced_text": "A utility for browsing and installing GNOME Shell Extensions.\n\nA native tool for browsing, installing, and managing GNOME Shell Extensions\nWritten with GTK 4 and libadwaita\n- Browsing and searching extensions from",
+      "tag": "GNOME扩展管理工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 9681561,
+        "tag": "区块链API库"
+      },
+      {
+        "id": 464832370,
+        "tag": "浏览器阅读模式扩展"
+      },
+      {
+        "id": 273337347,
+        "tag": "终端Gemini浏览器"
+      },
+      {
+        "id": 113491980,
+        "tag": "社交媒体界面优化扩展"
+      },
+      {
+        "id": 108566111,
+        "tag": "隐蔽通信隧道工具"
+      },
+      {
+        "id": 2521861,
+        "tag": "OLAP数据浏览工具"
+      },
+      {
+        "id": 80214003,
+        "tag": "Chromium嵌入式框架"
+      },
+      {
+        "id": 77928713,
+        "tag": "跨平台OTP库"
+      },
+      {
+        "id": 1047442186,
+        "tag": "Go HTTP客户端库"
+      },
+      {
+        "id": 296251053,
+        "tag": "React开发调试工具"
+      },
+      {
+        "id": 628453268,
+        "tag": "AI图像修复扩展"
+      },
+      {
+        "id": 10756392,
+        "tag": "内容管理API库"
+      },
+      {
+        "id": 366950533,
+        "tag": "文本转图表库"
+      },
+      {
+        "id": 206873569,
+        "tag": "交互式数据可视化应用"
+      },
+      {
+        "id": 445686840,
+        "tag": "GNOME扩展管理工具"
+      }
+    ]
+  }
+}

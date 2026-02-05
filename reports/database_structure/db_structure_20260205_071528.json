@@ -1,0 +1,1199 @@
+{
+  "database_info": {
+    "path": "./data/github_repos_single_table.db",
+    "size_mb": 13.98,
+    "last_modified": "2026-02-05T06:38:05.286391",
+    "timestamp": "20260205_071528"
+  },
+  "tables": {
+    "repos_enhanced": {
+      "structure": {
+        "table_name": "repos_enhanced",
+        "row_count": 999,
+        "columns": [
+          {
+            "cid": 0,
+            "name": "repo_id",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": null,
+            "pk": true
+          },
+          {
+            "cid": 1,
+            "name": "full_name",
+            "type": "TEXT",
+            "notnull": true,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 2,
+            "name": "original_description",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 3,
+            "name": "readme_optimized",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 4,
+            "name": "enhanced_text",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 5,
+            "name": "processed_at",
+            "type": "TIMESTAMP",
+            "notnull": false,
+            "default": "CURRENT_TIMESTAMP",
+            "pk": false
+          }
+        ],
+        "indexes": [],
+        "foreign_keys": [
+          {
+            "id": 0,
+            "seq": 0,
+            "table": "repositories",
+            "from": "repo_id",
+            "to": "id",
+            "on_update": "NO ACTION",
+            "on_delete": "NO ACTION",
+            "match": "NONE"
+          }
+        ],
+        "sample_data": [
+          [
+            63557,
+            "jquery/jquery-mousewheel",
+            "A jQuery plugin that adds cross-browser mouse wheel support.",
+            "# jQuery Mouse Wheel Plugin\nA jQuery plugin that adds cross-browser mouse wheel support with delta normalization.\nIn order to use the plugin, simply bind the `mousewheel` event to an element.",
+            "项目描述: A jQuery plugin that adds cross-browser mouse wheel support.\n\n项目详情:\n# jQuery Mouse Wheel Plugin\nA jQuery plugin that adds cross-browser mouse wheel support with delta normalization.\nIn order to use the plugin, simply bind the `mousewheel` event to an element.",
+            "2026-02-05 06:24:36"
+          ],
+          [
+            84009,
+            "jasmine/jasmine",
+            "Simple JavaScript testing framework for browsers and node.js",
+            "See the documentation site,\nparticularly the Your First Suite tutorial\nfor information on writing specs, and the FAQ.\n## Supported environments\nJasmine tests itself across popular browsers (Safari, Chrome, Firefox, and\nMicrosoft Edge) as well as Node.\n| Environment       | Supported versions               |\n|-------------------|----------------------------------|\n| Node              | 20, 22, 24                       |\n| Safari            | 16*, 17*, 26*                    |\n| Chrome            | Evergreen                        |\n| Firefox           | Evergreen, 102*, 115*, 128*, 140 |\n| Edge              | Evergreen                        |\nFor evergreen browsers, each version of Jasmine is tested against the version of the browser that is available to us\nat the time of release. Other browsers, as well as older & newer versions of some supported browsers, are likely to work.\nHowever, Jasmine isn't tested against them and they aren't actively supported.\n\\* Supported on a best-effort basis. Support for these versions may be dropped\nif it becomes impractical, and bugs affecting only these versions may not be\ntreated as release blockers.\nTo find out what environments work with a particular Jasmine release, see the release notes.\n\nThere are several different ways to install Jasmine, depending on your\nenvironment and how you'd like to use it. See the Getting Started page\nfor details.",
+            "项目描述: Simple JavaScript testing framework for browsers and node.js\n\n项目详情:\nSee the documentation site,\nparticularly the Your First Suite tutorial\nfor information on writing specs, and the FAQ.\n## Supported environments\nJasmine tests itself across popular browsers (Safari, Chrome, Firefox, and\nMicrosoft Edge) as well as Node.\n| Environment       | Supported versions               |\n|-------------------|----------------------------------|\n| Node              | 20, 22, 24                       |\n| Safari            | 16*, 17*, 26*                    |\n| Chrome            | Evergreen                        |\n| Firefox           | Evergreen, 102*, 115*, 128*, 140 |\n| Edge              | Evergreen                        |\nFor evergreen browsers, each version of Jasmine is tested against the version of the browser that is available to us\nat the time of release. Other browsers, as well as older & newer versions of some supported browsers, are likely to work.\nHowever, Jasmine isn't tested against them and they aren't actively supported.\n\\* Supported on a best-effort basis. Support for these versions may be dropped\nif it becomes impractical, and bugs affecting only these versions may not be\ntreated as release blockers.\nTo find out what environments work with a particular Jasmine release, see the release notes.\n\nThere are several different ways to install Jasmine, depending on your\nenvironment and how you'd like to use it. See the Getting Started page\nfor details.",
+            "2026-02-05 06:24:36"
+          ],
+          [
+            164151,
+            "browsermedia/browsercms",
+            "BrowserCMS: Humane Content Management for Rails",
+            "BrowserCMS is intended to offer features comparable to commercial CMS products, which can support larger teams of editors. This means having a robust set of features as part of its core, as well as the capability to customize it via modules.\nHere's a quick overview of some of the more notable features:\n* Standalone CMS: BrowserCMS is designed to provide a robust CMS capabilities out of the box for content heavy web sites.\n* Mobile Friendly: Sites can be built to use mobile optimized designs that are optimized for small screens, with low bandwidth, with responsive design.\n* In Context Editing: Users can browse their site to locate content and make changes from the page itself.\n* Design friendly Templates: Pages aren't just a template and giant single chunk of HTML. Templates can be built to have multiple editable areas, to allow for rich designs that are still easy to manage by non-technical users.\n* Highly Extensible: Developer have access to the full Rails development stack, and can customize their project by adding their own controllers, views as well as CMS content types.\n* Sitemap: An explorer/finder style view of sections and pages in a site allowing users to add and organize pages.\n* Content Library: Provides a standardized 'CRUD' interface to allow users to manage both core and custom content types.\n* Content API: A set of behaviors added to ActiveRecord which allow for versioning, auditing, tagging and other content services provided by the CMS.\n* Section Based Security: Admins can control which users can access specific sections (public users), as well as who can edit which pages (cms users).\n* Workflow: Supports larger website teams where some users can contribute, but not publish. Users can assign work to other publishers to review.\n* Page Caching: Full page caching allows the web server (Apache) to serve HTML statically when they don't change.\n* CMSify your Rails App: BrowserCMS can be added to existing Rails applications to add content management capabi...",
+            "项目描述: BrowserCMS: Humane Content Management for Rails\n\n项目详情:\nBrowserCMS is intended to offer features comparable to commercial CMS products, which can support larger teams of editors. This means having a robust set of features as part of its core, as well as the capability to customize it via modules.\nHere's a quick overview of some of the more notable features:\n* Standalone CMS: BrowserCMS is designed to provide a robust CMS capabilities out of the box for content heavy web sites.\n* Mobile Friendly: Sites can be built to use mobile optimized designs that are optimized for small screens, with low bandwidth, with responsive design.\n* In Context Editing: Users can browse their site to locate content and make changes from the page itself.\n* Design friendly Templates: Pages aren't just a template and giant single chunk of HTML. Templates can be built to have multiple editable areas, to allow for rich designs that are still easy to manage by non-technical users.\n* Highly Extensible: Developer have access to the full Rails development stack, and can customize their project by adding their own controllers, views as well as CMS content types.\n* Sitemap: An explorer/finder style view of sections and pages in a site allowing users to add and organize pages.\n* Content Library: Provides a standardized 'CRUD' interface to allow users to manage both core and custom content types.\n* Content API: A set of behaviors added to ActiveRecord which allow for versioning, auditing, tagging and other content services provided by the CMS.\n* Section Based Security: Admins can control which users can access specific sections (public users), as well as who can edit which pages (cms users).\n* Workflow: Supports larger website teams where some users can contribute, but not publish. Users can assign work to other publishers to review.\n* Page Caching: Full page caching allows the web server (Apache) to serve HTML statically when they don't change.\n* CMSify your Rails App: BrowserCMS can be added to existing Rails applications to add content management capabi...",
+            "2026-02-05 06:24:37"
+          ]
+        ],
+        "column_names": [
+          "repo_id",
+          "full_name",
+          "original_description",
+          "readme_optimized",
+          "enhanced_text",
+          "processed_at"
+        ]
+      },
+      "statistics": {
+        "repo_id": {
+          "type": "numeric",
+          "min": 63557,
+          "max": 1139936006,
+          "avg": 217324905.0810811,
+          "distinct_values": 999,
+          "null_count": 0,
+          "null_percentage": 0.0
+        }
+      }
+    },
+    "repositories": {
+      "structure": {
+        "table_name": "repositories",
+        "row_count": 1000,
+        "columns": [
+          {
+            "cid": 0,
+            "name": "id",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": null,
+            "pk": true
+          },
+          {
+            "cid": 1,
+            "name": "node_id",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 2,
+            "name": "name",
+            "type": "TEXT",
+            "notnull": true,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 3,
+            "name": "full_name",
+            "type": "TEXT",
+            "notnull": true,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 4,
+            "name": "html_url",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 5,
+            "name": "description",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 6,
+            "name": "homepage",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 7,
+            "name": "fork",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 8,
+            "name": "archived",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 9,
+            "name": "disabled",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 10,
+            "name": "private",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 11,
+            "name": "visibility",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 12,
+            "name": "is_template",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 13,
+            "name": "created_at",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 14,
+            "name": "updated_at",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 15,
+            "name": "pushed_at",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 16,
+            "name": "size",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 17,
+            "name": "stargazers_count",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 18,
+            "name": "watchers_count",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 19,
+            "name": "forks_count",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 20,
+            "name": "open_issues_count",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 21,
+            "name": "language",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 22,
+            "name": "default_branch",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 23,
+            "name": "has_issues",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "1",
+            "pk": false
+          },
+          {
+            "cid": 24,
+            "name": "has_projects",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 25,
+            "name": "has_downloads",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 26,
+            "name": "has_wiki",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 27,
+            "name": "has_pages",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 28,
+            "name": "has_discussions",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 29,
+            "name": "allow_forking",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "1",
+            "pk": false
+          },
+          {
+            "cid": 30,
+            "name": "web_commit_signoff_required",
+            "type": "INTEGER",
+            "notnull": false,
+            "default": "0",
+            "pk": false
+          },
+          {
+            "cid": 31,
+            "name": "score",
+            "type": "REAL",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 32,
+            "name": "license_json",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 33,
+            "name": "readme_content",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 34,
+            "name": "readme_info_json",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 35,
+            "name": "owner_json",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 36,
+            "name": "topics_json",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 37,
+            "name": "permissions_json",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 38,
+            "name": "imported_at",
+            "type": "TIMESTAMP",
+            "notnull": false,
+            "default": "CURRENT_TIMESTAMP",
+            "pk": false
+          },
+          {
+            "cid": 39,
+            "name": "readme_cleaned",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 40,
+            "name": "processing_notes",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 41,
+            "name": "processed_at",
+            "type": "TIMESTAMP",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          },
+          {
+            "cid": 42,
+            "name": "enhanced_text",
+            "type": "TEXT",
+            "notnull": false,
+            "default": null,
+            "pk": false
+          }
+        ],
+        "indexes": [
+          {
+            "seq": 0,
+            "name": "idx_has_readme",
+            "unique": false,
+            "origin": "c",
+            "partial": false
+          },
+          {
+            "seq": 1,
+            "name": "idx_created",
+            "unique": false,
+            "origin": "c",
+            "partial": false
+          },
+          {
+            "seq": 2,
+            "name": "idx_stars",
+            "unique": false,
+            "origin": "c",
+            "partial": false
+          },
+          {
+            "seq": 3,
+            "name": "idx_language",
+            "unique": false,
+            "origin": "c",
+            "partial": false
+          },
+          {
+            "seq": 4,
+            "name": "sqlite_autoindex_repositories_1",
+            "unique": true,
+            "origin": "u",
+            "partial": false
+          }
+        ],
+        "foreign_keys": [],
+        "sample_data": [
+          [
+            63557,
+            "MDEwOlJlcG9zaXRvcnk2MzU1Nw==",
+            "jquery-mousewheel",
+            "jquery/jquery-mousewheel",
+            "https://github.com/jquery/jquery-mousewheel",
+            "A jQuery plugin that adds cross-browser mouse wheel support.",
+            "",
+            0,
+            0,
+            0,
+            0,
+            "public",
+            0,
+            "2008-10-16T01:30:34Z",
+            "2026-02-03T09:30:30Z",
+            "2026-01-25T00:59:06Z",
+            528,
+            3917,
+            3917,
+            1665,
+            9,
+            "JavaScript",
+            "main",
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1.0,
+            "{\"key\": \"other\", \"name\": \"Other\", \"spdx_id\": \"NOASSERTION\", \"node_id\": \"MDc6TGljZW5zZTA=\"}",
+            "# jQuery Mouse Wheel Plugin\n\nA [jQuery](https://jquery.com/) plugin that adds cross-browser mouse wheel support with delta normalization.\n\nIn order to use the plugin, simply bind the `mousewheel` event to an element.\n\nThe event object is updated with the normalized `deltaX` and `deltaY` properties.\nIn addition, there is a new property on the event object called `deltaFactor`. Multiply\nthe `deltaFactor` by `deltaX` or `deltaY` to get the scroll distance that the browser\nhas reported.\n\nHere is an example of using both the bind and helper method syntax:\n\n```js\n$( \"#my_elem\" ).on( \"mousewheel\", function( event ) {\n    console.log( event.deltaX, event.deltaY, event.deltaFactor );\n} );\n```\n\nThe old behavior of adding three arguments (`delta`, `deltaX`, and `deltaY`) to the\nevent handler is now deprecated and will be removed in later releases.\n\n\n## The Deltas...\n\nThe combination of browsers, operating systems, and devices offer a huge range of possible delta values. In fact if the user\nuses a trackpad and then a physical mouse wheel the delta values can differ wildly. This plugin normalizes those\nvalues so you get a whole number starting at +-1 and going up in increments of +-1 according to the force or\nacceleration that is used. This number has the potential to be in the thousands depending on the device.\n\n### Getting the scroll distance\n\nIn some use-cases we prefer to have the normalized delta but in others we want to know how far the browser should\nscroll based on the users input. This can be done by multiplying the `deltaFactor` by the `deltaX` or `deltaY`\nevent property to find the scroll distance the browser reported.\n\nThe `deltaFactor` property was added to the event object in 3.1.5 so that the actual reported delta value can be\nextracted. This is a non-standard property.\n\n## Building the code in the repo & running tests\n\n```sh\ngit clone git@github.com:jquery/jquery-mousewheel.git\ncd jquery-mousewheel/\nnpm install\nnpm test\n```\n\nThe unit tests are _very_ basic sanity checks; improvements welcome.\nTo fully test the plugin, load [test/index.html](test/index.html) in each supported\nbrowser and follow the instructions at the top of the file after the unit tests finish.\n",
+            "{\"name\": \"README.md\", \"path\": \"README.md\", \"size\": 2203, \"html_url\": \"https://github.com/jquery/jquery-mousewheel/blob/main/README.md\", \"download_url\": \"https://raw.githubusercontent.com/jquery/jquery-mousewheel/main/README.md\"}",
+            "{\"login\": \"jquery\", \"id\": 70142, \"node_id\": \"MDEyOk9yZ2FuaXphdGlvbjcwMTQy\", \"avatar_url\": \"https://avatars.githubusercontent.com/u/70142?v=4\", \"gravatar_id\": \"\", \"html_url\": \"https://github.com/jquery\", \"type\": \"Organization\", \"user_view_type\": \"public\", \"site_admin\": false}",
+            "[]",
+            "{\"admin\": false, \"maintain\": false, \"push\": false, \"triage\": false, \"pull\": true}",
+            "2026-02-05 05:37:00",
+            "A jQuery plugin that adds cross-browser mouse wheel support with delta normalization.\nIn order to use the plugin, simply bind the  event to an element.\nThe event object is updated with the normalized  and  properties.\nIn addition, there is a new property on the event object called . Multiply\nthe  by  or  to get the scroll distance that the browser\nHere is an example of using both the bind and helper method syntax:\nThe old behavior of adding three arguments (, , and ) to the\nevent handler is now deprecated and will be removed in later releases.",
+            "cleaned_2203→549chars_reduced_75%",
+            "2026-02-05 06:33:25",
+            "A jQuery plugin that adds cross-browser mouse wheel support.\n\nIn order to use the plugin, simply bind the  event to an element.\nThe event object is updated with the normalized  and  properties.\nIn addition, there is a new property on the event object called . Multiply\nthe  by  or  to get the scroll distance that the browser\nHere is an example of using both the bind and helper method syntax:\nThe old behavior of adding three arguments (, , and ) to the\nevent handler is now deprecated and will be removed in later releases."
+          ],
+          [
+            84009,
+            "MDEwOlJlcG9zaXRvcnk4NDAwOQ==",
+            "jasmine",
+            "jasmine/jasmine",
+            "https://github.com/jasmine/jasmine",
+            "Simple JavaScript testing framework for browsers and node.js",
+            "http://jasmine.github.io/",
+            0,
+            0,
+            0,
+            0,
+            "public",
+            0,
+            "2008-12-02T23:46:37Z",
+            "2026-02-04T08:34:12Z",
+            "2026-01-19T22:59:00Z",
+            10693,
+            15848,
+            15848,
+            2239,
+            14,
+            "JavaScript",
+            "main",
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1.0,
+            "{\"key\": \"mit\", \"name\": \"MIT License\", \"spdx_id\": \"MIT\", \"node_id\": \"MDc6TGljZW5zZTEz\"}",
+            "<a name=\"README\"><img src=\"https://raw.githubusercontent.com/jasmine/jasmine/main/images/jasmine-horizontal.svg\" width=\"400px\" alt=\"Jasmine\"></a>\n\n# A JavaScript Testing Framework\n\nJasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, [Node.js](http://nodejs.org) projects, or anywhere that JavaScript can run.\n\nUpgrading from Jasmine 4.x? Check out the [upgrade guide](https://jasmine.github.io/tutorials/upgrading_to_Jasmine_5.0).\n\n## Contributing\n\nPlease read the [contributors' guide](https://github.com/jasmine/jasmine/blob/main/.github/CONTRIBUTING.md).\n\n## Installation\n\nThere are several different ways to install Jasmine, depending on your \nenvironment and how you'd like to use it. See the [Getting Started page](https://jasmine.github.io/pages/getting_started.html)\nfor details.\n\n## Usage\n\nSee the [documentation site](https://jasmine.github.io/pages/docs_home.html),\nparticularly the [Your First Suite tutorial](https://jasmine.github.io/tutorials/your_first_suite)\nfor information on writing specs, and [the FAQ](https://jasmine.github.io/pages/faq.html).\n\n## Supported environments\n\nJasmine tests itself across popular browsers (Safari, Chrome, Firefox, and\nMicrosoft Edge) as well as Node.\n\n| Environment       | Supported versions               |\n|-------------------|----------------------------------|\n| Node              | 20, 22, 24                       |\n| Safari            | 16*, 17*, 26*                    |\n| Chrome            | Evergreen                        |\n| Firefox           | Evergreen, 102*, 115*, 128*, 140 |\n| Edge              | Evergreen                        |\n\nFor evergreen browsers, each version of Jasmine is tested against the version of the browser that is available to us\nat the time of release. Other browsers, as well as older & newer versions of some supported browsers, are likely to work.\nHowever, Jasmine isn't tested against them and they aren't actively supported. \n\n\\* Supported on a best-effort basis. Support for these versions may be dropped\nif it becomes impractical, and bugs affecting only these versions may not be\ntreated as release blockers.\n\nTo find out what environments work with a particular Jasmine release, see the [release notes](https://github.com/jasmine/jasmine/tree/main/release_notes).\n\n## Maintainers\n\n* [Gwendolyn Van Hove](mailto:gwen@slackersoft.net)\n* [Steve Gravrock](mailto:sdg@panix.com)\n\n### Maintainers Emeritus\n\n* [Davis W. Frank](mailto:dwfrank@pivotal.io)\n* [Rajan Agaskar](mailto:rajan@pivotal.io)\n* [Greg Cobb](mailto:gcobb@pivotal.io)\n* [Chris Amavisca](mailto:camavisca@pivotal.io)\n* [Christian Williams](mailto:antixian666@gmail.com)\n* Sheel Choksi\n\nCopyright (c) 2008-2019 Pivotal Labs<br>\nCopyright (c) 2008-2026 The Jasmine developers<br>\nThis software is licensed under the [MIT License](https://github.com/jasmine/jasmine/blob/main/LICENSE).\n",
+            "{\"name\": \"README.md\", \"path\": \"README.md\", \"size\": 2962, \"html_url\": \"https://github.com/jasmine/jasmine/blob/main/README.md\", \"download_url\": \"https://raw.githubusercontent.com/jasmine/jasmine/main/README.md\"}",
+            "{\"login\": \"jasmine\", \"id\": 4624349, \"node_id\": \"MDEyOk9yZ2FuaXphdGlvbjQ2MjQzNDk=\", \"avatar_url\": \"https://avatars.githubusercontent.com/u/4624349?v=4\", \"gravatar_id\": \"\", \"html_url\": \"https://github.com/jasmine\", \"type\": \"Organization\", \"user_view_type\": \"public\", \"site_admin\": false}",
+            "[\"jasmine\", \"javascript\", \"tdd\", \"testing\"]",
+            "{\"admin\": false, \"maintain\": false, \"push\": false, \"triage\": false, \"pull\": true}",
+            "2026-02-05 05:37:00",
+            "",
+            "no_meaningful_content",
+            "2026-02-05 06:33:25",
+            "Simple JavaScript testing framework for browsers and node.js."
+          ],
+          [
+            164151,
+            "MDEwOlJlcG9zaXRvcnkxNjQxNTE=",
+            "browsercms",
+            "browsermedia/browsercms",
+            "https://github.com/browsermedia/browsercms",
+            "BrowserCMS: Humane Content Management for Rails",
+            "http://browsercms.org",
+            0,
+            0,
+            0,
+            0,
+            "public",
+            0,
+            "2009-03-31T14:30:53Z",
+            "2025-09-14T23:45:36Z",
+            "2022-07-21T22:55:57Z",
+            14322,
+            1169,
+            1169,
+            260,
+            321,
+            "Ruby",
+            "master",
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1.0,
+            "{\"key\": \"lgpl-3.0\", \"name\": \"GNU Lesser General Public License v3.0\", \"spdx_id\": \"LGPL-3.0\", \"node_id\": \"MDc6TGljZW5zZTEy\"}",
+            "# BrowserCMS: Humane Content Management for Rails\n\nBrowserCMS is a general purpose, open source Web Content Management System (CMS) that supports Ruby on Rails v4.0. It can be used as a standalone CMS, added to existing Rails projects or extended using Rails Engines. It is designed to support three distinct groups of users:\n\n1. Non-technical web editors who want a humane system to manage their site, without needing to understand what HTML or even Rails is.\n2. Designers who want to create large and elegantly designed websites with no artificial constraints by the CMS.\n3. Developers who want to drop a CMS into their Rails projects, or create CMS driven websites for their clients.\n\n## Features\nBrowserCMS is intended to offer features comparable to commercial CMS products, which can support larger teams of editors. This means having a robust set of features as part of its core, as well as the capability to customize it via modules.\n\nHere's a quick overview of some of the more notable features:\n\n* Standalone CMS: BrowserCMS is designed to provide a robust CMS capabilities out of the box for content heavy web sites.\n* Mobile Friendly: Sites can be built to use mobile optimized designs that are optimized for small screens, with low bandwidth, with responsive design.\n* In Context Editing: Users can browse their site to locate content and make changes from the page itself.\n* Design friendly Templates: Pages aren't just a template and giant single chunk of HTML. Templates can be built to have multiple editable areas, to allow for rich designs that are still easy to manage by non-technical users.\n* Highly Extensible: Developer have access to the full Rails development stack, and can customize their project by adding their own controllers, views as well as CMS content types.\n* Sitemap: An explorer/finder style view of sections and pages in a site allowing users to add and organize pages.\n* Content Library: Provides a standardized 'CRUD' interface to allow users to manage both core and custom content types.\n* Content API: A set of behaviors added to ActiveRecord which allow for versioning, auditing, tagging and other content services provided by the CMS.\n* Section Based Security: Admins can control which users can access specific sections (public users), as well as who can edit which pages (cms users).\n* Workflow: Supports larger website teams where some users can contribute, but not publish. Users can assign work to other publishers to review.\n* Page Caching: Full page caching allows the web server (Apache) to serve HTML statically when they don't change.\n* CMSify your Rails App: BrowserCMS can be added to existing Rails applications to add content management capabilities.\n\n## Getting Started\nSee the [Getting Started](https://github.com/browsermedia/browsercms/wiki/Getting-Started) guide for instructions on how to install and start a project with BrowserCMS.\n\n## License\nBrowserCMS is released under a LGPL license, and is copyright 1998-2014 BrowserMedia. The complete copyright can be found in COPYRIGHT.txt, and copy of the license can be found in LICENSE.txt.\n\n## Documentation / Support\nThe user documentation and guides for this version of the application can be found at:\n\n1. [Guides and Wiki](http://wiki.github.com/browsermedia/browsercms)\n2. [API Docs](http://rubydoc.info/gems/browsercms/)\n3. [Report a Bug!](https://github.com/browsermedia/browsercms/issues)\n4. [Discuss the Project](http://groups.google.com/group/browsercms)\n5. [BrowserCMS Site](http://browsercms.org)\n",
+            "{\"name\": \"README.markdown\", \"path\": \"README.markdown\", \"size\": 3523, \"html_url\": \"https://github.com/browsermedia/browsercms/blob/master/README.markdown\", \"download_url\": \"https://raw.githubusercontent.com/browsermedia/browsercms/master/README.markdown\"}",
+            "{\"login\": \"browsermedia\", \"id\": 50586, \"node_id\": \"MDEyOk9yZ2FuaXphdGlvbjUwNTg2\", \"avatar_url\": \"https://avatars.githubusercontent.com/u/50586?v=4\", \"gravatar_id\": \"\", \"html_url\": \"https://github.com/browsermedia\", \"type\": \"Organization\", \"user_view_type\": \"public\", \"site_admin\": false}",
+            "[]",
+            "{\"admin\": false, \"maintain\": false, \"push\": false, \"triage\": false, \"pull\": true}",
+            "2026-02-05 05:37:00",
+            "## Features\nBrowserCMS is intended to offer features comparable to commercial CMS products, which can support larger teams of editors. This means having a robust set of features as part of its core, as well as the capability to customize it via modules.\nHere's a quick overview of some of the more notable features:\n* Standalone CMS: BrowserCMS is designed to provide a robust CMS capabilities out of the box for content heavy web sites.\n* Mobile Friendly: Sites can be built to use mobile optimized designs that are optimized for small screens, with low bandwidth, with responsive design.\n* In Context Editing: Users can browse their site to locate content and make changes from the page itself.\n* Design friendly Templates: Pages aren't just a template and giant single chunk of HTML. Templates can be built to have multiple editable areas, to allow for rich designs that are still easy to manage by non-technical users.\n* Highly Extensible: Developer have access to the full Rails development stack, and can customize their project by adding their own controllers, views as well as CMS content types.\n* Sitemap: An explorer/finder style view of sections and pages in a site allowing users to add and organize pages.\n* Content Library: Provides a standardized 'CRUD' interface to allow users to manage both core and custom content types.\n* Content API: A set of behaviors added to ActiveRecord which allow for versioning, auditing, tagging and other content services provided by the CMS.\n* Section Based Security: Admins can control which users can access specific sections (public users), as well as who can edit which pages (cms users).\n* Workflow: Supports larger website teams where some users can contribute, but not publish. Users can assign work to other publishers to review.\n* Page Caching: Full page caching allows the web server (Apache) to serve HTML statically when they don't change.\n* CMSify your Rails App: BrowserCMS can be added to existing Rails applications to add content management capabilities.",
+            "cleaned_3523→2019chars_reduced_43%",
+            "2026-02-05 06:33:25",
+            "BrowserCMS: Humane Content Management for Rails.\n\n## Features\nBrowserCMS is intended to offer features comparable to commercial CMS products, which can support larger teams of editors. This means having a robust set of features as part of its core, as well as the capability to customize it via modules.\nHere's a quick overview of some of the more notable features:\n* Standalone CMS: BrowserCMS is designed to provide a robust CMS capabilities out of the box for content heavy web sites.\n* Mobile Friendly: Sites can be built to use mobile optimized designs that are optimized for small screens, with low bandwidth, with responsive design.\n* In Context Editing: Users can browse their site to locate content and make changes from the page itself.\n* Design friendly Templates: Pages aren't just a template and giant single chunk of HTML. Templates can be built to have multiple editable areas, to allow for rich designs that are still easy to manage by non-technical users.\n* Highly Extensible: Developer have access to the full Rails development stack, and can customize their project by adding their own controllers, views as well as CMS content types.\n* Sitemap: An explorer/finder style view of sections and pages in a site allowing users to add and organize pages.\n* Content Library: Provides a standardized 'CRUD' interface to allow users to manage both core and custom content types.\n* Content API: A set of behaviors added to ActiveRecord which allow for versioning, auditing, tagging and other content services provided by the CMS.\n* Section Based Security: Admins can control which users can access specific sections (public users), as well as who can edit which pages (cms users).\n* Workflow: Supports larger website teams where some users can contribute, but not publish. Users can assign work to other publishers to review.\n* Page Caching: Full page caching allows the web server (Apache) to serve HTML statically when they don't change.\n* CMSify your Rails App: BrowserCMS can be added to existing Rails applications to add content management capabilities."
+          ]
+        ],
+        "column_names": [
+          "id",
+          "node_id",
+          "name",
+          "full_name",
+          "html_url",
+          "description",
+          "homepage",
+          "fork",
+          "archived",
+          "disabled",
+          "private",
+          "visibility",
+          "is_template",
+          "created_at",
+          "updated_at",
+          "pushed_at",
+          "size",
+          "stargazers_count",
+          "watchers_count",
+          "forks_count",
+          "open_issues_count",
+          "language",
+          "default_branch",
+          "has_issues",
+          "has_projects",
+          "has_downloads",
+          "has_wiki",
+          "has_pages",
+          "has_discussions",
+          "allow_forking",
+          "web_commit_signoff_required",
+          "score",
+          "license_json",
+          "readme_content",
+          "readme_info_json",
+          "owner_json",
+          "topics_json",
+          "permissions_json",
+          "imported_at",
+          "readme_cleaned",
+          "processing_notes",
+          "processed_at",
+          "enhanced_text"
+        ]
+      },
+      "statistics": {
+        "id": {
+          "type": "numeric",
+          "min": 63557,
+          "max": 1139936006,
+          "avg": 217113142.632,
+          "distinct_values": 1000,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "fork": {
+          "type": "numeric",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "distinct_values": 1,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "archived": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.083,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "disabled": {
+          "type": "numeric",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "distinct_values": 1,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "private": {
+          "type": "numeric",
+          "min": 0,
+          "max": 0,
+          "avg": 0.0,
+          "distinct_values": 1,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "is_template": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.004,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "size": {
+          "type": "numeric",
+          "min": 0,
+          "max": 12073665,
+          "avg": 128370.704,
+          "distinct_values": 974,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "stargazers_count": {
+          "type": "numeric",
+          "min": 1130,
+          "max": 137504,
+          "avg": 5976.765,
+          "distinct_values": 900,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "watchers_count": {
+          "type": "numeric",
+          "min": 1130,
+          "max": 137504,
+          "avg": 5976.765,
+          "distinct_values": 900,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "forks_count": {
+          "type": "numeric",
+          "min": 19,
+          "max": 30382,
+          "avg": 707.491,
+          "distinct_values": 636,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "open_issues_count": {
+          "type": "numeric",
+          "min": 0,
+          "max": 10362,
+          "avg": 144.901,
+          "distinct_values": 305,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "has_issues": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.978,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "has_projects": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.722,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "has_downloads": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.992,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "has_wiki": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.629,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "has_pages": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.34,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "has_discussions": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.325,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "allow_forking": {
+          "type": "numeric",
+          "min": 1,
+          "max": 1,
+          "avg": 1.0,
+          "distinct_values": 1,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "web_commit_signoff_required": {
+          "type": "numeric",
+          "min": 0,
+          "max": 1,
+          "avg": 0.013,
+          "distinct_values": 2,
+          "null_count": 0,
+          "null_percentage": 0.0
+        },
+        "score": {
+          "type": "numeric",
+          "min": 1.0,
+          "max": 1.0,
+          "avg": 1.0,
+          "distinct_values": 1,
+          "null_count": 0,
+          "null_percentage": 0.0
+        }
+      }
+    }
+  },
+  "schema_sql": "CREATE INDEX idx_created ON repositories (created_at DESC);\nCREATE INDEX idx_has_readme ON repositories (readme_content IS NOT NULL);\nCREATE INDEX idx_language ON repositories (language);\nCREATE INDEX idx_stars ON repositories (stargazers_count DESC);\nCREATE TABLE repos_enhanced (\n        repo_id INTEGER PRIMARY KEY,\n        full_name TEXT NOT NULL,\n        original_description TEXT,\n        readme_optimized TEXT,\n        enhanced_text TEXT,\n        processed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n        FOREIGN KEY (repo_id) REFERENCES repositories (id)\n    );\nCREATE TABLE repositories (\n        -- 核心ID与名称\n        id INTEGER PRIMARY KEY,\n        node_id TEXT,\n        name TEXT NOT NULL,\n        full_name TEXT UNIQUE NOT NULL,\n        html_url TEXT,\n        \n        -- 关键描述信息\n        description TEXT,\n        homepage TEXT,\n        \n        -- 状态与类型\n        fork INTEGER DEFAULT 0,\n        archived INTEGER DEFAULT 0,\n        disabled INTEGER DEFAULT 0,\n        private INTEGER DEFAULT 0,\n        visibility TEXT,\n        is_template INTEGER DEFAULT 0,\n        \n        -- 时间戳\n        created_at TEXT,\n        updated_at TEXT,\n        pushed_at TEXT,\n        \n        -- 统计信息\n        size INTEGER,\n        stargazers_count INTEGER DEFAULT 0,\n        watchers_count INTEGER DEFAULT 0,\n        forks_count INTEGER DEFAULT 0,\n        open_issues_count INTEGER DEFAULT 0,\n        \n        -- 技术栈\n        language TEXT,\n        default_branch TEXT,\n        \n        -- 功能开关\n        has_issues INTEGER DEFAULT 1,\n        has_projects INTEGER DEFAULT 0,\n        has_downloads INTEGER DEFAULT 0,\n        has_wiki INTEGER DEFAULT 0,\n        has_pages INTEGER DEFAULT 0,\n        has_discussions INTEGER DEFAULT 0,\n        allow_forking INTEGER DEFAULT 1,\n        web_commit_signoff_required INTEGER DEFAULT 0,\n        \n        -- 评分与许可证\n        score REAL,\n        license_json TEXT,  -- 存储整个license对象\n        \n        -- README相关\n        readme_content TEXT,\n        readme_info_json TEXT,  -- 存储readme_info对象\n        \n        -- 嵌套对象（JSON格式存储）\n        owner_json TEXT,        -- 存储整个owner对象\n        topics_json TEXT,       -- 存储topics数组\n        permissions_json TEXT,  -- 存储permissions对象\n        \n        -- 元数据\n        imported_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP\n    , readme_cleaned TEXT, processing_notes TEXT, processed_at TIMESTAMP, enhanced_text TEXT);",
+  "erd_data": {
+    "tables": [
+      {
+        "name": "repos_enhanced",
+        "columns": [
+          {
+            "name": "repo_id",
+            "type": "INTEGER",
+            "primary_key": true,
+            "nullable": true
+          },
+          {
+            "name": "full_name",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": false
+          },
+          {
+            "name": "original_description",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "readme_optimized",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "enhanced_text",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "processed_at",
+            "type": "TIMESTAMP",
+            "primary_key": false,
+            "nullable": true
+          }
+        ],
+        "row_count": 999
+      },
+      {
+        "name": "repositories",
+        "columns": [
+          {
+            "name": "id",
+            "type": "INTEGER",
+            "primary_key": true,
+            "nullable": true
+          },
+          {
+            "name": "node_id",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "name",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": false
+          },
+          {
+            "name": "full_name",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": false
+          },
+          {
+            "name": "html_url",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "description",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "homepage",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "fork",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "archived",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "disabled",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "private",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "visibility",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "is_template",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "created_at",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "updated_at",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "pushed_at",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "size",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "stargazers_count",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "watchers_count",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "forks_count",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "open_issues_count",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "language",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "default_branch",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "has_issues",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "has_projects",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "has_downloads",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "has_wiki",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "has_pages",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "has_discussions",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "allow_forking",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "web_commit_signoff_required",
+            "type": "INTEGER",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "score",
+            "type": "REAL",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "license_json",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "readme_content",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "readme_info_json",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "owner_json",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "topics_json",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "permissions_json",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "imported_at",
+            "type": "TIMESTAMP",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "readme_cleaned",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "processing_notes",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "processed_at",
+            "type": "TIMESTAMP",
+            "primary_key": false,
+            "nullable": true
+          },
+          {
+            "name": "enhanced_text",
+            "type": "TEXT",
+            "primary_key": false,
+            "nullable": true
+          }
+        ],
+        "row_count": 1000
+      }
+    ],
+    "relationships": [
+      {
+        "from_table": "repos_enhanced",
+        "from_column": "repo_id",
+        "to_table": "repositories",
+        "to_column": "id",
+        "on_update": "NO ACTION",
+        "on_delete": "NO ACTION"
+      }
+    ]
+  }
+}

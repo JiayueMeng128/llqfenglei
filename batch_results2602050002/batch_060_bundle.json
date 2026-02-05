@@ -1,0 +1,125 @@
+{
+  "batch_id": 60,
+  "timestamp": "2026-02-05T14:46:37.691970",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 13100677,
+      "name": "primus/eventemitter3",
+      "stars": 3507,
+      "enhanced_text": "EventEmitter3 - Because there's also a number 2. And we're faster.",
+      "tag": "事件处理库"
+    },
+    {
+      "id": 3389930,
+      "name": "simple-statistics/simple-statistics",
+      "stars": 3500,
+      "enhanced_text": "simple statistics for node & browser javascript.",
+      "tag": "统计学计算库"
+    },
+    {
+      "id": 1108682714,
+      "name": "SawyerHood/dev-browser",
+      "stars": 3417,
+      "enhanced_text": "A Claude Skill to give your agent the ability to use a web browser.",
+      "tag": "AI代理浏览器控制"
+    },
+    {
+      "id": 138488946,
+      "name": "emacs-eaf/emacs-application-framework",
+      "stars": 3406,
+      "enhanced_text": "EAF, an extensible framework that revolutionizes the graphical capabilities of Emacs.",
+      "tag": "Emacs图形应用框架"
+    },
+    {
+      "id": 17147559,
+      "name": "auth0/jwt-decode",
+      "stars": 3385,
+      "enhanced_text": "Decode JWT tokens; useful for browser applications.",
+      "tag": "JWT解码库"
+    },
+    {
+      "id": 10045915,
+      "name": "broccolijs/broccoli",
+      "stars": 3334,
+      "enhanced_text": "Browser compilation library – an asset pipeline for applications that run in the browser.",
+      "tag": "前端构建工具"
+    },
+    {
+      "id": 229827299,
+      "name": "ahmetb/kubectl-tree",
+      "stars": 3304,
+      "enhanced_text": "kubectl plugin to browse Kubernetes object hierarchies as a tree 🎄 (star the repo if you are using).",
+      "tag": "KubernetesCLI插件"
+    },
+    {
+      "id": 11766620,
+      "name": "viliusle/miniPaint",
+      "stars": 3234,
+      "enhanced_text": "online image editor.",
+      "tag": "Web图像编辑器"
+    },
+    {
+      "id": 305972561,
+      "name": "theajack/disable-devtool",
+      "stars": 3162,
+      "enhanced_text": "Disable web developer tools from the f12 button, right-click and browser menu.",
+      "tag": "开发者工具禁用库"
+    },
+    {
+      "id": 899184149,
+      "name": "browserbase/mcp-server-browserbase",
+      "stars": 3106,
+      "enhanced_text": "Allow LLMs to control a browser with Browserbase and Stagehand.",
+      "tag": "LLM浏览器自动化"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 13100677,
+        "tag": "事件处理库"
+      },
+      {
+        "id": 3389930,
+        "tag": "统计学计算库"
+      },
+      {
+        "id": 1108682714,
+        "tag": "AI代理浏览器控制"
+      },
+      {
+        "id": 138488946,
+        "tag": "Emacs图形应用框架"
+      },
+      {
+        "id": 17147559,
+        "tag": "JWT解码库"
+      },
+      {
+        "id": 10045915,
+        "tag": "前端构建工具"
+      },
+      {
+        "id": 229827299,
+        "tag": "KubernetesCLI插件"
+      },
+      {
+        "id": 11766620,
+        "tag": "Web图像编辑器"
+      },
+      {
+        "id": 305972561,
+        "tag": "开发者工具禁用库"
+      },
+      {
+        "id": 899184149,
+        "tag": "LLM浏览器自动化"
+      }
+    ]
+  }
+}

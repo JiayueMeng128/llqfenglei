@@ -1,0 +1,180 @@
+{
+  "batch_id": 13,
+  "timestamp": "2026-02-05T13:21:50.097773",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 882026761,
+      "name": "steel-dev/steel-browser",
+      "stars": 6375,
+      "enhanced_text": "🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.\n\nThe open-source browser API for AI agents & apps.\nThe best way to build live web agents and browser automation tools.\nSteel.dev is an open-source browser API that makes it easy to build AI apps and agents that interact with the web. Instead of building automation infrastructure from scratch, you can focus on your AI application while Steel handles the complexity.\nUnder the hood, it manages sessions, pages, and browser processes, allowing you to perform complex browsing tasks programmatically without any of the headaches:\n- **Full Browser Control**: Uses Puppeteer and CDP for complete control over Chrome instances -- allowing you to connect using Puppeteer, Playwright, or Selenium.\n- **Session Management**: Maintains browser state, cookies, and local storage across requests\n- **Proxy Support**: Built-in proxy chain management for IP rotation",
+      "tag": "浏览器自动化API"
+    },
+    {
+      "id": 12594863,
+      "name": "kalcaddle/KodExplorer",
+      "stars": 6374,
+      "enhanced_text": "A web based file manager,web IDE / browser based code editor.\n\n> ## Update to kodbox:  https://github.com/kalcaddle/kodbox\n> *It is recommended to use a new design upgrade product:kodbox*\n> *该项目处于维护阶段,不再开发新功能.推荐使用全新设计升级产品kodbox*\n> KodExplorer is a file manager for web. It is also a web code editor, which allows you to develop websites directly within the web browser.You can run KodExplorer either online or locally,on Linux, Windows or Mac based platforms. The only requirement is to have PHP 5 available.",
+      "tag": "Web文件管理器"
+    },
+    {
+      "id": 546129875,
+      "name": "raphamorim/rio",
+      "stars": 6372,
+      "enhanced_text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.\n\nRio is a modern terminal built to run everywhere.\n> **⚠️ Development Notice**: We are currently in the process of releasing Rio 0.3.0, which includes major performance improvements and architectural changes. The main branch is under active development and may be unstable. For stable usage, please use v0.2.20 or below.\nDocumentation: https://rioterm.com\nIf you are using or want to help in any way please consider to donate via Github Sponsors.\nRio would not be possible without Alacritty, since a lot of Rio functionalities (e.g: ANSI parser, events, processor) was originally written (and still uses a good amount) of Alacritty code.\nIf you use and like Rio, please consider sponsoring it: your support helps to cover the fees required to maintain the project and to validate the time spent working on it!",
+      "tag": "GPU终端模拟器"
+    },
+    {
+      "id": 734569425,
+      "name": "Bistutu/FluentRead",
+      "stars": 6356,
+      "enhanced_text": "Open Immersive Translate. A revolutionary open-source browser translation plugin that enables everyone to have a native-like reading experience. 开源的沉浸式翻译，一款革命性的浏览器翻译插件，让所有人都能够拥有母语般的阅读体验。.\n\nOpen Immersive Translate 开源的沉浸式翻译。\n一款革命性的浏览器开源翻译插件，让所有人都能够拥有母语般的阅读体验。\n- **智能翻译**：支持 20+ 种翻译引擎，包括传统翻译和 AI 大模型。如：微软翻译、谷歌翻译、DeepL翻译、OpenAI、DeepSeek、Kimi、Ollama、自定义引擎等。\n- **划词翻译**：选中任意文本，即可获得即时翻译结果，一键复制译文，提高阅读效率。\n- **全文翻译**：通过悬浮球一键翻译整个网页，无需刷新页面即可切换。",
+      "tag": "浏览器翻译插件"
+    },
+    {
+      "id": 763795053,
+      "name": "lavague-ai/LaVague",
+      "stars": 6290,
+      "enhanced_text": "Large Action Model framework to develop AI Web Agents.\n\nA Large Action Model framework for developing AI Web Agents\n## LaVague: Web Agent framework for builders\nLaVague is an open-source framework designed for developers who want to create AI Web Agents to automate processes for their end users.\nOur Web Agents can take an objective, such as \"Print installation steps for Hugging Face's Diffusers library,\" and generate and perform the actions required to achieve the objective.\n- A World Model that takes an objective and the current state (aka the current web page) and outputs an appropriate set of instructions.\n- An Action Engine which “compiles” these instructions into action code, e.g., Selenium or Playwright & executes them\n### LaVague QA: Dedicated tooling for QA Engineers",
+      "tag": "AI网页代理框架"
+    },
+    {
+      "id": 652319769,
+      "name": "gtsteffaniak/filebrowser",
+      "stars": 6224,
+      "enhanced_text": "📂 Web File Browser.\n\nThe best free self-hosted web-based file manager.\n:loudspeaker: What's Coming Soon\n:pushpin: Read The Official Docs (currently english-only)\nFileBrowser Quantum provides an easy way to access and manage your files from the web. It has a modern responsive interface that has many advanced features to manage users, access, sharing, and file preview and editing.\nThis version is called \"Quantum\" because it packs tons of advanced features into a tiny easy to run file. Unlike the majority of alternative options, FileBrowser Quantum is simple to install and easy to configure.\nThe goal for this repo is to become the best open-source self-hosted file browsing application that exists -- **all for free**. This repo will always be free and open-source.\nReady to try it out? See Getting Started Docs.\nFileBrowser Quantum is a massive fork of the file browser open-source project with the following changes:",
+      "tag": "Web文件管理器"
+    },
+    {
+      "id": 1101281251,
+      "name": "rainxchzed/Github-Store",
+      "stars": 6199,
+      "enhanced_text": "A free, open-source app store for GitHub releases — browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop (Linux, MacOS, Windows).",
+      "tag": "跨平台应用商店"
+    },
+    {
+      "id": 789480255,
+      "name": "mishushakov/llm-scraper",
+      "stars": 6177,
+      "enhanced_text": "Turn any webpage into structured data using LLMs.\n\n### Features\n- Supports GPT, Sonnet, Gemini, Llama, Qwen model series\n- Schemas defined with Zod or JSON Schema\n- Full type-safety with TypeScript\n- Based on Playwright framework\n- Supports 4 formatting modes:\n-  for loading pre-processed HTML\n-  for loading raw HTML (no processing)\n-  for loading markdown\n-  for loading extracted text (using Readability.js)\n-  for loading a screenshot (multi-modal only)\n**Make sure to give it a star!**",
+      "tag": "LLM网页数据提取"
+    },
+    {
+      "id": 305646330,
+      "name": "devlikeapro/waha",
+      "stars": 6065,
+      "enhanced_text": "WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! 3 engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go).\n\n# Quick start\nOnly thing that you must have - installed docker. Please follow the original\ninstruction how to install docker ->.\nWhen you are ready - come back and follows the below steps to send the first text message to WhatsApp via HTTP API!\n## Send your first message\nLet's go over steps that allow you to send your first text message via WhatsApp HTTP API!\n### 1. Download image\nAssuming you have installed Docker, let's download the image.\nRead more about how to get  for **➕ WAHA Plus**\n### 2. Run WhatsApp HTTP API\nRun WhatsApp HTTP API:\nOpen the link in your browser http://localhost:3000/ and you'll see API documentation\n### 3. Start a new session\nTo start a new session you should have your mobile phone with installed WhatsApp application close to you.\nPlease go and read how what we'll need to a bit",
+      "tag": "WhatsApp HTTP API"
+    },
+    {
+      "id": 16231859,
+      "name": "nodeca/pako",
+      "stars": 6044,
+      "enhanced_text": "high speed zlib port to javascript, works in browser & node.js.\n\n> zlib port to javascript, very fast!\n- Results are binary equal to well known zlib (now contains ported zlib v1.2.8).\n- Almost as fast in modern JS engines as C implementation (see benchmarks).\n- Works in browsers, you can browserify any separate component.\nThis project was done to understand how fast JS can be and is it necessary to\ndevelop native C modules for CPU-intensive tasks. Enjoy the result!\nnode v12.16.3 (zlib 1.2.9), 1mb input sample:\nnode v14.15.0 (google's zlib), 1mb output sample:",
+      "tag": "JavaScript压缩库"
+    },
+    {
+      "id": 6583352,
+      "name": "alrra/browser-logos",
+      "stars": 6024,
+      "enhanced_text": "🗂 High resolution web browser logos.\n\nBrowser Logos [![Build Status][build icon]][build url]\nYou may want these for a presentation, a blog post or for the site\nfeaturing your brand new awesome lightbox script (please no!). All\nlogos are high resolution with transparent backgrounds.\nFor logos of browsers that are currently active, check the [][src\nFor older logos, or logos of browsers that are no longer active, check\nthe [][archive readme] directory.",
+      "tag": "浏览器Logo资源"
+    },
+    {
+      "id": 41906632,
+      "name": "brookhong/Surfingkeys",
+      "stars": 5998,
+      "enhanced_text": "Map your keys for web surfing, expand your browser with javascript and keyboard.\n\n## Installation\n* Surfingkeys - Chrome Web Store for Google Chrome, Chromium based browsers\n* Surfingkeys – Get this Extension for 🦊 Firefox for Firefox\n* Surfingkeys - Microsoft Edge Addons for Microsoft Edge\n* Surfingkeys on the Mac App Store for Safari, works for both macOS and iOS, except that for iOS an external keyboard is required to be connected with your device. There is one exception of the special feature designed for iOS device -- .\n\n### Feature availability\n| Features \\ Browsers | Chromium family (above 45) | Firefox (above 57) | Safari (above 15) |\n| Follow links | Y | Y | Y |\n| Surfingkeys modes | Y | Y | Y |\n| Omnibar | Y | Y | partly |\n| Search selected with | Y | Y | Y |\n| Vim-like marks | Y | Y | Y |\n| Switch tabs | Y | Y | Y |\n| Windows management | Y | Y | N |\n| Commands | Y | Y | Y |\n| Smooth scroll | Y | Y | Y |\n| Session management | Y | Y | Y |\n| Repeats action by pressing number before mapkey | Y | Y | Y |\n| Hotkey to toggle Surfingkeys | Y | Y | Y |\n| VIM editor and Emacs editor | Y | Y | Y |\n\n## Feature list\n* All settings are set up within a javascript file, which makes it easy to create mapping to user customized function.\n* A large cursor in visual mode, which makes visual mode better.\n* Search selected with, which works in both normal mode and visual mode.\n* Help messages are automatically generated for mappings.\n*  to search word under cursor in visual mode.\n* Scroll actions like page up/down ( ) work for not only top window but also scrollable DIV.\n*  to switch frames if there is.\n* A versatile bookmark/url finder\n* Count prefixes to repeat actions\n* Use vim editor to edit input on page\n* Dot to repeat previous action\n*  to preview markdown\n* Emoji completion in Insert mode\n* Rich hints for keystroke",
+      "tag": "浏览器键盘扩展"
+    },
+    {
+      "id": 10855394,
+      "name": "itsgoingd/clockwork",
+      "stars": 5930,
+      "enhanced_text": "Clockwork - php dev tools in your browser - server-side component.\n\nInstall the Clockwork library via Composer.\nCongratulations, you are done! To enable more features like commands or queue jobs profiling, publish the configuration file via the  Artisan command.\n**Note:** If you are using the Laravel route cache, you will need to refresh it using the route:cache Artisan command.\nRead full installation instructions on the Clockwork website.\n\n### Installation",
+      "tag": "PHP开发者工具"
+    },
+    {
+      "id": 3238243,
+      "name": "Fyrd/caniuse",
+      "stars": 5809,
+      "enhanced_text": "Raw browser/feature support data from caniuse.com.\n\nThis repo contains raw data from the caniuse.com support tables. It serves two purposes:\n1. The ability for anyone interested to update or add to the support data on the site. If you are interested in this, please read the CONTRIBUTING file.\n2. Access to the site's data for other projects. For this use the  file which includes all support data. ( is also available for backwards compatibility.)\nThe data in this repo is available for use under a CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). For attribution just mention somewhere that the source is caniuse.com. If you have any questions about using the data for your project please contact me here: https://a.deveria.com/contact\nSome of the data on caniuse.com is provided by browser-compat-data instead of this repository.\nCaniuse.com is created and maintained by Alexis Deveria",
+      "tag": "浏览器兼容性数据"
+    },
+    {
+      "id": 6853358,
+      "name": "tape-testing/tape",
+      "stars": 5803,
+      "enhanced_text": "tap-producing test harness for node and browsers.\n\n# tape [![Version Badge][npm-version-svg]][package-url]\nTAP-producing test harness for node and browsers\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n[![npm badge][npm-badge-png]][package-url]\nYou always need to  in test files. You can run the tests by usual node means ( or ).\nYou can also run tests using the  binary to utilize globbing, on Windows for example:\n's arguments are passed to the  module.",
+      "tag": "JavaScript测试框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 882026761,
+        "tag": "浏览器自动化API"
+      },
+      {
+        "id": 12594863,
+        "tag": "Web文件管理器"
+      },
+      {
+        "id": 546129875,
+        "tag": "GPU终端模拟器"
+      },
+      {
+        "id": 734569425,
+        "tag": "浏览器翻译插件"
+      },
+      {
+        "id": 763795053,
+        "tag": "AI网页代理框架"
+      },
+      {
+        "id": 652319769,
+        "tag": "Web文件管理器"
+      },
+      {
+        "id": 1101281251,
+        "tag": "跨平台应用商店"
+      },
+      {
+        "id": 789480255,
+        "tag": "LLM网页数据提取"
+      },
+      {
+        "id": 305646330,
+        "tag": "WhatsApp HTTP API"
+      },
+      {
+        "id": 16231859,
+        "tag": "JavaScript压缩库"
+      },
+      {
+        "id": 6583352,
+        "tag": "浏览器Logo资源"
+      },
+      {
+        "id": 41906632,
+        "tag": "浏览器键盘扩展"
+      },
+      {
+        "id": 10855394,
+        "tag": "PHP开发者工具"
+      },
+      {
+        "id": 3238243,
+        "tag": "浏览器兼容性数据"
+      },
+      {
+        "id": 6853358,
+        "tag": "JavaScript测试框架"
+      }
+    ]
+  }
+}

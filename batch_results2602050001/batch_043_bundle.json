@@ -1,0 +1,180 @@
+{
+  "batch_id": 43,
+  "timestamp": "2026-02-05T13:29:32.960426",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 11436163,
+      "name": "gamelab/kiwi.js",
+      "stars": 1453,
+      "enhanced_text": "Kiwi.js is a blazingly fast mobile & desktop browser based HTML5 game framework. It uses CocoonJS for publishing to the AppStore.",
+      "tag": "HTML5游戏框架"
+    },
+    {
+      "id": 43080546,
+      "name": "nk-o/jarallax",
+      "stars": 1453,
+      "enhanced_text": "Parallax scrolling for modern browsers.\n\n## Quick Start\nThere are a set of examples, which you can use as a starting point with Jarallax.\n- Next.js Advanced Usage\nUse one of the following examples to import jarallax.\nWe provide a version of Jarallax built as ESM (jarallax.esm.js and jarallax.esm.min.js) which allows you to use Jarallax as a module in your browser, if your targeted browsers support it.\nJarallax may be also used in a traditional way by including script in HTML and using library by accessing .\n### CJS (Bundlers like Webpack)\n\nInstall Jarallax as a Node.js module using npm\nImport Jarallax by adding this line to your app's entry point (usually  or ):\nNote: automatic data-attribute initialization and jQuery integration are available in UMD mode only.\n### A. JavaScript way\n### B. Data attribute way\nNote: You can use all available options as data attributes. For example: , , , etc...\n#### No conflict (only if you use jQuery)\nSometimes to prevent existing namespace collisions you may call  on the script to revert the value of.\n## Background Video Usage Examples\n### A. JavaScript way\n### B. Data attribute way\nNote: self-hosted videos require 1 video type only, not necessarily using all mp4, webm, and ogv. This is only needed for maximum compatibility with all browsers.\nOptions can be passed in data attributes or in object when you initialize jarallax from script.\nName | Type | Default | Description\ntype | string |  | scroll, scale, opacity, scroll-opacity, scale-opacity.",
+      "tag": "视差滚动库"
+    },
+    {
+      "id": 271791157,
+      "name": "QAX-A-Team/BrowserGhost",
+      "stars": 1452,
+      "enhanced_text": "这是一个抓取浏览器密码的工具，后续会添加更多功能.\n\n- 实现system抓机器上其他用户的浏览器密码(方便横向移动时快速凭据采集)\n- 用.net2 实现可兼容大部分windows，并去掉依赖(不需要System.Data.SQLite.dll这些累赘)\n- 可以解密chrome全版本密码(chrome80版本后加密方式变了)\n- Chrome已经可以获取login data、cookie、history、book了\n- IE 支持获取书签、密码、history了 (.net2提取密码太复杂了代码参考至)",
+      "tag": "浏览器凭据提取"
+    },
+    {
+      "id": 3670753,
+      "name": "crossbario/autobahn-js",
+      "stars": 1446,
+      "enhanced_text": "WAMP in JavaScript for Browsers and NodeJS.\n\n* **autobahn** - Autobahn for NodeJS\n* **autobahn-browser** - Autobahn for browsers\n* **autobahn-xbr** - Autobahn-XBR for NodeJS\n* **autobahn-xbr-browser** - Autobahn-XBR for browsers\n* XBR Network - The XBR Network homepage.\n* XBR Protocol - The XBR Protocol source repository.",
+      "tag": "WebSocket应用协议"
+    },
+    {
+      "id": 6628036,
+      "name": "fanglingsu/vimb",
+      "stars": 1446,
+      "enhanced_text": "Vimb - the vim like browser is a webkit based web browser that behaves like the vimperator plugin for the firefox and usage paradigms from the great editor vim. The goal of vimb is to build a completely keyboard-driven, efficient and pleasurable browsing-experience.",
+      "tag": "Vim式浏览器"
+    },
+    {
+      "id": 309830112,
+      "name": "amandaghassaei/gpu-io",
+      "stars": 1444,
+      "enhanced_text": "A GPU-accelerated computing library for running physics simulations and other GPGPU computations in a web browser.",
+      "tag": "浏览器GPGPU库"
+    },
+    {
+      "id": 67946944,
+      "name": "hyperledger-labs/blockchain-explorer",
+      "stars": 1442,
+      "enhanced_text": "Explorer is a simple, powerful utility to browse activity on the underlying blockchain network.\n\n# Quick start (using Docker)\n* **Note(for v2.0.0 and above):**\nThe following docker images are automatically pulled from **GHCR instead of Docker Hub** when starting docker-compose.\n* Hyperledger Explorer ghcr repository\n* Hyperledger Explorer PostgreSQL ghcr repository\n* **Note(for v1.1.8 and below):**\nThe following docker images are automatically pulled from Docker Hub when starting docker-compose.\n* Hyperledger Explorer docker repository\n* Hyperledger Explorer PostgreSQL docker repository\n## Start Hyperledger Fabric network\nThis guide assumes that you've already started the test network by following Hyperledger Fabric official tutorial.\n* Create a new directory (e.g. )\n* Copy the following files from the repository\n- docker-compose.yaml\n- examples/net1/connection-profile/test-network.json",
+      "tag": "区块链浏览器"
+    },
+    {
+      "id": 472962423,
+      "name": "lukeaschenbrenner/TxtNet-Browser",
+      "stars": 1440,
+      "enhanced_text": "An app that lets you browse the web over SMS.\n\n### Browse the Web over SMS, no WiFi or Mobile Data required!\n> Please see this discussion post for updates on the status of this app's development.\nTextNet Browser is an Android app that allows anyone around the world to browse the web without a mobile data connection! It uses SMS as a medium of transmitting HTTP requests to a server where a pre-parsed HTML response is compressed using Google's Brotli compression algorithm and encoded using a custom Base-114 encoding format (based on Basest). All media content, JavaScript, and CSS are removed from the page, but websites that require JavaScript will still render and display. Only HTTP GET requests are implemented.\nThe app also contains TxtNet Server, a background service that enables your own phone, using its primary phone number and a Wi-Fi/data connection, to process requests by any other phones that don't have an internet connection. This means that if you have a phone that has internet access and SMS, you can host your own server without any technical knowledge at the press of a button! See \"Server Hosting\" below for setup instructions.\n### See the **releases page** for an APK download of the TxtNet Browser client.\nTxtNet Browser is currently compatible with **Android 4.4 (KitKat) and up** (yes, your old phone can still install it!)\nA Google Play and F-Droid release is planned, but with low priority.\n> ❗ **If you are a first-time user**, note that there is no public phone number at this time. This means to use this app, you must have a **second phone** connected to the internet with its own phone number.",
+      "tag": "SMS网页浏览器"
+    },
+    {
+      "id": 1021622,
+      "name": "akdubya/dustjs",
+      "stars": 1439,
+      "enhanced_text": "Asynchronous templates for the browser and node.js.\n\nI like Mustache and variants but none of them offers quite what I need.\nUse Dust if you want these things:\n* extended Mustache/ctemplate syntax",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 942672211,
+      "name": "lanxiuyun/lazyeat",
+      "stars": 1432,
+      "enhanced_text": "Lazyeat（懒人手势）｜手势隔空控制，比划就行！Lazyeat is a touch-free controller for use while eating! Don't want greasy hands while watching shows or browsing the web during meals? You can pause videos/full screen/switch videos just by gesturing to the camera!",
+      "tag": "手势控制扩展"
+    },
+    {
+      "id": 20490942,
+      "name": "krasimir/deb.js",
+      "stars": 1425,
+      "enhanced_text": "Minimalistic JavaScript library for debugging in the browser.\n\n* groups your  statements and place them in a proper context\n* displays stack traces, passed arguments and execution time\nAdd  at the top of your page. Before every other script file.\nAdd  After the definition of your functions.\nOpen your console. You should see something like that:",
+      "tag": "JavaScript调试库"
+    },
+    {
+      "id": 295117653,
+      "name": "raindropio/app",
+      "stars": 1421,
+      "enhanced_text": "Source code of web app and browser extensions.\n\nMono repo for Raindrop.io web app, browser extension and desktop app\nBe sure to run  before calling any commands below",
+      "tag": "书签管理扩展"
+    },
+    {
+      "id": 726478144,
+      "name": "11cafe/comfyui-workspace-manager",
+      "stars": 1416,
+      "enhanced_text": "A ComfyUI workflows and models management extension to organize and manage all your workflows, models in one place. Seamlessly switch between workflows, as well as import, export workflows, reuse subworkflows, install models, browse your models in a single workspace.\n\n## Installation\n### [Option 1] via ComfyUI Manager (Preferred)\nSimply search for “ComfyUI Workspace Manager”, install, and restart ComfyUI.\n### [Option 2] via git\nLike any other custom node installation, in your ComfyUI root folder run command and restart your ComfyUI.\nPlease upgrade to V2 asap, you should see an **unicorn🦄** here instead of ☕️ (V1). I will stop supporting V1 soon.\nRecommanded settings for V2 (Do not use these settings if you are on V1):\n- Enable two way sync (‼️ Will stop supporting non-two-way sync mode starting next version)\n- Make sure My Workspace Save Directory is valid path",
+      "tag": "AI工作流管理扩展"
+    },
+    {
+      "id": 1097428181,
+      "name": "wilsonzlin/fastrender",
+      "stars": 1415,
+      "enhanced_text": "Experimental new browser engine.\n\nA browser rendering engine in Rust. Parses HTML/CSS, computes styles, performs layout, and paints pixels. Includes a desktop browser shell and JavaScript execution via an embedded JS engine.\nUnder heavy development. APIs are unstable and change frequently. Not recommended for production use.\nDeveloped as part of research into collaborative parallel AI coding agents.\nEach stage produces an immutable tree consumed by the next. This separation enables caching: change only CSS and re-cascade without re-parsing HTML; scroll without re-laying-out.\nThe box tree is not 1:1 with the DOM.  removes an element's box while keeping its children. Tables generate anonymous row/cell wrappers per CSS 2.1 §17.2. Mixed block/inline children trigger anonymous block box creation.",
+      "tag": "浏览器渲染引擎"
+    },
+    {
+      "id": 19702094,
+      "name": "superpoweredSDK/Low-Latency-Android-iOS-Linux-Windows-tvOS-macOS-Interactive-Audio-Platform",
+      "stars": 1414,
+      "enhanced_text": "🇸Superpowered Audio, Networking and Cryptographics SDKs. High performance and cross platform on Android, iOS, macOS, tvOS, Linux, Windows and modern web browsers.\n\nSuperpowered Inc develops the leading portable C++ Audio SDK, C++ Networking SDK, and C++ Crypto SDK featuring low-power and real-time latency. With builds for Desktop, Mobile, IoT and Embedded Devices, portable and cross-platform on Android, iOS, macOS, tvOS, Linux and Windows as well as processor-specific builds for ARM32, ARM64, x86, and x64.\nSuperpowered Inc develops the following interactive audio, networking and cryptographics SDKs and infrastructure:\n### 1. Superpowered C++ Audio Library and SDK for Android, iOS, macOS, tvOS, Linux and Windows.\nSuperpowered C++ Audio Library and SDK is the leading C++ Audio Library featuring low-power, real-time latency and cross-platform audio players, audio decoders, Fx (effects), audio I/O, streaming, music analysis and spatialization.\nFor the most up-to-date feature list, see: https://superpowered.com/audio-library-sdk\nFor the latest API reference check the docsite: https://docs.superpowered.com/reference/latest?lang=cpp\n### 2. Superpowered C++ Networking Library and SDK for Android, iOS, macOS, tvOS, Linux and Windows.\nThe Superpowered C++ Networking Library and SDK was designed from the ground-up to provide the easiest cross-platform way for a client to communicate with the back-end. It implements HTTP and HTTPS communication with custom data and header support, progress handling, file uploads/downloads and more. It reduces implementation, debug and maintenance time of typical tasks such as REST API requests, OAuth and bearer token authorization, or digital media streaming. It operates identically on all platforms, removing the pain of writing wrappers and finding quirks around the operating system's networking API, while it's fully self-contained and independent from it. The SDK also has a JSON parser to offer a complete package for your everyday networking and parsing needs.\nFor the most up-to-date feature list, see: https://superpowered.com/networking-library-sdk",
+      "tag": "跨平台音频SDK"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 11436163,
+        "tag": "HTML5游戏框架"
+      },
+      {
+        "id": 43080546,
+        "tag": "视差滚动库"
+      },
+      {
+        "id": 271791157,
+        "tag": "浏览器凭据提取"
+      },
+      {
+        "id": 3670753,
+        "tag": "WebSocket应用协议"
+      },
+      {
+        "id": 6628036,
+        "tag": "Vim式浏览器"
+      },
+      {
+        "id": 309830112,
+        "tag": "浏览器GPGPU库"
+      },
+      {
+        "id": 67946944,
+        "tag": "区块链浏览器"
+      },
+      {
+        "id": 472962423,
+        "tag": "SMS网页浏览器"
+      },
+      {
+        "id": 1021622,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 942672211,
+        "tag": "手势控制扩展"
+      },
+      {
+        "id": 20490942,
+        "tag": "JavaScript调试库"
+      },
+      {
+        "id": 295117653,
+        "tag": "书签管理扩展"
+      },
+      {
+        "id": 726478144,
+        "tag": "AI工作流管理扩展"
+      },
+      {
+        "id": 1097428181,
+        "tag": "浏览器渲染引擎"
+      },
+      {
+        "id": 19702094,
+        "tag": "跨平台音频SDK"
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "batch_id": 11,
+  "timestamp": "2026-02-05T13:21:35.206067",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 5694513,
+      "name": "aws/aws-sdk-js",
+      "stars": 7647,
+      "enhanced_text": "AWS SDK for JavaScript in the browser and Node.js (End-of-Life as of 09/08/2025). The AWS SDK for JavaScript v3 in the browser and Node.js is available here: https://github.com/aws/aws-sdk-js-v3.\n\n## 🚫 End-of-support as of **September 8, 2025**\nThe AWS SDK for JavaScript v2 has reached [end-of-support][v2-end-of-support] on **September 8, 2025**.\nIt will no longer receive updates or releases. Previously published versions are available on npm at\n[aws-sdk][], and source code remains on GitHub at [aws/aws-sdk-js][].\nWe recommend that you migrate to [AWS SDK for JavaScript v3][v3-developer-guide], which has been GA\nsince December 2020. Here is [why and how you should use it][v3-recommended-blog]. You can try\nmigration scripts in [aws-sdk-js-codemod][] to migrate your application from v2 to v3.\nTo get help with your migration, please follow our general guidelines to\n[open an issue][v3-new-issue-migration].",
+      "tag": "JavaScript SDK"
+    },
+    {
+      "id": 60434915,
+      "name": "floccusaddon/floccus",
+      "stars": 7627,
+      "enhanced_text": ":cloud: Sync your bookmarks privately across browsers and devices.\n\n> Sync your bookmarks privately across browsers and devices\n- 🔖 Syncs your real, native browser bookmarks directly\n- ☸ Sync via Nextcloud Bookmarks, Linkwarden, KaraKeep, Google Drive, any Git server (like GitHub, Gitlab, Gitea, etc.) or any WebDAV-compatible service\n- ⚛ Use any browser that supports Web extensions (e.g. Firefox, Chrome, Edge, Opera, Brave, Vivaldi, ...; Safari not yet)\n- 📲 Install the floccus Android/iOS app to access your bookmarks on your phone (Most mobile browsers do not support floccus, sadly)\n- 💼 Create as many sync profiles as you need\n- 🚚 Control sync strategy (i.e. uni- or bidirectional), ⏳ sync interval and 📂 synced folder\n- 📦 Easily export your configuration\nThis is the SHA-256 fingerprint of the certificate used to sign the floccus APKs:\nIf you'd like to support the creation and maintenance of this software, please consider donating. :)",
+      "tag": "浏览器书签同步扩展"
+    },
+    {
+      "id": 625486047,
+      "name": "n4ze3m/page-assist",
+      "stars": 7515,
+      "enhanced_text": "Use your locally running AI models to assist you in your web browsing.\n\n## Installation\nPage Assist supports Chromium-based browsers like Chrome, Brave, and Edge, as well as Firefox.\nCheckout the Demo (v1.0.0):",
+      "tag": "AI助手浏览器扩展"
+    },
+    {
+      "id": 21611548,
+      "name": "SVG-Edit/svgedit",
+      "stars": 7483,
+      "enhanced_text": "Powerful SVG-Editor for your browser.\n\n**SVGEdit** is a fast, web-based, JavaScript-driven SVG drawing editor that\nworks in any modern browser. **SVGEdit** is based on a powerful SVG canvas **@svgedit/svgcanvas**\nSVGEdit is the most popular open source SVG editor. It was started more than 15 years ago by a fantastic team of developers. Unfortunately, the product was not maintained for quite a long time. We decided to give this tool a new life by refreshing many aspects.\nPlease let us know by creating an issue or a discussion if you wish to contribute.\nThanks to **Netlify**, you can access the following builds from your favorite browser:\n- Try SVGEdit V7 (master branch on github)\n- Try SVGEdit V7 (latest published version on npm)",
+      "tag": "SVG图形编辑器"
+    },
+    {
+      "id": 37201011,
+      "name": "ethereum/mist",
+      "stars": 7450,
+      "enhanced_text": "[DEPRECATED] Mist. Browse and use Ðapps on the Ethereum network.\n\n## Installation\nIf you want to install the app from a pre-built version on the release page, you can simply run the executable after download.\nFor updating, simply download the new version and copy it over the old one (keep a backup of the old one if you want to be sure).\n#### Linux .zip installs\nIn order to install from .zip files, please install  first:\nThe data folder for Mist depends on your operating system:\nFor development, a Meteor server assists with live reload and CSS injection.\nOnce a Mist version is released the Meteor frontend part is bundled using the  npm package to create pure static files.\nTo run mist in development you need:\n- Node.js  (use the preferred installation method for your OS)\n- Meteor javascript app framework\n- Yarn package manager",
+      "tag": "以太坊DApp浏览器"
+    },
+    {
+      "id": 156353247,
+      "name": "panva/jose",
+      "stars": 7293,
+      "enhanced_text": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes.\n\nis a JavaScript module for JSON Object Signing and Encryption, providing support for JSON Web Tokens (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), JSON Web Key Set (JWKS), and more. The module is designed to work across various Web-interoperable runtimes including Node.js, browsers, Cloudflare Workers, Deno, Bun, and others.\nIf you want to quickly add JWT authentication to JavaScript apps, feel free to check out Auth0's JavaScript SDK and free plan. [Create an Auth0 account; it's free!][sponsor-auth0]\nSupport from the community to continue maintaining and improving this module is welcome. If you find the module useful, please consider supporting the project by becoming a sponsor.\nhas no dependencies and it exports tree-shakeable ESM[^cjs].\nis distributed via npmjs.com, jsr.io, jsdelivr.com, and github.com.",
+      "tag": "JWT/加密库"
+    },
+    {
+      "id": 25780780,
+      "name": "AlaSQL/alasql",
+      "stars": 7252,
+      "enhanced_text": "AlaSQL.js - JavaScript SQL database for browser and Node.js. Handles both traditional relational tables and nested JSON data (NoSQL). Export, store, and import data from localStorage, IndexedDB, or Excel.\n\n## Getting started\nSee the \"Getting started\" section of the wiki\nMore advanced topics are covered in other wiki sections like \"Data manipulation\" and in questions on Stack Overflow\n- Documentation: Github wiki\n- Library CDN: jsDelivr.com\n- Feedback: Open an issue\n- Try online: Playground\n- Website: alasql.org\n**All contributions are extremely welcome and greatly appreciated(!)** -\nThe project has never received any funding and is based on unpaid voluntary work: We really (really) love pull requests\nThe AlaSQL project depends on your contribution of code and may have bugs. So please, submit any bugs and suggestions as an issue.\nPlease check out the limitations of the library.\nAlaSQL is designed for speed and includes some of the classic SQL engine optimizations:\n- Queries are cached as compiled functions\n- Joined tables are pre-indexed\n\n## Features you might like\nUse \"good old\" SQL on your data with multiple levels of: , , , , , , , , , , , , , , and subqueries. The wiki lists supported SQL statements and keywords.\n### User-Defined Functions in your SQL\nYou can use all benefits of SQL and JavaScript together by defining your own custom functions. Just add new functions to the alasql.fn object:\nYou can also define your own aggregator functions (like your own ). See more in the wiki\n### Compiled statements and functions\n### SELECT against your JavaScript data\nGroup your JavaScript array of objects by field and count number of records in each group:\nSee more ideas for creative data manipulation in the wiki\nAlaSQL extends \"good old\" SQL to make it closer to JavaScript. The \"sugar\" includes:\n- Write Json objects -\n- Access object properties -\n- Access object and arrays elements -\n- Access JavaScript functions -\n- Format query output with",
+      "tag": "浏览器SQL数据库"
+    },
+    {
+      "id": 120715537,
+      "name": "sindresorhus/modern-normalize",
+      "stars": 7218,
+      "enhanced_text": "🐒 Normalize browsers' default style.\n\n- Includes only normalizations for the latest Chrome, Firefox, and Safari\n- Improves consistency of default fonts\n- Sets a more readable tab size\nIf you have questions about the source, check out the original source and this for details.\n**The goal of this project is to make itself obsolete.**",
+      "tag": "CSS重置样式库"
+    },
+    {
+      "id": 3362916,
+      "name": "sindresorhus/screenfull",
+      "stars": 7153,
+      "enhanced_text": "Simple wrapper for cross-browser usage of the JavaScript Fullscreen API.\n\n**This package is ESM. Please familiarize yourself with what that implies.**\\\nIf you cannot use ESM or need to support older browsers without using transpilation, use version 5.2.0.\n**This package is feature complete. No new features will be accepted.**\nAlso available on cdnjs *(older version)*.",
+      "tag": "全屏API封装库"
+    },
+    {
+      "id": 35833177,
+      "name": "jaywcjlove/hotkeys-js",
+      "stars": 7148,
+      "enhanced_text": "➷ A robust Javascript library for capturing keyboard input. It has no dependencies.\n\nUsing my app is also a way to support me:\nHotKeys.js is an input capture library with some very special features, it is easy to pick up and use, has a reasonable footprint (~6kB) (gzipped: ****), and has no dependencies. It should not interfere with any JavaScript libraries or frameworks. Official document demo preview. More examples.\n**UMD (Universal Module Definition) - For CommonJS/AMD environments:**\n**ES Module - For modern browsers with module support:**\nreact-hotkeys is the React component that listen to keydown and keyup keyboard events, defining and dispatching keyboard shortcuts. Detailed use method please see its documentation react-hotkeys.\nreact-hotkeys-hook - React hook for using keyboard shortcuts in components. Make sure that you have at least version 16.8 of react and react-dom installed, or otherwise hooks won't work for you.\nHotkeys.js has been tested and should work in.",
+      "tag": "键盘快捷键库"
+    },
+    {
+      "id": 24229490,
+      "name": "fabiospampinato/cash",
+      "stars": 7047,
+      "enhanced_text": "An absurdly small jQuery alternative for modern browsers.\n\n| Size               | Cash        | Zepto 1.2.0 | jQuery Slim 3.4.1 |\n| Unminified         | **36.5 KB** | 58.7 KB     | 227 KB            |\n| Minified           | **16 KB**   | 26 KB       | 71 KB             |\n| Minified & Gzipped | **6 KB**    | 9.8 KB      | 24.4 KB           |\nA **76.6%** gain in size reduction compared to jQuery Slim. If you need a smaller bundle, we support partial builds too.\n| Features                 | Cash                               | Zepto 1.2.0                    | jQuery Slim 3.4.1              |\n| Supports Older Browsers  | ❌                                  | ️❌                             | ✔                              |\n| Supports Modern Browsers | ✔                                  | ️✔                             | ✔                              |",
+      "tag": "轻量级DOM库"
+    },
+    {
+      "id": 209381919,
+      "name": "jwilber/roughViz",
+      "stars": 7045,
+      "enhanced_text": "Reusable JavaScript library for creating sketchy/hand-drawn styled charts in the browser.\n\n### Installation\nVia CDN (expose the  global in ):\nWant to use with ? There's a wrapper!:\nWant to use with ? There's a wrapper!:\nWant to use it with ? Go crazy:\n\n### Features\nApply the features of  to each chart:\nAs well as additional chart-specific options (see API below)",
+      "tag": "手绘风格图表库"
+    },
+    {
+      "id": 930217913,
+      "name": "AgentDeskAI/browser-tools-mcp",
+      "stars": 7042,
+      "enhanced_text": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.\n\nabout a new tool that they can use.\nThese tools can call out to external APIs but in our case, **all logs are stored locally** on your machine and NEVER sent out to any third-party service or API. BrowserTools MCP runs a local instance of a NodeJS API server which communicates with the BrowserTools Chrome Extension.\nAll consumers of the BrowserTools MCP Server interface with the same NodeJS API and Chrome extension.\n#### Chrome Extension\n- Monitors XHR requests/responses and console logs\n- Tracks selected DOM elements\n- Sends all logs and current element to the BrowserTools Connector\n- Connects to Websocket server to capture/send screenshots\n- Allows user to configure token/truncation limits + screenshot folder path\n- Acts as middleware between the Chrome extension and MCP server\n- Receives logs and currently selected element from Chrome extension\n- Processes requests from MCP server to capture logs, screenshot or current element\n- Sends Websocket command to the Chrome extension for capturing a screenshot\n- Intelligently truncates strings and # of duplicate objects in logs to avoid token limits\n- Removes cookies and sensitive headers to avoid sending to LLMs in MCP clients\n\n## Installation",
+      "tag": "浏览器开发调试工具"
+    },
+    {
+      "id": 485134435,
+      "name": "ajnart/homarr",
+      "stars": 7015,
+      "enhanced_text": "Customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr).\n\nSimplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips. With Homarr, you can access and control everything in one convenient location. Homarr seamlessly integrates with the apps you've added, providing you with valuable information and giving you complete control. Installation is a breeze, and Homarr supports a wide range of deployment methods.\n> # The Homarr repository has been moved to HomarrLabs\n> # Please create issues related to 1.0 there. This repository will be archived once the 1.0 is fully polished.\n> # 1.0 is a complete rewrite and to migrate you have to change your compose file. Please follow the Migration Guide and read the Breaking Changes\n- 🖌️ Highly customizable with an extensive drag and drop grid system\n- ✨ Integrates seamlessly with your favorite self-hosted applications\n- 📌 Easy and fast app management - no YAML involved\n- 🙊 Advanced secrets' management system for enhanced security",
+      "tag": "自托管仪表盘"
+    },
+    {
+      "id": 24649388,
+      "name": "cazala/synaptic",
+      "stars": 6919,
+      "enhanced_text": "architecture-free neural network library for node.js and the browser.\n\n#### Getting started\nTo try out the examples, checkout the gh-pages branch.\nThis README is also available in other languages.\n- Chinese Simplified | 中文文档, thanks to @noraincode.\n- Chinese Traditional | 繁體中文, by @NoobTW.\n- Japanese | 日本語, thanks to @oshirogo.\n\n#### Introduction\nIf you have no prior knowledge about Neural Networks, you should start by reading this guide.\nIf you want a practical example on how to feed data to a neural network, then take a look at this article.\nYou may also want to take a look at this article.\n- Discrete Sequence Recall Task\n- Learn Image Filters\n- Self Organizing Map\n- Read from Wikipedia\n- Creating a Simple Neural Network (Video)\n- Beer glass classifier\nThe source code of these demos can be found in this branch.\n\n## Overview",
+      "tag": "JavaScript神经网络库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 5694513,
+        "tag": "JavaScript SDK"
+      },
+      {
+        "id": 60434915,
+        "tag": "浏览器书签同步扩展"
+      },
+      {
+        "id": 625486047,
+        "tag": "AI助手浏览器扩展"
+      },
+      {
+        "id": 21611548,
+        "tag": "SVG图形编辑器"
+      },
+      {
+        "id": 37201011,
+        "tag": "以太坊DApp浏览器"
+      },
+      {
+        "id": 156353247,
+        "tag": "JWT/加密库"
+      },
+      {
+        "id": 25780780,
+        "tag": "浏览器SQL数据库"
+      },
+      {
+        "id": 120715537,
+        "tag": "CSS重置样式库"
+      },
+      {
+        "id": 3362916,
+        "tag": "全屏API封装库"
+      },
+      {
+        "id": 35833177,
+        "tag": "键盘快捷键库"
+      },
+      {
+        "id": 24229490,
+        "tag": "轻量级DOM库"
+      },
+      {
+        "id": 209381919,
+        "tag": "手绘风格图表库"
+      },
+      {
+        "id": 930217913,
+        "tag": "浏览器开发调试工具"
+      },
+      {
+        "id": 485134435,
+        "tag": "自托管仪表盘"
+      },
+      {
+        "id": 24649388,
+        "tag": "JavaScript神经网络库"
+      }
+    ]
+  }
+}

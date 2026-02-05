@@ -1,0 +1,125 @@
+{
+  "batch_id": 75,
+  "timestamp": "2026-02-05T15:29:58.575782",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 3082672,
+      "name": "morr/jquery.appear",
+      "stars": 1194,
+      "enhanced_text": "jQuery plugin for tracking element's appearance in browser viewport.",
+      "tag": "jQuery插件库"
+    },
+    {
+      "id": 564141286,
+      "name": "wseagar/eight-dollars",
+      "stars": 1191,
+      "enhanced_text": "A browser extension that shows twitter blue vs real verified users.",
+      "tag": "社交媒体扩展"
+    },
+    {
+      "id": 118652595,
+      "name": "developit/karmatic",
+      "stars": 1167,
+      "enhanced_text": "🦑 Easy automatic (headless) browser testing with Jest's API, but powered by Karma & Webpack.",
+      "tag": "无头浏览器测试"
+    },
+    {
+      "id": 4340323,
+      "name": "jspsych/jsPsych",
+      "stars": 1163,
+      "enhanced_text": "Create behavioral experiments in a browser using JavaScript.",
+      "tag": "Web行为实验框架"
+    },
+    {
+      "id": 370396971,
+      "name": "maximecb/noisecraft",
+      "stars": 1163,
+      "enhanced_text": "Browser-based visual programming language and platform for sound synthesis.",
+      "tag": "浏览器音频合成平台"
+    },
+    {
+      "id": 4141506,
+      "name": "crittermike/shortkeys",
+      "stars": 1156,
+      "enhanced_text": "A browser extension for custom keyboard shortcuts.",
+      "tag": "浏览器快捷键扩展"
+    },
+    {
+      "id": 22472379,
+      "name": "evidenceprime/html-docx-js",
+      "stars": 1146,
+      "enhanced_text": "Converts HTML documents to DOCX in the browser.",
+      "tag": "HTML文档转换库"
+    },
+    {
+      "id": 155305174,
+      "name": "nomic-ai/deepscatter",
+      "stars": 1146,
+      "enhanced_text": "Zoomable, animated scatterplots in the browser that scales over a billion points.",
+      "tag": "浏览器大数据可视化"
+    },
+    {
+      "id": 198628872,
+      "name": "danfragoso/thdwb",
+      "stars": 1143,
+      "enhanced_text": "🌭 The hotdog web browser and browser engine 🌭.",
+      "tag": "实验性浏览器引擎"
+    },
+    {
+      "id": 14976714,
+      "name": "hisorange/browser-detect",
+      "stars": 1140,
+      "enhanced_text": "Browser Detection for Laravel by hisorange!",
+      "tag": "Laravel浏览器检测包"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 3082672,
+        "tag": "jQuery插件库"
+      },
+      {
+        "id": 564141286,
+        "tag": "社交媒体扩展"
+      },
+      {
+        "id": 118652595,
+        "tag": "无头浏览器测试"
+      },
+      {
+        "id": 4340323,
+        "tag": "Web行为实验框架"
+      },
+      {
+        "id": 370396971,
+        "tag": "浏览器音频合成平台"
+      },
+      {
+        "id": 4141506,
+        "tag": "浏览器快捷键扩展"
+      },
+      {
+        "id": 22472379,
+        "tag": "HTML文档转换库"
+      },
+      {
+        "id": 155305174,
+        "tag": "浏览器大数据可视化"
+      },
+      {
+        "id": 198628872,
+        "tag": "实验性浏览器引擎"
+      },
+      {
+        "id": 14976714,
+        "tag": "Laravel浏览器检测包"
+      }
+    ]
+  }
+}

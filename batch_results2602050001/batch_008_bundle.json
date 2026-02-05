@@ -1,0 +1,180 @@
+{
+  "batch_id": 8,
+  "timestamp": "2026-02-05T13:21:05.773586",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 224841533,
+      "name": "Vanessa219/vditor",
+      "stars": 10672,
+      "enhanced_text": "♏  一款浏览器端的 Markdown 编辑器，支持所见即所得（富文本）、即时渲染（类似 Typora）和分屏预览模式。An In-browser Markdown editor, support WYSIWYG (Rich Text),  Instant Rendering (Typora-like) and Split View modes.\n\n易于使用的 Markdown 编辑器，为适配不同的应用场景而生\nVditor 是一款浏览器端的 Markdown 编辑器，支持所见即所得、即时渲染（类似 Typora）和分屏预览模式。它使用 TypeScript 实现，支持原生 JavaScript 以及 Vue、React、Angular 和 Svelte 等框架。\n欢迎到 Vditor 官方讨论区了解更多。同时也欢迎关注 B3log 开源社区微信公众号 ：\n随着 Markdown 排版方式的普及，越来越多的应用开始集成 Markdown 编辑器。目前主流可集成的 Markdown 编辑器现状如下：\n* 有的同时支持所见即所得和分屏预览，但所见即所得模式下不能完整支持 Markdown 语法排版",
+      "tag": "浏览器Markdown编辑器"
+    },
+    {
+      "id": 557977,
+      "name": "socketio/socket.io-client",
+      "stars": 10625,
+      "enhanced_text": "Realtime application framework (client).\n\nThis repository and its history have been merged into the Socket.IO monorepo.",
+      "tag": "浏览器实时通信库"
+    },
+    {
+      "id": 2030956,
+      "name": "foliojs/pdfkit",
+      "stars": 10577,
+      "enhanced_text": "A JavaScript PDF generation library for Node and the browser.\n\n## Installation\nUse npm or yarn package manager. Just type the following command:\n\n## Description\nPDFKit is a PDF document generation library for Node and the browser that makes creating complex, multi-page, printable\ndocuments easy. The API embraces chainability, and includes both low level functions as well as abstractions for higher\nlevel functionality. The PDFKit API is designed to be simple, so generating complex documents is often as simple as\na few function calls.\nCheck out some of the documentation and examples to see for yourself!\nYou can also read the guide as a self-generated PDF with example output displayed inline.\nIf you'd like to see how it was generated, check out the README in the docs\nYou can also try out an interactive in-browser demo of PDFKit here.",
+      "tag": "浏览器PDF生成库"
+    },
+    {
+      "id": 464827989,
+      "name": "triggerdotdev/jsonhero-web",
+      "stars": 10576,
+      "enhanced_text": "JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀. Built with 💜 by the Trigger.dev team.",
+      "tag": "浏览器JSON可视化工具"
+    },
+    {
+      "id": 72066935,
+      "name": "cs01/gdbgui",
+      "stars": 10307,
+      "enhanced_text": "Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.\n\nA browser-based frontend to gdb (gnu debugger)\n**Documentation**: https://gdbgui.com\n**Source Code**: https://github.com/cs01/gdbgui/",
+      "tag": "浏览器GDB调试前端"
+    },
+    {
+      "id": 4190976,
+      "name": "ziahamza/webui-aria2",
+      "stars": 10290,
+      "enhanced_text": "The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.\n\nVery simple to use, no build scripts, no installation scripts. First start aria2 in the background either in your local machine or in a remote one. You can do that as follows:\nIf aria2 is not installed in your local machine then head on to https://aria2.github.io/ and follow the instructions there.\n- You can either download this repository and open index.html from  folder.\n- Or you could just head on to https://ziahamza.github.io/webui-aria2 and start downloading files! Once you have visited the URL thanks to Progressive Web Apps you can open the same URL even when you are offline.\n- Or you can also use NodeJS to create simple server by using the following command from the project folder.\n1. You can always select which files to download in case of torrents or metalinks. Just pause a download and a list icon should appear next to the settings button. To select which files to download before starting the download, give the flag --pause-metadata to aria2. See link",
+      "tag": "浏览器Aria2管理界面"
+    },
+    {
+      "id": 135633158,
+      "name": "Netflix/pollyjs",
+      "stars": 10259,
+      "enhanced_text": "Record, Replay, and Stub HTTP Interactions.\n\n## Features\n- 🚀 Node & Browser Support\n- ⚡️️ Simple, Powerful, & Intuitive API\n- 💎 First Class Mocha & QUnit Test Helpers\n- 🔥 Intercept, Pass-Through, and Attach Events\n- 📼 Record to Disk or Local Storage\n- ⏱ Slow Down or Speed Up Time",
+      "tag": "HTTP请求录制回放库"
+    },
+    {
+      "id": 998796026,
+      "name": "hangwin/mcp-chrome",
+      "stars": 10256,
+      "enhanced_text": "Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.\n\n### Installation Steps\n1. **Download the latest Chrome extension from GitHub**\nDownload link: https://github.com/hangwin/mcp-chrome/releases\n2. **Install mcp-chrome-bridge globally**\n> Note: pnpm v7+ disables postinstall scripts by default for security. The  setting controls whether pre/post install scripts run. If automatic registration fails, use the manual registration command above.\n3. **Load Chrome Extension**\n- Open Chrome and go to\n- Enable \"Developer mode\"\n- Click \"Load unpacked\" and select\n- Click the extension icon to open the plugin, then click connect to see the MCP configuration",
+      "tag": "浏览器自动化扩展"
+    },
+    {
+      "id": 528152092,
+      "name": "easydiffusion/easydiffusion",
+      "stars": 10235,
+      "enhanced_text": "An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.\n\n# Installation\nClick the download button for your operating system:\n**Hardware requirements:**\n- **Windows:** NVIDIA¹ or AMD graphics card (minimum 2 GB RAM), or run on your CPU.\n- **Linux:** NVIDIA¹ or AMD² graphics card (minimum 2 GB RAM), or run on your CPU.\n- **Mac:** M1/M2/M3/M4 or AMD graphics card (Intel Mac), or run on your CPU.\n- Minimum 8 GB of system RAM.\n- Atleast 25 GB of space on the hard disk.\n¹) CUDA Compute capability level of 3.7 or higher required.\n²) ROCm 5.2 (or newer) support required.\nThe installer will take care of whatever is needed. If you face any problems, you can join the friendly Discord community and ask for assistance.\n1. Run the downloaded  file.\n2. Run  once the installation finishes. You can also start from your Start Menu, or from your desktop (if you created a shortcut).\nIf Windows SmartScreen prevents you from running the program click  and then .\n**Tip:** On Windows 10, please install at the top level in your drive, e.g.  or . This will avoid a common problem with Windows 10 (file path length limits).\n\n## Features:\n- **Hassle-free installation**: Does not require technical knowledge, does not require pre-installed software. Just download and run!\n- **Clutter-free UI**: A friendly and simple UI, while providing a lot of powerful features.\n- **Task Queue**: Queue up all your ideas, without waiting for the current task to finish.\n- **Intelligent Model Detection**: Automatically figures out the YAML config file to use for the chosen model (via a models database).\n- **Live Preview**: See the image as the AI is drawing it.\n- **Image Modifiers**: A library of *modifier tags* like *\"Realistic\"*, *\"Pencil Sketch\"*, *\"ArtStation\"* etc. Experiment with various styles quickly.\n- **Multiple Prompts File**: Queue multiple prompts by entering one prompt per line, or by running a text file.\n- **Save generated images to disk**: Save your images to your PC!\n- **UI Themes**: Customize the program to your liking.\n- **Searchable models dropdown**: organize your models into sub-folders, and search through them in the UI.\n### Powerful image generation\n- **Supports**: \"*Text to Image*\", \"*Image to Image*\" and \"*InPainting*\"\n- **ControlNet**: For advanced control over the image, e.g. by setting the pose or drawing the outline for the AI to fill in.\n- **16 Samplers**: , , , , , , , , , , , , , , , .\n\nInstallation guide | Troubleshooting guide | User guide |  (for support queries, and development discussions)",
+      "tag": "浏览器AI绘图界面"
+    },
+    {
+      "id": 1135454,
+      "name": "cefsharp/CefSharp",
+      "stars": 10201,
+      "enhanced_text": ".NET (WPF and Windows Forms) bindings for the Chromium Embedded Framework.\n\nGot a quick question? Discussions here on  is the preferred place to ask!\nCefSharp lets you embed Chromium in .NET apps. It is a lightweight .NET wrapper around the Chromium Embedded Framework (CEF) by Marshall A. Greenblatt. About 30% of the bindings are written in C++/CLI with the majority of code here is C#. It can be used from C# or VB, or any other CLR language. CefSharp provides both WPF and WinForms web browser control implementations.\nCefSharp is BSD licensed, so it can be used in both proprietary and free/open source applications. For the full details, see the LICENSE file.\nIf you like and use CefSharp please consider signing up for a small monthly donation, even $25 can help tremendously. See Financial Support for more details.\nStable binaries are released on NuGet, and contain everything you need to embed Chromium in your .Net/CLR application. For usage see the Quick Start guide or checkout CefSharp.MinimalExample project for basic demos using the CefSharp NuGet packages.\n- CefSharp.Wpf.HwndHost (A HwndHost based WPF implementation, similar to hosting the WinForms version in WPF, supports data binding, airspace issues apply).",
+      "tag": "Chromium .NET嵌入框架"
+    },
+    {
+      "id": 490677825,
+      "name": "oramasearch/orama",
+      "stars": 10126,
+      "enhanced_text": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
+      "tag": "浏览器内嵌搜索引擎"
+    },
+    {
+      "id": 3320710,
+      "name": "faisalman/ua-parser-js",
+      "stars": 10040,
+      "enhanced_text": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side).",
+      "tag": "浏览器用户代理解析库"
+    },
+    {
+      "id": 36353527,
+      "name": "typicode/hotel",
+      "stars": 9998,
+      "enhanced_text": "🏩 A simple process manager for developers. Start apps from your browser and access them using local domains.\n\n> Start apps from your browser and use local domains/https automatically\n_Tip: if you don't enable local domains, hotel can still be used as a **catalog of local servers**._\nHotel works great on any OS (macOS, Linux, Windows) and with __all servers :heart:__\n* Ruby (Rails, Sinatra, Jekyll)\n_To all the amazing people who have answered the Hotel survey, thanks so much  [opts]",
+      "tag": "本地服务进程管理器"
+    },
+    {
+      "id": 618081183,
+      "name": "NopeCHALLC/nopecha-extension",
+      "stars": 9911,
+      "enhanced_text": "Automated CAPTCHA solver for your browser. Works with Selenium, Puppeteer, Playwright, and more.\n\n## Getting Started\nThe fastest way to start is to install our browser extension that automatically detects and solves CAPTCHAs present on the page. It works in both Chrome and Firefox, including all Chromium-based automation tools like Puppeteer and Selenium.\nFree to use for up to 100 requests per day. No sign-up or API key needed! Just install our extension and it will work instantly on any CAPTCHA it detects.\n> *Note: requests made without an API key counts usage by IP address.*\nFor higher limits and more features, sign up at NopeCHA.com to create an API key.\nFor developers integrating NopeCHA into their projects, please see our Documentation and API reference.\n### Supported CAPTCHA Types\nHere is a sample of CAPTCHA types supported by NopeCHA, with more added regularly:\n| reCAPTCHA | FunCAPTCHA |\n| hCaptcha | AWS WAF |\n| Text CAPTCHA | Cloudflare Turnstile |\n- See our latest release notes for the most recent updates and new features.\n- View API reference for the full list of supported endpoints and CAPTCHAs.\n- View documentation for guides on how to automate using the NopeCHA extension.\n- Visit our website for more information about our services and to sign up for an API key.",
+      "tag": "浏览器验证码自动求解扩展"
+    },
+    {
+      "id": 31341340,
+      "name": "kern/filepizza",
+      "stars": 9897,
+      "enhanced_text": ":pizza: Peer-to-peer file transfers in your browser.\n\nPeer-to-peer file transfers in your browser\n*Cooked up by Alex Kern & Neeraj Baid while eating Sliver @ UC Berkeley.*\nUsing WebRTC, FilePizza eliminates the initial upload step required by other web-based file sharing services. Because data is never stored in an intermediary server, the transfer is fast, private, and secure.\nA hosted instance of FilePizza is available at file.pizza.\n## What's new with FilePizza v2\n* A new UI with dark mode support, now built on modern browser technologies.\n* Works on most mobile browsers, including Mobile Safari.\n* Transfers are now directly from the uploader to the downloader's browser (WebRTC without WebTorrent) with faster handshakes.\n* Uploaders can monitor the progress of the transfer and stop it if they want.\n* Better security and safety measures with password protection and reporting.",
+      "tag": "浏览器P2P文件传输"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 224841533,
+        "tag": "浏览器Markdown编辑器"
+      },
+      {
+        "id": 557977,
+        "tag": "浏览器实时通信库"
+      },
+      {
+        "id": 2030956,
+        "tag": "浏览器PDF生成库"
+      },
+      {
+        "id": 464827989,
+        "tag": "浏览器JSON可视化工具"
+      },
+      {
+        "id": 72066935,
+        "tag": "浏览器GDB调试前端"
+      },
+      {
+        "id": 4190976,
+        "tag": "浏览器Aria2管理界面"
+      },
+      {
+        "id": 135633158,
+        "tag": "HTTP请求录制回放库"
+      },
+      {
+        "id": 998796026,
+        "tag": "浏览器自动化扩展"
+      },
+      {
+        "id": 528152092,
+        "tag": "浏览器AI绘图界面"
+      },
+      {
+        "id": 1135454,
+        "tag": "Chromium .NET嵌入框架"
+      },
+      {
+        "id": 490677825,
+        "tag": "浏览器内嵌搜索引擎"
+      },
+      {
+        "id": 3320710,
+        "tag": "浏览器用户代理解析库"
+      },
+      {
+        "id": 36353527,
+        "tag": "本地服务进程管理器"
+      },
+      {
+        "id": 618081183,
+        "tag": "浏览器验证码自动求解扩展"
+      },
+      {
+        "id": 31341340,
+        "tag": "浏览器P2P文件传输"
+      }
+    ]
+  }
+}

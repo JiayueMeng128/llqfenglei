@@ -1,0 +1,16 @@
+{
+  "batch_id": 76,
+  "timestamp": "2026-02-05T15:30:00.940218",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 10452358,\n      \"tag\": \"生产力扩展\"\n    },\n    {\n      \"id\": 59907561,\n      \"tag\": \"浏览器AI建模平台\"\n    },\n    {\n      \"id\": 835650091,\n      \"tag\": \"Web视频处理引擎\"\n    },\n    {\n      \"id\": 506162055,\n      \"tag\": \"备份管理工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 389,
+    "completion_tokens": 100,
+    "total_tokens": 489
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984b778925d4dbb29492fc27c83d5d7",
+  "created": 1770305400,
+  "finish_reason": "stop"
+}

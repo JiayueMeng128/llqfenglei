@@ -1,0 +1,125 @@
+{
+  "batch_id": 69,
+  "timestamp": "2026-02-05T14:48:06.556565",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 18456451,
+      "name": "EddyBorja/EBPhotoPages",
+      "stars": 1627,
+      "enhanced_text": "A photo gallery for iOS with a modern feature set. Similar features as the Facebook photo browser.",
+      "tag": "iOS照片库组件"
+    },
+    {
+      "id": 34648097,
+      "name": "jorgebucaran/colorette",
+      "stars": 1624,
+      "enhanced_text": "🌈Easily set your terminal text color & styles.",
+      "tag": "终端样式库"
+    },
+    {
+      "id": 2185527,
+      "name": "neocotic/qrious",
+      "stars": 1623,
+      "enhanced_text": "Pure JavaScript library for QR code generation using canvas.",
+      "tag": "JavaScript二维码生成库"
+    },
+    {
+      "id": 1567795,
+      "name": "minkphp/Mink",
+      "stars": 1611,
+      "enhanced_text": "PHP web browser emulator abstraction.",
+      "tag": "PHP浏览器模拟抽象层"
+    },
+    {
+      "id": 104401601,
+      "name": "trustwallet/trust-wallet-ios",
+      "stars": 1595,
+      "enhanced_text": ":iphone: Trust - Ethereum Wallet and Web3 DApp Browser for iOS.",
+      "tag": "iOS加密货币钱包"
+    },
+    {
+      "id": 187090924,
+      "name": "robb0wen/tornis",
+      "stars": 1593,
+      "enhanced_text": "Tornis helps you watch and respond to changes in your browser's viewport 🌲.",
+      "tag": "浏览器视窗监听库"
+    },
+    {
+      "id": 65116637,
+      "name": "mikeal/roll-call",
+      "stars": 1560,
+      "enhanced_text": "📞 Free and reliable audio calls for everyone w/ browser p2p.",
+      "tag": "WebRTC点对点通话库"
+    },
+    {
+      "id": 138811196,
+      "name": "nschloe/tuna",
+      "stars": 1548,
+      "enhanced_text": ":fish: Python profile viewer.",
+      "tag": "Python性能分析工具"
+    },
+    {
+      "id": 1595792,
+      "name": "RSamaium/RPG-JS",
+      "stars": 1538,
+      "enhanced_text": "Framework to create an RPG or MMORPG (with the same code) in the browser with Typescript.",
+      "tag": "浏览器RPG游戏框架"
+    },
+    {
+      "id": 51248829,
+      "name": "marmelroy/FileBrowser",
+      "stars": 1535,
+      "enhanced_text": "Finder-style iOS file browser written in Swift.",
+      "tag": "iOS文件管理器组件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 18456451,
+        "tag": "iOS照片库组件"
+      },
+      {
+        "id": 34648097,
+        "tag": "终端样式库"
+      },
+      {
+        "id": 2185527,
+        "tag": "JavaScript二维码生成库"
+      },
+      {
+        "id": 1567795,
+        "tag": "PHP浏览器模拟抽象层"
+      },
+      {
+        "id": 104401601,
+        "tag": "iOS加密货币钱包"
+      },
+      {
+        "id": 187090924,
+        "tag": "浏览器视窗监听库"
+      },
+      {
+        "id": 65116637,
+        "tag": "WebRTC点对点通话库"
+      },
+      {
+        "id": 138811196,
+        "tag": "Python性能分析工具"
+      },
+      {
+        "id": 1595792,
+        "tag": "浏览器RPG游戏框架"
+      },
+      {
+        "id": 51248829,
+        "tag": "iOS文件管理器组件"
+      }
+    ]
+  }
+}

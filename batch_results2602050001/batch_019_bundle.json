@@ -1,0 +1,180 @@
+{
+  "batch_id": 19,
+  "timestamp": "2026-02-05T13:23:55.082502",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 618514446,
+      "name": "gptme/gptme",
+      "stars": 4182,
+      "enhanced_text": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web, vision.\n\nGetting Started\n📜 Personal AI agent in your terminal, with tools so it can:\nUse the terminal, run code, edit files, browse the web, use vision, and much more;\na great coding agent, but is general-purpose to assist in all kinds of knowledge-work.\nAn unconstrained local free and open-source alternative to Claude Code, Codex, Cursor Agents, etc.\nOne of the first agent CLIs created (Spring 2023) that is still in active development.\n## 📚 Table of Contents\n- **Coming soon** - gptme.ai service for running agents in the cloud; gptme desktop app for easy local use.\n- **2026-01** - gptme-agent-template v0.4: Bob reaches 1000+ autonomous sessions, autonomous run loops, enhanced context generation\n- **2025-12** - v0.31.0: Background jobs, form tool, cost tracking, content-addressable storage\n- **2025-11** - v0.30.0: Plugin system, context compression, subagent planner mode\n- **2025-10** - v0.29.0: Lessons system for contextual guidance, MCP discovery & dynamic loading, token awareness; Bob begins autonomous runs with GitHub monitoring\n- **2025-08** - v0.28.0: MCP support, morph tool for fast edits, auto-commit, redesigned server API\n- **2025-03** - v0.27.0: Pre-commit integration, macOS computer use, Claude 3.7 Sonnet, DeepSeek R1, local TTS with Kokoro\n- **2025-01** - gptme-contrib created: community plugins including Twitter/X, Discord bot, email tools, consortium (multi-agent)",
+      "tag": "终端AI代理"
+    },
+    {
+      "id": 46246431,
+      "name": "donnemartin/haxor-news",
+      "stars": 4131,
+      "enhanced_text": "Browse Hacker News like a haxor: A Hacker News command line interface (CLI).\n\n### Features\n* View a Post's Linked Web Content\n* View and Filter a Post's Comments\n* Filter on Unseen Comments\n* Filter on Recent Comments\n* Hide Non-Matching Comments\n* View and Filter the Monthly Hiring Post\n* View and Filter the Monthly Freelancer Post\n* Combine With Pipes and Redirects\n* View Results in a Browser\n\n### Installation and Tests\n* Virtual Environment Installation\n* Supported Python Versions\n* Supported Platforms\n* Developer Installation\n* Continuous Integration\n* Unit Tests and Code Coverage\n$ hn  [params] [options]\n## Auto-Completer and Interactive Help\nOptionally, you can enable fish-style completions and an auto-completion menu with interactive help:\nIf available, the auto-completer also automatically displays comments through a pager.\nWithin the auto-completer, the same syntax applies:\nhaxor> hn  [params] [options]\n## Customizable Highlighting\nYou can control the ansi colors used for highlighting by updating your  file.",
+      "tag": "命令行界面工具"
+    },
+    {
+      "id": 584016836,
+      "name": "xiangechen/chili3d",
+      "stars": 4127,
+      "enhanced_text": "A browser-based 3D CAD application for online model design and editing.\n\n## Overview\nChili3D is an open-source, browser-based 3D CAD (Computer-Aided Design) application built with TypeScript. It achieves near-native performance by compiling OpenCascade (OCCT) to WebAssembly and integrating with Three.js, enabling powerful online modeling, editing, and rendering—all without the need for local installation.\nYou can access Chili3D online at:\n- Official website: chili3d.com\n- Cloudflare deployment: chili3d.pages.dev\n\n## Features\n- **Basic Shapes**: Create boxes, cylinders, cones, spheres, pyramids, and more\n- **2D Sketching**: Draw lines, arcs, circles, ellipses, rectangles, polygons, and Bezier curves\n- **Advanced Operations**:\n- Boolean operations (union, difference, intersection)\n- Extrusion and revolution\n- Sweeping and lofting\n### Snapping and Tracking\n- **Object Snapping**: Precisely snap to geometric features (points, edges, faces)\n- **Workplane Snapping**: Snap to the current workplane for accurate planar operations\n- **Axis Tracking**: Create objects along tracked axes for precise alignment\n- **Feature Point Detection**: Automatically detect and snap to key geometric features\n- **Tracking Visualization**: Visual guides showing tracking lines and reference points\n- **Modification**: Chamfer, fillet, trim, break, split\n- **Transformation**: Move, rotate, mirror\n\n## Getting Started",
+      "tag": "WebAssembly CAD应用"
+    },
+    {
+      "id": 5400018,
+      "name": "Level/levelup",
+      "stars": 4081,
+      "enhanced_text": "Superseded by abstract-level. A wrapper for abstract-leveldown compliant stores, for Node.js and browsers.",
+      "tag": "浏览器键值存储库"
+    },
+    {
+      "id": 327265659,
+      "name": "scriptscat/scriptcat",
+      "stars": 4080,
+      "enhanced_text": "ScriptCat, a browser extension that can execute userscript; 脚本猫，一个可以执行用户脚本的浏览器扩展.\n\n## About ScriptCat\nScriptCat is a powerful userscript manager based on Tampermonkey's design philosophy, fully compatible with Tampermonkey\nscripts. It not only supports traditional userscripts but also innovatively implements a background script execution\nframework with rich API extensions, enabling scripts to accomplish more powerful functions. It features an excellent\nbuilt-in code editor with intelligent completion and syntax checking, making script development more efficient and\n**If you find it useful, please give us a Star ⭐ This is the greatest support for us!**\n- **Script Cloud Sync**: Sync scripts across devices, easily restore when switching browsers or reinstalling systems\n- **Script Subscriptions**: Create and manage script collections, support team collaboration and script combinations\n### 🔧 Powerful Functions\n- **Full Tampermonkey Compatibility**: Seamlessly migrate existing Tampermonkey scripts with zero learning curve\n- **Background Scripts**: Innovative background execution mechanism, keeping scripts running continuously without page\n- **Scheduled Scripts**: Support timed execution tasks for auto check-ins, scheduled reminders, and more\n- **Rich APIs**: Provides more powerful APIs compared to Tampermonkey, unlocking more possibilities\n### 🛡️ Security & Reliability\n- **Sandbox Mechanism**: Scripts run in isolated environments, preventing malicious code from affecting other scripts",
+      "tag": "用户脚本管理器"
+    },
+    {
+      "id": 398753576,
+      "name": "pdfme/pdfme",
+      "stars": 4075,
+      "enhanced_text": "Open-source PDF generation library built with TypeScript and React. Features a WYSIWYG template designer, PDF viewer, and powerful generation capabilities. Create custom PDFs effortlessly in both browser and Node.js environments.",
+      "tag": "PDF生成库"
+    },
+    {
+      "id": 23509696,
+      "name": "nodeca/pica",
+      "stars": 4026,
+      "enhanced_text": "Resize image in browser with high quality and high speed.\n\nhow to use multiple cores (if browser allows).\n### .toBlob(canvas, mimeType [, quality]) -> Promise\nConvenience method, similar to , but with\npromise interface & polyfill for old browsers.\n### .resizeBuffer(options) -> Promise\nSupplementary method, not recommended for direct use. Resize\nUint8Array with raw RGBA bitmap (don't confuse with\njpeg / png  / ... binaries). It does not use tiles & webworkers.\nLeft for special cases when you really need to process raw\nbinary data (for example, if you decode jpeg files \"manually\").\n- __src__ - Uint8Array with source data.\n- __width__ - src image width.\n- __height__ - src image height.\n- __toWidth__ - output width, >=0, in pixels.\n- __toHeight__ - output height, >=0, in pixels.",
+      "tag": "浏览器图像处理库"
+    },
+    {
+      "id": 969338882,
+      "name": "coderamp-labs/pad.ws",
+      "stars": 4023,
+      "enhanced_text": "Whiteboard as an IDE, draw and code in your browser.\n\n# pad.ws -  whiteboard as an IDE 🎨\npad.ws is a whiteboard app that acts as a dev environment in your browser\n* 🎨 **Interactive Whiteboard** - Draw, sketch and visualize your ideas with Excalidraw\n* 💻 **Fully fledged IDE** - Access terminals and VS Code directly within the whiteboard\n* ☁️ **Browser friendly** - Access your dev env from any device\n* 🔄 **Seamless Workflow** - Switch between visual ideation and coding\n* 🛠️ **Use your own tools** - Access your VM from your desktop client (VS Code & Cursor supported)\nThis uses Excalidraw for the whiteboard interface while Coder powers the cloud development environments.",
+      "tag": "云端IDE白板"
+    },
+    {
+      "id": 480804,
+      "name": "stacktracejs/stacktrace.js",
+      "stars": 4008,
+      "enhanced_text": "Generate, parse, and enhance JavaScript stack traces in all web browsers.\n\nGenerate, parse and enhance JavaScript stack traces in all browsers\nDebug and profile your JavaScript with a stack trace of function calls leading to an error (or any condition you specify).\nstacktrace.js uses browsers'  mechanism to generate stack traces, parses them, enhances them with\nto return an Array of StackFrames.\n#### Upgrading? Check the 0.x -> 1.x Migration Guide\n#### Get a stack trace from current location\n#### You can also get a stack trace synchronously\n**HEADS UP:** This method does not resolve source maps or guess anonymous function names.",
+      "tag": "JavaScript堆栈追踪库"
+    },
+    {
+      "id": 310123680,
+      "name": "webui-dev/webui",
+      "stars": 4008,
+      "enhanced_text": "Use any web browser or WebView as GUI, with your preferred language in the backend and modern web technologies in the frontend, all in a lightweight portable library.",
+      "tag": "WebView GUI框架"
+    },
+    {
+      "id": 26350830,
+      "name": "coleifer/sqlite-web",
+      "stars": 4000,
+      "enhanced_text": "Web-based SQLite database browser written in Python.\n\n### Installation\nIf you have multiple databases:\nThen navigate to http://localhost:8080/ to view your database.",
+      "tag": "Web数据库管理工具"
+    },
+    {
+      "id": 494567206,
+      "name": "ansh/jiffyreader-public-archive",
+      "stars": 3986,
+      "enhanced_text": "A Browser Extension for faster reading on ANY website!\n\n# Installation Instructions\n> Download via Chrome Store or follow the instructions below\n1. Click here to download the latest  release\n4. Enter   in the address bar\n5. Enable  with the toggle on the top right side of the page if it is not enabled already\n6. Click  on the left side of the page\n7. Find and select the extracted folder, this extension should now be installed\n8. To pin the extension, click the  on the top right of Chrome, then .\n9. The extensions default reading mode is set to off when installed\n10. See the FAQ section on how to use the extension, customize it (global and per site settings) and excluding sites from\nThe Chrome version includes support for mellowtel.dev, an open-source library to support the development of free browser extensions.\n> Download via the Mozilla Firefox Plugin/Add-on Store or follow the instructions below\n1. Download  by right-clicking here and choose  to download the latest release\n3. Enter   in the address bar\n4. Click  and navigate to the path of the downloaded  and select it to install it",
+      "tag": "阅读模式浏览器扩展"
+    },
+    {
+      "id": 952018616,
+      "name": "sagekit/magnitude",
+      "stars": 3950,
+      "enhanced_text": "Open-source, vision-first browser agent.\n\n> 🚀 New: Magnitude is state-of-the-art, scoring 94% on WebVoyager!\nMagnitude uses vision AI to enable you to control your browser with natural language.\n- 🧭 **Navigate** - Sees and understands any interface to plan out actions\n- 🖱️ **Interact** - Executes precise actions using mouse and keyboard\n- 🔍 **Extract** - Intelligently extracts useful structured data\n- ✅ **Verify** - Built-in test runner with powerful visual assertions\nYou can use it to automate tasks on the web, integrate between apps without APIs, extract data, test your web apps, or as a building block for your own browser agents.\n### Running your first browser automation",
+      "tag": "视觉AI浏览器自动化"
+    },
+    {
+      "id": 479586,
+      "name": "mathiasbynens/jquery-placeholder",
+      "stars": 3945,
+      "enhanced_text": "A jQuery plugin that enables HTML5 placeholder behavior for browsers that aren’t trying hard enough yet.",
+      "tag": "jQuery兼容性插件"
+    },
+    {
+      "id": 175832658,
+      "name": "crxjs/chrome-extension-tools",
+      "stars": 3927,
+      "enhanced_text": "Build cross-browser extensions with native HMR and zero-config setup.\n\n>  MUST NOT be omitted, otherwise  may resolve to a cached and outdated version of the package.\n- 🧩 **Full Vite Plugin Ecosystem** - Leverage any Vite-compatible plugins with zero extra setup\n- ⚙️ **Zero Configuration** - Start developing immediately with intelligent defaults\n- 3️⃣ **Manifest V3 Support** - Built for modern Chrome extensions with enhanced security\n- 🔥 **True Hot Module Replacement** - Instant UI updates while preserving extension state 🎈**works with content scripts**",
+      "tag": "浏览器扩展构建工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 618514446,
+        "tag": "终端AI代理"
+      },
+      {
+        "id": 46246431,
+        "tag": "命令行界面工具"
+      },
+      {
+        "id": 584016836,
+        "tag": "WebAssembly CAD应用"
+      },
+      {
+        "id": 5400018,
+        "tag": "浏览器键值存储库"
+      },
+      {
+        "id": 327265659,
+        "tag": "用户脚本管理器"
+      },
+      {
+        "id": 398753576,
+        "tag": "PDF生成库"
+      },
+      {
+        "id": 23509696,
+        "tag": "浏览器图像处理库"
+      },
+      {
+        "id": 969338882,
+        "tag": "云端IDE白板"
+      },
+      {
+        "id": 480804,
+        "tag": "JavaScript堆栈追踪库"
+      },
+      {
+        "id": 310123680,
+        "tag": "WebView GUI框架"
+      },
+      {
+        "id": 26350830,
+        "tag": "Web数据库管理工具"
+      },
+      {
+        "id": 494567206,
+        "tag": "阅读模式浏览器扩展"
+      },
+      {
+        "id": 952018616,
+        "tag": "视觉AI浏览器自动化"
+      },
+      {
+        "id": 479586,
+        "tag": "jQuery兼容性插件"
+      },
+      {
+        "id": 175832658,
+        "tag": "浏览器扩展构建工具"
+      }
+    ]
+  }
+}

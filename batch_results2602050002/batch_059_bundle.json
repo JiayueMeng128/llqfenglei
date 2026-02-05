@@ -1,0 +1,125 @@
+{
+  "batch_id": 59,
+  "timestamp": "2026-02-05T14:45:52.327282",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 229236549,
+      "name": "DO-SAY-GO/dn",
+      "stars": 3859,
+      "enhanced_text": "💾 dn - offline full-text search and archiving for your Chromium-based browser.",
+      "tag": "浏览器离线搜索归档工具"
+    },
+    {
+      "id": 749137,
+      "name": "Atmosphere/atmosphere",
+      "stars": 3727,
+      "enhanced_text": "Event Driven WebSockets Framework  with Cross-Browser Fallbacks.",
+      "tag": "WebSocket通信框架"
+    },
+    {
+      "id": 106959954,
+      "name": "jaredpalmer/react-fns",
+      "stars": 3717,
+      "enhanced_text": "Browser API's turned into declarative React components and HoC's.",
+      "tag": "React浏览器API组件库"
+    },
+    {
+      "id": 4617120,
+      "name": "flesler/jquery.scrollTo",
+      "stars": 3669,
+      "enhanced_text": "Lightweight, cross-browser and highly customizable animated scrolling with jQuery.",
+      "tag": "jQuery滚动动画库"
+    },
+    {
+      "id": 11321096,
+      "name": "EFForg/privacybadger",
+      "stars": 3656,
+      "enhanced_text": "Privacy Badger is a browser extension that automatically learns to block hidden trackers.",
+      "tag": "隐私保护浏览器扩展"
+    },
+    {
+      "id": 676211990,
+      "name": "gosub-io/gosub-engine",
+      "stars": 3645,
+      "enhanced_text": "The Gosub browser engine.",
+      "tag": "浏览器渲染引擎"
+    },
+    {
+      "id": 79764891,
+      "name": "tuyafeng/Via",
+      "stars": 3607,
+      "enhanced_text": "Via is a simple browser, and this repository is set for localization.",
+      "tag": "轻量级移动浏览器"
+    },
+    {
+      "id": 323121488,
+      "name": "oblador/hush",
+      "stars": 3589,
+      "enhanced_text": "🤫 Noiseless Browsing – Content Blocker for Safari.",
+      "tag": "Safari内容拦截器"
+    },
+    {
+      "id": 81035045,
+      "name": "aliyun/oss-browser",
+      "stars": 3538,
+      "enhanced_text": "OSS Browser 提供类似windows资源管理器功能。用户可以很方便的浏览文件，上传下载文件，支持断点续传等。.",
+      "tag": "云存储文件管理客户端"
+    },
+    {
+      "id": 17667574,
+      "name": "outdatedbrowser/outdated-browser",
+      "stars": 3509,
+      "enhanced_text": "A simple tool to identify and upgrade old browsers.",
+      "tag": "浏览器版本检测工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 229236549,
+        "tag": "浏览器离线搜索归档工具"
+      },
+      {
+        "id": 749137,
+        "tag": "WebSocket通信框架"
+      },
+      {
+        "id": 106959954,
+        "tag": "React浏览器API组件库"
+      },
+      {
+        "id": 4617120,
+        "tag": "jQuery滚动动画库"
+      },
+      {
+        "id": 11321096,
+        "tag": "隐私保护浏览器扩展"
+      },
+      {
+        "id": 676211990,
+        "tag": "浏览器渲染引擎"
+      },
+      {
+        "id": 79764891,
+        "tag": "轻量级移动浏览器"
+      },
+      {
+        "id": 323121488,
+        "tag": "Safari内容拦截器"
+      },
+      {
+        "id": 81035045,
+        "tag": "云存储文件管理客户端"
+      },
+      {
+        "id": 17667574,
+        "tag": "浏览器版本检测工具"
+      }
+    ]
+  }
+}

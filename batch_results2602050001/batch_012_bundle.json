@@ -1,0 +1,180 @@
+{
+  "batch_id": 12,
+  "timestamp": "2026-02-05T13:21:42.625348",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 657577902,
+      "name": "imgly/background-removal-js",
+      "stars": 6916,
+      "enhanced_text": "Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo.",
+      "tag": "浏览器图像处理库"
+    },
+    {
+      "id": 6418762,
+      "name": "futurepress/epub.js",
+      "stars": 6856,
+      "enhanced_text": "Enhanced eBooks in the browser.\n\n## Getting Started\nIf using archived  files include JSZip (this must precede inclusion of epub.js):\nGet the minified code from the build folder:\nSet up a element to render to:\nCreate the new ePub, and then render it to that element:\nThe default manager only displays a single section at a time.\nThe continuous manager will display as many sections as need to fill the screen, and preload the next section offscreen. This enables seamless swiping / scrolling between pages on mobile and desktop, but is less performant than the default method.\nFlow will be based on the settings in the OPF, defaults to .\nScripted content, JavasScript the ePub HTML content, is disabled by default due to the potential for executing malicious content.\nThis is done by sandboxing the iframe the content is rendered into, though it is still recommended to sanitize the ePub content server-side as well.\nIf a trusted ePub contains interactivity, it can be enabled by passing  to the  settings.\nThis will allow the sandboxed content to run scripts, but currently makes the sandbox insecure.\nAPI documentation is available at epubjs.org/documentation/0.3/\nA Markdown version is included in the repo at documentation/API.md",
+      "tag": "电子书渲染引擎"
+    },
+    {
+      "id": 130369089,
+      "name": "jdepoix/youtube-transcript-api",
+      "stars": 6842,
+      "enhanced_text": "This is a python API which allows you to get the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles and it does not require an API key nor a headless browser, like other selenium based solutions do!\n\nThis is a python API which allows you to retrieve the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headless browser, like other selenium based solutions do!\nMaintenance of this project is made possible by all the contributors and sponsors. If you'd like to sponsor this project and have your avatar or company logo appear below click here. 💖\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nIt is recommended to install this module by using pip:\nYou can either integrate this module into an existing application or just use it via a CLI.\nThe easiest way to get a transcript for a given video is to execute:\n> **Note:** By default, this will try to access the English transcript of the video. If your video has a different\n> language, or you are interested in fetching a transcript in a different language, please read the section below.",
+      "tag": "视频字幕API"
+    },
+    {
+      "id": 206509491,
+      "name": "rowyio/rowy",
+      "stars": 6800,
+      "enhanced_text": "Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.",
+      "tag": "低代码后端平台"
+    },
+    {
+      "id": 24650236,
+      "name": "google/lovefield",
+      "stars": 6788,
+      "enhanced_text": "Lovefield is a relational database for web apps. Written in JavaScript, works cross-browser. Provides SQL-like APIs that are fast, safe, and easy to use.",
+      "tag": "浏览器关系型数据库"
+    },
+    {
+      "id": 664226598,
+      "name": "pinokiocomputer/pinokio",
+      "stars": 6659,
+      "enhanced_text": "Pinokio is a 1-click launcher for any open-source project. Think of it as a terminal application with a user-friendly interface that can programmatically interact with scripts.\n1. **Scripts can run anything:** Just like terminal apps can run shell scripts, Pinokio scripts can run any command, download files, and execute them. Essentially, Pinokio is a user-friendly terminal with a UI.\n2. **How scripts can be run:** There are two ways to run scripts on Pinokio:\n1. **Write your own:** Just like writing and executing shell scripts in the terminal, you can create your own scripts and run them locally.\n2. **Install from the \"Discover\" page:** Vetted scripts are manually listed in the directory, tracked via Git, and frozen under the official GitHub organization. These are guaranteed to be secure and safe to install.\n3. **Verified Scripts:** To be featured on the \"Discover\" page, scripts must go through the following strict process:\n1. **Publisher Verification:** You must be personally verified to submit scripts for consideration. Contact the Pinokio admin (https://x.com/cocktailpeanut) to request verification.",
+      "tag": "应用启动器与脚本管理器"
+    },
+    {
+      "id": 274248201,
+      "name": "LasCC/HackTools",
+      "stars": 6608,
+      "enhanced_text": "The all-in-one browser extension for offensive security professionals 🛠.\n\nIntroduction\n&nbsp;&nbsp;&mdash;&nbsp;&nbsp;\n&nbsp;&nbsp;&mdash;&nbsp;&nbsp;\n&nbsp;&nbsp;&mdash;&nbsp;&nbsp;\n&nbsp;&nbsp;&mdash;&nbsp;&nbsp;\n>Psst... Loved HackTools? 👀\n>Check out Penflow - our new security testing companion!\n>Try it at map.penflow.sh 🚀\n>We're excited to announce a major revamp of our app! Due to recent changes and multiple complications with the browser extension environment, we have decided to develop HackTools as a web application moving forward.\n>To keep you engaged, we have uploaded our latest browser extension build alpha at this link: https://hacktools.sh\n>Stay tuned for exciting new features and improvements coming soon!\n>Thank you for your support.\n### The all-in-one browser extension for **offensive security professionals**\nHackTools, is a web extension facilitating your **web application penetration tests**, it includes **cheat sheets** as well as all the **tools** used during a test such as XSS payloads, Reverse shells and much more.\nWith the extension you **no longer need to search for payloads in different websites** or in your local storage space, most of the tools are accessible in one click. HackTools is accessible either in pop up mode or in a whole tab in the Devtools part of the browser with F12.",
+      "tag": "渗透测试浏览器扩展"
+    },
+    {
+      "id": 24046239,
+      "name": "brython-dev/brython",
+      "stars": 6576,
+      "enhanced_text": "Brython (Browser Python) is an implementation of Python 3 running in the browser.\n\nfeatures that are not relevant in the browser context (writing on disk for\nSince version 3.8.0, Brython implements the Python version of the same major /\nminor version number.\nIt includes libraries to interact with DOM elements and events,\nand with existing Javascript libraries such as jQuery, D3, Highcharts, Raphael etc.\nIt supports the latest specs of HTML5/CSS3, and can use CSS Frameworks like\nBootstrap3, LESS, SASS etc.",
+      "tag": "浏览器Python运行时"
+    },
+    {
+      "id": 879320294,
+      "name": "autoscrape-labs/pydoll",
+      "stars": 6507,
+      "enhanced_text": "Pydoll is a library for automating chromium-based browsers without a WebDriver, offering realistic interactions.\n\nPydoll: The Evasion-First Web Automation Framework  A 100% Typed, async-native automation library built for modern bot evasion and high-performance scraping.\n📖 Full Documentation •   🚀 Getting Started •   ⚡ Advanced Features •   🧠 Deep Dives •   💖 Support This Project\nPydoll is built on a simple philosophy: powerful automation shouldn't require you to fight the browser.\nForget broken , compatibility issues, or being blocked by . Pydoll connects directly to the Chrome DevTools Protocol (CDP), providing a natively asynchronous, robust, and **fully typed** architecture.\nIt's designed for modern scraping, combining an **intuitive high-level API** (for productivity) with **deep-level control** over the network and browser behavior (for evasion), allowing you to bypass complex anti-bot defenses.\nPydoll is proudly sponsored by **Thordata**: a residential proxy network built for serious web scraping and automation. With **190+ real residential and ISP locations**, fully encrypted connections, and infrastructure optimized for high-performance workflows, Thordata is an excellent choice for scaling your Pydoll automations.\n**Sign up through our link** to support the project and get **1GB free** to get started.\nPydoll excels at behavioral evasion, but it doesn't solve captchas. That's where **CapSolver** comes in. An AI-powered service that handles reCAPTCHA, Cloudflare challenges, and more, seamlessly integrating with your automation workflows.\n**Register with our invite code** and use code **PYDOLL** to get an extra **6% balance bonus**.",
+      "tag": "Chrome DevTools协议自动化框架"
+    },
+    {
+      "id": 23971425,
+      "name": "dhamaniasad/HeadlessBrowsers",
+      "stars": 6496,
+      "enhanced_text": "A list of (almost) all headless web browsers in existence.\n\n> ✨ Get long term memory across all your AI tools with MemoryPlugin [sponsor]\n### A list of (almost) all headless web browsers in existence\n*A web browser without a graphical user interface, controlled programmatically. Used for automation, testing, and other purposes.*\n*These browser engines fully render web pages or run JavaScript in a virtual DOM*\nName  | About  | Supported Languages | License\n|Chromium Embedded Framework |CEF is a open source project based on the Google Chromium project.        |   JavaScript | BSD |\n|Erik | Headless browser on top of Kanna and WebKit.|Swift| MIT |\n|jBrowserDriver | A Selenium-compatible headless browser which is written in pure Java. WebKit-based. Works with any of the Selenium Server bindings.|Java| Apache License v2.0 |",
+      "tag": "无头浏览器列表"
+    },
+    {
+      "id": 573759422,
+      "name": "interstellard/chatgpt-advanced",
+      "stars": 6490,
+      "enhanced_text": "WebChatGPT: A browser extension that augments your ChatGPT prompts with web results.\n\n[link-chrome]: https://chrome.google.com/webstore/detail/chatgpt-advanced/lpfemeioodjbpieminkklglpmhlngfcn 'Chrome Web Store'\n[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/web-chatgpt/ 'Firefox Add-ons'\n[link-edge]: https://microsoftedge.microsoft.com/addons/detail/arxivutils/flahobhjikkpnpohomeckhdjjkkkkmoc/ 'Edge Add-ons'\nEnglish &nbsp;&nbsp;|&nbsp;&nbsp; Indonesia\nThis browser extension  capability to ChatGPT. Get much more relevant and up-to-date answers from the chatbot!\n[][link-chrome] [][link-firefox] [][link-edge]\n[][link-chrome] [][link-chrome]",
+      "tag": "ChatGPT增强浏览器扩展"
+    },
+    {
+      "id": 973180254,
+      "name": "stagewise-io/stagewise",
+      "stars": 6490,
+      "enhanced_text": "stagewise is the first frontend coding agent for existing production-grade web apps 🪄  -- Lives inside your browser 💻 -- Makes changes in local codebase 🤓 -- Compatible with all kinds of frameworks and setups 💪.\n\n## About the project\nWelcome to **stagewise** —  The frontend coding agent for production codebases\n- 💬 Tell the agent what you want to change\n- 🧠 Click on element(s) to let the agent know where a change should happen\n- 💡 Let stagewise do the magic!\n> Perfect for devs tired of pasting element information and folder paths into prompts. stagewise uses real-time, browser-powered context.",
+      "tag": "前端AI编码助手"
+    },
+    {
+      "id": 65687570,
+      "name": "geohot/fromthetransistor",
+      "stars": 6428,
+      "enhanced_text": "From the Transistor to the Web Browser, a rough outline for a 12 week course.\n\n## From the Transistor to the Web Browser\nHiring is hard, a lot of modern CS education is really bad, and it's hard to find people who understand the modern computer stack from first principles.\nNow cleaned up and going to be software only. Closer to being real.\n#### Section 1: Intro: Cheating our way past the transistor -- 0.5 weeks\n- So about those transistors -- Course overview. Describe how FPGAs are buildable using transistors, and that ICs are just collections of transistors in a nice reliable package. Understand the LUTs and stuff. Talk briefly about the theory of transistors, but all projects must build on each other so we can’t build one.\n- Emulation -- Building on real hardware limits the reach of this course. Using something like Verilator will allow anyone with a computer to play.\n#### Section 2: Bringup: What language is hardware coded in? -- 0.5 weeks\n- Blinking an LED(Verilog, 10) -- Your first little program! Getting the simulator working. Learning Verilog.\n- Building a UART(Verilog, 100) -- An intro chapter to Verilog, copy a real UART, introducing the concept of MMIO, though the serial port may be semihosting. Serial test echo program and led control.\n#### Section 3: Processor: What is a processor anyway? -- 3 weeks",
+      "tag": "计算机系统课程大纲"
+    },
+    {
+      "id": 126314606,
+      "name": "mozilla-mobile/fenix",
+      "stars": 6426,
+      "enhanced_text": "⚠️ Fenix (Firefox for Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android.\n\nFenix (internal codename) is the all-new Firefox for Android browser, based on GeckoView and Mozilla Android Components.\nPlease read the Community Participation Guidelines and the Bugzilla Etiquette guidelines before filing an issue. This is our professional working environment as much as it is our bug tracker, and we want to keep our workspace clean and healthy.\n* Guide to Contributing (**New contributors start here!**)\n* Browse our current Issues, or [file a security issue][sec issue].\n* Matrix: #fenix:mozilla.org channel (**We're available Monday-Friday, GMT and PST working hours**). Related channels:\n* #mobile-test-eng:mozilla.org channel: for UI test automation\n* #perf-android-frontend:mozilla.org channel: for front-end (JVM) performance of Android apps\n* #android-tips:mozilla.org channel: for tips on Android development",
+      "tag": "Android浏览器应用"
+    },
+    {
+      "id": 10368942,
+      "name": "Grsmto/simplebar",
+      "stars": 6383,
+      "enhanced_text": "Custom scrollbars vanilla javascript library with native scroll, done simple, lightweight, easy to use and cross-browser.",
+      "tag": "自定义滚动条库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 657577902,
+        "tag": "浏览器图像处理库"
+      },
+      {
+        "id": 6418762,
+        "tag": "电子书渲染引擎"
+      },
+      {
+        "id": 130369089,
+        "tag": "视频字幕API"
+      },
+      {
+        "id": 206509491,
+        "tag": "低代码后端平台"
+      },
+      {
+        "id": 24650236,
+        "tag": "浏览器关系型数据库"
+      },
+      {
+        "id": 664226598,
+        "tag": "应用启动器与脚本管理器"
+      },
+      {
+        "id": 274248201,
+        "tag": "渗透测试浏览器扩展"
+      },
+      {
+        "id": 24046239,
+        "tag": "浏览器Python运行时"
+      },
+      {
+        "id": 879320294,
+        "tag": "Chrome DevTools协议自动化框架"
+      },
+      {
+        "id": 23971425,
+        "tag": "无头浏览器列表"
+      },
+      {
+        "id": 573759422,
+        "tag": "ChatGPT增强浏览器扩展"
+      },
+      {
+        "id": 973180254,
+        "tag": "前端AI编码助手"
+      },
+      {
+        "id": 65687570,
+        "tag": "计算机系统课程大纲"
+      },
+      {
+        "id": 126314606,
+        "tag": "Android浏览器应用"
+      },
+      {
+        "id": 10368942,
+        "tag": "自定义滚动条库"
+      }
+    ]
+  }
+}

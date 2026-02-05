@@ -1,0 +1,180 @@
+{
+  "batch_id": 23,
+  "timestamp": "2026-02-05T13:25:11.181713",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 1079107863,
+      "name": "PleasePrompto/notebooklm-skill",
+      "stars": 3206,
+      "enhanced_text": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.\n\n## Installation\n### The simplest installation ever:\nWhen you first use the skill, it automatically:\n- Creates an isolated Python environment ()\n- Installs all dependencies including **Google Chrome**\n- Sets up browser automation with Chrome (not Chromium) for maximum reliability\n- Everything stays contained in the skill folder\n**Note:** The setup uses real Chrome instead of Chromium for cross-platform reliability, consistent browser fingerprinting, and better anti-detection with Google services\n\nInstallation • Quick Start • Why NotebookLM • How It Works • MCP Alternative\n## ⚠️ Important: Local Claude Code Only\n**This skill works ONLY with local Claude Code installations, NOT in the web UI.**\nThe web UI runs skills in a sandbox without network access, which this skill requires for browser automation. You must use Claude Code locally on your machine.\nWhen you tell Claude Code to \"search through my local documentation\", here's what happens:\n- **Massive token consumption**: Searching through documentation means reading multiple files repeatedly\n- **Inaccurate retrieval**: Searches for keywords, misses context and connections between docs\n- **Hallucinations**: When it can't find something, it invents plausible-sounding APIs\n- **Manual copy-paste**: Switching between NotebookLM browser and your editor constantly\nThis Claude Code Skill lets Claude Code chat directly with **NotebookLM** — Google's **source-grounded knowledge base** powered by Gemini 2.5 that provides intelligent, synthesized answers exclusively from your uploaded documents.\n**No more copy-paste dance**: Claude asks questions directly and gets answers straight back in the CLI. It builds deep understanding through automatic follow-ups, getting specific implementation details, edge cases, and best practices.\n## Why NotebookLM, Not Local RAG?\n| Approach | Token Cost | Setup Time | Hallucinations | Answer Quality |\n| **Feed docs to Claude** | 🔴 Very high (multiple file reads) | Instant | Yes - fills gaps | Variable retrieval |\n| **Web search** | 🟡 Medium | Instant | High - unreliable sources | Hit or miss |",
+      "tag": "浏览器自动化工具"
+    },
+    {
+      "id": 51937144,
+      "name": "plasma-umass/browsix",
+      "stars": 3192,
+      "enhanced_text": "Browsix is a Unix-like operating system for the browser.\n\nBrowsix - Bringing Unix to the Browser\nWhile standard operating systems like Unix make it relatively simple\nto build complex applications, web browsers lack the features that\nmake this possible.  This project is Browsix, a JavaScript-only\nframework that brings the essence of Unix to the browser. Browsix\nmakes core Unix features available to web applications (including\npipes, processes, signals, sockets, and a shared file system) and\nextends JavaScript runtimes for C, C++, Go, and Node.js programs so\nthey can run in a Unix-like environment within the browser. Browsix\nalso provides a POSIX-like shell that makes it easy to compose",
+      "tag": "浏览器操作系统"
+    },
+    {
+      "id": 69679985,
+      "name": "amilajack/eslint-plugin-compat",
+      "stars": 3161,
+      "enhanced_text": "Check the browser compatibility of your code.\n\nLint the browser compatibility of your code\n### 3. Configure Target Browsers\nBrowser targets are configured using browserslist. You can configure browser targets in your :\nIf no configuration is found, browserslist defaults to .\nSee browserslist/browserslist for more details.",
+      "tag": "代码兼容性检查"
+    },
+    {
+      "id": 287942241,
+      "name": "playwright-community/playwright-go",
+      "stars": 3157,
+      "enhanced_text": "Playwright for Go a browser automation library to control Chromium, Firefox and WebKit with a single API.",
+      "tag": "浏览器自动化库"
+    },
+    {
+      "id": 9527640,
+      "name": "jvilk/BrowserFS",
+      "stars": 3156,
+      "enhanced_text": "BrowserFS is an in-browser filesystem that emulates the Node JS filesystem API and supports storing and retrieving files from various backends.\n\n# DEPRECATED (*Active fork: ZenFS*)\nHey there, this is the current maintainer of BrowserFS.\nI've been working on BrowserFS for over a year now, and have made some big improvements.\nA few months ago, I began seperating some backends from BrowserFS to be placed into different packages. Along with this, I created the browser-fs organization on Github and the browserfs organization on NPM. I made new organizations to keep the repositories and packages organized. Another reason I did so was because John Vilk, the original author of the project, no longer had the time to administer the project. This means at the time of writing this, I still do not have access to the NPM package.\nI feel that now, the project has changed so significantly it is no longer the same BrowserFS. Even the name, *Browser*FS, implies it is meant for browsers, which it has outgrown. For that reason, I think that the project should be something new, but still carry the legacy of BrowserFS. I've decided to call it **ZenFS**, since a core goal of mine is ease of use and peace of mind.\nIn a letter to Robert Hooke in 1675, Isaac Newton famously wrote \"If I have seen further it is by standing on the shoulders of giants\". This is most certainly true in the case of ZenFS. Without the creation of BrowserFS, I would not have found it and been amazed at a complete file system in Typescript/Javascript.\nI would like to extend my deepest thanks to Dr. Emery Berger. Shortly after submitting my first pull request to BrowserFS, I reached out about becoming a maintainer of the project. Dr. Berger welcomed my maintainership of the project, and greatly helped in some other matters.\nThank you very much to the community for helping me with this project by submitting issues and pull requests.\nThe NPM organization  has had all of its packages deprecated, with a message pointing to the new package as well as this notice. All of the versions published under  have also been published under .",
+      "tag": "浏览器文件系统"
+    },
+    {
+      "id": 49332125,
+      "name": "arielsalminen/feature.js",
+      "stars": 3155,
+      "enhanced_text": "Feature.js is a fast, simple and lightweight browser feature detection library in 1kb.\n\nFeature.js is a fast, simple and lightweight browser feature detection library. It has no dependencies and weighs only 1kb minified and gzipped. Feature.js automatically initializes itself on page load, so you don’t have to. It doesn’t, however, run any tests while initializing, so it will only ever run them when you ask it to. This makes it perform very fast.\nWith Feature.js, it’s simple to build progressively enhanced experiences that use feature detection to determine if a code can be executed in the user’s browser.",
+      "tag": "浏览器特性检测"
+    },
+    {
+      "id": 115411542,
+      "name": "Figma-Linux/figma-linux",
+      "stars": 3145,
+      "enhanced_text": "Figma is the first interface design tool based in the browser, making it easier for teams to create software. Join us in https://t.me/figma_linux.",
+      "tag": "桌面应用封装"
+    },
+    {
+      "id": 62540781,
+      "name": "JackyAndroid/AndroidChromium",
+      "stars": 3132,
+      "enhanced_text": "chrome browser of android version from chromium open project.\n\n* Google browser android version of the source program\n* This project is a world-class android architecture\n* Clarify the project business logic can completely fit for domestic company engineer\n* This project will follow up and update Google browser kernel version for a long time, welcome to the star\nIf you are using AndroidStudio above 2.0 version and open instant run function, suggested to debug after closing (instant run will modify on the Application of the result in chrome provider context reference error)\n### The upgrade Chromium kernel steps are as follows",
+      "tag": "Android浏览器内核"
+    },
+    {
+      "id": 149115206,
+      "name": "nwtgck/piping-server",
+      "stars": 3131,
+      "enhanced_text": "Infinitely transfer between every device over pure HTTP with pipes or browsers.\n\nInfinitely transfer between every device over HTTP/HTTPS\nPiping Server is simple. You can transfer as follows.\nPiping Server transfers data to  or  into . The path  can be anything such as  or . A sender and receivers who specify the same path can transfer. Both the sender and the recipient can start the transfer first. The first one waits for the other.\nYou can also use Web UI like  on your browser. A more modern UI is found in , which supports E2E encryption.\nThe most important thing is that the data are streamed. This means that you can **transfer any data infinitely**. The demo below transfers an infinite text stream with .\nPiping Server is designed based on the ideas as follows.\n- **Infinite transfer**: You can transfer any kind of data infinitely on a stream. Streams are very efficient in terms of both time and space.\n- **Zero installation**: All you need is to have either a Web browser or , which are widely pre-installed. You do not need to install any extra software.",
+      "tag": "浏览器数据传输"
+    },
+    {
+      "id": 1923665,
+      "name": "Wisser/Jailer",
+      "stars": 3123,
+      "enhanced_text": "Database Subsetting and Relational Data Browsing Tool.\n\n## Features\n- Exports consistent and referentially intact row-sets from your productive database\nand imports the data into your development and test environment.\n- Improves database performance by removing and archiving obsolete data without violating integrity.\n- Generates topologically sorted SQL-DML, hierarchically structured JSON, YAML, XML and DbUnit datasets.\n- Data Browsing. Navigate bidirectionally through the database by following foreign-key-based or user-defined relationships.\n- SQL Console with code completion, syntax highlighting and database metadata visualization.\n- A demo database is included with which you can get a first impression without any configuration effort.\n## Supported Databases\nThanks to the JDBC technology used, any DMBS is in principle supported. For best results, specific additional support features are useful, however. These are available for:\n- Microsoft SQL Server\n- Informix Dynamic Server\n- 2024-07-04    Data can now also be exported as structured JSON and YAML files.\n- 2024-06-26    A dark UI theme has been introduced that improves readability in low light environments.\n- 2024-04-18    DDL scripts for creating database objects can now be generated thanks to an integration of the Liquibase tool. This makes it possible to create subset databases from scratch using only on-board means.",
+      "tag": "数据库浏览工具"
+    },
+    {
+      "id": 1609213,
+      "name": "Olical/EventEmitter",
+      "stars": 3107,
+      "enhanced_text": "Evented JavaScript for the browser.\n\n## Event based JavaScript for the browser\nAs the subtitle suggests, this script brings the power of events from platforms such as [node.js][] to your browser. Although it can be used on any other platform, I just built it with browsers in mind.\nThis is actually the fourth full rewrite of EventEmitter, my aim is for it to be faster and lighter than ever before. It also has a remapped API which just makes a lot more sense. Because the methods now have more descriptive names it is friendlier to extend EventEmitter into other classes. You will be able to distinguish event methods from your own methods.\nI have been working on it for over ~~a year~~ ~~two~~ three years so far and in that time my skills in JavaScript have come a long way. This script is a culmination of my learnings which you can hopefully find very useful.\nThere are no hard dependencies. The only reason you will want to run  to grab the development dependencies is to build the documentation or minify the source code. No other scripts are required to actually use EventEmitter.",
+      "tag": "浏览器事件库"
+    },
+    {
+      "id": 355522545,
+      "name": "kalcaddle/kodbox",
+      "stars": 3103,
+      "enhanced_text": "kodbox is a file manager for web. It is a newly designed product based on kodexplorer. It is also a web code editor, which allows you to develop websites directly within the web browser.You can run kodbox either online or locally,on Linux, Windows or Mac based platforms.\n\nMulti-cloud • Filemanager • Collaboration\n> kodbox is a file manager for web. It is also a web code editor, which allows you to develop websites directly within the web browser. Self-hosted file management system with muilt-cloud support. You can run kodbox either online or locally,on Linux, Windows or Mac based platforms. The only requirement is to have PHP 5 available.\n* 🚀 Private cloud disk/enterprise network disk like Windows experience\n* 🌟 Full support for private deployment, secure and controllable storage\n* 👁️‍🗨️ Online preview, editing and playback of hundreds of file formats, both office and entertainment\n* 🚀 Multi-storage fusion: support local disk, ftp, webdav, Alibaba Cloud OSS, Tencent Cloud COS, Qiniu, minio, S3 compatible protocol, etc.\n* 🔗 Easy sharing, efficient collaboration, fine-grained permission control",
+      "tag": "Web文件管理器"
+    },
+    {
+      "id": 153937474,
+      "name": "MaxBittker/sandspiel",
+      "stars": 3098,
+      "enhanced_text": "Creative cellular automata browser game.\n\n\"Imagine the cool phenomenon when the wind blows the falling leaves. This game simulates the phenomenon with powder (dots)!\" -DAN-BALL\nThis is a falling sand game built in rust (via wasm), webgl, and some JS glueing things together.\nYou can play online or read a longer post on the project\nThe goal was to produce an cellular automata environment that's interesting to play with and supports the sharing and forking of fun creations with other players.\nUltimately, I want the platform to support editing and uploading of your own elements via a programmable cellular automata API.\na successor to my previous efforts in javascript and lua\nFluid simulation code adopted from\nhttps://github.com/PavelDoGreat/WebGL-Fluid-Simulation",
+      "tag": "浏览器游戏引擎"
+    },
+    {
+      "id": 8684805,
+      "name": "jscad/OpenJSCAD.org",
+      "stars": 3087,
+      "enhanced_text": "JSCAD is an open source set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code. It provides a quick, precise and reproducible method for generating 3D models, and is especially useful for creating ready-to-print 3D designs.\n\n# JSCAD (previously known as OpenJSCAD)\n>*JSCAD* is a set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code.\nThere are many ways to use JSCAD:\nAn online version, self hostable web based ui, as CLI (command-line interface) for server-side computations with Node.js, as well as an experimental desktop app or individual Node.js packages!!\nThis repository is a monorepo (container of multiple packages and tools) maintained with Lerna-Lite",
+      "tag": "浏览器CAD工具"
+    },
+    {
+      "id": 19239509,
+      "name": "bcoin-org/bcoin",
+      "stars": 3065,
+      "enhanced_text": "Javascript bitcoin library for node.js and browsers.\n\n[![Build Status][circleci-status-img]][circleci-status-url]\n[![Coverage Status][coverage-status-img]][coverage-status-url]\n**Bcoin** is an alternative implementation of the Bitcoin protocol, written in\nJavaScript and C/C++ for Node.js.\nBcoin is well tested and aware of all known consensus rules. It is currently\nused in production as the consensus backend and wallet system for\n- Mining Backend (getblocktemplate support)",
+      "tag": "区块链浏览器库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1079107863,
+        "tag": "浏览器自动化工具"
+      },
+      {
+        "id": 51937144,
+        "tag": "浏览器操作系统"
+      },
+      {
+        "id": 69679985,
+        "tag": "代码兼容性检查"
+      },
+      {
+        "id": 287942241,
+        "tag": "浏览器自动化库"
+      },
+      {
+        "id": 9527640,
+        "tag": "浏览器文件系统"
+      },
+      {
+        "id": 49332125,
+        "tag": "浏览器特性检测"
+      },
+      {
+        "id": 115411542,
+        "tag": "桌面应用封装"
+      },
+      {
+        "id": 62540781,
+        "tag": "Android浏览器内核"
+      },
+      {
+        "id": 149115206,
+        "tag": "浏览器数据传输"
+      },
+      {
+        "id": 1923665,
+        "tag": "数据库浏览工具"
+      },
+      {
+        "id": 1609213,
+        "tag": "浏览器事件库"
+      },
+      {
+        "id": 355522545,
+        "tag": "Web文件管理器"
+      },
+      {
+        "id": 153937474,
+        "tag": "浏览器游戏引擎"
+      },
+      {
+        "id": 8684805,
+        "tag": "浏览器CAD工具"
+      },
+      {
+        "id": 19239509,
+        "tag": "区块链浏览器库"
+      }
+    ]
+  }
+}

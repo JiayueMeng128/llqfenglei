@@ -1,0 +1,180 @@
+{
+  "batch_id": 15,
+  "timestamp": "2026-02-05T13:22:35.627290",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 524325124,
+      "name": "extism/extism",
+      "stars": 5411,
+      "enhanced_text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps.\n\nExtism is a lightweight framework for building with WebAssembly (Wasm). It\nsupports running Wasm code on servers, the edge, CLIs, IoT, browsers and\neverything in between. Extism is designed to be \"universal\" in that it supports\na common interface, no matter where it runs.\n> **Note:** One of the primary use cases for Extism is **building extensible\n> software & plugins**. You want to be able to execute arbitrary, untrusted code\n> from your users? Extism makes this safe and practical to do.\nAdditionally, Extism adds some extra utilities on top of standard Wasm runtimes.\nFor example, we support persistent memory/module-scope variables, secure &\nhost-controlled HTTP without WASI, runtime limiters & timers, simpler host",
+      "tag": "WebAssembly运行时框架"
+    },
+    {
+      "id": 25158026,
+      "name": "BrowserWorks/waterfox",
+      "stars": 5393,
+      "enhanced_text": "The official Waterfox 💧 source code repository.\n\n## About Waterfox\nWaterfox is an open-source, privacy-focused browser based on the popular open source browser with a red panda as a mascot. It is designed to be a drop-in replacement for said browser that offers enhanced privacy features, performance improvements, and customizability while maintaining compatibility with existing extensions.\n- **Privacy-focused**: Removal of telemetry and tracking, with bare minimum of data collection for operation.\n- **Performance-oriented**: Optimized for modern systems\n- **Customizable**: Support for classic and modern extensions\n- **Cross-platform**: Available for Windows, macOS, Linux and Android\n- **Modern**: Regular updates to stay current with web standards",
+      "tag": "隐私增强浏览器"
+    },
+    {
+      "id": 12977854,
+      "name": "spolu/breach_core",
+      "stars": 5375,
+      "enhanced_text": "A Browser written in JS. Free. Modular. Hackable.\n\n### Breach: A Browser for the HTML5 Era\nEverything in the browser is a module, a web-app running in its own process.\nConstruct your own browsing experience by selecting the right modules for you.\nWant vertical tabs? Write some JS & CSS! Customised autocomplete engine? JS!\nEvery behavior is programmatic and exposed through APIs.\nThe entire technology stack is open source.\nModify existing modules and you can create your own to extend the behavior of Breach.",
+      "tag": "模块化浏览器"
+    },
+    {
+      "id": 43790903,
+      "name": "Khan/aphrodite",
+      "stars": 5346,
+      "enhanced_text": "Framework-agnostic CSS-in-JS with support for server-side rendering, browser prefixing, and minimum CSS generation.",
+      "tag": "CSS-in-JS库"
+    },
+    {
+      "id": 40006776,
+      "name": "jagenjo/webglstudio.js",
+      "stars": 5315,
+      "enhanced_text": "A full open source 3D graphics editor in the browser, with scene editor, coding pad, graph editor, virtual file system, and many features more.",
+      "tag": "WebGL图形编辑器"
+    },
+    {
+      "id": 282434959,
+      "name": "orestbida/cookieconsent",
+      "stars": 5288,
+      "enhanced_text": ":cookie: Simple cross-browser cookie-consent plugin written in vanilla js.\n\nA __lightweight__ & __gdpr compliant__ cookie consent plugin written in plain javascript.\nThere are also a few examples available on Stackblitz.\nDocs. available at cookieconsent.orestbida.com.\nPlease read the contribution guide.\nThanks to all the people who already contributed!\nA special thanks goes Till Sanders for creating and maintaining the npm package!",
+      "tag": "Cookie合规插件"
+    },
+    {
+      "id": 137313102,
+      "name": "mattdesl/canvas-sketch",
+      "stars": 5235,
+      "enhanced_text": "[beta] A framework for making generative artwork in JavaScript and the browser.\n\n### Quick Start with Node.js & npm\nTo jump directly into , try the following terminal commands with  and  or newer:\n> :bulb: Notice the  in , and the  in\nNow, while in the browser, hit  or  to export a high-resolution PNG of your artwork to your  folder.\nSome other commands to try:\nFor more features and details, see the Documentation.",
+      "tag": "生成艺术框架"
+    },
+    {
+      "id": 898077246,
+      "name": "executeautomation/mcp-playwright",
+      "stars": 5200,
+      "enhanced_text": "Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌.\n\n## Installation\nYou can install the package using either npm, mcp-get, or Smithery:\nTo install Playwright MCP for Claude Desktop automatically via Smithery:\n\n#### Installation in VS Code",
+      "tag": "浏览器自动化MCP服务"
+    },
+    {
+      "id": 1099755141,
+      "name": "donlon/cloudflare-error-page",
+      "stars": 5190,
+      "enhanced_text": "✅Browser ❌Cloudflare ✅Host — Generator of customized Cloudflare error pages (unofficial).\n\nInstall  using pip.\nThen an error page can be generated using the  function provided by the package. (example.py)\nYou can also see live demo here.\nA demo server using Flask is also available in flask_demo.py.\n### JavaScript/NodeJS",
+      "tag": "错误页面生成器"
+    },
+    {
+      "id": 19386515,
+      "name": "spatie/browsershot",
+      "stars": 5170,
+      "enhanced_text": "Convert HTML to an image, PDF or string.\n\nRender web pages to an image or PDF with Puppeteer\nThe package can convert a web page to an image or PDF. The conversion is done behind the scenes by Puppeteer which runs a headless version of Google Chrome.\nIt will save a PDF if the path passed to the  method has a  extension.\nYou can also use an arbitrary html input, simply replace the  method with :\nIf your HTML input is already in a file locally use the :\nBrowsershot also can get the body of an html page after JavaScript has been executed:\nIf you wish to retrieve an array list with all of the requests that the page triggered you can do so:\nTo use Chrome's new headless mode pass the  method:",
+      "tag": "HTML转PDF/图像工具"
+    },
+    {
+      "id": 141901715,
+      "name": "tensorspace-team/tensorspace",
+      "stars": 5166,
+      "enhanced_text": "Neural network 3D visualization framework, build interactive and intuitive model in browsers, support pre-trained deep learning models from TensorFlow, Keras, TensorFlow.js.\n\n## Getting Started\nFig. 2 - TensorSpace Workflow\n### 1. Install TensorSpace\n\n#### Install in the Basic Case\n- Step 1: Download Dependencies\nDownload dependencies build files TensorFlow.js (tf.min.js), Three.js (three.min.js), Tween.js (tween.min.js), TrackballControls (TrackballControls.js).\n- Step 2: Download TensorSpace\nDownload TensorSpace build file  from Github, NPM, TensorSpace official website or CDN:\n- Step 3: Include Build Files\nInclude all build files in web page.",
+      "tag": "神经网络3D可视化框架"
+    },
+    {
+      "id": 241217584,
+      "name": "jasonmayes/Real-Time-Person-Removal",
+      "stars": 5164,
+      "enhanced_text": "Removing people from complex backgrounds in real time using TensorFlow.js in the web browser.\n\n# Disappearing-People - Person removal from complex backgrounds over time.\nRemoving people from complex backgrounds in real time using TensorFlow.js in the web browser using JavaScript.\nThis code attempts to learn over time the makeup of the background of a video such that I can attempt to remove any humans from the scene. This is all happening in real time, in the browser, using TensorFlow.js. #MadeWithTFJS\nThis is an experiment. It may not be perfect in all situations.\nGo ahead and try it right now in your own web browser. Pick your preference and give me a fork / like :-)\nCodepen.io: https://codepen.io/jasonmayes/pen/GRJqgma\nGlitch.com: https://glitch.com/~disappearing-people\nFeel free to use in your own projects. Code is released under Apache licence. If you decide to use my code please consider giving me a shout out! Would love to see what others create with it :-) Thanks.",
+      "tag": "实时人物移除库"
+    },
+    {
+      "id": 850821713,
+      "name": "Vanilagy/mediabunny",
+      "stars": 5153,
+      "enhanced_text": "Pure TypeScript media toolkit for reading, writing, and converting video and audio files, directly in the browser.\n\n## Features\nCore features include:\n- **Wide format support**: Read and write MP4, MOV, WebM, MKV, WAVE, MP3, Ogg, ADTS, FLAC, MPEG-TS\n- **Built-in encoding & decoding**: Supports 25+ video, audio, and subtitle codecs, hardware-accelerated using the WebCodecs API\n- **High precision**: Fine-grained, microsecond-accurate reading and writing operations\n- **Conversion API**: Easy-to-use API with features such as transmuxing, transcoding, resizing, rotation, cropping, resampling, trimming, and more\n- **Streaming I/O**: Handle reading & writing files of any size with memory-efficient streaming\n- **Tree-shakable**: Only bundle what you use (as small as 5 kB gzipped)\n- **Zero dependencies**: Implemented in highly performant TypeScript\n- **Cross-platform**: Works in browsers and Node.js\nSee full feature list\n\n## Quick start\n\n### Installation",
+      "tag": "浏览器媒体处理工具包"
+    },
+    {
+      "id": 370679811,
+      "name": "aleksey-hoffman/sigma-file-manager",
+      "stars": 5141,
+      "enhanced_text": "\"Sigma File Manager\" is a free, open-source, quickly evolving, modern file manager (explorer / browser) app for Windows and Linux.\n\n## Features\n#### The list of major features:\n- **SMART GLOBAL SEARCH:** feature allows you to find any file / directory on your computer in just a few seconds. It also implements a typo correction system, allowing you to find files even when the search query includes typos, wrong case, wrong word order, missing words, missing symbols, and missing file extension.\n- **TABS:** feature allows you to quickly switch between multiple directories with a click or a shortcut.\n- **WORKSPACES:** feature allows you to create separate workspaces with their own tabs and pre-defined actions, allowing you to quickly switch between them. Actions can perform different operations, e.g. open a website, run a script, open a file in a specific program, etc.\n- **ADVANCED WIRELESS FILE SHARING:** share a directory or stream any file to your local devices wirelessly without installing any apps. It works on any device with a modern web browser (smart TVs, mobile devices, laptops, virtual machines, etc).\n- **ADDRESS BAR:** lets you quickly navigate directories with your keyboard. It autocompletes file names and automatically opens directories as you type.\n- **ITEM FILTER:** allows you to filter out items from the list to quickly find the one you need. It supports advanced glob patterns and property prefixes.\n- **ADVANCED FILE DOWNLOADER:** stream / download any file from the internet just by dragging it (or its URL link) onto the app. It supports all file types, including videos from video services like Youtube and video streams (with or without auth tokens / URL timestamps).\n- **SMART DRAG & DROP:** allows you to easily download files from the internet, and provides a comfortable way of copying / moving local files.\n- **SHORTCUTS:** most actions within the app can be performed with shortcuts. You can also create global (system wide) shortcuts for some actions like opening / hiding the app or opening the app and instantly creating a new note.\n- **CUSTOMIZABLE HOME PAGE BANNER:** The home page of the app has a unique, recognizable feature - a customizable media background (banner). You can set a custom image / video or choose one of the built-in artworks (kindly provided to me by different artists) and personalize the app to your liking.\n- **NOTES:** Advanced note editor in this app allows you to create featureful notes and store them in one convenient, quickly accessible place...",
+      "tag": "现代文件管理器"
+    },
+    {
+      "id": 18237202,
+      "name": "butlerx/wetty",
+      "stars": 5115,
+      "enhanced_text": "Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better).\n\n> Terminal access in browser over http/https\nTerminal over HTTP and https. WeTTY is an alternative to ajaxterm and anyterm\nbut much better than them because WeTTY uses xterm.js which is a full fledged\nimplementation of terminal emulation written entirely in JavaScript. WeTTY uses\nwebsockets rather than Ajax and hence better response time.\nOpen your browser on  and you will prompted to",
+      "tag": "Web终端模拟器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 524325124,
+        "tag": "WebAssembly运行时框架"
+      },
+      {
+        "id": 25158026,
+        "tag": "隐私增强浏览器"
+      },
+      {
+        "id": 12977854,
+        "tag": "模块化浏览器"
+      },
+      {
+        "id": 43790903,
+        "tag": "CSS-in-JS库"
+      },
+      {
+        "id": 40006776,
+        "tag": "WebGL图形编辑器"
+      },
+      {
+        "id": 282434959,
+        "tag": "Cookie合规插件"
+      },
+      {
+        "id": 137313102,
+        "tag": "生成艺术框架"
+      },
+      {
+        "id": 898077246,
+        "tag": "浏览器自动化MCP服务"
+      },
+      {
+        "id": 1099755141,
+        "tag": "错误页面生成器"
+      },
+      {
+        "id": 19386515,
+        "tag": "HTML转PDF/图像工具"
+      },
+      {
+        "id": 141901715,
+        "tag": "神经网络3D可视化框架"
+      },
+      {
+        "id": 241217584,
+        "tag": "实时人物移除库"
+      },
+      {
+        "id": 850821713,
+        "tag": "浏览器媒体处理工具包"
+      },
+      {
+        "id": 370679811,
+        "tag": "现代文件管理器"
+      },
+      {
+        "id": 18237202,
+        "tag": "Web终端模拟器"
+      }
+    ]
+  }
+}

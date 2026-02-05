@@ -1,0 +1,180 @@
+{
+  "batch_id": 44,
+  "timestamp": "2026-02-05T13:29:51.770261",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 113919648,
+      "name": "duckduckgo/duckduckgo-privacy-extension",
+      "stars": 1414,
+      "enhanced_text": "DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome.\n\n# DuckDuckGo Browser Extensions\nDuckDuckGo Firefox, Chrome, and Edge extensions.\nVisit our Web Tracking Protections page to learn how each of our web tracking protections works and how they work together in our browser extensions and apps to provide overlapping protection.\nDuckDuckGo Privacy Extensions is distributed under the Apache 2.0 License.\nThe code for the Safari extension is an Xcode project which you can find here.\nThe Safari extension can be installed from the App Store.\nIf you use another Chromium-based browser like Vivaldi, you can usually install the Chrome version.",
+      "tag": "隐私安全扩展"
+    },
+    {
+      "id": 103822442,
+      "name": "danny0838/content-farm-terminator",
+      "stars": 1403,
+      "enhanced_text": "Content Farm Terminator browser extension/「終結內容農場」瀏覽器套件.\n\n# Content Farm Terminator (終結內容農場)\n*Content Farm Terminator* is a cross-platform browser extension that helps the user identify and repel content farms, through marking hyperlinks that targets a content farm in any web page and blocking web requests that targets a content farm.\nHomepage with more detailed introduction (multi-language).\n* Firefox (also: Firefox for Android, Tor Browser, etc.)\n* Google Chrome (also: Opera, Vilvadi, Brave, Kiwi Browser, etc.)\nTo report a content farm to be included in our blacklist, fill the form through the hyerlink at the bottom of the option page of the browser extension, or through this link.",
+      "tag": "内容过滤扩展"
+    },
+    {
+      "id": 18685406,
+      "name": "simov/markdown-viewer",
+      "stars": 1399,
+      "enhanced_text": "Markdown Viewer / Browser Extension.\n\n# Markdown Viewer / Browser Extension\n**Install: [Chrome]** / **[Firefox]** / **[Edge]** / **[Opera]**  / **[Brave]** / **[Chromium]** / **[Vivaldi]**\n- Render local and remote file URLs\n- Granular access to remote origins\n- Full control over the compiler options ([markdown-it], [marked], [remark])\n- 30+ Themes ([cleanrmd], [GitHub][github-theme])\n- GitHub Flavored Markdown (GFM)",
+      "tag": "文档渲染扩展"
+    },
+    {
+      "id": 6192590,
+      "name": "alex-seville/blanket",
+      "stars": 1396,
+      "enhanced_text": "blanket.js is a simple code coverage library for javascript.  Designed to be easy to install and use, for both browser and nodejs.",
+      "tag": "JavaScript代码覆盖率库"
+    },
+    {
+      "id": 735180759,
+      "name": "FrigadeHQ/remote-storage",
+      "stars": 1393,
+      "enhanced_text": "remoteStorage is a simple library that combines the localStorage API with a remote server to persist data across sessions, devices, and browsers. It works as a simple key value database store and backend with support for React, Next.js, Vue, Node, or any Javascript stack.\n\n## Features\n- ✨ Simple API (same as localStorage)\n- 🔐 Secure (built-in JWT support)\n- 👌 Works with all Javascript frameworks\n- 📦 Lightweight (~1 kB minified)\n- 🔓 Open source server and client (MIT license)\n- 🆓 Free hosted community server\n\n## Quick start",
+      "tag": "浏览器数据同步库"
+    },
+    {
+      "id": 78420428,
+      "name": "phaserjs/phaser-ce",
+      "stars": 1387,
+      "enhanced_text": "Phaser CE is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.\n\nInstall via npm:\nPlease see additional steps for Browserify/CommonJS and Webpack.\nPhaser CE is on jsDelivr. Include the following in your html:\nor the minified version:\nCustom builds are available too, e.g.,",
+      "tag": "HTML5游戏框架"
+    },
+    {
+      "id": 318124720,
+      "name": "F9y4ng/GreasyFork-Scripts",
+      "stars": 1385,
+      "enhanced_text": "The open source code of this project is used for userscripts (油猴脚本) for desktop browsers, including Font Rendering (Customized) (字体渲染（自用脚本）- Font Rendering.user.js), and Search Engine Assistant (优雅的搜索引擎助手 - Google & Baidu Switcher.user.js), etc.\n\n简介：无需安装MacType，优化浏览器字体渲染效果，让每个页面的字体变得更有质感。默认使用“微软雅黑”字体，也可根据喜好自定义其他字体使用。脚本针对浏览器字体渲染提供了字体重写、字体平滑、字体缩放、字体描边、字体阴影、对特殊样式元素的过滤和许可、自定义等宽字体等高级功能。脚本支持全局渲染与个性化渲染功能，可通过“单击脚本管理器图标”或“使用快捷键”呼出配置界面进行参数配置。脚本已兼容绝大部分主流浏览器及主流脚本管理器，且兼容常用的油猴脚本和浏览器扩展。\n- 新手上路，请使用前仔细阅读脚本使用说明，以及当前页面内相关注意事项。\n- 脚本错误、异常请反馈至{Issues}, 字体、渲染样式、乱码问题请反馈至{Discussions}。\n- 为保证您的数据安全，请及时备份您的本地数据！请勿使用来源未知的备份文件。\n### version 2026.01.01.1 - 更新日志： 【🔥安装此脚本】\n### **字体渲染** 新版本，使用前请注意以下事项：\n- 新版脚本中**内置了默认的字体渲染样式，该样式为我的本地配置，并不能完美适配于你的计算机**。所以，首次使用时，如果出现渲染效果没有达到理想状态，属于**正常情况**。请根据**自有显示器的配置及设置**，通过**脚本配置界面**修正相关参数来达到最佳显示效果。\n- 老用户从旧版本升级至最新版时，如遇到样式异常，可通过重置功能重置数据来使用最新规则来尝试纠正问题。大版本（数据重建）更新不建议您使用备份还原，请重新配置渲染参数并保存，记得再次备份新数据。\n- **注意**：在Win10/Win11下，不论高分屏或低分屏，只要系统或浏览器应用150%以上缩放率即可获得最佳渲染效果，这是Windows默认渲染机制所决定的。\n* 脚本延迟加载造成页面二次渲染问题的解决办法\n**注意**：使用浏览器、脚本管理器的等测试分支可能出现未知的兼容错误，脚本不会修正测试版本的错误，**如必须使用测试版本并对脚本有极高要求，建议你选择其他同类脚本**。因有极小概率发生数据被异常初始化，**请及时备份您的本地数据！！！**\n**反馈问题请注意**：反馈脚本错误或样式问题，请把**仅使用本脚本**情况下发生问题的**访问网址**、使用的**浏览器版本**、**脚本管理器版本**、**错误截图**、以及**操作流程**或**错误提示**（如果有的话）发出来，你遇到的问题不一定能在我本地复现。\n- 特定网站样式错误修正的设置分享，不定期更新，自取自用。\n- 分享：关于分别设置英文字体和中文字体的方法。\n- 如何正确地对不同显示器、浏览器设定字体渲染参数？\n\n简介：“优雅的搜索引擎助手”方便用户在不同的搜索引擎之间跳转；支持自定义常用搜索引擎、关键词高亮渲染；还提供去除搜索链接重定向、屏蔽搜索结果广告、使用关键词过滤搜索结果、和自动更新检测等高级功能；兼容如Baidu、Google、Bing、Duckduckgo、Yandex、Sogou、Qwant、Ecosia、You、Startpage、Brave、Yahoo、Yep、Mojeek、searXNG等多个搜索引擎。\n- 新手上路，请使用前仔细阅读脚本使用说明，以及当前页面内相关注意事项。\n- 自动更新检测默认开启，如无更新提示需求，可在“**搜索引擎助手高级设置**”中关闭它。\n### version 2026.01.01.1 - 更新日志： 【🔥 安装此脚本】\n- 新增搜索结果关键词高效过滤功能，杜绝内容农场与垃圾信息。\n- 新增去除搜索结果及侧栏广告功能，优化广告屏蔽效率。\n- 新增自定义搜索引擎选取功能（包含：百度、Google、Bing、Duckduckgo、搜狗、Qwant、Yandex、360 搜索、头条搜索、百度开发者、Ecosia、Yahoo、You、Startpage、Brave、Yep、Mojeek、searXNG 搜索等常见的搜索引擎）\n- 新增搜索结果链接去重定向功能，优化隐私参数屏蔽功能。\n访问任意搜索引擎，在地址栏内向 URL 添加  或 ，开启临时调试模式，即可自动更新搜索引擎站点的icons；或等待图标缓存过期（十五天）后自动更新图标缓存。\n新版本“**自动更新**”功能默认开启，如不需要更新检测，请在脚本菜单“**搜索引擎助手高级设置**”中，关闭 **更新检测** 即可。\n- **反馈问题请注意**：反馈脚本错误或样式问题，请把**仅使用本脚本**情况下发生问题的**访问网址**、使用的**浏览器版本**、**脚本管理器版本**、**错误截图**、以及**操作流程**或**错误提示**发出来，你遇到的问题不一定能在我本地复现。\n- 一般来说，新版本发布将在**Github**进行，**GreasyFork**、**OpenUserJs**会自动同步。已开启自动更新检测功能的用户，脚本在访问搜索引擎时会进行自动更新。",
+      "tag": "浏览器用户脚本"
+    },
+    {
+      "id": 169592266,
+      "name": "donavon/use-persisted-state",
+      "stars": 1379,
+      "enhanced_text": "A custom React Hook that provides a multi-instance, multi-tab/browser shared and persistent state.\n\n## Features\n💾 Persists the state to\n🖥 Syncs between tabs and/or browser windows\n📑 Shares state w/multiple hooks on a page\nTo use , you must use  or greater which includes Hooks.",
+      "tag": "React持久化状态钩子"
+    },
+    {
+      "id": 51061236,
+      "name": "epidemian/snake",
+      "stars": 1378,
+      "enhanced_text": "A silly snake game on the browser URL.\n\nPlay the classic snake game on a URL!\nThis is how the game should look:\nNote that the game might be unplayable on some browsers for different reasons, like the browser not showing the full URL, or not allowing it to change so frequently, or escaping the Braille characters used to display the game.\nAlthough this game is kind of a joke, bug reports, ideas and pull requests are always welcome!",
+      "tag": "浏览器URL游戏"
+    },
+    {
+      "id": 121137018,
+      "name": "airtap/airtap",
+      "stars": 1376,
+      "enhanced_text": "Run TAP unit tests in 1789+ browsers.\n\n## Getting Started\nYou'll need an entry point for your tests like . For a complete example see . If you already have an entry point, go ahead and run it with:\nOut of the box, this will launch the default browser on your system. To keep the browser open and automatically reload when you make changes to your test files, run:\nIn order to run more browsers, create a  file in your working directory, containing at least one provider and browser. For example:\nProviders discover browsers on a particular platform or remote service. In the above example, [][airtap-system] finds browsers installed on your machine which Airtap then matches against the specified . Providers are npm packages that must be installed separately from the main  package. So that would be:\nYou can include multiple providers and let Airtap find the best matching browser(s):\nYou can also match browsers by provider:\nAirtap, providers and browsers are tied together by manifests. They define the name and other metadata of browsers. You can see these manifests by running  or  which is short for . For example:\nAirtap can match browsers on any manifest property, with the exception of  which exists to customize the browser behavior. Options are specific to a provider. For example, the  provider supports disabling headless mode and setting custom command-line arguments:\nFor more information on the  field, see Configuration.\n## Available Providers\n| **Package**                              | **Description**                                    |\n| [][airtap-system]         | Locally installed browsers on Linux, Mac & Windows |\n| [][airtap-playwright] | Playwright (headless Chromium, FF and WebKit)      |\n| [][airtap-sauce]           | Remote browsers in Sauce Labs                      |",
+      "tag": "跨浏览器测试框架"
+    },
+    {
+      "id": 87784593,
+      "name": "JiongXing/PhotoBrowser",
+      "stars": 1375,
+      "enhanced_text": "Elegant photo browser in Swift. 图片与视频浏览器。.\n\n使用Xcode的包管理器添加本仓库URL。\n把本仓库下载到你本地，然后把文件夹下的文件夹整个拖入Xcode，勾选拷贝文件选项即可，没有其它第三方依赖。\n> 以下代码取自项目Example例子工程，更详细完整的代码请打开例子工程查看，下文是其关键代码的讲解。\n#### 1.先实例化一个图片浏览器对象。\n注意每次打开图片浏览，都应该重新实例化（重新实例化的开销很小，不必担心）。\n因考虑到数据源有可能是在浏览过程中变化的，所以JXPhotoBrowser框架（以下简称'框架'）将会在适当时机调用闭包动态获取当前用户的数据源数量，类似的机制。\n框架的项视图(展示单张图片的View)是复用的，由最多3个视图重复使用来实现无限数量的图片浏览。\n在每个项视图需要被刷新时，闭包将会被调用，用户应当在此时更新对应数据源的视图展示。\n框架默认实现并使用了作为项视图，用户也可以自由定制项视图，更多细节在下文介绍。\n有一个视图，用户只需要对其加载图片即可正常使用。\n#### 4.指定打开图片浏览器时定位到哪一页。\n所赋的值应当在用户数据源的范围内，如数据源共有10项，则允许范围是。\n浏览器主类是一个，支持导航栏，也支持模态。\n无参调用方法的时候，默认使用了模态打开一个不带导航栏的图片浏览器。\n用户可自由编写自己的转场动画，也可以使用框架已实现的三种动画。",
+      "tag": "Swift图片浏览器组件"
+    },
+    {
+      "id": 140771377,
+      "name": "Moustachauve/cookie-editor",
+      "stars": 1372,
+      "enhanced_text": "A powerful browser extension to create, edit and delete cookies.\n\n### Install on Opera\nFind this extension on the Opera Extensions site.\n\n## Description\nCookie-Editor is designed to have a simple to use interface that let you do most standard cookie operations quickly. It is ideal for developing and testing web pages.\nYou can easily create, edit and delete a cookie for the current page that you are visiting.\nThere is also a handy button to mass delete all the cookies for the current page.\nCookie-Editor is available for:\nIt should be possible to install it on any webkit browser, but keep in mind that only the previous five browsers are officially supported.\nCookie-Editor is available on mobile devices with an interface optimised for touchscreens:\n- Firefox for Android\n- Edge for Android and iOS\n\n## Installation\n\n### Install on Google Chrome\nFind this extension on the Chrome Web Store.\n\n### Install on Firefox\nFind this extension on the Firefox Add-ons site.\n\n### Install on Safari\nCookie-Editor is available for both Mac and iOS. It has been tested on Mac, iPhone and iPad.\nFind this extension on the App Store.\n\n### Install on Microsoft Edge\nFind this extension on the Microsoft Store.",
+      "tag": "Cookie管理扩展"
+    },
+    {
+      "id": 32997960,
+      "name": "stewdio/beep.js",
+      "stars": 1367,
+      "enhanced_text": "Beep is a JavaScript toolkit for building browser-based synthesizers.\n\nCreate a synthesizer with one line of code:\nOr plink away on the demo synth: http://beepjs.com.\nTap the pulsing Play button for a\nBeep accepts input from MIDI controller keyboards via the brand new\nWeb MIDI API. (Just so we’re clear, this is\nvery awesome ;) You’ll need either Chrome 42 or Chrome 43+. For Chrome 42\nyou must enable the Web MIDI API manually by visiting\n__chrome://flags/#enable-web-midi__ and clicking __Enable__. For Chrome 43 and",
+      "tag": "Web音频合成库"
+    },
+    {
+      "id": 346424381,
+      "name": "fingerprintjs/BotD",
+      "stars": 1367,
+      "enhanced_text": "Free bot detection library that runs in the browser. Detects automation tools and frameworks. No server required, runs 100% on the client. MIT license, no usage restrictions.",
+      "tag": "客户端Bot检测库"
+    },
+    {
+      "id": 86702842,
+      "name": "wavebox/waveboxapp",
+      "stars": 1366,
+      "enhanced_text": "Wavebox, the revolutionary and feature-rich Chromium browser that's built for productive working across Google Workspaces, Microsoft Teams, ClickUp, Monday, Atlassian, Asana, AirTable, Slack, and every other web app you use to get work done.",
+      "tag": "生产力Chromium浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 113919648,
+        "tag": "隐私安全扩展"
+      },
+      {
+        "id": 103822442,
+        "tag": "内容过滤扩展"
+      },
+      {
+        "id": 18685406,
+        "tag": "文档渲染扩展"
+      },
+      {
+        "id": 6192590,
+        "tag": "JavaScript代码覆盖率库"
+      },
+      {
+        "id": 735180759,
+        "tag": "浏览器数据同步库"
+      },
+      {
+        "id": 78420428,
+        "tag": "HTML5游戏框架"
+      },
+      {
+        "id": 318124720,
+        "tag": "浏览器用户脚本"
+      },
+      {
+        "id": 169592266,
+        "tag": "React持久化状态钩子"
+      },
+      {
+        "id": 51061236,
+        "tag": "浏览器URL游戏"
+      },
+      {
+        "id": 121137018,
+        "tag": "跨浏览器测试框架"
+      },
+      {
+        "id": 87784593,
+        "tag": "Swift图片浏览器组件"
+      },
+      {
+        "id": 140771377,
+        "tag": "Cookie管理扩展"
+      },
+      {
+        "id": 32997960,
+        "tag": "Web音频合成库"
+      },
+      {
+        "id": 346424381,
+        "tag": "客户端Bot检测库"
+      },
+      {
+        "id": 86702842,
+        "tag": "生产力Chromium浏览器"
+      }
+    ]
+  }
+}

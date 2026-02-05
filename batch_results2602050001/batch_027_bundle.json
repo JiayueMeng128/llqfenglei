@@ -1,0 +1,180 @@
+{
+  "batch_id": 27,
+  "timestamp": "2026-02-05T13:25:57.636875",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 11459116,
+      "name": "streamproc/MediaStreamRecorder",
+      "stars": 2674,
+      "enhanced_text": "Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs.\n\n# MediaStreamRecorder.js - Demos\n## Demos using MediaStreamRecorder.js library\n| Experiment Name        | Demo           | Source Code |\n| **Audio Recording** | Demo | Source |\n| **Video Recording** | Demo | Source |\n| **Gif Recording** | Demo | Source |\n| **MultiStreamRecorder Demo** | Demo | Source |\nA cross-browser implementation to record\n3. Screen (full screen, apps' screens, tab, HTML elements)",
+      "tag": "媒体流录制库"
+    },
+    {
+      "id": 1650371,
+      "name": "BorisMoore/jsrender",
+      "stars": 2673,
+      "enhanced_text": "A lightweight, powerful and highly extensible templating engine. In the browser or on Node.js, with or without jQuery.\n\n## JsRender: best-of-breed templating\n*Simple and intuitive, powerful and extensible, lightning fast*\n*For templated content in the browser or on Node.js (with Express 4, Hapi and Browserify integration)*\n**JsRender** is a light-weight but powerful templating engine, highly extensible, and optimized for high-performance rendering, without DOM dependency. It is designed for use in the browser or on Node.js, with or without jQuery.\n**JsRender** and **JsViews** together provide the next-generation implementation of the official jQuery plugins *JQuery Templates*, and *JQuery Data Link* -- and supersede those libraries.\n### Documentation and downloads\n**Documentation**, **downloads**, **samples** and **API docs and tutorials** are available on the **www.jsviews.com website**.\nThe content of this ***ReadMe*** is available also as a *JsRender Quickstart*.\nJsRender is used for data-driven rendering of templates to strings, ready for insertion in the DOM.",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 74861972,
+      "name": "wendux/ajax-hook",
+      "stars": 2669,
+      "enhanced_text": "Intercepting browser's http requests which made by XMLHttpRequest.\n\najax-hook是用于拦截浏览器 XMLHttpRequest 对象的轻量库，它可以在 XMLHttpRequest 对象发起请求之前、收到响应内容之后以及发生错误时获得处理权，通过它你可以提前对请求、响应以及错误进行一些预处理。Ajax-hook具有很好的兼容性，可以在任何支持**ES5**的浏览器上运行，因为它并不依赖 ES6 特性。\n引入后会有一个名为\"ah\"（ajax hook）的全局对象，通过它可以调用ajax-hook的API，如\n现在，我们便拦截了浏览器中通过发起的所有网络请求！在请求发起前，会先进入钩子，调用 请求继续，如果请求成功，则会进入钩子，如果请求发生错误，则会进入 。我们可以更改回调钩子的第一个参数来修改修改数据。\n> 注意：proxy 是通过ES5的getter和setter特性实现的，并没有使用ES6 的Proxy对象，所以可以兼容ES5浏览器。\n- 是一个对象，包含三个可选的钩子、、，我们可以直接在这三个钩子中对请求进行预处理。\n- ：可选参数，默认情况会使用当前窗口的对象，如果要拦截iframe中的请求，可以将 传入，注意，只能拦截**同源**的iframe页面（不能跨域）。\n- ：取消拦截；取消后  将不会再被代理，浏览器原生会恢复到全局变量空间",
+      "tag": "XHR拦截库"
+    },
+    {
+      "id": 715367684,
+      "name": "ishan0102/vimGPT",
+      "stars": 2669,
+      "enhanced_text": "Browse the web with GPT-4V and Vimium.\n\n## Overview\nLLMs as a way to browse the web is being explored by numerous startups and open-source projects. With this project, I was interested in seeing if we could only use GPT-4V's vision capabilities for web browsing.\nThe issue with this is it's hard to determine what the model wants to click on without giving it the browser DOM as text. Vimium is a Chrome extension that lets you navigate the web with only your keyboard. I thought it would be interesting to see if we could use Vimium to give the model a way to interact with the web.",
+      "tag": "AI浏览器代理"
+    },
+    {
+      "id": 66257173,
+      "name": "aerokube/selenoid",
+      "stars": 2657,
+      "enhanced_text": "Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary.",
+      "tag": "容器化Selenium网格"
+    },
+    {
+      "id": 72803397,
+      "name": "turbo/js",
+      "stars": 2655,
+      "enhanced_text": "turbo.js - perform massive parallel computations in your browser with GPGPU.\n\nturbo.js is a small library that makes it easier to perform complex calculations that can be done in parallel. The actual calculation performed (the *kernel* executed) uses the GPU for execution. This enables you to work on an array of values all at once.\nturbo.js is compatible with all browsers (even IE when not using ES6 template strings) and most desktop and mobile GPUs.\n**For a live demo and short intro, please visit turbo.github.io.**\nFor this example, which can also be found at the aforementioned website, we are going to perform a simple calculation on a big-ish array of values.\nFirst, include turbo.js in your site:\nor pull  via npm to use it in your project.\nturbo.js only has two functions that can be called by your code. Both are contained within the  object. If this object is not initialized, something went wrong. So the first step is to check for turbo.js support. You can optionally check for exceptions thrown by turbo.js, which will provide further details on the error.\nNow we need some memory. Because data has to be transferred to and from GPU and system memory, we want to reduce the overhead this copy operation creates. To do this, turbo.js provides the  function. This will reserve memory on the GPU and in your browser. JavaScript can access and change contents of allocated memory by accessing the  sub-array of a variable that contains allocated memory.\nFor both turbo.js and JavaScript, the allocated memory is strictly typed and represents a one-dimensional array of 32bit IEEE floating-point values. Thus, the  sub-array is a standard JavaScript  object. After allocation, you can interact with this array however you want, except for changing it's size. Doing so will result in undefined behavior.",
+      "tag": "浏览器GPGPU计算"
+    },
+    {
+      "id": 111811015,
+      "name": "Kyson/AndroidGodEye",
+      "stars": 2645,
+      "enhanced_text": "An app performance monitor(APM) , like \"Android Studio profiler\", you can easily monitor the performance of your app real time in browser.\n\n## Features\n|CPU|Cpu info of device and app|\n|BATTERY|Battery info|\n|LEAK_CANARY|Memory leak detector base on LeakCanary and Shark|\n|NETWORK|Network info|\n|STARTUP|Startup metric|\n|TRAFFIC|Traffic of device and app|\n|CRASH|Detect java、native crash and ANR|\n|THREAD|Thread dump of app|\n|PAGELOAD|Page(Activity and Fragment) lifecycle event and cost time|\n|METHOD_CANARY|Methods time cost metric|\n|APP_SIZE|App size of apk code、storage and cache|\n|VIEW_CANARY|Detect complex layout hierarchy and overdraw|\n|IMAGE_CANARY|Detect unreasonable memory use of image|\nAndroidGodEye is under Apache2.0.\n\n## Overview\nAndroidGodEye is a performance monitor tool for Android(not limited to performance data) , you can easily monitor the performance of your app in real time in pc browser.\nYou can also use it in production environment to monitor the online performance of your app(Apply AndroidGodEye for production).\n> AndroidGodEye has been applied to several mature apps at present\nIt is divided into 3 parts:\n1. Core provide all performance modules and produce performance datas.\n2. Debug Monitor provide a dashboard to show these performance datas.\n3. Toolbox make developers easy to use this library.",
+      "tag": "Android应用性能监控"
+    },
+    {
+      "id": 677467268,
+      "name": "ill-inc/biomes-game",
+      "stars": 2644,
+      "enhanced_text": "Biomes is an open source sandbox MMORPG built for the web using web technologies such as Next.js, Typescript, React and WebAssembly.",
+      "tag": "Web技术MMORPG"
+    },
+    {
+      "id": 32592337,
+      "name": "thednp/kute.js",
+      "stars": 2641,
+      "enhanced_text": "KUTE.js is a JavaScript animation engine for modern browsers.\n\nA modern JavaScript animation engine built on ES6+ standards with strong TypeScript definitions and most essential features for the web with easy to use methods to set up high performance, cross-browser animations. The focus is code quality, flexibility, performance and size.\nKUTE.js packs a series of components for presentation attributes, SVG transform, draw SVG strokes and path morphing, text string write up or number countdowns, plus additional CSS properties like colors, border-radius or typographic properties.\nFor components documentation, examples and other cool tips, check the demo.\nKUTE.js includes 18 components, but not all of them are bundled with the default distribution package:\n* backgroundPosition - enables the animation for the  CSS property\n* borderRadius - enables the animation for all the **borderRadius** properties\n* boxModel - enables the animation for the **boxModel** properties like  , , , etc\n* clipProperty - enables the animation for the  property\n* colorProperties - enables the animation for the **color** properties like ,",
+      "tag": "JavaScript动画引擎"
+    },
+    {
+      "id": 4521626,
+      "name": "cburgmer/rasterizeHTML.js",
+      "stars": 2624,
+      "enhanced_text": "Renders HTML into the browser's canvas.\n\nThen include a script tag with  or require through browserify.\nSee the examples page. The code also ships with examples, make sure to run  first to compile the library.\nFor security reasons rendering HTML into a canvas is severly limited. Firefox offers such a function via , but only with Chrome privileges (see https://developer.mozilla.org/en/Drawing_Graphics_with_Canvas).\nAs described in http://robert.ocallahan.org/2011/11/drawing-dom-content-to-canvas.html and https://developer.mozilla.org/en/HTML/Canvas/Drawing_DOM_objects_into_a_canvas however it is possible by embedding the HTML into an SVG image as a  and then drawing the resulting image via .\nIn addition SVG is not allowed to link to external resources and so rasterizeHTML.js will load external images, fonts and stylesheets and store them inline via data: URIs (or inline style elements respectively).",
+      "tag": "HTML转Canvas渲染"
+    },
+    {
+      "id": 28800891,
+      "name": "browserhtml/browserhtml",
+      "stars": 2611,
+      "enhanced_text": "Experimental Servo browser built in HTML.\n\nThis project has been retired: https://groups.google.com/d/msg/mozilla.dev.servo/U5zhsBLXovM/HbRL69zZBAAJ\n*Browser.html* is a research project aimed at building an experimental [Servo][] browser in HTML. This project has 2 major pieces:\n- _Graphene_: a runtime for building native apps in HTML. It's currently in development and part of Servo.\n- _Browser.html_: an experimental browser UI for desktop.\nThis repository is for Browser.html (the front-end). Active development of Graphene happens in the [Servo][] repository. Questions? Check out the FAQ.\nWe welcome contributions from anyone. See CONTRIBUTING.md for help getting started.\nThere are two major components to the browser.html application.",
+      "tag": "HTML构建浏览器UI"
+    },
+    {
+      "id": 1127001921,
+      "name": "PDFCraftTool/pdfcraft",
+      "stars": 2603,
+      "enhanced_text": "PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. With 90+ professional tools, you can edit, convert, merge, split, and secure your PDF files without ever uploading them to a server.\n\n### Installation\n1.  **Clone the repository**\n2.  **Install dependencies**\n3.  **Start the development server**\n4.  **Open your browser**\nNavigate to http://localhost:3000 to see the application running.\nPDFCraft provides both pre-built Docker images and Docker Compose for flexible deployment options.\n#### Option 1: Use Pre-built Image (Recommended)\nThe easiest way to run PDFCraft is using our pre-built image from GitHub Container Registry:\nOpen http://localhost:8080 to access PDFCraft.\n| Tag | Description |\n|  | Latest stable release from main branch |\n|  | Specific version (semantic versioning) |\n|  | Specific commit |\n#### Option 2: Build from Source with Docker Compose",
+      "tag": "浏览器端PDF工具包"
+    },
+    {
+      "id": 11671410,
+      "name": "dinbror/blazy",
+      "stars": 2602,
+      "enhanced_text": "Hey, be lazy! bLazy.JS is a lightweight pure JavaScript script for lazy loading and multi-serving images. It's working in all modern browsers including IE7+.",
+      "tag": "图片懒加载库"
+    },
+    {
+      "id": 100808958,
+      "name": "salarcode/SmartProxy",
+      "stars": 2600,
+      "enhanced_text": "Firefox/Chrome browser extension. SmartProxy will automatically enable/disable proxy for the sites you visit, based on customizable patterns.",
+      "tag": "智能代理浏览器扩展"
+    },
+    {
+      "id": 203938031,
+      "name": "200ok-ch/organice",
+      "stars": 2595,
+      "enhanced_text": "An implementation of Org mode without the dependency of Emacs - built for mobile and desktop browsers.\n\ninstalled, the following commands should be sufficient:\nIf you have the [[https://nixos.org/][Nix package manager]] installed, just type:\n*** Installation of packages\nTo install the necessary packages, run:\nyarn install --production=false\n*** Setup any of the synchronization back-ends\norganice can sync your Org files using Dropbox, GitLab, and WebDAV as\nIf you want to develop a feature that needs synchronization, then you\nwill have to set up any of those options. If you want to work on a",
+      "tag": "浏览器端Org模式实现"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 11459116,
+        "tag": "媒体流录制库"
+      },
+      {
+        "id": 1650371,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 74861972,
+        "tag": "XHR拦截库"
+      },
+      {
+        "id": 715367684,
+        "tag": "AI浏览器代理"
+      },
+      {
+        "id": 66257173,
+        "tag": "容器化Selenium网格"
+      },
+      {
+        "id": 72803397,
+        "tag": "浏览器GPGPU计算"
+      },
+      {
+        "id": 111811015,
+        "tag": "Android应用性能监控"
+      },
+      {
+        "id": 677467268,
+        "tag": "Web技术MMORPG"
+      },
+      {
+        "id": 32592337,
+        "tag": "JavaScript动画引擎"
+      },
+      {
+        "id": 4521626,
+        "tag": "HTML转Canvas渲染"
+      },
+      {
+        "id": 28800891,
+        "tag": "HTML构建浏览器UI"
+      },
+      {
+        "id": 1127001921,
+        "tag": "浏览器端PDF工具包"
+      },
+      {
+        "id": 11671410,
+        "tag": "图片懒加载库"
+      },
+      {
+        "id": 100808958,
+        "tag": "智能代理浏览器扩展"
+      },
+      {
+        "id": 203938031,
+        "tag": "浏览器端Org模式实现"
+      }
+    ]
+  }
+}

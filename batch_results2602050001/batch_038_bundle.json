@@ -1,0 +1,180 @@
+{
+  "batch_id": 38,
+  "timestamp": "2026-02-05T13:28:18.832684",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 56238870,
+      "name": "samuelsimoes/chrome-extension-webpack-boilerplate",
+      "stars": 1713,
+      "enhanced_text": "A basic foundation boilerplate for rich Chrome Extensions using Webpack to help you write modular and modern Javascript code, load CSS easily and automatic reload the browser on code changes.\n\nA basic foundation boilerplate for rich Chrome Extensions using Webpack to help you write modular and modern Javascript code, load CSS easily and automatic reload the browser on code changes.\n_I'll assume that you already read the Webpack docs and the Chrome Extension docs._\n1. Check if your Node.js version is >= 6.\n5. Change the package's name and description on .\n6. Change the name of your extension on .\n8. Load your extension on Chrome following:",
+      "tag": "Chrome扩展开发脚手架"
+    },
+    {
+      "id": 202060742,
+      "name": "twilco/kosmonaut",
+      "stars": 1710,
+      "enhanced_text": "A web browser engine for the space age :rocket:.\n\nKosmonaut is a web browser engine created to serve as the vehicle for your journey across the world wide web.\n> The road to the stars is steep and dangerous.  But we're not afraid...space flights can't be stopped.\nSo far, not much.  Only a very limited subset of CSS is currently supported, so most web pages will not work.  However, given very basic HTML and CSS, Kosmonaut does render the right things — see Kosmonaut's rendering of this code, compared with that of Firefox:\nHere is a summary of things Kosmonaut can do, things I'm currently working on, and things that are towards the front of the todo list.\n- [x] Parse HTML and small subset of CSS into DOM and rules, cascade CSS and apply to DOM\n- [x] Layout and paint of normal flow, non-replaced block-level boxes.\n- [x] Support1 for abstract box layout with  and  properties\n- [x] Layout-tree-dump snapshot-based testing and auto-discovering ref-tests",
+      "tag": "浏览器渲染引擎"
+    },
+    {
+      "id": 102216161,
+      "name": "lquixada/cross-fetch",
+      "stars": 1700,
+      "enhanced_text": "Universal WHATWG Fetch API for Node, Browsers and React Native.\n\nUniversal WHATWG Fetch API for Node, Browsers, Workers and React Native. The scenario that cross-fetch really shines is when the same JavaScript codebase needs to run on different platforms.\n- **Platform agnostic**: browsers, Node or React Native\n- **Optional polyfill**: it's up to you if something is going to be added to the global object or not\n- **Simple interface**: no instantiation, no configuration and no extra dependency\n- **WHATWG compliant**: it works the same way wherever your code runs\n- **TypeScript support**: better development experience with types.\n- **Worker support**: works on different types of workers such as Service Workers and CloudFlare Workers",
+      "tag": "跨平台Fetch API"
+    },
+    {
+      "id": 23958545,
+      "name": "kwk/docker-registry-frontend",
+      "stars": 1691,
+      "enhanced_text": "Browse and modify your Docker registry in a browser.\n\nThe  is a browser-based solution for browsing and modifying a private Docker registry.\n# Before opening a bug report...\n...make sure you have consulted the .\n***THIS VERSION OF THE DOCKER REGISTRY FRONTEND ONLY WORKS WITH THE DOCKER REGISTRY V2. THERE'S ALSO A LEGACY [\"V1-DEPRECATED\" BRANCH][v1branch] WHICH WORKS WITH THE OLD 0.9.1 DOCKER REGISTRY. THE [\"V1-DEPRECATED\" BRANCH][v1branch] IS VERY STABLE BUT WON'T RECEIVE SIGNIFICANT ATTENTION ANY LONGER BECAUSE THE OLD DOCKER REGISTRY WAS DECLARED DEPRECATED.***\n***~~THE V2 SUPPORT FOR THE DOCKER REGISTRY FRONTEND IS STILL UNDER ACTIVE DEVELOPMENT.~~ THERE'S A FAIR CHANCE THAT A MAJORITY OF FEATURES IS NOT YET IMPLEMENTED. CHECK THE ISSUES AND OPEN A BUG IF SOMETHING DOESN'T WORK RIGHT AWAY.***\n***TO PULL A VERSION OF THIS BRANCH FROM THE DOCKER HUB, MAKE SURE YOU PULL AND RUN ***\nFor a list of all the features, please see the [Wiki][features]. Note, that currently the Wiki pages still refer to version 1 of this frontend.\nTo learn how to develop for the docker-registry-frontend, see",
+      "tag": "Docker仓库Web前端"
+    },
+    {
+      "id": 259131257,
+      "name": "mandatoryprogrammer/CursedChrome",
+      "stars": 1683,
+      "enhanced_text": "Chrome-extension implant that turns victim Chrome browsers into fully-functional HTTP proxies, allowing you to browse sites as your victims.\n\nA (cursed) Chrome-extension implant that turns victim Chrome browsers into fully-functional HTTP proxies. By using the proxies this tool creates you can browse the web authenticated as your victim for all of their websites.\nMore and more companies are moving toward the \"BeyondCorp\" model (e.g. no flat internal network, zero trust everything). This is usually implemented via a reverse proxy/OAuth wall gating access to services, eliminating the need for a VPN. As access and tooling move towards being strictly available via the web browser, having a way to easily hijack and use victim's web sessions becomes an ever increasing necessity.\nThis is also especially useful for locked down orgs that make use of Chrome OS where traditional malware can't be used at all. It's also steathy, as all requests will have the appropriate source-IP, cookies, client-certificates, etc since it's being proxying directly through the victim's browser.\n## Browsing Websites Logged In as Victim (using Firefox with HTTP Proxy)\n# (Rough) Infrastructure Diagram ( Used)\n# Ports & Listening Interfaces\n- : HTTP proxy server (using one of the credentials in the admin panel, you can auth to a specific victim's Chrome browser via this HTTP proxy server). You also need to install the generated CA available via the admin panel before using this.\n- : Websocket server, used for communicating with victim Chrome instances to transfer HTTP requests for proxying and sending commands.\n- : Admin web panel for viewing victim Chrome instances and getting HTTP proxy credentials.\n**IMPORTANT**: If you are proxying through CursedChrome using **Firefox** please use FoxyProxy. The built-in proxy support for Firefox has bugs in its implementation of authenticated HTTP proxies which will drive you to madness.\n\n# Installation & Setup (~5-10 Minutes)\n## Step-By-Step Video Tutorial\nIf you're looking for an easy video walkthrough on setting up CursedChrome check out this video created by @TurvSec.\nIf you'd prefer just reading the installation instructions, continue on.\n## Setting Up the Backend\nThe backend is entirely dockerized and can be setup by running the following commands:\nOnce you start up the backend you'll see an admin username and password printed to the console. You can log into the admin panel at  using these credentials (you will be prompted to change your password upon logging in since the one printed to the console is likely logged).",
+      "tag": "Chrome扩展代理劫持"
+    },
+    {
+      "id": 385179469,
+      "name": "getstation/desktop-app",
+      "stars": 1679,
+      "enhanced_text": "One app to rule them all!\n\n## Installation\nNo additional requirements.\n\nInstall  dependencies\n### CentOS or Amazon Linux 2\nCentOS 9 is required.\n> See dotenv for further configuration.\n### Natives modules errors\nIf for any reason you have some error with binding module you could run  to check if you still have the problem\n### Toggle Chrome DevTools\n- MacOS: Cmd Alt I or F12\n- Linux: Ctrl Shift I or F12\n- Windows: Ctrl Shift I or F12\n*See electron-debug for more information.*\n- React DevTools is available in Chrome DevTools\n- Apollo Client DevTools is available in Chrome DevTools\n- Redux DevTools see below\nIn order to see redux transactions and state,\n\ninstall Redux DevTools\n(or the browser extension)\nand click on . Make sure  on  is activated in the settings.\n### Main proces debugging\nTo inspect the main process, connect Chrome by visiting  and selecting to inspect the launched Electron app.\n## Useful env variables for dev\n-  if exists, webviews are not loaded\n-  if exists, will enable redux-logger in renderer\n-  set the scenario for the mock of  module:\n-  (default), mock an update is available and downloaded\n-  mock an update is not available\n-  override  path (example: )\n-  override the interval period between each check for inactive tabs\n-  override the time to wait before considering a tab is inactive and killing it\n-  all transitions are quick (used to test changing colors)",
+      "tag": "Electron桌面应用框架"
+    },
+    {
+      "id": 10154685,
+      "name": "Level/level",
+      "stars": 1678,
+      "enhanced_text": "Universal abstract-level database for Node.js and browsers.\n\n**Universal  database for Node.js and browsers.** This is a convenience package that exports  in Node.js and  in browsers, making it an ideal entry point to start creating lexicographically sorted key-value databases.\n> :pushpin: Which module should I use? What is ? Head over to the FAQ.\n_If you are upgrading: please see ._\nTypeScript type declarations are included and cover the methods that are common between  and . Usage from TypeScript requires generic type parameters.\nFor use in browsers, this package is best used with , ,  or similar bundlers. For a quick start, visit  or .\nAt the time of writing,  works in Node.js 18+ and Electron 30+ on Linux, Mac OS and Windows, including any future Node.js and Electron release thanks to Node-API, including ARM platforms like Raspberry Pi and Android, as well as in Chromium, Firefox and Safari. For details, see Supported Platforms of  and Browser Support of .\nBinary keys and values are supported across the board.",
+      "tag": "跨平台键值数据库"
+    },
+    {
+      "id": 44274144,
+      "name": "djipco/webmidi",
+      "stars": 1676,
+      "enhanced_text": "Tame the Web MIDI API. Send and receive MIDI messages with ease. Control instruments with user-friendly functions (playNote, sendPitchBend, etc.). React to MIDI input with simple event listeners (noteon, pitchbend, controlchange, etc.).\n\n## Getting Started\nThe **official website** site is the best place to get started. Over there,\nyou will find, amongst others, two key resources:\nTo exchange with fellow users and myself, you can visit our **Forum**\nwhich is hosted on the GitHub Discussions platform:\nIf you want to stay up-to-date, here are your best sources:\nWEBMIDI.js is a passion project but it still takes quite a bit of time, effort and money to develop and\nmaintain. That's why I would like to sincerely thank 👏 these sponsors for their support:\n&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;\nIf you use the library and find it useful, please 💜 **sponsor the project**.\n\n## Introduction\n**WEBMIDI.js** makes it easy to interact with MIDI instruments directly from a web browser or from\nNode.js. It simplifies the control of physical or virtual MIDI instruments with user-friendly\nfunctions such as ,  or . It also allows reacting\nto inbound MIDI messages by adding listeners for events such as ,  or\nIn short, the goal behind WEBMIDI.js is to get you started with your web-based MIDI project as quickly\nand efficiently as possible.",
+      "tag": "Web MIDI API库"
+    },
+    {
+      "id": 81540012,
+      "name": "wingify/across-tabs",
+      "stars": 1676,
+      "enhanced_text": "Easy communication between cross-origin browser tabs. Simplified \"CORS\"ing!\n\n### Features\n1. Safely enables cross-origin communication among different browser tabs. Uses  API for communication.\n2. Easy to hook custom callback at various levels. Eg: executing a custom method in Child's tab on receiving a message from Parent tab.\n3. Option to provide  attribute on the target link/button(which opens up a new tab), so that it remains to disable until  tab initiates a handshake and is received by the  tab\n4. Fully fledged API to get information regarding the tabs(Parent and Child tabs) and other communication-related methods.\n5. Exports in a UMD format i.e. library works everywhere.",
+      "tag": "跨标签页通信库"
+    },
+    {
+      "id": 945068402,
+      "name": "heshengtao/super-agent-party",
+      "stars": 1668,
+      "enhanced_text": "⭐ All-in-one AI companion! Desktop girlfriend + virtual streamer + IM bot + browser control + smart home control + computer control + virtual reality, and everything else you can imagine!⭐全能型AI伴侣！桌面女友 + 虚拟主播 + 即时通讯机器人 + 浏览器控制 + 智能家居控制 + 电脑控制 + 虚拟现实 等你能想到的一切功能！.\n\n## Quick Start\n### 中国用户下载请点击 **中国用户点击下载** 的链接！\n### Windows portable package (Recommended! Installation-free source version, support one-click synchronization to the latest version of the warehouse, no need to wait for the desktop version to be packaged)\n⭐ Note!  You can double-click  to update the software, or you can double-click  to start the software.The operating system must be **Windows 10/11, Windows Server 2025**, or a later version!\n### Windows Desktop Installation\n⭐ Note! Choose to install only for the current user during installation, otherwise, administrator privileges will be required to start.The operating system must be **Windows 10/11, Windows Server 2025**, or a later version!\n### macOS portable package (Currently only M chips are supported, developer-oriented, no-install source version, one-click sync to latest repo, no need to wait for desktop build)\n⭐ Note! You can update the software in Terminal with  or launch it with . Remember to grant permissions before use!\n### MacOS Desktop Installation (Currently only M chips are supported.)\n⭐Attention! After downloading, drag the app file of the dmg file into the  directory, then open end point, execute the following command and enter the root password to remove the attached Quarantine attribute from the network download:\n### Linux Desktop Installation\nWe provide two mainstream Linux installation package formats for your convenience in different scenarios.\n#### 1. Install using\nis a Linux application format that does not require installation and can be used immediately. Suitable for most Linux distributions.\n#### 2. Install using  package (Suitable for Ubuntu/Debian systems)\n\n## Introduction\n### 🚀 **An AI desktop companion with endless possibilities!**\n- ✅ Omnichannel One-Click Deployment: Supports rapid deployment of agent configurations to multiple terminals, already compatible with scenarios such as classic chat interfaces, desktop companion, QQ, Feishu, Telegram, Discord, Slack chatbots, Bilibili, YouTube, Twitch live-streaming bots, and more—ready to use out of the box.\n- ✅ Ecosystem Tool Interconnectivity: Freely integrates third-party agents and workflows as toolchains (already adapted for systems like Home Assistant, Claude Code, Qwen Code, Dify, ComfyUI, MCP, A2A, etc.), enabling cross-platform capability aggregation through the Agent-Party architecture...",
+      "tag": "AI桌面代理应用"
+    },
+    {
+      "id": 250142018,
+      "name": "bgub/eta",
+      "stars": 1661,
+      "enhanced_text": "Embedded JS template engine for Node, Deno, and the browser. Lighweight, fast, and pluggable. Written in TypeScript.",
+      "tag": "嵌入式JS模板引擎"
+    },
+    {
+      "id": 968812883,
+      "name": "aculix/bitplay",
+      "stars": 1657,
+      "enhanced_text": "Stream video torrents in your web browser with ease.\n\n## Features\n*   **Direct Torrent Streaming:** Stream video files from magnet links or torrent files directly without needing to download them completely first.\n*   **Web-Based UI:** Access and control BitPlay through a user-friendly web interface.\n*   **Proxy Support:** Configure a SOCKS5 proxy for all torrent-related traffic (fetching metadata, peer connections). (Note: HTTP proxies are not currently supported).\n*   **Prowlarr Integration:** Connect to your Prowlarr instance to search across your configured indexers directly within BitPlay.\n*   **Jackett Integration:** Connect to your Jackett instance as an alternative search provider.\n*   **On-the-fly Subtitle Conversion:** Converts SRT subtitles to VTT format for browser compatibility.\n*   **Session Management:** Handles multiple torrent sessions and cleans up inactive ones.",
+      "tag": "Web端种子流播放器"
+    },
+    {
+      "id": 902137162,
+      "name": "openfrontio/OpenFrontIO",
+      "stars": 1654,
+      "enhanced_text": "Online browser-based RTS game.\n\nOpenFront.io is an online real-time strategy game focused on territorial control and alliance building. Players compete to expand their territory, build structures, and form strategic alliances in various maps based on real-world geography.\nThis is a fork/rewrite of WarFront.io. Credit to https://github.com/WarFrontIO.\nOpenFront source code is licensed under the **GNU Affero General Public License v3.0**\nCurrent copyright notices appear in:\n- Footer: \"© OpenFront and Contributors\"\n- Loading screen: \"© OpenFront and Contributors\"\nModified versions must preserve these notices in reasonably visible locations.\nSee the LICENSE for complete requirements.\nFor asset licensing, see LICENSE-ASSETS.\nFor license history, see LICENSING.md.",
+      "tag": "浏览器RTS游戏"
+    },
+    {
+      "id": 1840419,
+      "name": "bhollis/jsonview",
+      "stars": 1651,
+      "enhanced_text": "A web extension that helps you view JSON documents in the browser.\n\nJSONView is a Web extension compatible with Firefox and Google Chrome that helps you view JSON documents in the browser.\n- There is no version for Safari because it costs $100/year to publish a free extension to the Mac App Store.\nNormally, when encountering a JSON document (content type ), Firefox simply prompts you to download the view. With the JSONView extension, JSON documents are shown in the browser similar to how XML documents are shown. The document is formatted, highlighted, and arrays and objects can be collapsed. Even if the JSON document contains errors, JSONView will still show the raw text.\nOnce you've got JSONView installed, check out this example JSON file to see the extension in action!\nIf you'd like to contribute to JSONView but don't want to code, consider contributing a translation. Copy the existing localization files from  and fill them in for your own language, then send a pull request. You can do it all from the GitHub interface. There are not many strings to translate!\n- Left Arrow - Collapses the json on key up",
+      "tag": "JSON查看器扩展"
+    },
+    {
+      "id": 1045681332,
+      "name": "renzorlive/vimmaster",
+      "stars": 1643,
+      "enhanced_text": "VIM Master: in-browser game that teaches core Vim motions and editing commands through short, focused levels.\n\n## Features\n- **Normal/Insert modes** with an on-screen status bar\n- **Command log** showing your keystrokes\n- **16 Progressive Levels** that validate your action outcomes (not just keystrokes)\n- **Complete Vim Support**: , , , , , , , , , , , , , , , ex-commands ,\n- **Numeric counts** for motions/operators (e.g., , , , )\n- **Undo/redo support** (, )\n- **Vim-style search**:  and , with / navigation and match highlighting\n- **Challenge Mode**: Fast-paced timed challenges to test your Vim skills\n- **Cheat Mode**: Interactive command reference with instant practice sessions\n- **Progress Management**: Auto-save, export/import codes, and progress tracking\n- **Badge System**: Earn visual badges as you learn (Beginner, Search Master)\n- **Profile Page**: Beautiful showcase of achievements with social media sharing\n- **Canvas-Based Achievement Cards**: Generate downloadable and shareable images\n- **Modular Architecture**: Clean, maintainable codebase for easy development",
+      "tag": "Vim教学浏览器游戏"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 56238870,
+        "tag": "Chrome扩展开发脚手架"
+      },
+      {
+        "id": 202060742,
+        "tag": "浏览器渲染引擎"
+      },
+      {
+        "id": 102216161,
+        "tag": "跨平台Fetch API"
+      },
+      {
+        "id": 23958545,
+        "tag": "Docker仓库Web前端"
+      },
+      {
+        "id": 259131257,
+        "tag": "Chrome扩展代理劫持"
+      },
+      {
+        "id": 385179469,
+        "tag": "Electron桌面应用框架"
+      },
+      {
+        "id": 10154685,
+        "tag": "跨平台键值数据库"
+      },
+      {
+        "id": 44274144,
+        "tag": "Web MIDI API库"
+      },
+      {
+        "id": 81540012,
+        "tag": "跨标签页通信库"
+      },
+      {
+        "id": 945068402,
+        "tag": "AI桌面代理应用"
+      },
+      {
+        "id": 250142018,
+        "tag": "嵌入式JS模板引擎"
+      },
+      {
+        "id": 968812883,
+        "tag": "Web端种子流播放器"
+      },
+      {
+        "id": 902137162,
+        "tag": "浏览器RTS游戏"
+      },
+      {
+        "id": 1840419,
+        "tag": "JSON查看器扩展"
+      },
+      {
+        "id": 1045681332,
+        "tag": "Vim教学浏览器游戏"
+      }
+    ]
+  }
+}

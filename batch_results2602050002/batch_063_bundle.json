@@ -1,0 +1,125 @@
+{
+  "batch_id": 63,
+  "timestamp": "2026-02-05T14:47:17.536266",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 99701166,
+      "name": "cars10/elasticvue",
+      "stars": 2572,
+      "enhanced_text": "Elasticsearch gui - desktop app, browser extension, docker, self hosted.",
+      "tag": "Elasticsearch图形界面"
+    },
+    {
+      "id": 1405796,
+      "name": "TransitApp/SVWebViewController",
+      "stars": 2561,
+      "enhanced_text": "A drop-in inline browser for your iOS app.",
+      "tag": "iOS内嵌浏览器组件"
+    },
+    {
+      "id": 1114840147,
+      "name": "VibiumDev/vibium",
+      "stars": 2555,
+      "enhanced_text": "Browser automation for AI agents and humans.",
+      "tag": "浏览器自动化框架"
+    },
+    {
+      "id": 421195163,
+      "name": "decompiler-explorer/decompiler-explorer",
+      "stars": 2535,
+      "enhanced_text": "Decompiler Explorer! Compare tools on the forefront of static analysis, now in your web browser!",
+      "tag": "反编译器Web工具"
+    },
+    {
+      "id": 779276,
+      "name": "fnando/browser",
+      "stars": 2488,
+      "enhanced_text": "Do some browser detection with Ruby. Includes ActionController integration.",
+      "tag": "Ruby浏览器检测库"
+    },
+    {
+      "id": 33863168,
+      "name": "schmich/marinara",
+      "stars": 2454,
+      "enhanced_text": "Pomodoro® time management assistant for Chrome.",
+      "tag": "Chrome时间管理扩展"
+    },
+    {
+      "id": 952779352,
+      "name": "civilblur/mazanoke",
+      "stars": 2438,
+      "enhanced_text": "A self-hosted local image optimizer that runs in your browser.",
+      "tag": "浏览器端图像优化器"
+    },
+    {
+      "id": 50198094,
+      "name": "d0k3/GodMode9",
+      "stars": 2427,
+      "enhanced_text": "GodMode9 Explorer - A full access file browser for the Nintendo 3DS console :godmode:.",
+      "tag": "3DS文件浏览器"
+    },
+    {
+      "id": 39771596,
+      "name": "phoboslab/jsmpeg-vnc",
+      "stars": 2420,
+      "enhanced_text": "A low latency, high framerate screen sharing server for Windows and client for browsers.",
+      "tag": "浏览器低延迟屏幕共享"
+    },
+    {
+      "id": 15271042,
+      "name": "mpld3/mpld3",
+      "stars": 2401,
+      "enhanced_text": "An interactive data visualization tool which brings matplotlib graphics to the browser using D3.",
+      "tag": "Python浏览器可视化库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 99701166,
+        "tag": "Elasticsearch图形界面"
+      },
+      {
+        "id": 1405796,
+        "tag": "iOS内嵌浏览器组件"
+      },
+      {
+        "id": 1114840147,
+        "tag": "浏览器自动化框架"
+      },
+      {
+        "id": 421195163,
+        "tag": "反编译器Web工具"
+      },
+      {
+        "id": 779276,
+        "tag": "Ruby浏览器检测库"
+      },
+      {
+        "id": 33863168,
+        "tag": "Chrome时间管理扩展"
+      },
+      {
+        "id": 952779352,
+        "tag": "浏览器端图像优化器"
+      },
+      {
+        "id": 50198094,
+        "tag": "3DS文件浏览器"
+      },
+      {
+        "id": 39771596,
+        "tag": "浏览器低延迟屏幕共享"
+      },
+      {
+        "id": 15271042,
+        "tag": "Python浏览器可视化库"
+      }
+    ]
+  }
+}

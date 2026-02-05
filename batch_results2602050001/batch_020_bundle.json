@@ -1,0 +1,180 @@
+{
+  "batch_id": 20,
+  "timestamp": "2026-02-05T13:24:21.997707",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 172636540,
+      "name": "osnr/TabFS",
+      "stars": 3925,
+      "enhanced_text": "🗄 Mount your browser tabs as a filesystem.\n\n(**update**: You can now **sponsor further development of",
+      "tag": "浏览器扩展工具"
+    },
+    {
+      "id": 63557,
+      "name": "jquery/jquery-mousewheel",
+      "stars": 3917,
+      "enhanced_text": "A jQuery plugin that adds cross-browser mouse wheel support.\n\nIn order to use the plugin, simply bind the  event to an element.\nThe event object is updated with the normalized  and  properties.\nIn addition, there is a new property on the event object called . Multiply\nthe  by  or  to get the scroll distance that the browser\nHere is an example of using both the bind and helper method syntax:\nThe old behavior of adding three arguments (, , and ) to the\nevent handler is now deprecated and will be removed in later releases.",
+      "tag": "jQuery插件"
+    },
+    {
+      "id": 3457006,
+      "name": "mudcube/MIDI.js",
+      "stars": 3916,
+      "enhanced_text": ":musical_keyboard: Making life easy to create a MIDI-app on the web. Includes a library to program synesthesia into your app for memory recognition or for creating trippy effects. Convert soundfonts for Guitar, Bass, Drums, ect. into code that can be read by the browser. Supports multiple simultaneous instruments and perfect timing.\n\n## Code examples - from the repo\n* Basic - the most basic implementation.\n* MIDIPlayer - how to parse MIDI files, and interact with the data stream.\n* WhitneyMusicBox - a audio/visual experiment by Jim Bumgardner\n* 3D Piano Player w/ Three.js by Borja Morales @reality3d\n* Brite Lite by Daniel Christopher @uxmonk\n* Color Piano by Michael Deal @mudcube\n* Euphony 3D Piano by Xueqiao Xu @qiao\n* Piano Typewriter by Andrew Levine",
+      "tag": "Web音频库"
+    },
+    {
+      "id": 359922324,
+      "name": "linuxserver/docker-webtop",
+      "stars": 3887,
+      "enhanced_text": "Ubuntu, Alpine, Arch, and Fedora based Webtop images, Linux in a web browser supporting popular desktop environments.\n\nThe LinuxServer.io team brings you another container release featuring:\n* regular and timely application updates\n* easy user mappings (PGID, PUID)\n* custom base image with s6 overlay\n* weekly base OS updates with common layers across the entire LinuxServer.io ecosystem to minimise space usage, down time and bandwidth\n* Blog - all the things you can do with our containers including How-To guides, opinions and much more!\n* Discord - realtime support / chat with the community and the team.\n* Discourse - post on our community forum.",
+      "tag": "容器化桌面"
+    },
+    {
+      "id": 224599511,
+      "name": "cavi-au/Consent-O-Matic",
+      "stars": 3863,
+      "enhanced_text": "Browser extension that automatically fills out cookie popups based on your preferences.\n\n## Installation\nWe highly recommend installing directly through the official extension store of your browser (mentioned at the top). Installing through the official channels will automatically keep you up-to-date with new versions when they are released.\nIt is also possible to get the extension by other means.",
+      "tag": "隐私保护扩展"
+    },
+    {
+      "id": 2344621,
+      "name": "ryanb/letter_opener",
+      "stars": 3836,
+      "enhanced_text": "Preview mail in the browser instead of sending.\n\nPreview email in the default browser instead of sending it. This means you do not need to set up email delivery in your development environment, and you no longer need to worry about accidentally sending a test email to someone else's address.\nFirst add the gem to your development environment and run the  command to install it.\nThen set the delivery method in\nNow any email will pop up in your browser instead of being sent. The messages are stored in .\nIf you want to change application that will be used to open your emails you should override  environment variable or set  in the initializer.\nIf you aren't using Rails, this can be easily set up with the Mail gem. Just set the delivery method when configuring Mail and specify a location.",
+      "tag": "开发调试工具"
+    },
+    {
+      "id": 434591591,
+      "name": "libredirect/browser_extension",
+      "stars": 3818,
+      "enhanced_text": "A browser extension that redirects popular sites to alternative privacy friendly frontends.\n\nInstall Node.js\n#### Build a zip package for Firefox\n\n#### Install the zip package on Firefox (temporarily)\n1. Type in the address bar:\n3. Select  from  folder",
+      "tag": "隐私保护扩展"
+    },
+    {
+      "id": 2207038,
+      "name": "gildas-lormeau/zip.js",
+      "stars": 3796,
+      "enhanced_text": "JavaScript library to zip and unzip files supporting multi-core compression, web streams, zip64, split files, data encryption, and deflate64 decompression.",
+      "tag": "JavaScript压缩库"
+    },
+    {
+      "id": 10825334,
+      "name": "blueimp/Gallery",
+      "stars": 3778,
+      "enhanced_text": "blueimp Gallery is a touch-enabled, responsive and customizable image & video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers. It features swipe, mouse and keyboard navigation, transition effects, slideshow functionality, fullscreen support and on-demand content loading.\n\nblueimp Gallery is a touch-enabled, responsive and customizable image and video\ngallery, carousel and lightbox, optimized for both mobile and desktop web\nIt features swipe, mouse and keyboard navigation, transition effects, slideshow\nfunctionality, fullscreen support and on-demand content loading and can be\nextended to display additional content types.",
+      "tag": "响应式媒体库"
+    },
+    {
+      "id": 630292680,
+      "name": "0hq/WebGPT",
+      "stars": 3778,
+      "enhanced_text": "Run GPT model on the browser with WebGPU. An implementation of GPT inference in less than ~1500 lines of vanilla Javascript.\n\nAfter six years of development, WebGPU is about to launch across most major web browsers. This is massive: web applications now have near-native access to the GPU, with the added capacity of compute shaders.\nWebGPT is a vanilla JS and HTML implementation of a transformer model, intended as a proof-of-concept as well as educational resource. WebGPT has been tested to be working with models up to 500 M parameters, though could likely support far more with further testing/optimization.\n2020 M1 Mac: 3ms/token at 5M parameters with f32 precision.\n2020 M1 Mac: 30ms/token at 117M parameters with f32 precision.\n2020 M1 Mac: 70ms/token at 377M parameters with f32 precision.\n2020 M1 Mac: 120ms/token at 775M parameters with f32 precision.\n1.5B is working but unstable, sitting around 1000ms/token due to inefficiencies.\nRunning WebGPT is remarkably simple, as it's just a set of HTML + JS files. Since WebGPU is still in the process of being released, you'll need to open with a compatible browser. WebGPU is currently available on Chrome v113 but the most straightforward way to ensure proper functionality is to install Chrome Canary or Edge Canary.",
+      "tag": "WebGPU推理引擎"
+    },
+    {
+      "id": 222240688,
+      "name": "BrowserBox/BrowserBox",
+      "stars": 3775,
+      "enhanced_text": "💚 Secure remote browsing anywhere.\n\nSecure, modern Remote Browser Isolation (RBI) with a clientless experience\nBrowserBox&trade; is a remote browser isolation (RBI) platform for security teams, SaaS builders, and IT ops. It streams a full modern browser to any client with low latency and 60 FPS, supports embedding, and runs on Windows, Linux, and containers. **A product key is required for all BrowserBox usage.**\n*   **Clientless RBI:** No plugins or downloads for end users.\n*   **60 FPS streaming:** Smooth, responsive browsing over the network.\n*   **Embed anywhere:** Drop in the BrowserBox webview to your app or portal.\n*   **Flexible deployment:** Works on Windows, Linux, Docker, and LXC.\n*   **Built for control:** Policies, isolation, and audit-friendly workflows.\nQuick links: Get Started | Pricing | Support",
+      "tag": "远程浏览器隔离"
+    },
+    {
+      "id": 1002552148,
+      "name": "amantus-ai/vibetunnel",
+      "stars": 3751,
+      "enhanced_text": "Turn any browser into your terminal & command your agents on the go.\n\n## Quick Start\n**macOS App**: Requires an Apple Silicon Mac (M1+). Intel Macs are not supported for the native app.\n**npm Package**: Works on any system with Node.js 22.12+, including Intel Macs and Linux. Windows is not yet supported (#252).\n### 1. Download & Install\n#### Option 1: Direct Download\nDownload VibeTunnel and drag it to your Applications folder.\n#### Option 2: Homebrew\n### 2. Launch VibeTunnel\nVibeTunnel lives in your menu bar. Click the icon to start the server.\n### 3. Use the  Command\nThe  command is a smart wrapper that forwards your terminal sessions through VibeTunnel:\n-  is a bash script that internally calls  to forward terminal output\n- It provides additional features like shell alias resolution and session title management\n- Available from both the Mac app and npm package installations\n**Installation sources**:\n\n## Installation Options\n### macOS App (Recommended for Mac users)\nThe native macOS app provides the best experience with menu bar integration and automatic updates.\n### npm Package (Linux & Headless Systems)\nFor Linux servers, Docker containers, or headless macOS systems, install via npm:\nThis gives you the full VibeTunnel server with web UI, just without the macOS menu bar app. See the npm Package section for detailed usage.\n\n## Features\n- **🌐 Browser-Based Access** - Control your Mac terminal from any device with a web browser\n- **🚀 Zero Configuration** - No SSH keys, no port forwarding, no complexity\n- **🤖 AI Agent Friendly** - Perfect for monitoring Claude Code, ChatGPT, or any terminal-based AI tools\n- **📊 Session Activity Indicators** - Real-time activity tracking shows which sessions are active or idle\n- **🔄 Git Follow Mode** - Terminal automatically follows your IDE's branch switching\n- **⌨️ Smart Keyboard Handling** - Intelligent shortcut routing with toggleable capture modes. When capture is active, use Cmd+1...9/0 (Mac) or Ctrl+1...9/0 (Linux) to quickly switch between sessions\n- **🔒 Secure by Design** - Multiple authentication modes, localhost-only mode, or secure tunneling via Tailscale/ngrok\n- **📱 Mobile Ready** - Native iOS app and responsive web interface for phones and tablets\n- **🎬 Session Recording** - All sessions recorded in asciinema format for later playback\n- **⚡ High Performance** - Optimized Node...",
+      "tag": "浏览器终端代理"
+    },
+    {
+      "id": 4676086,
+      "name": "forwardemail/email-templates",
+      "stars": 3725,
+      "enhanced_text": "Create, preview (browser/iOS Simulator), and send custom email templates for Node.js.  Made for @forwardemail, @ladjs, @cabinjs, @spamscanner, and @breejs.\n\nCreate, [preview][preview-email] (browser/iOS Simulator), and send custom email templates for [Node.js][node].  Made for [Forward Email][forward-email] and [Lad][].\n> **Need to send emails that land in the inbox instead of spam folder? Click here to learn how to send JavaScript contact forms and more with Node.js**\n* Automatic Inline CSS via Stylesheets",
+      "tag": "Node.js邮件模板"
+    },
+    {
+      "id": 610043832,
+      "name": "mlc-ai/web-stable-diffusion",
+      "stars": 3712,
+      "enhanced_text": "Bringing stable diffusion models to web browsers. Everything runs inside the browser with no server support.\n\nThis project brings stable diffusion models onto web browsers. **Everything runs inside the browser with no server support.** To our knowledge, this is the world’s first stable diffusion completely running on the browser. Please checkout our demo webpage to try it out.\nYou are also more than welcomed to checkout Web LLM if you are interested in deploying LLM-based chat bots to browser.\nWe have been seeing amazing progress through AI models recently. Thanks to the open-source effort, developers can now easily compose open-source models together to produce amazing tasks. Stable diffusion enables the automatic creation of photorealistic images as well as images in various styles based on text input. These models are usually big and compute-heavy, which means we have to pipe through all computation requests to (GPU) servers when developing web applications based on these models. Additionally, most of the workloads have to run on a specific type of GPUs where popular deep-learning frameworks are readily available.\nThis project takes a step to change that status quo and bring more diversity to the ecosystem. There are a lot of reasons to get some (or all) of the computation to the client side. There are many possible benefits, such as cost reduction on the service provider side, as well as an enhancement for personalization and privacy protection. The development of personal computers (even mobile devices) is going in the direction that enables such possibilities. The client side is getting pretty powerful.\nBuilding special client apps for those applications is one option (which we also support), but won’t it be even more amazing if we can simply open a browser and directly bring AI natively to your browser tab? There is some level of readiness in the ecosystem. WebAssembly allows us to port more lower-level runtimes onto the web. To solve the compute problem, WebGPU is getting matured lately and enables native GPU executions on the browser.\nWe are just seeing necessary elements coming together on the client side, both in terms of hardware and browser ecosystem. Still, there are big hurdles to cross, to name a few:\n* We need to bring the models somewhere without the relevant GPU-accelerated Python frameworks.\n* Most of the AI frameworks have a heavy reliance on optimized computed libraries that are maintained by hardware vendors. We need to start from zero. To get the maximum benefit, we might also need to produce variants per client environment...",
+      "tag": "浏览器AI推理"
+    },
+    {
+      "id": 3640925,
+      "name": "github-tools/github",
+      "stars": 3700,
+      "enhanced_text": "A higher-level wrapper around the Github API. Intended for the browser.\n\nprovides a minimal higher-level wrapper around Github's API.\nis tested on node's LTS and current versions.",
+      "tag": "GitHub API封装"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 172636540,
+        "tag": "浏览器扩展工具"
+      },
+      {
+        "id": 63557,
+        "tag": "jQuery插件"
+      },
+      {
+        "id": 3457006,
+        "tag": "Web音频库"
+      },
+      {
+        "id": 359922324,
+        "tag": "容器化桌面"
+      },
+      {
+        "id": 224599511,
+        "tag": "隐私保护扩展"
+      },
+      {
+        "id": 2344621,
+        "tag": "开发调试工具"
+      },
+      {
+        "id": 434591591,
+        "tag": "隐私保护扩展"
+      },
+      {
+        "id": 2207038,
+        "tag": "JavaScript压缩库"
+      },
+      {
+        "id": 10825334,
+        "tag": "响应式媒体库"
+      },
+      {
+        "id": 630292680,
+        "tag": "WebGPU推理引擎"
+      },
+      {
+        "id": 222240688,
+        "tag": "远程浏览器隔离"
+      },
+      {
+        "id": 1002552148,
+        "tag": "浏览器终端代理"
+      },
+      {
+        "id": 4676086,
+        "tag": "Node.js邮件模板"
+      },
+      {
+        "id": 610043832,
+        "tag": "浏览器AI推理"
+      },
+      {
+        "id": 3640925,
+        "tag": "GitHub API封装"
+      }
+    ]
+  }
+}

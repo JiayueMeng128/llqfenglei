@@ -1,0 +1,125 @@
+{
+  "batch_id": 70,
+  "timestamp": "2026-02-05T14:50:27.644272",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 570427,
+      "name": "andris9/jStorage",
+      "stars": 1530,
+      "enhanced_text": "jStorage is a simple key/value database to store data on browser side.",
+      "tag": "浏览器端存储库"
+    },
+    {
+      "id": 482251689,
+      "name": "kha-white/mokuro",
+      "stars": 1519,
+      "enhanced_text": "Read Japanese manga inside browser with selectable text.",
+      "tag": "浏览器文本识别工具"
+    },
+    {
+      "id": 1110256,
+      "name": "alexgibson/shake.js",
+      "stars": 1512,
+      "enhanced_text": "A custom 'shake' event plugin for mobile web browsers using device accelerometer.",
+      "tag": "移动端浏览器事件库"
+    },
+    {
+      "id": 9695623,
+      "name": "levelgraph/levelgraph",
+      "stars": 1512,
+      "enhanced_text": "Graph database JS style for Node.js and the Browser. Built upon LevelUp and LevelDB.",
+      "tag": "浏览器端图数据库"
+    },
+    {
+      "id": 48935429,
+      "name": "toolkit-for-ynab/toolkit-for-ynab",
+      "stars": 1507,
+      "enhanced_text": "A general purpose YNAB enhancing browser extension for Chrome and Firefox. Have it your way!",
+      "tag": "浏览器扩展工具"
+    },
+    {
+      "id": 46092465,
+      "name": "rbren/rss-parser",
+      "stars": 1499,
+      "enhanced_text": "A lightweight RSS parser, for Node and the browser.",
+      "tag": "浏览器RSS解析库"
+    },
+    {
+      "id": 4373698,
+      "name": "caolan/jam",
+      "stars": 1491,
+      "enhanced_text": "JavaScript package manager - using a browser-focused and RequireJS compatible repository.",
+      "tag": "浏览器包管理器"
+    },
+    {
+      "id": 876463956,
+      "name": "za515217965/OKBrowser",
+      "stars": 1491,
+      "enhanced_text": "OKBrow指纹浏览器 Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 免费的web3空投专用指纹浏览器.",
+      "tag": "隐私浏览器"
+    },
+    {
+      "id": 393117769,
+      "name": "antfu/drauu",
+      "stars": 1484,
+      "enhanced_text": "Headless SVG-based drawboard in browser.",
+      "tag": "浏览器SVG绘图库"
+    },
+    {
+      "id": 61212242,
+      "name": "tj/react-enroute",
+      "stars": 1483,
+      "enhanced_text": "React router with a small footprint for modern browsers.",
+      "tag": "浏览器路由库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 570427,
+        "tag": "浏览器端存储库"
+      },
+      {
+        "id": 482251689,
+        "tag": "浏览器文本识别工具"
+      },
+      {
+        "id": 1110256,
+        "tag": "移动端浏览器事件库"
+      },
+      {
+        "id": 9695623,
+        "tag": "浏览器端图数据库"
+      },
+      {
+        "id": 48935429,
+        "tag": "浏览器扩展工具"
+      },
+      {
+        "id": 46092465,
+        "tag": "浏览器RSS解析库"
+      },
+      {
+        "id": 4373698,
+        "tag": "浏览器包管理器"
+      },
+      {
+        "id": 876463956,
+        "tag": "隐私浏览器"
+      },
+      {
+        "id": 393117769,
+        "tag": "浏览器SVG绘图库"
+      },
+      {
+        "id": 61212242,
+        "tag": "浏览器路由库"
+      }
+    ]
+  }
+}

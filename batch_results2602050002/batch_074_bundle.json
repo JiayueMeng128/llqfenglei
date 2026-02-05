@@ -1,0 +1,125 @@
+{
+  "batch_id": 74,
+  "timestamp": "2026-02-05T15:29:51.583432",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 824656296,
+      "name": "damongolding/immich-kiosk",
+      "stars": 1296,
+      "enhanced_text": "Highly configurable slideshows for displaying Immich assets on browsers and devices.",
+      "tag": "浏览器媒体展示框架"
+    },
+    {
+      "id": 709761,
+      "name": "etianen/html5media",
+      "stars": 1277,
+      "enhanced_text": "Enables <video> and <audio> tags in all major browsers.",
+      "tag": "HTML5媒体兼容库"
+    },
+    {
+      "id": 960899579,
+      "name": "glide-browser/glide",
+      "stars": 1247,
+      "enhanced_text": "An extensible and keyboard-focused web browser.",
+      "tag": "可扩展浏览器"
+    },
+    {
+      "id": 50281785,
+      "name": "tenox7/wrp",
+      "stars": 1222,
+      "enhanced_text": "Web Rendering Proxy: Use vintage, historical, legacy browsers on modern web.",
+      "tag": "网页渲染代理"
+    },
+    {
+      "id": 5562456,
+      "name": "mtschirs/js-objectdetect",
+      "stars": 1221,
+      "enhanced_text": "computer vision in your browser - javascript real-time object detection.",
+      "tag": "浏览器计算机视觉库"
+    },
+    {
+      "id": 82913507,
+      "name": "wagenaartje/neataptic",
+      "stars": 1220,
+      "enhanced_text": ":rocket: Blazing fast neuro-evolution & backpropagation for the browser and Node.js.",
+      "tag": "浏览器神经网络库"
+    },
+    {
+      "id": 160545642,
+      "name": "spatie/laravel-web-tinker",
+      "stars": 1210,
+      "enhanced_text": "Tinker in your browser.",
+      "tag": "浏览器交互式开发工具"
+    },
+    {
+      "id": 157377758,
+      "name": "reiinakano/arbitrary-image-stylization-tfjs",
+      "stars": 1209,
+      "enhanced_text": "Arbitrary style transfer using TensorFlow.js.",
+      "tag": "浏览器AI风格迁移库"
+    },
+    {
+      "id": 3658431,
+      "name": "mongodb/js-bson",
+      "stars": 1208,
+      "enhanced_text": "BSON Parser for node and browser.",
+      "tag": "浏览器数据序列化库"
+    },
+    {
+      "id": 162753411,
+      "name": "pagedjs/pagedjs",
+      "stars": 1195,
+      "enhanced_text": "Display paginated content in the browser and generate print books using web technology.",
+      "tag": "浏览器分页渲染引擎"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 824656296,
+        "tag": "浏览器媒体展示框架"
+      },
+      {
+        "id": 709761,
+        "tag": "HTML5媒体兼容库"
+      },
+      {
+        "id": 960899579,
+        "tag": "可扩展浏览器"
+      },
+      {
+        "id": 50281785,
+        "tag": "网页渲染代理"
+      },
+      {
+        "id": 5562456,
+        "tag": "浏览器计算机视觉库"
+      },
+      {
+        "id": 82913507,
+        "tag": "浏览器神经网络库"
+      },
+      {
+        "id": 160545642,
+        "tag": "浏览器交互式开发工具"
+      },
+      {
+        "id": 157377758,
+        "tag": "浏览器AI风格迁移库"
+      },
+      {
+        "id": 3658431,
+        "tag": "浏览器数据序列化库"
+      },
+      {
+        "id": 162753411,
+        "tag": "浏览器分页渲染引擎"
+      }
+    ]
+  }
+}

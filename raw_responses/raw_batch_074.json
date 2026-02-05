@@ -1,0 +1,16 @@
+{
+  "batch_id": 74,
+  "timestamp": "2026-02-05T15:29:51.582577",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 824656296,\n      \"tag\": \"浏览器媒体展示框架\"\n    },\n    {\n      \"id\": 709761,\n      \"tag\": \"HTML5媒体兼容库\"\n    },\n    {\n      \"id\": 960899579,\n      \"tag\": \"可扩展浏览器\"\n    },\n    {\n      \"id\": 50281785,\n      \"tag\": \"网页渲染代理\"\n    },\n    {\n      \"id\": 5562456,\n      \"tag\": \"浏览器计算机视觉库\"\n    },\n    {\n      \"id\": 82913507,\n      \"tag\": \"浏览器神经网络库\"\n    },\n    {\n      \"id\": 160545642,\n      \"tag\": \"浏览器交互式开发工具\"\n    },\n    {\n      \"id\": 157377758,\n      \"tag\": \"浏览器AI风格迁移库\"\n    },\n    {\n      \"id\": 3658431,\n      \"tag\": \"浏览器数据序列化库\"\n    },\n    {\n      \"id\": 162753411,\n      \"tag\": \"浏览器分页渲染引擎\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 592,
+    "completion_tokens": 242,
+    "total_tokens": 834
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984b76fb474fa77dcfa3cc6ffb1854c",
+  "created": 1770305386,
+  "finish_reason": "stop"
+}

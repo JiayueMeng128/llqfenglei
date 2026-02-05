@@ -1,0 +1,180 @@
+{
+  "batch_id": 26,
+  "timestamp": "2026-02-05T13:25:45.594796",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 397189231,
+      "name": "miroslavpejic85/mirotalksfu",
+      "stars": 2864,
+      "enhanced_text": "🏆 WebRTC - SFU - Simple, Secure, Scalable Real-Time Video Conferences Up to 8k, compatible with all browsers and platforms.\n\nQuick Start\n- Before running MiroTalk SFU, ensure you have  and all requirements installed. This project has been tested with Node version 22.X.\n- Requirements install example for",
+      "tag": "WebRTC SFU服务器"
+    },
+    {
+      "id": 199345033,
+      "name": "d07RiV/diabloweb",
+      "stars": 2856,
+      "enhanced_text": "Diablo 1 for web browsers.\n\nThis project is based on https://github.com/diasurgical/devilution.\nSource code to build the WebAssembly modules is here: https://github.com/d07RiV/devilution\nI've modified the code to remove all dependencies and exposed the minimal required interface with JS, allowing the game to be compiled into WebAssembly.\nEvent handling (especially in the menus) had to be modified significantly to fit the JS model.\nThe project is hosted on https://d07RiV.github.io/diabloweb/ along with spawn.mpq from the shareware version (place it in the public folder to run locally).\nThis allows shareware version to be played anywhere, even on mobile phones. To play the full game, you must use your own DIABDAT.MPQ that you can obtain\nwith the original copy of the game from GoG.",
+      "tag": "WebAssembly游戏移植"
+    },
+    {
+      "id": 148935509,
+      "name": "TokamakUI/Tokamak",
+      "stars": 2842,
+      "enhanced_text": "[Looking for active maintainers] SwiftUI-compatible framework for building browser apps with WebAssembly and native apps for other platforms.\n\n## Getting started\nTokamak relies on  as a primary build tool. As a part of these steps\nyou'll install  via Homebrew on macOS (unfortunately you'll have to build\nit manually on Linux). Assuming you already have Homebrew installed, you can create a new Tokamak\napp by following these steps:\nIf you had  installed before this, make sure you have version 0.15.0 or greater:\n2. Create a directory for your project and make it current:\n3. Initialize the project from a template with :\n4. Build the project and start the development server,  can be kept running\n5. Open http://127.0.0.1:8080/ in your browser to see the app\nrunning. You can edit the app source code in your favorite editor and save it,\nwill immediately rebuild the app and reload all browser tabs that have the app open.\nYou can also clone this repository and run  in its root\ndirectory. This will build the demo app that shows almost all of the currently implemented APIs.\nIf you have any questions, pleaes check out the FAQ document, and/or join the\n\ninstalled. If you don't trust this unofficial release, please follow the manual building and",
+      "tag": "SwiftUI跨平台框架"
+    },
+    {
+      "id": 15127462,
+      "name": "streamlink/streamlink-twitch-gui",
+      "stars": 2829,
+      "enhanced_text": "A multi platform Twitch.tv browser for Streamlink.\n\n[Streamlink Twitch GUI][Website]\n[![Supported platforms][badge-platforms]][Releases] [![Latest release][badge-release]][Releases] [![Open issues][badge-issues]][Issues] [![Gitter IRC][badge-gitter]][Gitter] [![Build status][badge-actions]][Github-actions] [![Code coverage][badge-codecov]][Codecov]\n> Please see #1045 regarding the development status of this project\n**A multi-platform [Twitch.tv][Twitch] browser for [Streamlink][Streamlink]**\n[![Streamlink Twitch GUI][Preview]][Releases]\nA graphical user interface on top of the [Streamlink][Streamlink] command line interface.\nStreamlink Twitch GUI is an [NW.js][NW.js] application, which means that it is a web application written in JavaScript ([EmberJS][EmberJS]), HTML ([Handlebars][Handlebars]) and CSS ([LessCSS][LessCSS]) and is being run by a [Node.js][Node.js] powered version of [Chromium][Chromium].\n[Recent releases][Releases] / [Changelog][Changelog] / [Wiki][Wiki] / [Chat][Gitter]",
+      "tag": "NW.js桌面应用"
+    },
+    {
+      "id": 88166830,
+      "name": "cstate/cstate",
+      "stars": 2829,
+      "enhanced_text": "🔥 Open source static (serverless) status page. Uses hyperfast Go & Hugo, minimal HTML/CSS/JS, customizable, outstanding browser support (IE8+), preloaded CMS, read-only API, badges & more.\n\n## Features 😎\n**NEW:** HTML Embed now in version 2. Check it out!\n* Fast to load. Even on Internet Explorer 8. Incredible browser support. Minimal JS. No CSS dependencies either.\n* Fast to create incidents. Use the command line or setup a CMS like Netlify CMS or Forestry for a no-code experience. See here\n* Stays fast. Hugo & Golang can build a site with thousands of entries in seconds.\n* Focused, adaptable design. Auto dark mode. Easy customization from one file (or settings page). Statistical calculations show the key take-away (e.g., time spent fixing an issue).\n* Fit for any language. With built-in support for English, German, French, Italian, Lithuanian, Macedonian, Dutch, Portuguese, Turkish, and Tagalog. See here\n* All incidents, sorted. Link incidents to systems/categories, let users know how long previous downtime took, and more.\n* Free hosting. Host on supported platforms like Netlify or manage cState yourself. See here\n* Free your data. Use RSS or the read-only API to create custom HTML/JS integrations or simply embed the built-in badges/shields.\n* Free for developers to expand upon. Integrate monitoring, link to other systems, change any text or style, create custom pages, and more.\n**Please note that with all that cState _can_ do, it cannot do automatic monitoring out of the box. See this thread** You can think of the cState status page as an informational hub. Because the software is static, it cannot directly monitor any services in real time.\nHowever, cState is a perfect option for recording incidents because most of the time your services are functioning, so the status page does not need to be updated. By default, the little bit of JavaScript on the page improves the user experience but is not required to see the most vital information.\nThere are other commercial options that may update faster because of their architecture, have built-in real-time uptime monitoring, send notifications by email or other means, but cState is not supposed to be better than paid solutions.",
+      "tag": "静态站点生成器"
+    },
+    {
+      "id": 18788804,
+      "name": "altdesktop/playerctl",
+      "stars": 2826,
+      "enhanced_text": "🎧 mpris media player command-line controller for vlc, mpv, RhythmBox, web browsers, cmus, mpd, spotify and others.",
+      "tag": "媒体播放控制库"
+    },
+    {
+      "id": 141427485,
+      "name": "MetaMask/metamask-mobile",
+      "stars": 2815,
+      "enhanced_text": "Mobile web browser providing access to websites that use the Ethereum blockchain.\n\n## Getting started\n### Infura Project Setup\nMetaMask Mobile requires an Infura project ID to connect to blockchain networks.\n#### Internal Contributors\n1. Grab the  file from 1Password, ask around for the correct vault. This file contains the .\n#### External Contributors\n1. Go to https://developer.metamask.io and create an account\n2. Generate an API key\n3. Add API key to  in\n> Without an Infura project ID, the app cannot connect to blockchain networks.\n### Using Expo (recommended)\nExpo is the fastest way to start developing. With the Expo framework, developers don't need to compile the native side of the application as before, hence no need for any native environment setup, developers only need to download a precompiled development build and run the javascript bundler. The development build will then connect with the bundler to load the javascript code.\n#### Expo Environment Setup\n\nInstall node, yarn v4 and watchman.\n#### Clone the project\n\n#### Install dependencies\n#### Download and install the development build\n- Expo development builds are hosted in Runway buckets and are made available to all contributors through the public bucket links below. A new build is generated every time a PR is merged into the  branch.\n- Download and install an  file from this Runway bucket onto your Android device or emulator.\n- Your test device needs to first be registered with our Apple developer account.\n- Once registered, download and install an  file from this Runway bucket onto your device.\n- Download and install an  file from this Runway bucket onto your simulator.\n- Note: Our  files are zipped and hosted under  in the bucket. Since this hosting additional artifacts in public buckets is a relatively new feature, contributors may find that some builds are missing additional artifacts. Under the hood, these are usually associated with failed or aborted Bitrise builds. We are working with the Runway team to better filter out these builds and are subject to change in the future.\n- use the initial expo screen that appears when starting the development to choose the bundler url\n- OR press \"a\" for Android or \"i\" for iOS on the terminal where the bundler is running\nIf on a physical device:\n- Use the camera app to scan the QR code presented by the bundler running on the terminal\nThat's it! This will work for any javascript development, if you need to develop or modify native code please see the next section...",
+      "tag": "区块链钱包浏览器"
+    },
+    {
+      "id": 5567476,
+      "name": "grevory/angular-local-storage",
+      "stars": 2814,
+      "enhanced_text": "An AngularJS module that gives you access to the browsers local storage with cookie fallback.\n\nAn Angular module that gives you access to the browsers local storage\n[![NPM version][npm-image]][npm-url]\n[![Build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![Dependency Status][david-image]][david-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n- [![Gitter][gitter-image]][gitter-url]",
+      "tag": "Angular本地存储模块"
+    },
+    {
+      "id": 37374972,
+      "name": "olebedev/go-starter-kit",
+      "stars": 2801,
+      "enhanced_text": "[abandoned] Golang isomorphic react/hot reloadable/redux/css-modules/SSR  starter kit.\n\nInstall dependencies:\nthat's it. Open http://localhost:5001/(if you use default port) at your browser. Now you ready to start coding your awesome project.\n\nInstall dependencies and type . This rule is producing webpack build and regular golang build after that. Result you can find at . Note that the binary will be named **as the current project directory**.",
+      "tag": "Go全栈开发套件"
+    },
+    {
+      "id": 37438565,
+      "name": "sharpie7/circuitjs1",
+      "stars": 2774,
+      "enhanced_text": "Electronic Circuit Simulator in the Browser.\n\n## Introduction\nCircuitJS1 is an electronic circuit simulator that runs in the browser. It was originally written by Paul Falstad as a Java Applet. It was adapted by Iain Sharp to run in the browser using GWT.\nFor a hosted version of the application see:\n* Paul's Page: http://www.falstad.com/circuit/\n* Iain's Page: http://lushprojects.com/circuitjs/\nThanks to: Edward Calver for 15 new components and other improvements; Rodrigo Hausen for file import/export and many other UI improvements; J. Mike Rollins for the Zener diode code; Julius Schmidt for the spark gap code and some examples; Dustin Soodak for help with the user interface improvements; Jacob Calvert for the T Flip Flop; Ben Hayden for scope spectrum; Thomas Reitinger, Krystian Sławiński, Usevalad Khatkevich, Lucio Sciamanna, Mauro Hemerly Gazzani, J. Miguel Silva, and Franck Viard for translations; Andre Adrian for improved emitter coupled oscillator; Felthry for many examples; Colin Howell for code improvements. LZString (c) 2013 pieroxy.\n## Building the web application\nThe tools you will need to build the project are:\n* Eclipse, Oxygen version.\n* GWT plugin for Eclipse.",
+      "tag": "浏览器电路模拟器"
+    },
+    {
+      "id": 1095948794,
+      "name": "remorses/playwriter",
+      "stars": 2711,
+      "enhanced_text": "Chrome extension to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP.\n\n## Installation\n1. **Install Extension** from Chrome Web Store\n2. Click extension icon on a tab → turns green when connected\n3. Install the CLI and start automating the browser:\n4. Add skill to your agent:",
+      "tag": "浏览器自动化扩展"
+    },
+    {
+      "id": 11315781,
+      "name": "thiagoperes/IDMPhotoBrowser",
+      "stars": 2703,
+      "enhanced_text": "Photo Browser / Viewer inspired by Facebook's and Tweetbot's with ARC support, swipe-to-dismiss, image progress and more.",
+      "tag": "iOS图片浏览器组件"
+    },
+    {
+      "id": 3455070,
+      "name": "swagger-api/swagger-js",
+      "stars": 2692,
+      "enhanced_text": "Javascript library to connect to swagger-enabled APIs via browser or nodejs.\n\n**Swagger Client** is a JavaScript module that allows you to fetch, resolve, and interact with Swagger/OpenAPI documents.\n**This is the new version of swagger-js, 3.x.** The new version supports Swagger 2.0 as well as OpenAPI 3.\nWant to learn more? Check out our FAQ.\nFor features known to be missing from 3.x please see the Graveyard.\nFor the older version of swagger-js, refer to the *2.x branch*.\n> *The npm package is called  and the GitHub repository is .\nWe'll be consolidating that soon. Just giving you the heads-up. You may see references to both names.*\nThe OpenAPI Specification has undergone multiple revisions since initial creation in 2010.",
+      "tag": "OpenAPI客户端库"
+    },
+    {
+      "id": 130084383,
+      "name": "sindresorhus/slugify",
+      "stars": 2678,
+      "enhanced_text": "Slugify a string.\n\nUseful for URLs, filenames, and IDs.\nIt handles most major languages, including German (umlauts), Vietnamese, Arabic, Russian, and more.",
+      "tag": "字符串处理工具"
+    },
+    {
+      "id": 794304370,
+      "name": "abi/secret-llama",
+      "stars": 2678,
+      "enhanced_text": "Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3.\n\nEntirely-in-browser, fully private LLM chatbot supporting Llama 3, Mistral and other open source models.\n- Fully private = No conversation data ever leaves your computer\n- Runs in the browser = No server needed and no install needed!\n- Easy-to-use interface on par with ChatGPT, but for open source LLMs\nBig thanks to the inference engine provided by webllm.",
+      "tag": "浏览器端LLM应用"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 397189231,
+        "tag": "WebRTC SFU服务器"
+      },
+      {
+        "id": 199345033,
+        "tag": "WebAssembly游戏移植"
+      },
+      {
+        "id": 148935509,
+        "tag": "SwiftUI跨平台框架"
+      },
+      {
+        "id": 15127462,
+        "tag": "NW.js桌面应用"
+      },
+      {
+        "id": 88166830,
+        "tag": "静态站点生成器"
+      },
+      {
+        "id": 18788804,
+        "tag": "媒体播放控制库"
+      },
+      {
+        "id": 141427485,
+        "tag": "区块链钱包浏览器"
+      },
+      {
+        "id": 5567476,
+        "tag": "Angular本地存储模块"
+      },
+      {
+        "id": 37374972,
+        "tag": "Go全栈开发套件"
+      },
+      {
+        "id": 37438565,
+        "tag": "浏览器电路模拟器"
+      },
+      {
+        "id": 1095948794,
+        "tag": "浏览器自动化扩展"
+      },
+      {
+        "id": 11315781,
+        "tag": "iOS图片浏览器组件"
+      },
+      {
+        "id": 3455070,
+        "tag": "OpenAPI客户端库"
+      },
+      {
+        "id": 130084383,
+        "tag": "字符串处理工具"
+      },
+      {
+        "id": 794304370,
+        "tag": "浏览器端LLM应用"
+      }
+    ]
+  }
+}

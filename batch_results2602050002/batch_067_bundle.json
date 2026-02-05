@@ -1,0 +1,125 @@
+{
+  "batch_id": 67,
+  "timestamp": "2026-02-05T14:47:48.941965",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 553041868,
+      "name": "ricky0123/vad",
+      "stars": 1806,
+      "enhanced_text": "Voice activity detector (VAD) for the browser with a simple API.",
+      "tag": "浏览器音频处理库"
+    },
+    {
+      "id": 5545025,
+      "name": "mailvelope/mailvelope",
+      "stars": 1796,
+      "enhanced_text": "Browser extension for OpenPGP encryption with Webmail.",
+      "tag": "邮件加密扩展"
+    },
+    {
+      "id": 52619134,
+      "name": "elixir-wallaby/wallaby",
+      "stars": 1786,
+      "enhanced_text": "Concurrent browser tests for your Elixir web apps.",
+      "tag": "Elixir自动化测试框架"
+    },
+    {
+      "id": 61016843,
+      "name": "harttle/liquidjs",
+      "stars": 1781,
+      "enhanced_text": "A simple, expressive, safe and Shopify compatible template engine in pure JavaScript.",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 1000277419,
+      "name": "aaronjmars/opendia",
+      "stars": 1776,
+      "enhanced_text": "Connect your browser to AI models. Just use Dia on Chrome, Arc or Firefox.",
+      "tag": "浏览器AI助手扩展"
+    },
+    {
+      "id": 158181512,
+      "name": "intika/Librefox",
+      "stars": 1770,
+      "enhanced_text": "Librefox: Firefox with privacy enhancements.",
+      "tag": "隐私增强浏览器"
+    },
+    {
+      "id": 35015510,
+      "name": "poooi/poi",
+      "stars": 1765,
+      "enhanced_text": "Scalable KanColle browser and tool.",
+      "tag": "游戏专用浏览器"
+    },
+    {
+      "id": 55628517,
+      "name": "neo4j-contrib/neovis.js",
+      "stars": 1760,
+      "enhanced_text": "Neo4j + vis.js = neovis.js. Graph visualizations in the browser with data from Neo4j.",
+      "tag": "浏览器图数据可视化"
+    },
+    {
+      "id": 34680710,
+      "name": "brianium/watermarkjs",
+      "stars": 1737,
+      "enhanced_text": ":rice_scene: Watermarking for the browser.",
+      "tag": "浏览器图片水印库"
+    },
+    {
+      "id": 451267945,
+      "name": "sleeyax/burp-awesome-tls",
+      "stars": 1733,
+      "enhanced_text": "Burp extension to evade TLS fingerprinting. Bypass WAF, spoof any browser.",
+      "tag": "渗透测试TLS指纹伪造扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 553041868,
+        "tag": "浏览器音频处理库"
+      },
+      {
+        "id": 5545025,
+        "tag": "邮件加密扩展"
+      },
+      {
+        "id": 52619134,
+        "tag": "Elixir自动化测试框架"
+      },
+      {
+        "id": 61016843,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 1000277419,
+        "tag": "浏览器AI助手扩展"
+      },
+      {
+        "id": 158181512,
+        "tag": "隐私增强浏览器"
+      },
+      {
+        "id": 35015510,
+        "tag": "游戏专用浏览器"
+      },
+      {
+        "id": 55628517,
+        "tag": "浏览器图数据可视化"
+      },
+      {
+        "id": 34680710,
+        "tag": "浏览器图片水印库"
+      },
+      {
+        "id": 451267945,
+        "tag": "渗透测试TLS指纹伪造扩展"
+      }
+    ]
+  }
+}

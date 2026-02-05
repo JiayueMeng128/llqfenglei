@@ -1,0 +1,180 @@
+{
+  "batch_id": 31,
+  "timestamp": "2026-02-05T13:26:39.425867",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 19384606,
+      "name": "josdejong/workerpool",
+      "stars": 2283,
+      "enhanced_text": "Offload tasks to a pool of workers on node.js and in the browser.\n\n## Features\n- Runs in the browser and on node.js\n- Dynamically offload functions to a worker\n- Access workers via a proxy\n- Cancel running tasks\n- Set a timeout on tasks\n- Handles crashed workers\n- Small: 9 kB minified and gzipped\n- Supports transferable objects (only for web workers and worker_threads)\nJavaScript is based upon a single event loop which handles one event at a time. Jeremy Epstein explains this clearly:\n> In Node.js everything runs in parallel, except your code.\n> What this means is that all I/O code that you write in Node.js is non-blocking,\n> while (conversely) all non-I/O code that you write in Node.js is blocking.\nThis means that CPU heavy tasks will block other tasks from being executed. In case of a browser environment, the browser will not react to user events like a mouse click while executing a CPU intensive task (the browser \"hangs\"). In case of a node.js server, the server will not respond to any new request while executing a single, heavy request.\nFor front-end processes, this is not a desired situation.",
+      "tag": "Web Worker 线程池"
+    },
+    {
+      "id": 358512963,
+      "name": "dromara/mayfly-go",
+      "stars": 2278,
+      "enhanced_text": "Browser-based management platform of machine, database (mysql pgsql oracle sqlserver Gauss sqlite), redis(standalone sentinel cluster), mongo, Es unified management and operation platform. (web版linux(终端 文件 脚本 进程)、数据库(mysql pgsql oracle sqlserver 高斯 达梦 sqlite)、数据同步、redis(单机 哨兵 集群)、mongo、Es统一管理操作平台).\n\nWeb 版 **统一管理操作平台**，集成了对 Linux 系统的全面操作支持（包括终端管理[终端回放、命令过滤]、文件管理、脚本执行、进程监控及计划任务设置），同时提供了多种数据库（如 MySQL、PostgreSQL、Oracle、SQL Server、达梦、高斯、SQLite 等）的数据操作、数据同步与数据迁移功能。此外，还支持 Redis（单机、哨兵、集群模式）、 MongoDB 、Es 的操作管理，并结合工单流程审批功能，为企业提供一站式的运维与管理解决方案。\n- 前端：typescript、vue3、element-plus",
+      "tag": "Web运维管理平台"
+    },
+    {
+      "id": 905501456,
+      "name": "fal-ai-community/video-starter-kit",
+      "stars": 2273,
+      "enhanced_text": "Enable AI models for video production in the browser.\n\n## Features\n- 🎬 **Browser-Native Video Processing**: Seamless video handling and composition in the browser\n- 🤖 **AI Model Integration**: Direct access to state-of-the-art video models through fal.ai\n- Minimax for video generation\n- Hunyuan for visual synthesis\n- LTX for video manipulation\n- 🎵 **Advanced Media Capabilities**:\n- Multi-clip video composition\n- Audio track integration\n- Extended video duration handling\n- 🛠️ **Developer Utilities**:\n- Video processing pipeline\n- Ready-to-use UI components\n- fal.ai - AI model infrastructure\n- Next.js - React framework",
+      "tag": "浏览器AI视频处理"
+    },
+    {
+      "id": 108311273,
+      "name": "Azure/azure-sdk-for-js",
+      "stars": 2271,
+      "enhanced_text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js.",
+      "tag": "Azure JS SDK"
+    },
+    {
+      "id": 119921062,
+      "name": "amandakelake/blog",
+      "stars": 2265,
+      "enhanced_text": "think more！learn more!\n\n> 合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下 ————《老子》\n* 【JS进阶】JS执行机制与核心概念(执行上下文、变量提升、作用域链、this)",
+      "tag": "JavaScript 学习笔记"
+    },
+    {
+      "id": 134539713,
+      "name": "Escapingbug/awesome-browser-exploit",
+      "stars": 2260,
+      "enhanced_text": "awesome list of browser exploitation tutorials.\n\nShare some useful archives about browser exploitation.\nI'm just starting to collect what I can found, and I'm only a starter in this area\nas well. Contributions are welcome.\n* v8 github mirror(docs within)[github]\n* on-stack replacement in v8[article] // multiple articles can be found within\n* A tour of V8: Garbage Collection[article]\n* A tour of V8: object representation[article]",
+      "tag": "浏览器漏洞利用资源"
+    },
+    {
+      "id": 715769622,
+      "name": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "stars": 2259,
+      "enhanced_text": "Undetected version of the Playwright testing and automation library.\n\n> This repository serves the Patchright Driver. To use Patchright, check out the Python Package, the NodeJS Package or the _community-driven_ .Net Package\n> Patchright only patches CHROMIUM based browsers. Firefox and Webkit are not supported.\nIf you’re looking for a high-performance browser automation platform checkout **Hyperbrowser**. It’s ideal for AI Agents, large-scale web scraping and automated testing.\n**Hyperbrowser** delivers cloud-based browser infrastructure that scales instantly from a few sessions to thousands, with built-in CAPTCHA solving, stealth fingerprinting, and a global proxy network. It integrates seamlessly with Puppeteer, Playwright, and Selenium, so you can be up and running in minutes, no server or proxy management required.\n- **Instant scaling**: Launch 1,000+ concurrent browsers\n- **Captcha Solving**: Handles reCAPTCHA, Cloudflare, AWS, and more",
+      "tag": "浏览器自动化框架"
+    },
+    {
+      "id": 686537,
+      "name": "xmppjs/xmpp.js",
+      "stars": 2258,
+      "enhanced_text": "XMPP for JavaScript.\n\n> XMPP is the Extensible Messaging and Presence Protocol, a set of open technologies for instant messaging, presence, multi-party chat, voice and video calls, collaboration, lightweight middleware, content syndication, and generalized routing of XML data.\nxmpp.org/about-xmpp/technology-overview/\n**xmpp.js** is a JavaScript library for XMPP.\nRuns everywhere JavaScript runs and makes use of the best network transport available.\nxmpp.js is known to be used with browsers, Node.js, WebWorker, React Native, Bun, Deno, GJS and Duktape.\nBy default, it handles errors and will automatically reconnect. With appropriate configuration it will even loop through a list of endpoints. You don't have to write a single line of code to handle network failures.",
+      "tag": "XMPP JS 库"
+    },
+    {
+      "id": 824451,
+      "name": "luakit/luakit",
+      "stars": 2252,
+      "enhanced_text": "Fast, small, webkit based browser framework extensible by Lua.\n\n## Installing\nLuakit is available on most Linux Distributions and BSD system via their\npackage managers. A few examples below:\n* Debian/Ubuntu: apt-get install luakit\n* Gentoo: emerge luakit\n* Guix: guix install luakit\n* Arch: pacman -S luakit\n* FreeBSD: pkg install luakit\n* OpenBSD: pkg\\_add luakit\n* Void Linux: xbps-install luakit\n\n## Installing from source\nMake sure you system fulfills the requirements listed above, then",
+      "tag": "Lua扩展浏览器"
+    },
+    {
+      "id": 266286639,
+      "name": "abrahamjuliot/creepjs",
+      "stars": 2222,
+      "enhanced_text": "Creepy device and browser fingerprinting.\n\n> **SECURITY ALERT: EXTERNAL DOMAINS ARE UNSAFE**\n> **The ONLY official live deployment is on GitHub Pages.**\n> Any , , or custom domain claiming to be CreepJS is an **unauthorized mirror** and should be treated as a malicious honeypot designed to steal your fingerprint data.\n> * ❌ **Unsafe:** All other URLs.\nhttps://abrahamjuliot.github.io/creepjs\nThe purpose of this project is to shed light on weaknesses and privacy leaks among modern anti-fingerprinting extensions and browsers.\n1. Detect and ignore JavaScript tampering (prototype lies)",
+      "tag": "浏览器指纹检测"
+    },
+    {
+      "id": 184711,
+      "name": "typicaljoe/taffydb",
+      "stars": 2218,
+      "enhanced_text": "TaffyDB - an open source JavaScript Database for your browser.\n\n## Introduction\nHave you ever noticed how JavaScript object literals look a lot like\nrecords? And that if you wrap a group of them up in an array you have\nsomething that looks a lot like a database table?  We did too.\nWe created TaffyDB easily and efficiently manipulate these 'tables'\nwith a uniform and familiar SQL-like interface.\nWe use TaffyDB instead of ad-hoc data manipulation routines throughout\nour applications. This reduces development time, improves performance,\nsimplifies maintenance, *and* increases quality.\nPlease see the official website for more\ncomplete documentation.\n## What makes it sticky\n- Powerful JavaScript-centric data selection engine\n- SQL inspired features such as insert, update, unique, count, and more\n- Robust cross browser support",
+      "tag": "浏览器端数据库"
+    },
+    {
+      "id": 76684607,
+      "name": "gautamkrishnar/nothing-private",
+      "stars": 2213,
+      "enhanced_text": "Do you think you are safe using private browsing or incognito mode?. :smile: :imp: This will prove that you're wrong.   Previously hosted at nothingprivate.ml.",
+      "tag": "隐私模式检测"
+    },
+    {
+      "id": 105912444,
+      "name": "csstools/postcss-preset-env",
+      "stars": 2207,
+      "enhanced_text": "Convert modern CSS into something browsers understand.\n\n⚠️ PostCSS Preset Env was moved to @csstools/postcss-plugins. ⚠️\n# PostCSS Preset Env [][postcss]\n[PostCSS Preset Env] lets you convert modern CSS into something most browsers\ncan understand, determining the polyfills you need based on your targeted\nbrowsers or runtime environments.",
+      "tag": "CSS 后处理器"
+    },
+    {
+      "id": 242889642,
+      "name": "WindRunnerMax/EveryDay",
+      "stars": 2205,
+      "enhanced_text": "前端基础 个人博客 学习笔记.\n\n这是一个前端小白的学习历程，如果只学习而不记录点什么那基本就等于白学了。这个版本库的名字就是希望激励我能够每天学习，下面的文章就是从开始积累的文章，都是参考众多文章归纳整理学习而写的。文章包括了基础、基础、基础与拓展、浏览器相关、使用与分析、使用与分析、插件相关、富文本、设计模式、命令、题解等类别，内容都是比较基础的，毕竟我也还是个小白。此外基本上每个示例都是本着能够即时运行为目标的，新建一个文件复制之后即可在浏览器运行或者直接可以在中运行。\n如果想按照笔记顺序进行阅读的话可以 查看目录 ，另外如果想更条理地查看的话可以访问 我的博客 独立站点。博客同时也是本版本库的分支，是作为纯静态页面搭建在上的，使用以及作为缓存缓解国内访问速度问题。后期还在分支上部署了版本的 新版博客，并且借助提供了英文翻译版本，分支是部署在上来缓解国内访问速度问题。在博客中的内容就相对比较多了，除了学习笔记之外还有一些做项目时的记录以及遇到的坑等。如果觉得还不错，点个吧，这个对我真的很重要。",
+      "tag": "前端学习笔记"
+    },
+    {
+      "id": 3089049,
+      "name": "zenorocha/browser-diet",
+      "stars": 2189,
+      "enhanced_text": ":fries: The definitive front-end performance guide.\n\n# How to lose weight (in the browser)\nThe definitive front-end performance guide.\nIf you want to add new tips or edit the existing ones, just go to the src/documents folder. There you can find all of them in Markdown (.md) format. Remember to add references on each tip that you write at References wiki.\n#### How can I locally run the project?\n1. Install Git and NodeJS, if you don't have them already.\n2. Open your terminal and download DocPad through this command:\n4. Then go to the project's folder:",
+      "tag": "前端性能优化指南"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 19384606,
+        "tag": "Web Worker 线程池"
+      },
+      {
+        "id": 358512963,
+        "tag": "Web运维管理平台"
+      },
+      {
+        "id": 905501456,
+        "tag": "浏览器AI视频处理"
+      },
+      {
+        "id": 108311273,
+        "tag": "Azure JS SDK"
+      },
+      {
+        "id": 119921062,
+        "tag": "JavaScript 学习笔记"
+      },
+      {
+        "id": 134539713,
+        "tag": "浏览器漏洞利用资源"
+      },
+      {
+        "id": 715769622,
+        "tag": "浏览器自动化框架"
+      },
+      {
+        "id": 686537,
+        "tag": "XMPP JS 库"
+      },
+      {
+        "id": 824451,
+        "tag": "Lua扩展浏览器"
+      },
+      {
+        "id": 266286639,
+        "tag": "浏览器指纹检测"
+      },
+      {
+        "id": 184711,
+        "tag": "浏览器端数据库"
+      },
+      {
+        "id": 76684607,
+        "tag": "隐私模式检测"
+      },
+      {
+        "id": 105912444,
+        "tag": "CSS 后处理器"
+      },
+      {
+        "id": 242889642,
+        "tag": "前端学习笔记"
+      },
+      {
+        "id": 3089049,
+        "tag": "前端性能优化指南"
+      }
+    ]
+  }
+}

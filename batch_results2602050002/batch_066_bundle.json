@@ -1,0 +1,125 @@
+{
+  "batch_id": 66,
+  "timestamp": "2026-02-05T14:47:43.332597",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 399821046,
+      "name": "varbhat/exatorrent",
+      "stars": 1976,
+      "enhanced_text": "🧲 Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.",
+      "tag": "WebTorrent客户端"
+    },
+    {
+      "id": 75691991,
+      "name": "laravel/dusk",
+      "stars": 1937,
+      "enhanced_text": "Laravel Dusk provides simple end-to-end testing and browser automation.",
+      "tag": "Laravel端到端测试"
+    },
+    {
+      "id": 427706867,
+      "name": "nvim-telescope/telescope-file-browser.nvim",
+      "stars": 1924,
+      "enhanced_text": "File Browser extension for telescope.nvim.",
+      "tag": "Neovim文件浏览器插件"
+    },
+    {
+      "id": 18131537,
+      "name": "webtorrent/bittorrent-tracker",
+      "stars": 1920,
+      "enhanced_text": "🌊 Simple, robust, BitTorrent tracker (client & server) implementation.",
+      "tag": "BitTorrent跟踪器"
+    },
+    {
+      "id": 547494,
+      "name": "caolan/nodeunit",
+      "stars": 1891,
+      "enhanced_text": "Easy unit testing in node.js and the browser, based on the assert module.",
+      "tag": "JavaScript单元测试库"
+    },
+    {
+      "id": 14494363,
+      "name": "feross/buffer",
+      "stars": 1879,
+      "enhanced_text": "The buffer module from node.js, for the browser.",
+      "tag": "Node.js Buffer浏览器移植"
+    },
+    {
+      "id": 529027653,
+      "name": "WordPress/wordpress-playground",
+      "stars": 1870,
+      "enhanced_text": "Run WordPress in the browser via WebAssembly PHP.",
+      "tag": "WebAssembly应用容器"
+    },
+    {
+      "id": 385263968,
+      "name": "authts/oidc-client-ts",
+      "stars": 1856,
+      "enhanced_text": "OpenID Connect (OIDC) and OAuth2 protocol support for browser-based JavaScript applications.",
+      "tag": "浏览器OIDC/OAuth2库"
+    },
+    {
+      "id": 604752123,
+      "name": "LinkSheet/LinkSheet",
+      "stars": 1842,
+      "enhanced_text": "Link handling for modern Android.",
+      "tag": "Android链接处理"
+    },
+    {
+      "id": 248908265,
+      "name": "alyssaxuu/animockup",
+      "stars": 1816,
+      "enhanced_text": "Create animated mockups in the browser 🔥.",
+      "tag": "浏览器交互原型工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 399821046,
+        "tag": "WebTorrent客户端"
+      },
+      {
+        "id": 75691991,
+        "tag": "Laravel端到端测试"
+      },
+      {
+        "id": 427706867,
+        "tag": "Neovim文件浏览器插件"
+      },
+      {
+        "id": 18131537,
+        "tag": "BitTorrent跟踪器"
+      },
+      {
+        "id": 547494,
+        "tag": "JavaScript单元测试库"
+      },
+      {
+        "id": 14494363,
+        "tag": "Node.js Buffer浏览器移植"
+      },
+      {
+        "id": 529027653,
+        "tag": "WebAssembly应用容器"
+      },
+      {
+        "id": 385263968,
+        "tag": "浏览器OIDC/OAuth2库"
+      },
+      {
+        "id": 604752123,
+        "tag": "Android链接处理"
+      },
+      {
+        "id": 248908265,
+        "tag": "浏览器交互原型工具"
+      }
+    ]
+  }
+}

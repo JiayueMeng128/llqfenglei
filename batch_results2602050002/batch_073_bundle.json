@@ -1,0 +1,125 @@
+{
+  "batch_id": 73,
+  "timestamp": "2026-02-05T15:29:34.546538",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 855713680,
+      "name": "Benexl/yt-x",
+      "stars": 1373,
+      "enhanced_text": "Browse youtube from your terminal.",
+      "tag": "终端浏览器工具"
+    },
+    {
+      "id": 104543536,
+      "name": "reiinakano/fast-style-transfer-deeplearnjs",
+      "stars": 1355,
+      "enhanced_text": "Demo of in-browser Fast Neural Style Transfer with deeplearn.js library.",
+      "tag": "浏览器AI推理"
+    },
+    {
+      "id": 1139936006,
+      "name": "npmx-dev/npmx.dev",
+      "stars": 1354,
+      "enhanced_text": "a fast, modern browser for the npm registry.",
+      "tag": "专用包管理浏览器"
+    },
+    {
+      "id": 103385166,
+      "name": "ray-lothian/UserAgent-Switcher",
+      "stars": 1345,
+      "enhanced_text": "A User-Agent spoofer browser extension that is highly configurable.",
+      "tag": "浏览器UA伪装扩展"
+    },
+    {
+      "id": 678822546,
+      "name": "Textualize/textual-web",
+      "stars": 1334,
+      "enhanced_text": "Run TUIs and terminals in your browser.",
+      "tag": "浏览器TUI运行时"
+    },
+    {
+      "id": 1981208,
+      "name": "YuzuJS/setImmediate",
+      "stars": 1305,
+      "enhanced_text": "A cross-browser implementation of the new setImmediate API.",
+      "tag": "跨浏览器API垫片"
+    },
+    {
+      "id": 265352760,
+      "name": "omaha-consulting/winstall",
+      "stars": 1301,
+      "enhanced_text": "A web app for browsing and installing Windows Package Manager apps.",
+      "tag": "包管理器Web前端"
+    },
+    {
+      "id": 26542739,
+      "name": "anandthakker/doiuse",
+      "stars": 1299,
+      "enhanced_text": ":bomb: Lint CSS for browser support against caniuse database.",
+      "tag": "CSS浏览器兼容性检查"
+    },
+    {
+      "id": 46504130,
+      "name": "maslianok/react-resize-detector",
+      "stars": 1299,
+      "enhanced_text": "A Cross-Browser, Event-based, Element Resize Detection for React.",
+      "tag": "React元素尺寸监听"
+    },
+    {
+      "id": 281906706,
+      "name": "zalo/CascadeStudio",
+      "stars": 1298,
+      "enhanced_text": "A Full Live-Scripted CAD Kernel in the Browser.",
+      "tag": "浏览器CAD内核"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 855713680,
+        "tag": "终端浏览器工具"
+      },
+      {
+        "id": 104543536,
+        "tag": "浏览器AI推理"
+      },
+      {
+        "id": 1139936006,
+        "tag": "专用包管理浏览器"
+      },
+      {
+        "id": 103385166,
+        "tag": "浏览器UA伪装扩展"
+      },
+      {
+        "id": 678822546,
+        "tag": "浏览器TUI运行时"
+      },
+      {
+        "id": 1981208,
+        "tag": "跨浏览器API垫片"
+      },
+      {
+        "id": 265352760,
+        "tag": "包管理器Web前端"
+      },
+      {
+        "id": 26542739,
+        "tag": "CSS浏览器兼容性检查"
+      },
+      {
+        "id": 46504130,
+        "tag": "React元素尺寸监听"
+      },
+      {
+        "id": 281906706,
+        "tag": "浏览器CAD内核"
+      }
+    ]
+  }
+}

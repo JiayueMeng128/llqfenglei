@@ -1,0 +1,180 @@
+{
+  "batch_id": 29,
+  "timestamp": "2026-02-05T13:26:20.797937",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 773950709,
+      "name": "semanser/codel",
+      "stars": 2437,
+      "enhanced_text": "✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.",
+      "tag": "AI智能体框架"
+    },
+    {
+      "id": 31633215,
+      "name": "DuendeArchive/identity-model-oidc-client-js",
+      "stars": 2435,
+      "enhanced_text": "OpenID Connect (OIDC) and OAuth2 protocol support for browser-based JavaScript applications.\n\nThis library, while functional, is no longer being maintained.\nA successor project that is showing great progress in updating and modernizing is \"oidc-client-ts\" and can be found here.\nLibrary to provide OpenID Connect (OIDC) and OAuth2 protocol support for client-side, browser-based JavaScript client applications.\nAlso included is support for user session and access token management.\nNode.js v4.4 or later required.\n**NOTE**: if you're not already using babel-polyfill make sure you run\nas well. Then include it in your build.",
+      "tag": "浏览器OAuth库"
+    },
+    {
+      "id": 198357530,
+      "name": "insin/control-panel-for-twitter",
+      "stars": 2430,
+      "enhanced_text": "Browser extension which gives you more control over your Twitter timeline and adds missing features and UI improvements - for desktop and mobile.\n\n**Control Panel for Twitter is a browser extension for desktop and mobile browsers, which gives you more control over Twitter and adds missing features and UI improvements**\n> This is the support repository for Control Panel for Twitter - for installation links, screenshots, information about the extension, and FAQs, please visit the Control Panel for Twitter website.\nCheck the latest updates and availability for your browser on the releases page.\nFollow @ControlPanelFT on Twitter for extension news and other announcements.\nTo report a bug create a new Issue here on GitHub.\n- The version of Control Panel for Twitter you're using\n- The browser and operating system you're using it on",
+      "tag": "社交媒体扩展"
+    },
+    {
+      "id": 1033268244,
+      "name": "agent-infra/sandbox",
+      "stars": 2424,
+      "enhanced_text": "All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.\n\n# AIO Sandbox - All-in-One Agent Sandbox Environment\n🌐 Browser | 💻 Terminal | 📁 File | 🔧 VSCode | 📊 Jupyter | 🤖 MCP\n| &nbsp&nbsp🌟 Examples&nbsp&nbsp\n| &nbsp&nbsp📊 Evaluation &nbsp&nbsp\nGet up and running in 30 seconds:",
+      "tag": "AI智能体沙箱"
+    },
+    {
+      "id": 3392689,
+      "name": "bunkat/later",
+      "stars": 2420,
+      "enhanced_text": "A javascript library for defining recurring schedules and calculating future (or past) occurrences for them.  Includes support for using English phrases and Cron schedules.  Works in Node and in the browser.",
+      "tag": "时间调度库"
+    },
+    {
+      "id": 352326362,
+      "name": "dudor/BookmarkHub",
+      "stars": 2412,
+      "enhanced_text": "BookmarkHub , sync bookmarks across different browsers.\n\nInstallation\n\n## About The Project\nBookmarkHub is a browser plug-in that can synchronize your bookmarks between different browsers.\nFor major browsers such as Chrome, Firefox, Microsoft Edge, and more.\nIt uses GitHub's Gist records to store browser bookmarks for safe and secure use.\n\nAbout The Project\n\n## Features\n* No registration required, just use the Token and Gist of your GitHub account\n* Easy to upload and download bookmarks with one click\n* Clear all local bookmarks with one click\n* Support cross-machine and cross-browser synchronization of bookmarks\n* Support to display the number of local and remote bookmarks",
+      "tag": "书签同步扩展"
+    },
+    {
+      "id": 7491531,
+      "name": "philipwalton/html-inspector",
+      "stars": 2411,
+      "enhanced_text": "HTML Inspector is a code quality tool to help you and your team write better markup. It's written in JavaScript and runs in the browser, so testing your HTML has never been easier.",
+      "tag": "HTML代码检查工具"
+    },
+    {
+      "id": 128897892,
+      "name": "indulgeIn/YBImageBrowser",
+      "stars": 2406,
+      "enhanced_text": "iOS image browser / iOS 图片浏览器 (支持视频).\n\n#### 关于 3.x 版本 (使用 2.x 版本请切换到 store_2.x 分支)\n为了解决 2.x 版本的设计缺陷和代码漏洞，特进行了 3.x 深度重构，所以没办法做到向下兼容，希望社区朋友们能体谅，根据情况进行版本迁移。\n考虑到笔者的精力问题，遇到问题请先查看 API、效仿 Demo、阅读 README、搜索 Issues。请不要提出与组件无关的问题，比如 CocoaPods 的错误，如果是 BUG 或 Feature 最好是提 Issue。\n- 支持 GIF，APNG，WebP 等本地和网络图片类型（由 YYImage、SDWebImage 提供支持）。\n- 支持根据图片的大小判断是否需要预先解码（精确控制内存）。\n- 支持修改下载图片的 NSURLRequest。\n- 支持自定义 Toast/Loading。\n- 支持自定义文案（默认提供中文和英文）。\n- 支持自定义工具视图（比如查看原图功能）。\n- 支持自定义 Cell（比如添加一个广告模块）。\n- 支持添加到其它父视图上使用（比如加到控制器上）。\n- 极致的性能优化和严格的内存控制让其运行更加的流畅和稳健。\n支持分库导入，核心部分就是图片浏览功能，视频播放作为拓展功能按需导入。\n4. 注意：如果你需要支持 WebP，可以在 Podfile 中添加 。\n若搜索不到库，可执行，或使用  移除本地索引然后再执行安装，或更新一下 CocoaPods 版本。\n\n关于大家提的关于视频的需求，有些成本过高，笔者精力有限望体谅。若组件默认的视频播放器满足不了需求，就自定义一个 Cell 吧，把成熟的播放器集成到组件中肯定更加的稳定。",
+      "tag": "iOS图片浏览器"
+    },
+    {
+      "id": 57914774,
+      "name": "anandanand84/technicalindicators",
+      "stars": 2402,
+      "enhanced_text": "A javascript technical indicators written in typescript with pattern recognition right in the browser.",
+      "tag": "金融技术指标库"
+    },
+    {
+      "id": 95839159,
+      "name": "Chimeejs/chimee",
+      "stars": 2402,
+      "enhanced_text": "a video player framework aims to bring wonderful experience on browser.\n\n## Introduction\nChimee is a web video player created by the Qiwoo Team. It's based on the web video element. It supports multiple media streams, including mp4, m3u8, flv, etc.\nIn most situations, we need to support complex functions based on video, such as many videos or advertising. It's hard to maintain them if you we just write it based on the video element. So we may need to have an iframe to sort out the logic and handle the communication. So Chimee offers a plugin system, so that anyone can split your complex functions into multiple plugins. Through this method of development, developers can decouple logic to achieve a quicker, gray-scale release and implement many other functions with relative ease.\nChimee helps developer to reach complex video capabilities from scratch easier and quicker.\n\n## Features\nChimee is a web video player.\n1. It supports multiple video stream including mp4, m3u8, flv, and more.\n2. It solves most of the compatibility problems including cross-browser fullscreen, autoplay, and playing inline.\nWhat's more, it's also a component framework based on the video element.\n1. It helps us to split complex functions off into multiple plugins.\n2. Each plugin can work on the video element directly and easily.\n3. This framework sorts out the hierarchical relationship between plugins, which will keep us free from the  problem.\n4. It provides a variety of modules such as a transparent plugin, a penetrating plugin, an inner plugin, and an outer plugin, which will cover most of the interactive scenarios.\n5. It offers us convenient ways to communicate between plugins.\n6. It allows us to define plugin priority, which has been useful in making the advertising plugin work as expected.\n7. It also supports asynchronous plugins.\n\n## Installation\nYou can get the cdn url on https://cdnjs.com/libraries/chimee.\nIf you are in china, you can get the cdn url on https://www.jsdelivr.com/package/npm/chimee.\nYou can use Chimee directly.\nAssuming you have a  whose id is :\nYou can then setup Chimee on it:\nSometimes we need more customization; Chimee can be called by passing in an object:\nIf you need to play video in flv or hls, you can simply add those kernels:\nOr you can try , and then use it:\nIf you want to know more about Chimee, please read more on our API docs, here.\nHowever, if you use Chimee directly, it's best to add this style to your page:\nChimee will simply use the default styles of browsers if you do not use any plugins...",
+      "tag": "网页视频播放框架"
+    },
+    {
+      "id": 1003630893,
+      "name": "oxylabs/oxylabs-ai-studio-py",
+      "stars": 2399,
+      "enhanced_text": "Structured data gathering from any website using AI-powered scraper, crawler, and browser automation. Scraping and crawling with natural language prompts. Equip your LLM agents with fresh data. AI Studio python SDK for intelligent web data gathering.",
+      "tag": "AI网页抓取SDK"
+    },
+    {
+      "id": 333501877,
+      "name": "zerodytrash/Simple-YouTube-Age-Restriction-Bypass",
+      "stars": 2395,
+      "enhanced_text": "A simple browser extension to bypass YouTube's age verification, disable content warnings and watch age restricted videos without having to sign in!\n\nGetting started |\nA very simple to use browser extension to bypass YouTube's age verification 😎\nThis extension uses some API tricks to access age-restricted videos from YouTube anonymously. As a fallback (in case that the API bypass methods does not work) an open source Account Proxy Server is used. This allows you to watch all types of age-restricted videos on **YouTube** and **YouTube Music** without age verification and without the need to be signed in.\nAll videos will be unlocked automatically!\n\n## Getting started",
+      "tag": "YouTube限制解除扩展"
+    },
+    {
+      "id": 78368581,
+      "name": "gkngkc/UnityStandaloneFileBrowser",
+      "stars": 2394,
+      "enhanced_text": "A native file browser for unity standalone platforms.\n\n# Unity Standalone File Browser\nA simple wrapper for native file dialogs on Windows/Mac/Linux.\n- Open file/folder, save file dialogs supported.\n- Mono/IL2CPP backends supported.\n- Linux support by Ricardo Rodrigues.",
+      "tag": "Unity原生文件对话框"
+    },
+    {
+      "id": 263535757,
+      "name": "Hedgehog-Computing/hedgehog-lab",
+      "stars": 2388,
+      "enhanced_text": "Run, compile and execute JavaScript for Scientific Computing and Data Visualization TOTALLY TOTALLY TOTALLY in your BROWSER! An open source scientific computing environment for JavaScript TOTALLY in your browser, matrix operations with GPU acceleration, TeX support, data visualization and symbolic computation.",
+      "tag": "浏览器科学计算环境"
+    },
+    {
+      "id": 18806010,
+      "name": "nytimes/pourover",
+      "stars": 2381,
+      "enhanced_text": "A library for simple, fast filtering and sorting of large collections in the browser.   There is a community-maintained fork that addresses a handful of post-NYT issues available via @hhsnopek's https://github.com/hhsnopek/pourover.\n\nPourOver is built around the ideal of simple queries that can be arbitrarily composed with each other, without having to recalculate their results. You can union, intersect, and difference queries. PourOver will remember how your queries were constructed and can smartly update them when items are added or modified. You also get useful features like collections that buffer their information periodically, views that page and cache, fast sorting, and much, much more.\nVisit the PourOver homepage on Github pages for more info.\nPourOver was created by the Interactive News group at the New York Times, and open-sourced in 2014.  We actively use it in production across a number of projects, including:\n* plus a number of internal admin tools that allow newsroom staff to edit and sort large collections of items.\nPourOver is in active, daily use in the newsroom.  As we make bugfixes and enhancements in the course of our NYT work, we'll push them into this repo.",
+      "tag": "浏览器数据集合库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 773950709,
+        "tag": "AI智能体框架"
+      },
+      {
+        "id": 31633215,
+        "tag": "浏览器OAuth库"
+      },
+      {
+        "id": 198357530,
+        "tag": "社交媒体扩展"
+      },
+      {
+        "id": 1033268244,
+        "tag": "AI智能体沙箱"
+      },
+      {
+        "id": 3392689,
+        "tag": "时间调度库"
+      },
+      {
+        "id": 352326362,
+        "tag": "书签同步扩展"
+      },
+      {
+        "id": 7491531,
+        "tag": "HTML代码检查工具"
+      },
+      {
+        "id": 128897892,
+        "tag": "iOS图片浏览器"
+      },
+      {
+        "id": 57914774,
+        "tag": "金融技术指标库"
+      },
+      {
+        "id": 95839159,
+        "tag": "网页视频播放框架"
+      },
+      {
+        "id": 1003630893,
+        "tag": "AI网页抓取SDK"
+      },
+      {
+        "id": 333501877,
+        "tag": "YouTube限制解除扩展"
+      },
+      {
+        "id": 78368581,
+        "tag": "Unity原生文件对话框"
+      },
+      {
+        "id": 263535757,
+        "tag": "浏览器科学计算环境"
+      },
+      {
+        "id": 18806010,
+        "tag": "浏览器数据集合库"
+      }
+    ]
+  }
+}

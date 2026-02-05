@@ -1,0 +1,180 @@
+{
+  "batch_id": 41,
+  "timestamp": "2026-02-05T13:28:40.523044",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 23070145,
+      "name": "doyoe/css-handbook",
+      "stars": 1557,
+      "enhanced_text": "手册在接下来将只更新 , , , , , , （Opera从15.0开始转入webkit阵营）的支持数据，低于这些版本的数据将不再更新，共同期望未来前端的环境越来越好。\n对于  和 ，手册是合并到一起体现的。 的版本为 ， 的版本为 ，阅读者可根据版本来确定。\n手册的发版周期不固定，会视个人精力或更新内容的重要性来决定是否发布新版本。\n如果您在使用CSS参考手册时发现了任何问题，或者有任何帮助手册更完善的想法和建议，请直接给我们提 Issues 和 Pull Requests。\n杜瑶，我目前居住在北京，就职于 Qunar，您可以在 Github 或者 Weibo 看到我的最近动态。当然，也可以通过我的个人站点，博客：CSS探索之旅，CSS参考手册 和 Web前端实验室 等信息了解更多。\n源码和文档版权属于 doyoe.com。文档发布基于 Apache License 2.0 开源协议。",
+      "tag": "CSS参考手册"
+    },
+    {
+      "id": 170111694,
+      "name": "Jelmerro/Vieb",
+      "stars": 1551,
+      "enhanced_text": "Vim Inspired Electron Browser - Vim bindings for the web by design.\n\n### Vim bindings for the web by design\n### Vieb is the Vim Inspired Electron Browser\n## Homepage - Download - Changelog - FAQ\n*Vieb is pronounced like \"deep\" with a \"v\" and rhymes with sheep*\n#### Please see vieb.dev for features, more screenshots and the cheatsheet\nThese are the main sources to download Vieb.\nFor startup help, see the frequently asked questions.\nThe official Vieb website, where you can download the latest stable release for many platforms.\nThe same releases that are offered on vieb.dev,",
+      "tag": "Electron浏览器"
+    },
+    {
+      "id": 239951348,
+      "name": "GoogleChromeLabs/browser-fs-access",
+      "stars": 1546,
+      "enhanced_text": "File System Access API with legacy fallback in the browser.\n\n## Usage Examples\nThe module feature-detects support for the File System Access API and\nonly loads the actually relevant code.\n### Importing what you need\nImport only the features that you need. In the code sample below, all\n\nfeatures are loaded. The imported methods will use the File System\nAccess API or a fallback implementation.\n\n## Installation\nYou can install the module with npm.",
+      "tag": "浏览器文件系统API"
+    },
+    {
+      "id": 203681009,
+      "name": "C0nw0nk/Nginx-Lua-Anti-DDoS",
+      "stars": 1541,
+      "enhanced_text": "A Anti-DDoS script to protect Nginx web servers using Lua with a HTML Javascript based authentication puzzle inspired by Cloudflare I am under attack mode an Anti-DDoS authentication page protect yourself from every attack type All Layer 7 Attacks Mitigating Historic Attacks DoS DoS Implications DDoS All Brute Force Attacks Zero day exploits Social Engineering Rainbow Tables Password Cracking Tools Password Lists Dictionary Attacks Time Delay Any Hosting Provider Any CMS or Custom Website Unlimited Attempt Frequency Search Attacks HTTP Basic Authentication HTTP Digest Authentication HTML Form Based Authentication Mask Attacks Rule-Based Search Attacks Combinator Attacks Botnet Attacks Unauthorized IPs IP Whitelisting Bruter THC Hydra John the Ripper Brutus Ophcrack unauthorized logins Injection Broken Authentication and Session Management Sensitive Data Exposure XML External Entities (XXE) Broken Access Control Security Misconfiguration Cross-Site Scripting (XSS) Insecure Deserialization Using Components with Known Vulnerabilities Insufficient Logging & Monitoring Drupal WordPress Joomla Flash Magento PHP Plone WHMCS Atlassian Products malicious traffic Adult video script avs KVS Kernel Video Sharing Clip Bucket Tube sites Content Management Systems Social networks scripts backends proxy proxies PHP Python Porn sites xxx adult gaming networks servers sites forums vbulletin phpbb mybb smf simple machines forum xenforo web hosting video streaming buffering ldap upstream downstream download upload rtmp vod video over dl hls dash hds mss livestream drm mp4 mp3 swf css js html php python sex m3u zip rar archive compressed mitigation code source sourcecode chan 4chan 4chan.org 8chan.net 8ch 8ch.net infinite chan 8kun 8kun.net anonymous anon tor services .onion torproject.org nginx.org nginx.com openresty.org darknet dark net deepweb deep web darkweb dark web mirror vpn reddit reddit.com adobe flash hackthissite.org dreamhack hack hacked hacking hacker hackers hackerz hackz hacks code coding script scripting scripter source leaks leaked leaking cve vulnerability great firewall china america japan russia .gov government http1 http2 http3 quic q3 litespeedtech litespeed apache torrents torrent torrenting webtorrent bittorrent bitorrent bit-torrent cyberlocker cyberlockers cyber locker cyberbunker warez keygen key generator free irc internet relay chat peer-to-peer p2p cryptocurrency crypto bitcoin miner browser xmr monero coinhive coin hive coin-hive litecoin ethereum cpu cycles popads pop-ads advert advertisement networks banner ads protect ovh blazingfast.io amazon steampowered valve store.steampowered.com steamcommunity thepiratebay lulzsec antisec xhamster pornhub porn.com pornhub.com xhamster.com xvideos xvdideos.com xnxx xnxx.com popads popcash cpm ppc.\n\n# Usage / Installation :\nEdit settings inside  to cater for your own unique needs or improve my work. (Please share your soloutions and additions)\nhttps://github.",
+      "tag": "Nginx防护脚本"
+    },
+    {
+      "id": 23304218,
+      "name": "headzoo/surf",
+      "stars": 1536,
+      "enhanced_text": "Stateful programmatic web browsing in Go.\n\n### Installation\nDownload the library using go.\nImport the library into your project.",
+      "tag": "Go网页浏览库"
+    },
+    {
+      "id": 446242396,
+      "name": "xsalazar/emoji-kitchen",
+      "stars": 1536,
+      "enhanced_text": "🧑‍🍳 This repository contains the source code for the website https://emojikitchen.dev and allows for quick and easy browsing of the over 100,000 supported emoji mashups as part of Google's Emoji Kitchen.",
+      "tag": "Emoji数据网站"
+    },
+    {
+      "id": 666209424,
+      "name": "redphx/better-xcloud",
+      "stars": 1533,
+      "enhanced_text": "Userscript to improve Xbox Cloud Gaming (xCloud) and Remote Play experiences on web browsers.\n\n### Improve Xbox Cloud Gaming (xCloud) experience on xbox.com/play. It also allows you to use Remote Play on the xCloud website.\n> I only provide Better xCloud on the official repos. Don't download it from anywhere else\n> I only accept pull requests for:",
+      "tag": "浏览器用户脚本"
+    },
+    {
+      "id": 52573367,
+      "name": "lzxb/flex.css",
+      "stars": 1529,
+      "enhanced_text": "flex.css is declarative layout which is compatible with wechat, UC, webview and other main-stream mobile browser and surpports react, vue, angular.\n\n### Collection of flex attributes\n### Flex-box attributes description",
+      "tag": "CSS布局库"
+    },
+    {
+      "id": 732151165,
+      "name": "W4G1/multithreading",
+      "stars": 1527,
+      "enhanced_text": "The missing standard library for multithreading in JavaScript (Works in the browser, Node.js, Deno, Bun).\n\n## Installation\nSee: Browser compatibility\nJavaScript is traditionally single-threaded. To achieve true parallelism, this library uses Web Workers. However, unlike standard Workers, this library offers:\n1.  **Managed Worker Pool**: Automatically manages a pool of threads based on hardware concurrency.\n2.  **Shared Memory Primitives**: Tools to safely share state between threads without race conditions.\n3.  **Scoped Imports**: Support for importing external modules and relative files directly within worker tasks.\n4.  **Move Semantics**: Explicit data ownership transfer to prevent cloning overhead.",
+      "tag": "JavaScript多线程库"
+    },
+    {
+      "id": 75882379,
+      "name": "apollographql/apollo-client-devtools",
+      "stars": 1523,
+      "enhanced_text": "Apollo Client browser developer tools.\n\n### Install local version\nIf you want to install a local version of the extension instead, skip ahead to the Developing section.\n\n## Installation\nChrome users can install the extension by visiting the Chrome Web Store.\nOpera users can install the extension from Chrome Web Store using the Download Chrome Extension addon for Opera.\nFirefox users can install the addon via Firefox Browser Add-ons.",
+      "tag": "浏览器开发者工具"
+    },
+    {
+      "id": 717917803,
+      "name": "andrewnguonly/Lumos",
+      "stars": 1514,
+      "enhanced_text": "A RAG LLM co-pilot for browsing the web, powered by local LLMs.\n\nThis Chrome extension is powered by Ollama. Inference is done on your local machine without any _remote_ server support. However, due to security constraints in the Chrome extension platform, the app does rely on _local_ server support to run the LLM. This app is inspired by the Chrome extension example provided by the Web LLM project and the local LLM examples provided by LangChain.\n- Summarize long threads on issue tracking sites, forums, and social media sites.\n- Ask questions about reviews on business and product pages.\n- Ask questions about long, technical documentation.",
+      "tag": "浏览器AI助手扩展"
+    },
+    {
+      "id": 7449695,
+      "name": "selwin/python-user-agents",
+      "stars": 1512,
+      "enhanced_text": "A Python library that provides an easy way to identify devices like mobile phones, tablets and their capabilities by parsing (browser) user agent strings.",
+      "tag": "用户代理解析库"
+    },
+    {
+      "id": 510134922,
+      "name": "Alex313031/Mercury",
+      "stars": 1511,
+      "enhanced_text": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat.\n\nIt aims to be the Firefox equivalent of my main project: Thorium (a Chromium fork).\nSee > BUILDING.md and DEBUGGING.md.",
+      "tag": "Firefox衍生浏览器"
+    },
+    {
+      "id": 238784472,
+      "name": "s60sc/ESP32-CAM_MJPEG2SD",
+      "stars": 1503,
+      "enhanced_text": "ESP32 Camera motion capture application to record JPEGs to SD card as AVI files and stream to browser as MJPEG. If a microphone is installed then a WAV file is also created. Files can be uploaded via FTP or downloaded to browser.",
+      "tag": "ESP32摄像头流媒体"
+    },
+    {
+      "id": 99110692,
+      "name": "dessant/web-archives",
+      "stars": 1498,
+      "enhanced_text": "Browser extension for viewing archived and cached versions of web pages, available for Chrome, Edge and Safari.",
+      "tag": "网页存档扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 23070145,
+        "tag": "CSS参考手册"
+      },
+      {
+        "id": 170111694,
+        "tag": "Electron浏览器"
+      },
+      {
+        "id": 239951348,
+        "tag": "浏览器文件系统API"
+      },
+      {
+        "id": 203681009,
+        "tag": "Nginx防护脚本"
+      },
+      {
+        "id": 23304218,
+        "tag": "Go网页浏览库"
+      },
+      {
+        "id": 446242396,
+        "tag": "Emoji数据网站"
+      },
+      {
+        "id": 666209424,
+        "tag": "浏览器用户脚本"
+      },
+      {
+        "id": 52573367,
+        "tag": "CSS布局库"
+      },
+      {
+        "id": 732151165,
+        "tag": "JavaScript多线程库"
+      },
+      {
+        "id": 75882379,
+        "tag": "浏览器开发者工具"
+      },
+      {
+        "id": 717917803,
+        "tag": "浏览器AI助手扩展"
+      },
+      {
+        "id": 7449695,
+        "tag": "用户代理解析库"
+      },
+      {
+        "id": 510134922,
+        "tag": "Firefox衍生浏览器"
+      },
+      {
+        "id": 238784472,
+        "tag": "ESP32摄像头流媒体"
+      },
+      {
+        "id": 99110692,
+        "tag": "网页存档扩展"
+      }
+    ]
+  }
+}

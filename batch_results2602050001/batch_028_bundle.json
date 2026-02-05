@@ -1,0 +1,180 @@
+{
+  "batch_id": 28,
+  "timestamp": "2026-02-05T13:26:15.491380",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 112378220,
+      "name": "hydra-synth/hydra",
+      "stars": 2573,
+      "enhanced_text": "Livecoding networked visuals in the browser.\n\n## Getting started\nGo to https://hydra.ojack.xyz\n* CTRL-Enter: run a line of code\n* CTRL-Shift-Enter: run all code on screen\n* ALT-Enter: run a block\n* CTRL-Shift-H: hide or show code\n* CTRL-Shift-F: format code using Prettier\n* CTRL-Shift-S: Save screenshot and download as local file\n* CTRL-Shift-G: Share to twitter (if available). Shares to @hydra_patterns\nAll code can be run either from the in-browser text editor or from the browser console.\nCheck @hydra_patterns for patterns folks have shared as an easy way to get started.\nrender an oscillator with parameters frequency, sync, and rgb offset:\nrotate the oscillator 0.8 radians:\npixelate the output of the above function:\nIf you have more than one camera connected, you can select the camera using an index:",
+      "tag": "浏览器实时编码可视化"
+    },
+    {
+      "id": 815891082,
+      "name": "Pintree-io/pintree",
+      "stars": 2573,
+      "enhanced_text": "Pintree: Easily turn your browser bookmarks into a directory website and start monetizing in minutes.\n\nPintree - Turn Your Browser Bookmarks into a Directory Website\nCreate and monetize your own directory website from browser bookmarks in minutes.\n- 📑 Unlimited Import/Export Bookmarks",
+      "tag": "书签目录化工具"
+    },
+    {
+      "id": 366176025,
+      "name": "GDQuest/learn-gdscript",
+      "stars": 2571,
+      "enhanced_text": "Learn Godot's GDScript programming language from zero, right in your browser, for free.\n\nLearn GDScript From Zero is a free and open-source app for absolute beginners to learn to program with Godot's GDScript language.\nThis app is a free module from our curriculum to become a game developer: Learn 2D Gamedev From Zero with Godot 4.\nIt's a beginner-friendly course available in multiple languages designed to quickly give you some programming notions and introduce you to basic programming concepts. It's not a complete programming course meant to go in-depth into programming. It's a stepping stone to learn the \"alphabet\" of programming with Godot's GDScript programming language to later approach other tutorials and courses more comfortably.\nYou can run the app online here: https://gdquest.github.io/learn-gdscript/\nAlso, you can download the app for Windows, macOS, and Linux on Itch.io: https://gdquest.itch.io/learn-godot-gdscript\nThe desktop version can offer better performance and crisper text than the web version.\n## Feedback, requests, and discussions\nWe value feedback and bug reports. We will also consider feature requests, especially if they fit our vision and we feel they benefit programming beginners.",
+      "tag": "浏览器编程学习环境"
+    },
+    {
+      "id": 4802028,
+      "name": "jiffyclub/snakeviz",
+      "stars": 2549,
+      "enhanced_text": "An in-browser Python profile viewer.\n\n.. image:: https://github.com/jiffyclub/snakeviz/actions/workflows/ci.yml/badge.svg\n:target: https://github.com/jiffyclub/snakeviz/actions/workflows/ci.yml\n:target: https://pypi.python.org/pypi/snakeviz/\n:target: https://pypi.python.org/pypi/snakeviz/\n:alt: Supported Python versions\n:target: https://pypi.python.org/pypi/snakeviz/\nSnakeViz is a viewer for Python profiling data that runs as a web",
+      "tag": "浏览器性能剖析器"
+    },
+    {
+      "id": 3534119,
+      "name": "OnionBrowser/OnionBrowser",
+      "stars": 2526,
+      "enhanced_text": "An open-source, privacy-enhancing web browser for iOS, utilizing the Tor anonymity network.\n\n[Official Site][official] | [Support][help] | [Release History][releases] | [Donate][donate]\n&copy; 2012-2024, Tigas Ventures, LLC ([Mike Tigas][miketigas])\n*This is the Onion Browser 3.X branch. The older versions of Onion Browser can be found [here][2.X] and [here][1.X].*\n**Onion Browser** is a free web browser for iPhone and iPad that encrypts and tunnels web traffic through the [Tor network][tor] with the help of [Orbot iOS][orbot]. See the [official site][official] for more details and App Store links.\nPlease see the [LICENSE][license] file for usage and redistribution terms.\n* **Onion Browser**: 3.3.2 - See [official release history][releases] and [changelog][changelog].\n[official]: https://onionbrowser.com/\n[help]: https://github.com/OnionBrowser/OnionBrowser/wiki/Help\n[releases]: https://github.com/OnionBrowser/OnionBrowser/releases",
+      "tag": "iOS隐私浏览器"
+    },
+    {
+      "id": 33494170,
+      "name": "tus/tus-js-client",
+      "stars": 2513,
+      "enhanced_text": "A pure JavaScript client for the tus resumable upload protocol.\n\n> **tus** is a protocol based on HTTP for _resumable file uploads_. Resumable\n> means that an upload can be interrupted at any moment and can be resumed without\n> re-uploading the previous data again. An interruption may happen willingly, if\n> the user wants to pause, or by accident in case of an network issue or server\ntus-js-client is a pure **JavaScript** client for the tus resumable upload protocol and can be used inside **browsers**, **Node.js**,\n**React Native** and **Apache Cordova** applications.\nThis branch contains tus-js-client v4. If you are looking for the previous major release, after which breaking changes have been introduced, please look at the v3.1.3 tag.",
+      "tag": "JavaScript文件上传库"
+    },
+    {
+      "id": 643368591,
+      "name": "Virtual-Browser/VirtualBrowser",
+      "stars": 2501,
+      "enhanced_text": "Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 防识别浏览器, 反识别浏览器, 防关联浏览器, 免费的web3空投专用指纹浏览器 https://virtualbrowser.cc/?src=github.",
+      "tag": "防指纹浏览器"
+    },
+    {
+      "id": 17691231,
+      "name": "servo/html5ever",
+      "stars": 2493,
+      "enhanced_text": "High-performance browser-grade HTML5 parser.\n\n## Getting started in Rust\nAdd html5ever as a dependency:\nYou should also take a look at [], [], and the [API documentation][].",
+      "tag": "HTML解析器库"
+    },
+    {
+      "id": 1375774,
+      "name": "DirectoryLister/DirectoryLister",
+      "stars": 2484,
+      "enhanced_text": "📂 Directory Lister is the easiest way to expose the contents of any web-accessible folder for browsing and sharing.\n\ninstallation you'll be up and running in less than a minute.\nDirectory Lister is created and maintained by\n(@PHLAK.dev) with help through\ncommunity contributions.\n- **Simple installation** allows you to be up and running in less than a minute.\n- **Light and dark themes** to suit your professional needs or personal style.\n- **Custom sort ordering** gives you control of the ordering of your files/folders.\n- **File search** helps you locate the files you need quickly and efficiently.\n- **File hashes** instill confidence when downloading files through verification.\n- **Readme rendering** allows exposing the contents of READMEs directly on the page.\n- **Zip downloads** for fetching an entire directory of files in a single action.\n- **Multi-lingual support** brings Directory Lister to the language of your choice.\n- Directory Lister requires PHP >= 8.2\n- The Zip extension is required for zip downloads\n- The DOM and Fileinfo extensions are required for README rendering",
+      "tag": "PHP目录列表工具"
+    },
+    {
+      "id": 5394041,
+      "name": "arturadib/strapdown",
+      "stars": 2470,
+      "enhanced_text": "Instant and elegant Markdown documents in the browser.\n\nStrapdown.js makes it embarrassingly simple to create elegant Markdown documents. No server-side compilation required.\nYou will need Node.js (>0.6.x) and CoffeeScript to generate the bundles. To bundle/compile the assets, issue in the project directory:\nBug fixes should go in the latest version - no need to bump it. New features or anything that changes the old behavior should go into a bumped version.",
+      "tag": "浏览器Markdown渲染器"
+    },
+    {
+      "id": 50766155,
+      "name": "ytakzk/Fusuma",
+      "stars": 2461,
+      "enhanced_text": "Instagram-like photo browser and a camera feature with a few line of code in Swift.\n\n## Features\n- [x] UIImagePickerController alternative\n- [x] Cropping images in camera roll\n- [x] Taking a square-sized photo and a video using AVFoundation\n- [x] Flash: On & Off\n- [x] Camera Mode: Front & Back\n- [x] Colors fully customizable\nThose features are available just with a few lines of code!",
+      "tag": "iOS照片浏览器组件"
+    },
+    {
+      "id": 705820999,
+      "name": "ErickWendel/semana-javascript-expert08",
+      "stars": 2451,
+      "enhanced_text": "JS Expert Week 8.0 - 🎥Pre processing videos before uploading in the browser 😏.\n\n# JSExpertHub Pre-processing videos on browsers - Semana JS Expert 8.0\nSeja bem vindo(a) à oitava Semana Javascript Expert. Este é o código inicial para iniciar nossa jornada.\nMarque esse projeto com uma estrela 🌟\n- Este projeto foi criado usando Node.js v18.17.0\n- O ideal é que você use o projeto em ambiente Unix (Linux). Se você estiver no Windows, é recomendado que use o Windows Subsystem Linux pois nas aulas são mostrados comandos Linux que possam não existir no Windows.\n- Todo dia às 18hrs estou subindo o código das aulas do dia corrente aqui no repositório. Se você for iniciar o projeto, remova as pastas das aulas anteriores para iniciar do zero!\n- Execute  na pasta que contém o arquivo  para restaurar os pacotes\n- Execute  e em seguida vá para o seu navegador em http://localhost:3000 para visualizar a página acima",
+      "tag": "浏览器视频预处理库"
+    },
+    {
+      "id": 47717814,
+      "name": "Hexagon/croner",
+      "stars": 2445,
+      "enhanced_text": "Trigger functions or evaluate cron expressions in JavaScript or TypeScript. No dependencies. Most features. Node. Deno. Bun. Browser.\n\n## Installation\nFull documentation on installation and usage is found at\n> If you are migrating from a different library such as  or , or upgrading from a older version of croner, see the migration section of the manual.",
+      "tag": "JavaScript定时任务库"
+    },
+    {
+      "id": 112964403,
+      "name": "MatthewHerbst/react-to-print",
+      "stars": 2441,
+      "enhanced_text": "Print React components in the browser.\n\n# ReactToPrint - Print React components in the browser\nPrint the content of a React component.\nIt is also possible to lazy set the ref if your content being printed is dynamic. See the  example for more. This can also be useful for setting the ref in non-React code, such as util functions.\n| Option | Type | Description |\n| **** |  | One or more class names to pass to the print window, separated by spaces |\n| **** |  | The ref pointing to the content to be printed. Alternatively, pass the ref directly to the callback returned by  |\n| **** |  | Copy shadow root content into the print window. Warning: Use with care if you print large documents as traversing these can be slow. |\n| **** |  | Set the title for printing when saving as a file |\n| **** |  | A list of fonts to load into the printing iframe. This is useful if you are using custom fonts |\n| **** |  | Ignore all  and  tags |",
+      "tag": "React组件打印库"
+    },
+    {
+      "id": 116414510,
+      "name": "testcontainers/testcontainers-node",
+      "stars": 2438,
+      "enhanced_text": "Testcontainers is a NodeJS library that supports tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.\n\nCopyright (c) 2018 - 2025 Cristian Greco and other authors.\nSee CONTRIBUTING.md for how to contribute to this repo.\nSee contributors for all contributors.\nJoin our Slack workspace | Testcontainers OSS | Testcontainers Cloud",
+      "tag": "Node.js测试容器库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 112378220,
+        "tag": "浏览器实时编码可视化"
+      },
+      {
+        "id": 815891082,
+        "tag": "书签目录化工具"
+      },
+      {
+        "id": 366176025,
+        "tag": "浏览器编程学习环境"
+      },
+      {
+        "id": 4802028,
+        "tag": "浏览器性能剖析器"
+      },
+      {
+        "id": 3534119,
+        "tag": "iOS隐私浏览器"
+      },
+      {
+        "id": 33494170,
+        "tag": "JavaScript文件上传库"
+      },
+      {
+        "id": 643368591,
+        "tag": "防指纹浏览器"
+      },
+      {
+        "id": 17691231,
+        "tag": "HTML解析器库"
+      },
+      {
+        "id": 1375774,
+        "tag": "PHP目录列表工具"
+      },
+      {
+        "id": 5394041,
+        "tag": "浏览器Markdown渲染器"
+      },
+      {
+        "id": 50766155,
+        "tag": "iOS照片浏览器组件"
+      },
+      {
+        "id": 705820999,
+        "tag": "浏览器视频预处理库"
+      },
+      {
+        "id": 47717814,
+        "tag": "JavaScript定时任务库"
+      },
+      {
+        "id": 112964403,
+        "tag": "React组件打印库"
+      },
+      {
+        "id": 116414510,
+        "tag": "Node.js测试容器库"
+      }
+    ]
+  }
+}

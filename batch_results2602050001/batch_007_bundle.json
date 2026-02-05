@@ -1,0 +1,180 @@
+{
+  "batch_id": 7,
+  "timestamp": "2026-02-05T13:20:58.057943",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 229566288,
+      "name": "ultrafunkamsterdam/undetected-chromedriver",
+      "stars": 12295,
+      "enhanced_text": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM).",
+      "tag": "浏览器自动化工具"
+    },
+    {
+      "id": 910418754,
+      "name": "nanobrowser/nanobrowser",
+      "stars": 12147,
+      "enhanced_text": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.\n\nNanobrowser is an open-source AI web automation tool that runs in your browser. A free alternative to OpenAI Operator with flexible LLM options and multi-agent system.\n⬇️ Get Nanobrowser from Chrome Web Store for free\n👏 Join the community in Discord | X\n🌟 Loving Nanobrowser? Give us a star  and help spread the word!\n❤️ Support the project by sponsoring us - every contribution helps keep Nanobrowser free and open source!\nNanobrowser's multi-agent system analyzing HuggingFace in real-time, with the Planner intelligently self-correcting when encountering obstacles and dynamically instructing the Navigator to adjust its approach—all running locally in your browser.\nLooking for a powerful AI browser agent without the $200/month price tag of OpenAI Operator? **Nanobrowser** , as a chrome extension, delivers premium web automation capabilities while keeping you in complete control:\n- **100% Free** - No subscription fees or hidden costs. Just install and use your own API keys, and you only pay what you use with your own API keys.",
+      "tag": "AI浏览器扩展"
+    },
+    {
+      "id": 8629417,
+      "name": "mapbox/mapbox-gl-js",
+      "stars": 12126,
+      "enhanced_text": "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL.\n\n**Mapbox GL JS** is a JavaScript library for interactive, customizable vector maps on the web. It takes map styles that conform to the\nMapbox Style Specification, applies them to vector tiles that\nconform to the Mapbox Vector Tile Specification, and renders them using\nMapbox GL JS is part of the cross-platform Mapbox GL ecosystem, which also includes\ncompatible native SDKs for applications on Android,\nQt, and React Native. Mapbox provides building blocks to add location features like maps, search, and navigation into any experience you\ncreate. To get started with GL JS or any of our other building blocks,\nIn addition to GL JS, this repository contains code, issues, and test fixtures that are common to both GL JS and the",
+      "tag": "WebGL地图库"
+    },
+    {
+      "id": 53538899,
+      "name": "bitwarden/clients",
+      "stars": 11961,
+      "enhanced_text": "Bitwarden client apps (web, browser extension, desktop, and cli).\n\n# Bitwarden Client Applications\nThis repository houses all Bitwarden client applications except the mobile applications (iOS | android).\nPlease refer to the Clients section of the Contributing Documentation for build instructions, recommended tooling, code style tips, and lots of other great information to get you started.\n- bitwarden/server: The core infrastructure backend (API, database, Docker, etc).\n- bitwarden/ios: Bitwarden iOS Password Manager & Authenticator apps.\n- bitwarden/android: Bitwarden Android Password Manager & Authenticator apps.\n- bitwarden/directory-connector: A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization.\nInterested in contributing in a big way? Consider joining our team! We're hiring for many positions. Please take a look at our Careers page to see what opportunities are currently open as well as what it's like to work at Bitwarden.",
+      "tag": "密码管理器"
+    },
+    {
+      "id": 598667202,
+      "name": "lightpanda-io/browser",
+      "stars": 11764,
+      "enhanced_text": "Lightpanda: the headless browser designed for AI and automation.\n\n## Quick start\n\n### Install\n**Install from the nightly builds**\nYou can download the last binary from the nightly\nLinux x86_64 and MacOS aarch64.\nThe Lightpanda browser is compatible to run on windows inside WSL. Follow the Linux instruction for installation from a WSL terminal.\nIt is recommended to install clients like Puppeteer on the Windows host.\n**Install from Docker**\nLightpanda provides official Docker\nimages for both Linux amd64 and\nThe following command fetches the Docker image and starts a new container exposing Lightpanda's CDP server on port .\n### Start a CDP server\nOnce the CDP server started, you can run a Puppeteer script by configuring the\nBy default, Lightpanda collects and sends usage telemetry. This can be disabled by setting an environment variable . You can read Lightpanda's privacy policy at: https://lightpanda.io/privacy-policy.\nLightpanda is in Beta and currently a work in progress. Stability and coverage are improving and many websites now work.\nYou may still encounter errors or crashes. Please open an issue with specifics if so.\n\ninstall it with the right version in order to build the project.\nLightpanda also depends on\nzig-js-runtime (with v8),\nLibcurl and html5ever.\nTo be able to build the v8 engine for zig-js-runtime, you have to install some libs:\nFor **Debian/Ubuntu based Linux**:\nYou also need to install Rust.\nFor systems with **Nix**, you can use the devShell:\nFor **MacOS**, you need cmake and Rust.",
+      "tag": "无头浏览器"
+    },
+    {
+      "id": 2871998,
+      "name": "debug-js/debug",
+      "stars": 11429,
+      "enhanced_text": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers.\n\n## Installation\nexposes a function; simply pass this function the name of your module, and it will return a decorated version of  for you to pass debug statements to. This will allow you to toggle the debug output for different parts of your module as well as the module as a whole.\nThe  environment variable is then used to enable these based on space or\ncomma-delimited names.\nHere are some examples:\n#### Windows command prompt notes\nOn Windows the environment variable is set using the  command.\n##### PowerShell (VS Code default)\nPowerShell uses different syntax to set environment variables.\nThen, run the program to be debugged as usual.\nEvery debug instance has a color generated for it based on its namespace name.\nThis helps when visually parsing the debug output to identify which debug instance\na debug line belongs to.\nIn Node.js, colors are enabled when stderr is a TTY. You also _should_ install\nthe  module alongside debug,",
+      "tag": "JavaScript调试库"
+    },
+    {
+      "id": 835510315,
+      "name": "mozilla-firefox/firefox",
+      "stars": 11167,
+      "enhanced_text": "The official repository of Mozilla's Firefox web browser.\n\nFirefox is a fast, reliable and private web browser from the non-profit Mozilla organization.\nTo learn how to contribute to Firefox read the Firefox Contributors' Quick Reference document.\nWe use bugzilla.mozilla.org as our issue tracker, please file bugs there.\n* Firefox Source Docs is our primary documentation repository\n* Nightly development builds can be downloaded from Firefox Nightly page\nIf you have a question about developing Firefox, and can't find the solution\non Firefox Source Docs, you can try asking your question on Matrix at\nchat.mozilla.org in the Introduction channel.",
+      "tag": "网页浏览器"
+    },
+    {
+      "id": 375345894,
+      "name": "pystardust/ani-cli",
+      "stars": 11041,
+      "enhanced_text": "A cli tool to browse and play anime.\n\nInstall dependencies (See below)\n\nInstall HomeBrew if not installed.\n*To install (with Homebrew) the dependencies required on Mac OS, you can run:*\n*Why iina and not mpv? Drop-in replacement for mpv for MacOS. Integrates well with OSX UI. Excellent support for M1. Open Source.*\n\nInstall termux (Guide)\nIf you're using Android 14 make sure to run this due to #1206:\nFor players you can use the apk (playstore/fdroid) versions of mpv and vlc. Note that these cannot be checked from termux so a warning is generated when checking dependencies.\n### Tier 2 Support: Windows, WSL, iOS, Steam Deck, FreeBSD\n*While officially supported (except FreeBSD), installation is more involved on these platforms and sometimes issues arise. \\\nReach out if you need help.*\nis on scoop. Please read further for setup instructions.\nWe will set up the bash.exe that comes with Git for Windows to be used with Windows Terminal. You may use terminals such as Wezterm or Alacritty, but this guide only covers Windows Terminal. The Git Bash terminal (i.e., mintty) has problems with fzf.\nFirst, you'll need to install the scoop package manager. (Install) Follow **quickstart**.\nNext, get Windows Terminal. It comes preinstalled on Windows 11. If you do not have it, install it by running the following commands in powershell.\nNext, get git. If you have it, please update it. If you do not already have it, install it by running  in powershell.\nEnsure that Git Bash is present in the Windows Terminal tab drop down, as shown below.\nIf it is not there, please add it. To add it, first click the drop-down button beside the new tab button (shown above).\nThen, navigate to . Click .\n- If you installed git with scoop: Set *Name* as \"Git Bash\", set *Command line* as , and set *Icon* as .\n\nInstall iSH and VLC from the app store.\nMake sure apk is updated using\nnote that downloading is going to be very slow. This is an iSH issue, not an ani-cli issue.\n#### Copypaste script:\n* Switch to Desktop mode ( Button > Power > Switch to Desktop)\n* Open  (Steam Deck Icon in bottom left corner > System > Konsole)\n* Copy the script, paste it in the CLI and press Enter(\"A\" button on Steam Deck)\npress enter(\"A\" button on Steam Deck) on questions\n\n#### Installation in steps:\n\n##### Install mpv (Flatpak version):\npress enter(\"A\" button on Steam Deck) on questions\n\n##### Install fzf:\npress enter(\"A\" button on Steam Deck) on questions\n##### Make a ~/...",
+      "tag": "CLI媒体工具"
+    },
+    {
+      "id": 64060314,
+      "name": "screetsec/TheFatRat",
+      "stars": 10982,
+      "enhanced_text": "Thefatrat a massive exploiting tool : Easy tool to generate backdoor and easy tool to post exploitation attack like browser attack and etc . This tool compiles a malware with popular payload and then the compiled malware can be execute on windows, android, mac . The malware that created with this tool also have an ability to bypass most AV software protection .\n\n# Installation\nInstructions on how to install *TheFatRat*\n### Troubleshoot on TheFatRat\nchk_tools script to use in case of problems in setup.sh of fatrat\nthis script will check if everything is in the right version to run fatrat\nand will also provide you a solution for the problem\n| Front View | Sample Feature\t|\n- Documentation Available in Modules CEH v9 and V10 , Download source here\n- CEHv10 Module 06 System Hacking.pdf\n- CEHv10 Module 17 Hacking Mobile Platforms.pdf\n- Published in International Journal of Cyber-Security and Digital Forensics\n- Malware Analysis Of Backdoor Creator : TheFatRat\n- How To Download & Install TheFatRat\n- TheFatRat 1.9.6 - Trodebi ( Embed Trojan into Debian Package )\n- hacking windows 10 with TheFatRat\n\n## Features !\n- Fully Automating MSFvenom & Metasploit.\n- Local or remote listener Generation.\n- Easily Make Backdoor by category Operating System.\n- Generate payloads in Various formats.\n- Bypass anti-virus backdoors.\n- File pumper that you can use for increasing the size of your files.\n- The ability to detect external IP & Interface address .\n- Automatically creates AutoRun files for USB / CDROM exploitation\n### But it's shit! And your implementation sucks!\n- Yes, you're probably correct. Feel free to \"Not use it\" and there is a pull button to \"Make it better\".",
+      "tag": "渗透测试工具"
+    },
+    {
+      "id": 933197458,
+      "name": "imputnet/helium",
+      "stars": 10960,
+      "enhanced_text": "Private, fast, and honest web browser.\n\nThe Chromium-based web browser made for people, with love.\nBest privacy by default, unbiased ad-blocking, no bloat and no noise.\n> Helium is still in beta, so unexpected issues may occur. We are not responsible\nfor any damage caused by usage of beta software.\nBest way to download Helium is to open helium.computer on your computer.\nIt'll pick the right build for your OS and architecture automatically.\nIf you wish to download builds \"straight from the tap\" with all options in one place,\nyou can do it on GitHub in the Releases section in each platform's repo:",
+      "tag": "隐私浏览器"
+    },
+    {
+      "id": 26149893,
+      "name": "captbaritone/webamp",
+      "stars": 10876,
+      "enhanced_text": "Winamp 2 reimplemented for the browser.\n\n## About This Repository\nWebamp uses a monorepo approach, so in addition to the Webamp NPM module, this repository contains code for a few closely related projects and some pieces of Webamp which are published as standalone modules:\n- : The Webamp NPM module\n- : The demo site which lives at webamp.org\n- : The documentation site for Webamp the NPM library which lives at docs.webamp.org\n- : An NPM module for rendering animiated  cursors as CSS animations\n- : The server component of https://skins.webamp.org which also runs our Twitter bot, and a Discord bot for our community chat\n- : An NPM module for parsing and constructing Winamp equalizer preset files ()\n- : A prototype exploring rendering \"modern\" Winamp skins in the browser\n- : A few examples showing how to use the NPM module\nJoin our community chat on Discord:\n- [Winamp Community Update Pack] - \"New plug-ins to add additional features to Winamp as well as replacement plug-ins to provide better implementations of some of the plug-ins natively included with Winamp\". (Forum / Discord server)\nAn incomplete list of websites using Webamp:\n- Internet Archive - The Internet Archive lets you preview winamp skins and listen to audio tracks using Webamp\n- Winampify.io - An online Spotify client using Webamp",
+      "tag": "Web音频播放器"
+    },
+    {
+      "id": 87668160,
+      "name": "atlas-engineer/nyxt",
+      "stars": 10811,
+      "enhanced_text": "Nyxt - the hacker's browser.\n\n*Nyxt* [nýkst] is a keyboard-driven web browser designed for hackers.  Inspired by\nEmacs and Vim, it has familiar keybindings ([[https://en.wikipedia.org/wiki/Emacs][Emacs]], [[https://en.wikipedia.org/wiki/Vim_(text_editor)][vi]], [[https://en.wikipedia.org/wiki/IBM_Common_User_Access][CUA]]), and is infinitely\n*Attention:* Nyxt is under active development.  Please feel free to [[https://github.com/atlas-engineer/nyxt/issues][report]] bugs,\ninstabilities or feature wishes.\nFor an exhaustive description of all of the features, please refer to the\nSwitch easily between your open tabs via fuzzy search.  If you are looking for\n~https://www.example.com~, you could type in ~ele~, ~exa~, ~epl~, or any other",
+      "tag": "键盘驱动浏览器"
+    },
+    {
+      "id": 847885,
+      "name": "mathjax/MathJax",
+      "stars": 10768,
+      "enhanced_text": "Beautiful and accessible math in all browsers.\n\nhow to use components in node applications or call MathJax modules\n## What's in this Repository\nThis repository contains only the component files for MathJax, not the\nsource code for MathJax (which are available in a separate MathJax\nsource repository).  These\ncomponent files are the ones served by the CDNs that offer MathJax to\nthe web.  In version 2, the files used on the web were also the source\nfiles for MathJax, but in version 3 and above, the source files are no\nlonger on the CDN, as they are not what are run in the browser.\nThe components are ES6 format as CommonJS modules.\n\n## Installation and Use\n### Using MathJax components from a CDN on the web\nIf you are loading MathJax from a CDN into a web page, there is no\nneed to install anything.  Simply use a  tag that loads\nMathJax from the CDN.  E.g.,\nand the MathJax Web Demos, and the MathJax\n### Hosting your own copy of the MathJax Components\nIf you want to host MathJax from your own server, you can do so by",
+      "tag": "数学渲染引擎"
+    },
+    {
+      "id": 2833881,
+      "name": "beefproject/beef",
+      "stars": 10709,
+      "enhanced_text": "The Browser Exploitation Framework Project.\n\nWhat is BeEF?\n__BeEF__ is short for __The Browser Exploitation Framework__. It is a penetration testing tool that focuses on the web browser.\nAmid growing concerns about web-borne attacks against clients, including mobile clients, BeEF allows the professional penetration tester to assess the actual security posture of a target environment by using client-side attack vectors. Unlike other security frameworks, BeEF looks past the hardened network perimeter and client system, and examines exploitability within the context of the one open door: the web browser. BeEF will hook one or more web browsers and use them as beachheads for launching directed command modules and further attacks against the system from within the browser context.\nYou can get in touch with the BeEF team. Just check out the following:\n__Please, send us pull requests!__\n__Web:__ https://beefproject.com/\n__Bugs:__ https://github.com/beefproject/beef/issues\n__Security Bugs:__ security@beefproject.com\n__Twitter:__ @beefproject\n__Discord:__ https://discord.gg/25wT2P8pwx\n* Operating System: Mac OSX 10.5.0 or higher / modern Linux. Note: Windows is not supported.\n* Node.js: 10 or newer\n* The gems listed in the Gemfile: https://github.com/beefproject/beef/blob/master/Gemfile\n* Selenium is required on OSX:  (See https://github.com/shvets/selenium)",
+      "tag": "浏览器渗透框架"
+    },
+    {
+      "id": 1274749,
+      "name": "browserstate/history.js",
+      "stars": 10694,
+      "enhanced_text": "History.js gracefully supports the HTML5 History/State APIs (pushState, replaceState, onPopState) in all browsers. Including continued support for data, titles, replaceState. Supports jQuery, MooTools and Prototype.  For HTML5 browsers this means that you can modify the URL directly, without needing to use hashes anymore. For HTML4 browsers it will revert back to using the old onhashchange functionality.\n\nWhile there are some legitimate bugs and differences in state handling even in modern browsers, they are relatively small enough now that you can just use the native HTML5 History API. If you intend to support legacy browsers, then History.js is your bet.\nThis notice is here as History.js does not receive enough funding to be maintained, so it exists only in legacy condition for legacy browsers. Perhaps it still works for modern browsers, but it could really do with maintenance. Maintenance is very difficult as the library requires manual testing in HTML5 and HTML4 modes, and for each adapter, and for each browser. So that means  tests that need to be run by a human. Tests need to be run by a human as certain failures require browser interactions, such as navigating from the test suite to a different domain and back again, or clicking the physical back buttons, or checking if the physical back buttons actually work. This takes a lot of time.\nDespite History.js being one of the most popular JavaScript libraries there is, and has been used by even multi-million-user companies in its time - the reality of economy and company practices seems to be that companies prefer to fork their own internal versions and fix locally with their own devs rather than fund open-source maintainers what they would pay their own devs to make things better for everyone, including themselves, which would be cheaper - but no, that would require too many tiers of company approval that don't understand the need.\nAs such, if you are an open-source developer, I'd recommend just working on open-source projects that are paid for by your own consulting work or your own company (e.g. every successful open-source project). As otherwise, when they become popular, you better hope they are easily maintainable and testable, otherwise the cost of maintenance is higher than the free time of the maintainers.\nSo with all that said, this repo still exists for archival purposes, legacy browsers, and a hub for anarachistic issue & fork maintenance.\nBenjamin Lupton, founder of Bevry, creator of History.js\nWelcome to History.js  v1.8b2, June 22 2013\n- 22/06/2013: Beta 2 of v1.8 is released. Fixes and uncompressed bundled files.\n- 31/05/2013: Beta 1 of v1.8 is released. Fixes.\n- 14/02/2013: Alpha 4 of v1.8 is released. Fixes.",
+      "tag": "历史API兼容库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 229566288,
+        "tag": "浏览器自动化工具"
+      },
+      {
+        "id": 910418754,
+        "tag": "AI浏览器扩展"
+      },
+      {
+        "id": 8629417,
+        "tag": "WebGL地图库"
+      },
+      {
+        "id": 53538899,
+        "tag": "密码管理器"
+      },
+      {
+        "id": 598667202,
+        "tag": "无头浏览器"
+      },
+      {
+        "id": 2871998,
+        "tag": "JavaScript调试库"
+      },
+      {
+        "id": 835510315,
+        "tag": "网页浏览器"
+      },
+      {
+        "id": 375345894,
+        "tag": "CLI媒体工具"
+      },
+      {
+        "id": 64060314,
+        "tag": "渗透测试工具"
+      },
+      {
+        "id": 933197458,
+        "tag": "隐私浏览器"
+      },
+      {
+        "id": 26149893,
+        "tag": "Web音频播放器"
+      },
+      {
+        "id": 87668160,
+        "tag": "键盘驱动浏览器"
+      },
+      {
+        "id": 847885,
+        "tag": "数学渲染引擎"
+      },
+      {
+        "id": 2833881,
+        "tag": "浏览器渗透框架"
+      },
+      {
+        "id": 1274749,
+        "tag": "历史API兼容库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,596 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据库结构报告 - 20260205_071528</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; line-height: 1.6; color: #333; }
+        .header { background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); color: white; padding: 30px; border-radius: 10px; margin-bottom: 30px; }
+        .section { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); margin-bottom: 25px; }
+        h1, h2, h3 { color: #2c3e50; }
+        h1 { margin: 0; }
+        .table-info { overflow-x: auto; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background-color: #f8f9fa; font-weight: 600; }
+        tr:hover { background-color: #f5f5f5; }
+        .pk { background-color: #e8f5e9; color: #2e7d32; font-weight: bold; }
+        .fk { background-color: #e3f2fd; color: #1565c0; }
+        .numeric { color: #d81b60; }
+        .text { color: #00897b; }
+        .stats { background-color: #fff3e0; padding: 15px; border-radius: 5px; margin: 10px 0; }
+        .timestamp { color: #7f8c8d; font-size: 0.9em; }
+        .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .summary-card { background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; }
+        .summary-card h3 { margin-top: 0; color: #3498db; }
+        .summary-number { font-size: 2.5em; font-weight: bold; color: #2c3e50; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📊 数据库结构分析报告</h1>
+        <p>数据库: ./data/github_repos_single_table.db</p>
+        <p class="timestamp">生成时间: 20260205_071528 | 大小: 13.98 MB</p>
+    </div>
+    
+    <div class="section">
+        <h2>📋 数据库概览</h2>
+        <div class="summary">
+            <div class="summary-card">
+                <h3>表数量</h3>
+                <div class="summary-number">2</div>
+            </div>
+            <div class="summary-card">
+                <h3>总行数</h3>
+                <div class="summary-number">1,999</div>
+            </div>
+            <div class="summary-card">
+                <h3>总列数</h3>
+                <div class="summary-number">49</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>📁 表: repos_enhanced</h2>
+        <p>行数: <strong>999</strong> | 列数: 6 | 索引: 0 | 外键: 1</p>
+        
+        <h3>列结构</h3>
+        <div class="table-info">
+            <table>
+                <thead>
+                    <tr>
+                        <th>列名</th>
+                        <th>类型</th>
+                        <th>主键</th>
+                        <th>非空</th>
+                        <th>默认值</th>
+                        <th>统计信息</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td class="pk">repo_id</td>
+                        <td class="numeric">INTEGER</td>
+                        <td>✓</td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td>范围: 63557~1139936006, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">full_name</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">original_description</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">readme_optimized</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">enhanced_text</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">processed_at</td>
+                        <td class="">TIMESTAMP</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>CURRENT_TIMESTAMP</td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <h3>样本数据 (前3行)</h3>
+        <div class="table-info">
+            <table>
+                <thead>
+                    <tr>
+<th>repo_id</th><th>full_name</th><th>original_description</th><th>readme_optimized</th><th>enhanced_text</th><th>processed_at</th>
+                    </tr>
+                </thead>
+                <tbody>
+<tr><td>63557</td><td>jquery/jquery-mousewheel</td><td>A jQuery plugin that adds cross-browser mouse wheel support.</td><td># jQuery Mouse Wheel Plugin
+A jQuery plugin that adds cross-browser mouse wheel support with delta n...</td><td>项目描述: A jQuery plugin that adds cross-browser mouse wheel support.
+
+项目详情:
+# jQuery Mouse Wheel Plugi...</td><td>2026-02-05 06:24:36</td></tr><tr><td>84009</td><td>jasmine/jasmine</td><td>Simple JavaScript testing framework for browsers and node.js</td><td>See the documentation site,
+particularly the Your First Suite tutorial
+for information on writing sp...</td><td>项目描述: Simple JavaScript testing framework for browsers and node.js
+
+项目详情:
+See the documentation site...</td><td>2026-02-05 06:24:36</td></tr><tr><td>164151</td><td>browsermedia/browsercms</td><td>BrowserCMS: Humane Content Management for Rails</td><td>BrowserCMS is intended to offer features comparable to commercial CMS products, which can support la...</td><td>项目描述: BrowserCMS: Humane Content Management for Rails
+
+项目详情:
+BrowserCMS is intended to offer feature...</td><td>2026-02-05 06:24:37</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div class="section">
+        <h2>📁 表: repositories</h2>
+        <p>行数: <strong>1,000</strong> | 列数: 43 | 索引: 5 | 外键: 0</p>
+        
+        <h3>列结构</h3>
+        <div class="table-info">
+            <table>
+                <thead>
+                    <tr>
+                        <th>列名</th>
+                        <th>类型</th>
+                        <th>主键</th>
+                        <th>非空</th>
+                        <th>默认值</th>
+                        <th>统计信息</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td class="pk">id</td>
+                        <td class="numeric">INTEGER</td>
+                        <td>✓</td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td>范围: 63557~1139936006, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">node_id</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">name</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">full_name</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>✓</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">html_url</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">description</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">homepage</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">fork</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~0, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">archived</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">disabled</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~0, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">private</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~0, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">visibility</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">is_template</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">created_at</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">updated_at</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">pushed_at</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">size</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td>范围: 0~12073665, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">stargazers_count</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 1130~137504, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">watchers_count</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 1130~137504, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">forks_count</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 19~30382, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">open_issues_count</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~10362, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">language</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">default_branch</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">has_issues</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>1</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">has_projects</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">has_downloads</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">has_wiki</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">has_pages</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">has_discussions</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">allow_forking</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>1</td>
+                        <td>范围: 1~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">web_commit_signoff_required</td>
+                        <td class="numeric">INTEGER</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>0</td>
+                        <td>范围: 0~1, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">score</td>
+                        <td class="numeric">REAL</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td>范围: 1.0~1.0, 空值: 0.0%</td>
+                    </tr>
+
+                    <tr>
+                        <td class="">license_json</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">readme_content</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">readme_info_json</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">owner_json</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">topics_json</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">permissions_json</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">imported_at</td>
+                        <td class="">TIMESTAMP</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td>CURRENT_TIMESTAMP</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">readme_cleaned</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">processing_notes</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">processed_at</td>
+                        <td class="">TIMESTAMP</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td class="">enhanced_text</td>
+                        <td class="">TEXT</td>
+                        <td></td>
+                        <td>NULL</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <h3>样本数据 (前3行)</h3>
+        <div class="table-info">
+            <table>
+                <thead>
+                    <tr>
+<th>id</th><th>node_id</th><th>name</th><th>full_name</th><th>html_url</th><th>description</th><th>homepage</th><th>fork</th><th>archived</th><th>disabled</th><th>private</th><th>visibility</th><th>is_template</th><th>created_at</th><th>updated_at</th><th>pushed_at</th><th>size</th><th>stargazers_count</th><th>watchers_count</th><th>forks_count</th><th>open_issues_count</th><th>language</th><th>default_branch</th><th>has_issues</th><th>has_projects</th><th>has_downloads</th><th>has_wiki</th><th>has_pages</th><th>has_discussions</th><th>allow_forking</th><th>web_commit_signoff_required</th><th>score</th><th>license_json</th><th>readme_content</th><th>readme_info_json</th><th>owner_json</th><th>topics_json</th><th>permissions_json</th><th>imported_at</th><th>readme_cleaned</th><th>processing_notes</th><th>processed_at</th><th>enhanced_text</th>
+                    </tr>
+                </thead>
+                <tbody>
+<tr><td>63557</td><td>MDEwOlJlcG9zaXRvcnk2MzU1Nw==</td><td>jquery-mousewheel</td><td>jquery/jquery-mousewheel</td><td>https://github.com/jquery/jquery-mousewheel</td><td>A jQuery plugin that adds cross-browser mouse wheel support.</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>public</td><td>0</td><td>2008-10-16T01:30:34Z</td><td>2026-02-03T09:30:30Z</td><td>2026-01-25T00:59:06Z</td><td>528</td><td>3917</td><td>3917</td><td>1665</td><td>9</td><td>JavaScript</td><td>main</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1.0</td><td>{"key": "other", "name": "Other", "spdx_id": "NOASSERTION", "node_id": "MDc6TGljZW5zZTA="}</td><td># jQuery Mouse Wheel Plugin
+
+A [jQuery](https://jquery.com/) plugin that adds cross-browser mouse wh...</td><td>{"name": "README.md", "path": "README.md", "size": 2203, "html_url": "https://github.com/jquery/jque...</td><td>{"login": "jquery", "id": 70142, "node_id": "MDEyOk9yZ2FuaXphdGlvbjcwMTQy", "avatar_url": "https://a...</td><td>[]</td><td>{"admin": false, "maintain": false, "push": false, "triage": false, "pull": true}</td><td>2026-02-05 05:37:00</td><td>A jQuery plugin that adds cross-browser mouse wheel support with delta normalization.
+In order to us...</td><td>cleaned_2203→549chars_reduced_75%</td><td>2026-02-05 06:33:25</td><td>A jQuery plugin that adds cross-browser mouse wheel support.
+
+In order to use the plugin, simply bin...</td></tr><tr><td>84009</td><td>MDEwOlJlcG9zaXRvcnk4NDAwOQ==</td><td>jasmine</td><td>jasmine/jasmine</td><td>https://github.com/jasmine/jasmine</td><td>Simple JavaScript testing framework for browsers and node.js</td><td>http://jasmine.github.io/</td><td>0</td><td>0</td><td>0</td><td>0</td><td>public</td><td>0</td><td>2008-12-02T23:46:37Z</td><td>2026-02-04T08:34:12Z</td><td>2026-01-19T22:59:00Z</td><td>10693</td><td>15848</td><td>15848</td><td>2239</td><td>14</td><td>JavaScript</td><td>main</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>1.0</td><td>{"key": "mit", "name": "MIT License", "spdx_id": "MIT", "node_id": "MDc6TGljZW5zZTEz"}</td><td><a name="README"><img src="https://raw.githubusercontent.com/jasmine/jasmine/main/images/jasmine-hor...</td><td>{"name": "README.md", "path": "README.md", "size": 2962, "html_url": "https://github.com/jasmine/jas...</td><td>{"login": "jasmine", "id": 4624349, "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ2MjQzNDk=", "avatar_url": "ht...</td><td>["jasmine", "javascript", "tdd", "testing"]</td><td>{"admin": false, "maintain": false, "push": false, "triage": false, "pull": true}</td><td>2026-02-05 05:37:00</td><td></td><td>no_meaningful_content</td><td>2026-02-05 06:33:25</td><td>Simple JavaScript testing framework for browsers and node.js.</td></tr><tr><td>164151</td><td>MDEwOlJlcG9zaXRvcnkxNjQxNTE=</td><td>browsercms</td><td>browsermedia/browsercms</td><td>https://github.com/browsermedia/browsercms</td><td>BrowserCMS: Humane Content Management for Rails</td><td>http://browsercms.org</td><td>0</td><td>0</td><td>0</td><td>0</td><td>public</td><td>0</td><td>2009-03-31T14:30:53Z</td><td>2025-09-14T23:45:36Z</td><td>2022-07-21T22:55:57Z</td><td>14322</td><td>1169</td><td>1169</td><td>260</td><td>321</td><td>Ruby</td><td>master</td><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1.0</td><td>{"key": "lgpl-3.0", "name": "GNU Lesser General Public License v3.0", "spdx_id": "LGPL-3.0", "node_i...</td><td># BrowserCMS: Humane Content Management for Rails
+
+BrowserCMS is a general purpose, open source Web ...</td><td>{"name": "README.markdown", "path": "README.markdown", "size": 3523, "html_url": "https://github.com...</td><td>{"login": "browsermedia", "id": 50586, "node_id": "MDEyOk9yZ2FuaXphdGlvbjUwNTg2", "avatar_url": "htt...</td><td>[]</td><td>{"admin": false, "maintain": false, "push": false, "triage": false, "pull": true}</td><td>2026-02-05 05:37:00</td><td>## Features
+BrowserCMS is intended to offer features comparable to commercial CMS products, which ca...</td><td>cleaned_3523→2019chars_reduced_43%</td><td>2026-02-05 06:33:25</td><td>BrowserCMS: Humane Content Management for Rails.
+
+## Features
+BrowserCMS is intended to offer featur...</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

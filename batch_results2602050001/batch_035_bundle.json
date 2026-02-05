@@ -1,0 +1,180 @@
+{
+  "batch_id": 35,
+  "timestamp": "2026-02-05T13:27:31.951393",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 53579345,
+      "name": "cedrozor/myrtille",
+      "stars": 1953,
+      "enhanced_text": "A native HTML4 / HTML5 Remote Desktop Protocol and SSH client.\n\n## Features\n- HTTP(S) to RDP and SSH gateway (new in version 2.0.0)\n- Hyper-V VM direct connection\n- Multi-factor authentication (MFA)\n- Active Directory integration (management of hosts)\n- Session sharing (collaborative mode)\n- Start remote programs from their URLs\n- File transfer (local and roaming accounts)\n- PDF Virtual Printer\n- HTML4 and HTML5 support\n- PNG, JPEG and WebP compression\n- Realtime connection-info\n- On-screen- console, logfile, debug-info\n- On-screen keyboard (multiple languages)\n- REST APIs (i.e.: hide connection info from the browser, tracks connections, monitor remote sessions, etc.)",
+      "tag": "远程桌面客户端"
+    },
+    {
+      "id": 10487363,
+      "name": "OtterBrowser/otter-browser",
+      "stars": 1950,
+      "enhanced_text": "Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5.\n\n***A browser controlled by the user, not vice-versa***\n**Otter Browser** aims to recreate the best aspects of **Opera 12** and to revive its spirit. We are focused on providing the powerful features power users want while keeping the browser fast and lightweight. We also learned from history and decided to release the browser under the GNU GPL v3.\nPlanned features are listed in the *TODO* file. Details on already implemented features are available in the *CHANGELOG* file. If you have an idea that has not yet been proposed or rejected, feel free to open a new issue.\nYou can either compile Otter Browser from source or use pre-compiled binaries.\nTo build Otter Browser, you will need the following dependencies: **Qt 5.15.0** (or newer), **OpenSSL 1.0** (or newer, depending on your Qt version), **GStreamer 1.0** (or newer) and codecs, and **CMake 3.7.0** (or newer). At the root of the directory where the source code is stored, execute these commands:\nDetailed instructions are available in the *INSTALL.md* file in the root of the repository.",
+      "tag": "桌面浏览器"
+    },
+    {
+      "id": 18894771,
+      "name": "sindresorhus/notifier-for-github",
+      "stars": 1943,
+      "enhanced_text": "Browser extension - Get notified about new GitHub notifications.\n\nChecks for new GitHub notifications every minute, shows the number of notifications you have, and shows desktop notifications as well.\n[link-chrome]: https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn 'Version published on Chrome Web Store'\n[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/notifier-for-github/ 'Version published on Mozilla Add-ons'\n[][link-chrome] [][link-chrome] also compatible with [][link-chrome] [][link-chrome] [][link-chrome]\n[][link-firefox] [][link-firefox]\n- Notification count in the toolbar icon.",
+      "tag": "浏览器通知扩展"
+    },
+    {
+      "id": 551312158,
+      "name": "hellof2e/quark-design",
+      "stars": 1938,
+      "enhanced_text": "Browser-native component library, framework-agnostic, base on web components.(企业级 H5 UI 组件库，无框架，即插即用。).\n\n## Features\n🚀 Cross framework: Any front-end framework can be used.\n❤️ Lightweight: Crafted with minimalistic Code design.\n⚡️ Fast: Native HTML/CSS/JS build.\nFor full documentation, visit https://quark-ecosystem.github.io/quarkd-docs.",
+      "tag": "Web组件库"
+    },
+    {
+      "id": 251604169,
+      "name": "antonmedv/codejar",
+      "stars": 1936,
+      "enhanced_text": "An embeddable code editor for the browser 🍯.\n\n## Features\n* Lightweight (**2.45 kB** only)\n* Preserves indentation on a new line\n* Adds closing brackets, quotes\n* Indents line with the **Tab** key\n* Supports **undo**/**redo**\n\n## Getting Started",
+      "tag": "嵌入式代码编辑器"
+    },
+    {
+      "id": 543359001,
+      "name": "nat/natbot",
+      "stars": 1935,
+      "enhanced_text": "Drive a browser with GPT-3.\n\nHere's a demo: https://twitter.com/natfriedman/status/1575631194032549888\n- Make a recorder to collect human feedback and do better few-shot\n- Let the agent use multiple tabs and switch between them",
+      "tag": "浏览器AI自动化"
+    },
+    {
+      "id": 788088061,
+      "name": "face-hh/webx",
+      "stars": 1935,
+      "enhanced_text": "An alternative for the World Wide Web - browse websites such as buss://yippie.rizz made in HTML, CSS and Lua. Custom web browser, custom HTML rendering engine, custom search engine, and more.",
+      "tag": "自定义渲染引擎"
+    },
+    {
+      "id": 900709814,
+      "name": "adryfish/fingerprint-chromium",
+      "stars": 1907,
+      "enhanced_text": "An open source fingerprint browser based on Ungoogled Chromium. 指纹浏览器 隐私浏览器.\n\n## Installation and Usage\nPlease download the version suitable for your system from the links below. Each major version of Chromium is compiled into a corresponding release. Choose the appropriate version for your operating system:\n| **Version**      | **Source Code**                                                                                      | **Windows**                                                                                   | **Linux** | **MacOS**                                                                                   |\n| **Chrome 142**   | Released with Chrome 143                                                                            | Installer  ZIP | AppImage  TAR.XZ | 142.0.7444.175-1.1_macos.dmg |\n| **Chrome 139**   | 139.0.7258.154              | Installer  ZIP | AppImage  TAR.XZ | 139.0.7258.154-1.1_macos.dmg |\n| **Chrome 138**   | 138.0.7204.183              | Installer  ZIP | 138.0.7204.183-1_linux.tar.xz | |\n| **Chrome 136**   | 136.0.7103.113        | Installer  ZIP | 136.0.7103.113-1_linux.tar.xz | 136.0.7103.113-1.1_macos.dmg |\n| **Chrome 135**   | 135.0.7049.95        | Installer  ZIP | 135.0.7049.95-1_linux.tar.xz | 135.0.7049.95-1.1_macos.dmg |\n| **Chrome 134** | 134.0.6998.165 | Installer  ZIP | 134.0.6998.165-1_linux.tar.xz | |\n| **Chrome 133** | 133.0.6943.126 | Installer  ZIP | 133.0.6943.126-1_linux.tar.xz |  |\n| **Chrome 132**   | 132.0.6834.159               | Installer  ZIP |  132.0.6834.159-1_linux.tar.xz  | 132.0.6834.110-1.1_macos.dmg |\nFor chinese users, you can download via cloud storage\nQuark: https://pan.quark.cn/s/9bb65af874fb\nYou can find the compiled versions for each major Chromium release on the GitHub Release page. Download the appropriate file for your platform.\n### Build from Source\n\n## Features\n### Fingerprint Support\nYou can use creepjs and browserleaks to test fingerprint modification effects.\n* **User-Agent**: Modify the browser's , ,  and  information.\n* **Operating System**\n* **Plugins**: After removal in version 133+, the browser returns a fixed plugin list.\n* **WebGL Metadata**: Modify GPU vendor and graphics card model (currently only supports Linux).\n* **Language Support**\n* **Timezone Support**\n### Automation Support\n**Optimized for automation scenarios, offering the following features:**\n1. **Fake Shadow DOM Support**\nAdds the  property, equivalent to the  property, enabling access to Closed Shadow Root for easier automation handling.\n2...",
+      "tag": "隐私指纹浏览器"
+    },
+    {
+      "id": 368257515,
+      "name": "duckdb/duckdb-wasm",
+      "stars": 1902,
+      "enhanced_text": "WebAssembly version of DuckDB.\n\nDuckDB is an in-process SQL OLAP Database Management System.\nDuckDB-Wasm brings DuckDB to every browser thanks to WebAssembly.\nDuckdb-Wasm speaks Arrow fluently, reads Parquet, CSV and JSON files backed by Filesystem APIs or HTTP requests and has been tested with Chrome, Firefox, Safari and Node.js. Learn more about DuckDB-Wasm from our VLDB publication or the recorded talk.\nTry it out at shell.duckdb.org or at duckdb.org/visualizer.\nExternal third party embedding of DuckDB-Wasm, read the API documentation, check out the web-app examples, and chat with us on Discord.\nDuckDB-Wasm is currently based on DuckDB v1.4.4.\n* Default HTTP stack is different between native and Wasm versions of DuckDB",
+      "tag": "WebAssembly数据库"
+    },
+    {
+      "id": 1035210905,
+      "name": "the-ora/browser",
+      "stars": 1898,
+      "enhanced_text": "Less noise, more browsing.\n\n## Features\n### Core Capabilities\n- Native macOS UI built with SwiftUI/AppKit\n- Fast, responsive browsing powered by WebKit\n- Privacy-first browsing with built-in content blocker for tracking prevention and ad blocking\n- Multiple search engine support\n- URL auto-completion and search suggestions\n- Quick Launcher for instant navigation and search\nYou can view our current roadmap to beta in ROADMAP.md.\nSee the Wiki for comprehensive documentation, guides, and project information.",
+      "tag": "隐私桌面浏览器"
+    },
+    {
+      "id": 52015204,
+      "name": "xtianmiller/emergence.js",
+      "stars": 1879,
+      "enhanced_text": "Detect element visibility in the browser.\n\n## Getting Started\nReference emergence.js just before your closing  tag, then simply call .\nGrab the latest code from the following locations:\n- Download from Github",
+      "tag": "元素可见性检测库"
+    },
+    {
+      "id": 129891715,
+      "name": "Homebrew/formulae.brew.sh",
+      "stars": 1871,
+      "enhanced_text": "🏎 An online formulae browser for Homebrew.\n\nHomebrew Formulae is an online package browser for Homebrew.\nIt displays all packages in the Homebrew/homebrew-core and Homebrew/homebrew-cask. A GitHub Action is run periodically which pulls changes from each tap and deploys the site to GitHub Pages.\nIt also provides a JSON API for all packages (or individual packages) in each tap and their related analytics. This JSON data is used for the creation of the HTML resources on this site.\n- List metadata for all formulae and casks\n- Get metadata for each formula and cask\n- List analytics events for all formulae and casks\n- List analytics events for each formula and cask",
+      "tag": "软件包信息浏览器"
+    },
+    {
+      "id": 488620801,
+      "name": "apify/fingerprint-suite",
+      "stars": 1868,
+      "enhanced_text": "Browser fingerprinting tools for anonymizing your scrapers. Developed by Apify.\n\n## Overview\nis a modular toolkit for browser fingerprint generation and injection. It consists of the following  packages, which you can use separately, or together:\n- : generates configurable, realistic HTTP headers\n- : generates realistic browser fingerprints, affecting the HTTP headers and browser JS APIs\n- : injects browser fingerprints into your Playwright or Puppeteer managed browser instance\n- : our fast implementation of a Bayesian generative network used to generate realistic browser fingerprints",
+      "tag": "浏览器指纹工具套件"
+    },
+    {
+      "id": 15743523,
+      "name": "TiddlyWiki/TiddlyDesktop",
+      "stars": 1862,
+      "enhanced_text": "A custom desktop browser for TiddlyWiki 5 and TiddlyWiki Classic, based on nw.js.\n\nTiddlyDesktop is a special purpose web browser for working with locally stored TiddlyWikis. See http://tiddlywiki.com/ for more details of TiddlyWiki.\nSee this video tutorial for an overview of installing and using TiddlyDesktop on Windows and OS X:\nhttps://www.youtube.com/watch?v=i3Bggkm7paA\nIt is based on nw.js, a project created and developed in the Intel Open Source Technology Center:\nDownload the Windows, linux or Mac binary .zip files from:\nhttps://github.com/TiddlyWiki/TiddlyDesktop/releases\nUnzip into a folder and run  or  and for linux",
+      "tag": "专用桌面浏览器"
+    },
+    {
+      "id": 3860377,
+      "name": "mthenw/frontail",
+      "stars": 1854,
+      "enhanced_text": "📝 streaming logs to the browser. Sponsored by https://cloudash.dev.\n\n## Quick start\n-  or download a binary file from Releases page\n- visit http://127.0.0.1:9001\n\n## Installation options\n- download a binary file from Releases pagegit st\n- using Docker image:\nfrontail [options] [file ...]\n-V, --version                 output the version number\n-h, --host              listening host, default 0.0.0.0\n-p, --port              listening port, default 9001\n-n, --number          starting lines number, default 10\n-l, --lines            number on lines stored in browser, default 2000\n-t, --theme            name of the theme (default, dark)\n-d, --daemonize               run as daemon\n-U, --user          Basic Authentication username, option works only along with -P option\n-P, --password      Basic Authentication password, option works only along with -U option\n-k, --key            Private Key for HTTPS, option works only along with -c option\n-c, --certificate   Certificate for HTTPS, option works only along with -k option\n\n## Features\n- log rotation (not on Windows)\n- number of unread logs in favicon\n- themes (default, dark)\n- search ( to focus,  to clear)\n- set filter from url parameter\n- tailing multiple files and stdin\n- basic authentication",
+      "tag": "日志流式传输工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 53579345,
+        "tag": "远程桌面客户端"
+      },
+      {
+        "id": 10487363,
+        "tag": "桌面浏览器"
+      },
+      {
+        "id": 18894771,
+        "tag": "浏览器通知扩展"
+      },
+      {
+        "id": 551312158,
+        "tag": "Web组件库"
+      },
+      {
+        "id": 251604169,
+        "tag": "嵌入式代码编辑器"
+      },
+      {
+        "id": 543359001,
+        "tag": "浏览器AI自动化"
+      },
+      {
+        "id": 788088061,
+        "tag": "自定义渲染引擎"
+      },
+      {
+        "id": 900709814,
+        "tag": "隐私指纹浏览器"
+      },
+      {
+        "id": 368257515,
+        "tag": "WebAssembly数据库"
+      },
+      {
+        "id": 1035210905,
+        "tag": "隐私桌面浏览器"
+      },
+      {
+        "id": 52015204,
+        "tag": "元素可见性检测库"
+      },
+      {
+        "id": 129891715,
+        "tag": "软件包信息浏览器"
+      },
+      {
+        "id": 488620801,
+        "tag": "浏览器指纹工具套件"
+      },
+      {
+        "id": 15743523,
+        "tag": "专用桌面浏览器"
+      },
+      {
+        "id": 3860377,
+        "tag": "日志流式传输工具"
+      }
+    ]
+  }
+}

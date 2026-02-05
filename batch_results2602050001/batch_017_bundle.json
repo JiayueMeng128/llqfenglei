@@ -1,0 +1,180 @@
+{
+  "batch_id": 17,
+  "timestamp": "2026-02-05T13:23:29.369475",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 931243,
+      "name": "samyk/evercookie",
+      "stars": 4704,
+      "enhanced_text": "Produces persistent, respawning \"super\" cookies in a browser, abusing over a dozen techniques. Its goal is to identify users after they've removed standard cookies and other privacy data such as Flash cookies (LSOs), HTML5 storage, SilverLight storage, and others.\n\nEvercookie is a Javascript API that produces extremely persistent cookies in a\nbrowser. Its goal is to identify a client even after they've removed standard\ncookies, Flash cookies (Local Shared Objects or LSOs), and others.\nThis is accomplished by storing the cookie data on as many browser storage\nmechanisms as possible. If cookie data is removed from any of the storage\nmechanisms, evercookie aggressively re-creates it in each mechanism as long as\nIf the Flash LSO, Silverlight or Java mechanism is available, Evercookie can even propagate cookies\nbetween different browsers on the same client machine!\nBy Samy Kamkar, with awesome contributions from others",
+      "tag": "浏览器指纹追踪"
+    },
+    {
+      "id": 16112842,
+      "name": "mholt/json-to-go",
+      "stars": 4622,
+      "enhanced_text": "Translates JSON into a Go type in your browser instantly (original).\n\nTranslates JSON into a Go type definition. Check it out!\nThis is a sister tool to curl-to-Go, which converts curl commands to Go code.\n- The script sometimes has to make some assumptions, so give the output a once-over.\n- In an array of objects, it is assumed that the first object is representative of the rest of them.\n- The output is indented, but not formatted. Use !\nContributions are welcome! Open a pull request to fix a bug, or open an issue to discuss a new feature or change.",
+      "tag": "JSON转Go工具"
+    },
+    {
+      "id": 86941132,
+      "name": "WorldBrain/Memex",
+      "stars": 4617,
+      "enhanced_text": "Browser extension to curate, annotate, and discuss the most valuable content and ideas on the web. As individuals, teams and communities.",
+      "tag": "网页知识管理扩展"
+    },
+    {
+      "id": 306484159,
+      "name": "extension-js/extension.js",
+      "stars": 4602,
+      "enhanced_text": "🧩 The cross-browser extension framework.\n\n[npm-version-url]: https://www.npmjs.com/package/extension\n[npm-downloads-url]: https://www.npmjs.com/package/extension\n[action-image]: https://github.com/extension-js/extension.js/actions/workflows/ci.yml/badge.svg?branch=main&color=0971fe\n[action-url]: https://github.com/extension-js/extension.js/actions\n[discord-url]: https://discord.gg/v9h2RgeTSN\n[snyk-image]: https://snyk.io/test/github/extension-js/extension/badge.svg?color=0971fe\n[snyk-url]: https://snyk.io/test/github/extension-js/extension\n[![Version][npm-version-image]][npm-version-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![CI][action-image]][action-url] [![Discord][discord-image]][discord-url]\n> The cross-browser extension framework",
+      "tag": "跨浏览器扩展框架"
+    },
+    {
+      "id": 2955178,
+      "name": "blueimp/JavaScript-MD5",
+      "stars": 4565,
+      "enhanced_text": "JavaScript MD5 implementation. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.\n\n## Description\nJavaScript MD5 implementation.\nCompatible with server-side environments like Node.js,\nmodule loaders like RequireJS or\nwebpack and all web browsers.\n\nInstall the **blueimp-md5** package with NPM:\nInclude the (minified) JavaScript MD5\nscript in your HTML markup:\nIn your application code, calculate the\nMD5 hash of a string by calling the **md5**\nmethod with the string as argument:\nThe following is an example how to use the JavaScript MD5 module on the\nserver-side with Node.js.",
+      "tag": "JavaScript加密库"
+    },
+    {
+      "id": 2692921,
+      "name": "CreateJS/SoundJS",
+      "stars": 4551,
+      "enhanced_text": "A Javascript library for working with Audio. It provides a consistent API for loading and playing audio on different browsers and devices. Currently supports WebAudio, HTML5 Audio, Cordova / PhoneGap, and a Flash fallback.\n\nSoundJS is a library to make working with audio on the web easier. It provides a consistent API for playing audio in\ndifferent browsers, including using a target plugin model to provide an easy way to provide additional audio plugins\nlike a Flash fallback (included, but must be used separately from the combined/minified version).\nA mechanism has been provided for easily tying in audio preloading to PreloadJS.\nBuilt by gskinner.com, and released for free under the MIT license, which means you can use it for almost any purpose\n(including commercial projects). We appreciate credit where possible, but it is not a requirement.\n* Find examples and more information at the SoundJS web site\n* Discuss, share projects, and interact with other users on reddit.",
+      "tag": "跨平台音频库"
+    },
+    {
+      "id": 490984887,
+      "name": "InfinityLoop1308/PipePipe",
+      "stars": 4531,
+      "enhanced_text": "An open-source Android app to let you browse YouTube and other services freely.\n\n## About this fork\nDue to differences in development philosophy, I forked NewPipe in early 2022 and began independent development based on it.\nThis means that PipePipe neither receives updates from NewPipe nor pushes updates to NewPipe. They have become two separate projects. Issues that occur in NewPipe don't necessarily happen in PipePipe, and changes made in NewPipe may not be adopted by PipePipe. In contrast, forks like Tubular track the latest version of NewPipe and develop based on it.\nMaking a hard fork allows us to effectively address issues with quick fixes and maintain frequent feature updates.",
+      "tag": "Android视频客户端"
+    },
+    {
+      "id": 366844495,
+      "name": "stackblitz/webcontainer-core",
+      "stars": 4522,
+      "enhanced_text": "Dev environments. In your web app.\n\nThis repository serves as a central hub for the GitHub issues and bug reports related to WebContainers for easier tracking and communication.\nFor documentation, visit **webcontainers.io** where you'll find detailed information about WebContainers and the WebContainer API.\n- Docs: StackBlitz classic editor\n- Chat with our team on Discord",
+      "tag": "浏览器容器运行时"
+    },
+    {
+      "id": 9503997,
+      "name": "cyrus-and/chrome-remote-interface",
+      "stars": 4488,
+      "enhanced_text": "Chrome Debugging Protocol interface for Node.js.\n\n## Installation\nnpm install chrome-remote-interface\n\nInstall globally () to just use the bundled client.\nThis module should work with every application implementing the\n[Chrome Debugging Protocol]. In particular, it has been tested against the\nfollowing implementations:\nImplementation             | Protocol version   | [Protocol] | [List] | [New] | [Activate] | [Close] | [Version]\n[Chrome][1.1]              | [tip-of-tree][1.2] | yes¹       | yes    | yes   | yes        | yes     | yes\n[Opera][2.1]               | [tip-of-tree][2.2] | yes        | yes    | yes   | yes        | yes     | yes\n[Node.js][3.1] ([v6.3.0]+) | [node][3.2]        | yes        | no     | no    | no         | no      | yes\n[Safari (iOS)][4.1]        | [*partial*][4.2]   | no         | yes    | no    | no         | no      | no\n[Edge][5.1]                | [*partial*][5.2]   | yes        | yes    | no    | no         | no      | yes\n[Firefox (Nightly)][6.1]   | [*partial*][6.2]   | yes        | yes    | no    | yes        | yes     | yes\n¹ Not available on [Chrome for Android][chrome-mobile-protocol], hence a local version of the protocol must be used.\n[chrome-mobile-protocol]: https://bugs.chromium.org/p/chromium/issues/detail?id=824626#c4\n[1.1]: #chromechromium\n[1.2]: https://chromedevtools.github.io/devtools-protocol/tot/",
+      "tag": "Chrome调试协议客户端"
+    },
+    {
+      "id": 789725,
+      "name": "unconed/TermKit",
+      "stars": 4431,
+      "enhanced_text": "Experimental Terminal platform built on WebKit + node.js. Currently only for Mac and Windows, though the prototype works 90% in any WebKit browser.",
+      "tag": "WebKit终端模拟器"
+    },
+    {
+      "id": 40733543,
+      "name": "mdn/webextensions-examples",
+      "stars": 4400,
+      "enhanced_text": "Example Firefox add-ons created using the WebExtensions API.\n\ninstalled inside a web browser that modify the behavior of the browser or\nweb pages loaded by the browser. WebExtensions are built on a set of\ncross-browser APIs, so WebExtensions written for Google Chrome, Opera, or\nEdge will, in most cases, run in Firefox too.\nThe \"webextensions-examples\" repository is a collection of simple,\ncomplete, and installable WebExtensions. The examples show how to use the\nWebExtensions APIs, and you can use them as a starting point for your\nFor an index of all the examples, see the \"Example extensions\" page on MDN.\nThe examples are made available under the\nMozilla Public License 2.0.\n\n## How to use \"webextensions-examples\"\nTo use the repository, first clone it.\nEach example is in a top-level folder and includes a short README explaining\nwhat it does. To see how an example works, install it in Firefox by following\nthe installation instructions.\nTo find your way around a WebExtension's internal structure, have a look at the\nAnatomy of a WebExtension\nTo use these examples in Firefox, use the most recent release of Firefox.\nHowever, most examples work with earlier releases.\nA few examples rely on APIs that are only available in pre-release versions\nof Firefox. Where this is the case, the example declares the minimum version\nthat it needs in the  attribute of the\nin the extension's manifest.json file.",
+      "tag": "WebExtensions示例库"
+    },
+    {
+      "id": 165110580,
+      "name": "auchenberg/vscode-browser-preview",
+      "stars": 4397,
+      "enhanced_text": "A real browser preview inside your editor that you can debug.\n\n## Getting started\n1. Grab extension from marketplace\n2. Click the new \"Browser Preview\" button in the Side Bar to the left or run the command\nMake sure you have Google Chrome installed on your computer.",
+      "tag": "编辑器内浏览器调试"
+    },
+    {
+      "id": 79987996,
+      "name": "zufuliu/notepad4",
+      "stars": 4391,
+      "enhanced_text": "Notepad4 (Notepad2⨯2, Notepad2++) is a light-weight Scintilla based text editor for Windows with syntax highlighting, code folding, auto-completion and API list for many programming languages and documents, bundled with file browser plugin matepath.\n\nLatest development builds (artifacts in Release configuration for each compiler and platform) are available on GitHub Actions and AppVeyor. Or you can build from source, see Wiki.\n| GitHub Actions (MSVC, Clang, GCC) | AppVeyor (MSVC, Clang) |\n## Changes compared to Notepad2 or Notepad2-mod:\n* Option to mark all occurrences of a word or selection, and show matched count\n* Enhanced auto-completion for words and functions",
+      "tag": "Scintilla文本编辑器"
+    },
+    {
+      "id": 87006077,
+      "name": "chromiumembedded/cef",
+      "stars": 4348,
+      "enhanced_text": "Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.\n\n# Introduction\nCEF is a BSD-licensed open source project founded by Marshall Greenblatt in 2008 and based on the Google Chromium project. Unlike the Chromium project itself, which focuses mainly on Google Chrome application development, CEF focuses on facilitating embedded browser use cases in third-party applications. CEF insulates the user from the underlying Chromium and Blink code complexity by offering production-quality stable APIs, release branches tracking specific Chromium releases, and binary distributions. Most features in CEF have default implementations that provide rich functionality while requiring little or no integration work from the user. There are currently over 100 million installed instances of CEF around the world embedded in products from a wide range of companies and industries. A partial list of companies and products using CEF is available on the CEF Wikipedia page. Some use cases for CEF include:\n* Embedding an HTML5-compliant Web browser control in an existing native application.\n* Creating a light-weight native “shell” application that hosts a user interface developed primarily using Web technologies.\n* Rendering Web content “off-screen” in applications that have their own custom drawing frameworks.\n* Acting as a host for automated testing of existing Web properties and applications.\nCEF supports a wide range of programming languages and operating systems and can be easily integrated into both new and existing applications. It was designed from the ground up with both performance and ease of use in mind. The base framework includes C and C++ programming interfaces exposed via native libraries that insulate the host application from Chromium and Blink implementation details. It provides close integration between the browser and the host application including support for custom plugins, protocols, JavaScript objects and JavaScript extensions. The host application can optionally control resource loading, navigation, context menus, printing and more, while taking advantage of the same performance and HTML5 technologies available in the Google Chrome Web browser.\nNumerous individuals and organizations contribute time and resources to support CEF development, but more involvement from the community is always welcome. This includes support for both the core CEF project and external projects that integrate CEF with additional programming languages and frameworks (see the \"External Projects\" section below)...",
+      "tag": "Chromium嵌入框架"
+    },
+    {
+      "id": 640819432,
+      "name": "smol-ai/GodMode",
+      "stars": 4327,
+      "enhanced_text": "AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day.\n\n## Installation\n**Install here!** And then log in to Google on any one of the providers + refreshing logs you into most of the rest.\nGoogle Bard seems to have weird auth requirements we havent figured out yet - logging into Google via Anthropic Claude first seems to be the most reliable right now while we figure it out.\n- Arm64 for Apple Silicon Macs, non Arm64 (universal) for Intel Macs.\n- We just added Windows/Linux support, but it needs a lot of work. Help wanted!\nYou can also build from source, see instructions below.\n## Mixture of Mixture of Experts\nIt's well discussed by now that GPT4 is a mixture of experts model, which explains its great advancement over GPT3 while not sacrificing speed. It stands to reason that if you can run one chat and get results from all the top closed/open source models, you will get that much more diversity in results for what you seek. As a side benefit, we will add opt-in data submission soon so we can crowdsource statistics on win rates, niche advantages, and show them over time.\n> “That's why it's always worth having a few philosophers around the place. One minute it's all is truth beauty and is beauty truth, and does a falling tree in the forest make a sound if there's no one there to hear it, and then just when you think they're going to start dribbling one of 'em says, incidentally, putting a thirty-foot parabolic reflector on a high place to shoot the rays of the sun at an enemy's ships would be a very interesting demonstration of optical principles.”\n> ― Terry Pratchett, Small Gods\n## Oh so this is like nat.dev?\n1. SOTA functionality is often released without API (eg: ChatGPT Code Interpreter, Bing Image Creator, Bard Multimodal Input, Claude Multifile Upload). **We insist on using webapps** so that you have full access to all functionality on launch day. We also made light/dark mode for each app, just for fun ( (Aug update: currently broken in the GodMode rewrite, will fix))\n2. This is a **secondary browser** that can be pulled up with a keyboard shortcut (, customizable). Feels a LOT faster than having it live in a browser window somewhere and is easy to pull up/dismiss during long generations.\n3. Supports no-API models like Perplexity and Poe, and local models like LLaMa and Vicuna (via OobaBooga).\n4. No paywall, build from source.",
+      "tag": "多模型AI聊天客户端"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 931243,
+        "tag": "浏览器指纹追踪"
+      },
+      {
+        "id": 16112842,
+        "tag": "JSON转Go工具"
+      },
+      {
+        "id": 86941132,
+        "tag": "网页知识管理扩展"
+      },
+      {
+        "id": 306484159,
+        "tag": "跨浏览器扩展框架"
+      },
+      {
+        "id": 2955178,
+        "tag": "JavaScript加密库"
+      },
+      {
+        "id": 2692921,
+        "tag": "跨平台音频库"
+      },
+      {
+        "id": 490984887,
+        "tag": "Android视频客户端"
+      },
+      {
+        "id": 366844495,
+        "tag": "浏览器容器运行时"
+      },
+      {
+        "id": 9503997,
+        "tag": "Chrome调试协议客户端"
+      },
+      {
+        "id": 789725,
+        "tag": "WebKit终端模拟器"
+      },
+      {
+        "id": 40733543,
+        "tag": "WebExtensions示例库"
+      },
+      {
+        "id": 165110580,
+        "tag": "编辑器内浏览器调试"
+      },
+      {
+        "id": 79987996,
+        "tag": "Scintilla文本编辑器"
+      },
+      {
+        "id": 87006077,
+        "tag": "Chromium嵌入框架"
+      },
+      {
+        "id": 640819432,
+        "tag": "多模型AI聊天客户端"
+      }
+    ]
+  }
+}

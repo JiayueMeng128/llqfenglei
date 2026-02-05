@@ -1,0 +1,125 @@
+{
+  "batch_id": 62,
+  "timestamp": "2026-02-05T14:47:00.498005",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 114962091,
+      "name": "homebridge/homebridge-config-ui-x",
+      "stars": 2774,
+      "enhanced_text": "The Homebridge UI. Monitor, configure and backup Homebridge from a browser.",
+      "tag": "智能家居管理界面"
+    },
+    {
+      "id": 17406078,
+      "name": "insidegui/AssetCatalogTinkerer",
+      "stars": 2769,
+      "enhanced_text": "An app that lets you open .car files and browse/extract their images.",
+      "tag": "macOS资源文件浏览器"
+    },
+    {
+      "id": 2822459,
+      "name": "jeanphix/Ghost.py",
+      "stars": 2763,
+      "enhanced_text": "Webkit based scriptable web browser for python.",
+      "tag": "Python无头浏览器"
+    },
+    {
+      "id": 686004733,
+      "name": "vuejs/devtools",
+      "stars": 2759,
+      "enhanced_text": "⚙️ Browser devtools extension for debugging Vue.js applications.",
+      "tag": "Vue.js开发工具扩展"
+    },
+    {
+      "id": 43936671,
+      "name": "suzuki-0000/SKPhotoBrowser",
+      "stars": 2737,
+      "enhanced_text": "Simple PhotoBrowser/Viewer inspired by facebook, twitter photo browsers written by swift.",
+      "tag": "Swift图片浏览器组件"
+    },
+    {
+      "id": 14155824,
+      "name": "UDST/vizicities",
+      "stars": 2725,
+      "enhanced_text": "A framework for 3D geospatial visualization in the browser.",
+      "tag": "浏览器3D地理可视化框架"
+    },
+    {
+      "id": 88184556,
+      "name": "wexond/browser-base",
+      "stars": 2725,
+      "enhanced_text": "Modern and feature-rich web browser base based on Electron.",
+      "tag": "Electron浏览器基础框架"
+    },
+    {
+      "id": 54034412,
+      "name": "Streamedian/html5_rtsp_player",
+      "stars": 2718,
+      "enhanced_text": "Play RTSP stream from IP camera in browser in this HTML5 player without plugins.",
+      "tag": "HTML5实时流媒体播放器"
+    },
+    {
+      "id": 25263349,
+      "name": "seatgeek/react-infinite",
+      "stars": 2691,
+      "enhanced_text": "A browser-ready efficient scrolling container based on UITableView.",
+      "tag": "React虚拟滚动容器"
+    },
+    {
+      "id": 38794215,
+      "name": "amorey/loadjs",
+      "stars": 2584,
+      "enhanced_text": "A tiny async loader / dependency manager for modern browsers (961 bytes).",
+      "tag": "浏览器脚本加载器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 114962091,
+        "tag": "智能家居管理界面"
+      },
+      {
+        "id": 17406078,
+        "tag": "macOS资源文件浏览器"
+      },
+      {
+        "id": 2822459,
+        "tag": "Python无头浏览器"
+      },
+      {
+        "id": 686004733,
+        "tag": "Vue.js开发工具扩展"
+      },
+      {
+        "id": 43936671,
+        "tag": "Swift图片浏览器组件"
+      },
+      {
+        "id": 14155824,
+        "tag": "浏览器3D地理可视化框架"
+      },
+      {
+        "id": 88184556,
+        "tag": "Electron浏览器基础框架"
+      },
+      {
+        "id": 54034412,
+        "tag": "HTML5实时流媒体播放器"
+      },
+      {
+        "id": 25263349,
+        "tag": "React虚拟滚动容器"
+      },
+      {
+        "id": 38794215,
+        "tag": "浏览器脚本加载器"
+      }
+    ]
+  }
+}

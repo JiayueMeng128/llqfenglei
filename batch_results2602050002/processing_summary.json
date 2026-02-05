@@ -1,0 +1,12 @@
+{
+  "processed_at": "2026-02-05T15:30:01.243419",
+  "total_processed": 44,
+  "last_batch_id": 76,
+  "failed_batches": [],
+  "processed_ids_count": 1224,
+  "config": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "db_path": "./data/github_repos_single_table.db"
+  }
+}

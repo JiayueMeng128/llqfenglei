@@ -1,0 +1,180 @@
+{
+  "batch_id": 34,
+  "timestamp": "2026-02-05T13:27:25.600172",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 233356362,
+      "name": "renzhezhilu/webp2jpg-online",
+      "stars": 2003,
+      "enhanced_text": "Use the browser's online image format converter, no need to upload files, you can convert jpeg, jpg, png, gif, webp, svg, ico, bmp files to jpeg, png, webp animation, gif, base64,avif,mozjpeg. 使用浏览器的在线图片格式转化器,无需上传文件,可将jpeg、jpg、png、gif、webp、svg、ico、bmp文件转换为jpeg、png、webp、webp动画、gif、base64、avif、mozjpeg,提供了多个可自定义选项来满足常见需求。.\n\nThis toolbox includes image conversion and image stitching, pure front-end implementation, fast speed, privacy protection, and offline use,20 languages supported.\nA: Because it was originally to convert webp to jpg, I have been using it all the time.\nMultifunctional Image Converter\n- [x] Support for , , , , , , , , , , , Convert  to , , , ,",
+      "tag": "前端图像处理工具"
+    },
+    {
+      "id": 126199585,
+      "name": "mozilla-mobile/android-components",
+      "stars": 2000,
+      "enhanced_text": "⚠️ This project moved to a new repository. It is now developed and maintained at: https://github.com/mozilla-mobile/firefox-android.\n\n_A collection of Android libraries to build browsers or browser-like applications._\nℹ️ For more information **see the website**.\nA fully-featured reference browser implementation based on the components can be found in the reference-browser repository.\nWe encourage you to participate in this open source project. We love pull requests, bug reports, ideas, (security) code reviews or any kind of positive contribution.\nBefore you attempt to make a contribution please read the Community Participation Guidelines.\n* View current Issues or View current Pull Requests.\n* List of good first issues (**New contributors start here!**) and List of \"help wanted\" issues.\n* Matrix: android-components:mozilla.org chat room (How to connect).",
+      "tag": "安卓浏览器组件库"
+    },
+    {
+      "id": 87403752,
+      "name": "mil-tokyo/webdnn",
+      "stars": 1998,
+      "enhanced_text": "The Fastest DNN Running Framework on Web Browser.\n\nThis is the alpha version of WebDNN version 2. The main difference between WebDNN 1.x and WebDNN 2.x is that WebDNN 2.x only accepts ONNX models as input, allowing ONNX models to be loaded directly into a web browser without Python preprocessing. In addition, offline model optimization is also possible.\n# Supported backends (acceleration technologies)\nWebGL is available in most modern browsers.\n- The draft version implemented in Chrome Canary.\n- The WebGPU in iOS13 is not supported because it requires shaders based on the deprecated WSL language.\n- Use WebGL2 if available; also supports Safari, which only supports WebGL1.\nThe environment which runs node.js 14, python 3.6+ and emscripten 2.0+.",
+      "tag": "浏览器端AI推理框架"
+    },
+    {
+      "id": 214834409,
+      "name": "badmojr/1Hosts",
+      "stars": 1998,
+      "enhanced_text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing.\n\n***Safeguard your device(s) against pesky ads, trackers, and malware.***\n1Hosts offers 2 blocklist variants tailored to different user needs:\nBalanced version - set & forget, prioritizes smooth UX, ideal for general users.\ndnscrypt-proxy / personalDNSfilter / InviZible Pro",
+      "tag": "DNS隐私过滤列表"
+    },
+    {
+      "id": 1620438,
+      "name": "einaregilsson/Redirector",
+      "stars": 1995,
+      "enhanced_text": "Browser extension (Firefox, Chrome, Opera, Edge) to redirect urls based on regex patterns, like a client side mod_rewrite.",
+      "tag": "URL重定向扩展"
+    },
+    {
+      "id": 94893151,
+      "name": "will-stone/browserosaurus",
+      "stars": 1983,
+      "enhanced_text": "🦖 The browser prompter for macOS.\n\n## Installation\nDownload Browserosaurus from the\nGitHub releases page.\nSelect **x64** for Intel machines, or **arm64** for Apple Silicon (M1) machines.\nOr use Homebrew. Thank\nyou very much to @i0ntempest and\n@tk4k for keeping this cask updated 🙏\n> 🚨 **Please note that Browserosaurus only officially supports the version of\n> macOS that I currently use, which you can assume to be the latest stable\nFound a bug? Please log an\nissue. For anything else,\nplease see the documentation below or open a\n## Projects inspired by Browserosaurus\nBrowserosaurus is primarily made for my needs and environment. Therefore, some",
+      "tag": "macOS默认浏览器选择器"
+    },
+    {
+      "id": 2643120,
+      "name": "simsalabim/sisyphus",
+      "stars": 1982,
+      "enhanced_text": "Gmail-like client-side drafts and bit more. Plugin developed to save html forms data to LocalStorage to restore them after browser crashes, tabs closings and other disasters.",
+      "tag": "表单数据持久化插件"
+    },
+    {
+      "id": 135900664,
+      "name": "pubkey/broadcast-channel",
+      "stars": 1980,
+      "enhanced_text": ":satellite: BroadcastChannel to send data between different browser-tabs or nodejs-processes :satellite: + LeaderElection over the channels  https://pubkey.github.io/broadcast-channel/.\n\nA BroadcastChannel to send data across multiple browser-tabs or nodejs-processes or Deno-Deploy-Instances\n+ LeaderElection over the channels\nA BroadcastChannel that allows you to send data between different browser-tabs or nodejs-processes or Deno-Deploy-Instances.\n- It works completely **client-side** and **offline**,\n- Tested on **old browsers**, **new browsers**, **WebWorkers**, **Iframes** and **NodeJs**.\nThis behaves similar to the BroadcastChannel-API which is currently only featured in some browsers.",
+      "tag": "跨标签页通信库"
+    },
+    {
+      "id": 159969526,
+      "name": "newcat/baklavajs",
+      "stars": 1980,
+      "enhanced_text": "Graph / node editor in the browser using VueJS.\n\n## Introduction\nBaklavaJS is a graph/node editor for the web. It provides an easy-to-use editor together with the ability to create custom nodes. Aditionally, it puts a strong emphasis on extensibility, which leads to a versatile plugin system.\nTo guarantee type safety, the entirety of the BaklavaJS ecosystem is written in TypeScript.\nThe core functionality is shipped in the  package. Any other functionality can be added a-la-carte by installing the desired plugins:\n-   **Engine**: Provides functions to run calculations with the graph.\n-   **Interface Types**: Adds types to node interfaces and allowing connections only between types that you want to. It can also automatically convert values from one type to another.\n-   **Vue Renderer**: Displays the editor in the browser using VueJS\n-   **Themes**: A collection of pre-built themes for BaklavaJS\nThere is also the  package, which contains the core package as well as all plugins.",
+      "tag": "Vue可视化节点编辑器"
+    },
+    {
+      "id": 105154070,
+      "name": "tdurieux/anonymous_github",
+      "stars": 1979,
+      "enhanced_text": "Anonymous Github is a proxy server to support anonymous browsing of Github repositories for open-science code and data.",
+      "tag": "GitHub匿名代理服务器"
+    },
+    {
+      "id": 197209898,
+      "name": "graphql-editor/graphql-zeus",
+      "stars": 1973,
+      "enhanced_text": "GraphQL client and GraphQL code generator with GraphQL autocomplete library generation ⚡⚡⚡ for browser,nodejs and react native ( apollo compatible ).",
+      "tag": "GraphQL客户端生成器"
+    },
+    {
+      "id": 368055570,
+      "name": "vytal-io/vytal-extension",
+      "stars": 1972,
+      "enhanced_text": "Browser extension to spoof timezone, geolocation, locale and user agent.\n\n# The Vytal extension was acquired and this repository will no longer receive updates.\nBrowser extension to spoof your timezone, geolocation, locale and user agent.\nThis extension allows you to customize your browser's settings to appear as if you are accessing the internet from a different location, locale, or device. This can be useful for testing websites, bypassing regional restrictions, or protecting your privacy online. With just a few clicks, you can change your time zone, locale, geolocation, and user agent to match your desired settings.\nMost extensions that provide these features rely on content scripts to inject script tags into web pages. There are many limitations to script tag injections which you can read about here: https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier\nVytal utilizes the chrome.debugger API to spoof this data instead. This allows the data to be spoofed in frames, web workers and during the initial loading of a website. It also makes the spoofing completely undetectable.\nVytal is not a VPN or proxy and will not change your IP. Although it can be used in combination with a VPN to obscure your true location.\nYou can test and compare Vytal and other extensions on https://vytal.io\nVytal contains collects no data and signup is not required.",
+      "tag": "浏览器指纹欺骗扩展"
+    },
+    {
+      "id": 80605091,
+      "name": "fengari-lua/fengari",
+      "stars": 1971,
+      "enhanced_text": "🌙 φεγγάρι - The Lua VM written in JS ES6 for Node and the browser.\n\nThis repository contains the core fengari code (which is a port of the Lua C library) which includes parser, virtual machine and base libraries.\nHowever it is rare to use this repository directly.\n- To use fengari in a web browser as easily as you might use JavaScript, see fengari-web\n- fengari-interop is a lua library that makes interoperating with JavaScript objects simple, it is already included in fengari-web.\n- For a clone of the  command line tool, but running under node.js, see fengari-node-cli\nOnce you've loaded fengari, you can use the JS API:\nThe JS API is exactly the same as the C API so  exposes the same constants and functions as ,  the same as  and  the same as . If you're unfamiliar with the C API, you can take a look at the manual.",
+      "tag": "JavaScript版Lua虚拟机"
+    },
+    {
+      "id": 78816383,
+      "name": "Cookie-AutoDelete/Cookie-AutoDelete",
+      "stars": 1957,
+      "enhanced_text": "Firefox and Chrome WebExtension that deletes cookies and other browsing site data as soon as the tab closes, domain changes, browser restarts, or a combination of those events.",
+      "tag": "Cookie自动删除扩展"
+    },
+    {
+      "id": 7813799,
+      "name": "fyhertz/spydroid-ipcamera",
+      "stars": 1953,
+      "enhanced_text": "A powerful and funny android app. that streams the camera and microphone of your phone to your browser or to VLC.\n\n* Spydroid is a little app. that *streams the camera and microphone of your phone to your browser or to VLC !*\n* It is *a fun app for pulling off pranks*: you can remotly trigger funny sounds on your phone or toggle its flash.\n* **Developers, start by reading this to find out how streaming is achieved in Spydroid.**\n* Check out the feature list to see what Spydroid is capable of :) And If you have questions, check out the FAQ.\n* If you enjoyed Spydroid, or its source code, please rate the app on Google Play, I would really appreciate :) And if you go and like the facebook page, you will be rewarded with all my gratitude :p\n* The stream can be directly read by VLC which is great because VLC is a very powerful tool, for example *you can really easily record the stream in a file*. [FAQ See the FAQ to find out how].\n* You can enable/disable sound or video streaming\n* The resolution, the bitrate and the framerate of the stream can be configured... Two video encoders are available for the video streaming: H.263 and H.264. For sound streaming AMR and AAC are available.\n* The flash can be controlled remotly !",
+      "tag": "Android摄像头流媒体应用"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 233356362,
+        "tag": "前端图像处理工具"
+      },
+      {
+        "id": 126199585,
+        "tag": "安卓浏览器组件库"
+      },
+      {
+        "id": 87403752,
+        "tag": "浏览器端AI推理框架"
+      },
+      {
+        "id": 214834409,
+        "tag": "DNS隐私过滤列表"
+      },
+      {
+        "id": 1620438,
+        "tag": "URL重定向扩展"
+      },
+      {
+        "id": 94893151,
+        "tag": "macOS默认浏览器选择器"
+      },
+      {
+        "id": 2643120,
+        "tag": "表单数据持久化插件"
+      },
+      {
+        "id": 135900664,
+        "tag": "跨标签页通信库"
+      },
+      {
+        "id": 159969526,
+        "tag": "Vue可视化节点编辑器"
+      },
+      {
+        "id": 105154070,
+        "tag": "GitHub匿名代理服务器"
+      },
+      {
+        "id": 197209898,
+        "tag": "GraphQL客户端生成器"
+      },
+      {
+        "id": 368055570,
+        "tag": "浏览器指纹欺骗扩展"
+      },
+      {
+        "id": 80605091,
+        "tag": "JavaScript版Lua虚拟机"
+      },
+      {
+        "id": 78816383,
+        "tag": "Cookie自动删除扩展"
+      },
+      {
+        "id": 7813799,
+        "tag": "Android摄像头流媒体应用"
+      }
+    ]
+  }
+}

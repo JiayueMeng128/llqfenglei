@@ -1,0 +1,16 @@
+{
+  "batch_id": 72,
+  "timestamp": "2026-02-05T15:29:22.130170",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 30087179,\n      \"tag\": \"WebXR兼容层\"\n    },\n    {\n      \"id\": 147781722,\n      \"tag\": \"移动应用浏览器组件\"\n    },\n    {\n      \"id\": 49662454,\n      \"tag\": \"Vim Git工具\"\n    },\n    {\n      \"id\": 239604498,\n      \"tag\": \"高保真网页存档扩展\"\n    },\n    {\n      \"id\": 688870667,\n      \"tag\": \"文献管理插件市场\"\n    },\n    {\n      \"id\": 36111399,\n      \"tag\": \"剪贴板操作库\"\n    },\n    {\n      \"id\": 15204429,\n      \"tag\": \"Elixir浏览器自动化库\"\n    },\n    {\n      \"id\": 494727853,\n      \"tag\": \"跨平台漫画浏览器\"\n    },\n    {\n      \"id\": 44635242,\n      \"tag\": \"Android悬浮窗示例\"\n    },\n    {\n      \"id\": 20046426,\n      \"tag\": \"Chromium浏览器取证工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 610,
+    "completion_tokens": 247,
+    "total_tokens": 857
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-bde531326547d329",
+  "created": 1770305332,
+  "finish_reason": "stop"
+}

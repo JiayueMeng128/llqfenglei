@@ -1,0 +1,180 @@
+{
+  "batch_id": 36,
+  "timestamp": "2026-02-05T13:27:57.312275",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 196062547,
+      "name": "schollz/hostyoself",
+      "stars": 1849,
+      "enhanced_text": "Host yo' self from your browser, your phone, your toaster.\n\nA hosting service from the browser, because why not. Try it at hostyoself.com.\nHere's an example where I use hostyoself.com to host itself. I use  to download hostyoself.com and then host hostyoself.com from hostyoself.com: hostyoself.com/hostyoself/. Happy 9th Anniversary Inception :cake:!\nOpen hostyoself.com and drag and drop a folder, or select a file. Your browser will host the files!\nYou can host files directly from the terminal!\nNow if you have a file in your folder  you can access it with the public URL , directly from your computer!\nIf you're on a Mac, you can install with Homebrew:\nOr you can host your current directory using Docker:",
+      "tag": "浏览器托管服务"
+    },
+    {
+      "id": 12198882,
+      "name": "kombai/freewall",
+      "stars": 1848,
+      "enhanced_text": "Freewall is a cross-browser and responsive jQuery plugin to help you create grid, image and masonry layouts  for desktop, mobile, and tablet...",
+      "tag": "jQuery布局插件"
+    },
+    {
+      "id": 900152988,
+      "name": "nottelabs/notte",
+      "stars": 1848,
+      "enhanced_text": "🌸 Best framework to build web agents, and deploy serverless web automation functions on reliable browser infra.",
+      "tag": "Web自动化框架"
+    },
+    {
+      "id": 11034722,
+      "name": "WhichBrowser/Parser-PHP",
+      "stars": 1839,
+      "enhanced_text": "Browser sniffing gone too far — A useragent parser library for PHP.\n\nAbout WhichBrowser\n**But why *almost completely useless* and not completely useless?**\nWell, there is always an exception to the rule. There are valid reasons to do browser sniffing: to improve the user experience or to gather intelligence about which browsers are used on your website. My website is html5test.com and I wanted to know which score belongs to which browser. And to do that you need a browser sniffing library.\n**Why is it extremely complicated?**\nBecause everybody lies. Seriously, there is not a single browser that is completely truthful. Almost all browsers say they are Netscape 5 and almost all WebKit browsers say they are based on Gecko. Even Internet Explorer 11 now no longer claims to be IE at all, but instead an unnamed browser that is like Gecko. And it gets worse. That is why it is complicated.\n**What kind of information does it give?**\nYou get a nice object which has information about the browser, rendering engine, os and device. It gives you names and versions and even device manufacturer and model. And WhichBrowser is pretty tenacious. It gives you info that others don't. For example:\nJUC (Linux; U; 2.3.6; zh-cn; GT-I8150; 480*800) UCWEB8.7.4.225/145/800\nUC Browser 8.7 on a Samsung Galaxy W running Android 2.3.6\nAndroid is never mentioned\nMozilla/5.0 (Series40; Nokia501/10.0.2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.0.0.0.73\nNokia Xpress 3.0.0 on a Nokia Asha 501 running Nokia Asha Platform\nDespite the useragent header claiming to be a Series40 device, we know it's actually running the Asha Platform and we also know that OviBrowser has been renamed to Nokia Xpress.\nOpera/9.80 (X11; Linux zvav; U; zh) Presto/2.8.119 Version/11.10\nOpera Mini on a Nokia 5230 running Series60 5.0",
+      "tag": "PHP用户代理解析库"
+    },
+    {
+      "id": 92241608,
+      "name": "mumuy/browser",
+      "stars": 1836,
+      "enhanced_text": "浏览器检测 - Useragent分析/浏览器识别/浏览器判断/用户代理信息/浏览器指纹/Useragent analysis tool/Browser detection.\n\n【项目主页】https://passer-by.com/browser/\n【BrowserIs.com】https://browseris.com/\n该 Javascript 库 / 模块可以用于前端也可以用于后端 Nodejs 中。\n1. 直接下载browser.js，然后使用 标签引入，可以得到全局函数 .",
+      "tag": "浏览器检测库"
+    },
+    {
+      "id": 7264874,
+      "name": "TTLabs/EvaporateJS",
+      "stars": 1826,
+      "enhanced_text": "Javascript library for browser to S3 multipart resumable uploads.\n\n## Features\n- Configurable number of parallel uploads for each part ()\n- Configurable MD5 Checksum calculations and handling for each uploaded\n- Pluggable signing methods with  to support AWS Lambda, async functions and more.\n- S3 Transfer Acceleration ()\n- Robust recovery when uploading huge files. Only parts that\nhave not been fully uploaded again. (, )\n- Ability to pause and resume downloads at will\n- Signing methods can respond to 401 and 403 response statuses and not trigger the automatic retry feature.\n- AWS Signature Version 2 and 4 ()\n- Reduced memory footprint when calculating MD5 digests.\n- Parallel file uploads while respecting .\n- If Evaporate reuses an interrupted upload or avoids uploading a file that is already available on S3, the new\ncallback  will be invoked with the previous object name at the earliest moment. This indicates\nthat requested object name was not used.",
+      "tag": "JavaScript S3上传库"
+    },
+    {
+      "id": 50481899,
+      "name": "mholt/curl-to-go",
+      "stars": 1824,
+      "enhanced_text": "Convert curl commands to Go code in your browser.\n\ncurl-to-Go is a tool to instantly convert curl commands to Go code in the browser. It does *not* guarantee high-fidelity conversions, but it's good enough for most API docs that have curl samples.\nThis is a sister tool to JSON-to-Go, which converts JSON to a Go struct type definition. To do the reverse, check out moul/http2curl.\n**Check it out!** It works inside your browser. Just give the code a once-over since it will need you to flesh out some parts like error handling.\n#### Does any curl command work?\nAny curl command should work, but only certain flags are understood and converted into Go code. The rest of the flags will be ignored.\n#### Which kinds of curl commands are understood?\nMostly simple HTTP commands (headers, basic auth, body, etc).\n#### Will you consider supporting *this-or-that* flag?\ncurl has like a bajillion options, so don't expect all of them to be implemented; just the most common/important ones to stub out code from API samples and docs, etc. But feel free to open an issue or submit a pull request! To request a new flag, please provide the equivalent Go code.",
+      "tag": "Curl转Go工具"
+    },
+    {
+      "id": 546006134,
+      "name": "parvardegr/sharing",
+      "stars": 1823,
+      "enhanced_text": "Sharing is a command-line tool to share directories and files from the CLI to iOS and Android devices without the need of an extra client app.\n\n**Share** directories and files from the CLI to iOS and Android devices without the need of an extra client app\n*sharing is depend on node v16.x or later*\n3. Scan the QR-Code with your phone\n-  both devices must connect to the same Wi-Fi or, if you have a public IP address, use the  parameter.",
+      "tag": "CLI文件共享工具"
+    },
+    {
+      "id": 258922512,
+      "name": "ShizukuIchi/pdf-editor",
+      "stars": 1817,
+      "enhanced_text": "Offline PDF editor. Add images, signatures, text to PDF in your browser. 🚀.\n\n## How to use pdf-editor?\n1. Click  to upload a  file.\n2. Add images, signatures, text to your PDF.\n4. That's it! All is done **in your browser**.",
+      "tag": "离线PDF编辑器"
+    },
+    {
+      "id": 5727081,
+      "name": "mikeerickson/validatorjs",
+      "stars": 1809,
+      "enhanced_text": "A data validation library in JavaScript for the browser and Node.js,  inspired by Laravel's Validator.",
+      "tag": "JavaScript数据验证库"
+    },
+    {
+      "id": 1030561901,
+      "name": "nook-browser/Nook",
+      "stars": 1788,
+      "enhanced_text": "A new browser, not owned by Atlassian.\n\n## Features\n-  **Sidebar-first navigation** – vertical tabs that feel natural and uncluttered.\n-  **Performance** – optimized with modern macOS APIs for speed and low memory use.\n-  **Minimal, modern UI** – focused on content, not chrome.",
+      "tag": "桌面浏览器"
+    },
+    {
+      "id": 43526326,
+      "name": "Haptic-Apps/Slide",
+      "stars": 1782,
+      "enhanced_text": "Slide is an open-source, ad-free Reddit browser for Android.\n\nThis project will be on indefinite hiatus for the foreseeable future, and may not be maintained.\nYou may continue to use Slide if you so wish.\nHowever, with this said, it would be recommended to consider migrating to another (more stable) Reddit client.\nSome other open-source (and internally ad-free) Reddit clients include:\nSlide is an open-source, ad-free Reddit browser for Android.",
+      "tag": "Android Reddit客户端"
+    },
+    {
+      "id": 51307118,
+      "name": "opensheetmusicdisplay/opensheetmusicdisplay",
+      "stars": 1780,
+      "enhanced_text": "OpenSheetMusicDisplay renders sheet music in MusicXML format in your web browser based on VexFlow. OSMD is brought to you by PhonicScore.com.\n\nAbout OSMD • Demo • Key Features • Limitations • How to Use OSMD • Sponsor OSMD • About Us • Get In Touch\n:star: - Star us on Github - It really helps us a lot!\n:pray: - Become our Sponsor - Support our work and receive awesome perks!\n\nFeatures in the making, potentially available in future:\n* Annotations (Add custom text, music symbols, etc. to the score and export to and import from XML)\n* and more (we're always working on OSMD improvements or additional features, just look at our release history / changelog!)\nBesides the early access features, you can get other perks like a personal postcard from the team in Vienna. Check them out at our GitHub sponsors page.\nAnd there are other ways to contribute to the community - we plan on starting a blog and newsletter, and sharing our knowledge. We encourage our sponsors to bring up their desired features and pitch blog post ideas.\nThough we highly recommend the sponsor route, you can also donate via Paypal:\nAny support is highly appreciated.\n\n## How to Use OSMD\n* Available as NPM module, can be used with plain javascript or module managers like webpack\n* Getting Started: Detailed instructions in our Wiki\n* If you have further technical questions, you can:\n* Leave a comment in our Discussions section (especially for questions of understanding)\n* Browse through our Issues\n* Open a new issue (may be moved to Discussions).\n## Sponsor OSMD and get early access to the audio player and more\nIt would be great if free software were sustainable on its own. But to keep on improving and developing OpenSheetMusicDisplay we need your support. Your monthly sponsorship subscription - especially if you are already actively using OSMD - would mean everything to us - it’s a stable way of enabling us to continue our work, and improve and expand OSMD.\n\nFeatures already available in early access:\n* Native modules + example projects (React Native, Kotlin/Android, Swift/iOS) - NEW!\n* Jianpu Display (Numbered Musical Notation), with playback\n\n## About OSMD\nOpenSheetMusicDisplay renders MusicXML sheet music in the browser. It is the missing link between MusicXML and VexFlow. Built upon many years of experience in both sheet music interactivity and engraving, it is the perfect solution for app developers seeking to build digital sheet music services.\nMusicXML is the de facto standard for exchanging sheet music between music software.\nVexFlow is widely used for rendering sheet music...",
+      "tag": "Web乐谱渲染库"
+    },
+    {
+      "id": 695250589,
+      "name": "alganzory/HaramBlur",
+      "stars": 1780,
+      "enhanced_text": "A Browser extension that enables you to navigate the web with respect for your Islamic values, protect your privacy and reduce browsing distractions by auto detecting and blurring \"Haram\" content.\n\n## Features\n-   Works on images and videos that contain unwanted or impermissible content\n-   Works on most (if not all) websites and social media platforms\n-   Configurable detection settings to tailor your browsing experience\n-   Interactive pop-up for easy on/off toggling\n-   Customizable hover to unblur feature\n-   Decent speed and accuracy (continously improved)\nHaramBlur currently used face detection and recognition features provided by Human library to detect faces and blur them based on the user settings and preferences. It also uses NSFW detection provided by nsfwjs to further improve the accuracy. You can configure the type of detection you want and the amount of blur, hover to unblur, or turn the extension on and off via the interactive pop-up.",
+      "tag": "内容过滤浏览器扩展"
+    },
+    {
+      "id": 8328202,
+      "name": "adamschwartz/chrome-tabs",
+      "stars": 1779,
+      "enhanced_text": "Chrome-style tabs in HTML/CSS.\n\nExactly what you think this is. Go wild.\nDrag-and-drop support provided by Draggabilly by @desandro.",
+      "tag": "HTML/CSS标签组件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 196062547,
+        "tag": "浏览器托管服务"
+      },
+      {
+        "id": 12198882,
+        "tag": "jQuery布局插件"
+      },
+      {
+        "id": 900152988,
+        "tag": "Web自动化框架"
+      },
+      {
+        "id": 11034722,
+        "tag": "PHP用户代理解析库"
+      },
+      {
+        "id": 92241608,
+        "tag": "浏览器检测库"
+      },
+      {
+        "id": 7264874,
+        "tag": "JavaScript S3上传库"
+      },
+      {
+        "id": 50481899,
+        "tag": "Curl转Go工具"
+      },
+      {
+        "id": 546006134,
+        "tag": "CLI文件共享工具"
+      },
+      {
+        "id": 258922512,
+        "tag": "离线PDF编辑器"
+      },
+      {
+        "id": 5727081,
+        "tag": "JavaScript数据验证库"
+      },
+      {
+        "id": 1030561901,
+        "tag": "桌面浏览器"
+      },
+      {
+        "id": 43526326,
+        "tag": "Android Reddit客户端"
+      },
+      {
+        "id": 51307118,
+        "tag": "Web乐谱渲染库"
+      },
+      {
+        "id": 695250589,
+        "tag": "内容过滤浏览器扩展"
+      },
+      {
+        "id": 8328202,
+        "tag": "HTML/CSS标签组件"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 56,
+  "timestamp": "2026-02-05T14:37:16.186119",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 705574656,
+      "name": "lencx/Noi",
+      "stars": 8696,
+      "enhanced_text": "🚀 Less chaos. More flow.",
+      "tag": "浏览器侧边栏工具"
+    },
+    {
+      "id": 2828239,
+      "name": "TiddlyWiki/TiddlyWiki5",
+      "stars": 8540,
+      "enhanced_text": "A self-contained JavaScript wiki for the browser, Node.js, AWS Lambda etc.",
+      "tag": "单文件Wiki引擎"
+    },
+    {
+      "id": 98770076,
+      "name": "isomorphic-git/isomorphic-git",
+      "stars": 8071,
+      "enhanced_text": "A pure JavaScript implementation of git for node and browsers!",
+      "tag": "JavaScript Git客户端"
+    },
+    {
+      "id": 389813360,
+      "name": "ComicSparks/pikapika",
+      "stars": 7875,
+      "enhanced_text": "A comic browser，support Android / iOS / MacOS / Windows / Linux.",
+      "tag": "跨平台漫画浏览器"
+    },
+    {
+      "id": 21251069,
+      "name": "feross/simple-peer",
+      "stars": 7784,
+      "enhanced_text": "📡 Simple WebRTC video, voice, and data channels.",
+      "tag": "WebRTC数据通道库"
+    },
+    {
+      "id": 127546642,
+      "name": "unjs/consola",
+      "stars": 7143,
+      "enhanced_text": "🐨 Elegant Console Logger for Node.js and Browser.",
+      "tag": "跨环境控制台日志库"
+    },
+    {
+      "id": 197205035,
+      "name": "DIYgod/RSSHub-Radar",
+      "stars": 6941,
+      "enhanced_text": "🧡 Browser extension that simplifies finding and subscribing RSS and RSSHub.",
+      "tag": "浏览器RSS订阅扩展"
+    },
+    {
+      "id": 332757634,
+      "name": "jonasstrehle/supercookie",
+      "stars": 6918,
+      "enhanced_text": "⚠️ Browser fingerprinting via favicon!",
+      "tag": "浏览器指纹识别工具"
+    },
+    {
+      "id": 59700207,
+      "name": "beakerbrowser/beaker",
+      "stars": 6761,
+      "enhanced_text": "An experimental peer-to-peer Web browser.",
+      "tag": "P2P网络浏览器"
+    },
+    {
+      "id": 106549179,
+      "name": "bromite/bromite",
+      "stars": 6205,
+      "enhanced_text": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!",
+      "tag": "隐私增强Chromium分支"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 705574656,
+        "tag": "浏览器侧边栏工具"
+      },
+      {
+        "id": 2828239,
+        "tag": "单文件Wiki引擎"
+      },
+      {
+        "id": 98770076,
+        "tag": "JavaScript Git客户端"
+      },
+      {
+        "id": 389813360,
+        "tag": "跨平台漫画浏览器"
+      },
+      {
+        "id": 21251069,
+        "tag": "WebRTC数据通道库"
+      },
+      {
+        "id": 127546642,
+        "tag": "跨环境控制台日志库"
+      },
+      {
+        "id": 197205035,
+        "tag": "浏览器RSS订阅扩展"
+      },
+      {
+        "id": 332757634,
+        "tag": "浏览器指纹识别工具"
+      },
+      {
+        "id": 59700207,
+        "tag": "P2P网络浏览器"
+      },
+      {
+        "id": 106549179,
+        "tag": "隐私增强Chromium分支"
+      }
+    ]
+  }
+}

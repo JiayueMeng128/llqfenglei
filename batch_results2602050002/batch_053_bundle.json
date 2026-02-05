@@ -1,0 +1,125 @@
+{
+  "batch_id": 53,
+  "timestamp": "2026-02-05T14:36:39.887549",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 171072967,
+      "name": "pedroslopez/whatsapp-web.js",
+      "stars": 21082,
+      "enhanced_text": "A WhatsApp client library for NodeJS that connects through the WhatsApp Web browser app.",
+      "tag": "NodeJS客户端库"
+    },
+    {
+      "id": 412741449,
+      "name": "AutomaApp/automa",
+      "stars": 20980,
+      "enhanced_text": "A browser extension for automating your browser by connecting blocks.",
+      "tag": "浏览器自动化扩展"
+    },
+    {
+      "id": 3834332,
+      "name": "bokeh/bokeh",
+      "stars": 20322,
+      "enhanced_text": "Interactive Data Visualization in the browser, from  Python.",
+      "tag": "Python数据可视化库"
+    },
+    {
+      "id": 764723738,
+      "name": "Skyvern-AI/skyvern",
+      "stars": 20293,
+      "enhanced_text": "Automate browser based workflows with AI.",
+      "tag": "AI浏览器自动化"
+    },
+    {
+      "id": 3428345,
+      "name": "ftlabs/fastclick",
+      "stars": 18577,
+      "enhanced_text": "Polyfill to remove click delays on browsers with touch UIs.",
+      "tag": "移动端交互优化库"
+    },
+    {
+      "id": 58327877,
+      "name": "browsh-org/browsh",
+      "stars": 18447,
+      "enhanced_text": "A fully-modern text-based browser, rendering to TTY and browsers.",
+      "tag": "终端命令行浏览器"
+    },
+    {
+      "id": 134035452,
+      "name": "justadudewhohacks/face-api.js",
+      "stars": 17755,
+      "enhanced_text": "JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js.",
+      "tag": "浏览器人脸识别库"
+    },
+    {
+      "id": 40518025,
+      "name": "graphql/graphiql",
+      "stars": 16782,
+      "enhanced_text": "GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.",
+      "tag": "GraphQL开发工具"
+    },
+    {
+      "id": 30064588,
+      "name": "video-dev/hls.js",
+      "stars": 16459,
+      "enhanced_text": "HLS.js is a JavaScript library that plays HLS in browsers with support for MSE.",
+      "tag": "HLS视频播放库"
+    },
+    {
+      "id": 84009,
+      "name": "jasmine/jasmine",
+      "stars": 15848,
+      "enhanced_text": "Simple JavaScript testing framework for browsers and node.js.",
+      "tag": "JavaScript测试框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 171072967,
+        "tag": "NodeJS客户端库"
+      },
+      {
+        "id": 412741449,
+        "tag": "浏览器自动化扩展"
+      },
+      {
+        "id": 3834332,
+        "tag": "Python数据可视化库"
+      },
+      {
+        "id": 764723738,
+        "tag": "AI浏览器自动化"
+      },
+      {
+        "id": 3428345,
+        "tag": "移动端交互优化库"
+      },
+      {
+        "id": 58327877,
+        "tag": "终端命令行浏览器"
+      },
+      {
+        "id": 134035452,
+        "tag": "浏览器人脸识别库"
+      },
+      {
+        "id": 40518025,
+        "tag": "GraphQL开发工具"
+      },
+      {
+        "id": 30064588,
+        "tag": "HLS视频播放库"
+      },
+      {
+        "id": 84009,
+        "tag": "JavaScript测试框架"
+      }
+    ]
+  }
+}

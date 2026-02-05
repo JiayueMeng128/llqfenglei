@@ -1,0 +1,180 @@
+{
+  "batch_id": 32,
+  "timestamp": "2026-02-05T13:27:03.158256",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 854084975,
+      "name": "botswin/BotBrowser",
+      "stars": 2187,
+      "enhanced_text": "Advanced Privacy Browser Core with Unified Fingerprint Defense: Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, Adscore.\n\n## What Is BotBrowser?\nBotBrowser is a privacy-first browser core designed to protect users from browser fingerprinting, a technique recognized as a privacy threat by W3C, major browser vendors, and EU regulators (see references). It keeps fingerprint signals uniform across every platform, preventing tracking systems from collecting and correlating data to identify users. Run the same profile on Windows, macOS, or Linux and the fingerprint posture stays identical each time.\nAll engineering focuses on privacy research, cross-platform tracking-resistance validation, and maintaining protected environments for authorized defensive benchmarking. Review the project Legal Disclaimer and Responsible Use Guidelines before using the software.\n> **What makes BotBrowser different:** Cross-platform privacy browser core with unified fingerprint technology that prevents tracking data collection and device linkage.\nHigh-fidelity Profile Simulation including Android WebView, keeps synthetic and aggregated fingerprints ready for policy-compliant privacy experiments\nLatest Chromium Base stays synced to the newest stable Chrome so trackers cannot key on stale engines\nAdvanced Programmatic Control offers Playwright/Puppeteer integration with CDP leak blocking so privacy tooling leaves no telemetry residue\nNetwork Stack Parity with Full-Proxy QUIC/STUN (UDP over SOCKS5) delivers Chromium-level tunneling so geo metadata does not leak and privacy labs maintain clean transport parity\nDistributed Privacy Consistency lets you verify privacy protection across multiple browser instances simultaneously with Mirror, validating privacy posture in parallel\nPer-Context Fingerprint enables independent fingerprint bundles per BrowserContext without spawning new processes, with millisecond-level switching and reduced memory overhead\n### Cross-Platform Fingerprint Protection\n- Single profile, every host OS: identical UA, screen metrics, touch surfaces, fonts, and device APIs on Windows, macOS, Linux (ENT Tier1), Android (PRO), and WebView (ENT Tier3) so trackers see the same fingerprint everywhere.\n- Built-in configuration handles touch simulation, device metrics, and locale/timezone detection from the proxy IP while still allowing CLI overrides when privacy experiments require them.\n- Quick demos: ▶️ CreepJS Android • ▶️ Iphey • ▶️ Pixelscan\n\n## Getting Started",
+      "tag": "隐私浏览器内核"
+    },
+    {
+      "id": 357335336,
+      "name": "react-hookz/web",
+      "stars": 2183,
+      "enhanced_text": "React hooks done right, for browser and SSR.\n\nis a library of general-purpose React hooks built with care and SSR compatibility in mind.\nThis one is pretty simple, everyone knows what to do:\nAs hooks was introduced to the world in React 16.8,  requires - you guessed it -  and\n16.8+. Also, as React does not support IE,  don't either.\n> This package distributed with ESNext language level and ES modules system. It means that depending on your browser\n> target you might need to transpile it. Every major bundler provides a way to transpile  fully or\n> partially. Address your bundler documentation for more details.\nIn case your bundler supports tree-shaking (most of modern does) - both variants are equal and only necessary code will",
+      "tag": "React Hooks库"
+    },
+    {
+      "id": 3434927,
+      "name": "plasma-umass/doppio",
+      "stars": 2182,
+      "enhanced_text": "Breaks the browser language barrier (includes a plugin-free JVM).\n\ndoppio: A JVM in TypeScript v0.5.0\n_doppio_ is a double shot of espresso.\nIn this case, it's also a POSIX-compatible runtime system plus a JVM written in TypeScript and an active research project of the PLASMA group at the University of Massachusetts.\nTo try doppio now, head to the live demo page.\nTo learn more, read some documentation, or read our academic paper (alt. link w/ no paywall) published at PLDI 2014!\nYou can also get in touch via our [mailing list][mail] or via the IRC channel\n[mail]: https://groups.google.com/forum/?fromgroups#!forum/plasma-umass-gsoc\nBefore attempting to build doppio, you must have the following installed:",
+      "tag": "浏览器JVM运行时"
+    },
+    {
+      "id": 18736041,
+      "name": "yeojz/otplib",
+      "stars": 2181,
+      "enhanced_text": "One Time Password (OTP) / 2FA for Node.js and Browser - Supports HOTP, TOTP and Google Authenticator.\n\n## Features\n- **Zero Configuration** - Works out of the box with sensible defaults\n- **RFC Compliant** - RFC 6238 (TOTP) and RFC 4226 (HOTP)\n- **TypeScript-First** - Full type definitions\n- **Google Authenticator Compatible** - Full otpauth:// URI support\n- **Plugin Interface** - Flexible plugin system for customising your cryptographic and base32 requirements (if you want to deviate from the defaults)\n- **Cross-platform** - Tested against Node.js, Bun, Deno, and browsers\n## Breaking Changes (v13)\n> v13 is a complete rewrite with breaking changes:\n>   - **Security-audited plugins** — Default crypto uses  and , both independently audited\n>   - **Cross-platform defaults** — Works out-of-the-box in Node.js, Bun, Deno, and browsers\n>   - **Full type safety** — Comprehensive TypeScript types with strict mode from the ground up\n>   - **Async-first API** — All operations are async by default; sync variants available for compatible plugins\n>   - **Separate authenticator package** — TOTP now covers all authenticator functionality\n>   - **Outdated plugins** — Legacy crypto adapters removed in favor of modern, audited alternatives",
+      "tag": "跨平台OTP库"
+    },
+    {
+      "id": 575445105,
+      "name": "raycast/ray-so",
+      "stars": 2173,
+      "enhanced_text": "Create code snippets, browse AI prompts, create extension icons and more.\n\nThis repository contains the source code for ray.so, a collection of tools built by Raycast. It includes:\n- **Code Images**: Create beautiful images of your code.\n- **Icon Maker**: Create beautiful icons for Raycast Extensions.\n- **Prompt Explorer**: Explore AI Prompts for Raycast.\n- **Preset Explorer**: Explore AI Presets for Raycast.\n- **Quicklink Explorer**: Browse and import Raycast Quicklinks.\n- **Snippet Explorer**: Browse and import Raycast Snippets.\n- **Theme Explorer**: Browse and import Raycast Themes.",
+      "tag": "开发者工具集"
+    },
+    {
+      "id": 266156053,
+      "name": "MasterKale/SimpleWebAuthn",
+      "stars": 2163,
+      "enhanced_text": "WebAuthn, Simplified. A collection of TypeScript-first libraries for simpler WebAuthn integration. Supports modern browsers, Node, Deno, and more.\n\n## Overview\nThis project features two complimentary libraries to help reduce the amount of work needed to\nincorporate WebAuthn into a website. The following packages are maintained here:\n- @simplewebauthn/server\n- @simplewebauthn/browser\n\n## Installation\nSimpleWebAuthn can be installed from **NPM** and\n**JSR** in **Node LTS 20.x and higher**, **Deno v1.43 and higher**\nprojects, and other compatible runtimes (Cloudflare Workers, Bun, etc...)\nSee the packages' READMEs for more specific installation information.\nIn-depth documentation for this project is available at https://simplewebauthn.dev/docs\nThank you very much to those who sponsor my work. Your contributions help keep the open-source dream\nInterested in sponsoring this project? See here for more info:\nhttps://github.com/sponsors/MasterKale\n### 🌟 Platinum Sponsor\nSimple Authentication. Make login our problem. Not yours.\nSimple, drop-in passkeys and MFA as a Service\nFor a practical guide to implementing these libraries, take a look at the\nexample project. It includes a\nsingle-file Express server and a few HTML files that, combined with the packages in this repo, are",
+      "tag": "WebAuthn集成库"
+    },
+    {
+      "id": 1621009,
+      "name": "wavded/humane-js",
+      "stars": 2162,
+      "enhanced_text": "A simple, modern, browser notification system.\n\nThis project was heavily inspired by humanmsg project for jQuery.  I really\nliked the project but I wanted to remove the jQuery dependency, add support for CSS transitions, and have more\ncontrol over the timing.  I consider the project complete and don't plan on adding any new features except for any bug fixes.\nhumane.js tries to be as unobtrusive as possible to the user experience while providing helpful information that is\nclear and grabs the users attention.  It is framework independent.  Customizable.\n- Include the theme CSS in your page",
+      "tag": "浏览器通知库"
+    },
+    {
+      "id": 17066478,
+      "name": "taylorhakes/promise-polyfill",
+      "stars": 2158,
+      "enhanced_text": "Lightweight ES6 Promise polyfill for the browser and node. A+ Compliant.\n\nthe spec. It is a perfect polyfill IE or any other browser that does\nFor API information about Promises, please check out this article\nIt is extremely lightweight. **_\nimport 'promise-polyfill/src/polyfill';\nimport Promise from 'promise-polyfill';\nvar Promise = require('promise-polyfill').default;",
+      "tag": "ES6 Promise垫片"
+    },
+    {
+      "id": 32695583,
+      "name": "ipfs/ipfs-companion",
+      "stars": 2153,
+      "enhanced_text": "Browser extension that simplifies access to IPFS resources on the web.\n\n## About IPFS Companion\nIPFS Companion harnesses the power of your locally running IPFS Kubo node (either through the IPFS Desktop app or the command-line daemon) directly inside your favorite Chromium-based or Firefox browser, enabling support for  addresses, redirecting content-addressed websites and file paths to your local Gateway, easy IPFS file import and sharing, and more.\nIPFS is a peer-to-peer hypermedia protocol designed to make the web faster, safer, more resilient, and more open. It enables completely distributed sites and applications that don’t rely on centralized hosting and stay true to the original vision of an open, flat web. Visit the IPFS Project website to learn more.\n## IPFS Companion features\n### Automatically detect and redirect IPFS resources\n#### Detect URLs with IPFS paths\nIPFS Companion detects requests for IPFS-like paths (such as  or ) on any website. If a path is a valid IPFS address, it is redirected to load from your local gateway. The gateway at  will also automatically switch to a subdomain gateway to provide a unique origin for each website:\n> **Path gateway redirect flow:**\n> - **Step 1:** Public gateway URL detected\n> - **Step 2:** Redirect to local gateway\n> - **Step 3:** Automatic upgrade to subdomain with origin isolation\n> **Subdomain gateway redirect flow:**\n> - **Step 1:** Subdomain gateway URL detected\n> - **Step 2:** Redirect to local subdomain with origin isolation\n#### Detect DNSLink-enabled URLs",
+      "tag": "IPFS浏览器扩展"
+    },
+    {
+      "id": 812156,
+      "name": "vitch/jScrollPane",
+      "stars": 2152,
+      "enhanced_text": "Pretty, customisable, cross browser replacement scrollbars.\n\n# jScrollPane - cross browser custom scroll bars\njScrollPane is a jQuery plugin which allows you to replace a browser's default scroll bars (on an element which has **overflow: auto**) with a HTML structure that can be easily skinned using CSS.\nTo see a bunch of examples of jScrollPane in action please visit the jScrollPane website. All of the code for the website is available from this repository so please feel free to download and use it!\nUp-to-date CDN version is kindly provided by: CDNJS jScrollPane\nUp-to-date Node version jScrollPane is also available from NPM.\njScrollPane packed as Ruby gem is also available.\nPlease feel free to make Bug reports against project but if you are making Issue in this project please read below.\n### Every Issue should have these",
+      "tag": "jQuery滚动条插件"
+    },
+    {
+      "id": 152989255,
+      "name": "lukehaas/RunJS",
+      "stars": 2149,
+      "enhanced_text": "RunJS is a JavaScript playground for macOS, Windows and Linux. Write code with instant feedback and access to Node.js and browser APIs.\n\nRunJS is a playground for JavaScript and TypeScript. It runs your code automatically and shows you instant results.\n- An isolated space to run code experiments 🔬\n- Great for learning and teaching 🧑‍🏫\n- Support for code completion, type checking and documentation on hover ⚡️\n- Easily install NPM packages 🚀\n- Save snippets and build a snippet library 🧑‍💻\n- Includes access to Node.js and Browser APIs 🖥️\nDownload the latest release here.",
+      "tag": "JavaScript游乐场"
+    },
+    {
+      "id": 182410,
+      "name": "stephencelis/ghi",
+      "stars": 2126,
+      "enhanced_text": "GitHub Issues on the command line. Use your $EDITOR, not your browser.\n\nGitHub Issues on the command line. Use your , not your browser.\nwas originally created by Stephen Celis, and is now maintained by drazisil's fork here.\nVia brew (latest stable release):\nVia gem (latest stable release):\nVia curl (latest bleeding-edge versions, may not be stable):\nYou may get a strange error if you use SourceTree, similar to #275 and #189. You can follow the steps here to resolve this.\nIf you're looking for a place to start, there are issues we need help with!\nOnce you have an idea of what you want to do, there is a section in the wiki to provide more detailed information but the basic steps are as follows.",
+      "tag": "命令行GitHub工具"
+    },
+    {
+      "id": 747776268,
+      "name": "Naezr/ShyFox",
+      "stars": 2126,
+      "enhanced_text": "A very shy little theme that hides the entire browser interface in the window border.\n\n### Install\n#### Step 1 - Download files\n- Download and unzip theme files\n#### Step 2 - Configure extensions\n- Install Userchrome toggle Extended\nConfigure Userchrome toggle Extended\nYou need to turn on \"Allow multiple styles to be active together\" and turn on the first four toggles. If you will be using a popup, enable \"Close popup after clicking toggle\" and rename the toggles for convenience. Play with the rest of the settings as you wish. Make sure you click \"Apply changes\" button after all\nIt would also be nice to customize the shortcuts for toggles. I recommend these:\nIf you used Sidebery before, it would be better to reset its settings to default.\nThen import  from unzipped theme files\n#### Step 3 - Moving files to a profile folder\n- Find your profile directory\n- Move  folder and  file from unzipped theme files into your profile directory\nProfile folder structure\n#### Step 4 - Buttons layout",
+      "tag": "Firefox界面主题"
+    },
+    {
+      "id": 115543662,
+      "name": "keepassxreboot/keepassxc-browser",
+      "stars": 2119,
+      "enhanced_text": "KeePassXC Browser Extension.\n\nBrowser extension for KeePassXC with native messaging.\nThis browser extension was first supported in KeePassXC 2.3.0 (release end of 2017). In general it is advised to only use the latest available release.\nGet the extension for Firefox or Chrome/Chromium or Microsoft Edge.\nPlease see this document for instructions how to configure KeePassXC in order to connect the database correctly.\nKeePassXC-Browser communicates with KeePassXC through _keepassxc-proxy_. The proxy handles listening to STDIN/STDOUT\nand transfers these messages through Unix domain sockets / named pipes to KeePassXC. This means KeePassXC can be used and started normally without inteference from\nNative Messaging API. KeePassXC-Browser starts only the proxy application and there's no risk of shutting down KeePassXC or losing any unsaved changes. You don't need to install keepassxc-proxy separately. It is included in the KeePassXC application package. Alternatively you can use",
+      "tag": "密码管理器扩展"
+    },
+    {
+      "id": 75990052,
+      "name": "mozilla-mobile/focus-android",
+      "stars": 2101,
+      "enhanced_text": "⚠️ Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android.\n\n_Browse like no one’s watching. The new Firefox Focus automatically blocks a wide range of online trackers — from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won’t get followed by things like unwanted ads._\nFirefox Focus provides automatic ad blocking and tracking protection on an easy-to-use private browser.\n* Google Play: Firefox Focus (Global)\n* Google Play: Firefox Klar (Germany, Austria & Switzerland)\nWe encourage you to participate in this open source project. We love Pull Requests, Bug Reports, ideas, (security) code reviews or any other kind of positive contribution.\nBefore you attempt to make a contribution please read the Community Participation Guidelines.\n* Guide to Contributing (**New contributors start here!**)",
+      "tag": "隐私保护浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 854084975,
+        "tag": "隐私浏览器内核"
+      },
+      {
+        "id": 357335336,
+        "tag": "React Hooks库"
+      },
+      {
+        "id": 3434927,
+        "tag": "浏览器JVM运行时"
+      },
+      {
+        "id": 18736041,
+        "tag": "跨平台OTP库"
+      },
+      {
+        "id": 575445105,
+        "tag": "开发者工具集"
+      },
+      {
+        "id": 266156053,
+        "tag": "WebAuthn集成库"
+      },
+      {
+        "id": 1621009,
+        "tag": "浏览器通知库"
+      },
+      {
+        "id": 17066478,
+        "tag": "ES6 Promise垫片"
+      },
+      {
+        "id": 32695583,
+        "tag": "IPFS浏览器扩展"
+      },
+      {
+        "id": 812156,
+        "tag": "jQuery滚动条插件"
+      },
+      {
+        "id": 152989255,
+        "tag": "JavaScript游乐场"
+      },
+      {
+        "id": 182410,
+        "tag": "命令行GitHub工具"
+      },
+      {
+        "id": 747776268,
+        "tag": "Firefox界面主题"
+      },
+      {
+        "id": 115543662,
+        "tag": "密码管理器扩展"
+      },
+      {
+        "id": 75990052,
+        "tag": "隐私保护浏览器"
+      }
+    ]
+  }
+}

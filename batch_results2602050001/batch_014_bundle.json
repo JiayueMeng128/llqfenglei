@@ -1,0 +1,180 @@
+{
+  "batch_id": 14,
+  "timestamp": "2026-02-05T13:22:05.328090",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 518486100,
+      "name": "NirmalScaria/le-git-graph",
+      "stars": 5801,
+      "enhanced_text": "Browser extension to add git graph to GitHub website.\n\nInstall the extension from the link -\nFor Google Chrome, Opera, Vivaldi, Brave, and Microsoft Edge:\nhttps://chrome.google.com/webstore/detail/le-git-graph-commits-grap/joggkdfebigddmaagckekihhfncdobff\nhttps://addons.mozilla.org/firefox/addon/le-git-graph-github-git-graph/\nAfter installation, open any GitHub repository and a new 'Commits' tab will be visible.\nOpen the commits tab and follow the prompt to authenticate with your GitHub account.\n## Why does it need write access\nThe extension asks for permission in the level\nLe Git Graph requires only read access to public or private repositories.\nThe reason is only because there is no  access level supported by Github OAuth.\n(You can read the discussion here https://github.com/orgs/community/discussions/7891 )\nEven though access is requested for read and write, the extension only uses it for read operations, as you can see in the source code.\n## Setup for Private Repos owned by an Organization\nAccess to private repositories owned by an organization is restricted by default. To access the commits graph for such repositories, you need to follow the following steps.\n1. Go to https://github.com/settings/tokens\n\n## Installation",
+      "tag": "GitHub增强扩展"
+    },
+    {
+      "id": 149144662,
+      "name": "lucaong/minisearch",
+      "stars": 5769,
+      "enhanced_text": "Tiny and powerful JavaScript full-text search engine for browser and Node.\n\n## Features\n* Memory-efficient index, designed to support memory-constrained use cases\nlike mobile browsers.\n* Exact match, prefix search, fuzzy match, field boosting.\n* Auto-suggestion engine, for auto-completion of search queries.\n* Modern search result ranking algorithm.\n* Documents can be added and removed from the index at any time.\n* Zero external dependencies.\nstrives to expose a simple API that provides the building blocks to\nbuild custom solutions, while keeping a small and well tested codebase.",
+      "tag": "JavaScript全文搜索库"
+    },
+    {
+      "id": 3618133,
+      "name": "web-platform-tests/wpt",
+      "stars": 5761,
+      "enhanced_text": "Test suites for Web platform specs — including WHATWG, W3C, and others.\n\nThe web-platform-tests Project is a cross-browser test suite for the\nWeb-platform stack. Writing tests in a way that allows them to be run in all\nbrowsers gives browser projects confidence that they are shipping software that\nis compatible with other implementations, and that later implementations will\nbe compatible with their implementations. This in turn gives Web\nauthors/developers confidence that they can actually rely on the Web platform\nto deliver on the promise of working across browsers and devices without\nneeding extra layers of abstraction to paper over the gaps left by\nspecification editors and implementors.",
+      "tag": "Web平台测试套件"
+    },
+    {
+      "id": 96284790,
+      "name": "prasathmani/tinyfilemanager",
+      "stars": 5759,
+      "enhanced_text": "Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager.",
+      "tag": "PHP文件管理器"
+    },
+    {
+      "id": 1673025,
+      "name": "bowser-js/bowser",
+      "stars": 5712,
+      "enhanced_text": "a browser detector.\n\nA small, fast and rich-API browser/platform/engine detector for both browser and node.\n- **Small.** Use plain ES5-version which is ~4.8kB gzipped.\n- **Optimized.** Use only those parsers you need — it doesn't do useless work.\n- **Multi-platform.** It's browser- and node-ready, so you can use it in any environment.\nDon't hesitate to support the project on Github or OpenCollective if you like it ❤️ Also, contributors are always welcome!\nThe library is made to help to detect what browser your user has and gives you a convenient API to filter the users somehow depending on their browsers. Check it out on this page: https://bowser-js.github.io/bowser-online/.\n### ⚠️ Version 2.0 breaking changes ⚠️\nVersion 2.0 has drastically changed the API. All available methods are on the docs page.\n_For legacy code, check out the 1.x branch and install it through ._",
+      "tag": "浏览器检测库"
+    },
+    {
+      "id": 956283541,
+      "name": "BrowserMCP/mcp",
+      "stars": 5690,
+      "enhanced_text": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser.",
+      "tag": "浏览器自动化控制"
+    },
+    {
+      "id": 720466801,
+      "name": "lxfater/inpaint-web",
+      "stars": 5664,
+      "enhanced_text": "A free and open-source inpainting & image-upscaling tool powered by webgpu and wasm on the browser。|   基于 Webgpu 技术和 wasm 技术的免费开源 inpainting & image-upscaling 工具, 纯浏览器端实现。.",
+      "tag": "WebGPU图像处理工具"
+    },
+    {
+      "id": 384330997,
+      "name": "rcmaehl/MSEdgeRedirect",
+      "stars": 5621,
+      "enhanced_text": "A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser.\n\nA Tool to Redirect News, Search, Widgets, Weather, and More to Your Default Browser\nThis tool filters and passes the command line arguments of Microsoft Edge processes into your default browser instead of hooking into the  handler, this should provide resiliency against future changes. Additionally, an Image File Execution Options mode is available to operate similarly to the Old EdgeDeflector. Additional modes are planned for future versions.\nNo Default App walkthrough or other steps, just set and forget.\n> :warning: PLEASE NOTE: MSEdgeRedirect is still BETA. Changes are to be expected, and performance to be improved.\nLooking for Alternatives? Check Out This Chart\\\nNot looking for Extra Features? Try @AveYo's ChrEdgeFckOff\\\nLooking to Disable Web Search Entirely? Try @krlvm's BeautySearch",
+      "tag": "浏览器重定向工具"
+    },
+    {
+      "id": 55001853,
+      "name": "mdn/browser-compat-data",
+      "stars": 5578,
+      "enhanced_text": "Browser compatibility data for Web technologies as displayed on MDN.\n\n## Installation and Import\nYou can install  as a node package.\nThen, you can import BCD into your project with either  or :\nYou can import  using a CDN.\nYou can obtain the raw compatibility data for  using a CDN and loading the  file included in releases.\nOnce you have imported BCD, you can access the compatibility data for any feature by accessing the properties of the dictionary.\n### TypeScript Support\nBCD exports TypeScript type definitions. Type definitions are automatically generated from the schema definitions.\nThe  package contains a tree of objects, with support and browser data objects at their leaves. There are over 15,000 features in the dataset; this documentation highlights significant portions, but many others exist at various levels of the tree.\nThe definitive description of the format used to represent individual features and browsers is the schema definitions.\nApart from the explicitly documented objects below, feature-level support data may change at any time. See _Semantic versioning policy_ for details.\nThe package contains the following top-level objects:\nAn object containing the following package metadata:\n-  - the package version\n-  - the timestamp of when the package version was built",
+      "tag": "浏览器兼容性数据"
+    },
+    {
+      "id": 47010479,
+      "name": "karpathy/arxiv-sanity-preserver",
+      "stars": 5554,
+      "enhanced_text": "Web interface for browsing, search and filtering recent arxiv submissions.\n\n**Update Nov 27, 2021**: you may wish to look at my from-scratch re-write of arxiv-sanity: arxiv-sanity-lite. It is a smaller version of arxiv-sanity that focuses on the core value proposition, is significantly less likely to ever go down, scales better, and has a few additional goodies such as multiple possible tags per account, regular emails of new papers of interest, etc. It is also running live on arxiv-sanity-lite.com.\nThis project is a web interface that attempts to tame the overwhelming flood of papers on Arxiv. It allows researchers to keep track of recent papers, search for papers, sort papers by similarity to any paper, see recent popular papers, to add papers to a personal library, and to get personalized recommendations of (new or old) Arxiv papers. This code is currently running live at www.arxiv-sanity.com/, where it's serving 25,000+ Arxiv papers from Machine Learning (cs.[CV|AI|CL|LG|NE]/stat.ML) over the last ~3 years. With this code base you could replicate the website to any of your favorite subsets of Arxiv by simply changing the categories in .\nThere are two large parts of the code:\n**Indexing code**. Uses Arxiv API to download the most recent papers in any categories you like, and then downloads all papers, extracts all text, creates tfidf vectors based on the content of each paper. This code is therefore concerned with the backend scraping and computation: building up a database of arxiv papers, calculating content vectors, creating thumbnails, computing SVMs for people, etc.\n**User interface**. Then there is a web server (based on Flask/Tornado/sqlite) that allows searching through the database and filtering papers by similarity, etc.\nSeveral: You will need numpy, feedparser (to process xml files), scikit learn (for tfidf vectorizer, training of SVM), flask (for serving the results), flask_limiter, and tornado (if you want to run the flask server in production). Also dateutil, and scipy. And sqlite3 for database (accounts, library support, etc.). Most of these are easy to get through , e.g.:\nYou will also need ImageMagick and pdftotext, which you can install on Ubuntu as . Bleh, that's a lot of dependencies isn't it.",
+      "tag": "学术论文浏览界面"
+    },
+    {
+      "id": 620476224,
+      "name": "pagefaultgames/pokerogue",
+      "stars": 5537,
+      "enhanced_text": "A browser based Pokémon fangame heavily inspired by the roguelite genre.\n\nSee CONTRIBUTING.md, this includes instructions on how to set up the game locally.\n> If this project contains assets you have produced and you do not see your name, **please** reach out, either here on GitHub or via Discord.\nThank you to all the wonderful people that have contributed to the PokéRogue project! You can find the credits here.\nThis repository seeks to be REUSE compliant: copyright and/or licensing information for each file is stored\neither in the file itself or in an associated  file.\nThe full licensing information for each file can be found by utilizing REUSE's tooling, such as via . \\",
+      "tag": "浏览器游戏"
+    },
+    {
+      "id": 145123457,
+      "name": "manojVivek/medium-unlimited",
+      "stars": 5494,
+      "enhanced_text": "A browser extension to read medium.com articles for free without membership.\n\nCode repository for the browser extension to unlock the articles behind the medium.com membership paywall.\nTry the production version of the extension here:\nFor Chrome: https://manojvivek.github.io/medium-unlimited/download/\nFor Firefox: https://addons.mozilla.org/en-US/firefox/addon/medium-unlimited-read-for-free\nRun the following to build the code:\nThis will generate the bundle and other required files in ./dist directory.\nLoad the generated chrome extension in chrome by  and then click on  and select the dist folder.\nChrome extension is loaded and ready to use.",
+      "tag": "内容解锁扩展"
+    },
+    {
+      "id": 6621471,
+      "name": "Dash-Industry-Forum/dash.js",
+      "stars": 5490,
+      "enhanced_text": "A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.",
+      "tag": "MPEG DASH播放器"
+    },
+    {
+      "id": 54804539,
+      "name": "dolanmiu/docx",
+      "stars": 5440,
+      "enhanced_text": "Easily generate and modify .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.",
+      "tag": "DOCX文档生成库"
+    },
+    {
+      "id": 100657321,
+      "name": "zouhir/jarvis",
+      "stars": 5435,
+      "enhanced_text": "A very intelligent browser based Webpack dashboard.\n\n## About the Project\nJ.A.R.V.I.S. (Just A Rather Very Intelligent System) will put in your browser all the relevant information you need from your webpack build whether in dev or in prod.\nTons of features are on the roadmap but still, this beta version will improve the way you look at webpack-dev-server or webpack production build bundle, chunks and other output assets.\nIt is hugely inspired by other webpack dashboards and the core idea is not original, but here are some features:\n**Original Features**:\n* Shows you the count of ES Harmony module imports which can be treeshakable and the CJS ones which are not.\n* Shows you how well your assets perform in 12 different connection types.\n* Google or Stackoverflow Search for programming errors in 1 button click.\n* Runs in the browser.\n* Beautified errors output.\n* Easy way figure out total assets size and individual bundles and chunks.\n* It's very beautiful.\n* Preact with Sass pre-processor.\n\n## Installation\nIn your webpack config file:\nIn your browser open:\nOptions are (optionally) passed in to the constructor\nThe Jarvis dashboard will open on a localhost server at this port.\nThe Jarvis dashboard will attach to this host, e.g. .\nIf set to false, then Jarvis will also run for non-watch builds, and keep running after the build completes.\nJarvis will look inside this directory for your package.json.\nSetting up the dev environment",
+      "tag": "Webpack监控面板"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 518486100,
+        "tag": "GitHub增强扩展"
+      },
+      {
+        "id": 149144662,
+        "tag": "JavaScript全文搜索库"
+      },
+      {
+        "id": 3618133,
+        "tag": "Web平台测试套件"
+      },
+      {
+        "id": 96284790,
+        "tag": "PHP文件管理器"
+      },
+      {
+        "id": 1673025,
+        "tag": "浏览器检测库"
+      },
+      {
+        "id": 956283541,
+        "tag": "浏览器自动化控制"
+      },
+      {
+        "id": 720466801,
+        "tag": "WebGPU图像处理工具"
+      },
+      {
+        "id": 384330997,
+        "tag": "浏览器重定向工具"
+      },
+      {
+        "id": 55001853,
+        "tag": "浏览器兼容性数据"
+      },
+      {
+        "id": 47010479,
+        "tag": "学术论文浏览界面"
+      },
+      {
+        "id": 620476224,
+        "tag": "浏览器游戏"
+      },
+      {
+        "id": 145123457,
+        "tag": "内容解锁扩展"
+      },
+      {
+        "id": 6621471,
+        "tag": "MPEG DASH播放器"
+      },
+      {
+        "id": 54804539,
+        "tag": "DOCX文档生成库"
+      },
+      {
+        "id": 100657321,
+        "tag": "Webpack监控面板"
+      }
+    ]
+  }
+}

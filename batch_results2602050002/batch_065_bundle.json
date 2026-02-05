@@ -1,0 +1,125 @@
+{
+  "batch_id": 65,
+  "timestamp": "2026-02-05T14:47:30.668985",
+  "config_used": {
+    "model": "deepseek-v3.2-exp",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 27465526,
+      "name": "wentin/underlineJS",
+      "stars": 2230,
+      "enhanced_text": "Pushing the boundary of browser typography rendering!",
+      "tag": "浏览器排版渲染库"
+    },
+    {
+      "id": 208835354,
+      "name": "abhijithvijayan/web-extension-starter",
+      "stars": 2146,
+      "enhanced_text": "🖥🔋Web Extension starter to build \"Write Once Run on Any Browser\" extension.",
+      "tag": "跨浏览器扩展开发框架"
+    },
+    {
+      "id": 976103,
+      "name": "guard/guard-livereload",
+      "stars": 2114,
+      "enhanced_text": "Guard::LiveReload automatically reload your browser when 'view' files are modified.",
+      "tag": "前端开发实时重载工具"
+    },
+    {
+      "id": 1130400,
+      "name": "kolber/audiojs",
+      "stars": 2092,
+      "enhanced_text": "A cross-browser javascript wrapper for the html5 audio tag.",
+      "tag": "HTML5音频跨浏览器封装库"
+    },
+    {
+      "id": 22524673,
+      "name": "MohammadYounes/AlertifyJS",
+      "stars": 2092,
+      "enhanced_text": "A javascript framework for developing pretty browser dialogs and notifications.",
+      "tag": "浏览器对话框与通知框架"
+    },
+    {
+      "id": 233580412,
+      "name": "nurdism/neko",
+      "stars": 2068,
+      "enhanced_text": "A self hosted virtual browser (rabb.it clone) that runs in docker.",
+      "tag": "自托管虚拟浏览器"
+    },
+    {
+      "id": 27469126,
+      "name": "mapbox/geojson-vt",
+      "stars": 2011,
+      "enhanced_text": "Slice GeoJSON into vector tiles on the fly in the browser.",
+      "tag": "浏览器端矢量切片库"
+    },
+    {
+      "id": 60257915,
+      "name": "ko1o/PYPhotoBrowser",
+      "stars": 2009,
+      "enhanced_text": "An easy way to browse photo(image) for iOS.\n\n* Who is using PYPhotoBrowser【哪些app使用PYPhotoBrowser】",
+      "tag": "iOS图片浏览器组件"
+    },
+    {
+      "id": 619823756,
+      "name": "WebAV-Tech/WebAV",
+      "stars": 1977,
+      "enhanced_text": "A web-based Video Editing SDK built on WebCodecs. 基于 WebCodecs 构建的网页视频编辑 SDK。.",
+      "tag": "网页视频编辑SDK"
+    },
+    {
+      "id": 137925467,
+      "name": "wkeeling/selenium-wire",
+      "stars": 1976,
+      "enhanced_text": "Extends Selenium's Python bindings to give you the ability to inspect requests made by the browser.",
+      "tag": "Selenium浏览器请求监控扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 27465526,
+        "tag": "浏览器排版渲染库"
+      },
+      {
+        "id": 208835354,
+        "tag": "跨浏览器扩展开发框架"
+      },
+      {
+        "id": 976103,
+        "tag": "前端开发实时重载工具"
+      },
+      {
+        "id": 1130400,
+        "tag": "HTML5音频跨浏览器封装库"
+      },
+      {
+        "id": 22524673,
+        "tag": "浏览器对话框与通知框架"
+      },
+      {
+        "id": 233580412,
+        "tag": "自托管虚拟浏览器"
+      },
+      {
+        "id": 27469126,
+        "tag": "浏览器端矢量切片库"
+      },
+      {
+        "id": 60257915,
+        "tag": "iOS图片浏览器组件"
+      },
+      {
+        "id": 619823756,
+        "tag": "网页视频编辑SDK"
+      },
+      {
+        "id": 137925467,
+        "tag": "Selenium浏览器请求监控扩展"
+      }
+    ]
+  }
+}

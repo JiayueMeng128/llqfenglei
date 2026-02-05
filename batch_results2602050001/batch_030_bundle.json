@@ -1,0 +1,180 @@
+{
+  "batch_id": 30,
+  "timestamp": "2026-02-05T13:26:31.368283",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 15,
+    "text_truncate_length": 1200
+  },
+  "data": [
+    {
+      "id": 67251638,
+      "name": "franciscop/brownies",
+      "stars": 2378,
+      "enhanced_text": "🍫 Tastier cookies, local, session, and db storage in a tiny package. Includes subscribe() events for changes.",
+      "tag": "浏览器存储库"
+    },
+    {
+      "id": 469579425,
+      "name": "sytone/obsidian-remote",
+      "stars": 2371,
+      "enhanced_text": "Run Obsidian.md in a browser via a docker container.\n\nThis docker image allows you to run obsidian in docker as a container and access it via your web browser.\nUse  to access it locally, do not expose this to the web unless you secure it and know what you are doing!!\n- Enabling GIT for the obsidian-git plugin",
+      "tag": "Web化桌面应用"
+    },
+    {
+      "id": 14311006,
+      "name": "bgrins/videoconverter.js",
+      "stars": 2362,
+      "enhanced_text": "[UNMAINTAINED] Convert videos in your browser.\n\nvideoconverter.js is a library that allows you to convert and manipulate videos inside of your web browser.\nThis is achieved by converting the popular FFmpeg library into JavaScript, using Emscripten.\nIt was originally conceived for a project called Video Funhouse in Node Knockout 2013.\nWant to jump straight to a demo?\n* The terminal demo is here: http://bgrins.github.io/videoconverter.js/demo\n* The Video Funhouse sample application is here: https://video-funhouse.herokuapp.com.\n## Documentation and Build Instructions\nFor more information about building and using the project, visit the project homepage at http://bgrins.github.io/videoconverter.js/.",
+      "tag": "WASM视频处理库"
+    },
+    {
+      "id": 34313469,
+      "name": "richtr/NoSleep.js",
+      "stars": 2360,
+      "enhanced_text": "Prevent display sleep and enable wake lock in any Android or iOS web browser.\n\n## Installation\nThis library is available on Bower as **nosleep**.\nThis package is published to npm as **nosleep.js** and can be installed with:\nAlternatively, you can manually add NoSleep.js to your project (or the minified version).",
+      "tag": "浏览器唤醒锁API"
+    },
+    {
+      "id": 176849340,
+      "name": "Ibit-to/google-unlocked",
+      "stars": 2346,
+      "enhanced_text": "Google Unlocked browser extension uncensor google search results.\n\n## Install in Chrome/Opera/Brave/Chromium\n~~[Chrome Web Store]~~\nThe extension was taken down by Google from the Chrome store. Please use manual install.\n\n## Install in Firefox\n~~[Firefox Add-Ons]~~\nTaken down too. So you need to manually install it. With Firefox open, hit Ctrl+ o (or Cmd+ o) > browse to the extension > double click the extension (or select Open) > Install Now.",
+      "tag": "搜索引擎去审查扩展"
+    },
+    {
+      "id": 896595985,
+      "name": "lmnr-ai/index",
+      "stars": 2334,
+      "enhanced_text": "The SOTA Open-Source Browser Agent for autonomously performing complex tasks on the web.\n\n### Install dependencies\n### Setup model API keys\nSetup your model API keys in  file in your project root:\n### Run Index with code\n### Run Index with CLI\n- Browser state persistence between sessions\n- Follow-up messages with support for \"give human control\" action\n- Real-time streaming updates\n- Beautiful terminal UI using Textual\nYou can run Index CLI with the following command.\nOutput will look like this:\n### Running CLI with a personal Chrome instance\nYou can use Index with personal Chrome browser instance instead of launching a new browser. Main advantage is that all your existing logged-in sessions will be available.\nThe easiest way to use Index in production is with serverless API. Index API manages remote browser sessions, agent infrastructure and browser observability. To get started, create a project API key in Laminar.",
+      "tag": "自主网页操作代理"
+    },
+    {
+      "id": 528288530,
+      "name": "snaplet/postgres-wasm",
+      "stars": 2328,
+      "enhanced_text": "A PostgresQL server running in your browser.\n\nA PostgreSQL server instance running in a virtual machine running in the browser\nSince we worked on this project, awesome and more usable solutions exist:\n- PGlite by ElectricSQL which is a native WASM build of Postgres\n- pgmock by Stackframe which is using the same approach as this project, emulating the Postgres server in an x86 emulator",
+      "tag": "WASM数据库引擎"
+    },
+    {
+      "id": 114108768,
+      "name": "nitin42/react-perf-devtool",
+      "stars": 2318,
+      "enhanced_text": "A browser developer tool extension to inspect performance of React components.\n\n## Description\n\n### Overview section\n\n## Introduction\n**React Performance Devtool** is a browser extension for inspecting the performance of React Components. It statistically examines the performance of React components based on the measures which are collected by React using  API.\nAlong with the browser extension, the measures can also be inspected in a console. See the usage section for more details.\nThis project started with a purpose of extending the work done by Will Chen on a proposal for React performance table. You can read more about it here.\n### Browser extension\nA demo of the extension being used to examine the performance of React components on my website.\n### Log the measures to a console\nPerformance measures can also be logged to a console. With every re-render, measures are updated and logged to the console.\n* Remove or unmount the component instances which are not being used.\n* Inspect what is blocking or taking more time after an operation has been started.\n* Examine the table and see for which components, you need to write shouldComponentUpdate lifecycle hook.\n* Examine which components are taking more time to load.\nTo use this devtool, you'll need to install a npm module which will register a listener (read more about this in usage section) and the browser extension.\n**Installing the extension**\nThe below extensions represent the current stable release.",
+      "tag": "React性能开发工具"
+    },
+    {
+      "id": 40242163,
+      "name": "unruledboy/WebFrontEndStack",
+      "stars": 2315,
+      "enhanced_text": "web front end stack: browsers, platforms, libraries, frameworks, tools etc.\n\nThe overflow stack family (Web Front End Stack, Database Stack, .NET Stack etc.):\nhttps://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md\nhttps://github.com/unruledboy/WebFrontEndStack/blob/master/README.es-es.md\nWeb front-end stack: browsers, platforms, libraries, frameworks, tools etc.",
+      "tag": "前端技术栈图谱"
+    },
+    {
+      "id": 678360150,
+      "name": "dnakov/little-rat",
+      "stars": 2315,
+      "enhanced_text": "🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls.\n\n# IMPORTANT: It's no longer possible to detect and block traffic from other extension unless you enable the *extensions-on-chrome-urls* flag  or run Chrome with the . See details here.\n🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls\n### Manual Installation (Full Version)\n- Download the ZIP of this repo.\n- Go to chromium/chrome *Extensions*.\n- Click to check *Developer mode*.\n- Click *Load unpacked extension...*.\n- Select the directory  which was created above.",
+      "tag": "Chrome扩展流量监控"
+    },
+    {
+      "id": 469525716,
+      "name": "ericclemmons/click-to-component",
+      "stars": 2306,
+      "enhanced_text": "Option+Click React components in your browser to instantly open the source in VS Code.\n\n## Features\n- Option+Click opens the immediate Component's source\n- Option+Right-click opens a context menu with the parent Components' , , , and\n- Works with frameworks like Next.js,\nthat use @babel/plugin-transform-react-jsx-source\n- Supports  &  &  URL handling\n- Automatically **tree-shaken** from  builds\n- Keyboard navigation in context menu (e.g. ←, →, ⏎)\n- More context & faster than using React DevTools:\n\n## Installation\nEven though  is added to , tree-shaking will remove  from  builds.\nnpm install @babel/plugin-transform-react-jsx-source\nIf developing in container?\nBy default, clicking will default  to .\nIf, like me, you use , you can set  explicitly:\nGo to the project directory",
+      "tag": "React组件源码映射"
+    },
+    {
+      "id": 18020144,
+      "name": "timdown/rangy",
+      "stars": 2302,
+      "enhanced_text": "A cross-browser JavaScript range and selection library.\n\nI've started a discussion about the future of Rangy.\nThere is an official Rangy module on NPM called .\nDocumentation is in the GitHub wiki.\nThere is an official Rangy package for Bower with Rangy 1.2 and 1.3 versions, called .",
+      "tag": "跨浏览器选区库"
+    },
+    {
+      "id": 47860620,
+      "name": "mapbox/supercluster",
+      "stars": 2302,
+      "enhanced_text": "A very fast geospatial point clustering library for browsers and Node.\n\nInstall using NPM () or Yarn (), then:\nOr use it with an ordinary script tag in the browser:\nLoads an array of GeoJSON Feature objects. Each feature's  must be a GeoJSON Point. Once loaded, index is immutable.\nFor the given  array () and integer , returns an array of clusters and points as GeoJSON Feature objects.\nFor a given zoom and x/y coordinates, returns a geojson-vt-compatible JSON tile object with cluster/point features.\nReturns the children of a cluster (on the next zoom level) given its id ( value from feature properties).\nReturns all the points of a cluster (given its ), with pagination support:\nis the number of points to return (set to  for all points),\nand  is the amount of points to skip (for pagination).\nReturns the zoom on which the cluster expands into several children (useful for \"click to zoom\" feature) given the cluster's .\n| Option     | Default | Description                                                       |\n| minZoom    | 0       | Minimum zoom level at which clusters are generated.               |\n| maxZoom    | 16      | Maximum zoom level at which clusters are generated.               |\n| minPoints  | 2       | Minimum number of points to form a cluster.                       |\n| radius     | 40      | Cluster radius, in pixels.                                        |",
+      "tag": "地理空间聚类库"
+    },
+    {
+      "id": 297152797,
+      "name": "lana-k/sqliteviz",
+      "stars": 2298,
+      "enhanced_text": "Instant offline SQL-powered data visualisation in your browser.\n\nSqliteviz is a single-page offline-first PWA for fully client-side visualisation\nof SQLite databases, CSV, JSON or NDJSON files.\n- run SQL queries against a SQLite database and create [Plotly][11] charts, graphs and pivot tables based on the result sets\n- import a CSV/JSON/NDJSON file into a SQLite database and visualize imported data\n- export result set to CSV file\n- manage inquiries and run them against different databases\n- import/export inquiries from/to a JSON file\n- export a modified SQLite database",
+      "tag": "SQLite数据可视化PWA"
+    },
+    {
+      "id": 65398224,
+      "name": "softvar/enhanced-github",
+      "stars": 2295,
+      "enhanced_text": ":rocket: Browser extension to display size of each file, download link and copy file contents directly to the clipboard.\n\nInstall extension from [Microsoft Edge Add-ons][edge]\n\nInstall extension from [Chrome Web Store][chrome]\n\nInstall add-on from [Firefox Add-ons][firefox]",
+      "tag": "GitHub文件管理扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 67251638,
+        "tag": "浏览器存储库"
+      },
+      {
+        "id": 469579425,
+        "tag": "Web化桌面应用"
+      },
+      {
+        "id": 14311006,
+        "tag": "WASM视频处理库"
+      },
+      {
+        "id": 34313469,
+        "tag": "浏览器唤醒锁API"
+      },
+      {
+        "id": 176849340,
+        "tag": "搜索引擎去审查扩展"
+      },
+      {
+        "id": 896595985,
+        "tag": "自主网页操作代理"
+      },
+      {
+        "id": 528288530,
+        "tag": "WASM数据库引擎"
+      },
+      {
+        "id": 114108768,
+        "tag": "React性能开发工具"
+      },
+      {
+        "id": 40242163,
+        "tag": "前端技术栈图谱"
+      },
+      {
+        "id": 678360150,
+        "tag": "Chrome扩展流量监控"
+      },
+      {
+        "id": 469525716,
+        "tag": "React组件源码映射"
+      },
+      {
+        "id": 18020144,
+        "tag": "跨浏览器选区库"
+      },
+      {
+        "id": 47860620,
+        "tag": "地理空间聚类库"
+      },
+      {
+        "id": 297152797,
+        "tag": "SQLite数据可视化PWA"
+      },
+      {
+        "id": 65398224,
+        "tag": "GitHub文件管理扩展"
+      }
+    ]
+  }
+}
