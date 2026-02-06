@@ -1,0 +1,16 @@
+{
+  "batch_id": 2,
+  "timestamp": "2026-02-05T16:21:08.961169",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 60630844,\n      \"tag\": \"Web代码编辑器\"\n    },\n    {\n      \"id\": 14194174,\n      \"tag\": \"网络通信解析\"\n    },\n    {\n      \"id\": 9393759,\n      \"tag\": \"HTML5游戏框架\"\n    },\n    {\n      \"id\": 3065454,\n      \"tag\": \"CSS3演示框架\"\n    },\n    {\n      \"id\": 13840241,\n      \"tag\": \"API文档浏览器\"\n    },\n    {\n      \"id\": 52773157,\n      \"tag\": \"跨平台ORM\"\n    },\n    {\n      \"id\": 624681066,\n      \"tag\": \"浏览器AI代理\"\n    },\n    {\n      \"id\": 3390243,\n      \"tag\": \"浏览器渲染引擎\"\n    },\n    {\n      \"id\": 21393871,\n      \"tag\": \"JavaScript资源集合\"\n    },\n    {\n      \"id\": 355959597,\n      \"tag\": \"Python应用框架\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1480,
+    "completion_tokens": 233,
+    "total_tokens": 1713
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-8aaca814f8bd5729",
+  "created": 1770308459,
+  "finish_reason": "stop"
+}

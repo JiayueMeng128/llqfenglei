@@ -1,0 +1,125 @@
+{
+  "batch_id": 39,
+  "timestamp": "2026-02-05T16:28:29.565510",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1514130,
+      "name": "nst/RuntimeBrowser",
+      "stars": 3644,
+      "enhanced_text": "Objective-C Runtime Browser, for Mac OS X and iOS.\n\nThis is a class browser for the Objective-C runtime on iOS and OS X. It gives you full access to all classes loaded in the runtime; allows you to dynamically load new modules and their classes; shows every method implemented on each class; and displays information in a header (.h) file format.\nWe have found this to be a useful development tool. Please note, however, that each user is responsible for their own usage.\nThe original version was released in April 2002 by Ezra Epstein. The project is maintained by Nicolas Seriot since August, 2008.\n* browse by class tree, image or indexed list\n* headers retrieval through HTTP port 10000\n* instantiates most classes including allocation of non-shared instances\n* allows invocation of methods including inputting of parameters at runtime",
+      "tag": "Objective-C运行时浏览器"
+    },
+    {
+      "id": 18154829,
+      "name": "jasonlong/isometric-contributions",
+      "stars": 3634,
+      "enhanced_text": "Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.\n\n## Installation\n\nInstall from the Chrome Web Store\n\nInstall from Mozilla Add-ons site",
+      "tag": "GitHub贡献图美化扩展"
+    },
+    {
+      "id": 79764891,
+      "name": "tuyafeng/Via",
+      "stars": 3607,
+      "enhanced_text": "Via is a simple browser, and this repository is set for localization.",
+      "tag": "极简移动浏览器"
+    },
+    {
+      "id": 323121488,
+      "name": "oblador/hush",
+      "stars": 3589,
+      "enhanced_text": "🤫 Noiseless Browsing – Content Blocker for Safari.",
+      "tag": "Safari内容屏蔽器"
+    },
+    {
+      "id": 31442355,
+      "name": "Netflix/vector",
+      "stars": 3574,
+      "enhanced_text": "Vector is an on-host performance monitoring framework which exposes hand picked high resolution metrics to every engineer’s browser.",
+      "tag": "主机性能监控框架"
+    },
+    {
+      "id": 17492418,
+      "name": "fregante/GhostText",
+      "stars": 3568,
+      "enhanced_text": "👻 Use your text editor to write in your browser. Everything you type in the editor will be instantly updated in the browser (and vice versa).",
+      "tag": "编辑器与浏览器同步工具"
+    },
+    {
+      "id": 81035045,
+      "name": "aliyun/oss-browser",
+      "stars": 3538,
+      "enhanced_text": "OSS Browser 提供类似windows资源管理器功能。用户可以很方便的浏览文件，上传下载文件，支持断点续传等。.",
+      "tag": "OSS文件管理客户端"
+    },
+    {
+      "id": 79149882,
+      "name": "lbryio/lbry-desktop",
+      "stars": 3528,
+      "enhanced_text": "A browser and wallet for LBRY, the decentralized, user-controlled content marketplace.\n\nThis repo contains the UI code that powers the official LBRY desktop app. The LBRY app is a graphical browser for the decentralized content marketplace provided by the\nLBRY protocol. It is essentially the\nlbry daemon bundled with a UI using\nWe provide installers for Windows, macOS (v10.12.4, Sierra, or greater), and Debian-based Linux. See community maintained builds section for alternative Linux installations.\n|                       | Windows                                       | macOS                                         | Linux                                         |\n| Latest Stable Release | Download     | Download     | Download     |",
+      "tag": "去中心化内容平台浏览器"
+    },
+    {
+      "id": 17667574,
+      "name": "outdatedbrowser/outdated-browser",
+      "stars": 3509,
+      "enhanced_text": "A simple tool to identify and upgrade old browsers.",
+      "tag": "浏览器版本检测升级工具"
+    },
+    {
+      "id": 5548784,
+      "name": "caolan/highland",
+      "stars": 3507,
+      "enhanced_text": "High-level streams library for Node.js and the browser.\n\n## Introduction\nRe-thinking the JavaScript\nHighland manages synchronous and asynchronous code easily, using nothing more than\nstandard JavaScript and Node-like Streams.\nYou may be familiar with Promises, EventEmitters and callbacks, but moving\nbetween them is far from seamless. Thankfully, there exists a deeper abstraction\nwhich can free our code. By updating the tools we use on Arrays, and applying them\nto values distributed in time instead of space, we can discard plumbing and\nfocus on the important things. With Highland, you can switch between\nsynchronous and asynchronous data sources at will, without having to\nre-write your code. Time to dive in!\nMade by @caolan, with help and patience from friends :)\nThis branch tracks the ongoing development of version 3.0, which will feature a\nrewritten Highland core implementation, extensibility support, limited stream\nlifecycle, and some breaking changes to certain transforms.  See",
+      "tag": "JavaScript流处理库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1514130,
+        "tag": "Objective-C运行时浏览器"
+      },
+      {
+        "id": 18154829,
+        "tag": "GitHub贡献图美化扩展"
+      },
+      {
+        "id": 79764891,
+        "tag": "极简移动浏览器"
+      },
+      {
+        "id": 323121488,
+        "tag": "Safari内容屏蔽器"
+      },
+      {
+        "id": 31442355,
+        "tag": "主机性能监控框架"
+      },
+      {
+        "id": 17492418,
+        "tag": "编辑器与浏览器同步工具"
+      },
+      {
+        "id": 81035045,
+        "tag": "OSS文件管理客户端"
+      },
+      {
+        "id": 79149882,
+        "tag": "去中心化内容平台浏览器"
+      },
+      {
+        "id": 17667574,
+        "tag": "浏览器版本检测升级工具"
+      },
+      {
+        "id": 5548784,
+        "tag": "JavaScript流处理库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 63,
+  "timestamp": "2026-02-05T16:44:40.877213",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 14127490,\n      \"tag\": \"服务器监控工具\"\n    },\n    {\n      \"id\": 67236461,\n      \"tag\": \"CSS解析工具库\"\n    },\n    {\n      \"id\": 233580412,\n      \"tag\": \"虚拟化浏览器\"\n    },\n    {\n      \"id\": 1129945442,\n      \"tag\": \"浏览器隐私清理工具\"\n    },\n    {\n      \"id\": 539497279,\n      \"tag\": \"隐私增强浏览器\"\n    },\n    {\n      \"id\": 81535817,\n      \"tag\": \"ASCII图表库\"\n    },\n    {\n      \"id\": 10744004,\n      \"tag\": \"CSV解析库\"\n    },\n    {\n      \"id\": 18427025,\n      \"tag\": \"对象存储SDK\"\n    },\n    {\n      \"id\": 37490572,\n      \"tag\": \"虚拟文件系统库\"\n    },\n    {\n      \"id\": 42366054,\n      \"tag\": \"游戏资源解析库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1873,
+    "completion_tokens": 238,
+    "total_tokens": 2111
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a4ed1690252b0a51",
+  "created": 1770309868,
+  "finish_reason": "stop"
+}

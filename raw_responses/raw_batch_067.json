@@ -1,0 +1,16 @@
+{
+  "batch_id": 67,
+  "timestamp": "2026-02-05T16:46:37.287058",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 18131537,\n      \"tag\": \"BitTorrent协议库\"\n    },\n    {\n      \"id\": 900709814,\n      \"tag\": \"浏览器隐私增强\"\n    },\n    {\n      \"id\": 368257515,\n      \"tag\": \"WebAssembly数据库\"\n    },\n    {\n      \"id\": 1035210905,\n      \"tag\": \"WebKit浏览器\"\n    },\n    {\n      \"id\": 547494,\n      \"tag\": \"JavaScript单元测试框架\"\n    },\n    {\n      \"id\": 14494363,\n      \"tag\": \"Node.js兼容层\"\n    },\n    {\n      \"id\": 52015204,\n      \"tag\": \"DOM可见性检测库\"\n    },\n    {\n      \"id\": 129891715,\n      \"tag\": \"软件包元数据浏览器\"\n    },\n    {\n      \"id\": 529027653,\n      \"tag\": \"WebAssembly应用沙箱\"\n    },\n    {\n      \"id\": 488620801,\n      \"tag\": \"浏览器指纹生成工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1784,
+    "completion_tokens": 242,
+    "total_tokens": 2026
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-982828dd7453f1f3",
+  "created": 1770309961,
+  "finish_reason": "stop"
+}

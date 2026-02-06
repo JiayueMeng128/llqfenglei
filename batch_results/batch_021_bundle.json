@@ -1,0 +1,125 @@
+{
+  "batch_id": 21,
+  "timestamp": "2026-02-05T16:25:01.835648",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 156353247,
+      "name": "panva/jose",
+      "stars": 7293,
+      "enhanced_text": "JWA, JWS, JWE, JWT, JWK, JWKS for Node.js, Browser, Cloudflare Workers, Deno, Bun, and other Web-interoperable runtimes.\n\nis a JavaScript module for JSON Object Signing and Encryption, providing support for JSON Web Tokens (JWT), JSON Web Signature (JWS), JSON Web Encryption (JWE), JSON Web Key (JWK), JSON Web Key Set (JWKS), and more. The module is designed to work across various Web-interoperable runtimes including Node.js, browsers, Cloudflare Workers, Deno, Bun, and others.\nIf you want to quickly add JWT authentication to JavaScript apps, feel free to check out Auth0's JavaScript SDK and free plan. [Create an Auth0 account; it's free!][sponsor-auth0]\nSupport from the community to continue maintaining and improving this module is welcome. If you find the module useful, please consider supporting the project by becoming a sponsor.\nhas no dependencies and it exports tree-shakeable ESM[^cjs].\nis distributed via npmjs.com, jsr.io, jsdelivr.com, and github.com.",
+      "tag": "JWT加密库"
+    },
+    {
+      "id": 25780780,
+      "name": "AlaSQL/alasql",
+      "stars": 7252,
+      "enhanced_text": "AlaSQL.js - JavaScript SQL database for browser and Node.js. Handles both traditional relational tables and nested JSON data (NoSQL). Export, store, and import data from localStorage, IndexedDB, or Excel.\n\n## Getting started\nSee the \"Getting started\" section of the wiki\nMore advanced topics are covered in other wiki sections like \"Data manipulation\" and in questions on Stack Overflow\n- Documentation: Github wiki\n- Library CDN: jsDelivr.com\n- Feedback: Open an issue\n- Try online: Playground\n- Website: alasql.org\n**All contributions are extremely welcome and greatly appreciated(!)** -\nThe project has never received any funding and is based on unpaid voluntary work: We really (really) love pull requests\nThe AlaSQL project depends on your contribution of code and may have bugs. So please, submit any bugs and suggestions as an issue.\nPlease check out the limitations of the library.\nAlaSQL is designed for speed and includes some of the classic SQL engine optimizations:\n- Queries are cached as compiled functions\n- Joined tables are pre-indexed\n\n## Features you might like\nUse \"good old\" SQL on your data with multiple levels of: , , , , , , , , , , , , , , and subqueries. The wiki lists supported SQL statements and keywords.\n### User-Defined Functions in your SQL\nYou can use all benefits of SQL and JavaScript together by defining your own custom functions. Just add new functions to the alasql.fn object:\nYou can also define your own aggregator functions (like your own ). See more in the wiki\n### Compiled statements and functions\n### SELECT against your JavaScript data\nGroup your JavaScript array of objects by field and count number of records in each group:\nSee more ideas for creative data manipulation in the wiki\nAlaSQL extends \"good old\" SQL to make it closer to JavaScript. The \"sugar\" includes:\n- Write Json objects -\n- Access object properties -\n- Access object and arrays elements -\n- Access JavaScript functions -\n- Format query output with",
+      "tag": "浏览器SQL数据库"
+    },
+    {
+      "id": 120715537,
+      "name": "sindresorhus/modern-normalize",
+      "stars": 7218,
+      "enhanced_text": "🐒 Normalize browsers' default style.\n\n- Includes only normalizations for the latest Chrome, Firefox, and Safari\n- Improves consistency of default fonts\n- Sets a more readable tab size\nIf you have questions about the source, check out the original source and this for details.\n**The goal of this project is to make itself obsolete.**",
+      "tag": "CSS重置库"
+    },
+    {
+      "id": 3362916,
+      "name": "sindresorhus/screenfull",
+      "stars": 7153,
+      "enhanced_text": "Simple wrapper for cross-browser usage of the JavaScript Fullscreen API.\n\n**This package is ESM. Please familiarize yourself with what that implies.**\\\nIf you cannot use ESM or need to support older browsers without using transpilation, use version 5.2.0.\n**This package is feature complete. No new features will be accepted.**\nAlso available on cdnjs *(older version)*.",
+      "tag": "全屏API封装"
+    },
+    {
+      "id": 35833177,
+      "name": "jaywcjlove/hotkeys-js",
+      "stars": 7148,
+      "enhanced_text": "➷ A robust Javascript library for capturing keyboard input. It has no dependencies.\n\nUsing my app is also a way to support me:\nHotKeys.js is an input capture library with some very special features, it is easy to pick up and use, has a reasonable footprint (~6kB) (gzipped: ****), and has no dependencies. It should not interfere with any JavaScript libraries or frameworks. Official document demo preview. More examples.\n**UMD (Universal Module Definition) - For CommonJS/AMD environments:**\n**ES Module - For modern browsers with module support:**\nreact-hotkeys is the React component that listen to keydown and keyup keyboard events, defining and dispatching keyboard shortcuts. Detailed use method please see its documentation react-hotkeys.\nreact-hotkeys-hook - React hook for using keyboard shortcuts in components. Make sure that you have at least version 16.8 of react and react-dom installed, or otherwise hooks won't work for you.\nHotkeys.js has been tested and should work in.",
+      "tag": "键盘快捷键库"
+    },
+    {
+      "id": 127546642,
+      "name": "unjs/consola",
+      "stars": 7143,
+      "enhanced_text": "🐨 Elegant Console Logger for Node.js and Browser.",
+      "tag": "跨平台日志工具"
+    },
+    {
+      "id": 24229490,
+      "name": "fabiospampinato/cash",
+      "stars": 7047,
+      "enhanced_text": "An absurdly small jQuery alternative for modern browsers.\n\n| Size               | Cash        | Zepto 1.2.0 | jQuery Slim 3.4.1 |\n| Unminified         | **36.5 KB** | 58.7 KB     | 227 KB            |\n| Minified           | **16 KB**   | 26 KB       | 71 KB             |\n| Minified & Gzipped | **6 KB**    | 9.8 KB      | 24.4 KB           |\nA **76.6%** gain in size reduction compared to jQuery Slim. If you need a smaller bundle, we support partial builds too.\n| Features                 | Cash                               | Zepto 1.2.0                    | jQuery Slim 3.4.1              |\n| Supports Older Browsers  | ❌                                  | ️❌                             | ✔                              |\n| Supports Modern Browsers | ✔                                  | ️✔                             | ✔                              |",
+      "tag": "轻量DOM操作库"
+    },
+    {
+      "id": 209381919,
+      "name": "jwilber/roughViz",
+      "stars": 7045,
+      "enhanced_text": "Reusable JavaScript library for creating sketchy/hand-drawn styled charts in the browser.\n\n### Installation\nVia CDN (expose the  global in ):\nWant to use with ? There's a wrapper!:\nWant to use with ? There's a wrapper!:\nWant to use it with ? Go crazy:\n\n### Features\nApply the features of  to each chart:\nAs well as additional chart-specific options (see API below)",
+      "tag": "手绘风格图表库"
+    },
+    {
+      "id": 930217913,
+      "name": "AgentDeskAI/browser-tools-mcp",
+      "stars": 7042,
+      "enhanced_text": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.\n\nabout a new tool that they can use.\nThese tools can call out to external APIs but in our case, **all logs are stored locally** on your machine and NEVER sent out to any third-party service or API. BrowserTools MCP runs a local instance of a NodeJS API server which communicates with the BrowserTools Chrome Extension.\nAll consumers of the BrowserTools MCP Server interface with the same NodeJS API and Chrome extension.\n#### Chrome Extension\n- Monitors XHR requests/responses and console logs\n- Tracks selected DOM elements\n- Sends all logs and current element to the BrowserTools Connector\n- Connects to Websocket server to capture/send screenshots\n- Allows user to configure token/truncation limits + screenshot folder path\n- Acts as middleware between the Chrome extension and MCP server\n- Receives logs and currently selected element from Chrome extension\n- Processes requests from MCP server to capture logs, screenshot or current element\n- Sends Websocket command to the Chrome extension for capturing a screenshot\n- Intelligently truncates strings and # of duplicate objects in logs to avoid token limits\n- Removes cookies and sensitive headers to avoid sending to LLMs in MCP clients\n\n## Installation",
+      "tag": "浏览器监控MCP工具"
+    },
+    {
+      "id": 485134435,
+      "name": "ajnart/homarr",
+      "stars": 7015,
+      "enhanced_text": "Customizable browser's home page to interact with your homeserver's Docker containers (e.g. Sonarr/Radarr).\n\nSimplify the management of your server with Homarr - a sleek, modern dashboard that puts all of your apps and services at your fingertips. With Homarr, you can access and control everything in one convenient location. Homarr seamlessly integrates with the apps you've added, providing you with valuable information and giving you complete control. Installation is a breeze, and Homarr supports a wide range of deployment methods.\n> # The Homarr repository has been moved to HomarrLabs\n> # Please create issues related to 1.0 there. This repository will be archived once the 1.0 is fully polished.\n> # 1.0 is a complete rewrite and to migrate you have to change your compose file. Please follow the Migration Guide and read the Breaking Changes\n- 🖌️ Highly customizable with an extensive drag and drop grid system\n- ✨ Integrates seamlessly with your favorite self-hosted applications\n- 📌 Easy and fast app management - no YAML involved\n- 🙊 Advanced secrets' management system for enhanced security",
+      "tag": "自托管仪表盘"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 156353247,
+        "tag": "JWT加密库"
+      },
+      {
+        "id": 25780780,
+        "tag": "浏览器SQL数据库"
+      },
+      {
+        "id": 120715537,
+        "tag": "CSS重置库"
+      },
+      {
+        "id": 3362916,
+        "tag": "全屏API封装"
+      },
+      {
+        "id": 35833177,
+        "tag": "键盘快捷键库"
+      },
+      {
+        "id": 127546642,
+        "tag": "跨平台日志工具"
+      },
+      {
+        "id": 24229490,
+        "tag": "轻量DOM操作库"
+      },
+      {
+        "id": 209381919,
+        "tag": "手绘风格图表库"
+      },
+      {
+        "id": 930217913,
+        "tag": "浏览器监控MCP工具"
+      },
+      {
+        "id": 485134435,
+        "tag": "自托管仪表盘"
+      }
+    ]
+  }
+}

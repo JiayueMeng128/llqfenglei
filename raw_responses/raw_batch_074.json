@@ -1,16 +1,16 @@
 {
   "batch_id": 74,
-  "timestamp": "2026-02-05T15:29:51.582577",
+  "timestamp": "2026-02-05T16:47:56.985787",
   "parse_success": true,
   "parse_error": null,
-  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 824656296,\n      \"tag\": \"浏览器媒体展示框架\"\n    },\n    {\n      \"id\": 709761,\n      \"tag\": \"HTML5媒体兼容库\"\n    },\n    {\n      \"id\": 960899579,\n      \"tag\": \"可扩展浏览器\"\n    },\n    {\n      \"id\": 50281785,\n      \"tag\": \"网页渲染代理\"\n    },\n    {\n      \"id\": 5562456,\n      \"tag\": \"浏览器计算机视觉库\"\n    },\n    {\n      \"id\": 82913507,\n      \"tag\": \"浏览器神经网络库\"\n    },\n    {\n      \"id\": 160545642,\n      \"tag\": \"浏览器交互式开发工具\"\n    },\n    {\n      \"id\": 157377758,\n      \"tag\": \"浏览器AI风格迁移库\"\n    },\n    {\n      \"id\": 3658431,\n      \"tag\": \"浏览器数据序列化库\"\n    },\n    {\n      \"id\": 162753411,\n      \"tag\": \"浏览器分页渲染引擎\"\n    }\n  ]\n}",
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 194140521,\n      \"tag\": \"智能家居集成\"\n    },\n    {\n      \"id\": 945068402,\n      \"tag\": \"多模态AI代理\"\n    },\n    {\n      \"id\": 250142018,\n      \"tag\": \"JavaScript模板引擎\"\n    },\n    {\n      \"id\": 968812883,\n      \"tag\": \"Web流媒体播放器\"\n    },\n    {\n      \"id\": 902137162,\n      \"tag\": \"浏览器RTS游戏\"\n    },\n    {\n      \"id\": 1840419,\n      \"tag\": \"开发者工具扩展\"\n    },\n    {\n      \"id\": 506639818,\n      \"tag\": \"社交视频同步扩展\"\n    },\n    {\n      \"id\": 1045681332,\n      \"tag\": \"交互式编程教程\"\n    },\n    {\n      \"id\": 358925855,\n      \"tag\": \"加密货币交易脚本\"\n    },\n    {\n      \"id\": 510116998,\n      \"tag\": \"浏览器渲染引擎\"\n    }\n  ]\n}",
   "usage": {
-    "prompt_tokens": 592,
-    "completion_tokens": 242,
-    "total_tokens": 834
+    "prompt_tokens": 2115,
+    "completion_tokens": 238,
+    "total_tokens": 2353
   },
   "model": "deepseek-v3.2",
-  "id": "msg_6984b76fb474fa77dcfa3cc6ffb1854c",
-  "created": 1770305386,
+  "id": "msg_6984c9bcd7bca6e0c7281abca684d988",
+  "created": 1770310070,
   "finish_reason": "stop"
 }

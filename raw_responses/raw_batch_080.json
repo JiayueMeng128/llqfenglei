@@ -1,0 +1,16 @@
+{
+  "batch_id": 80,
+  "timestamp": "2026-02-05T16:49:32.622569",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 75882379,\n      \"tag\": \"开发者工具扩展\"\n    },\n    {\n      \"id\": 482251689,\n      \"tag\": \"浏览器文本处理扩展\"\n    },\n    {\n      \"id\": 717917803,\n      \"tag\": \"本地LLM浏览器助手\"\n    },\n    {\n      \"id\": 1110256,\n      \"tag\": \"移动端Web事件库\"\n    },\n    {\n      \"id\": 7449695,\n      \"tag\": \"用户代理解析库\"\n    },\n    {\n      \"id\": 9695623,\n      \"tag\": \"浏览器端图数据库\"\n    },\n    {\n      \"id\": 510134922,\n      \"tag\": \"Firefox优化分支\"\n    },\n    {\n      \"id\": 48935429,\n      \"tag\": \"财务管理扩展\"\n    },\n    {\n      \"id\": 238784472,\n      \"tag\": \"浏览器视频流服务\"\n    },\n    {\n      \"id\": 46092465,\n      \"tag\": \"RSS解析库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 896,
+    "completion_tokens": 240,
+    "total_tokens": 1136
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984ca1ca6ff3930fa3511fa39ac6070",
+  "created": 1770310168,
+  "finish_reason": "stop"
+}

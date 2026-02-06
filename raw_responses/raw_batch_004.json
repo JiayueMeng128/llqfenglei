@@ -1,0 +1,16 @@
+{
+  "batch_id": 4,
+  "timestamp": "2026-02-05T16:21:24.777487",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1200050,\n      \"tag\": \"无头浏览器\"\n    },\n    {\n      \"id\": 698041,\n      \"tag\": \"JavaScript异步工具\"\n    },\n    {\n      \"id\": 283211901,\n      \"tag\": \"Android电视应用\"\n    },\n    {\n      \"id\": 1254497,\n      \"tag\": \"浏览器代码编辑器\"\n    },\n    {\n      \"id\": 90356372,\n      \"tag\": \"自托管网页归档\"\n    },\n    {\n      \"id\": 30638861,\n      \"tag\": \"浏览器指纹库\"\n    },\n    {\n      \"id\": 312262,\n      \"tag\": \"浏览器键盘扩展\"\n    },\n    {\n      \"id\": 317757,\n      \"tag\": \"浏览器特性检测库\"\n    },\n    {\n      \"id\": 935604638,\n      \"tag\": \"本地化AI代理\"\n    },\n    {\n      \"id\": 609416865,\n      \"tag\": \"AI划词翻译扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2525,
+    "completion_tokens": 233,
+    "total_tokens": 2758
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-8e14f71268a8db00",
+  "created": 1770308474,
+  "finish_reason": "stop"
+}

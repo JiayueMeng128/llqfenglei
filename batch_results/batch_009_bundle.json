@@ -1,0 +1,125 @@
+{
+  "batch_id": 9,
+  "timestamp": "2026-02-05T16:22:19.724341",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 58360147,
+      "name": "javascript-obfuscator/javascript-obfuscator",
+      "stars": 15836,
+      "enhanced_text": "A powerful obfuscator for JavaScript and Node.js.",
+      "tag": "JavaScript代码混淆工具"
+    },
+    {
+      "id": 910986056,
+      "name": "browser-use/web-ui",
+      "stars": 15562,
+      "enhanced_text": "🖥️ Run AI Agent in your browser.\n\n## Installation Guide\n### Option 1: Local Installation\nRead the quickstart guide or follow the steps below to get started.\n#### Step 1: Clone the Repository\n#### Step 2: Set Up Python Environment\nWe recommend using uv for managing the Python environment.\nUsing uv (recommended):\nActivate the virtual environment:\n- Windows (Command Prompt):\n- Windows (PowerShell):\n#### Step 3: Install Dependencies\n\nInstall Python packages:",
+      "tag": "浏览器端AI智能体框架"
+    },
+    {
+      "id": 924303,
+      "name": "madrobby/zepto",
+      "stars": 15371,
+      "enhanced_text": "Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API.\n\n# Zepto.js – a minimalist JavaScript library\nZepto is a minimalist JavaScript library for modern browsers with a\nlargely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.\nSee [zeptojs.com][] for an extended introduction, downloads\nZepto.js is licensed under the terms of the MIT License.\nWant to give us money or a tip? Don't.\nInstead please donate to charity: water.\nThe official site offers a download of the default distribution of Zepto. This",
+      "tag": "轻量级JavaScript库"
+    },
+    {
+      "id": 601161044,
+      "name": "huggingface/transformers.js",
+      "stars": 15314,
+      "enhanced_text": "State-of-the-art Machine Learning for the web. Run 🤗 Transformers directly in your browser, with no need for a server!",
+      "tag": "浏览器端机器学习库"
+    },
+    {
+      "id": 2609642,
+      "name": "feathersjs/feathers",
+      "stars": 15249,
+      "enhanced_text": "The API and real-time application framework.",
+      "tag": "实时API框架"
+    },
+    {
+      "id": 144624857,
+      "name": "checkly/headless-recorder",
+      "stars": 15242,
+      "enhanced_text": "Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script.\n\nHeadless recorder is a Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. Install it from the Chrome Webstore to get started!\nThis project builds on existing open source projects (see Credits) but adds extensibility, configurability and a smoother UI. For more information, please check our documentation.\n> 🤔 Do you want to learn more about Puppeteer and Playwright? Check our open Headless Guides\n- Records clicks and type events.\n- Add waitForNavigation, setViewPort and other useful clauses.\n- Generates a Playwright & Puppeteer script.\n- Preview CSS selectors of HTML elements.\n- Take full page and element screenshots.\n- Pause, resume and restart recording.\n- Persist latest script in your browser\n- Run generated scripts directly on Checkly\n- Flexible configuration options and dark mode support.\n- Allows  configuration for element selection.\n> This collection will be expanded in future releases. 💪\n\n## How to use?\n1. Click the icon and hit the red button.\n2. 👉 Hit tab after you finish typing in an  element. 👈\n3. Click on links, inputs and other elements.\n4. Wait for full page load on each navigation.\n**The icon will switch from\nto  to indicate it is ready for more input from you.**\n5. Click Pause when you want to navigate without recording anything. Hit Resume to continue recording.\n- : Take full page screenshot\n- : Take element screenshot\nAfter cloning the project, open the terminal and navigate to project root directory.",
+      "tag": "浏览器自动化脚本录制扩展"
+    },
+    {
+      "id": 1338813,
+      "name": "paperjs/paper.js",
+      "stars": 14966,
+      "enhanced_text": "The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey.\n\n## Installing Paper.js\nThe recommended way to install and maintain Paper.js as a dependency in your\nproject is through the Node.js Package Manager (NPM)\nfor browsers, Node.js or Electron.\nIf NPM is already installed, simply type one of these commands in your project\nUpon execution, you will find a  folder inside the project's\nFor more information on how to install Node.js and NPM, read the chapter\n\nInstalling Node.js and NPM.\n### Which Version to Use\nThe various distributions come with two different pre-build versions of\nPaper.js, in minified and normal variants:\n-  – The full version for the browser, including PaperScript\n-  – The core version for the browser, without PaperScript\nsupport nor Acorn.js. You can use this to shave off some bytes and compilation\ntime when working with JavaScript directly.\n\n### Installing Node.js and NPM\nNode.js comes with the Node Package Manager (NPM). There are many tutorials\nexplaining the different ways to install Node.js on different platforms. It is\ngenerally not recommended to install Node.js through OS-supplied package\nmanagers, as the its development cycles move fast and these versions are often\nOn macOS, Homebrew is a good option if one version of\nNode.js that is kept up to date with  is enough:\nNVM can be used instead to install and\nmaintain multiple versions of Node.js on the same platform, as often required by\nHomebrew is recommended on macOS also if you intend to install Paper.js with\nrendering to the Canvas on Node.js, as described in the next paragraph.\nFor Linux, see  to locate 32-bit and 64-bit\nNode.js binaries as well as sources, or use NVM, as described in the paragraph\n\n### Installing Paper.js Using NPM\nPaper.js comes in three different versions on NPM: ,  and\n. Depending on your use case, you need to required a\n-  is the main library, and can be used directly in a browser\ncontext, e.g. a web browser or worker.\n-  is a shim module for Node.js, offering headless use with SVG\nimporting and exporting through jsdom.\n-  is a shim module for Node.js, offering canvas rendering\nthrough Node-Canvas as well as\nSVG importing and exporting through jsdom.\nIn order to install , you need the Cairo Graphics\nlibrary installed in your system:\n\n### Installing Native Dependencies\nPaper.js relies on Node-Canvas for\nrendering, which in turn relies on the native libraries\n\n#### Installing Native Dependencies on macOS\nPaper.js relies on Node-Canvas for rendering, which in turn relies on Cairo and\nPango...",
+      "tag": "Canvas矢量图形库"
+    },
+    {
+      "id": 51658450,
+      "name": "BrainJS/brain.js",
+      "stars": 14855,
+      "enhanced_text": "🤖 GPU accelerated Neural networks in JavaScript for Browsers and Node.js.\n\n## Installation and Usage\nIf you can install  with npm:\nDownload the latest brain.js for browser",
+      "tag": "GPU加速神经网络库"
+    },
+    {
+      "id": 445599288,
+      "name": "faker-js/faker",
+      "stars": 14851,
+      "enhanced_text": "Generate massive amounts of fake data in the browser and node.js.\n\nGenerate massive amounts of fake (but realistic) data for testing and development.\n⚠️ You are reading the docs for the next branch ⚠️\nPlease proceed to the Getting Started Guide for the **stable** release of Faker.\nFor detailed API documentation, please select the version of the documentation you are looking for.\n|   Version    | Website                   |\n|  v10 (next)  | https://next.fakerjs.dev/ |\n| v10 (stable) | https://fakerjs.dev/      |",
+      "tag": "模拟数据生成库"
+    },
+    {
+      "id": 931039,
+      "name": "browserify/browserify",
+      "stars": 14731,
+      "enhanced_text": "browser-side require() the node.js way.",
+      "tag": "CommonJS模块打包工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 58360147,
+        "tag": "JavaScript代码混淆工具"
+      },
+      {
+        "id": 910986056,
+        "tag": "浏览器端AI智能体框架"
+      },
+      {
+        "id": 924303,
+        "tag": "轻量级JavaScript库"
+      },
+      {
+        "id": 601161044,
+        "tag": "浏览器端机器学习库"
+      },
+      {
+        "id": 2609642,
+        "tag": "实时API框架"
+      },
+      {
+        "id": 144624857,
+        "tag": "浏览器自动化脚本录制扩展"
+      },
+      {
+        "id": 1338813,
+        "tag": "Canvas矢量图形库"
+      },
+      {
+        "id": 51658450,
+        "tag": "GPU加速神经网络库"
+      },
+      {
+        "id": 445599288,
+        "tag": "模拟数据生成库"
+      },
+      {
+        "id": 931039,
+        "tag": "CommonJS模块打包工具"
+      }
+    ]
+  }
+}

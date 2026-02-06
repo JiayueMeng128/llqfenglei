@@ -1,0 +1,125 @@
+{
+  "batch_id": 68,
+  "timestamp": "2026-02-05T16:46:57.692863",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 15743523,
+      "name": "TiddlyWiki/TiddlyDesktop",
+      "stars": 1862,
+      "enhanced_text": "A custom desktop browser for TiddlyWiki 5 and TiddlyWiki Classic, based on nw.js.\n\nTiddlyDesktop is a special purpose web browser for working with locally stored TiddlyWikis. See http://tiddlywiki.com/ for more details of TiddlyWiki.\nSee this video tutorial for an overview of installing and using TiddlyDesktop on Windows and OS X:\nhttps://www.youtube.com/watch?v=i3Bggkm7paA\nIt is based on nw.js, a project created and developed in the Intel Open Source Technology Center:\nDownload the Windows, linux or Mac binary .zip files from:\nhttps://github.com/TiddlyWiki/TiddlyDesktop/releases\nUnzip into a folder and run  or  and for linux",
+      "tag": "专用桌面浏览器"
+    },
+    {
+      "id": 385263968,
+      "name": "authts/oidc-client-ts",
+      "stars": 1856,
+      "enhanced_text": "OpenID Connect (OIDC) and OAuth2 protocol support for browser-based JavaScript applications.",
+      "tag": "浏览器认证库"
+    },
+    {
+      "id": 3860377,
+      "name": "mthenw/frontail",
+      "stars": 1854,
+      "enhanced_text": "📝 streaming logs to the browser. Sponsored by https://cloudash.dev.\n\n## Quick start\n-  or download a binary file from Releases page\n- visit http://127.0.0.1:9001\n\n## Installation options\n- download a binary file from Releases pagegit st\n- using Docker image:\nfrontail [options] [file ...]\n-V, --version                 output the version number\n-h, --host              listening host, default 0.0.0.0\n-p, --port              listening port, default 9001\n-n, --number          starting lines number, default 10\n-l, --lines            number on lines stored in browser, default 2000\n-t, --theme            name of the theme (default, dark)\n-d, --daemonize               run as daemon\n-U, --user          Basic Authentication username, option works only along with -P option\n-P, --password      Basic Authentication password, option works only along with -U option\n-k, --key            Private Key for HTTPS, option works only along with -c option\n-c, --certificate   Certificate for HTTPS, option works only along with -k option\n\n## Features\n- log rotation (not on Windows)\n- number of unread logs in favicon\n- themes (default, dark)\n- search ( to focus,  to clear)\n- set filter from url parameter\n- tailing multiple files and stdin\n- basic authentication",
+      "tag": "浏览器日志流工具"
+    },
+    {
+      "id": 196062547,
+      "name": "schollz/hostyoself",
+      "stars": 1849,
+      "enhanced_text": "Host yo' self from your browser, your phone, your toaster.\n\nA hosting service from the browser, because why not. Try it at hostyoself.com.\nHere's an example where I use hostyoself.com to host itself. I use  to download hostyoself.com and then host hostyoself.com from hostyoself.com: hostyoself.com/hostyoself/. Happy 9th Anniversary Inception :cake:!\nOpen hostyoself.com and drag and drop a folder, or select a file. Your browser will host the files!\nYou can host files directly from the terminal!\nNow if you have a file in your folder  you can access it with the public URL , directly from your computer!\nIf you're on a Mac, you can install with Homebrew:\nOr you can host your current directory using Docker:",
+      "tag": "浏览器文件托管服务"
+    },
+    {
+      "id": 12198882,
+      "name": "kombai/freewall",
+      "stars": 1848,
+      "enhanced_text": "Freewall is a cross-browser and responsive jQuery plugin to help you create grid, image and masonry layouts  for desktop, mobile, and tablet...",
+      "tag": "响应式布局库"
+    },
+    {
+      "id": 900152988,
+      "name": "nottelabs/notte",
+      "stars": 1848,
+      "enhanced_text": "🌸 Best framework to build web agents, and deploy serverless web automation functions on reliable browser infra.",
+      "tag": "Web自动化框架"
+    },
+    {
+      "id": 604752123,
+      "name": "LinkSheet/LinkSheet",
+      "stars": 1842,
+      "enhanced_text": "Link handling for modern Android.",
+      "tag": "Android链接处理库"
+    },
+    {
+      "id": 11034722,
+      "name": "WhichBrowser/Parser-PHP",
+      "stars": 1839,
+      "enhanced_text": "Browser sniffing gone too far — A useragent parser library for PHP.\n\nAbout WhichBrowser\n**But why *almost completely useless* and not completely useless?**\nWell, there is always an exception to the rule. There are valid reasons to do browser sniffing: to improve the user experience or to gather intelligence about which browsers are used on your website. My website is html5test.com and I wanted to know which score belongs to which browser. And to do that you need a browser sniffing library.\n**Why is it extremely complicated?**\nBecause everybody lies. Seriously, there is not a single browser that is completely truthful. Almost all browsers say they are Netscape 5 and almost all WebKit browsers say they are based on Gecko. Even Internet Explorer 11 now no longer claims to be IE at all, but instead an unnamed browser that is like Gecko. And it gets worse. That is why it is complicated.\n**What kind of information does it give?**\nYou get a nice object which has information about the browser, rendering engine, os and device. It gives you names and versions and even device manufacturer and model. And WhichBrowser is pretty tenacious. It gives you info that others don't. For example:\nJUC (Linux; U; 2.3.6; zh-cn; GT-I8150; 480*800) UCWEB8.7.4.225/145/800\nUC Browser 8.7 on a Samsung Galaxy W running Android 2.3.6\nAndroid is never mentioned\nMozilla/5.0 (Series40; Nokia501/10.0.2; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/3.0.0.0.73\nNokia Xpress 3.0.0 on a Nokia Asha 501 running Nokia Asha Platform\nDespite the useragent header claiming to be a Series40 device, we know it's actually running the Asha Platform and we also know that OviBrowser has been renamed to Nokia Xpress.\nOpera/9.80 (X11; Linux zvav; U; zh) Presto/2.8.119 Version/11.10\nOpera Mini on a Nokia 5230 running Series60 5.0",
+      "tag": "用户代理解析库"
+    },
+    {
+      "id": 92241608,
+      "name": "mumuy/browser",
+      "stars": 1836,
+      "enhanced_text": "浏览器检测 - Useragent分析/浏览器识别/浏览器判断/用户代理信息/浏览器指纹/Useragent analysis tool/Browser detection.\n\n【项目主页】https://passer-by.com/browser/\n【BrowserIs.com】https://browseris.com/\n该 Javascript 库 / 模块可以用于前端也可以用于后端 Nodejs 中。\n1. 直接下载browser.js，然后使用 标签引入，可以得到全局函数 .",
+      "tag": "浏览器检测库"
+    },
+    {
+      "id": 7264874,
+      "name": "TTLabs/EvaporateJS",
+      "stars": 1826,
+      "enhanced_text": "Javascript library for browser to S3 multipart resumable uploads.\n\n## Features\n- Configurable number of parallel uploads for each part ()\n- Configurable MD5 Checksum calculations and handling for each uploaded\n- Pluggable signing methods with  to support AWS Lambda, async functions and more.\n- S3 Transfer Acceleration ()\n- Robust recovery when uploading huge files. Only parts that\nhave not been fully uploaded again. (, )\n- Ability to pause and resume downloads at will\n- Signing methods can respond to 401 and 403 response statuses and not trigger the automatic retry feature.\n- AWS Signature Version 2 and 4 ()\n- Reduced memory footprint when calculating MD5 digests.\n- Parallel file uploads while respecting .\n- If Evaporate reuses an interrupted upload or avoids uploading a file that is already available on S3, the new\ncallback  will be invoked with the previous object name at the earliest moment. This indicates\nthat requested object name was not used.",
+      "tag": "浏览器文件上传库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 15743523,
+        "tag": "专用桌面浏览器"
+      },
+      {
+        "id": 385263968,
+        "tag": "浏览器认证库"
+      },
+      {
+        "id": 3860377,
+        "tag": "浏览器日志流工具"
+      },
+      {
+        "id": 196062547,
+        "tag": "浏览器文件托管服务"
+      },
+      {
+        "id": 12198882,
+        "tag": "响应式布局库"
+      },
+      {
+        "id": 900152988,
+        "tag": "Web自动化框架"
+      },
+      {
+        "id": 604752123,
+        "tag": "Android链接处理库"
+      },
+      {
+        "id": 11034722,
+        "tag": "用户代理解析库"
+      },
+      {
+        "id": 92241608,
+        "tag": "浏览器检测库"
+      },
+      {
+        "id": 7264874,
+        "tag": "浏览器文件上传库"
+      }
+    ]
+  }
+}

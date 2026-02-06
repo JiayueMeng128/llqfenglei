@@ -1,0 +1,5006 @@
+{
+  "generated_at": "2026-02-05T16:20:52.625237",
+  "total_pending": 1000,
+  "pending": [
+    {
+      "id": 70107786,
+      "name": "vercel/next.js",
+      "stars": 137504
+    },
+    {
+      "id": 23088740,
+      "name": "axios/axios",
+      "stars": 108566
+    },
+    {
+      "id": 2561582,
+      "name": "animate-css/animate.css",
+      "stars": 82624
+    },
+    {
+      "id": 881458615,
+      "name": "browser-use/browser-use",
+      "stars": 77766
+    },
+    {
+      "id": 172953845,
+      "name": "coder/code-server",
+      "stars": 76108
+    },
+    {
+      "id": 9185792,
+      "name": "apache/echarts",
+      "stars": 65624
+    },
+    {
+      "id": 808045485,
+      "name": "LadybirdBrowser/ladybird",
+      "stars": 58190
+    },
+    {
+      "id": 824874689,
+      "name": "cline/cline",
+      "stars": 57569
+    },
+    {
+      "id": 348060227,
+      "name": "withastro/astro",
+      "stars": 56518
+    },
+    {
+      "id": 31629751,
+      "name": "cypress-io/cypress",
+      "stars": 49557
+    },
+    {
+      "id": 60630844,
+      "name": "microsoft/monaco-editor",
+      "stars": 45502
+    },
+    {
+      "id": 14194174,
+      "name": "alex/what-happens-when",
+      "stars": 42681
+    },
+    {
+      "id": 9393759,
+      "name": "phaserjs/phaser",
+      "stars": 38970
+    },
+    {
+      "id": 3065454,
+      "name": "impress/impress.js",
+      "stars": 38586
+    },
+    {
+      "id": 13840241,
+      "name": "freeCodeCamp/devdocs",
+      "stars": 38447
+    },
+    {
+      "id": 52773157,
+      "name": "typeorm/typeorm",
+      "stars": 36293
+    },
+    {
+      "id": 624681066,
+      "name": "reworkd/AgentGPT",
+      "stars": 35654
+    },
+    {
+      "id": 3390243,
+      "name": "servo/servo",
+      "stars": 35364
+    },
+    {
+      "id": 21393871,
+      "name": "sorrycc/awesome-javascript",
+      "stars": 34891
+    },
+    {
+      "id": 355959597,
+      "name": "Textualize/textual",
+      "stars": 34069
+    },
+    {
+      "id": 7613257,
+      "name": "SeleniumHQ/selenium",
+      "stars": 33977
+    },
+    {
+      "id": 42332863,
+      "name": "filebrowser/filebrowser",
+      "stars": 33304
+    },
+    {
+      "id": 160083795,
+      "name": "SerenityOS/serenity",
+      "stars": 32877
+    },
+    {
+      "id": 61412022,
+      "name": "ianstormtaylor/slate",
+      "stars": 31508
+    },
+    {
+      "id": 15308499,
+      "name": "SortableJS/Sortable",
+      "stars": 31007
+    },
+    {
+      "id": 13584262,
+      "name": "webtorrent/webtorrent",
+      "stars": 30739
+    },
+    {
+      "id": 46273445,
+      "name": "transloadit/uppy",
+      "stars": 30621
+    },
+    {
+      "id": 51769689,
+      "name": "refined-github/refined-github",
+      "stars": 30312
+    },
+    {
+      "id": 14964475,
+      "name": "AvaloniaUI/Avalonia",
+      "stars": 29977
+    },
+    {
+      "id": 21484781,
+      "name": "jumpserver/jumpserver",
+      "stars": 29800
+    },
+    {
+      "id": 1200050,
+      "name": "ariya/phantomjs",
+      "stars": 29496
+    },
+    {
+      "id": 698041,
+      "name": "caolan/async",
+      "stars": 28210
+    },
+    {
+      "id": 283211901,
+      "name": "yuliskov/SmartTube",
+      "stars": 27955
+    },
+    {
+      "id": 1254497,
+      "name": "codemirror/codemirror5",
+      "stars": 27228
+    },
+    {
+      "id": 90356372,
+      "name": "ArchiveBox/ArchiveBox",
+      "stars": 26758
+    },
+    {
+      "id": 30638861,
+      "name": "fingerprintjs/fingerprintjs",
+      "stars": 26420
+    },
+    {
+      "id": 312262,
+      "name": "philc/vimium",
+      "stars": 25974
+    },
+    {
+      "id": 317757,
+      "name": "Modernizr/Modernizr",
+      "stars": 25690
+    },
+    {
+      "id": 935604638,
+      "name": "Fosowl/agenticSeek",
+      "stars": 24927
+    },
+    {
+      "id": 609416865,
+      "name": "nextai-translator/nextai-translator",
+      "stars": 24845
+    },
+    {
+      "id": 24579238,
+      "name": "vuejs/devtools-v6",
+      "stars": 24794
+    },
+    {
+      "id": 124303364,
+      "name": "GoogleChromeLabs/squoosh",
+      "stars": 24701
+    },
+    {
+      "id": 201570219,
+      "name": "responsively-org/responsively-app",
+      "stars": 24681
+    },
+    {
+      "id": 19416551,
+      "name": "sqlitebrowser/sqlitebrowser",
+      "stars": 23587
+    },
+    {
+      "id": 1054793726,
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "stars": 23206
+    },
+    {
+      "id": 1451352,
+      "name": "mochajs/mocha",
+      "stars": 22874
+    },
+    {
+      "id": 32531480,
+      "name": "js-cookie/js-cookie",
+      "stars": 22835
+    },
+    {
+      "id": 8986773,
+      "name": "benweet/stackedit",
+      "stars": 22776
+    },
+    {
+      "id": 14158237,
+      "name": "copy/v86",
+      "stars": 22141
+    },
+    {
+      "id": 66670819,
+      "name": "apify/crawlee",
+      "stars": 21510
+    },
+    {
+      "id": 110178895,
+      "name": "brave/brave-browser",
+      "stars": 21292
+    },
+    {
+      "id": 171072967,
+      "name": "pedroslopez/whatsapp-web.js",
+      "stars": 21082
+    },
+    {
+      "id": 412741449,
+      "name": "AutomaApp/automa",
+      "stars": 20980
+    },
+    {
+      "id": 776908852,
+      "name": "browserbase/stagehand",
+      "stars": 20754
+    },
+    {
+      "id": 53256950,
+      "name": "liriliri/eruda",
+      "stars": 20697
+    },
+    {
+      "id": 3834332,
+      "name": "bokeh/bokeh",
+      "stars": 20322
+    },
+    {
+      "id": 764723738,
+      "name": "Skyvern-AI/skyvern",
+      "stars": 20293
+    },
+    {
+      "id": 11397939,
+      "name": "allinurl/goaccess",
+      "stars": 20199
+    },
+    {
+      "id": 286047827,
+      "name": "pavlobu/deskreen",
+      "stars": 20184
+    },
+    {
+      "id": 906022,
+      "name": "gildas-lormeau/SingleFile",
+      "stars": 20155
+    },
+    {
+      "id": 18477927,
+      "name": "segment-boneyard/nightmare",
+      "stars": 20000
+    },
+    {
+      "id": 40808571,
+      "name": "yudai/gotty",
+      "stars": 19387
+    },
+    {
+      "id": 461710233,
+      "name": "pyscript/pyscript",
+      "stars": 18701
+    },
+    {
+      "id": 3428345,
+      "name": "ftlabs/fastclick",
+      "stars": 18577
+    },
+    {
+      "id": 4414698,
+      "name": "compiler-explorer/compiler-explorer",
+      "stars": 18524
+    },
+    {
+      "id": 58327877,
+      "name": "browsh-org/browsh",
+      "stars": 18447
+    },
+    {
+      "id": 125791597,
+      "name": "InterviewMap/CS-Interview-Knowledge-Map",
+      "stars": 18309
+    },
+    {
+      "id": 48576134,
+      "name": "xifangczy/cat-catch",
+      "stars": 17940
+    },
+    {
+      "id": 134035452,
+      "name": "justadudewhohacks/face-api.js",
+      "stars": 17755
+    },
+    {
+      "id": 627561173,
+      "name": "mlc-ai/web-llm",
+      "stars": 17232
+    },
+    {
+      "id": 215530281,
+      "name": "ffmpegwasm/ffmpeg.wasm",
+      "stars": 17133
+    },
+    {
+      "id": 247350713,
+      "name": "m1k1o/neko",
+      "stars": 16927
+    },
+    {
+      "id": 40518025,
+      "name": "graphql/graphiql",
+      "stars": 16782
+    },
+    {
+      "id": 44424200,
+      "name": "vasanthk/how-web-works",
+      "stars": 16697
+    },
+    {
+      "id": 1607357,
+      "name": "forwardemail/superagent",
+      "stars": 16658
+    },
+    {
+      "id": 40089578,
+      "name": "janeczku/calibre-web",
+      "stars": 16480
+    },
+    {
+      "id": 30064588,
+      "name": "video-dev/hls.js",
+      "stars": 16459
+    },
+    {
+      "id": 101109137,
+      "name": "PavelDoGreat/WebGL-Fluid-Simulation",
+      "stars": 16099
+    },
+    {
+      "id": 591273534,
+      "name": "fathyb/carbonyl",
+      "stars": 15889
+    },
+    {
+      "id": 84009,
+      "name": "jasmine/jasmine",
+      "stars": 15848
+    },
+    {
+      "id": 58360147,
+      "name": "javascript-obfuscator/javascript-obfuscator",
+      "stars": 15836
+    },
+    {
+      "id": 910986056,
+      "name": "browser-use/web-ui",
+      "stars": 15562
+    },
+    {
+      "id": 924303,
+      "name": "madrobby/zepto",
+      "stars": 15371
+    },
+    {
+      "id": 601161044,
+      "name": "huggingface/transformers.js",
+      "stars": 15314
+    },
+    {
+      "id": 2609642,
+      "name": "feathersjs/feathers",
+      "stars": 15249
+    },
+    {
+      "id": 144624857,
+      "name": "checkly/headless-recorder",
+      "stars": 15242
+    },
+    {
+      "id": 1338813,
+      "name": "paperjs/paper.js",
+      "stars": 14966
+    },
+    {
+      "id": 51658450,
+      "name": "BrainJS/brain.js",
+      "stars": 14855
+    },
+    {
+      "id": 445599288,
+      "name": "faker-js/faker",
+      "stars": 14851
+    },
+    {
+      "id": 931039,
+      "name": "browserify/browserify",
+      "stars": 14731
+    },
+    {
+      "id": 17618901,
+      "name": "Tonejs/Tone.js",
+      "stars": 14690
+    },
+    {
+      "id": 45213667,
+      "name": "Chocobozzz/PeerTube",
+      "stars": 14478
+    },
+    {
+      "id": 7323572,
+      "name": "davidshimjs/qrcodejs",
+      "stars": 14229
+    },
+    {
+      "id": 709027512,
+      "name": "getmaxun/maxun",
+      "stars": 14195
+    },
+    {
+      "id": 122663163,
+      "name": "pyodide/pyodide",
+      "stars": 14187
+    },
+    {
+      "id": 743723,
+      "name": "marcuswestin/store.js",
+      "stars": 14012
+    },
+    {
+      "id": 37834277,
+      "name": "openstf/stf",
+      "stars": 13819
+    },
+    {
+      "id": 169149127,
+      "name": "pomber/git-history",
+      "stars": 13685
+    },
+    {
+      "id": 28704549,
+      "name": "philipwalton/flexbugs",
+      "stars": 13591
+    },
+    {
+      "id": 122835005,
+      "name": "nextapps-de/flexsearch",
+      "stars": 13573
+    },
+    {
+      "id": 9795883,
+      "name": "louischatriot/nedb",
+      "stars": 13567
+    },
+    {
+      "id": 2688455,
+      "name": "lokesh/color-thief",
+      "stars": 13542
+    },
+    {
+      "id": 27971466,
+      "name": "browserslist/browserslist",
+      "stars": 13488
+    },
+    {
+      "id": 273132277,
+      "name": "moonD4rk/HackBrowserData",
+      "stars": 13483
+    },
+    {
+      "id": 341139727,
+      "name": "kysely-org/kysely",
+      "stars": 13408
+    },
+    {
+      "id": 7292898,
+      "name": "peers/peerjs",
+      "stars": 13201
+    },
+    {
+      "id": 12418999,
+      "name": "gopherjs/gopherjs",
+      "stars": 13121
+    },
+    {
+      "id": 42009758,
+      "name": "MetaMask/metamask-extension",
+      "stars": 13080
+    },
+    {
+      "id": 2553927,
+      "name": "gnab/remark",
+      "stars": 12970
+    },
+    {
+      "id": 6319157,
+      "name": "taye/interact.js",
+      "stars": 12890
+    },
+    {
+      "id": 26133979,
+      "name": "mozilla-mobile/firefox-ios",
+      "stars": 12839
+    },
+    {
+      "id": 487812840,
+      "name": "PlasmoHQ/plasmo",
+      "stars": 12824
+    },
+    {
+      "id": 79921099,
+      "name": "chromedp/chromedp",
+      "stars": 12707
+    },
+    {
+      "id": 196117722,
+      "name": "ajayyy/SponsorBlock",
+      "stars": 12699
+    },
+    {
+      "id": 1132001614,
+      "name": "vercel-labs/agent-browser",
+      "stars": 12545
+    },
+    {
+      "id": 7711472,
+      "name": "zealdocs/zeal",
+      "stars": 12515
+    },
+    {
+      "id": 119001901,
+      "name": "catdad/canvas-confetti",
+      "stars": 12391
+    },
+    {
+      "id": 286179743,
+      "name": "DustinBrett/daedalOS",
+      "stars": 12391
+    },
+    {
+      "id": 111058386,
+      "name": "browserless/browserless",
+      "stars": 12366
+    },
+    {
+      "id": 13527761,
+      "name": "BrowserSync/browser-sync",
+      "stars": 12298
+    },
+    {
+      "id": 229566288,
+      "name": "ultrafunkamsterdam/undetected-chromedriver",
+      "stars": 12295
+    },
+    {
+      "id": 910418754,
+      "name": "nanobrowser/nanobrowser",
+      "stars": 12147
+    },
+    {
+      "id": 8629417,
+      "name": "mapbox/mapbox-gl-js",
+      "stars": 12126
+    },
+    {
+      "id": 2560988,
+      "name": "karma-runner/karma",
+      "stars": 11974
+    },
+    {
+      "id": 53538899,
+      "name": "bitwarden/clients",
+      "stars": 11961
+    },
+    {
+      "id": 598667202,
+      "name": "lightpanda-io/browser",
+      "stars": 11764
+    },
+    {
+      "id": 2871998,
+      "name": "debug-js/debug",
+      "stars": 11429
+    },
+    {
+      "id": 21244505,
+      "name": "qutebrowser/qutebrowser",
+      "stars": 11252
+    },
+    {
+      "id": 835510315,
+      "name": "mozilla-firefox/firefox",
+      "stars": 11167
+    },
+    {
+      "id": 15642233,
+      "name": "karpathy/convnetjs",
+      "stars": 11135
+    },
+    {
+      "id": 375345894,
+      "name": "pystardust/ani-cli",
+      "stars": 11041
+    },
+    {
+      "id": 64060314,
+      "name": "screetsec/TheFatRat",
+      "stars": 10982
+    },
+    {
+      "id": 933197458,
+      "name": "imputnet/helium",
+      "stars": 10960
+    },
+    {
+      "id": 26149893,
+      "name": "captbaritone/webamp",
+      "stars": 10876
+    },
+    {
+      "id": 87668160,
+      "name": "atlas-engineer/nyxt",
+      "stars": 10811
+    },
+    {
+      "id": 847885,
+      "name": "mathjax/MathJax",
+      "stars": 10768
+    },
+    {
+      "id": 2630230,
+      "name": "mixmark-io/turndown",
+      "stars": 10744
+    },
+    {
+      "id": 614258120,
+      "name": "ChatGPTBox-dev/chatGPTBox",
+      "stars": 10733
+    },
+    {
+      "id": 2833881,
+      "name": "beefproject/beef",
+      "stars": 10709
+    },
+    {
+      "id": 1274749,
+      "name": "browserstate/history.js",
+      "stars": 10694
+    },
+    {
+      "id": 224841533,
+      "name": "Vanessa219/vditor",
+      "stars": 10672
+    },
+    {
+      "id": 557977,
+      "name": "socketio/socket.io-client",
+      "stars": 10625
+    },
+    {
+      "id": 2030956,
+      "name": "foliojs/pdfkit",
+      "stars": 10577
+    },
+    {
+      "id": 464827989,
+      "name": "triggerdotdev/jsonhero-web",
+      "stars": 10576
+    },
+    {
+      "id": 72066935,
+      "name": "cs01/gdbgui",
+      "stars": 10307
+    },
+    {
+      "id": 4190976,
+      "name": "ziahamza/webui-aria2",
+      "stars": 10290
+    },
+    {
+      "id": 135633158,
+      "name": "Netflix/pollyjs",
+      "stars": 10259
+    },
+    {
+      "id": 998796026,
+      "name": "hangwin/mcp-chrome",
+      "stars": 10256
+    },
+    {
+      "id": 528152092,
+      "name": "easydiffusion/easydiffusion",
+      "stars": 10235
+    },
+    {
+      "id": 1135454,
+      "name": "cefsharp/CefSharp",
+      "stars": 10201
+    },
+    {
+      "id": 490677825,
+      "name": "oramasearch/orama",
+      "stars": 10126
+    },
+    {
+      "id": 3320710,
+      "name": "faisalman/ua-parser-js",
+      "stars": 10040
+    },
+    {
+      "id": 36353527,
+      "name": "typicode/hotel",
+      "stars": 9998
+    },
+    {
+      "id": 249480042,
+      "name": "yokoffing/Betterfox",
+      "stars": 9978
+    },
+    {
+      "id": 618081183,
+      "name": "NopeCHALLC/nopecha-extension",
+      "stars": 9911
+    },
+    {
+      "id": 31341340,
+      "name": "kern/filepizza",
+      "stars": 9897
+    },
+    {
+      "id": 34262857,
+      "name": "DevExpress/testcafe",
+      "stars": 9897
+    },
+    {
+      "id": 319779344,
+      "name": "maplibre/maplibre-gl-js",
+      "stars": 9820
+    },
+    {
+      "id": 2296970,
+      "name": "webdriverio/webdriverio",
+      "stars": 9716
+    },
+    {
+      "id": 320636477,
+      "name": "WebKit/WebKit",
+      "stars": 9584
+    },
+    {
+      "id": 36502584,
+      "name": "react-page/react-page",
+      "stars": 9564
+    },
+    {
+      "id": 17592572,
+      "name": "bpmn-io/bpmn-js",
+      "stars": 9416
+    },
+    {
+      "id": 2491285,
+      "name": "mozilla/BrowserQuest",
+      "stars": 9364
+    },
+    {
+      "id": 127247098,
+      "name": "AdrienTorris/awesome-blazor",
+      "stars": 9293
+    },
+    {
+      "id": 985839104,
+      "name": "browseros-ai/BrowserOS",
+      "stars": 9188
+    },
+    {
+      "id": 1569980,
+      "name": "mqttjs/MQTT.js",
+      "stars": 9033
+    },
+    {
+      "id": 36437041,
+      "name": "artilleryio/artillery",
+      "stars": 8881
+    },
+    {
+      "id": 45319761,
+      "name": "minbrowser/min",
+      "stars": 8841
+    },
+    {
+      "id": 260432296,
+      "name": "H-M-H/Weylus",
+      "stars": 8787
+    },
+    {
+      "id": 1012503,
+      "name": "mwaterfall/MWPhotoBrowser",
+      "stars": 8744
+    },
+    {
+      "id": 705574656,
+      "name": "lencx/Noi",
+      "stars": 8696
+    },
+    {
+      "id": 5775917,
+      "name": "gotwarlost/istanbul",
+      "stars": 8684
+    },
+    {
+      "id": 26768643,
+      "name": "SeleniumHQ/docker-selenium",
+      "stars": 8593
+    },
+    {
+      "id": 33816473,
+      "name": "testcontainers/testcontainers-java",
+      "stars": 8574
+    },
+    {
+      "id": 2828239,
+      "name": "TiddlyWiki/TiddlyWiki5",
+      "stars": 8540
+    },
+    {
+      "id": 814882742,
+      "name": "iib0011/omni-tools",
+      "stars": 8534
+    },
+    {
+      "id": 51018409,
+      "name": "appbaseio/dejavu",
+      "stars": 8463
+    },
+    {
+      "id": 12261520,
+      "name": "smartystreets/goconvey",
+      "stars": 8419
+    },
+    {
+      "id": 802006,
+      "name": "mediaelement/mediaelement",
+      "stars": 8304
+    },
+    {
+      "id": 2931111,
+      "name": "chaijs/chai",
+      "stars": 8268
+    },
+    {
+      "id": 98770076,
+      "name": "isomorphic-git/isomorphic-git",
+      "stars": 8071
+    },
+    {
+      "id": 741365632,
+      "name": "apify/crawlee-python",
+      "stars": 8013
+    },
+    {
+      "id": 230881127,
+      "name": "luruke/browser-2020",
+      "stars": 8000
+    },
+    {
+      "id": 437505831,
+      "name": "Floorp-Projects/Floorp",
+      "stars": 7976
+    },
+    {
+      "id": 62937181,
+      "name": "PrivateBin/PrivateBin",
+      "stars": 7969
+    },
+    {
+      "id": 46891997,
+      "name": "brave/browser-laptop",
+      "stars": 7932
+    },
+    {
+      "id": 389813360,
+      "name": "ComicSparks/pikapika",
+      "stars": 7875
+    },
+    {
+      "id": 5839692,
+      "name": "webpack/webpack-dev-server",
+      "stars": 7853
+    },
+    {
+      "id": 11621778,
+      "name": "danialfarid/ng-file-upload",
+      "stars": 7822
+    },
+    {
+      "id": 12558645,
+      "name": "violentmonkey/violentmonkey",
+      "stars": 7810
+    },
+    {
+      "id": 89785877,
+      "name": "robinmoisson/staticrypt",
+      "stars": 7808
+    },
+    {
+      "id": 69316510,
+      "name": "weolar/miniblink49",
+      "stars": 7794
+    },
+    {
+      "id": 21251069,
+      "name": "feross/simple-peer",
+      "stars": 7784
+    },
+    {
+      "id": 109200851,
+      "name": "microsoft/azuredatastudio",
+      "stars": 7719
+    },
+    {
+      "id": 711976,
+      "name": "octokit/octokit.js",
+      "stars": 7682
+    },
+    {
+      "id": 5694513,
+      "name": "aws/aws-sdk-js",
+      "stars": 7647
+    },
+    {
+      "id": 60434915,
+      "name": "floccusaddon/floccus",
+      "stars": 7627
+    },
+    {
+      "id": 625486047,
+      "name": "n4ze3m/page-assist",
+      "stars": 7515
+    },
+    {
+      "id": 21611548,
+      "name": "SVG-Edit/svgedit",
+      "stars": 7483
+    },
+    {
+      "id": 37201011,
+      "name": "ethereum/mist",
+      "stars": 7450
+    },
+    {
+      "id": 156353247,
+      "name": "panva/jose",
+      "stars": 7293
+    },
+    {
+      "id": 25780780,
+      "name": "AlaSQL/alasql",
+      "stars": 7252
+    },
+    {
+      "id": 120715537,
+      "name": "sindresorhus/modern-normalize",
+      "stars": 7218
+    },
+    {
+      "id": 3362916,
+      "name": "sindresorhus/screenfull",
+      "stars": 7153
+    },
+    {
+      "id": 35833177,
+      "name": "jaywcjlove/hotkeys-js",
+      "stars": 7148
+    },
+    {
+      "id": 127546642,
+      "name": "unjs/consola",
+      "stars": 7143
+    },
+    {
+      "id": 24229490,
+      "name": "fabiospampinato/cash",
+      "stars": 7047
+    },
+    {
+      "id": 209381919,
+      "name": "jwilber/roughViz",
+      "stars": 7045
+    },
+    {
+      "id": 930217913,
+      "name": "AgentDeskAI/browser-tools-mcp",
+      "stars": 7042
+    },
+    {
+      "id": 485134435,
+      "name": "ajnart/homarr",
+      "stars": 7015
+    },
+    {
+      "id": 197205035,
+      "name": "DIYgod/RSSHub-Radar",
+      "stars": 6941
+    },
+    {
+      "id": 24649388,
+      "name": "cazala/synaptic",
+      "stars": 6919
+    },
+    {
+      "id": 332757634,
+      "name": "jonasstrehle/supercookie",
+      "stars": 6918
+    },
+    {
+      "id": 657577902,
+      "name": "imgly/background-removal-js",
+      "stars": 6916
+    },
+    {
+      "id": 6418762,
+      "name": "futurepress/epub.js",
+      "stars": 6856
+    },
+    {
+      "id": 130369089,
+      "name": "jdepoix/youtube-transcript-api",
+      "stars": 6842
+    },
+    {
+      "id": 206509491,
+      "name": "rowyio/rowy",
+      "stars": 6800
+    },
+    {
+      "id": 24650236,
+      "name": "google/lovefield",
+      "stars": 6788
+    },
+    {
+      "id": 59700207,
+      "name": "beakerbrowser/beaker",
+      "stars": 6761
+    },
+    {
+      "id": 664226598,
+      "name": "pinokiocomputer/pinokio",
+      "stars": 6659
+    },
+    {
+      "id": 274248201,
+      "name": "LasCC/HackTools",
+      "stars": 6608
+    },
+    {
+      "id": 24046239,
+      "name": "brython-dev/brython",
+      "stars": 6576
+    },
+    {
+      "id": 879320294,
+      "name": "autoscrape-labs/pydoll",
+      "stars": 6507
+    },
+    {
+      "id": 23971425,
+      "name": "dhamaniasad/HeadlessBrowsers",
+      "stars": 6496
+    },
+    {
+      "id": 573759422,
+      "name": "interstellard/chatgpt-advanced",
+      "stars": 6490
+    },
+    {
+      "id": 973180254,
+      "name": "stagewise-io/stagewise",
+      "stars": 6490
+    },
+    {
+      "id": 65687570,
+      "name": "geohot/fromthetransistor",
+      "stars": 6428
+    },
+    {
+      "id": 126314606,
+      "name": "mozilla-mobile/fenix",
+      "stars": 6426
+    },
+    {
+      "id": 10368942,
+      "name": "Grsmto/simplebar",
+      "stars": 6383
+    },
+    {
+      "id": 882026761,
+      "name": "steel-dev/steel-browser",
+      "stars": 6375
+    },
+    {
+      "id": 12594863,
+      "name": "kalcaddle/KodExplorer",
+      "stars": 6374
+    },
+    {
+      "id": 546129875,
+      "name": "raphamorim/rio",
+      "stars": 6372
+    },
+    {
+      "id": 734569425,
+      "name": "Bistutu/FluentRead",
+      "stars": 6356
+    },
+    {
+      "id": 763795053,
+      "name": "lavague-ai/LaVague",
+      "stars": 6290
+    },
+    {
+      "id": 652319769,
+      "name": "gtsteffaniak/filebrowser",
+      "stars": 6224
+    },
+    {
+      "id": 106549179,
+      "name": "bromite/bromite",
+      "stars": 6205
+    },
+    {
+      "id": 1101281251,
+      "name": "rainxchzed/Github-Store",
+      "stars": 6199
+    },
+    {
+      "id": 789480255,
+      "name": "mishushakov/llm-scraper",
+      "stars": 6177
+    },
+    {
+      "id": 305646330,
+      "name": "devlikeapro/waha",
+      "stars": 6065
+    },
+    {
+      "id": 16231859,
+      "name": "nodeca/pako",
+      "stars": 6044
+    },
+    {
+      "id": 6583352,
+      "name": "alrra/browser-logos",
+      "stars": 6024
+    },
+    {
+      "id": 41906632,
+      "name": "brookhong/Surfingkeys",
+      "stars": 5998
+    },
+    {
+      "id": 1701968,
+      "name": "bitcoinjs/bitcoinjs-lib",
+      "stars": 5967
+    },
+    {
+      "id": 10855394,
+      "name": "itsgoingd/clockwork",
+      "stars": 5930
+    },
+    {
+      "id": 3069402,
+      "name": "lindell/JsBarcode",
+      "stars": 5829
+    },
+    {
+      "id": 3238243,
+      "name": "Fyrd/caniuse",
+      "stars": 5809
+    },
+    {
+      "id": 6853358,
+      "name": "tape-testing/tape",
+      "stars": 5803
+    },
+    {
+      "id": 518486100,
+      "name": "NirmalScaria/le-git-graph",
+      "stars": 5801
+    },
+    {
+      "id": 149144662,
+      "name": "lucaong/minisearch",
+      "stars": 5769
+    },
+    {
+      "id": 3618133,
+      "name": "web-platform-tests/wpt",
+      "stars": 5761
+    },
+    {
+      "id": 96284790,
+      "name": "prasathmani/tinyfilemanager",
+      "stars": 5759
+    },
+    {
+      "id": 1673025,
+      "name": "bowser-js/bowser",
+      "stars": 5712
+    },
+    {
+      "id": 956283541,
+      "name": "BrowserMCP/mcp",
+      "stars": 5690
+    },
+    {
+      "id": 720466801,
+      "name": "lxfater/inpaint-web",
+      "stars": 5664
+    },
+    {
+      "id": 744296994,
+      "name": "outerbase/studio",
+      "stars": 5656
+    },
+    {
+      "id": 1141441,
+      "name": "assaf/zombie",
+      "stars": 5640
+    },
+    {
+      "id": 384330997,
+      "name": "rcmaehl/MSEdgeRedirect",
+      "stars": 5621
+    },
+    {
+      "id": 55001853,
+      "name": "mdn/browser-compat-data",
+      "stars": 5578
+    },
+    {
+      "id": 47010479,
+      "name": "karpathy/arxiv-sanity-preserver",
+      "stars": 5554
+    },
+    {
+      "id": 620476224,
+      "name": "pagefaultgames/pokerogue",
+      "stars": 5537
+    },
+    {
+      "id": 145123457,
+      "name": "manojVivek/medium-unlimited",
+      "stars": 5494
+    },
+    {
+      "id": 6621471,
+      "name": "Dash-Industry-Forum/dash.js",
+      "stars": 5490
+    },
+    {
+      "id": 54804539,
+      "name": "dolanmiu/docx",
+      "stars": 5440
+    },
+    {
+      "id": 100657321,
+      "name": "zouhir/jarvis",
+      "stars": 5435
+    },
+    {
+      "id": 743456842,
+      "name": "versotile-org/verso",
+      "stars": 5430
+    },
+    {
+      "id": 524325124,
+      "name": "extism/extism",
+      "stars": 5411
+    },
+    {
+      "id": 25158026,
+      "name": "BrowserWorks/waterfox",
+      "stars": 5393
+    },
+    {
+      "id": 12977854,
+      "name": "spolu/breach_core",
+      "stars": 5375
+    },
+    {
+      "id": 43790903,
+      "name": "Khan/aphrodite",
+      "stars": 5346
+    },
+    {
+      "id": 40006776,
+      "name": "jagenjo/webglstudio.js",
+      "stars": 5315
+    },
+    {
+      "id": 282434959,
+      "name": "orestbida/cookieconsent",
+      "stars": 5288
+    },
+    {
+      "id": 137313102,
+      "name": "mattdesl/canvas-sketch",
+      "stars": 5235
+    },
+    {
+      "id": 898077246,
+      "name": "executeautomation/mcp-playwright",
+      "stars": 5200
+    },
+    {
+      "id": 1099755141,
+      "name": "donlon/cloudflare-error-page",
+      "stars": 5190
+    },
+    {
+      "id": 19386515,
+      "name": "spatie/browsershot",
+      "stars": 5170
+    },
+    {
+      "id": 141901715,
+      "name": "tensorspace-team/tensorspace",
+      "stars": 5166
+    },
+    {
+      "id": 241217584,
+      "name": "jasonmayes/Real-Time-Person-Removal",
+      "stars": 5164
+    },
+    {
+      "id": 850821713,
+      "name": "Vanilagy/mediabunny",
+      "stars": 5153
+    },
+    {
+      "id": 370679811,
+      "name": "aleksey-hoffman/sigma-file-manager",
+      "stars": 5141
+    },
+    {
+      "id": 18237202,
+      "name": "butlerx/wetty",
+      "stars": 5115
+    },
+    {
+      "id": 456237,
+      "name": "scottschiller/SoundManager2",
+      "stars": 5072
+    },
+    {
+      "id": 1239398,
+      "name": "olado/doT",
+      "stars": 5058
+    },
+    {
+      "id": 834082440,
+      "name": "daijro/camoufox",
+      "stars": 5052
+    },
+    {
+      "id": 47162528,
+      "name": "longitachi/ZLPhotoBrowser",
+      "stars": 4981
+    },
+    {
+      "id": 69674683,
+      "name": "transcranial/keras-js",
+      "stars": 4968
+    },
+    {
+      "id": 4890177,
+      "name": "sitespeedio/sitespeed.io",
+      "stars": 4965
+    },
+    {
+      "id": 332240585,
+      "name": "niespodd/browser-fingerprinting",
+      "stars": 4953
+    },
+    {
+      "id": 716412370,
+      "name": "hslr-s/sun-panel",
+      "stars": 4925
+    },
+    {
+      "id": 184366,
+      "name": "opal/opal",
+      "stars": 4910
+    },
+    {
+      "id": 443774525,
+      "name": "ComicSparks/jasmine",
+      "stars": 4904
+    },
+    {
+      "id": 468168223,
+      "name": "lexiforest/curl_cffi",
+      "stars": 4898
+    },
+    {
+      "id": 9815120,
+      "name": "turbulenz/turbulenz_engine",
+      "stars": 4882
+    },
+    {
+      "id": 1778731,
+      "name": "NarrativeScience-old/log.io",
+      "stars": 4851
+    },
+    {
+      "id": 427384949,
+      "name": "Hufe921/canvas-editor",
+      "stars": 4809
+    },
+    {
+      "id": 744617272,
+      "name": "hanydd/BilibiliSponsorBlock",
+      "stars": 4789
+    },
+    {
+      "id": 352160885,
+      "name": "jupyterlite/jupyterlite",
+      "stars": 4743
+    },
+    {
+      "id": 12018530,
+      "name": "jenssegers/agent",
+      "stars": 4731
+    },
+    {
+      "id": 1590408,
+      "name": "derbyjs/derby",
+      "stars": 4718
+    },
+    {
+      "id": 931243,
+      "name": "samyk/evercookie",
+      "stars": 4704
+    },
+    {
+      "id": 30484966,
+      "name": "michael-lazar/rtv",
+      "stars": 4644
+    },
+    {
+      "id": 16112842,
+      "name": "mholt/json-to-go",
+      "stars": 4622
+    },
+    {
+      "id": 86941132,
+      "name": "WorldBrain/Memex",
+      "stars": 4617
+    },
+    {
+      "id": 19901927,
+      "name": "browserify/browserify-handbook",
+      "stars": 4608
+    },
+    {
+      "id": 306484159,
+      "name": "extension-js/extension.js",
+      "stars": 4602
+    },
+    {
+      "id": 343654752,
+      "name": "Mzying2001/CefFlashBrowser",
+      "stars": 4582
+    },
+    {
+      "id": 37319088,
+      "name": "johnste/finicky",
+      "stars": 4579
+    },
+    {
+      "id": 2955178,
+      "name": "blueimp/JavaScript-MD5",
+      "stars": 4565
+    },
+    {
+      "id": 2692921,
+      "name": "CreateJS/SoundJS",
+      "stars": 4551
+    },
+    {
+      "id": 490984887,
+      "name": "InfinityLoop1308/PipePipe",
+      "stars": 4531
+    },
+    {
+      "id": 366844495,
+      "name": "stackblitz/webcontainer-core",
+      "stars": 4522
+    },
+    {
+      "id": 9503997,
+      "name": "cyrus-and/chrome-remote-interface",
+      "stars": 4488
+    },
+    {
+      "id": 52322425,
+      "name": "gitbrent/PptxGenJS",
+      "stars": 4483
+    },
+    {
+      "id": 64409189,
+      "name": "improbable-eng/grpc-web",
+      "stars": 4476
+    },
+    {
+      "id": 789725,
+      "name": "unconed/TermKit",
+      "stars": 4431
+    },
+    {
+      "id": 90042534,
+      "name": "pojala/electrino",
+      "stars": 4406
+    },
+    {
+      "id": 40733543,
+      "name": "mdn/webextensions-examples",
+      "stars": 4400
+    },
+    {
+      "id": 165110580,
+      "name": "auchenberg/vscode-browser-preview",
+      "stars": 4397
+    },
+    {
+      "id": 79987996,
+      "name": "zufuliu/notepad4",
+      "stars": 4391
+    },
+    {
+      "id": 87006077,
+      "name": "chromiumembedded/cef",
+      "stars": 4348
+    },
+    {
+      "id": 640819432,
+      "name": "smol-ai/GodMode",
+      "stars": 4327
+    },
+    {
+      "id": 1248263,
+      "name": "novnc/websockify",
+      "stars": 4325
+    },
+    {
+      "id": 121876351,
+      "name": "Authenticator-Extension/Authenticator",
+      "stars": 4325
+    },
+    {
+      "id": 154024534,
+      "name": "MrOtherGuy/firefox-csshacks",
+      "stars": 4311
+    },
+    {
+      "id": 44012035,
+      "name": "guysoft/FullPageOS",
+      "stars": 4306
+    },
+    {
+      "id": 903304373,
+      "name": "StructuredLabs/preswald",
+      "stars": 4291
+    },
+    {
+      "id": 5542032,
+      "name": "mdaines/viz-js",
+      "stars": 4285
+    },
+    {
+      "id": 207392577,
+      "name": "capricorn86/happy-dom",
+      "stars": 4277
+    },
+    {
+      "id": 264192686,
+      "name": "supabase/supabase-js",
+      "stars": 4276
+    },
+    {
+      "id": 709571808,
+      "name": "AndrewWalsh/openapi-devtools",
+      "stars": 4276
+    },
+    {
+      "id": 29598525,
+      "name": "gdh1995/vimium-c",
+      "stars": 4262
+    },
+    {
+      "id": 255242703,
+      "name": "doodlewind/jshistory-cn",
+      "stars": 4247
+    },
+    {
+      "id": 326059244,
+      "name": "miroslavpejic85/mirotalk",
+      "stars": 4235
+    },
+    {
+      "id": 3346928,
+      "name": "chjj/tty.js",
+      "stars": 4223
+    },
+    {
+      "id": 123563464,
+      "name": "code-charity/ImprovedTube",
+      "stars": 4213
+    },
+    {
+      "id": 23384104,
+      "name": "bendc/sprint",
+      "stars": 4201
+    },
+    {
+      "id": 10182205,
+      "name": "scrapinghub/splash",
+      "stars": 4199
+    },
+    {
+      "id": 618514446,
+      "name": "gptme/gptme",
+      "stars": 4182
+    },
+    {
+      "id": 18102026,
+      "name": "winjs/winjs",
+      "stars": 4131
+    },
+    {
+      "id": 46246431,
+      "name": "donnemartin/haxor-news",
+      "stars": 4131
+    },
+    {
+      "id": 584016836,
+      "name": "xiangechen/chili3d",
+      "stars": 4127
+    },
+    {
+      "id": 5400018,
+      "name": "Level/levelup",
+      "stars": 4081
+    },
+    {
+      "id": 327265659,
+      "name": "scriptscat/scriptcat",
+      "stars": 4080
+    },
+    {
+      "id": 398753576,
+      "name": "pdfme/pdfme",
+      "stars": 4075
+    },
+    {
+      "id": 23509696,
+      "name": "nodeca/pica",
+      "stars": 4026
+    },
+    {
+      "id": 969338882,
+      "name": "coderamp-labs/pad.ws",
+      "stars": 4023
+    },
+    {
+      "id": 480804,
+      "name": "stacktracejs/stacktrace.js",
+      "stars": 4008
+    },
+    {
+      "id": 310123680,
+      "name": "webui-dev/webui",
+      "stars": 4008
+    },
+    {
+      "id": 26350830,
+      "name": "coleifer/sqlite-web",
+      "stars": 4000
+    },
+    {
+      "id": 494567206,
+      "name": "ansh/jiffyreader-public-archive",
+      "stars": 3986
+    },
+    {
+      "id": 32012345,
+      "name": "AdguardTeam/AdguardBrowserExtension",
+      "stars": 3956
+    },
+    {
+      "id": 952018616,
+      "name": "sagekit/magnitude",
+      "stars": 3950
+    },
+    {
+      "id": 479586,
+      "name": "mathiasbynens/jquery-placeholder",
+      "stars": 3945
+    },
+    {
+      "id": 175832658,
+      "name": "crxjs/chrome-extension-tools",
+      "stars": 3927
+    },
+    {
+      "id": 172636540,
+      "name": "osnr/TabFS",
+      "stars": 3925
+    },
+    {
+      "id": 63557,
+      "name": "jquery/jquery-mousewheel",
+      "stars": 3917
+    },
+    {
+      "id": 3457006,
+      "name": "mudcube/MIDI.js",
+      "stars": 3916
+    },
+    {
+      "id": 359922324,
+      "name": "linuxserver/docker-webtop",
+      "stars": 3887
+    },
+    {
+      "id": 49692445,
+      "name": "tholman/cursor-effects",
+      "stars": 3882
+    },
+    {
+      "id": 105665728,
+      "name": "googlecreativelab/teachable-machine-v1",
+      "stars": 3880
+    },
+    {
+      "id": 224599511,
+      "name": "cavi-au/Consent-O-Matic",
+      "stars": 3863
+    },
+    {
+      "id": 229236549,
+      "name": "DO-SAY-GO/dn",
+      "stars": 3859
+    },
+    {
+      "id": 2344621,
+      "name": "ryanb/letter_opener",
+      "stars": 3836
+    },
+    {
+      "id": 434591591,
+      "name": "libredirect/browser_extension",
+      "stars": 3818
+    },
+    {
+      "id": 2207038,
+      "name": "gildas-lormeau/zip.js",
+      "stars": 3796
+    },
+    {
+      "id": 10825334,
+      "name": "blueimp/Gallery",
+      "stars": 3778
+    },
+    {
+      "id": 630292680,
+      "name": "0hq/WebGPT",
+      "stars": 3778
+    },
+    {
+      "id": 222240688,
+      "name": "BrowserBox/BrowserBox",
+      "stars": 3775
+    },
+    {
+      "id": 1002552148,
+      "name": "amantus-ai/vibetunnel",
+      "stars": 3751
+    },
+    {
+      "id": 749137,
+      "name": "Atmosphere/atmosphere",
+      "stars": 3727
+    },
+    {
+      "id": 4676086,
+      "name": "forwardemail/email-templates",
+      "stars": 3725
+    },
+    {
+      "id": 106959954,
+      "name": "jaredpalmer/react-fns",
+      "stars": 3717
+    },
+    {
+      "id": 610043832,
+      "name": "mlc-ai/web-stable-diffusion",
+      "stars": 3712
+    },
+    {
+      "id": 3640925,
+      "name": "github-tools/github",
+      "stars": 3700
+    },
+    {
+      "id": 976095156,
+      "name": "JetBrains/koog",
+      "stars": 3695
+    },
+    {
+      "id": 148713303,
+      "name": "pichillilorenzo/flutter_inappwebview",
+      "stars": 3686
+    },
+    {
+      "id": 4617120,
+      "name": "flesler/jquery.scrollTo",
+      "stars": 3669
+    },
+    {
+      "id": 326547939,
+      "name": "GRVYDEV/Project-Lightspeed",
+      "stars": 3664
+    },
+    {
+      "id": 33659097,
+      "name": "JadenGeller/Helium",
+      "stars": 3663
+    },
+    {
+      "id": 11321096,
+      "name": "EFForg/privacybadger",
+      "stars": 3656
+    },
+    {
+      "id": 676211990,
+      "name": "gosub-io/gosub-engine",
+      "stars": 3645
+    },
+    {
+      "id": 1514130,
+      "name": "nst/RuntimeBrowser",
+      "stars": 3644
+    },
+    {
+      "id": 18154829,
+      "name": "jasonlong/isometric-contributions",
+      "stars": 3634
+    },
+    {
+      "id": 79764891,
+      "name": "tuyafeng/Via",
+      "stars": 3607
+    },
+    {
+      "id": 323121488,
+      "name": "oblador/hush",
+      "stars": 3589
+    },
+    {
+      "id": 31442355,
+      "name": "Netflix/vector",
+      "stars": 3574
+    },
+    {
+      "id": 17492418,
+      "name": "fregante/GhostText",
+      "stars": 3568
+    },
+    {
+      "id": 81035045,
+      "name": "aliyun/oss-browser",
+      "stars": 3538
+    },
+    {
+      "id": 79149882,
+      "name": "lbryio/lbry-desktop",
+      "stars": 3528
+    },
+    {
+      "id": 17667574,
+      "name": "outdatedbrowser/outdated-browser",
+      "stars": 3509
+    },
+    {
+      "id": 5548784,
+      "name": "caolan/highland",
+      "stars": 3507
+    },
+    {
+      "id": 13100677,
+      "name": "primus/eventemitter3",
+      "stars": 3507
+    },
+    {
+      "id": 10098528,
+      "name": "open-xml-templating/docxtemplater",
+      "stars": 3501
+    },
+    {
+      "id": 3389930,
+      "name": "simple-statistics/simple-statistics",
+      "stars": 3500
+    },
+    {
+      "id": 365565979,
+      "name": "CyberPunkMetalHead/Binance-volatility-trading-bot",
+      "stars": 3490
+    },
+    {
+      "id": 269668754,
+      "name": "kiwibrowser/src.next",
+      "stars": 3482
+    },
+    {
+      "id": 27855953,
+      "name": "google/google-api-javascript-client",
+      "stars": 3470
+    },
+    {
+      "id": 8083731,
+      "name": "bastillion-io/Bastillion",
+      "stars": 3444
+    },
+    {
+      "id": 18382480,
+      "name": "matomo-org/device-detector",
+      "stars": 3432
+    },
+    {
+      "id": 29791986,
+      "name": "paulirish/git-open",
+      "stars": 3419
+    },
+    {
+      "id": 1108682714,
+      "name": "SawyerHood/dev-browser",
+      "stars": 3417
+    },
+    {
+      "id": 209153343,
+      "name": "qawolf/qawolf",
+      "stars": 3416
+    },
+    {
+      "id": 138488946,
+      "name": "emacs-eaf/emacs-application-framework",
+      "stars": 3406
+    },
+    {
+      "id": 272808853,
+      "name": "tiny-pilot/tinypilot",
+      "stars": 3386
+    },
+    {
+      "id": 17147559,
+      "name": "auth0/jwt-decode",
+      "stars": 3385
+    },
+    {
+      "id": 83772716,
+      "name": "SilenceLove/HXPhotoPicker",
+      "stars": 3384
+    },
+    {
+      "id": 25076124,
+      "name": "kovacsv/Online3DViewer",
+      "stars": 3377
+    },
+    {
+      "id": 14939303,
+      "name": "EFForg/https-everywhere",
+      "stars": 3360
+    },
+    {
+      "id": 10045915,
+      "name": "broccolijs/broccoli",
+      "stars": 3334
+    },
+    {
+      "id": 82643171,
+      "name": "EmailThis/extension-boilerplate",
+      "stars": 3325
+    },
+    {
+      "id": 249063259,
+      "name": "ianramzy/decentralized-video-chat",
+      "stars": 3321
+    },
+    {
+      "id": 955169955,
+      "name": "imskyleen/animate-ui",
+      "stars": 3320
+    },
+    {
+      "id": 229827299,
+      "name": "ahmetb/kubectl-tree",
+      "stars": 3304
+    },
+    {
+      "id": 15085215,
+      "name": "UI5/openui5",
+      "stars": 3254
+    },
+    {
+      "id": 418086942,
+      "name": "ismartcoding/plain-app",
+      "stars": 3246
+    },
+    {
+      "id": 11766620,
+      "name": "viliusle/miniPaint",
+      "stars": 3234
+    },
+    {
+      "id": 615439742,
+      "name": "xenova/whisper-web",
+      "stars": 3233
+    },
+    {
+      "id": 3224614,
+      "name": "cocos2d/cocos2d-html5",
+      "stars": 3232
+    },
+    {
+      "id": 29885833,
+      "name": "stefanbuck/awesome-browser-extensions-for-github",
+      "stars": 3220
+    },
+    {
+      "id": 1079107863,
+      "name": "PleasePrompto/notebooklm-skill",
+      "stars": 3206
+    },
+    {
+      "id": 51937144,
+      "name": "plasma-umass/browsix",
+      "stars": 3192
+    },
+    {
+      "id": 305972561,
+      "name": "theajack/disable-devtool",
+      "stars": 3162
+    },
+    {
+      "id": 69679985,
+      "name": "amilajack/eslint-plugin-compat",
+      "stars": 3161
+    },
+    {
+      "id": 287942241,
+      "name": "playwright-community/playwright-go",
+      "stars": 3157
+    },
+    {
+      "id": 9527640,
+      "name": "jvilk/BrowserFS",
+      "stars": 3156
+    },
+    {
+      "id": 49332125,
+      "name": "arielsalminen/feature.js",
+      "stars": 3155
+    },
+    {
+      "id": 115411542,
+      "name": "Figma-Linux/figma-linux",
+      "stars": 3145
+    },
+    {
+      "id": 62540781,
+      "name": "JackyAndroid/AndroidChromium",
+      "stars": 3132
+    },
+    {
+      "id": 149115206,
+      "name": "nwtgck/piping-server",
+      "stars": 3131
+    },
+    {
+      "id": 1923665,
+      "name": "Wisser/Jailer",
+      "stars": 3123
+    },
+    {
+      "id": 1609213,
+      "name": "Olical/EventEmitter",
+      "stars": 3107
+    },
+    {
+      "id": 899184149,
+      "name": "browserbase/mcp-server-browserbase",
+      "stars": 3106
+    },
+    {
+      "id": 94629944,
+      "name": "dessant/search-by-image",
+      "stars": 3104
+    },
+    {
+      "id": 355522545,
+      "name": "kalcaddle/kodbox",
+      "stars": 3103
+    },
+    {
+      "id": 153937474,
+      "name": "MaxBittker/sandspiel",
+      "stars": 3098
+    },
+    {
+      "id": 8684805,
+      "name": "jscad/OpenJSCAD.org",
+      "stars": 3087
+    },
+    {
+      "id": 575485391,
+      "name": "gluon-framework/gluon",
+      "stars": 3074
+    },
+    {
+      "id": 19239509,
+      "name": "bcoin-org/bcoin",
+      "stars": 3065
+    },
+    {
+      "id": 154541438,
+      "name": "gruns/ImmortalDB",
+      "stars": 3064
+    },
+    {
+      "id": 12105498,
+      "name": "nicoespeon/gitgraph.js",
+      "stars": 3062
+    },
+    {
+      "id": 125568868,
+      "name": "symfony/panther",
+      "stars": 3059
+    },
+    {
+      "id": 481185579,
+      "name": "pacexy/flow",
+      "stars": 3051
+    },
+    {
+      "id": 622876059,
+      "name": "Textualize/frogmouth",
+      "stars": 3048
+    },
+    {
+      "id": 39774073,
+      "name": "sunnylqm/react-native-storage",
+      "stars": 3042
+    },
+    {
+      "id": 263157374,
+      "name": "lukeed/uvu",
+      "stars": 3036
+    },
+    {
+      "id": 1398628,
+      "name": "symfony/browser-kit",
+      "stars": 3024
+    },
+    {
+      "id": 61934962,
+      "name": "schmich/instascan",
+      "stars": 3024
+    },
+    {
+      "id": 502586319,
+      "name": "FossifyOrg/Gallery",
+      "stars": 3020
+    },
+    {
+      "id": 628250345,
+      "name": "ElricLiu/AutoGPT-Next-Web",
+      "stars": 3018
+    },
+    {
+      "id": 230036026,
+      "name": "Qianlitp/crawlergo",
+      "stars": 3017
+    },
+    {
+      "id": 27359938,
+      "name": "micromatch/micromatch",
+      "stars": 3008
+    },
+    {
+      "id": 166780923,
+      "name": "remirror/remirror",
+      "stars": 3004
+    },
+    {
+      "id": 7136348,
+      "name": "laurentj/slimerjs",
+      "stars": 2995
+    },
+    {
+      "id": 33571868,
+      "name": "chromium/badssl.com",
+      "stars": 2981
+    },
+    {
+      "id": 6180186,
+      "name": "bgrins/devtools-snippets",
+      "stars": 2978
+    },
+    {
+      "id": 103043228,
+      "name": "chromelyapps/Chromely",
+      "stars": 2976
+    },
+    {
+      "id": 22076748,
+      "name": "morkt/GARbro",
+      "stars": 2966
+    },
+    {
+      "id": 256332800,
+      "name": "argyleink/gui-challenges",
+      "stars": 2966
+    },
+    {
+      "id": 110198384,
+      "name": "brave/brave-core",
+      "stars": 2959
+    },
+    {
+      "id": 849500524,
+      "name": "obsidianmd/obsidian-clipper",
+      "stars": 2956
+    },
+    {
+      "id": 47116945,
+      "name": "BrasilAPI/cep-promise",
+      "stars": 2952
+    },
+    {
+      "id": 256692482,
+      "name": "kiwibrowser/src",
+      "stars": 2940
+    },
+    {
+      "id": 1557647,
+      "name": "ded/reqwest",
+      "stars": 2934
+    },
+    {
+      "id": 832300204,
+      "name": "supabase-community/database-build",
+      "stars": 2928
+    },
+    {
+      "id": 1823764,
+      "name": "EventEmitter2/EventEmitter2",
+      "stars": 2927
+    },
+    {
+      "id": 169158585,
+      "name": "victordibia/handtrack.js",
+      "stars": 2920
+    },
+    {
+      "id": 3813151,
+      "name": "linkedin/dustjs",
+      "stars": 2913
+    },
+    {
+      "id": 47918643,
+      "name": "TranscryptOrg/Transcrypt",
+      "stars": 2913
+    },
+    {
+      "id": 18901345,
+      "name": "bhauman/lein-figwheel",
+      "stars": 2878
+    },
+    {
+      "id": 81788261,
+      "name": "da2x/EdgeDeflector",
+      "stars": 2877
+    },
+    {
+      "id": 470251843,
+      "name": "mrd0x/BITB",
+      "stars": 2876
+    },
+    {
+      "id": 237387592,
+      "name": "yume-chan/ya-webadb",
+      "stars": 2870
+    },
+    {
+      "id": 248697283,
+      "name": "remix-project-org/remix-project",
+      "stars": 2868
+    },
+    {
+      "id": 589830814,
+      "name": "easychen/CookieCloud",
+      "stars": 2865
+    },
+    {
+      "id": 140996605,
+      "name": "casbin/node-casbin",
+      "stars": 2864
+    },
+    {
+      "id": 397189231,
+      "name": "miroslavpejic85/mirotalksfu",
+      "stars": 2864
+    },
+    {
+      "id": 199345033,
+      "name": "d07RiV/diabloweb",
+      "stars": 2856
+    },
+    {
+      "id": 5543656,
+      "name": "meltingice/psd.js",
+      "stars": 2847
+    },
+    {
+      "id": 148935509,
+      "name": "TokamakUI/Tokamak",
+      "stars": 2842
+    },
+    {
+      "id": 15127462,
+      "name": "streamlink/streamlink-twitch-gui",
+      "stars": 2829
+    },
+    {
+      "id": 88166830,
+      "name": "cstate/cstate",
+      "stars": 2829
+    },
+    {
+      "id": 18788804,
+      "name": "altdesktop/playerctl",
+      "stars": 2826
+    },
+    {
+      "id": 141427485,
+      "name": "MetaMask/metamask-mobile",
+      "stars": 2815
+    },
+    {
+      "id": 5567476,
+      "name": "grevory/angular-local-storage",
+      "stars": 2814
+    },
+    {
+      "id": 37374972,
+      "name": "olebedev/go-starter-kit",
+      "stars": 2801
+    },
+    {
+      "id": 37438565,
+      "name": "sharpie7/circuitjs1",
+      "stars": 2774
+    },
+    {
+      "id": 114962091,
+      "name": "homebridge/homebridge-config-ui-x",
+      "stars": 2774
+    },
+    {
+      "id": 17406078,
+      "name": "insidegui/AssetCatalogTinkerer",
+      "stars": 2769
+    },
+    {
+      "id": 2822459,
+      "name": "jeanphix/Ghost.py",
+      "stars": 2763
+    },
+    {
+      "id": 686004733,
+      "name": "vuejs/devtools",
+      "stars": 2759
+    },
+    {
+      "id": 43936671,
+      "name": "suzuki-0000/SKPhotoBrowser",
+      "stars": 2737
+    },
+    {
+      "id": 14155824,
+      "name": "UDST/vizicities",
+      "stars": 2725
+    },
+    {
+      "id": 88184556,
+      "name": "wexond/browser-base",
+      "stars": 2725
+    },
+    {
+      "id": 54034412,
+      "name": "Streamedian/html5_rtsp_player",
+      "stars": 2718
+    },
+    {
+      "id": 1095948794,
+      "name": "remorses/playwriter",
+      "stars": 2711
+    },
+    {
+      "id": 11315781,
+      "name": "thiagoperes/IDMPhotoBrowser",
+      "stars": 2703
+    },
+    {
+      "id": 3455070,
+      "name": "swagger-api/swagger-js",
+      "stars": 2692
+    },
+    {
+      "id": 25263349,
+      "name": "seatgeek/react-infinite",
+      "stars": 2691
+    },
+    {
+      "id": 130084383,
+      "name": "sindresorhus/slugify",
+      "stars": 2678
+    },
+    {
+      "id": 794304370,
+      "name": "abi/secret-llama",
+      "stars": 2678
+    },
+    {
+      "id": 11459116,
+      "name": "streamproc/MediaStreamRecorder",
+      "stars": 2674
+    },
+    {
+      "id": 1650371,
+      "name": "BorisMoore/jsrender",
+      "stars": 2673
+    },
+    {
+      "id": 74861972,
+      "name": "wendux/ajax-hook",
+      "stars": 2669
+    },
+    {
+      "id": 715367684,
+      "name": "ishan0102/vimGPT",
+      "stars": 2669
+    },
+    {
+      "id": 66257173,
+      "name": "aerokube/selenoid",
+      "stars": 2657
+    },
+    {
+      "id": 72803397,
+      "name": "turbo/js",
+      "stars": 2655
+    },
+    {
+      "id": 111811015,
+      "name": "Kyson/AndroidGodEye",
+      "stars": 2645
+    },
+    {
+      "id": 677467268,
+      "name": "ill-inc/biomes-game",
+      "stars": 2644
+    },
+    {
+      "id": 32592337,
+      "name": "thednp/kute.js",
+      "stars": 2641
+    },
+    {
+      "id": 4521626,
+      "name": "cburgmer/rasterizeHTML.js",
+      "stars": 2624
+    },
+    {
+      "id": 28800891,
+      "name": "browserhtml/browserhtml",
+      "stars": 2611
+    },
+    {
+      "id": 1127001921,
+      "name": "PDFCraftTool/pdfcraft",
+      "stars": 2603
+    },
+    {
+      "id": 11671410,
+      "name": "dinbror/blazy",
+      "stars": 2602
+    },
+    {
+      "id": 100808958,
+      "name": "salarcode/SmartProxy",
+      "stars": 2600
+    },
+    {
+      "id": 203938031,
+      "name": "200ok-ch/organice",
+      "stars": 2595
+    },
+    {
+      "id": 38794215,
+      "name": "amorey/loadjs",
+      "stars": 2584
+    },
+    {
+      "id": 112378220,
+      "name": "hydra-synth/hydra",
+      "stars": 2573
+    },
+    {
+      "id": 815891082,
+      "name": "Pintree-io/pintree",
+      "stars": 2573
+    },
+    {
+      "id": 99701166,
+      "name": "cars10/elasticvue",
+      "stars": 2572
+    },
+    {
+      "id": 366176025,
+      "name": "GDQuest/learn-gdscript",
+      "stars": 2571
+    },
+    {
+      "id": 1405796,
+      "name": "TransitApp/SVWebViewController",
+      "stars": 2561
+    },
+    {
+      "id": 1114840147,
+      "name": "VibiumDev/vibium",
+      "stars": 2555
+    },
+    {
+      "id": 4802028,
+      "name": "jiffyclub/snakeviz",
+      "stars": 2549
+    },
+    {
+      "id": 421195163,
+      "name": "decompiler-explorer/decompiler-explorer",
+      "stars": 2535
+    },
+    {
+      "id": 3534119,
+      "name": "OnionBrowser/OnionBrowser",
+      "stars": 2526
+    },
+    {
+      "id": 33494170,
+      "name": "tus/tus-js-client",
+      "stars": 2513
+    },
+    {
+      "id": 643368591,
+      "name": "Virtual-Browser/VirtualBrowser",
+      "stars": 2501
+    },
+    {
+      "id": 17691231,
+      "name": "servo/html5ever",
+      "stars": 2493
+    },
+    {
+      "id": 779276,
+      "name": "fnando/browser",
+      "stars": 2488
+    },
+    {
+      "id": 1375774,
+      "name": "DirectoryLister/DirectoryLister",
+      "stars": 2484
+    },
+    {
+      "id": 5394041,
+      "name": "arturadib/strapdown",
+      "stars": 2470
+    },
+    {
+      "id": 50766155,
+      "name": "ytakzk/Fusuma",
+      "stars": 2461
+    },
+    {
+      "id": 33863168,
+      "name": "schmich/marinara",
+      "stars": 2454
+    },
+    {
+      "id": 705820999,
+      "name": "ErickWendel/semana-javascript-expert08",
+      "stars": 2451
+    },
+    {
+      "id": 47717814,
+      "name": "Hexagon/croner",
+      "stars": 2445
+    },
+    {
+      "id": 112964403,
+      "name": "MatthewHerbst/react-to-print",
+      "stars": 2441
+    },
+    {
+      "id": 116414510,
+      "name": "testcontainers/testcontainers-node",
+      "stars": 2438
+    },
+    {
+      "id": 952779352,
+      "name": "civilblur/mazanoke",
+      "stars": 2438
+    },
+    {
+      "id": 773950709,
+      "name": "semanser/codel",
+      "stars": 2437
+    },
+    {
+      "id": 31633215,
+      "name": "DuendeArchive/identity-model-oidc-client-js",
+      "stars": 2435
+    },
+    {
+      "id": 198357530,
+      "name": "insin/control-panel-for-twitter",
+      "stars": 2430
+    },
+    {
+      "id": 50198094,
+      "name": "d0k3/GodMode9",
+      "stars": 2427
+    },
+    {
+      "id": 1033268244,
+      "name": "agent-infra/sandbox",
+      "stars": 2424
+    },
+    {
+      "id": 3392689,
+      "name": "bunkat/later",
+      "stars": 2420
+    },
+    {
+      "id": 39771596,
+      "name": "phoboslab/jsmpeg-vnc",
+      "stars": 2420
+    },
+    {
+      "id": 352326362,
+      "name": "dudor/BookmarkHub",
+      "stars": 2412
+    },
+    {
+      "id": 7491531,
+      "name": "philipwalton/html-inspector",
+      "stars": 2411
+    },
+    {
+      "id": 128897892,
+      "name": "indulgeIn/YBImageBrowser",
+      "stars": 2406
+    },
+    {
+      "id": 57914774,
+      "name": "anandanand84/technicalindicators",
+      "stars": 2402
+    },
+    {
+      "id": 95839159,
+      "name": "Chimeejs/chimee",
+      "stars": 2402
+    },
+    {
+      "id": 15271042,
+      "name": "mpld3/mpld3",
+      "stars": 2401
+    },
+    {
+      "id": 1003630893,
+      "name": "oxylabs/oxylabs-ai-studio-py",
+      "stars": 2399
+    },
+    {
+      "id": 50896111,
+      "name": "js-primer/js-primer",
+      "stars": 2398
+    },
+    {
+      "id": 333501877,
+      "name": "zerodytrash/Simple-YouTube-Age-Restriction-Bypass",
+      "stars": 2395
+    },
+    {
+      "id": 78368581,
+      "name": "gkngkc/UnityStandaloneFileBrowser",
+      "stars": 2394
+    },
+    {
+      "id": 263535757,
+      "name": "Hedgehog-Computing/hedgehog-lab",
+      "stars": 2388
+    },
+    {
+      "id": 18806010,
+      "name": "nytimes/pourover",
+      "stars": 2381
+    },
+    {
+      "id": 67251638,
+      "name": "franciscop/brownies",
+      "stars": 2378
+    },
+    {
+      "id": 469579425,
+      "name": "sytone/obsidian-remote",
+      "stars": 2371
+    },
+    {
+      "id": 266196,
+      "name": "oyvindkinsey/easyXDM",
+      "stars": 2367
+    },
+    {
+      "id": 74061137,
+      "name": "Unity-Technologies/AssetBundles-Browser",
+      "stars": 2365
+    },
+    {
+      "id": 7964711,
+      "name": "anthonycr/Lightning-Browser",
+      "stars": 2364
+    },
+    {
+      "id": 14311006,
+      "name": "bgrins/videoconverter.js",
+      "stars": 2362
+    },
+    {
+      "id": 34313469,
+      "name": "richtr/NoSleep.js",
+      "stars": 2360
+    },
+    {
+      "id": 176849340,
+      "name": "Ibit-to/google-unlocked",
+      "stars": 2346
+    },
+    {
+      "id": 896595985,
+      "name": "lmnr-ai/index",
+      "stars": 2334
+    },
+    {
+      "id": 528288530,
+      "name": "snaplet/postgres-wasm",
+      "stars": 2328
+    },
+    {
+      "id": 114108768,
+      "name": "nitin42/react-perf-devtool",
+      "stars": 2318
+    },
+    {
+      "id": 23404128,
+      "name": "alephdata/aleph",
+      "stars": 2315
+    },
+    {
+      "id": 40242163,
+      "name": "unruledboy/WebFrontEndStack",
+      "stars": 2315
+    },
+    {
+      "id": 678360150,
+      "name": "dnakov/little-rat",
+      "stars": 2315
+    },
+    {
+      "id": 141128198,
+      "name": "chinedufn/percy",
+      "stars": 2307
+    },
+    {
+      "id": 469525716,
+      "name": "ericclemmons/click-to-component",
+      "stars": 2306
+    },
+    {
+      "id": 18020144,
+      "name": "timdown/rangy",
+      "stars": 2302
+    },
+    {
+      "id": 47860620,
+      "name": "mapbox/supercluster",
+      "stars": 2302
+    },
+    {
+      "id": 190765263,
+      "name": "NetrisTV/ws-scrcpy",
+      "stars": 2299
+    },
+    {
+      "id": 297152797,
+      "name": "lana-k/sqliteviz",
+      "stars": 2298
+    },
+    {
+      "id": 65398224,
+      "name": "softvar/enhanced-github",
+      "stars": 2295
+    },
+    {
+      "id": 19384606,
+      "name": "josdejong/workerpool",
+      "stars": 2283
+    },
+    {
+      "id": 358512963,
+      "name": "dromara/mayfly-go",
+      "stars": 2278
+    },
+    {
+      "id": 187544570,
+      "name": "sh-dv/hat.sh",
+      "stars": 2274
+    },
+    {
+      "id": 905501456,
+      "name": "fal-ai-community/video-starter-kit",
+      "stars": 2273
+    },
+    {
+      "id": 108311273,
+      "name": "Azure/azure-sdk-for-js",
+      "stars": 2271
+    },
+    {
+      "id": 119921062,
+      "name": "amandakelake/blog",
+      "stars": 2265
+    },
+    {
+      "id": 134539713,
+      "name": "Escapingbug/awesome-browser-exploit",
+      "stars": 2260
+    },
+    {
+      "id": 715769622,
+      "name": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "stars": 2259
+    },
+    {
+      "id": 686537,
+      "name": "xmppjs/xmpp.js",
+      "stars": 2258
+    },
+    {
+      "id": 824451,
+      "name": "luakit/luakit",
+      "stars": 2252
+    },
+    {
+      "id": 225990209,
+      "name": "SwiftLaTeX/SwiftLaTeX",
+      "stars": 2247
+    },
+    {
+      "id": 527309421,
+      "name": "berthubert/googerteller",
+      "stars": 2231
+    },
+    {
+      "id": 27465526,
+      "name": "wentin/underlineJS",
+      "stars": 2230
+    },
+    {
+      "id": 266286639,
+      "name": "abrahamjuliot/creepjs",
+      "stars": 2222
+    },
+    {
+      "id": 184711,
+      "name": "typicaljoe/taffydb",
+      "stars": 2218
+    },
+    {
+      "id": 76684607,
+      "name": "gautamkrishnar/nothing-private",
+      "stars": 2213
+    },
+    {
+      "id": 105912444,
+      "name": "csstools/postcss-preset-env",
+      "stars": 2207
+    },
+    {
+      "id": 242889642,
+      "name": "WindRunnerMax/EveryDay",
+      "stars": 2205
+    },
+    {
+      "id": 3089049,
+      "name": "zenorocha/browser-diet",
+      "stars": 2189
+    },
+    {
+      "id": 854084975,
+      "name": "botswin/BotBrowser",
+      "stars": 2187
+    },
+    {
+      "id": 357335336,
+      "name": "react-hookz/web",
+      "stars": 2183
+    },
+    {
+      "id": 3434927,
+      "name": "plasma-umass/doppio",
+      "stars": 2182
+    },
+    {
+      "id": 18736041,
+      "name": "yeojz/otplib",
+      "stars": 2181
+    },
+    {
+      "id": 575445105,
+      "name": "raycast/ray-so",
+      "stars": 2173
+    },
+    {
+      "id": 266156053,
+      "name": "MasterKale/SimpleWebAuthn",
+      "stars": 2163
+    },
+    {
+      "id": 1621009,
+      "name": "wavded/humane-js",
+      "stars": 2162
+    },
+    {
+      "id": 17066478,
+      "name": "taylorhakes/promise-polyfill",
+      "stars": 2158
+    },
+    {
+      "id": 32695583,
+      "name": "ipfs/ipfs-companion",
+      "stars": 2153
+    },
+    {
+      "id": 812156,
+      "name": "vitch/jScrollPane",
+      "stars": 2152
+    },
+    {
+      "id": 152989255,
+      "name": "lukehaas/RunJS",
+      "stars": 2149
+    },
+    {
+      "id": 208835354,
+      "name": "abhijithvijayan/web-extension-starter",
+      "stars": 2146
+    },
+    {
+      "id": 182410,
+      "name": "stephencelis/ghi",
+      "stars": 2126
+    },
+    {
+      "id": 747776268,
+      "name": "Naezr/ShyFox",
+      "stars": 2126
+    },
+    {
+      "id": 115543662,
+      "name": "keepassxreboot/keepassxc-browser",
+      "stars": 2119
+    },
+    {
+      "id": 976103,
+      "name": "guard/guard-livereload",
+      "stars": 2114
+    },
+    {
+      "id": 75990052,
+      "name": "mozilla-mobile/focus-android",
+      "stars": 2101
+    },
+    {
+      "id": 3008757,
+      "name": "Automattic/expect.js",
+      "stars": 2099
+    },
+    {
+      "id": 126883328,
+      "name": "magenta/magenta-js",
+      "stars": 2099
+    },
+    {
+      "id": 100034375,
+      "name": "ueokande/vim-vixen",
+      "stars": 2094
+    },
+    {
+      "id": 1130400,
+      "name": "kolber/audiojs",
+      "stars": 2092
+    },
+    {
+      "id": 22524673,
+      "name": "MohammadYounes/AlertifyJS",
+      "stars": 2092
+    },
+    {
+      "id": 887031138,
+      "name": "leaperone/MultiPost-Extension",
+      "stars": 2086
+    },
+    {
+      "id": 747929369,
+      "name": "logdyhq/logdy-core",
+      "stars": 2080
+    },
+    {
+      "id": 14127490,
+      "name": "scoutapp/scout_realtime",
+      "stars": 2077
+    },
+    {
+      "id": 67236461,
+      "name": "csstree/csstree",
+      "stars": 2074
+    },
+    {
+      "id": 233580412,
+      "name": "nurdism/neko",
+      "stars": 2068
+    },
+    {
+      "id": 1129945442,
+      "name": "corbindavenport/just-the-browser",
+      "stars": 2052
+    },
+    {
+      "id": 539497279,
+      "name": "mullvad/mullvad-browser",
+      "stars": 2049
+    },
+    {
+      "id": 81535817,
+      "name": "kroitor/asciichart",
+      "stars": 2040
+    },
+    {
+      "id": 10744004,
+      "name": "Keyang/node-csvtojson",
+      "stars": 2036
+    },
+    {
+      "id": 18427025,
+      "name": "ali-sdk/ali-oss",
+      "stars": 2030
+    },
+    {
+      "id": 37490572,
+      "name": "streamich/memfs",
+      "stars": 2030
+    },
+    {
+      "id": 42366054,
+      "name": "ValveResourceFormat/ValveResourceFormat",
+      "stars": 2021
+    },
+    {
+      "id": 27469126,
+      "name": "mapbox/geojson-vt",
+      "stars": 2011
+    },
+    {
+      "id": 41527911,
+      "name": "linb/CrossUI",
+      "stars": 2010
+    },
+    {
+      "id": 60257915,
+      "name": "ko1o/PYPhotoBrowser",
+      "stars": 2009
+    },
+    {
+      "id": 233356362,
+      "name": "renzhezhilu/webp2jpg-online",
+      "stars": 2003
+    },
+    {
+      "id": 126199585,
+      "name": "mozilla-mobile/android-components",
+      "stars": 2000
+    },
+    {
+      "id": 87403752,
+      "name": "mil-tokyo/webdnn",
+      "stars": 1998
+    },
+    {
+      "id": 214834409,
+      "name": "badmojr/1Hosts",
+      "stars": 1998
+    },
+    {
+      "id": 1620438,
+      "name": "einaregilsson/Redirector",
+      "stars": 1995
+    },
+    {
+      "id": 94893151,
+      "name": "will-stone/browserosaurus",
+      "stars": 1983
+    },
+    {
+      "id": 2643120,
+      "name": "simsalabim/sisyphus",
+      "stars": 1982
+    },
+    {
+      "id": 135900664,
+      "name": "pubkey/broadcast-channel",
+      "stars": 1980
+    },
+    {
+      "id": 159969526,
+      "name": "newcat/baklavajs",
+      "stars": 1980
+    },
+    {
+      "id": 105154070,
+      "name": "tdurieux/anonymous_github",
+      "stars": 1979
+    },
+    {
+      "id": 619823756,
+      "name": "WebAV-Tech/WebAV",
+      "stars": 1977
+    },
+    {
+      "id": 137925467,
+      "name": "wkeeling/selenium-wire",
+      "stars": 1976
+    },
+    {
+      "id": 399821046,
+      "name": "varbhat/exatorrent",
+      "stars": 1976
+    },
+    {
+      "id": 197209898,
+      "name": "graphql-editor/graphql-zeus",
+      "stars": 1973
+    },
+    {
+      "id": 368055570,
+      "name": "vytal-io/vytal-extension",
+      "stars": 1972
+    },
+    {
+      "id": 80605091,
+      "name": "fengari-lua/fengari",
+      "stars": 1971
+    },
+    {
+      "id": 78816383,
+      "name": "Cookie-AutoDelete/Cookie-AutoDelete",
+      "stars": 1957
+    },
+    {
+      "id": 7813799,
+      "name": "fyhertz/spydroid-ipcamera",
+      "stars": 1953
+    },
+    {
+      "id": 53579345,
+      "name": "cedrozor/myrtille",
+      "stars": 1953
+    },
+    {
+      "id": 10487363,
+      "name": "OtterBrowser/otter-browser",
+      "stars": 1950
+    },
+    {
+      "id": 18894771,
+      "name": "sindresorhus/notifier-for-github",
+      "stars": 1943
+    },
+    {
+      "id": 551312158,
+      "name": "hellof2e/quark-design",
+      "stars": 1938
+    },
+    {
+      "id": 75691991,
+      "name": "laravel/dusk",
+      "stars": 1937
+    },
+    {
+      "id": 251604169,
+      "name": "antonmedv/codejar",
+      "stars": 1936
+    },
+    {
+      "id": 543359001,
+      "name": "nat/natbot",
+      "stars": 1935
+    },
+    {
+      "id": 788088061,
+      "name": "face-hh/webx",
+      "stars": 1935
+    },
+    {
+      "id": 427706867,
+      "name": "nvim-telescope/telescope-file-browser.nvim",
+      "stars": 1924
+    },
+    {
+      "id": 18131537,
+      "name": "webtorrent/bittorrent-tracker",
+      "stars": 1920
+    },
+    {
+      "id": 900709814,
+      "name": "adryfish/fingerprint-chromium",
+      "stars": 1907
+    },
+    {
+      "id": 368257515,
+      "name": "duckdb/duckdb-wasm",
+      "stars": 1902
+    },
+    {
+      "id": 1035210905,
+      "name": "the-ora/browser",
+      "stars": 1898
+    },
+    {
+      "id": 547494,
+      "name": "caolan/nodeunit",
+      "stars": 1891
+    },
+    {
+      "id": 14494363,
+      "name": "feross/buffer",
+      "stars": 1879
+    },
+    {
+      "id": 52015204,
+      "name": "xtianmiller/emergence.js",
+      "stars": 1879
+    },
+    {
+      "id": 129891715,
+      "name": "Homebrew/formulae.brew.sh",
+      "stars": 1871
+    },
+    {
+      "id": 529027653,
+      "name": "WordPress/wordpress-playground",
+      "stars": 1870
+    },
+    {
+      "id": 488620801,
+      "name": "apify/fingerprint-suite",
+      "stars": 1868
+    },
+    {
+      "id": 15743523,
+      "name": "TiddlyWiki/TiddlyDesktop",
+      "stars": 1862
+    },
+    {
+      "id": 385263968,
+      "name": "authts/oidc-client-ts",
+      "stars": 1856
+    },
+    {
+      "id": 3860377,
+      "name": "mthenw/frontail",
+      "stars": 1854
+    },
+    {
+      "id": 196062547,
+      "name": "schollz/hostyoself",
+      "stars": 1849
+    },
+    {
+      "id": 12198882,
+      "name": "kombai/freewall",
+      "stars": 1848
+    },
+    {
+      "id": 900152988,
+      "name": "nottelabs/notte",
+      "stars": 1848
+    },
+    {
+      "id": 604752123,
+      "name": "LinkSheet/LinkSheet",
+      "stars": 1842
+    },
+    {
+      "id": 11034722,
+      "name": "WhichBrowser/Parser-PHP",
+      "stars": 1839
+    },
+    {
+      "id": 92241608,
+      "name": "mumuy/browser",
+      "stars": 1836
+    },
+    {
+      "id": 7264874,
+      "name": "TTLabs/EvaporateJS",
+      "stars": 1826
+    },
+    {
+      "id": 50481899,
+      "name": "mholt/curl-to-go",
+      "stars": 1824
+    },
+    {
+      "id": 546006134,
+      "name": "parvardegr/sharing",
+      "stars": 1823
+    },
+    {
+      "id": 258922512,
+      "name": "ShizukuIchi/pdf-editor",
+      "stars": 1817
+    },
+    {
+      "id": 248908265,
+      "name": "alyssaxuu/animockup",
+      "stars": 1816
+    },
+    {
+      "id": 5727081,
+      "name": "mikeerickson/validatorjs",
+      "stars": 1809
+    },
+    {
+      "id": 553041868,
+      "name": "ricky0123/vad",
+      "stars": 1806
+    },
+    {
+      "id": 5545025,
+      "name": "mailvelope/mailvelope",
+      "stars": 1796
+    },
+    {
+      "id": 1030561901,
+      "name": "nook-browser/Nook",
+      "stars": 1788
+    },
+    {
+      "id": 52619134,
+      "name": "elixir-wallaby/wallaby",
+      "stars": 1786
+    },
+    {
+      "id": 43526326,
+      "name": "Haptic-Apps/Slide",
+      "stars": 1782
+    },
+    {
+      "id": 61016843,
+      "name": "harttle/liquidjs",
+      "stars": 1781
+    },
+    {
+      "id": 51307118,
+      "name": "opensheetmusicdisplay/opensheetmusicdisplay",
+      "stars": 1780
+    },
+    {
+      "id": 695250589,
+      "name": "alganzory/HaramBlur",
+      "stars": 1780
+    },
+    {
+      "id": 8328202,
+      "name": "adamschwartz/chrome-tabs",
+      "stars": 1779
+    },
+    {
+      "id": 1000277419,
+      "name": "aaronjmars/opendia",
+      "stars": 1776
+    },
+    {
+      "id": 102619418,
+      "name": "microlinkhq/browserless",
+      "stars": 1771
+    },
+    {
+      "id": 158181512,
+      "name": "intika/Librefox",
+      "stars": 1770
+    },
+    {
+      "id": 35015510,
+      "name": "poooi/poi",
+      "stars": 1765
+    },
+    {
+      "id": 24677116,
+      "name": "joni2back/angular-filemanager",
+      "stars": 1762
+    },
+    {
+      "id": 55628517,
+      "name": "neo4j-contrib/neovis.js",
+      "stars": 1760
+    },
+    {
+      "id": 278011746,
+      "name": "nsfw-filter/nsfw-filter",
+      "stars": 1760
+    },
+    {
+      "id": 124411852,
+      "name": "intoli/remote-browser",
+      "stars": 1755
+    },
+    {
+      "id": 55375779,
+      "name": "gridsound/daw",
+      "stars": 1754
+    },
+    {
+      "id": 34680710,
+      "name": "brianium/watermarkjs",
+      "stars": 1737
+    },
+    {
+      "id": 253150295,
+      "name": "plateaukao/einkbro",
+      "stars": 1733
+    },
+    {
+      "id": 451267945,
+      "name": "sleeyax/burp-awesome-tls",
+      "stars": 1733
+    },
+    {
+      "id": 403928729,
+      "name": "mmazzarolo/react-native-universal-monorepo",
+      "stars": 1732
+    },
+    {
+      "id": 7810676,
+      "name": "jakiestfu/Behave.js",
+      "stars": 1731
+    },
+    {
+      "id": 176058541,
+      "name": "cs01/termpair",
+      "stars": 1727
+    },
+    {
+      "id": 749283842,
+      "name": "KiKaraage/ArcWTF",
+      "stars": 1727
+    },
+    {
+      "id": 1093708164,
+      "name": "coder/ghostty-web",
+      "stars": 1725
+    },
+    {
+      "id": 113486284,
+      "name": "brave/brave-ios",
+      "stars": 1723
+    },
+    {
+      "id": 2955224,
+      "name": "blueimp/JavaScript-Templates",
+      "stars": 1722
+    },
+    {
+      "id": 120834196,
+      "name": "ninoseki/mitaka",
+      "stars": 1720
+    },
+    {
+      "id": 497608,
+      "name": "coresmart/persistencejs",
+      "stars": 1719
+    },
+    {
+      "id": 13765363,
+      "name": "FrDH/dotdotdot-js",
+      "stars": 1716
+    },
+    {
+      "id": 56238870,
+      "name": "samuelsimoes/chrome-extension-webpack-boilerplate",
+      "stars": 1713
+    },
+    {
+      "id": 147433436,
+      "name": "guybedford/es-module-shims",
+      "stars": 1711
+    },
+    {
+      "id": 202060742,
+      "name": "twilco/kosmonaut",
+      "stars": 1710
+    },
+    {
+      "id": 26687918,
+      "name": "dmester/jdenticon",
+      "stars": 1704
+    },
+    {
+      "id": 102216161,
+      "name": "lquixada/cross-fetch",
+      "stars": 1700
+    },
+    {
+      "id": 95022732,
+      "name": "jdalrymple/gitbeaker",
+      "stars": 1695
+    },
+    {
+      "id": 23958545,
+      "name": "kwk/docker-registry-frontend",
+      "stars": 1691
+    },
+    {
+      "id": 201809645,
+      "name": "gram-js/gramjs",
+      "stars": 1690
+    },
+    {
+      "id": 259131257,
+      "name": "mandatoryprogrammer/CursedChrome",
+      "stars": 1683
+    },
+    {
+      "id": 385179469,
+      "name": "getstation/desktop-app",
+      "stars": 1679
+    },
+    {
+      "id": 10154685,
+      "name": "Level/level",
+      "stars": 1678
+    },
+    {
+      "id": 44274144,
+      "name": "djipco/webmidi",
+      "stars": 1676
+    },
+    {
+      "id": 58160283,
+      "name": "xbrowsersync/app",
+      "stars": 1676
+    },
+    {
+      "id": 81540012,
+      "name": "wingify/across-tabs",
+      "stars": 1676
+    },
+    {
+      "id": 194140521,
+      "name": "thomasloven/hass-browser_mod",
+      "stars": 1668
+    },
+    {
+      "id": 945068402,
+      "name": "heshengtao/super-agent-party",
+      "stars": 1668
+    },
+    {
+      "id": 250142018,
+      "name": "bgub/eta",
+      "stars": 1661
+    },
+    {
+      "id": 968812883,
+      "name": "aculix/bitplay",
+      "stars": 1657
+    },
+    {
+      "id": 902137162,
+      "name": "openfrontio/OpenFrontIO",
+      "stars": 1654
+    },
+    {
+      "id": 1840419,
+      "name": "bhollis/jsonview",
+      "stars": 1651
+    },
+    {
+      "id": 506639818,
+      "name": "VideoTogether/VideoTogether",
+      "stars": 1643
+    },
+    {
+      "id": 1045681332,
+      "name": "renzorlive/vimmaster",
+      "stars": 1643
+    },
+    {
+      "id": 358925855,
+      "name": "CyberPunkMetalHead/Binance-News-Sentiment-Bot",
+      "stars": 1641
+    },
+    {
+      "id": 510116998,
+      "name": "LadybirdBrowser/ancient-history",
+      "stars": 1641
+    },
+    {
+      "id": 11469930,
+      "name": "vthibault/roBrowser",
+      "stars": 1637
+    },
+    {
+      "id": 27195805,
+      "name": "foliojs/fontkit",
+      "stars": 1637
+    },
+    {
+      "id": 143921593,
+      "name": "Novage/p2p-media-loader",
+      "stars": 1636
+    },
+    {
+      "id": 178741592,
+      "name": "leggett/simplify",
+      "stars": 1636
+    },
+    {
+      "id": 124293504,
+      "name": "ghostery/ghostery-extension",
+      "stars": 1633
+    },
+    {
+      "id": 98123131,
+      "name": "Donaldcwl/browser-image-compression",
+      "stars": 1630
+    },
+    {
+      "id": 18456451,
+      "name": "EddyBorja/EBPhotoPages",
+      "stars": 1627
+    },
+    {
+      "id": 34648097,
+      "name": "jorgebucaran/colorette",
+      "stars": 1624
+    },
+    {
+      "id": 2185527,
+      "name": "neocotic/qrious",
+      "stars": 1623
+    },
+    {
+      "id": 1055738080,
+      "name": "saifyxpro/HeadlessX",
+      "stars": 1623
+    },
+    {
+      "id": 23899906,
+      "name": "js-data/js-data",
+      "stars": 1621
+    },
+    {
+      "id": 686775715,
+      "name": "CADmium-Co/CADmium",
+      "stars": 1621
+    },
+    {
+      "id": 116272692,
+      "name": "homerchen19/github-file-icons",
+      "stars": 1619
+    },
+    {
+      "id": 25791650,
+      "name": "kilianc/rtail",
+      "stars": 1618
+    },
+    {
+      "id": 58388867,
+      "name": "mattdesl/color-wander",
+      "stars": 1618
+    },
+    {
+      "id": 70820054,
+      "name": "ken107/read-aloud",
+      "stars": 1617
+    },
+    {
+      "id": 230486850,
+      "name": "gautamkrishnar/motrix-webextension",
+      "stars": 1615
+    },
+    {
+      "id": 188643934,
+      "name": "sveltejs/svelte-devtools",
+      "stars": 1613
+    },
+    {
+      "id": 1567795,
+      "name": "minkphp/Mink",
+      "stars": 1611
+    },
+    {
+      "id": 778000,
+      "name": "simplegeo/polymaps",
+      "stars": 1605
+    },
+    {
+      "id": 756293439,
+      "name": "kubetail-org/kubetail",
+      "stars": 1602
+    },
+    {
+      "id": 787362890,
+      "name": "dahlia/logtape",
+      "stars": 1601
+    },
+    {
+      "id": 1931328,
+      "name": "gildas-lormeau/JSONVue",
+      "stars": 1599
+    },
+    {
+      "id": 248498386,
+      "name": "joaomoreno/gifcap",
+      "stars": 1598
+    },
+    {
+      "id": 1234795,
+      "name": "1602/compound",
+      "stars": 1596
+    },
+    {
+      "id": 104401601,
+      "name": "trustwallet/trust-wallet-ios",
+      "stars": 1595
+    },
+    {
+      "id": 187090924,
+      "name": "robb0wen/tornis",
+      "stars": 1593
+    },
+    {
+      "id": 492128644,
+      "name": "whitphx/stlite",
+      "stars": 1592
+    },
+    {
+      "id": 132371769,
+      "name": "generativefm/generative.fm",
+      "stars": 1591
+    },
+    {
+      "id": 103780549,
+      "name": "keraf/NoCoin",
+      "stars": 1581
+    },
+    {
+      "id": 1079469057,
+      "name": "lackeyjb/playwright-skill",
+      "stars": 1581
+    },
+    {
+      "id": 74512824,
+      "name": "GrapheneOS/Vanadium",
+      "stars": 1573
+    },
+    {
+      "id": 78952857,
+      "name": "laobubu/HyperMD",
+      "stars": 1566
+    },
+    {
+      "id": 734872201,
+      "name": "ZFC-Digital/puppeteer-real-browser",
+      "stars": 1562
+    },
+    {
+      "id": 65116637,
+      "name": "mikeal/roll-call",
+      "stars": 1560
+    },
+    {
+      "id": 997189255,
+      "name": "johansan/notebook-navigator",
+      "stars": 1558
+    },
+    {
+      "id": 16955777,
+      "name": "nickola/web-console",
+      "stars": 1557
+    },
+    {
+      "id": 23070145,
+      "name": "doyoe/css-handbook",
+      "stars": 1557
+    },
+    {
+      "id": 170111694,
+      "name": "Jelmerro/Vieb",
+      "stars": 1551
+    },
+    {
+      "id": 138811196,
+      "name": "nschloe/tuna",
+      "stars": 1548
+    },
+    {
+      "id": 239951348,
+      "name": "GoogleChromeLabs/browser-fs-access",
+      "stars": 1546
+    },
+    {
+      "id": 203681009,
+      "name": "C0nw0nk/Nginx-Lua-Anti-DDoS",
+      "stars": 1541
+    },
+    {
+      "id": 1595792,
+      "name": "RSamaium/RPG-JS",
+      "stars": 1538
+    },
+    {
+      "id": 23304218,
+      "name": "headzoo/surf",
+      "stars": 1536
+    },
+    {
+      "id": 446242396,
+      "name": "xsalazar/emoji-kitchen",
+      "stars": 1536
+    },
+    {
+      "id": 51248829,
+      "name": "marmelroy/FileBrowser",
+      "stars": 1535
+    },
+    {
+      "id": 666209424,
+      "name": "redphx/better-xcloud",
+      "stars": 1533
+    },
+    {
+      "id": 570427,
+      "name": "andris9/jStorage",
+      "stars": 1530
+    },
+    {
+      "id": 52573367,
+      "name": "lzxb/flex.css",
+      "stars": 1529
+    },
+    {
+      "id": 732151165,
+      "name": "W4G1/multithreading",
+      "stars": 1527
+    },
+    {
+      "id": 75882379,
+      "name": "apollographql/apollo-client-devtools",
+      "stars": 1523
+    },
+    {
+      "id": 482251689,
+      "name": "kha-white/mokuro",
+      "stars": 1519
+    },
+    {
+      "id": 717917803,
+      "name": "andrewnguonly/Lumos",
+      "stars": 1514
+    },
+    {
+      "id": 1110256,
+      "name": "alexgibson/shake.js",
+      "stars": 1512
+    },
+    {
+      "id": 7449695,
+      "name": "selwin/python-user-agents",
+      "stars": 1512
+    },
+    {
+      "id": 9695623,
+      "name": "levelgraph/levelgraph",
+      "stars": 1512
+    },
+    {
+      "id": 510134922,
+      "name": "Alex313031/Mercury",
+      "stars": 1511
+    },
+    {
+      "id": 48935429,
+      "name": "toolkit-for-ynab/toolkit-for-ynab",
+      "stars": 1507
+    },
+    {
+      "id": 238784472,
+      "name": "s60sc/ESP32-CAM_MJPEG2SD",
+      "stars": 1503
+    },
+    {
+      "id": 46092465,
+      "name": "rbren/rss-parser",
+      "stars": 1499
+    },
+    {
+      "id": 99110692,
+      "name": "dessant/web-archives",
+      "stars": 1498
+    },
+    {
+      "id": 27718804,
+      "name": "eqcss/eqcss",
+      "stars": 1493
+    },
+    {
+      "id": 4373698,
+      "name": "caolan/jam",
+      "stars": 1491
+    },
+    {
+      "id": 876463956,
+      "name": "za515217965/OKBrowser",
+      "stars": 1491
+    },
+    {
+      "id": 31642967,
+      "name": "ricmoo/aes-js",
+      "stars": 1490
+    },
+    {
+      "id": 393117769,
+      "name": "antfu/drauu",
+      "stars": 1484
+    },
+    {
+      "id": 61212242,
+      "name": "tj/react-enroute",
+      "stars": 1483
+    },
+    {
+      "id": 9672786,
+      "name": "Subash/Prepros",
+      "stars": 1482
+    },
+    {
+      "id": 78135042,
+      "name": "anttiviljami/browser-autofill-phishing",
+      "stars": 1482
+    },
+    {
+      "id": 37339157,
+      "name": "Consensys/eth-lightwallet",
+      "stars": 1481
+    },
+    {
+      "id": 502105368,
+      "name": "ehmicky/modern-errors",
+      "stars": 1480
+    },
+    {
+      "id": 574666627,
+      "name": "wieslawsoltes/ChatGPT",
+      "stars": 1475
+    },
+    {
+      "id": 5194068,
+      "name": "mmin18/AndroidDynamicLoader",
+      "stars": 1474
+    },
+    {
+      "id": 17480011,
+      "name": "puleos/object-hash",
+      "stars": 1474
+    },
+    {
+      "id": 14086422,
+      "name": "cryptii/cryptii",
+      "stars": 1468
+    },
+    {
+      "id": 16862339,
+      "name": "flask-api/flask-api",
+      "stars": 1468
+    },
+    {
+      "id": 111427718,
+      "name": "jhildenbiddle/css-vars-ponyfill",
+      "stars": 1464
+    },
+    {
+      "id": 5099405,
+      "name": "linuxmint/nemo",
+      "stars": 1460
+    },
+    {
+      "id": 46812728,
+      "name": "Synzvato/decentraleyes",
+      "stars": 1460
+    },
+    {
+      "id": 1083887818,
+      "name": "thelastoutpostworkshop/ESPConnect",
+      "stars": 1459
+    },
+    {
+      "id": 14065064,
+      "name": "MattKetmo/darkroomjs",
+      "stars": 1457
+    },
+    {
+      "id": 600278518,
+      "name": "anaclumos/bing-chat-for-all-browsers",
+      "stars": 1454
+    },
+    {
+      "id": 11436163,
+      "name": "gamelab/kiwi.js",
+      "stars": 1453
+    },
+    {
+      "id": 12384349,
+      "name": "fortunejs/fortune",
+      "stars": 1453
+    },
+    {
+      "id": 43080546,
+      "name": "nk-o/jarallax",
+      "stars": 1453
+    },
+    {
+      "id": 271791157,
+      "name": "QAX-A-Team/BrowserGhost",
+      "stars": 1452
+    },
+    {
+      "id": 500684,
+      "name": "jmesnil/stomp-websocket",
+      "stars": 1448
+    },
+    {
+      "id": 16372438,
+      "name": "jsforce/jsforce",
+      "stars": 1448
+    },
+    {
+      "id": 3670753,
+      "name": "crossbario/autobahn-js",
+      "stars": 1446
+    },
+    {
+      "id": 6628036,
+      "name": "fanglingsu/vimb",
+      "stars": 1446
+    },
+    {
+      "id": 309830112,
+      "name": "amandaghassaei/gpu-io",
+      "stars": 1444
+    },
+    {
+      "id": 67946944,
+      "name": "hyperledger-labs/blockchain-explorer",
+      "stars": 1442
+    },
+    {
+      "id": 390541506,
+      "name": "ulixee/hero",
+      "stars": 1440
+    },
+    {
+      "id": 472962423,
+      "name": "lukeaschenbrenner/TxtNet-Browser",
+      "stars": 1440
+    },
+    {
+      "id": 1021622,
+      "name": "akdubya/dustjs",
+      "stars": 1439
+    },
+    {
+      "id": 942672211,
+      "name": "lanxiuyun/lazyeat",
+      "stars": 1432
+    },
+    {
+      "id": 11170365,
+      "name": "fergiemcdowall/search-index",
+      "stars": 1426
+    },
+    {
+      "id": 20490942,
+      "name": "krasimir/deb.js",
+      "stars": 1425
+    },
+    {
+      "id": 3125454,
+      "name": "icecoder/ICEcoder",
+      "stars": 1421
+    },
+    {
+      "id": 295117653,
+      "name": "raindropio/app",
+      "stars": 1421
+    },
+    {
+      "id": 746320301,
+      "name": "TheGP/untidetect-tools",
+      "stars": 1420
+    },
+    {
+      "id": 726478144,
+      "name": "11cafe/comfyui-workspace-manager",
+      "stars": 1416
+    },
+    {
+      "id": 1097428181,
+      "name": "wilsonzlin/fastrender",
+      "stars": 1415
+    },
+    {
+      "id": 19702094,
+      "name": "superpoweredSDK/Low-Latency-Android-iOS-Linux-Windows-tvOS-macOS-Interactive-Audio-Platform",
+      "stars": 1414
+    },
+    {
+      "id": 113919648,
+      "name": "duckduckgo/duckduckgo-privacy-extension",
+      "stars": 1414
+    },
+    {
+      "id": 789046020,
+      "name": "McGill-NLP/webllama",
+      "stars": 1407
+    },
+    {
+      "id": 30087179,
+      "name": "immersive-web/webvr-polyfill",
+      "stars": 1406
+    },
+    {
+      "id": 103822442,
+      "name": "danny0838/content-farm-terminator",
+      "stars": 1403
+    },
+    {
+      "id": 147781722,
+      "name": "proyecto26/react-native-inappbrowser",
+      "stars": 1402
+    },
+    {
+      "id": 18685406,
+      "name": "simov/markdown-viewer",
+      "stars": 1399
+    },
+    {
+      "id": 49662454,
+      "name": "junegunn/gv.vim",
+      "stars": 1399
+    },
+    {
+      "id": 6192590,
+      "name": "alex-seville/blanket",
+      "stars": 1396
+    },
+    {
+      "id": 239604498,
+      "name": "webrecorder/archiveweb.page",
+      "stars": 1396
+    },
+    {
+      "id": 688870667,
+      "name": "syt2/zotero-addons",
+      "stars": 1395
+    },
+    {
+      "id": 36111399,
+      "name": "sudodoki/copy-to-clipboard",
+      "stars": 1394
+    },
+    {
+      "id": 735180759,
+      "name": "FrigadeHQ/remote-storage",
+      "stars": 1393
+    },
+    {
+      "id": 78420428,
+      "name": "phaserjs/phaser-ce",
+      "stars": 1387
+    },
+    {
+      "id": 318124720,
+      "name": "F9y4ng/GreasyFork-Scripts",
+      "stars": 1385
+    },
+    {
+      "id": 15204429,
+      "name": "HashNuke/hound",
+      "stars": 1379
+    },
+    {
+      "id": 169592266,
+      "name": "donavon/use-persisted-state",
+      "stars": 1379
+    },
+    {
+      "id": 494727853,
+      "name": "ComicSparks/wax",
+      "stars": 1379
+    },
+    {
+      "id": 51061236,
+      "name": "epidemian/snake",
+      "stars": 1378
+    },
+    {
+      "id": 44635242,
+      "name": "liaohuqiu/android-UCToast",
+      "stars": 1376
+    },
+    {
+      "id": 121137018,
+      "name": "airtap/airtap",
+      "stars": 1376
+    },
+    {
+      "id": 87784593,
+      "name": "JiongXing/PhotoBrowser",
+      "stars": 1375
+    },
+    {
+      "id": 20046426,
+      "name": "obsidianforensics/hindsight",
+      "stars": 1374
+    },
+    {
+      "id": 855713680,
+      "name": "Benexl/yt-x",
+      "stars": 1373
+    },
+    {
+      "id": 140771377,
+      "name": "Moustachauve/cookie-editor",
+      "stars": 1372
+    },
+    {
+      "id": 32997960,
+      "name": "stewdio/beep.js",
+      "stars": 1367
+    },
+    {
+      "id": 346424381,
+      "name": "fingerprintjs/BotD",
+      "stars": 1367
+    },
+    {
+      "id": 86702842,
+      "name": "wavebox/waveboxapp",
+      "stars": 1366
+    },
+    {
+      "id": 12617171,
+      "name": "jordwest/news-feed-eradicator",
+      "stars": 1363
+    },
+    {
+      "id": 24239833,
+      "name": "sindresorhus/is-online",
+      "stars": 1362
+    },
+    {
+      "id": 80326656,
+      "name": "mmozeiko/RcloneBrowser",
+      "stars": 1358
+    },
+    {
+      "id": 256300799,
+      "name": "ttalvitie/browservice",
+      "stars": 1358
+    },
+    {
+      "id": 913574546,
+      "name": "sauravpanda/BrowserAI",
+      "stars": 1358
+    },
+    {
+      "id": 104543536,
+      "name": "reiinakano/fast-style-transfer-deeplearnjs",
+      "stars": 1355
+    },
+    {
+      "id": 68707338,
+      "name": "ascoders/gaea-editor",
+      "stars": 1354
+    },
+    {
+      "id": 1139936006,
+      "name": "npmx-dev/npmx.dev",
+      "stars": 1354
+    },
+    {
+      "id": 38978941,
+      "name": "NeutroniumCore/Neutronium",
+      "stars": 1353
+    },
+    {
+      "id": 166713531,
+      "name": "Macro-Deck-App/Macro-Deck",
+      "stars": 1353
+    },
+    {
+      "id": 110955493,
+      "name": "QuintGao/GKPhotoBrowser",
+      "stars": 1346
+    },
+    {
+      "id": 103385166,
+      "name": "ray-lothian/UserAgent-Switcher",
+      "stars": 1345
+    },
+    {
+      "id": 281976889,
+      "name": "gzuidhof/starboard-notebook",
+      "stars": 1339
+    },
+    {
+      "id": 678822546,
+      "name": "Textualize/textual-web",
+      "stars": 1334
+    },
+    {
+      "id": 12897630,
+      "name": "gorhill/httpswitchboard",
+      "stars": 1330
+    },
+    {
+      "id": 99437640,
+      "name": "truefedex/tv-bro",
+      "stars": 1328
+    },
+    {
+      "id": 2278307,
+      "name": "flatiron/flatiron",
+      "stars": 1326
+    },
+    {
+      "id": 376269131,
+      "name": "Eugeny/tabby-web",
+      "stars": 1324
+    },
+    {
+      "id": 29913000,
+      "name": "wnr/element-resize-detector",
+      "stars": 1318
+    },
+    {
+      "id": 9681561,
+      "name": "XRPLF/xrpl.js",
+      "stars": 1310
+    },
+    {
+      "id": 464832370,
+      "name": "lindylearn/unclutter",
+      "stars": 1310
+    },
+    {
+      "id": 273337347,
+      "name": "makew0rld/amfora",
+      "stars": 1308
+    },
+    {
+      "id": 113491980,
+      "name": "sindresorhus/refined-twitter",
+      "stars": 1307
+    },
+    {
+      "id": 108566111,
+      "name": "trustedsec/trevorc2",
+      "stars": 1306
+    },
+    {
+      "id": 1981208,
+      "name": "YuzuJS/setImmediate",
+      "stars": 1305
+    },
+    {
+      "id": 2521861,
+      "name": "OSBI/saiku",
+      "stars": 1304
+    },
+    {
+      "id": 80214003,
+      "name": "salvadordf/CEF4Delphi",
+      "stars": 1302
+    },
+    {
+      "id": 265352760,
+      "name": "omaha-consulting/winstall",
+      "stars": 1301
+    },
+    {
+      "id": 26542739,
+      "name": "anandthakker/doiuse",
+      "stars": 1299
+    },
+    {
+      "id": 46504130,
+      "name": "maslianok/react-resize-detector",
+      "stars": 1299
+    },
+    {
+      "id": 281906706,
+      "name": "zalo/CascadeStudio",
+      "stars": 1298
+    },
+    {
+      "id": 77928713,
+      "name": "hectorm/otpauth",
+      "stars": 1297
+    },
+    {
+      "id": 1047442186,
+      "name": "enetx/surf",
+      "stars": 1297
+    },
+    {
+      "id": 824656296,
+      "name": "damongolding/immich-kiosk",
+      "stars": 1296
+    },
+    {
+      "id": 296251053,
+      "name": "zthxxx/react-dev-inspector",
+      "stars": 1295
+    },
+    {
+      "id": 628453268,
+      "name": "Uminosachi/sd-webui-inpaint-anything",
+      "stars": 1283
+    },
+    {
+      "id": 10756392,
+      "name": "contentful/contentful.js",
+      "stars": 1280
+    },
+    {
+      "id": 709761,
+      "name": "etianen/html5media",
+      "stars": 1277
+    },
+    {
+      "id": 366950533,
+      "name": "hikerpig/pintora",
+      "stars": 1276
+    },
+    {
+      "id": 206873569,
+      "name": "streamlit/demo-self-driving",
+      "stars": 1275
+    },
+    {
+      "id": 445686840,
+      "name": "mjakeman/extension-manager",
+      "stars": 1275
+    },
+    {
+      "id": 4528770,
+      "name": "jsxgraph/jsxgraph",
+      "stars": 1274
+    },
+    {
+      "id": 7656304,
+      "name": "manuels/texlive.js",
+      "stars": 1273
+    },
+    {
+      "id": 8956228,
+      "name": "wesbos/aprilFools.css",
+      "stars": 1271
+    },
+    {
+      "id": 637131414,
+      "name": "chase/awrit",
+      "stars": 1271
+    },
+    {
+      "id": 24230088,
+      "name": "jiacai2050/gooreplacer",
+      "stars": 1270
+    },
+    {
+      "id": 59760504,
+      "name": "Song-Li/cross_browser",
+      "stars": 1270
+    },
+    {
+      "id": 359970576,
+      "name": "rhashimoto/wa-sqlite",
+      "stars": 1270
+    },
+    {
+      "id": 7367371,
+      "name": "4ae9b8/browserhacks",
+      "stars": 1266
+    },
+    {
+      "id": 619909200,
+      "name": "TaxyAI/browser-extension",
+      "stars": 1262
+    },
+    {
+      "id": 270403199,
+      "name": "michaljaz/webmc",
+      "stars": 1260
+    },
+    {
+      "id": 287839132,
+      "name": "nang-dev/hover-paywalls-browser-extension",
+      "stars": 1255
+    },
+    {
+      "id": 45850581,
+      "name": "mozilla-mobile/focus-ios",
+      "stars": 1254
+    },
+    {
+      "id": 28561182,
+      "name": "caiiiycuk/js-dos",
+      "stars": 1251
+    },
+    {
+      "id": 943968048,
+      "name": "JustAdumbPrsn/Zen-Nebula",
+      "stars": 1248
+    },
+    {
+      "id": 610913221,
+      "name": "zanllp/sd-webui-infinite-image-browsing",
+      "stars": 1247
+    },
+    {
+      "id": 960899579,
+      "name": "glide-browser/glide",
+      "stars": 1247
+    },
+    {
+      "id": 606157889,
+      "name": "betterbrowser/arcfox",
+      "stars": 1242
+    },
+    {
+      "id": 4172236,
+      "name": "gwatts/jquery.sparkline",
+      "stars": 1241
+    },
+    {
+      "id": 146150693,
+      "name": "Rich-Harris/shimport",
+      "stars": 1239
+    },
+    {
+      "id": 23987312,
+      "name": "delight-im/HTML-Sheets-of-Paper",
+      "stars": 1237
+    },
+    {
+      "id": 3550046,
+      "name": "sbstjn/noduino",
+      "stars": 1236
+    },
+    {
+      "id": 45477976,
+      "name": "Art-of-WiFi/UniFi-API-browser",
+      "stars": 1235
+    },
+    {
+      "id": 55432924,
+      "name": "chromium/permission.site",
+      "stars": 1232
+    },
+    {
+      "id": 72826023,
+      "name": "Borewit/music-metadata",
+      "stars": 1231
+    },
+    {
+      "id": 107745806,
+      "name": "michaelbull/kotlin-result",
+      "stars": 1228
+    },
+    {
+      "id": 24103044,
+      "name": "filamentgroup/select-css",
+      "stars": 1227
+    },
+    {
+      "id": 221179329,
+      "name": "rpldy/react-uploady",
+      "stars": 1223
+    },
+    {
+      "id": 50281785,
+      "name": "tenox7/wrp",
+      "stars": 1222
+    },
+    {
+      "id": 5562456,
+      "name": "mtschirs/js-objectdetect",
+      "stars": 1221
+    },
+    {
+      "id": 82913507,
+      "name": "wagenaartje/neataptic",
+      "stars": 1220
+    },
+    {
+      "id": 252358889,
+      "name": "minio/object-browser",
+      "stars": 1214
+    },
+    {
+      "id": 294501642,
+      "name": "QuiteAFancyEmerald/Holy-Unblocker",
+      "stars": 1212
+    },
+    {
+      "id": 465383,
+      "name": "cowboy/jquery-hashchange",
+      "stars": 1211
+    },
+    {
+      "id": 160545642,
+      "name": "spatie/laravel-web-tinker",
+      "stars": 1210
+    },
+    {
+      "id": 157377758,
+      "name": "reiinakano/arbitrary-image-stylization-tfjs",
+      "stars": 1209
+    },
+    {
+      "id": 3658431,
+      "name": "mongodb/js-bson",
+      "stars": 1208
+    },
+    {
+      "id": 1873461,
+      "name": "jaysalvat/buzz",
+      "stars": 1206
+    },
+    {
+      "id": 10753240,
+      "name": "vimperator/vimperator-labs",
+      "stars": 1202
+    },
+    {
+      "id": 81371878,
+      "name": "udevbe/greenfield",
+      "stars": 1202
+    },
+    {
+      "id": 102083108,
+      "name": "elkokc/reflector",
+      "stars": 1201
+    },
+    {
+      "id": 113786110,
+      "name": "jmerle/competitive-companion",
+      "stars": 1201
+    },
+    {
+      "id": 15850775,
+      "name": "medialize/sass.js",
+      "stars": 1198
+    },
+    {
+      "id": 26699459,
+      "name": "feross/awesome-mad-science",
+      "stars": 1197
+    },
+    {
+      "id": 458778240,
+      "name": "RyensX/MediaBox",
+      "stars": 1196
+    },
+    {
+      "id": 162753411,
+      "name": "pagedjs/pagedjs",
+      "stars": 1195
+    },
+    {
+      "id": 3082672,
+      "name": "morr/jquery.appear",
+      "stars": 1194
+    },
+    {
+      "id": 564141286,
+      "name": "wseagar/eight-dollars",
+      "stars": 1191
+    },
+    {
+      "id": 137736003,
+      "name": "persian-tools/persian-tools",
+      "stars": 1187
+    },
+    {
+      "id": 4317381,
+      "name": "ftlabs/ftscroller",
+      "stars": 1186
+    },
+    {
+      "id": 62868230,
+      "name": "GoogleChromeLabs/pwacompat",
+      "stars": 1185
+    },
+    {
+      "id": 47003121,
+      "name": "mkoehnke/WKZombie",
+      "stars": 1183
+    },
+    {
+      "id": 760722197,
+      "name": "tinyfish-io/agentql",
+      "stars": 1177
+    },
+    {
+      "id": 74329993,
+      "name": "facebookarchive/atom-in-orbit",
+      "stars": 1172
+    },
+    {
+      "id": 369991603,
+      "name": "supabase/supabase-swift",
+      "stars": 1172
+    },
+    {
+      "id": 142180965,
+      "name": "pmndrs/detect-gpu",
+      "stars": 1171
+    },
+    {
+      "id": 229514441,
+      "name": "developit/web-worker",
+      "stars": 1170
+    },
+    {
+      "id": 164151,
+      "name": "browsermedia/browsercms",
+      "stars": 1169
+    },
+    {
+      "id": 94889537,
+      "name": "danny0838/webscrapbook",
+      "stars": 1168
+    },
+    {
+      "id": 99478934,
+      "name": "tsejx/javascript-guidebook",
+      "stars": 1168
+    },
+    {
+      "id": 813783,
+      "name": "apache/groovy-geb",
+      "stars": 1167
+    },
+    {
+      "id": 82470022,
+      "name": "FirefoxBar/HeaderEditor",
+      "stars": 1167
+    },
+    {
+      "id": 118652595,
+      "name": "developit/karmatic",
+      "stars": 1167
+    },
+    {
+      "id": 706643137,
+      "name": "ivnvxd/arc-export",
+      "stars": 1165
+    },
+    {
+      "id": 4340323,
+      "name": "jspsych/jsPsych",
+      "stars": 1163
+    },
+    {
+      "id": 370396971,
+      "name": "maximecb/noisecraft",
+      "stars": 1163
+    },
+    {
+      "id": 4141506,
+      "name": "crittermike/shortkeys",
+      "stars": 1156
+    },
+    {
+      "id": 43045691,
+      "name": "KirillOsenkov/SourceBrowser",
+      "stars": 1155
+    },
+    {
+      "id": 20765046,
+      "name": "jcubic/sysend",
+      "stars": 1151
+    },
+    {
+      "id": 90465794,
+      "name": "masatokinugawa/filterbypass",
+      "stars": 1150
+    },
+    {
+      "id": 588898,
+      "name": "tautologistics/node-htmlparser",
+      "stars": 1146
+    },
+    {
+      "id": 22472379,
+      "name": "evidenceprime/html-docx-js",
+      "stars": 1146
+    },
+    {
+      "id": 155305174,
+      "name": "nomic-ai/deepscatter",
+      "stars": 1146
+    },
+    {
+      "id": 14822868,
+      "name": "convos-chat/convos",
+      "stars": 1143
+    },
+    {
+      "id": 198628872,
+      "name": "danfragoso/thdwb",
+      "stars": 1143
+    },
+    {
+      "id": 14976714,
+      "name": "hisorange/browser-detect",
+      "stars": 1140
+    },
+    {
+      "id": 116883257,
+      "name": "privacytests/privacytests.org",
+      "stars": 1139
+    },
+    {
+      "id": 57244664,
+      "name": "microsoft/XmlNotepad",
+      "stars": 1138
+    },
+    {
+      "id": 10452358,
+      "name": "toggl/track-extension",
+      "stars": 1135
+    },
+    {
+      "id": 20268869,
+      "name": "nodecg/nodecg",
+      "stars": 1135
+    },
+    {
+      "id": 59907561,
+      "name": "Cloud-CV/Fabrik",
+      "stars": 1134
+    },
+    {
+      "id": 835650091,
+      "name": "diffusionstudio/core",
+      "stars": 1134
+    },
+    {
+      "id": 1398323,
+      "name": "QupZilla/qupzilla",
+      "stars": 1133
+    },
+    {
+      "id": 3386825,
+      "name": "EventSource/eventsource",
+      "stars": 1132
+    },
+    {
+      "id": 713052876,
+      "name": "pastelsky/tsdocs",
+      "stars": 1132
+    },
+    {
+      "id": 962079433,
+      "name": "browserable/browserable",
+      "stars": 1132
+    },
+    {
+      "id": 529238370,
+      "name": "KonghaYao/cn-font-split",
+      "stars": 1131
+    },
+    {
+      "id": 105390095,
+      "name": "gajus/roarr",
+      "stars": 1130
+    },
+    {
+      "id": 506162055,
+      "name": "emuell/restic-browser",
+      "stars": 1130
+    }
+  ]
+}

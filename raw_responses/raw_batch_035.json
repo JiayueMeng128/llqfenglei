@@ -1,0 +1,16 @@
+{
+  "batch_id": 35,
+  "timestamp": "2026-02-05T16:27:55.771809",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 5400018,\n      \"tag\": \"浏览器存储抽象层\"\n    },\n    {\n      \"id\": 327265659,\n      \"tag\": \"用户脚本管理扩展\"\n    },\n    {\n      \"id\": 398753576,\n      \"tag\": \"PDF生成库\"\n    },\n    {\n      \"id\": 23509696,\n      \"tag\": \"浏览器图像处理库\"\n    },\n    {\n      \"id\": 969338882,\n      \"tag\": \"云端IDE集成工具\"\n    },\n    {\n      \"id\": 480804,\n      \"tag\": \"JavaScript堆栈跟踪库\"\n    },\n    {\n      \"id\": 310123680,\n      \"tag\": \"WebView GUI框架\"\n    },\n    {\n      \"id\": 26350830,\n      \"tag\": \"Web SQLite管理工具\"\n    },\n    {\n      \"id\": 494567206,\n      \"tag\": \"阅读体验优化扩展\"\n    },\n    {\n      \"id\": 32012345,\n      \"tag\": \"广告拦截扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1638,
+    "completion_tokens": 240,
+    "total_tokens": 1878
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a83e9dbfbd31b73b",
+  "created": 1770308861,
+  "finish_reason": "stop"
+}

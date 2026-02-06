@@ -1,0 +1,125 @@
+{
+  "batch_id": 5,
+  "timestamp": "2026-02-05T16:21:38.092732",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 24579238,
+      "name": "vuejs/devtools-v6",
+      "stars": 24794,
+      "enhanced_text": "⚙️ Browser devtools extension for debugging Vue.js applications.\n\n# Try the next iteration of Vue Devtools!\nWe have a brand new version of Devtools being developed at vuejs/devtools-next. It is now in beta, please help us test it out!\nDocumentation | Install the extension\napi | The public devtools API that can be installed in Vue plugins |\napp-backend-api | Abstract API to link the Public API, the core and Vue handlers |\napp-backend-core | The main logic injected in the page to interact with Vue apps |\napp-backend-vue1 | Decoupled handlers to support Vue 1 (soon) |",
+      "tag": "Vue.js开发者工具"
+    },
+    {
+      "id": 124303364,
+      "name": "GoogleChromeLabs/squoosh",
+      "stars": 24701,
+      "enhanced_text": "Make images smaller using best-in-class codecs, right in the browser.\n\n[Squoosh] is an image compression web app that reduces image sizes through numerous formats.\nSquoosh does not send your image to a server. All image compression processes locally.\nHowever, Squoosh utilizes Google Analytics to collect the following:\n- The before and after image size value.\n- If Squoosh PWA, the type of Squoosh installation.\n- If Squoosh PWA, the installation time and date.",
+      "tag": "浏览器图像压缩"
+    },
+    {
+      "id": 201570219,
+      "name": "responsively-org/responsively-app",
+      "stars": 24681,
+      "enhanced_text": "A modified web browser that helps in responsive web development. A web developer's must have dev-tool.\n\n## Features\n1. Mirrored User-interactions across all devices.\n2. Customizable preview layout to suit all your needs.\n3. One handy elements inspector for all devices in preview.\n4. 30+ built-in device profiles with the option to add custom devices.\n5. One-click screenshots on all your devices.\n6. Hot reloading is supported for developers.\nPlease visit the website to learn more about the application - https://responsively.app\nThe application is available for Mac, Windows and Linux platforms. Please download it from responsively.app\nAlternatively, MacOS users can use\nAlso, Windows users can use\nLinux users using an RPM Package Manager can use\notherwise, download an AppImage from the releases page\nFollow us on Twitter for future updates -",
+      "tag": "响应式开发浏览器"
+    },
+    {
+      "id": 19416551,
+      "name": "sqlitebrowser/sqlitebrowser",
+      "stars": 23587,
+      "enhanced_text": "Official home of the DB Browser for SQLite (DB4S) project. Previously known as \"SQLite Database Browser\" and \"Database Browser for SQLite\". Website at:.\n\nInstall with the following command:\nsudo pacman -S sqlitebrowser\nDebian focuses more on stability rather than newest features.\nTherefore packages will typically contain an older (but well tested) version, compared to the latest release.\nUpdate the cache using:\n\nInstall the package using:\nsudo apt-get install sqlitebrowser\n\nInstall for Fedora (i386 and x86_64) by issuing the following command:\nsudo dnf install sqlitebrowser\nsudo zypper install sqlitebrowser\n### Ubuntu and Derivatives\nFor Ubuntu and derivatives, @deepsidhu1313\nprovides a PPA with the latest release here:\n* https://launchpad.net/~linuxgndu/+archive/ubuntu/sqlitebrowser\nTo add this PPA just type in this command in terminal:\nsudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser\nThen update the cache using:\n\nInstall the package using:\nsudo apt-get install sqlitebrowser\nPackages for Older Ubuntu releases are supported while launchpad keeps building those or if Older Ubuntu release has dependency packages that are required to build the latest version of Sqlitebrowser. We don't remove builds from our ppa repos, so users can still install older version of sqlitebrowser if they like. Alternatively Linux users can also switch to Snap packages if Snap packages are supported by the distro they are using.\nNightly builds are available here:\n* https://launchpad.net/~linuxgndu/+archive/ubuntu/sqlitebrowser-testing\nTo add this PPA, type these commands into the terminal:\nsudo add-apt-repository -y ppa:linuxgndu/sqlitebrowser-testing\nThen update the cache using:",
+      "tag": "SQLite数据库浏览器"
+    },
+    {
+      "id": 1054793726,
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "stars": 23206,
+      "enhanced_text": "Chrome DevTools for coding agents.\n\n## Getting started\nAdd the following config to your MCP client:\n> Using  ensures that your MCP client will always use the latest version of the Chrome DevTools MCP server.\n### MCP Client configuration\nFollow https://ampcode.com/manual#mcp and use the config provided above. You can also install the Chrome DevTools MCP server using the CLI:\nTo use the Chrome DevTools MCP server follow the instructions from Antigravity's docs to install a custom MCP server. Add the following config to the MCP servers config:\nThis will make the Chrome DevTools MCP server automatically connect to the browser that Antigravity is using. If you are not using port 9222, make sure to adjust accordingly.\nChrome DevTools MCP will not start the browser instance automatically using this approach as as the Chrome DevTools MCP server runs in Antigravity's built-in browser. If the browser is not already running, you have to start it first by clicking the Chrome icon at the top right corner.\nUse the Claude Code CLI to add the Chrome DevTools MCP server (guide):\nFollow https://docs.cline.bot/mcp/configuring-mcp-servers and use the config provided above.\nFollow the configure MCP guide\nusing the standard config from above. You can also install the Chrome DevTools MCP server using the Codex CLI:\nConfigure the Chrome install location and increase the startup timeout by updating  and adding the following  and  parameters:\nStart the dialog to add a new MCP server by running:\nConfigure the following fields and press  to save the configuration:\n\nInstall the Chrome DevTools MCP server using the Gemini CLI.\nAlternatively, follow the MCP guide and use the standard config from above.\nFollow the configure MCP guide\nusing the standard config from above.\nJetBrains AI Assistant & Junie\nGo to  -> . Use the config provided above.\nThe same way chrome-devtools-mcp can be configured for JetBrains Junie in  -> . Use the config provided above.\nIn **Kiro Settings**, go to  >  > Use the configuration snippet provided above.\nOr, from the IDE **Activity Bar** >  >  > . Use the configuration snippet provided above.\nAdd the following configuration to your  file. If you don't have one, create it at  (guide):\nIn **Qoder Settings**, go to  >  > Use the configuration snippet provided above.\nAlternatively, follow the MCP guide and use the standard config from above.",
+      "tag": "开发者工具MCP协议"
+    },
+    {
+      "id": 1451352,
+      "name": "mochajs/mocha",
+      "stars": 22874,
+      "enhanced_text": "☕️ Classic, reliable, trusted test framework for Node.js and the browser.\n\n- **Release Notes / History / Changes**\n- Discord (ask questions here!)\nBecome a backer and show your support to our open source project on our site.",
+      "tag": "JavaScript测试框架"
+    },
+    {
+      "id": 32531480,
+      "name": "js-cookie/js-cookie",
+      "stars": 22835,
+      "enhanced_text": "A simple, lightweight JavaScript API for handling browser cookies.\n\nA simple, lightweight JavaScript API for handling cookies",
+      "tag": "浏览器Cookie操作库"
+    },
+    {
+      "id": 8986773,
+      "name": "benweet/stackedit",
+      "stars": 22776,
+      "enhanced_text": "In-browser Markdown editor.\n\n> Full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.\n- NEW! Embed StackEdit in any website with stackedit.js\n- NEW! Chrome extension that uses stackedit.js\nStackEdit Helm chart allows easy StackEdit deployment to any Kubernetes cluster.",
+      "tag": "浏览器Markdown编辑器"
+    },
+    {
+      "id": 14158237,
+      "name": "copy/v86",
+      "stars": 22141,
+      "enhanced_text": "x86 PC emulator and x86-to-wasm JIT, running in the browser.\n\nv86 emulates an x86-compatible CPU and hardware. Machine code is translated to\nWebAssembly modules at runtime in order to achieve decent performance. Here's a\n- An x86-compatible CPU. The instruction set is around Pentium 4 level,\nincluding full SSE3 support. Some features are missing, in particular:\n- Task gates, far calls in protected mode\n- Some 16 bit protected mode features\n- Single stepping (trap flag, debug registers)\n- Some exceptions, especially floating point and SSE",
+      "tag": "浏览器x86模拟器"
+    },
+    {
+      "id": 66670819,
+      "name": "apify/crawlee",
+      "stars": 21510,
+      "enhanced_text": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.\n\n### Installing pre-release versions\nWe provide automated beta builds for every merged code change in Crawlee. You can find them in the npm list of releases. If you want to test new features or bug fixes before we release them, feel free to install a beta build like this:\nIf you also use the Apify SDK, you need to specify dependency overrides in your  file so that you don't end up with multiple versions of Crawlee installed:\n- Single interface for **HTTP and headless browser** crawling\n- Persistent **queue** for URLs to crawl (breadth & depth first)\n- Pluggable **storage** of both tabular data and files\n- Automatic **scaling** with available system resources\n- Integrated **proxy rotation** and session management\n- Lifecycles customizable with **hooks**\n- **CLI** to bootstrap your projects\n- Configurable **routing**, **error handling** and **retries**\n- **Dockerfiles** ready to deploy\n- Written in **TypeScript** with generics\n- Zero config **HTTP2 support**, even for proxies\n- Automatic generation of **browser-like headers**\n\n## Installation\nWe recommend visiting the Introduction tutorial in Crawlee documentation for more information.\n> Crawlee requires **Node.js 16 or higher**.\nThe fastest way to try Crawlee out is to use the **Crawlee CLI** and choose the **Getting started example**. The CLI will install all the necessary dependencies and add boilerplate code for you to play with.\n### Manual installation\nIf you prefer adding Crawlee **into your own project**, try the example below. Because it uses  we also need to install Playwright. It's not bundled with Crawlee to reduce install size.\nBy default, Crawlee stores data to  in the current working directory. You can override this directory via Crawlee configuration. For details, see Configuration guide, Request storage and Result storage.",
+      "tag": "Node.js网页爬虫库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 24579238,
+        "tag": "Vue.js开发者工具"
+      },
+      {
+        "id": 124303364,
+        "tag": "浏览器图像压缩"
+      },
+      {
+        "id": 201570219,
+        "tag": "响应式开发浏览器"
+      },
+      {
+        "id": 19416551,
+        "tag": "SQLite数据库浏览器"
+      },
+      {
+        "id": 1054793726,
+        "tag": "开发者工具MCP协议"
+      },
+      {
+        "id": 1451352,
+        "tag": "JavaScript测试框架"
+      },
+      {
+        "id": 32531480,
+        "tag": "浏览器Cookie操作库"
+      },
+      {
+        "id": 8986773,
+        "tag": "浏览器Markdown编辑器"
+      },
+      {
+        "id": 14158237,
+        "tag": "浏览器x86模拟器"
+      },
+      {
+        "id": 66670819,
+        "tag": "Node.js网页爬虫库"
+      }
+    ]
+  }
+}

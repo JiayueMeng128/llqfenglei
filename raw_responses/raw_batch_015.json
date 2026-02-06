@@ -1,0 +1,16 @@
+{
+  "batch_id": 15,
+  "timestamp": "2026-02-05T16:24:01.244308",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 224841533,\n      \"tag\": \"浏览器富文本编辑器\"\n    },\n    {\n      \"id\": 557977,\n      \"tag\": \"WebSocket客户端库\"\n    },\n    {\n      \"id\": 2030956,\n      \"tag\": \"浏览器PDF生成库\"\n    },\n    {\n      \"id\": 464827989,\n      \"tag\": \"JSON数据可视化\"\n    },\n    {\n      \"id\": 72066935,\n      \"tag\": \"浏览器调试器前端\"\n    },\n    {\n      \"id\": 4190976,\n      \"tag\": \"下载管理Web界面\"\n    },\n    {\n      \"id\": 135633158,\n      \"tag\": \"HTTP请求录制回放\"\n    },\n    {\n      \"id\": 998796026,\n      \"tag\": \"浏览器自动化扩展\"\n    },\n    {\n      \"id\": 528152092,\n      \"tag\": \"AI图像生成WebUI\"\n    },\n    {\n      \"id\": 1135454,\n      \"tag\": \"Chromium嵌入框架\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2435,
+    "completion_tokens": 240,
+    "total_tokens": 2675
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b4ec3f72860da1b5",
+  "created": 1770308628,
+  "finish_reason": "stop"
+}

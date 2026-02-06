@@ -1,0 +1,16 @@
+{
+  "batch_id": 37,
+  "timestamp": "2026-02-05T16:28:04.843901",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 229236549,\n      \"tag\": \"浏览器本地化搜索工具\"\n    },\n    {\n      \"id\": 2344621,\n      \"tag\": \"开发环境邮件预览工具\"\n    },\n    {\n      \"id\": 434591591,\n      \"tag\": \"隐私保护重定向扩展\"\n    },\n    {\n      \"id\": 2207038,\n      \"tag\": \"JavaScript压缩解压库\"\n    },\n    {\n      \"id\": 10825334,\n      \"tag\": \"响应式媒体画廊组件\"\n    },\n    {\n      \"id\": 630292680,\n      \"tag\": \"浏览器端AI推理引擎\"\n    },\n    {\n      \"id\": 222240688,\n      \"tag\": \"远程浏览器隔离平台\"\n    },\n    {\n      \"id\": 1002552148,\n      \"tag\": \"浏览器端终端访问工具\"\n    },\n    {\n      \"id\": 749137,\n      \"tag\": \"WebSocket框架\"\n    },\n    {\n      \"id\": 4676086,\n      \"tag\": \"邮件模板生成与预览工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2023,
+    "completion_tokens": 249,
+    "total_tokens": 2272
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c5148509a8536190d232d4c47a24",
+  "created": 1770308881,
+  "finish_reason": "stop"
+}

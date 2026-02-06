@@ -1,0 +1,16 @@
+{
+  "batch_id": 32,
+  "timestamp": "2026-02-05T16:27:07.270238",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 9503997,\n      \"tag\": \"浏览器调试协议\"\n    },\n    {\n      \"id\": 52322425,\n      \"tag\": \"JavaScript库\"\n    },\n    {\n      \"id\": 64409189,\n      \"tag\": \"gRPC客户端\"\n    },\n    {\n      \"id\": 789725,\n      \"tag\": \"WebKit终端\"\n    },\n    {\n      \"id\": 90042534,\n      \"tag\": \"嵌入式浏览器运行时\"\n    },\n    {\n      \"id\": 40733543,\n      \"tag\": \"浏览器扩展示例\"\n    },\n    {\n      \"id\": 165110580,\n      \"tag\": \"编辑器浏览器预览\"\n    },\n    {\n      \"id\": 79987996,\n      \"tag\": \"Scintilla文本编辑器\"\n    },\n    {\n      \"id\": 87006077,\n      \"tag\": \"Chromium嵌入框架\"\n    },\n    {\n      \"id\": 640819432,\n      \"tag\": \"AI聊天聚合浏览器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2493,
+    "completion_tokens": 234,
+    "total_tokens": 2727
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-ba21cf51f037d3c1",
+  "created": 1770308812,
+  "finish_reason": "stop"
+}

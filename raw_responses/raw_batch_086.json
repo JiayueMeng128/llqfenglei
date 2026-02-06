@@ -1,0 +1,16 @@
+{
+  "batch_id": 86,
+  "timestamp": "2026-02-05T16:51:08.570923",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 49662454,\n      \"tag\": \"Vim插件\"\n    },\n    {\n      \"id\": 6192590,\n      \"tag\": \"JavaScript代码覆盖率库\"\n    },\n    {\n      \"id\": 239604498,\n      \"tag\": \"高保真网页存档扩展\"\n    },\n    {\n      \"id\": 688870667,\n      \"tag\": \"Zotero插件市场\"\n    },\n    {\n      \"id\": 36111399,\n      \"tag\": \"剪贴板操作库\"\n    },\n    {\n      \"id\": 735180759,\n      \"tag\": \"跨设备状态持久化库\"\n    },\n    {\n      \"id\": 78420428,\n      \"tag\": \"HTML5 2D游戏框架\"\n    },\n    {\n      \"id\": 318124720,\n      \"tag\": \"用户脚本集\"\n    },\n    {\n      \"id\": 15204429,\n      \"tag\": \"Elixir浏览器自动化库\"\n    },\n    {\n      \"id\": 169592266,\n      \"tag\": \"React持久化状态Hook\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2022,
+    "completion_tokens": 251,
+    "total_tokens": 2273
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-bfc2ef3c2611a751",
+  "created": 1770310248,
+  "finish_reason": "stop"
+}

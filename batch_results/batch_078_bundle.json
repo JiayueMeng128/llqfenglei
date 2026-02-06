@@ -1,0 +1,125 @@
+{
+  "batch_id": 78,
+  "timestamp": "2026-02-05T16:49:20.889986",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1079469057,
+      "name": "lackeyjb/playwright-skill",
+      "stars": 1581,
+      "enhanced_text": "Claude Code Skill for browser automation with Playwright. Model-invoked - Claude autonomously writes and executes custom automation for testing and validation.\n\nInstall via Claude Code's plugin system for automatic updates and team distribution:\nVerify installation by running  to confirm the skill is available.\n### Option 2: Standalone Skill Installation\nTo install as a standalone skill (without the plugin system), extract only the skill folder:\n**Global Installation (Available Everywhere):**\n**Project-Specific Installation:**\n**Why this structure?** The plugin format requires the  directory for organizing multiple skills within a plugin. When installing as a standalone skill, you only need the inner  folder contents.\n### Option 3: Download Release\n1. Download and extract the latest release from GitHub Releases\n2. Copy only the  folder to:\n3. Navigate to the skill directory and run setup:\n### Verify Installation\nRun  to confirm the skill is loaded, then ask Claude to perform a simple browser task like \"Test if google.com loads\".\n\n## Quick Start\nAfter installation, simply ask Claude to test or automate any browser task. Claude will write custom Playwright code, execute it, and return results with screenshots and console output.\n\n## Usage Examples\n### Interaction Testing\n1. Describe what you want to test or automate\n2. Claude writes custom Playwright code for the task\n3. The universal executor (run.js) runs it with proper module resolution\n4. Browser opens (visible by default) and automation executes\n5. Results are displayed with console output and screenshots\n- **Headless:**  (browser visible unless explicitly requested otherwise)\n- **Slow Motion:**  for visibility\n- **Screenshots:** Saved to\nClaude will automatically load  when needed for comprehensive documentation on selectors, network interception, authentication, visual regression testing, mobile emulation, performance testing, and debugging.\n- Playwright (installed via )\n- Chromium (installed via )\n**Playwright not installed?**\nNavigate to the skill directory and run .\n\n## Features\n- **Any Automation Task** - Claude writes custom code for your specific request, not limited to pre-built scripts\n- **Visible Browser by Default** - See automation in real-time with\n- **Zero Module Resolution Errors** - Universal executor ensures proper module access\n- **Progressive Disclosure** - Concise SKILL...",
+      "tag": "浏览器自动化工具"
+    },
+    {
+      "id": 74512824,
+      "name": "GrapheneOS/Vanadium",
+      "stars": 1573,
+      "enhanced_text": "Privacy and security enhanced releases of Chromium for GrapheneOS. Vanadium provides the WebView and standard user-facing browser on GrapheneOS. It depends on hardening in other GrapheneOS repositories and doesn't include patches not relevant to the build targets used on GrapheneOS.\n\nVanadium is a privacy and security hardened variant of Chromium providing the WebView (used by\nother apps to render web content) and standard browser for GrapheneOS.\nIt depends on hardening and compatibility fixes in GrapheneOS rather than reinventing the wheel\ninside Vanadium. For example, GrapheneOS already provides a hardened malloc implementation so\nthere's no need for Vanadium to replace it. Similarly, it can deploy security features causing\nbreakage on other operating systems due to the ability to fix compatibility problems in the OS.\nSee the official build documentation for build",
+      "tag": "隐私安全浏览器"
+    },
+    {
+      "id": 78952857,
+      "name": "laobubu/HyperMD",
+      "stars": 1566,
+      "enhanced_text": "A WYSIWYG Markdown Editor for browsers. Break the Wall between writing and previewing.\n\n**Breaks the Wall** between *writing* and *preview*, in a Markdown Editor.\nOnline Demo | [Examples][] | [Documentation][doc]\nAlso for RequireJS, Parcel, webpack, plain browser env. Read the Doc\nHyperMD is a set of [CodeMirror][] add-ons / modes / themes / commands / keymap etc.\nYou may use both original CodeMirror and HyperMD on the same page.\n### 🌈 Write, and preview on the fly\n- **Regular Markdown** blocks and elements\n+ **Strong**, *Emphasis*, ~~Strikethrough~~,",
+      "tag": "浏览器编辑器组件"
+    },
+    {
+      "id": 734872201,
+      "name": "ZFC-Digital/puppeteer-real-browser",
+      "stars": 1562,
+      "enhanced_text": "This package is designed to bypass puppeteer's bot-detecting captchas such as Cloudflare. It acts like a real browser and can be managed with puppeteer.",
+      "tag": "反检测浏览器驱动"
+    },
+    {
+      "id": 65116637,
+      "name": "mikeal/roll-call",
+      "stars": 1560,
+      "enhanced_text": "📞 Free and reliable audio calls for everyone w/ browser p2p.",
+      "tag": "浏览器P2P通信库"
+    },
+    {
+      "id": 997189255,
+      "name": "johansan/notebook-navigator",
+      "stars": 1558,
+      "enhanced_text": "Replace the default file explorer in Obsidian with a clean two-pane interface featuring folder tree, tag browsing, file previews, keyboard navigation, drag-and-drop, pinned notes, and customizable display options.\n\nRead in your language: English • العربية • Deutsch • Español • فارسی • Français • Bahasa Indonesia • Italiano • Nederlands • Polski • Português • Português (Brasil) • Русский • ไทย • Türkçe • Українська • Tiếng Việt • 日本語 • 한국어 • 中文简体 • 中文繁體\nTurn Obsidian into a fast, customizable notes browser with folders, tags and shortcuts in one view.\nVisual previews. Full keyboard navigation. Dual-pane layout. Mobile optimized. Works with 100,000+ notes.\nIf you love using Notebook Navigator, please consider ☕️ Buying me a coffee or Sponsor on GitHub ❤️.\n1. **Install Obsidian** - Download and install from obsidian.md\n2. **Enable community plugins** - Go to Settings → Community plugins → Turn on community plugins\n3. **Install Notebook Navigator** - Click \"Browse\" → Search for \"Notebook Navigator\" → Install\n4. **Install Style Settings (optional)** - For customizing colors and appearance, install Style Settings plugin by searching for \"Style Settings\" in Community plugins\nFor precise image management, consider also installing Pixel Perfect Image which lets you resize images to exact pixel dimensions and perform advanced image operations.",
+      "tag": "Obsidian插件"
+    },
+    {
+      "id": 16955777,
+      "name": "nickola/web-console",
+      "stars": 1557,
+      "enhanced_text": ":desktop_computer: Web-based shell in your browser.\n\nInstallation process is really simple:\n- Download latest version of the Web Console.\n- Unpack archive and open file  in your favorite text editor.\n- At the beginning of the file enter your  and  credentials, edit any other settings that you like (see description in the comments).\n- Upload changed  file to the web server and open it in the browser.\nBuild and start container:\nNow you can visit: http://localhost:8000\n\n# Installation",
+      "tag": "Web终端模拟器"
+    },
+    {
+      "id": 23070145,
+      "name": "doyoe/css-handbook",
+      "stars": 1557,
+      "enhanced_text": "手册在接下来将只更新 , , , , , , （Opera从15.0开始转入webkit阵营）的支持数据，低于这些版本的数据将不再更新，共同期望未来前端的环境越来越好。\n对于  和 ，手册是合并到一起体现的。 的版本为 ， 的版本为 ，阅读者可根据版本来确定。\n手册的发版周期不固定，会视个人精力或更新内容的重要性来决定是否发布新版本。\n如果您在使用CSS参考手册时发现了任何问题，或者有任何帮助手册更完善的想法和建议，请直接给我们提 Issues 和 Pull Requests。\n杜瑶，我目前居住在北京，就职于 Qunar，您可以在 Github 或者 Weibo 看到我的最近动态。当然，也可以通过我的个人站点，博客：CSS探索之旅，CSS参考手册 和 Web前端实验室 等信息了解更多。\n源码和文档版权属于 doyoe.com。文档发布基于 Apache License 2.0 开源协议。",
+      "tag": "CSS参考手册"
+    },
+    {
+      "id": 170111694,
+      "name": "Jelmerro/Vieb",
+      "stars": 1551,
+      "enhanced_text": "Vim Inspired Electron Browser - Vim bindings for the web by design.\n\n### Vim bindings for the web by design\n### Vieb is the Vim Inspired Electron Browser\n## Homepage - Download - Changelog - FAQ\n*Vieb is pronounced like \"deep\" with a \"v\" and rhymes with sheep*\n#### Please see vieb.dev for features, more screenshots and the cheatsheet\nThese are the main sources to download Vieb.\nFor startup help, see the frequently asked questions.\nThe official Vieb website, where you can download the latest stable release for many platforms.\nThe same releases that are offered on vieb.dev,",
+      "tag": "Electron浏览器"
+    },
+    {
+      "id": 138811196,
+      "name": "nschloe/tuna",
+      "stars": 1548,
+      "enhanced_text": ":fish: Python profile viewer.",
+      "tag": "Python性能分析器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1079469057,
+        "tag": "浏览器自动化工具"
+      },
+      {
+        "id": 74512824,
+        "tag": "隐私安全浏览器"
+      },
+      {
+        "id": 78952857,
+        "tag": "浏览器编辑器组件"
+      },
+      {
+        "id": 734872201,
+        "tag": "反检测浏览器驱动"
+      },
+      {
+        "id": 65116637,
+        "tag": "浏览器P2P通信库"
+      },
+      {
+        "id": 997189255,
+        "tag": "Obsidian插件"
+      },
+      {
+        "id": 16955777,
+        "tag": "Web终端模拟器"
+      },
+      {
+        "id": 23070145,
+        "tag": "CSS参考手册"
+      },
+      {
+        "id": 170111694,
+        "tag": "Electron浏览器"
+      },
+      {
+        "id": 138811196,
+        "tag": "Python性能分析器"
+      }
+    ]
+  }
+}

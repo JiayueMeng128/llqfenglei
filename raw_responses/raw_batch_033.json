@@ -1,0 +1,16 @@
+{
+  "batch_id": 33,
+  "timestamp": "2026-02-05T16:27:27.719217",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1248263,\n      \"tag\": \"WebSocket代理桥接\"\n    },\n    {\n      \"id\": 121876351,\n      \"tag\": \"两步验证扩展\"\n    },\n    {\n      \"id\": 154024534,\n      \"tag\": \"浏览器CSS修改集\"\n    },\n    {\n      \"id\": 44012035,\n      \"tag\": \"浏览器信息屏系统\"\n    },\n    {\n      \"id\": 903304373,\n      \"tag\": \"WASM数据应用打包器\"\n    },\n    {\n      \"id\": 5542032,\n      \"tag\": \"WebAssembly图形渲染\"\n    },\n    {\n      \"id\": 207392577,\n      \"tag\": \"无头浏览器DOM实现\"\n    },\n    {\n      \"id\": 264192686,\n      \"tag\": \"浏览器Supabase客户端\"\n    },\n    {\n      \"id\": 709571808,\n      \"tag\": \"API规范生成扩展\"\n    },\n    {\n      \"id\": 29598525,\n      \"tag\": \"键盘导航浏览器扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2303,
+    "completion_tokens": 245,
+    "total_tokens": 2548
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c4efd8e51af0343c343378e8d094",
+  "created": 1770308839,
+  "finish_reason": "stop"
+}

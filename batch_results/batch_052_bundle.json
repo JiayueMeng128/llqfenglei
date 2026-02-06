@@ -1,0 +1,125 @@
+{
+  "batch_id": 52,
+  "timestamp": "2026-02-05T16:41:56.766419",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1127001921,
+      "name": "PDFCraftTool/pdfcraft",
+      "stars": 2603,
+      "enhanced_text": "PDFCraft is a free, privacy-focused PDF toolkit that runs entirely in your browser. With 90+ professional tools, you can edit, convert, merge, split, and secure your PDF files without ever uploading them to a server.\n\n### Installation\n1.  **Clone the repository**\n2.  **Install dependencies**\n3.  **Start the development server**\n4.  **Open your browser**\nNavigate to http://localhost:3000 to see the application running.\nPDFCraft provides both pre-built Docker images and Docker Compose for flexible deployment options.\n#### Option 1: Use Pre-built Image (Recommended)\nThe easiest way to run PDFCraft is using our pre-built image from GitHub Container Registry:\nOpen http://localhost:8080 to access PDFCraft.\n| Tag | Description |\n|  | Latest stable release from main branch |\n|  | Specific version (semantic versioning) |\n|  | Specific commit |\n#### Option 2: Build from Source with Docker Compose",
+      "tag": "Web应用工具"
+    },
+    {
+      "id": 11671410,
+      "name": "dinbror/blazy",
+      "stars": 2602,
+      "enhanced_text": "Hey, be lazy! bLazy.JS is a lightweight pure JavaScript script for lazy loading and multi-serving images. It's working in all modern browsers including IE7+.",
+      "tag": "前端性能库"
+    },
+    {
+      "id": 100808958,
+      "name": "salarcode/SmartProxy",
+      "stars": 2600,
+      "enhanced_text": "Firefox/Chrome browser extension. SmartProxy will automatically enable/disable proxy for the sites you visit, based on customizable patterns.",
+      "tag": "浏览器代理扩展"
+    },
+    {
+      "id": 203938031,
+      "name": "200ok-ch/organice",
+      "stars": 2595,
+      "enhanced_text": "An implementation of Org mode without the dependency of Emacs - built for mobile and desktop browsers.\n\ninstalled, the following commands should be sufficient:\nIf you have the [[https://nixos.org/][Nix package manager]] installed, just type:\n*** Installation of packages\nTo install the necessary packages, run:\nyarn install --production=false\n*** Setup any of the synchronization back-ends\norganice can sync your Org files using Dropbox, GitLab, and WebDAV as\nIf you want to develop a feature that needs synchronization, then you\nwill have to set up any of those options. If you want to work on a",
+      "tag": "Web应用工具"
+    },
+    {
+      "id": 38794215,
+      "name": "amorey/loadjs",
+      "stars": 2584,
+      "enhanced_text": "A tiny async loader / dependency manager for modern browsers (961 bytes).",
+      "tag": "JavaScript模块加载器"
+    },
+    {
+      "id": 112378220,
+      "name": "hydra-synth/hydra",
+      "stars": 2573,
+      "enhanced_text": "Livecoding networked visuals in the browser.\n\n## Getting started\nGo to https://hydra.ojack.xyz\n* CTRL-Enter: run a line of code\n* CTRL-Shift-Enter: run all code on screen\n* ALT-Enter: run a block\n* CTRL-Shift-H: hide or show code\n* CTRL-Shift-F: format code using Prettier\n* CTRL-Shift-S: Save screenshot and download as local file\n* CTRL-Shift-G: Share to twitter (if available). Shares to @hydra_patterns\nAll code can be run either from the in-browser text editor or from the browser console.\nCheck @hydra_patterns for patterns folks have shared as an easy way to get started.\nrender an oscillator with parameters frequency, sync, and rgb offset:\nrotate the oscillator 0.8 radians:\npixelate the output of the above function:\nIf you have more than one camera connected, you can select the camera using an index:",
+      "tag": "Web实时编码环境"
+    },
+    {
+      "id": 815891082,
+      "name": "Pintree-io/pintree",
+      "stars": 2573,
+      "enhanced_text": "Pintree: Easily turn your browser bookmarks into a directory website and start monetizing in minutes.\n\nPintree - Turn Your Browser Bookmarks into a Directory Website\nCreate and monetize your own directory website from browser bookmarks in minutes.\n- 📑 Unlimited Import/Export Bookmarks",
+      "tag": "浏览器扩展"
+    },
+    {
+      "id": 99701166,
+      "name": "cars10/elasticvue",
+      "stars": 2572,
+      "enhanced_text": "Elasticsearch gui - desktop app, browser extension, docker, self hosted.",
+      "tag": "Web应用工具"
+    },
+    {
+      "id": 366176025,
+      "name": "GDQuest/learn-gdscript",
+      "stars": 2571,
+      "enhanced_text": "Learn Godot's GDScript programming language from zero, right in your browser, for free.\n\nLearn GDScript From Zero is a free and open-source app for absolute beginners to learn to program with Godot's GDScript language.\nThis app is a free module from our curriculum to become a game developer: Learn 2D Gamedev From Zero with Godot 4.\nIt's a beginner-friendly course available in multiple languages designed to quickly give you some programming notions and introduce you to basic programming concepts. It's not a complete programming course meant to go in-depth into programming. It's a stepping stone to learn the \"alphabet\" of programming with Godot's GDScript programming language to later approach other tutorials and courses more comfortably.\nYou can run the app online here: https://gdquest.github.io/learn-gdscript/\nAlso, you can download the app for Windows, macOS, and Linux on Itch.io: https://gdquest.itch.io/learn-godot-gdscript\nThe desktop version can offer better performance and crisper text than the web version.\n## Feedback, requests, and discussions\nWe value feedback and bug reports. We will also consider feature requests, especially if they fit our vision and we feel they benefit programming beginners.",
+      "tag": "交互式学习应用"
+    },
+    {
+      "id": 1405796,
+      "name": "TransitApp/SVWebViewController",
+      "stars": 2561,
+      "enhanced_text": "A drop-in inline browser for your iOS app.",
+      "tag": "iOS原生UI组件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1127001921,
+        "tag": "Web应用工具"
+      },
+      {
+        "id": 11671410,
+        "tag": "前端性能库"
+      },
+      {
+        "id": 100808958,
+        "tag": "浏览器代理扩展"
+      },
+      {
+        "id": 203938031,
+        "tag": "Web应用工具"
+      },
+      {
+        "id": 38794215,
+        "tag": "JavaScript模块加载器"
+      },
+      {
+        "id": 112378220,
+        "tag": "Web实时编码环境"
+      },
+      {
+        "id": 815891082,
+        "tag": "浏览器扩展"
+      },
+      {
+        "id": 99701166,
+        "tag": "Web应用工具"
+      },
+      {
+        "id": 366176025,
+        "tag": "交互式学习应用"
+      },
+      {
+        "id": 1405796,
+        "tag": "iOS原生UI组件"
+      }
+    ]
+  }
+}

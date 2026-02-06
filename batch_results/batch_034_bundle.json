@@ -1,0 +1,125 @@
+{
+  "batch_id": 34,
+  "timestamp": "2026-02-05T16:27:40.736927",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 255242703,
+      "name": "doodlewind/jshistory-cn",
+      "stars": 4247,
+      "enhanced_text": "🇨🇳 《JavaScript 二十年》中文版.\n\n本项目已与博文视点合作推出纸质版，其版税收入将有 10% 捐献给 Mozilla，点击购买。\n本书由 JavaScript 之父 Brendan Eich 与 ES6 规范首席作者 Allen Wirfs-Brock 联合编写，详细记载和解读了自 1995 年语言诞生到 2015 年 ES6 规范制定为止，共计 20 年的 JavaScript 语言演化历程。全书不仅讲解了大量语言技术细节层面的演进，更复盘了更高层面上规范制定与标准博弈中的历史成败，是一部讲述人类如何在商业与技术上的竞争合作中促进产业发展的故事。\n这个故事相当漫长而复杂。全文分为四个部分，每部分都对应 JavaScript 演化历程中的一个主要阶段。各部分之间还有一段简短的插曲，介绍彼时的开发者们是如何看待与使用 JavaScript 的。\n1. **语言诞生**（The Origins of JavaScript），介绍了 JavaScript 的创建与早期发展，包括语言的诞生背景、命名方式、初始特性及其设计理念等。这一节还追溯了它在 Netscape 与其他公司最初的演化，例如微软的 JScript。\n2. **创立标准**（Creating a Standard），介绍了从 JavaScript 到 ECMAScript 标准的历程。这主要涵盖 JavaScript 标准化工作的启动、规范的创建、相关贡献者以及决策方式等。\n3. **改革失败**（Failed Reformations），介绍了在 Eich 离开后，缺乏「仁慈独裁者」的 ECMAScript 委员会修改语言的失败尝试。这主要涉及委员会的分裂、对 ES4 的两轮投入，以及 Flash 与 ActionScript 在其中的渊源等。\n4. **继往开来**（Modernizing JavaScript），介绍了 2009 年 ES5 与 2015 年 ES6 这两个成功标准背后的故事，主要包括对 ES5 与 ES6 的目标、重大基础性更改与重要新特性的介绍与回顾。",
+      "tag": "JavaScript历史文献"
+    },
+    {
+      "id": 326059244,
+      "name": "miroslavpejic85/mirotalk",
+      "stars": 4235,
+      "enhanced_text": "🚀 WebRTC - P2P - Simple, Secure, Fast Real-Time Video Conferences Up to 8k and 60fps, compatible with all browsers and platforms.",
+      "tag": "WebRTC视频会议"
+    },
+    {
+      "id": 3346928,
+      "name": "chjj/tty.js",
+      "stars": 4223,
+      "enhanced_text": "A terminal for your browser, using node/express/socket.io.",
+      "tag": "浏览器终端模拟器"
+    },
+    {
+      "id": 123563464,
+      "name": "code-charity/ImprovedTube",
+      "stars": 4213,
+      "enhanced_text": "Open YouTube / Video browser-extension [top~1] Enrich your experience&choice!🧰250+options; clever features📌set&forget📌  - Longest-standing. Join🧩us?👨‍👩‍👧‍👧  ⋮ {playback|discovery|extra player buttons|quality|codec|full tab|full screen|no distraction|shorts}.\n\n/ImprovedTube/ a powerful but lightweight extension,  to enrich your video experience & enable your content selection.\n'Might  be the only YouTube Extension you'll ever need'  'enhances YouTube in meaningful ways'   'Strong Add-on, full control. Yet clear & easy'\nThanks ♡ to our contributors, Alan Tan, Raszpl\ntranslators (+ wiki-authors? +donators?):bowtie:\n«Improve YouTube!»  &nbsp;&nbsp;",
+      "tag": "YouTube增强扩展"
+    },
+    {
+      "id": 23384104,
+      "name": "bendc/sprint",
+      "stars": 4201,
+      "enhanced_text": "A tiny, lightning fast jQuery-like library for modern browsers.\n\nSprint is a high-performance, 5KB (gzipped) DOM library for modern browsers. Sprint notably shines on bandwidth and resource constrained devices such as phones and tablets.\nSprint has a familiar, jQuery-like chainable API:\nSprint is an alternative—not a replacement—for jQuery. jQuery offers more features, handles more edge cases and supports more browsers. Sprint is just a thin layer making the DOM friendlier without sacrificing on performance.\nSprint relies on newer APIs supported by modern browsers (read: IE10+) and  optimizes a bunch of other things in order to provide you with fast DOM operations.\nHere are a few performance tests of some popular methods (Chrome 42, OS X 10.10.3) :",
+      "tag": "轻量DOM库"
+    },
+    {
+      "id": 10182205,
+      "name": "scrapinghub/splash",
+      "stars": 4199,
+      "enhanced_text": "Lightweight, scriptable browser as a service with an HTTP API.\n\nSplash - A javascript rendering service\n:target: https://travis-ci.org/scrapinghub/splash\n:target: http://codecov.io/github/scrapinghub/splash?branch=master\n:alt: Join the chat at https://gitter.im/scrapinghub/splash\n:target: https://gitter.im/scrapinghub/splash\nSplash is a javascript rendering service with an HTTP API. It's a lightweight\nbrowser with an HTTP API, implemented in Python 3 using Twisted and QT5.\nIt's fast, lightweight and state-less which makes it easy to distribute.",
+      "tag": "无头浏览器服务"
+    },
+    {
+      "id": 618514446,
+      "name": "gptme/gptme",
+      "stars": 4182,
+      "enhanced_text": "Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web, vision.\n\nGetting Started\n📜 Personal AI agent in your terminal, with tools so it can:\nUse the terminal, run code, edit files, browse the web, use vision, and much more;\na great coding agent, but is general-purpose to assist in all kinds of knowledge-work.\nAn unconstrained local free and open-source alternative to Claude Code, Codex, Cursor Agents, etc.\nOne of the first agent CLIs created (Spring 2023) that is still in active development.\n## 📚 Table of Contents\n- **Coming soon** - gptme.ai service for running agents in the cloud; gptme desktop app for easy local use.\n- **2026-01** - gptme-agent-template v0.4: Bob reaches 1000+ autonomous sessions, autonomous run loops, enhanced context generation\n- **2025-12** - v0.31.0: Background jobs, form tool, cost tracking, content-addressable storage\n- **2025-11** - v0.30.0: Plugin system, context compression, subagent planner mode\n- **2025-10** - v0.29.0: Lessons system for contextual guidance, MCP discovery & dynamic loading, token awareness; Bob begins autonomous runs with GitHub monitoring\n- **2025-08** - v0.28.0: MCP support, morph tool for fast edits, auto-commit, redesigned server API\n- **2025-03** - v0.27.0: Pre-commit integration, macOS computer use, Claude 3.7 Sonnet, DeepSeek R1, local TTS with Kokoro\n- **2025-01** - gptme-contrib created: community plugins including Twitter/X, Discord bot, email tools, consortium (multi-agent)",
+      "tag": "AI终端代理"
+    },
+    {
+      "id": 18102026,
+      "name": "winjs/winjs",
+      "stars": 4131,
+      "enhanced_text": "A UI toolkit for modern browsers.",
+      "tag": "Web UI组件库"
+    },
+    {
+      "id": 46246431,
+      "name": "donnemartin/haxor-news",
+      "stars": 4131,
+      "enhanced_text": "Browse Hacker News like a haxor: A Hacker News command line interface (CLI).\n\n### Features\n* View a Post's Linked Web Content\n* View and Filter a Post's Comments\n* Filter on Unseen Comments\n* Filter on Recent Comments\n* Hide Non-Matching Comments\n* View and Filter the Monthly Hiring Post\n* View and Filter the Monthly Freelancer Post\n* Combine With Pipes and Redirects\n* View Results in a Browser\n\n### Installation and Tests\n* Virtual Environment Installation\n* Supported Python Versions\n* Supported Platforms\n* Developer Installation\n* Continuous Integration\n* Unit Tests and Code Coverage\n$ hn  [params] [options]\n## Auto-Completer and Interactive Help\nOptionally, you can enable fish-style completions and an auto-completion menu with interactive help:\nIf available, the auto-completer also automatically displays comments through a pager.\nWithin the auto-completer, the same syntax applies:\nhaxor> hn  [params] [options]\n## Customizable Highlighting\nYou can control the ansi colors used for highlighting by updating your  file.",
+      "tag": "命令行新闻客户端"
+    },
+    {
+      "id": 584016836,
+      "name": "xiangechen/chili3d",
+      "stars": 4127,
+      "enhanced_text": "A browser-based 3D CAD application for online model design and editing.\n\n## Overview\nChili3D is an open-source, browser-based 3D CAD (Computer-Aided Design) application built with TypeScript. It achieves near-native performance by compiling OpenCascade (OCCT) to WebAssembly and integrating with Three.js, enabling powerful online modeling, editing, and rendering—all without the need for local installation.\nYou can access Chili3D online at:\n- Official website: chili3d.com\n- Cloudflare deployment: chili3d.pages.dev\n\n## Features\n- **Basic Shapes**: Create boxes, cylinders, cones, spheres, pyramids, and more\n- **2D Sketching**: Draw lines, arcs, circles, ellipses, rectangles, polygons, and Bezier curves\n- **Advanced Operations**:\n- Boolean operations (union, difference, intersection)\n- Extrusion and revolution\n- Sweeping and lofting\n### Snapping and Tracking\n- **Object Snapping**: Precisely snap to geometric features (points, edges, faces)\n- **Workplane Snapping**: Snap to the current workplane for accurate planar operations\n- **Axis Tracking**: Create objects along tracked axes for precise alignment\n- **Feature Point Detection**: Automatically detect and snap to key geometric features\n- **Tracking Visualization**: Visual guides showing tracking lines and reference points\n- **Modification**: Chamfer, fillet, trim, break, split\n- **Transformation**: Move, rotate, mirror\n\n## Getting Started",
+      "tag": "WebAssembly CAD应用"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 255242703,
+        "tag": "JavaScript历史文献"
+      },
+      {
+        "id": 326059244,
+        "tag": "WebRTC视频会议"
+      },
+      {
+        "id": 3346928,
+        "tag": "浏览器终端模拟器"
+      },
+      {
+        "id": 123563464,
+        "tag": "YouTube增强扩展"
+      },
+      {
+        "id": 23384104,
+        "tag": "轻量DOM库"
+      },
+      {
+        "id": 10182205,
+        "tag": "无头浏览器服务"
+      },
+      {
+        "id": 618514446,
+        "tag": "AI终端代理"
+      },
+      {
+        "id": 18102026,
+        "tag": "Web UI组件库"
+      },
+      {
+        "id": 46246431,
+        "tag": "命令行新闻客户端"
+      },
+      {
+        "id": 584016836,
+        "tag": "WebAssembly CAD应用"
+      }
+    ]
+  }
+}

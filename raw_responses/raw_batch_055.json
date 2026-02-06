@@ -1,0 +1,16 @@
+{
+  "batch_id": 55,
+  "timestamp": "2026-02-05T16:42:28.611513",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 50198094,\n      \"tag\": \"文件浏览器工具\"\n    },\n    {\n      \"id\": 1033268244,\n      \"tag\": \"AI智能体沙箱环境\"\n    },\n    {\n      \"id\": 3392689,\n      \"tag\": \"JavaScript时间调度库\"\n    },\n    {\n      \"id\": 39771596,\n      \"tag\": \"浏览器低延迟远程桌面\"\n    },\n    {\n      \"id\": 352326362,\n      \"tag\": \"浏览器书签同步扩展\"\n    },\n    {\n      \"id\": 7491531,\n      \"tag\": \"HTML代码质量检查工具\"\n    },\n    {\n      \"id\": 128897892,\n      \"tag\": \"iOS媒体浏览组件\"\n    },\n    {\n      \"id\": 57914774,\n      \"tag\": \"浏览器技术指标分析库\"\n    },\n    {\n      \"id\": 95839159,\n      \"tag\": \"Web视频播放器框架\"\n    },\n    {\n      \"id\": 15271042,\n      \"tag\": \"Python数据可视化库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1799,
+    "completion_tokens": 248,
+    "total_tokens": 2047
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-83117c933434ede8",
+  "created": 1770309737,
+  "finish_reason": "stop"
+}

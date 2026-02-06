@@ -1,0 +1,125 @@
+{
+  "batch_id": 41,
+  "timestamp": "2026-02-05T16:29:06.284015",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 209153343,
+      "name": "qawolf/qawolf",
+      "stars": 3416,
+      "enhanced_text": "🐺 Create browser tests 10x faster.\n\nWe take testing off your plate. We build complete coverage in 4 months and keep you there. You get unlimited, parallel test runs on our infrastructure, and we guarantee zero flakes. It’s like magic but it’s QA Wolf.\nAt QA Wolf, we’re building the magical QA experience that we wanted when we were managing engineering teams. With zero effort on your part, we get you to 80% automated test coverage in 4 months — and keep you there.\n- **We plan.** You’ll get a test matrix covering every user flow in your web app, from happy path to edge case and everything in between.\n- **We automate.** Using vanilla, open source Microsoft Playwright so that there’s no vendor lock-in — you own every test.\n- **We run.** Every test in full parallel, on our own infrastructure, as many times as you want — no extra charge.\n- **We triage.** When tests fail, we have full-time human QA engineers review the tests. We clear out all the noise of flaky tests and give you clear, human-verified bug reports.\n- **We maintain.** Flaky and broken tests are fixed automatically, 24-hours a day.\n- **We integrate.** Into your CI/CD, your issue tracker, your messaging app — we’ll feel like part of your team.",
+      "tag": "浏览器自动化测试"
+    },
+    {
+      "id": 138488946,
+      "name": "emacs-eaf/emacs-application-framework",
+      "stars": 3406,
+      "enhanced_text": "EAF, an extensible framework that revolutionizes the graphical capabilities of Emacs.",
+      "tag": "Emacs图形应用框架"
+    },
+    {
+      "id": 272808853,
+      "name": "tiny-pilot/tinypilot",
+      "stars": 3386,
+      "enhanced_text": "Use your Raspberry Pi as a browser-based KVM.\n\n## Overview\nTurn your Raspberry Pi into a browser-based KVM.",
+      "tag": "浏览器KVM远程管理"
+    },
+    {
+      "id": 17147559,
+      "name": "auth0/jwt-decode",
+      "stars": 3385,
+      "enhanced_text": "Decode JWT tokens; useful for browser applications.",
+      "tag": "JWT解码库"
+    },
+    {
+      "id": 83772716,
+      "name": "SilenceLove/HXPhotoPicker",
+      "stars": 3384,
+      "enhanced_text": "图片/视频选择器 - 支持LivePhoto、GIF图片选择、3DTouch预览、在线下载iCloud上的资源、编辑图片/视频、浏览网络图片 功能    Imitation wx photo/image picker - support for LivePhoto, GIF image selection, 3DTouch preview, Download the resources on iCloud online, browse the web image function.\n\n一款图片/视频选择器-支持LivePhoto、GIF选择、iCloud/网络资源在线下载、图片/视频编辑",
+      "tag": "媒体资源选择器"
+    },
+    {
+      "id": 25076124,
+      "name": "kovacsv/Online3DViewer",
+      "stars": 3377,
+      "enhanced_text": "A solution to visualize and explore 3D models in your browser.\n\nOnline 3D Viewer (https://3dviewer.net) is a free and open source web solution to visualize and explore 3D models in your browser. This repository contains the source code of the website and the library behind it.\nLive website &nbsp;-&nbsp; Website documentation &nbsp;-&nbsp; Developer documentation &nbsp;-&nbsp; Discord server\n* **Import**: 3dm, 3ds, 3mf, amf, bim, brep, dae, fbx, fcstd, gltf, ifc, iges, step, stl, obj, off, ply, wrl.\n* **Export**: 3dm, bim, gltf, obj, off, stl, ply.\nOnline 3D Viewer uses these wonderful libraries: three.js, pickr, fflate, draco, rhino3dm, web-ifc, occt-import-js.",
+      "tag": "Web 3D可视化引擎"
+    },
+    {
+      "id": 14939303,
+      "name": "EFForg/https-everywhere",
+      "stars": 3360,
+      "enhanced_text": "A browser extension that encrypts your communications with many websites that offer HTTPS but still allow unencrypted connections.",
+      "tag": "HTTPS强制加密扩展"
+    },
+    {
+      "id": 10045915,
+      "name": "broccolijs/broccoli",
+      "stars": 3334,
+      "enhanced_text": "Browser compilation library – an asset pipeline for applications that run in the browser.",
+      "tag": "前端资产构建管道"
+    },
+    {
+      "id": 82643171,
+      "name": "EmailThis/extension-boilerplate",
+      "stars": 3325,
+      "enhanced_text": "⚡️ A template for building cross browser extensions for Chrome, Opera & Firefox.\n\n## Features\nWrite once and deploy to Chrome, Opera & Firefox\nBased on WebExtensions. It also includes a tiny polyfill to bring uniformity to the APIs exposed by different browsers.\nYour changes to CSS, HTML & JS files will be relayed instantly without having to manually reload the extension. This ends up saving a lot of time and improving the developer experience.\nSensible starting point\nThis comes with a gulp based workflow that converts modern ES6 JavaScript and SCSS to JS/CSS.\nScripts are transpiled using Babel and bundled using Browserify.\nSourcemaps are available for both JS and SCSS.\nSketch (.sketch) assets for icons and promo images\nA .sketch file is included in the resources directory. This has all the icons and promo images that will be needed while uploading the extensions to the app stores.\nEasily configurable and extendable\nThe gulpfile is easily understandable and configurable. If you want to add additional tasks or remove un-used ones, you can easily tweak that file to suit your needs.\nPlatform specific & Environment specific variables.\nYou might need to specify different data variables based on your environment. For example, you might want to use a localhost API endpoint during development and a production API endpoint once the extension is submitted to the appstore. You can specify such data in the json files inside  directory.\nYou can also set custom data variables based on the platform (different variable for Chrome, FF, Opera).",
+      "tag": "跨浏览器扩展样板"
+    },
+    {
+      "id": 249063259,
+      "name": "ianramzy/decentralized-video-chat",
+      "stars": 3321,
+      "enhanced_text": "🚀 Zipcall- Acquired @ 250k users 🚀 Peer to peer browser video calling platform with unmatched video quality and latency.",
+      "tag": "WebRTC视频聊天"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 209153343,
+        "tag": "浏览器自动化测试"
+      },
+      {
+        "id": 138488946,
+        "tag": "Emacs图形应用框架"
+      },
+      {
+        "id": 272808853,
+        "tag": "浏览器KVM远程管理"
+      },
+      {
+        "id": 17147559,
+        "tag": "JWT解码库"
+      },
+      {
+        "id": 83772716,
+        "tag": "媒体资源选择器"
+      },
+      {
+        "id": 25076124,
+        "tag": "Web 3D可视化引擎"
+      },
+      {
+        "id": 14939303,
+        "tag": "HTTPS强制加密扩展"
+      },
+      {
+        "id": 10045915,
+        "tag": "前端资产构建管道"
+      },
+      {
+        "id": 82643171,
+        "tag": "跨浏览器扩展样板"
+      },
+      {
+        "id": 249063259,
+        "tag": "WebRTC视频聊天"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 83,
+  "timestamp": "2026-02-05T16:49:54.359060",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 14065064,
+      "name": "MattKetmo/darkroomjs",
+      "stars": 1457,
+      "enhanced_text": "Extensible image editing tool in your browser.\n\nDarkroomJS is a JavaScript library which provides basic image editing tools in\nyour browser, such as **rotation** or **cropping**. It is based on the awesome\nFabricJS library to handle images in HTML5 canvas.\nThis library has been discontinued and is **no longer maintained**.\nIf you're looking for an alternative, you should have a look at **Pintura Image Editor**.\n- intuitive UI and mobile touch friendly",
+      "tag": "浏览器图像处理库"
+    },
+    {
+      "id": 600278518,
+      "name": "anaclumos/bing-chat-for-all-browsers",
+      "stars": 1454,
+      "enhanced_text": "Enable Bing ChatGPT on Chrome and Firefox.\n\n> **Warning** I am shutting down the extension. https://github.com/anaclumos/bing-chat-for-all-browsers/issues/119",
+      "tag": "浏览器功能扩展"
+    },
+    {
+      "id": 11436163,
+      "name": "gamelab/kiwi.js",
+      "stars": 1453,
+      "enhanced_text": "Kiwi.js is a blazingly fast mobile & desktop browser based HTML5 game framework. It uses CocoonJS for publishing to the AppStore.",
+      "tag": "HTML5游戏框架"
+    },
+    {
+      "id": 12384349,
+      "name": "fortunejs/fortune",
+      "stars": 1453,
+      "enhanced_text": "Non-native graph database abstraction layer for Node.js and web browsers.",
+      "tag": "浏览器端数据库抽象层"
+    },
+    {
+      "id": 43080546,
+      "name": "nk-o/jarallax",
+      "stars": 1453,
+      "enhanced_text": "Parallax scrolling for modern browsers.\n\n## Quick Start\nThere are a set of examples, which you can use as a starting point with Jarallax.\n- Next.js Advanced Usage\nUse one of the following examples to import jarallax.\nWe provide a version of Jarallax built as ESM (jarallax.esm.js and jarallax.esm.min.js) which allows you to use Jarallax as a module in your browser, if your targeted browsers support it.\nJarallax may be also used in a traditional way by including script in HTML and using library by accessing .\n### CJS (Bundlers like Webpack)\n\nInstall Jarallax as a Node.js module using npm\nImport Jarallax by adding this line to your app's entry point (usually  or ):\nNote: automatic data-attribute initialization and jQuery integration are available in UMD mode only.\n### A. JavaScript way\n### B. Data attribute way\nNote: You can use all available options as data attributes. For example: , , , etc...\n#### No conflict (only if you use jQuery)\nSometimes to prevent existing namespace collisions you may call  on the script to revert the value of.\n## Background Video Usage Examples\n### A. JavaScript way\n### B. Data attribute way\nNote: self-hosted videos require 1 video type only, not necessarily using all mp4, webm, and ogv. This is only needed for maximum compatibility with all browsers.\nOptions can be passed in data attributes or in object when you initialize jarallax from script.\nName | Type | Default | Description\ntype | string |  | scroll, scale, opacity, scroll-opacity, scale-opacity.",
+      "tag": "浏览器视差滚动库"
+    },
+    {
+      "id": 271791157,
+      "name": "QAX-A-Team/BrowserGhost",
+      "stars": 1452,
+      "enhanced_text": "这是一个抓取浏览器密码的工具，后续会添加更多功能.\n\n- 实现system抓机器上其他用户的浏览器密码(方便横向移动时快速凭据采集)\n- 用.net2 实现可兼容大部分windows，并去掉依赖(不需要System.Data.SQLite.dll这些累赘)\n- 可以解密chrome全版本密码(chrome80版本后加密方式变了)\n- Chrome已经可以获取login data、cookie、history、book了\n- IE 支持获取书签、密码、history了 (.net2提取密码太复杂了代码参考至)",
+      "tag": "浏览器密码抓取工具"
+    },
+    {
+      "id": 500684,
+      "name": "jmesnil/stomp-websocket",
+      "stars": 1448,
+      "enhanced_text": "Stomp client for Web browsers and node.js apps.",
+      "tag": "浏览器STOMP客户端"
+    },
+    {
+      "id": 16372438,
+      "name": "jsforce/jsforce",
+      "stars": 1448,
+      "enhanced_text": "Salesforce API Library for JavaScript applications (both on Node.js and web browser).",
+      "tag": "浏览器API客户端库"
+    },
+    {
+      "id": 3670753,
+      "name": "crossbario/autobahn-js",
+      "stars": 1446,
+      "enhanced_text": "WAMP in JavaScript for Browsers and NodeJS.\n\n* **autobahn** - Autobahn for NodeJS\n* **autobahn-browser** - Autobahn for browsers\n* **autobahn-xbr** - Autobahn-XBR for NodeJS\n* **autobahn-xbr-browser** - Autobahn-XBR for browsers\n* XBR Network - The XBR Network homepage.\n* XBR Protocol - The XBR Protocol source repository.",
+      "tag": "浏览器WebSocket应用协议库"
+    },
+    {
+      "id": 6628036,
+      "name": "fanglingsu/vimb",
+      "stars": 1446,
+      "enhanced_text": "Vimb - the vim like browser is a webkit based web browser that behaves like the vimperator plugin for the firefox and usage paradigms from the great editor vim. The goal of vimb is to build a completely keyboard-driven, efficient and pleasurable browsing-experience.",
+      "tag": "Vim风格浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 14065064,
+        "tag": "浏览器图像处理库"
+      },
+      {
+        "id": 600278518,
+        "tag": "浏览器功能扩展"
+      },
+      {
+        "id": 11436163,
+        "tag": "HTML5游戏框架"
+      },
+      {
+        "id": 12384349,
+        "tag": "浏览器端数据库抽象层"
+      },
+      {
+        "id": 43080546,
+        "tag": "浏览器视差滚动库"
+      },
+      {
+        "id": 271791157,
+        "tag": "浏览器密码抓取工具"
+      },
+      {
+        "id": 500684,
+        "tag": "浏览器STOMP客户端"
+      },
+      {
+        "id": 16372438,
+        "tag": "浏览器API客户端库"
+      },
+      {
+        "id": 3670753,
+        "tag": "浏览器WebSocket应用协议库"
+      },
+      {
+        "id": 6628036,
+        "tag": "Vim风格浏览器"
+      }
+    ]
+  }
+}

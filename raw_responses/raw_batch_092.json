@@ -1,0 +1,16 @@
+{
+  "batch_id": 92,
+  "timestamp": "2026-02-05T16:53:11.942476",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 206873569,\n      \"tag\": \"Web应用演示\"\n    },\n    {\n      \"id\": 445686840,\n      \"tag\": \"桌面扩展管理工具\"\n    },\n    {\n      \"id\": 4528770,\n      \"tag\": \"交互式数学可视化库\"\n    },\n    {\n      \"id\": 7656304,\n      \"tag\": \"WebAssembly编译工具\"\n    },\n    {\n      \"id\": 8956228,\n      \"tag\": \"CSS恶搞工具\"\n    },\n    {\n      \"id\": 637131414,\n      \"tag\": \"终端图形浏览器\"\n    },\n    {\n      \"id\": 24230088,\n      \"tag\": \"HTTP请求修改扩展\"\n    },\n    {\n      \"id\": 59760504,\n      \"tag\": \"浏览器指纹追踪技术\"\n    },\n    {\n      \"id\": 359970576,\n      \"tag\": \"WebAssembly SQLite库\"\n    },\n    {\n      \"id\": 7367371,\n      \"tag\": \"浏览器Hack代码库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1679,
+    "completion_tokens": 242,
+    "total_tokens": 1921
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-9267ddf9c289c995",
+  "created": 1770310380,
+  "finish_reason": "stop"
+}

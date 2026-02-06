@@ -1,0 +1,125 @@
+{
+  "batch_id": 58,
+  "timestamp": "2026-02-05T16:43:17.099040",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 141128198,
+      "name": "chinedufn/percy",
+      "stars": 2307,
+      "enhanced_text": "Build frontend browser apps with Rust + WebAssembly. Supports server side rendering.",
+      "tag": "Wasm前端框架"
+    },
+    {
+      "id": 469525716,
+      "name": "ericclemmons/click-to-component",
+      "stars": 2306,
+      "enhanced_text": "Option+Click React components in your browser to instantly open the source in VS Code.\n\n## Features\n- Option+Click opens the immediate Component's source\n- Option+Right-click opens a context menu with the parent Components' , , , and\n- Works with frameworks like Next.js,\nthat use @babel/plugin-transform-react-jsx-source\n- Supports  &  &  URL handling\n- Automatically **tree-shaken** from  builds\n- Keyboard navigation in context menu (e.g. ←, →, ⏎)\n- More context & faster than using React DevTools:\n\n## Installation\nEven though  is added to , tree-shaking will remove  from  builds.\nnpm install @babel/plugin-transform-react-jsx-source\nIf developing in container?\nBy default, clicking will default  to .\nIf, like me, you use , you can set  explicitly:\nGo to the project directory",
+      "tag": "React开发工具"
+    },
+    {
+      "id": 18020144,
+      "name": "timdown/rangy",
+      "stars": 2302,
+      "enhanced_text": "A cross-browser JavaScript range and selection library.\n\nI've started a discussion about the future of Rangy.\nThere is an official Rangy module on NPM called .\nDocumentation is in the GitHub wiki.\nThere is an official Rangy package for Bower with Rangy 1.2 and 1.3 versions, called .",
+      "tag": "DOM操作库"
+    },
+    {
+      "id": 47860620,
+      "name": "mapbox/supercluster",
+      "stars": 2302,
+      "enhanced_text": "A very fast geospatial point clustering library for browsers and Node.\n\nInstall using NPM () or Yarn (), then:\nOr use it with an ordinary script tag in the browser:\nLoads an array of GeoJSON Feature objects. Each feature's  must be a GeoJSON Point. Once loaded, index is immutable.\nFor the given  array () and integer , returns an array of clusters and points as GeoJSON Feature objects.\nFor a given zoom and x/y coordinates, returns a geojson-vt-compatible JSON tile object with cluster/point features.\nReturns the children of a cluster (on the next zoom level) given its id ( value from feature properties).\nReturns all the points of a cluster (given its ), with pagination support:\nis the number of points to return (set to  for all points),\nand  is the amount of points to skip (for pagination).\nReturns the zoom on which the cluster expands into several children (useful for \"click to zoom\" feature) given the cluster's .\n| Option     | Default | Description                                                       |\n| minZoom    | 0       | Minimum zoom level at which clusters are generated.               |\n| maxZoom    | 16      | Maximum zoom level at which clusters are generated.               |\n| minPoints  | 2       | Minimum number of points to form a cluster.                       |\n| radius     | 40      | Cluster radius, in pixels.                                        |",
+      "tag": "地理空间计算库"
+    },
+    {
+      "id": 190765263,
+      "name": "NetrisTV/ws-scrcpy",
+      "stars": 2299,
+      "enhanced_text": "Web client prototype for scrcpy.",
+      "tag": "设备投屏客户端"
+    },
+    {
+      "id": 297152797,
+      "name": "lana-k/sqliteviz",
+      "stars": 2298,
+      "enhanced_text": "Instant offline SQL-powered data visualisation in your browser.\n\nSqliteviz is a single-page offline-first PWA for fully client-side visualisation\nof SQLite databases, CSV, JSON or NDJSON files.\n- run SQL queries against a SQLite database and create [Plotly][11] charts, graphs and pivot tables based on the result sets\n- import a CSV/JSON/NDJSON file into a SQLite database and visualize imported data\n- export result set to CSV file\n- manage inquiries and run them against different databases\n- import/export inquiries from/to a JSON file\n- export a modified SQLite database",
+      "tag": "数据可视化PWA"
+    },
+    {
+      "id": 65398224,
+      "name": "softvar/enhanced-github",
+      "stars": 2295,
+      "enhanced_text": ":rocket: Browser extension to display size of each file, download link and copy file contents directly to the clipboard.\n\nInstall extension from [Microsoft Edge Add-ons][edge]\n\nInstall extension from [Chrome Web Store][chrome]\n\nInstall add-on from [Firefox Add-ons][firefox]",
+      "tag": "GitHub增强扩展"
+    },
+    {
+      "id": 19384606,
+      "name": "josdejong/workerpool",
+      "stars": 2283,
+      "enhanced_text": "Offload tasks to a pool of workers on node.js and in the browser.\n\n## Features\n- Runs in the browser and on node.js\n- Dynamically offload functions to a worker\n- Access workers via a proxy\n- Cancel running tasks\n- Set a timeout on tasks\n- Handles crashed workers\n- Small: 9 kB minified and gzipped\n- Supports transferable objects (only for web workers and worker_threads)\nJavaScript is based upon a single event loop which handles one event at a time. Jeremy Epstein explains this clearly:\n> In Node.js everything runs in parallel, except your code.\n> What this means is that all I/O code that you write in Node.js is non-blocking,\n> while (conversely) all non-I/O code that you write in Node.js is blocking.\nThis means that CPU heavy tasks will block other tasks from being executed. In case of a browser environment, the browser will not react to user events like a mouse click while executing a CPU intensive task (the browser \"hangs\"). In case of a node.js server, the server will not respond to any new request while executing a single, heavy request.\nFor front-end processes, this is not a desired situation.",
+      "tag": "Web Worker工具库"
+    },
+    {
+      "id": 358512963,
+      "name": "dromara/mayfly-go",
+      "stars": 2278,
+      "enhanced_text": "Browser-based management platform of machine, database (mysql pgsql oracle sqlserver Gauss sqlite), redis(standalone sentinel cluster), mongo, Es unified management and operation platform. (web版linux(终端 文件 脚本 进程)、数据库(mysql pgsql oracle sqlserver 高斯 达梦 sqlite)、数据同步、redis(单机 哨兵 集群)、mongo、Es统一管理操作平台).\n\nWeb 版 **统一管理操作平台**，集成了对 Linux 系统的全面操作支持（包括终端管理[终端回放、命令过滤]、文件管理、脚本执行、进程监控及计划任务设置），同时提供了多种数据库（如 MySQL、PostgreSQL、Oracle、SQL Server、达梦、高斯、SQLite 等）的数据操作、数据同步与数据迁移功能。此外，还支持 Redis（单机、哨兵、集群模式）、 MongoDB 、Es 的操作管理，并结合工单流程审批功能，为企业提供一站式的运维与管理解决方案。\n- 前端：typescript、vue3、element-plus",
+      "tag": "浏览器运维平台"
+    },
+    {
+      "id": 187544570,
+      "name": "sh-dv/hat.sh",
+      "stars": 2274,
+      "enhanced_text": "Encrypt and Decrypt files securely in your browser.",
+      "tag": "浏览器端加密工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 141128198,
+        "tag": "Wasm前端框架"
+      },
+      {
+        "id": 469525716,
+        "tag": "React开发工具"
+      },
+      {
+        "id": 18020144,
+        "tag": "DOM操作库"
+      },
+      {
+        "id": 47860620,
+        "tag": "地理空间计算库"
+      },
+      {
+        "id": 190765263,
+        "tag": "设备投屏客户端"
+      },
+      {
+        "id": 297152797,
+        "tag": "数据可视化PWA"
+      },
+      {
+        "id": 65398224,
+        "tag": "GitHub增强扩展"
+      },
+      {
+        "id": 19384606,
+        "tag": "Web Worker工具库"
+      },
+      {
+        "id": 358512963,
+        "tag": "浏览器运维平台"
+      },
+      {
+        "id": 187544570,
+        "tag": "浏览器端加密工具"
+      }
+    ]
+  }
+}

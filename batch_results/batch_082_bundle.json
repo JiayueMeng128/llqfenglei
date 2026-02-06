@@ -1,0 +1,125 @@
+{
+  "batch_id": 82,
+  "timestamp": "2026-02-05T16:49:41.417269",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 502105368,
+      "name": "ehmicky/modern-errors",
+      "stars": 1480,
+      "enhanced_text": "Handle errors in a simple, stable, consistent way.",
+      "tag": "JavaScript错误处理库"
+    },
+    {
+      "id": 574666627,
+      "name": "wieslawsoltes/ChatGPT",
+      "stars": 1475,
+      "enhanced_text": "A ChatGPT C# client for MacOS, Windows, Linux, Android, iOS and Browser. Powered by Avalonia UI framework.\n\nA ChatGPT C# client for graphical user interface runs on MacOS, Windows, Linux, Android, iOS and Browser. Powered by Avalonia UI framework.\nTo make the app work, you need to set the OpenAI API key as the  environment variable or set API key directly in app settings.\nYou can try client using browser version here.\n- Ctrl+Shift+A - Toggle between transparent and acrylic blur window style.\n- Ctrl+Shift+S - Toggle between visible and hidden window state.",
+      "tag": "跨平台桌面应用"
+    },
+    {
+      "id": 5194068,
+      "name": "mmin18/AndroidDynamicLoader",
+      "stars": 1474,
+      "enhanced_text": "A plugin system that runs like a browser, but instead of load web pages, it load apk plugins which runs natively on Android system.\n\n## About UI Container\nIn a normal Android application, we use Activity as the root UI container. But since Activity is registered in AndroidManifest.xml, and we can't modify manifest in runtime, we must find an alternative UI container - Fragment.\nThe Fragment itself, introduced in Android 3.0 Honeycomb, is a perfect UI container, and it has lifecycle and state management.\nOnce the plugin and its dependency is downloaded, an Activity (MainActivity.java) will be started, create an instance of the specific fragment, and add the fragment into the root view.\nSee the HelloFragment.java sample.\n\n## About URL Mapping\nSince we use Fragment as UI container, each page is implemented in Fragment instead of Activity. So how do we start a new page?\nWe use URL, just like a browser does. For instance, in a browser, we open . In plugins, we open .\nIntent i = new Intent(Intent.ACTION_VIEW, Uri.parse(\"app://helloworld\"));\nEach host is mapped to a single fragment, you define the url mapping table in **project/fragment.properties**.\nSee the helloworld fragment.properties sample.",
+      "tag": "Android插件化框架"
+    },
+    {
+      "id": 17480011,
+      "name": "puleos/object-hash",
+      "stars": 1474,
+      "enhanced_text": "Generate hashes from javascript objects in node and the browser.",
+      "tag": "JavaScript哈希生成库"
+    },
+    {
+      "id": 14086422,
+      "name": "cryptii/cryptii",
+      "stars": 1468,
+      "enhanced_text": "A web app for modular conversion, encoding, and encryption, all performed directly in your browser with no server interaction.",
+      "tag": "浏览器端编解码工具"
+    },
+    {
+      "id": 16862339,
+      "name": "flask-api/flask-api",
+      "stars": 1468,
+      "enhanced_text": "Browsable web APIs for Flask.\n\n## Overview\nFlask API is a drop-in replacement for Flask that provides an implementation of browsable APIs similar to what Django REST framework offers. It gives you properly content-negotiated responses and smart request parsing:\n\n## Installation",
+      "tag": "Flask API扩展"
+    },
+    {
+      "id": 111427718,
+      "name": "jhildenbiddle/css-vars-ponyfill",
+      "stars": 1464,
+      "enhanced_text": "Client-side support for CSS custom properties (aka \"CSS variables\") in legacy and modern browsers.\n\n## Features\n- Client-side transformation of CSS custom properties to static values\n- Live updates of runtime values in both modern and legacy browsers\n- Transforms , , and  CSS\n- Transforms relative  paths to absolute URLs\n- Supports chained and nested  functions\n- Supports  function fallback values\n- Supports web components / shadow DOM CSS\n- Watch mode auto-updates on  and  changes\n- UMD and ES6 module available\n- TypeScript definitions included\n- Lightweight (6k min+gzip) and dependency-free\n- Custom property declaration support is limited to  and  rulesets\n- The use of  is limited to property values (per W3C specification)\n- CSS changes made using CSSOM APIs are not supported (see #19, #23, #77, #154).",
+      "tag": "CSS变量兼容库"
+    },
+    {
+      "id": 5099405,
+      "name": "linuxmint/nemo",
+      "stars": 1460,
+      "enhanced_text": "File browser for Cinnamon.\n\nNemo is a free and open-source software and official file manager of the Cinnamon desktop environment.\nIt is a fork of GNOME Files (formerly named Nautilus).\nNemo also manages the Cinnamon desktop.\nSince Cinnamon 6.0 (Mint 21.3), users can enhance their own Nemo with Spices named Actions.\nNemo started as a fork of the GNOME file manager Nautilus v3.4. Version 1.0.0 was released in July 2012 along with version 1.6 of Cinnamon,\nreaching version 1.1.2 in November 2012.\nDeveloper Gwendal Le Bihan named the project \"nemo\" after Jules Verne's famous character Captain Nemo, who is the captain of the Nautilus.\nNemo v1.0.0 had the following features as described by the developers:\n1. Ability to SSH into remote servers\n2. Native support for FTP (File Transfer Protocol) and MTP (Media Transfer Protocol)",
+      "tag": "Cinnamon文件管理器"
+    },
+    {
+      "id": 46812728,
+      "name": "Synzvato/decentraleyes",
+      "stars": 1460,
+      "enhanced_text": "This repository has a new home: https://git.synz.io/Synzvato/decentraleyes.\n\nA web browser extension that emulates Content Delivery Networks to improve your online privacy. It intercepts traffic, finds supported resources locally, and injects them into the environment. All of this happens automatically, so no prior configuration is required. Feel free to use the following testing utility to find out if you are properly protected.\n> **Note:** Decentraleyes is no silver bullet, but it does prevent a lot of websites from making you send these kinds of requests. Ultimately, you can make Decentraleyes block requests for any missing CDN resources, too.\nSuggestions in the form of **Issues**, and contributions in the form of **Pull Requests**, are highly welcome. You can also use the public contact details and PGP key on the extension's contact page to get in touch.\n* Mozilla Firefox 56 *(or higher)*.\n> **Note:** If you want to contribute to the Firefox legacy extension, please check out the  branch. If you are looking for the Chromium-compatible codebase, please see the  branch.\nPlease read this short guide for information on how to run this extension from source.",
+      "tag": "隐私保护浏览器扩展"
+    },
+    {
+      "id": 1083887818,
+      "name": "thelastoutpostworkshop/ESPConnect",
+      "stars": 1459,
+      "enhanced_text": "Zero-installation web application that lets you explore, back up, and manage your ESP32… right from your browser.\n\n## Quick Start\n2. Click **Connect** and choose your device when the browser asks for permission.\n3. After the handshake completes, the navigation drawer unlocks every tool: Device Info, Partitions, SPIFFS, Apps, Flash, Console, and Logs.\n4. Use **Disconnect** whenever you want to free the USB port for another application.",
+      "tag": "ESP32 Web管理工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 502105368,
+        "tag": "JavaScript错误处理库"
+      },
+      {
+        "id": 574666627,
+        "tag": "跨平台桌面应用"
+      },
+      {
+        "id": 5194068,
+        "tag": "Android插件化框架"
+      },
+      {
+        "id": 17480011,
+        "tag": "JavaScript哈希生成库"
+      },
+      {
+        "id": 14086422,
+        "tag": "浏览器端编解码工具"
+      },
+      {
+        "id": 16862339,
+        "tag": "Flask API扩展"
+      },
+      {
+        "id": 111427718,
+        "tag": "CSS变量兼容库"
+      },
+      {
+        "id": 5099405,
+        "tag": "Cinnamon文件管理器"
+      },
+      {
+        "id": 46812728,
+        "tag": "隐私保护浏览器扩展"
+      },
+      {
+        "id": 1083887818,
+        "tag": "ESP32 Web管理工具"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 22,
+  "timestamp": "2026-02-05T16:25:06.235222",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 197205035,\n      \"tag\": \"浏览器扩展\"\n    },\n    {\n      \"id\": 24649388,\n      \"tag\": \"神经网络库\"\n    },\n    {\n      \"id\": 332757634,\n      \"tag\": \"浏览器指纹\"\n    },\n    {\n      \"id\": 657577902,\n      \"tag\": \"浏览器图像处理\"\n    },\n    {\n      \"id\": 6418762,\n      \"tag\": \"电子书渲染引擎\"\n    },\n    {\n      \"id\": 130369089,\n      \"tag\": \"Python API\"\n    },\n    {\n      \"id\": 206509491,\n      \"tag\": \"低代码平台\"\n    },\n    {\n      \"id\": 24650236,\n      \"tag\": \"浏览器数据库\"\n    },\n    {\n      \"id\": 59700207,\n      \"tag\": \"P2P浏览器\"\n    },\n    {\n      \"id\": 664226598,\n      \"tag\": \"应用启动器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1527,
+    "completion_tokens": 228,
+    "total_tokens": 1755
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c462d886ea1289e1bdcd0ad619d5",
+  "created": 1770308703,
+  "finish_reason": "stop"
+}

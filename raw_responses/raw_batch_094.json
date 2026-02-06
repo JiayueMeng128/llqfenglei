@@ -1,0 +1,16 @@
+{
+  "batch_id": 94,
+  "timestamp": "2026-02-05T16:53:53.792797",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 146150693,\n      \"tag\": \"JavaScript模块加载器\"\n    },\n    {\n      \"id\": 23987312,\n      \"tag\": \"HTML/CSS打印样式库\"\n    },\n    {\n      \"id\": 3550046,\n      \"tag\": \"物联网Web框架\"\n    },\n    {\n      \"id\": 45477976,\n      \"tag\": \"API调试与浏览工具\"\n    },\n    {\n      \"id\": 55432924,\n      \"tag\": \"Web API权限测试工具\"\n    },\n    {\n      \"id\": 72826023,\n      \"tag\": \"跨平台媒体元数据解析库\"\n    },\n    {\n      \"id\": 107745806,\n      \"tag\": \"函数式编程工具库\"\n    },\n    {\n      \"id\": 24103044,\n      \"tag\": \"CSS跨浏览器样式库\"\n    },\n    {\n      \"id\": 221179329,\n      \"tag\": \"React文件上传组件库\"\n    },\n    {\n      \"id\": 50281785,\n      \"tag\": \"网页渲染反向代理\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2031,
+    "completion_tokens": 250,
+    "total_tokens": 2281
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984cb213e0e23c57d987e321ee03a4d",
+  "created": 1770310430,
+  "finish_reason": "stop"
+}

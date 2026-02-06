@@ -1,0 +1,125 @@
+{
+  "batch_id": 95,
+  "timestamp": "2026-02-05T16:54:04.941168",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 5562456,
+      "name": "mtschirs/js-objectdetect",
+      "stars": 1221,
+      "enhanced_text": "computer vision in your browser - javascript real-time object detection.",
+      "tag": "计算机视觉库"
+    },
+    {
+      "id": 82913507,
+      "name": "wagenaartje/neataptic",
+      "stars": 1220,
+      "enhanced_text": ":rocket: Blazing fast neuro-evolution & backpropagation for the browser and Node.js.",
+      "tag": "神经网络库"
+    },
+    {
+      "id": 252358889,
+      "name": "minio/object-browser",
+      "stars": 1214,
+      "enhanced_text": "Simple UI for MinIO Object Storage :abacus:.\n\nA graphical user interface for MinIO\n| Object Browser                       | Creating a bucket                     | Object Details                  |\n- 2. Create a policy for  with admin access to all resources (for testing)\n- 3. Set the policy for the new  user",
+      "tag": "对象存储管理UI"
+    },
+    {
+      "id": 294501642,
+      "name": "QuiteAFancyEmerald/Holy-Unblocker",
+      "stars": 1212,
+      "enhanced_text": "Holy Unblocker LTS is a web proxy service that helps you access websites that may be blocked by your network, government or policy all within your browser with no download or setup. It does this securely and with additional privacy features. Browse Tor/Onion sites in any browser, hide browsing activity and bypass filters. (Star if you fork it!).\n\nHoly Unblocker LTS is an experimental web proxy service that can bypass web filters or \"blockers\" regardless of whether the method of censorship is client-side or network-based. This includes the ability to bypass content blockers from governments, chrome extensions, localized client firewalls, and network-related filters. The project even allows the ability to browse Tor/Onion sites in any browser (even Chromium) all through a website!\n## You can support Holy Unblocker by starring the repository!\nThis project serves mostly as a proof of concept for the ideal clientless solution to bypassing censorship. A good use case of this project would be if you ever needed a clientless solution to use Tor or leave minimal traces of device activity. Simply host this project on any domain and have an alternative solution to a VPN without needing to download anything on said device. Being a secure web proxy service, it supports numerous sites while being updated frequently and concentrating on being easy to self-host. Holy Unblocker LTS works with a large number of sites, including YouTube, Discord, GeForce NOW and more!\nAlso has a good amount of locally hosted games featured on the site.\n### Over 30M+ users since 2020. Thank you so much for the support I could have never imagined how massive the web proxy community has become.\n- Latest (master; built for FOSS and SEO)\n- Beta (pending changes; changes that may break things)",
+      "tag": "Web代理服务"
+    },
+    {
+      "id": 465383,
+      "name": "cowboy/jquery-hashchange",
+      "stars": 1211,
+      "enhanced_text": "This jQuery plugin enables very basic bookmarkable #hash history via a cross-browser HTML5 window.onhashchange event.\n\nhttp://benalman.com/projects/jquery-hashchange-plugin/\nVersion: 1.3, Last updated: 7/21/2010\nThis jQuery plugin enables very basic bookmarkable #hash history via a cross-browser window.onhashchange event.\nVisit the project page for more information and usage examples!\nhttp://benalman.com/code/projects/jquery-hashchange/docs/\nThese working examples, complete with fully commented code, illustrate a few\nways in which this plugin can be used.",
+      "tag": "jQuery插件"
+    },
+    {
+      "id": 160545642,
+      "name": "spatie/laravel-web-tinker",
+      "stars": 1210,
+      "enhanced_text": "Tinker in your browser.",
+      "tag": "Laravel开发者工具"
+    },
+    {
+      "id": 157377758,
+      "name": "reiinakano/arbitrary-image-stylization-tfjs",
+      "stars": 1209,
+      "enhanced_text": "Arbitrary style transfer using TensorFlow.js.",
+      "tag": "TensorFlow.js应用"
+    },
+    {
+      "id": 3658431,
+      "name": "mongodb/js-bson",
+      "stars": 1208,
+      "enhanced_text": "BSON Parser for node and browser.",
+      "tag": "BSON解析库"
+    },
+    {
+      "id": 1873461,
+      "name": "jaysalvat/buzz",
+      "stars": 1206,
+      "enhanced_text": "Buzz is a small but powerful Javascript library that allows you to easily take advantage of the new HTML5 audio element. It tries to degrade silently on non-modern browsers.\n\nBuzz is a small but powerful Javascript library that allows you to easily take advantage of the new HTML5 audio element. It tries to degrade properly on non-modern browsers.\nhttp://buzz.jaysalvat.com/demo/\nhttp://buzz.jaysalvat.com/documentation/\nPlease don't edit files in the  subdirectory as it is generated via Grunt. You'll find source code in the  subdirectory!",
+      "tag": "HTML5音频库"
+    },
+    {
+      "id": 10753240,
+      "name": "vimperator/vimperator-labs",
+      "stars": 1202,
+      "enhanced_text": "Description\nSee also [Home page][homepage].\nWriting efficient user interfaces is the main maxim, here at Vimperator labs.\nWe often follow the Vim way of doing things, but extend its principles when\nTowards this end, we've created the liberator library for Mozilla based\napplications, to encapsulate as many of these generic principles as possible,\nand liberate developers from the tedium of reinventing the wheel.\nCurrently, these applications are using this library:\nVimperator, the flagship project from Vimperator labs, creates a Vim-like\nVimperator is a Firefox browser extension with strong inspiration from the Vim\ntext editor, with a mind towards faster and more efficient browsing.  It has\nsimilar key bindings and you could call it a modal web browser, as key bindings\ndiffer according to which mode you are in. For example, it has a special Hint\nmode, where you can follow links easily with the keyboard only.  Also most\nfunctionality is available as commands, typing  will go back within the\n\nFeatures (Vimperator)\n- Vim-like keybindings (, , , , , , , , , etc.)\n- Ex commands (, , ...)\n- Tab completion available for all commands with support for 'longest' matching\nwhen set in 'wildmode'\n- Extensions! Yes, you can extend Vimperator's functionality with scripts just\nlike you can extend Firefox with extensions\n- Explore JavaScript objects with  and even context-sensitive tab\n- Hit-a-hint like navigation of links (start with  to follow a link)\n- Advanced completion of bookmark and history URLs (searching also in title,\n- Vim-like statusline with a wget-like progress bar\n- Minimal GUI (easily hide useless menubar and toolbar with )\n- Ability to  JavaScript files, and to use a  file\n- Easy quick searches ( will search for \"foo\" in google,  will search for \"terminator\" on ebay) with support for Firefox\nkeyword bookmarks and search engines\n\nInstallation (Vimperator)\n> Note that Vimperator doesn't support multi-process aka\n> [Electrolysis][wiki_e10s] (e10s), it's necessary to disable e10s to use the\n- Download **signed** add-on from addons.mozilla.org (AMO) 1\n1. Enter [Add-ons page][amo_release].\n- Download **unsigned** 2 add-on from github.com (Github)\n1. Enter [Releases page][github_release].\n2. Click  link under Downloads topic.\n- Build own version (and signing)\nSee Build own version topic.\n> 1 If the version on [AMO][amo_release] is older than the [latest\n> release][github_release], you can build your own version and use it until AMO\n> release is updated...",
+      "tag": "Firefox扩展框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 5562456,
+        "tag": "计算机视觉库"
+      },
+      {
+        "id": 82913507,
+        "tag": "神经网络库"
+      },
+      {
+        "id": 252358889,
+        "tag": "对象存储管理UI"
+      },
+      {
+        "id": 294501642,
+        "tag": "Web代理服务"
+      },
+      {
+        "id": 465383,
+        "tag": "jQuery插件"
+      },
+      {
+        "id": 160545642,
+        "tag": "Laravel开发者工具"
+      },
+      {
+        "id": 157377758,
+        "tag": "TensorFlow.js应用"
+      },
+      {
+        "id": 3658431,
+        "tag": "BSON解析库"
+      },
+      {
+        "id": 1873461,
+        "tag": "HTML5音频库"
+      },
+      {
+        "id": 10753240,
+        "tag": "Firefox扩展框架"
+      }
+    ]
+  }
+}

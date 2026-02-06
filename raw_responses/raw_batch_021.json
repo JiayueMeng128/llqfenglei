@@ -1,0 +1,16 @@
+{
+  "batch_id": 21,
+  "timestamp": "2026-02-05T16:25:01.835202",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 156353247,\n      \"tag\": \"JWT加密库\"\n    },\n    {\n      \"id\": 25780780,\n      \"tag\": \"浏览器SQL数据库\"\n    },\n    {\n      \"id\": 120715537,\n      \"tag\": \"CSS重置库\"\n    },\n    {\n      \"id\": 3362916,\n      \"tag\": \"全屏API封装\"\n    },\n    {\n      \"id\": 35833177,\n      \"tag\": \"键盘快捷键库\"\n    },\n    {\n      \"id\": 127546642,\n      \"tag\": \"跨平台日志工具\"\n    },\n    {\n      \"id\": 24229490,\n      \"tag\": \"轻量DOM操作库\"\n    },\n    {\n      \"id\": 209381919,\n      \"tag\": \"手绘风格图表库\"\n    },\n    {\n      \"id\": 930217913,\n      \"tag\": \"浏览器监控MCP工具\"\n    },\n    {\n      \"id\": 485134435,\n      \"tag\": \"自托管仪表盘\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2289,
+    "completion_tokens": 241,
+    "total_tokens": 2530
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b689e75cbc296af8",
+  "created": 1770308692,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 77,
+  "timestamp": "2026-02-05T16:49:17.442549",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 756293439,\n      \"tag\": \"Kubernetes日志仪表板\"\n    },\n    {\n      \"id\": 787362890,\n      \"tag\": \"JavaScript日志库\"\n    },\n    {\n      \"id\": 1931328,\n      \"tag\": \"Chromium JSON格式化扩展\"\n    },\n    {\n      \"id\": 248498386,\n      \"tag\": \"客户端屏幕GIF录制工具\"\n    },\n    {\n      \"id\": 1234795,\n      \"tag\": \"全栈JavaScript MVC框架\"\n    },\n    {\n      \"id\": 104401601,\n      \"tag\": \"iOS加密钱包与DApp浏览器\"\n    },\n    {\n      \"id\": 187090924,\n      \"tag\": \"浏览器视口状态监听库\"\n    },\n    {\n      \"id\": 492128644,\n      \"tag\": \"浏览器内Python Streamlit运行时\"\n    },\n    {\n      \"id\": 132371769,\n      \"tag\": \"Web Audio API音乐生成平台\"\n    },\n    {\n      \"id\": 103780549,\n      \"tag\": \"浏览器挖矿脚本拦截扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2023,
+    "completion_tokens": 257,
+    "total_tokens": 2280
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984ca0d214b547a7163038c27f3a098",
+  "created": 1770310154,
+  "finish_reason": "stop"
+}

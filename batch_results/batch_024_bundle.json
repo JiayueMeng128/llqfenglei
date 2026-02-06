@@ -1,0 +1,125 @@
+{
+  "batch_id": 24,
+  "timestamp": "2026-02-05T16:25:39.552488",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 12594863,
+      "name": "kalcaddle/KodExplorer",
+      "stars": 6374,
+      "enhanced_text": "A web based file manager,web IDE / browser based code editor.\n\n> ## Update to kodbox:  https://github.com/kalcaddle/kodbox\n> *It is recommended to use a new design upgrade product:kodbox*\n> *该项目处于维护阶段,不再开发新功能.推荐使用全新设计升级产品kodbox*\n> KodExplorer is a file manager for web. It is also a web code editor, which allows you to develop websites directly within the web browser.You can run KodExplorer either online or locally,on Linux, Windows or Mac based platforms. The only requirement is to have PHP 5 available.",
+      "tag": "Web文件管理器"
+    },
+    {
+      "id": 546129875,
+      "name": "raphamorim/rio",
+      "stars": 6372,
+      "enhanced_text": "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers.\n\nRio is a modern terminal built to run everywhere.\n> **⚠️ Development Notice**: We are currently in the process of releasing Rio 0.3.0, which includes major performance improvements and architectural changes. The main branch is under active development and may be unstable. For stable usage, please use v0.2.20 or below.\nDocumentation: https://rioterm.com\nIf you are using or want to help in any way please consider to donate via Github Sponsors.\nRio would not be possible without Alacritty, since a lot of Rio functionalities (e.g: ANSI parser, events, processor) was originally written (and still uses a good amount) of Alacritty code.\nIf you use and like Rio, please consider sponsoring it: your support helps to cover the fees required to maintain the project and to validate the time spent working on it!",
+      "tag": "GPU终端模拟器"
+    },
+    {
+      "id": 734569425,
+      "name": "Bistutu/FluentRead",
+      "stars": 6356,
+      "enhanced_text": "Open Immersive Translate. A revolutionary open-source browser translation plugin that enables everyone to have a native-like reading experience. 开源的沉浸式翻译，一款革命性的浏览器翻译插件，让所有人都能够拥有母语般的阅读体验。.\n\nOpen Immersive Translate 开源的沉浸式翻译。\n一款革命性的浏览器开源翻译插件，让所有人都能够拥有母语般的阅读体验。\n- **智能翻译**：支持 20+ 种翻译引擎，包括传统翻译和 AI 大模型。如：微软翻译、谷歌翻译、DeepL翻译、OpenAI、DeepSeek、Kimi、Ollama、自定义引擎等。\n- **划词翻译**：选中任意文本，即可获得即时翻译结果，一键复制译文，提高阅读效率。\n- **全文翻译**：通过悬浮球一键翻译整个网页，无需刷新页面即可切换。",
+      "tag": "浏览器翻译插件"
+    },
+    {
+      "id": 763795053,
+      "name": "lavague-ai/LaVague",
+      "stars": 6290,
+      "enhanced_text": "Large Action Model framework to develop AI Web Agents.\n\nA Large Action Model framework for developing AI Web Agents\n## LaVague: Web Agent framework for builders\nLaVague is an open-source framework designed for developers who want to create AI Web Agents to automate processes for their end users.\nOur Web Agents can take an objective, such as \"Print installation steps for Hugging Face's Diffusers library,\" and generate and perform the actions required to achieve the objective.\n- A World Model that takes an objective and the current state (aka the current web page) and outputs an appropriate set of instructions.\n- An Action Engine which “compiles” these instructions into action code, e.g., Selenium or Playwright & executes them\n### LaVague QA: Dedicated tooling for QA Engineers",
+      "tag": "AI网页代理框架"
+    },
+    {
+      "id": 652319769,
+      "name": "gtsteffaniak/filebrowser",
+      "stars": 6224,
+      "enhanced_text": "📂 Web File Browser.\n\nThe best free self-hosted web-based file manager.\n:loudspeaker: What's Coming Soon\n:pushpin: Read The Official Docs (currently english-only)\nFileBrowser Quantum provides an easy way to access and manage your files from the web. It has a modern responsive interface that has many advanced features to manage users, access, sharing, and file preview and editing.\nThis version is called \"Quantum\" because it packs tons of advanced features into a tiny easy to run file. Unlike the majority of alternative options, FileBrowser Quantum is simple to install and easy to configure.\nThe goal for this repo is to become the best open-source self-hosted file browsing application that exists -- **all for free**. This repo will always be free and open-source.\nReady to try it out? See Getting Started Docs.\nFileBrowser Quantum is a massive fork of the file browser open-source project with the following changes:",
+      "tag": "Web文件浏览器"
+    },
+    {
+      "id": 106549179,
+      "name": "bromite/bromite",
+      "stars": 6205,
+      "enhanced_text": "Bromite is a Chromium fork with ad blocking and privacy enhancements; take back your browser!",
+      "tag": "隐私增强型浏览器"
+    },
+    {
+      "id": 1101281251,
+      "name": "rainxchzed/Github-Store",
+      "stars": 6199,
+      "enhanced_text": "A free, open-source app store for GitHub releases — browse, discover, and install apps with one click. Powered by Kotlin and Compose Multiplatform for Android & Desktop (Linux, MacOS, Windows).",
+      "tag": "GitHub应用商店"
+    },
+    {
+      "id": 789480255,
+      "name": "mishushakov/llm-scraper",
+      "stars": 6177,
+      "enhanced_text": "Turn any webpage into structured data using LLMs.\n\n### Features\n- Supports GPT, Sonnet, Gemini, Llama, Qwen model series\n- Schemas defined with Zod or JSON Schema\n- Full type-safety with TypeScript\n- Based on Playwright framework\n- Supports 4 formatting modes:\n-  for loading pre-processed HTML\n-  for loading raw HTML (no processing)\n-  for loading markdown\n-  for loading extracted text (using Readability.js)\n-  for loading a screenshot (multi-modal only)\n**Make sure to give it a star!**",
+      "tag": "LLM网页数据提取"
+    },
+    {
+      "id": 305646330,
+      "name": "devlikeapro/waha",
+      "stars": 6065,
+      "enhanced_text": "WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! 3 engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go).\n\n# Quick start\nOnly thing that you must have - installed docker. Please follow the original\ninstruction how to install docker ->.\nWhen you are ready - come back and follows the below steps to send the first text message to WhatsApp via HTTP API!\n## Send your first message\nLet's go over steps that allow you to send your first text message via WhatsApp HTTP API!\n### 1. Download image\nAssuming you have installed Docker, let's download the image.\nRead more about how to get  for **➕ WAHA Plus**\n### 2. Run WhatsApp HTTP API\nRun WhatsApp HTTP API:\nOpen the link in your browser http://localhost:3000/ and you'll see API documentation\n### 3. Start a new session\nTo start a new session you should have your mobile phone with installed WhatsApp application close to you.\nPlease go and read how what we'll need to a bit",
+      "tag": "WhatsApp HTTP API"
+    },
+    {
+      "id": 16231859,
+      "name": "nodeca/pako",
+      "stars": 6044,
+      "enhanced_text": "high speed zlib port to javascript, works in browser & node.js.\n\n> zlib port to javascript, very fast!\n- Results are binary equal to well known zlib (now contains ported zlib v1.2.8).\n- Almost as fast in modern JS engines as C implementation (see benchmarks).\n- Works in browsers, you can browserify any separate component.\nThis project was done to understand how fast JS can be and is it necessary to\ndevelop native C modules for CPU-intensive tasks. Enjoy the result!\nnode v12.16.3 (zlib 1.2.9), 1mb input sample:\nnode v14.15.0 (google's zlib), 1mb output sample:",
+      "tag": "JavaScript压缩库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 12594863,
+        "tag": "Web文件管理器"
+      },
+      {
+        "id": 546129875,
+        "tag": "GPU终端模拟器"
+      },
+      {
+        "id": 734569425,
+        "tag": "浏览器翻译插件"
+      },
+      {
+        "id": 763795053,
+        "tag": "AI网页代理框架"
+      },
+      {
+        "id": 652319769,
+        "tag": "Web文件浏览器"
+      },
+      {
+        "id": 106549179,
+        "tag": "隐私增强型浏览器"
+      },
+      {
+        "id": 1101281251,
+        "tag": "GitHub应用商店"
+      },
+      {
+        "id": 789480255,
+        "tag": "LLM网页数据提取"
+      },
+      {
+        "id": 305646330,
+        "tag": "WhatsApp HTTP API"
+      },
+      {
+        "id": 16231859,
+        "tag": "JavaScript压缩库"
+      }
+    ]
+  }
+}

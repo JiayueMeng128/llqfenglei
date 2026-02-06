@@ -1,0 +1,16 @@
+{
+  "batch_id": 90,
+  "timestamp": "2026-02-05T16:52:31.563487",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 9681561,\n      \"tag\": \"区块链API库\"\n    },\n    {\n      \"id\": 464832370,\n      \"tag\": \"浏览器阅读模式\"\n    },\n    {\n      \"id\": 273337347,\n      \"tag\": \"终端Gemini浏览器\"\n    },\n    {\n      \"id\": 113491980,\n      \"tag\": \"社交媒体界面优化扩展\"\n    },\n    {\n      \"id\": 108566111,\n      \"tag\": \"隐蔽通信工具\"\n    },\n    {\n      \"id\": 1981208,\n      \"tag\": \"JavaScript异步API垫片\"\n    },\n    {\n      \"id\": 2521861,\n      \"tag\": \"开源OLAP数据分析前端\"\n    },\n    {\n      \"id\": 80214003,\n      \"tag\": \"Delphi Chromium嵌入框架\"\n    },\n    {\n      \"id\": 265352760,\n      \"tag\": \"WinGet应用浏览前端\"\n    },\n    {\n      \"id\": 26542739,\n      \"tag\": \"CSS浏览器兼容性检查器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1692,
+    "completion_tokens": 245,
+    "total_tokens": 1937
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984cacf925ec50f060bc81960c67b17",
+  "created": 1770310347,
+  "finish_reason": "stop"
+}

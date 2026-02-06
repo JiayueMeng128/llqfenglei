@@ -1,0 +1,16 @@
+{
+  "batch_id": 7,
+  "timestamp": "2026-02-05T16:22:03.058283",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 18477927,\n      \"tag\": \"浏览器自动化库\"\n    },\n    {\n      \"id\": 40808571,\n      \"tag\": \"终端Web化工具\"\n    },\n    {\n      \"id\": 461710233,\n      \"tag\": \"WebAssembly运行时\"\n    },\n    {\n      \"id\": 3428345,\n      \"tag\": \"移动端交互优化\"\n    },\n    {\n      \"id\": 4414698,\n      \"tag\": \"编译器交互工具\"\n    },\n    {\n      \"id\": 58327877,\n      \"tag\": \"命令行浏览器\"\n    },\n    {\n      \"id\": 125791597,\n      \"tag\": \"前端知识图谱\"\n    },\n    {\n      \"id\": 48576134,\n      \"tag\": \"浏览器资源嗅探扩展\"\n    },\n    {\n      \"id\": 134035452,\n      \"tag\": \"浏览器AI视觉库\"\n    },\n    {\n      \"id\": 627561173,\n      \"tag\": \"浏览器大语言模型引擎\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2180,
+    "completion_tokens": 237,
+    "total_tokens": 2417
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-83a9da887ed84dd0",
+  "created": 1770308514,
+  "finish_reason": "stop"
+}

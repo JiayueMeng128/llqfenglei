@@ -1,0 +1,16 @@
+{
+  "batch_id": 8,
+  "timestamp": "2026-02-05T16:22:06.604539",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 215530281,\n      \"tag\": \"WebAssembly转码库\"\n    },\n    {\n      \"id\": 247350713,\n      \"tag\": \"虚拟浏览器容器\"\n    },\n    {\n      \"id\": 40518025,\n      \"tag\": \"GraphQL开发工具\"\n    },\n    {\n      \"id\": 44424200,\n      \"tag\": \"Web网络原理\"\n    },\n    {\n      \"id\": 1607357,\n      \"tag\": \"跨平台HTTP客户端\"\n    },\n    {\n      \"id\": 40089578,\n      \"tag\": \"Calibre电子书Web界面\"\n    },\n    {\n      \"id\": 30064588,\n      \"tag\": \"HLS视频播放库\"\n    },\n    {\n      \"id\": 101109137,\n      \"tag\": \"WebGL流体模拟\"\n    },\n    {\n      \"id\": 591273534,\n      \"tag\": \"终端渲染Chromium\"\n    },\n    {\n      \"id\": 84009,\n      \"tag\": \"JavaScript测试框架\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1897,
+    "completion_tokens": 241,
+    "total_tokens": 2138
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c3ae32264f09bc7bd47815129690",
+  "created": 1770308524,
+  "finish_reason": "stop"
+}

@@ -1,16 +1,16 @@
 {
   "batch_id": 72,
-  "timestamp": "2026-02-05T15:29:22.130170",
+  "timestamp": "2026-02-05T16:47:16.840887",
   "parse_success": true,
   "parse_error": null,
-  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 30087179,\n      \"tag\": \"WebXR兼容层\"\n    },\n    {\n      \"id\": 147781722,\n      \"tag\": \"移动应用浏览器组件\"\n    },\n    {\n      \"id\": 49662454,\n      \"tag\": \"Vim Git工具\"\n    },\n    {\n      \"id\": 239604498,\n      \"tag\": \"高保真网页存档扩展\"\n    },\n    {\n      \"id\": 688870667,\n      \"tag\": \"文献管理插件市场\"\n    },\n    {\n      \"id\": 36111399,\n      \"tag\": \"剪贴板操作库\"\n    },\n    {\n      \"id\": 15204429,\n      \"tag\": \"Elixir浏览器自动化库\"\n    },\n    {\n      \"id\": 494727853,\n      \"tag\": \"跨平台漫画浏览器\"\n    },\n    {\n      \"id\": 44635242,\n      \"tag\": \"Android悬浮窗示例\"\n    },\n    {\n      \"id\": 20046426,\n      \"tag\": \"Chromium浏览器取证工具\"\n    }\n  ]\n}",
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1093708164,\n      \"tag\": \"浏览器终端模拟\"\n    },\n    {\n      \"id\": 113486284,\n      \"tag\": \"iOS移动浏览器\"\n    },\n    {\n      \"id\": 2955224,\n      \"tag\": \"JavaScript模板引擎\"\n    },\n    {\n      \"id\": 120834196,\n      \"tag\": \"OSINT情报搜索扩展\"\n    },\n    {\n      \"id\": 497608,\n      \"tag\": \"异步JavaScript ORM\"\n    },\n    {\n      \"id\": 13765363,\n      \"tag\": \"多行文本截断库\"\n    },\n    {\n      \"id\": 56238870,\n      \"tag\": \"Chrome扩展Webpack样板\"\n    },\n    {\n      \"id\": 147433436,\n      \"tag\": \"ES模块特性垫片\"\n    },\n    {\n      \"id\": 202060742,\n      \"tag\": \"Web浏览器引擎\"\n    },\n    {\n      \"id\": 26687918,\n      \"tag\": \"Identicon生成库\"\n    }\n  ]\n}",
   "usage": {
-    "prompt_tokens": 610,
-    "completion_tokens": 247,
-    "total_tokens": 857
+    "prompt_tokens": 1522,
+    "completion_tokens": 243,
+    "total_tokens": 1765
   },
-  "model": "stg/deepseek-ai/deepseek-v3.2",
-  "id": "chatcmpl-bde531326547d329",
-  "created": 1770305332,
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c994333477a9c03c8b6e6c06c9a4",
+  "created": 1770310033,
   "finish_reason": "stop"
 }

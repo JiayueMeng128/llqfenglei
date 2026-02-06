@@ -1,0 +1,16 @@
+{
+  "batch_id": 27,
+  "timestamp": "2026-02-05T16:26:06.039635",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 145123457,\n      \"tag\": \"内容解锁扩展\"\n    },\n    {\n      \"id\": 6621471,\n      \"tag\": \"媒体播放库\"\n    },\n    {\n      \"id\": 54804539,\n      \"tag\": \"文档生成库\"\n    },\n    {\n      \"id\": 100657321,\n      \"tag\": \"Webpack可视化工具\"\n    },\n    {\n      \"id\": 743456842,\n      \"tag\": \"隐私安全浏览器\"\n    },\n    {\n      \"id\": 524325124,\n      \"tag\": \"WebAssembly框架\"\n    },\n    {\n      \"id\": 25158026,\n      \"tag\": \"隐私安全浏览器\"\n    },\n    {\n      \"id\": 12977854,\n      \"tag\": \"模块化浏览器\"\n    },\n    {\n      \"id\": 43790903,\n      \"tag\": \"CSS-in-JS库\"\n    },\n    {\n      \"id\": 40006776,\n      \"tag\": \"WebGL编辑器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1468,
+    "completion_tokens": 234,
+    "total_tokens": 1702
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-af208013c5ea0a3a",
+  "created": 1770308755,
+  "finish_reason": "stop"
+}

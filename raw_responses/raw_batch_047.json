@@ -1,0 +1,16 @@
+{
+  "batch_id": 47,
+  "timestamp": "2026-02-05T16:40:27.015242",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 256692482,\n      \"tag\": \"安卓浏览器内核\"\n    },\n    {\n      \"id\": 1557647,\n      \"tag\": \"浏览器HTTP客户端\"\n    },\n    {\n      \"id\": 832300204,\n      \"tag\": \"浏览器内数据库引擎\"\n    },\n    {\n      \"id\": 1823764,\n      \"tag\": \"跨平台事件发射器\"\n    },\n    {\n      \"id\": 169158585,\n      \"tag\": \"浏览器端AI模型\"\n    },\n    {\n      \"id\": 3813151,\n      \"tag\": \"JavaScript模板引擎\"\n    },\n    {\n      \"id\": 47918643,\n      \"tag\": \"Python转JavaScript编译器\"\n    },\n    {\n      \"id\": 18901345,\n      \"tag\": \"ClojureScript热重载工具\"\n    },\n    {\n      \"id\": 81788261,\n      \"tag\": \"Windows默认浏览器重定向\"\n    },\n    {\n      \"id\": 470251843,\n      \"tag\": \"网络钓鱼仿真模板\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1958,
+    "completion_tokens": 244,
+    "total_tokens": 2202
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c7fa903289ff7f9a9e2ed4449c7d",
+  "created": 1770309624,
+  "finish_reason": "stop"
+}

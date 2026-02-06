@@ -1,0 +1,16 @@
+{
+  "batch_id": 100,
+  "timestamp": "2026-02-05T16:57:04.784709",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 20268869,\n      \"tag\": \"广播图形框架\"\n    },\n    {\n      \"id\": 59907561,\n      \"tag\": \"神经网络可视化\"\n    },\n    {\n      \"id\": 835650091,\n      \"tag\": \"WebCodecs视频引擎\"\n    },\n    {\n      \"id\": 1398323,\n      \"tag\": \"Qt浏览器\"\n    },\n    {\n      \"id\": 3386825,\n      \"tag\": \"EventSource客户端\"\n    },\n    {\n      \"id\": 713052876,\n      \"tag\": \"TypeScript文档工具\"\n    },\n    {\n      \"id\": 962079433,\n      \"tag\": \"浏览器自动化库\"\n    },\n    {\n      \"id\": 529238370,\n      \"tag\": \"Web字体分包工具\"\n    },\n    {\n      \"id\": 105390095,\n      \"tag\": \"JSON日志库\"\n    },\n    {\n      \"id\": 506162055,\n      \"tag\": \"备份仓库GUI\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2016,
+    "completion_tokens": 233,
+    "total_tokens": 2249
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a3bfabd6f508d964",
+  "created": 1770310587,
+  "finish_reason": "stop"
+}

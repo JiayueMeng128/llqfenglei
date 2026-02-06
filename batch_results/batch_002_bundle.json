@@ -1,0 +1,125 @@
+{
+  "batch_id": 2,
+  "timestamp": "2026-02-05T16:21:08.961602",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 60630844,
+      "name": "microsoft/monaco-editor",
+      "stars": 45502,
+      "enhanced_text": "A browser based code editor.",
+      "tag": "Web代码编辑器"
+    },
+    {
+      "id": 14194174,
+      "name": "alex/what-happens-when",
+      "stars": 42681,
+      "enhanced_text": "An attempt to answer the age old interview question \"What happens when you type google.com into your browser and press enter?\".\n\nThis repository is an attempt to answer the age-old interview question \"What\nhappens when you type google.com into your browser's address box and press\nExcept instead of the usual story, we're going to try to answer this question\nin as much detail as possible. No skipping out on anything.\nThis is a collaborative process, so dig in and try to help out! There are tons\nof details missing, just waiting for you to add them! So send us a pull\nThis is all licensed under the terms of the _ license.\nRead this in _ (simplified Chinese), _ (Japanese), _",
+      "tag": "网络通信解析"
+    },
+    {
+      "id": 9393759,
+      "name": "phaserjs/phaser",
+      "stars": 38970,
+      "enhanced_text": "Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.\n\nInstall via npm:\n## Using Phaser from a CDN\nPhaser is on jsDelivr which is a \"super-fast CDN for developers\". Include _either_ of the following in your html:\nIt is also available from Cloudflare's cdnjs:\n## Phaser TypeScript Definitions\nFull TypeScript definitions can be found inside the types folder. They are also referenced in the  entry in , meaning modern editors such as VSCode will detect them automatically.\nDepending on your project, you may need to add the following to your  file:\nRead our full API Documentation at https://docs.phaser.io/. Use the links at the top of the page to navigate the namespaces, classes, events and Game Objects and also to use the search box.\nWe maintain documentation for the most recent versions of Phaser on this site.\n\n## Installing Phaser from NPM",
+      "tag": "HTML5游戏框架"
+    },
+    {
+      "id": 3065454,
+      "name": "impress/impress.js",
+      "stars": 38586,
+      "enhanced_text": "It's a presentation framework based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com.\n\n### Getting Started Guide\nCheck out our new Getting Started guide if you want a quick introduction to the project!\n### Checking out and initializing the git repository\ngit clone --recursive https://github.com/impress/impress.js.git\nNote: For a minimal checkout, omit the  option. This will leave out extra plugins.\nNew features and fixes are continuously merged into the master branch, which is what the above command will check out. For the latest stable release, see the Github Releases page.\nReference documentation of core impress.js features and API you can find it in DOCUMENTATION.md.\nThe HTML source code of the official impress.js demo serves as a good example usage and contains comments explaining various features of impress.js. For more information about styling you can look into CSS code which shows how classes provided by impress.js can be used. Last but not least JavaScript code of impress.js has some useful comments if you are interested in how everything works. Feel free to explore!\nimpress.js demo by @bartaz\n### Examples and demos\nThe Classic Slides demo is targeted towards beginners, or can be used as a template for presentations that look like the traditional PowerPoint slide deck. Over time, it also grew into the example presentation that uses most of the features and addons available.\nMore examples and demos can be found on Examples and demos wiki page.\nFeel free to add your own example presentations (or websites) there.\n### Other tutorials and learning resources\nIf you want to learn even more there is a list of tutorials and other learning resources\n\nHOW TO USE IT\n\n### Getting Started Guide\nCheck out our new Getting Started guide if you want a quick introduction to the project!\n### Direct download link to only impress.js\nYou can include this link directly inside of your HTML file in its header. If you want to learn how to do this, you can find a how-to in the Getting Started guide.\n- V2.0.0: https://cdn.jsdelivr.net/gh/impress/impress.js@2.0.0/js/impress.js\n- V1.1.0: https://cdn.jsdelivr.net/gh/impress/impress.js@1.1.0/js/impress.js\n- Source: https://cdn.jsdelivr.net/gh/impress/impress.js/js/impress.js",
+      "tag": "CSS3演示框架"
+    },
+    {
+      "id": 13840241,
+      "name": "freeCodeCamp/devdocs",
+      "stars": 38447,
+      "enhanced_text": "API Documentation Browser.",
+      "tag": "API文档浏览器"
+    },
+    {
+      "id": 52773157,
+      "name": "typeorm/typeorm",
+      "stars": 36293,
+      "enhanced_text": "ORM for TypeScript and JavaScript. Supports MySQL, PostgreSQL, MariaDB, SQLite, MS SQL Server, Oracle, SAP Hana, WebSQL databases. Works in NodeJS, Browser, Ionic, Cordova and Electron platforms.",
+      "tag": "跨平台ORM"
+    },
+    {
+      "id": 624681066,
+      "name": "reworkd/AgentGPT",
+      "stars": 35654,
+      "enhanced_text": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.",
+      "tag": "浏览器AI代理"
+    },
+    {
+      "id": 3390243,
+      "name": "servo/servo",
+      "stars": 35364,
+      "enhanced_text": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "tag": "浏览器渲染引擎"
+    },
+    {
+      "id": 21393871,
+      "name": "sorrycc/awesome-javascript",
+      "stars": 34891,
+      "enhanced_text": "🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.\n\nA collection of awesome browser-side JavaScript libraries, resources and shiny things.",
+      "tag": "JavaScript资源集合"
+    },
+    {
+      "id": 355959597,
+      "name": "Textualize/textual",
+      "stars": 34069,
+      "enhanced_text": "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser.",
+      "tag": "Python应用框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 60630844,
+        "tag": "Web代码编辑器"
+      },
+      {
+        "id": 14194174,
+        "tag": "网络通信解析"
+      },
+      {
+        "id": 9393759,
+        "tag": "HTML5游戏框架"
+      },
+      {
+        "id": 3065454,
+        "tag": "CSS3演示框架"
+      },
+      {
+        "id": 13840241,
+        "tag": "API文档浏览器"
+      },
+      {
+        "id": 52773157,
+        "tag": "跨平台ORM"
+      },
+      {
+        "id": 624681066,
+        "tag": "浏览器AI代理"
+      },
+      {
+        "id": 3390243,
+        "tag": "浏览器渲染引擎"
+      },
+      {
+        "id": 21393871,
+        "tag": "JavaScript资源集合"
+      },
+      {
+        "id": 355959597,
+        "tag": "Python应用框架"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 65,
+  "timestamp": "2026-02-05T16:45:12.803136",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 135900664,\n      \"tag\": \"跨浏览器通信库\"\n    },\n    {\n      \"id\": 159969526,\n      \"tag\": \"Web节点图编辑器\"\n    },\n    {\n      \"id\": 105154070,\n      \"tag\": \"GitHub匿名代理\"\n    },\n    {\n      \"id\": 619823756,\n      \"tag\": \"Web视频编辑SDK\"\n    },\n    {\n      \"id\": 137925467,\n      \"tag\": \"Selenium请求拦截扩展\"\n    },\n    {\n      \"id\": 399821046,\n      \"tag\": \"WebTorrent客户端\"\n    },\n    {\n      \"id\": 197209898,\n      \"tag\": \"GraphQL客户端生成器\"\n    },\n    {\n      \"id\": 368055370,\n      \"tag\": \"浏览器指纹欺骗扩展\"\n    },\n    {\n      \"id\": 80605091,\n      \"tag\": \"JS Lua虚拟机\"\n    },\n    {\n      \"id\": 78816383,\n      \"tag\": \"Cookie自动删除扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1519,
+    "completion_tokens": 243,
+    "total_tokens": 1762
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b89a31d94e90f997",
+  "created": 1770309892,
+  "finish_reason": "stop"
+}

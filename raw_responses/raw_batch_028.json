@@ -1,0 +1,16 @@
+{
+  "batch_id": 28,
+  "timestamp": "2026-02-05T16:26:27.739143",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 282434959,\n      \"tag\": \"Cookie合规插件\"\n    },\n    {\n      \"id\": 137313102,\n      \"tag\": \"创意编程框架\"\n    },\n    {\n      \"id\": 898077246,\n      \"tag\": \"浏览器自动化工具\"\n    },\n    {\n      \"id\": 1099755141,\n      \"tag\": \"错误页面生成器\"\n    },\n    {\n      \"id\": 19386515,\n      \"tag\": \"网页截图工具\"\n    },\n    {\n      \"id\": 141901715,\n      \"tag\": \"神经网络可视化\"\n    },\n    {\n      \"id\": 241217584,\n      \"tag\": \"实时人物移除\"\n    },\n    {\n      \"id\": 850821713,\n      \"tag\": \"浏览器多媒体工具库\"\n    },\n    {\n      \"id\": 370679811,\n      \"tag\": \"桌面文件管理器\"\n    },\n    {\n      \"id\": 18237202,\n      \"tag\": \"Web终端模拟器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2224,
+    "completion_tokens": 234,
+    "total_tokens": 2458
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a38a1f6278771595",
+  "created": 1770308766,
+  "finish_reason": "stop"
+}

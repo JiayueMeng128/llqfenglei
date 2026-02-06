@@ -1,0 +1,16 @@
+{
+  "batch_id": 69,
+  "timestamp": "2026-02-05T16:47:01.987503",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 50481899,\n      \"tag\": \"代码转换工具\"\n    },\n    {\n      \"id\": 546006134,\n      \"tag\": \"命令行文件共享工具\"\n    },\n    {\n      \"id\": 258922512,\n      \"tag\": \"Web PDF编辑库\"\n    },\n    {\n      \"id\": 248908265,\n      \"tag\": \"Web UI原型工具\"\n    },\n    {\n      \"id\": 5727081,\n      \"tag\": \"JavaScript数据验证库\"\n    },\n    {\n      \"id\": 553041868,\n      \"tag\": \"Web音频处理库\"\n    },\n    {\n      \"id\": 5545025,\n      \"tag\": \"浏览器加密扩展\"\n    },\n    {\n      \"id\": 1030561901,\n      \"tag\": \"桌面浏览器应用\"\n    },\n    {\n      \"id\": 52619134,\n      \"tag\": \"Elixir浏览器测试框架\"\n    },\n    {\n      \"id\": 43526326,\n      \"tag\": \"Android Reddit客户端\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1112,
+    "completion_tokens": 241,
+    "total_tokens": 1353
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c985c3dc2c5b585757a5525bc5a9",
+  "created": 1770310018,
+  "finish_reason": "stop"
+}

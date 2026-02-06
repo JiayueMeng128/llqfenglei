@@ -1,0 +1,125 @@
+{
+  "batch_id": 80,
+  "timestamp": "2026-02-05T16:49:32.622965",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 75882379,
+      "name": "apollographql/apollo-client-devtools",
+      "stars": 1523,
+      "enhanced_text": "Apollo Client browser developer tools.\n\n### Install local version\nIf you want to install a local version of the extension instead, skip ahead to the Developing section.\n\n## Installation\nChrome users can install the extension by visiting the Chrome Web Store.\nOpera users can install the extension from Chrome Web Store using the Download Chrome Extension addon for Opera.\nFirefox users can install the addon via Firefox Browser Add-ons.",
+      "tag": "开发者工具扩展"
+    },
+    {
+      "id": 482251689,
+      "name": "kha-white/mokuro",
+      "stars": 1519,
+      "enhanced_text": "Read Japanese manga inside browser with selectable text.",
+      "tag": "浏览器文本处理扩展"
+    },
+    {
+      "id": 717917803,
+      "name": "andrewnguonly/Lumos",
+      "stars": 1514,
+      "enhanced_text": "A RAG LLM co-pilot for browsing the web, powered by local LLMs.\n\nThis Chrome extension is powered by Ollama. Inference is done on your local machine without any _remote_ server support. However, due to security constraints in the Chrome extension platform, the app does rely on _local_ server support to run the LLM. This app is inspired by the Chrome extension example provided by the Web LLM project and the local LLM examples provided by LangChain.\n- Summarize long threads on issue tracking sites, forums, and social media sites.\n- Ask questions about reviews on business and product pages.\n- Ask questions about long, technical documentation.",
+      "tag": "本地LLM浏览器助手"
+    },
+    {
+      "id": 1110256,
+      "name": "alexgibson/shake.js",
+      "stars": 1512,
+      "enhanced_text": "A custom 'shake' event plugin for mobile web browsers using device accelerometer.",
+      "tag": "移动端Web事件库"
+    },
+    {
+      "id": 7449695,
+      "name": "selwin/python-user-agents",
+      "stars": 1512,
+      "enhanced_text": "A Python library that provides an easy way to identify devices like mobile phones, tablets and their capabilities by parsing (browser) user agent strings.",
+      "tag": "用户代理解析库"
+    },
+    {
+      "id": 9695623,
+      "name": "levelgraph/levelgraph",
+      "stars": 1512,
+      "enhanced_text": "Graph database JS style for Node.js and the Browser. Built upon LevelUp and LevelDB.",
+      "tag": "浏览器端图数据库"
+    },
+    {
+      "id": 510134922,
+      "name": "Alex313031/Mercury",
+      "stars": 1511,
+      "enhanced_text": "Firefox fork with compiler optimizations and patches from Librewolf, Waterfox, and GNU IceCat.\n\nIt aims to be the Firefox equivalent of my main project: Thorium (a Chromium fork).\nSee > BUILDING.md and DEBUGGING.md.",
+      "tag": "Firefox优化分支"
+    },
+    {
+      "id": 48935429,
+      "name": "toolkit-for-ynab/toolkit-for-ynab",
+      "stars": 1507,
+      "enhanced_text": "A general purpose YNAB enhancing browser extension for Chrome and Firefox. Have it your way!",
+      "tag": "财务管理扩展"
+    },
+    {
+      "id": 238784472,
+      "name": "s60sc/ESP32-CAM_MJPEG2SD",
+      "stars": 1503,
+      "enhanced_text": "ESP32 Camera motion capture application to record JPEGs to SD card as AVI files and stream to browser as MJPEG. If a microphone is installed then a WAV file is also created. Files can be uploaded via FTP or downloaded to browser.",
+      "tag": "浏览器视频流服务"
+    },
+    {
+      "id": 46092465,
+      "name": "rbren/rss-parser",
+      "stars": 1499,
+      "enhanced_text": "A lightweight RSS parser, for Node and the browser.",
+      "tag": "RSS解析库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 75882379,
+        "tag": "开发者工具扩展"
+      },
+      {
+        "id": 482251689,
+        "tag": "浏览器文本处理扩展"
+      },
+      {
+        "id": 717917803,
+        "tag": "本地LLM浏览器助手"
+      },
+      {
+        "id": 1110256,
+        "tag": "移动端Web事件库"
+      },
+      {
+        "id": 7449695,
+        "tag": "用户代理解析库"
+      },
+      {
+        "id": 9695623,
+        "tag": "浏览器端图数据库"
+      },
+      {
+        "id": 510134922,
+        "tag": "Firefox优化分支"
+      },
+      {
+        "id": 48935429,
+        "tag": "财务管理扩展"
+      },
+      {
+        "id": 238784472,
+        "tag": "浏览器视频流服务"
+      },
+      {
+        "id": 46092465,
+        "tag": "RSS解析库"
+      }
+    ]
+  }
+}

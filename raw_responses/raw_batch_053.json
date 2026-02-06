@@ -1,0 +1,16 @@
+{
+  "batch_id": 53,
+  "timestamp": "2026-02-05T16:42:10.897310",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1114840147,\n      \"tag\": \"浏览器自动化工具\"\n    },\n    {\n      \"id\": 4802028,\n      \"tag\": \"Python性能分析工具\"\n    },\n    {\n      \"id\": 421195163,\n      \"tag\": \"静态分析对比工具\"\n    },\n    {\n      \"id\": 3534119,\n      \"tag\": \"iOS隐私浏览器\"\n    },\n    {\n      \"id\": 33494170,\n      \"tag\": \"JavaScript文件上传库\"\n    },\n    {\n      \"id\": 643368591,\n      \"tag\": \"防指纹浏览器\"\n    },\n    {\n      \"id\": 17691231,\n      \"tag\": \"HTML解析库\"\n    },\n    {\n      \"id\": 779276,\n      \"tag\": \"Ruby浏览器检测库\"\n    },\n    {\n      \"id\": 1375774,\n      \"tag\": \"PHP目录列表工具\"\n    },\n    {\n      \"id\": 5394041,\n      \"tag\": \"Markdown渲染库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1471,
+    "completion_tokens": 237,
+    "total_tokens": 1708
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-befb4353821bd121",
+  "created": 1770309717,
+  "finish_reason": "stop"
+}

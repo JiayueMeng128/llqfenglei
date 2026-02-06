@@ -1,0 +1,16 @@
+{
+  "batch_id": 1,
+  "timestamp": "2026-02-05T16:20:58.799893",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 70107786,\n      \"tag\": \"全栈Web框架\"\n    },\n    {\n      \"id\": 23088740,\n      \"tag\": \"HTTP客户端库\"\n    },\n    {\n      \"id\": 2561582,\n      \"tag\": \"CSS动画库\"\n    },\n    {\n      \"id\": 881458615,\n      \"tag\": \"AI浏览器自动化\"\n    },\n    {\n      \"id\": 172953845,\n      \"tag\": \"云端IDE\"\n    },\n    {\n      \"id\": 9185792,\n      \"tag\": \"数据可视化库\"\n    },\n    {\n      \"id\": 808045485,\n      \"tag\": \"浏览器引擎\"\n    },\n    {\n      \"id\": 824874689,\n      \"tag\": \"AI编程助手\"\n    },\n    {\n      \"id\": 348060227,\n      \"tag\": \"静态站点生成器\"\n    },\n    {\n      \"id\": 31629751,\n      \"tag\": \"端到端测试框架\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1085,
+    "completion_tokens": 233,
+    "total_tokens": 1318
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c36ae6f8769bc2994bbecfcc654e",
+  "created": 1770308454,
+  "finish_reason": "stop"
+}

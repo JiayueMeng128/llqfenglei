@@ -1,0 +1,16 @@
+{
+  "batch_id": 38,
+  "timestamp": "2026-02-05T16:28:21.942685",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 106959954,\n      \"tag\": \"React浏览器API组件库\"\n    },\n    {\n      \"id\": 610043832,\n      \"tag\": \"浏览器端AI推理引擎\"\n    },\n    {\n      \"id\": 3640925,\n      \"tag\": \"GitHub API浏览器SDK\"\n    },\n    {\n      \"id\": 976095156,\n      \"tag\": \"跨平台AI代理框架\"\n    },\n    {\n      \"id\": 148713303,\n      \"tag\": \"Flutter WebView插件\"\n    },\n    {\n      \"id\": 4617120,\n      \"tag\": \"jQuery滚动动画库\"\n    },\n    {\n      \"id\": 326547939,\n      \"tag\": \"WebRTC低延迟直播服务器\"\n    },\n    {\n      \"id\": 33659097,\n      \"tag\": \"macOS悬浮浏览器\"\n    },\n    {\n      \"id\": 11321096,\n      \"tag\": \"隐私追踪拦截扩展\"\n    },\n    {\n      \"id\": 676211990,\n      \"tag\": \"浏览器渲染引擎\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1795,
+    "completion_tokens": 250,
+    "total_tokens": 2045
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c52598e7adf26151a67e092fbaa4",
+  "created": 1770308893,
+  "finish_reason": "stop"
+}

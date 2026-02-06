@@ -1,0 +1,125 @@
+{
+  "batch_id": 98,
+  "timestamp": "2026-02-05T16:54:55.908229",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 99478934,
+      "name": "tsejx/javascript-guidebook",
+      "stars": 1168,
+      "enhanced_text": ":books:JavaScript 前端知识图谱 A guidebook for the convenience of the front-end developers.\n\n项目内容按照 中文文案排版指北 进行排版，以保证内容的可读性。\n- MDN web docs：MDN Web Docs 网站提供开放网络（Open Web）技术有关的信息\n- ecma-international ecma 262 5.1（英）：ECMAScript 5\n- ECMAScript® 2015 Language Specification（ES6 英）：ECMAScript 2015 规范文档\n- ECMAScript® 2016 Language Specification（ES7 英）：ECMAScript 2016 规范文档",
+      "tag": "前端知识库"
+    },
+    {
+      "id": 813783,
+      "name": "apache/groovy-geb",
+      "stars": 1167,
+      "enhanced_text": "Apache Geb: Very Groovy Browser Automation.\n\nGeb (pronounced “jeb”) is a browser automation solution. It brings together the power of WebDriver, the elegance of jQuery content selection, the robustness of Page Object modelling and the expressiveness of the Groovy language.\nFor more information about the project, see the https://groovy.apache.org/geb/.\nPlease see CONTRIBUTING.md for contribution guidelines.\nIf you'd like to submit an issue against Geb then please use the Geb GitHub issue tracker.\nPlease avoid submitting usage questions as issues\nand instead join and ask your question on one of the following forums:\n| Forum                                                                                                                                                                                                                                            |\n| The  mailing list: Browse Subscribe Unsubscribe |",
+      "tag": "浏览器自动化测试框架"
+    },
+    {
+      "id": 82470022,
+      "name": "FirefoxBar/HeaderEditor",
+      "stars": 1167,
+      "enhanced_text": "Manage browser's requests, include modify the request headers, response headers, response body, redirect requests, cancel requests.\n\nAn extension which can modify the request, include request headers, response headers, response body, redirect requests, and cancel requests.\nIt's 100% FREE, no ADs, no data collection.\nVisit he.firefoxcn.net for more documentations.\n|  Firefox | Official Download or Mozilla Add-ons | Official Download or Mozilla Add-ons |\n|  Chrome | Chrome Web Store | Install full version |\n* The official download is exactly the same as Mozilla Add-ons, but the Mozilla Add-ons review is very slow, usually taking more than a week, and you may not be able to get the latest version.",
+      "tag": "HTTP请求调试扩展"
+    },
+    {
+      "id": 118652595,
+      "name": "developit/karmatic",
+      "stars": 1167,
+      "enhanced_text": "🦑 Easy automatic (headless) browser testing with Jest's API, but powered by Karma & Webpack.",
+      "tag": "无头浏览器测试工具"
+    },
+    {
+      "id": 706643137,
+      "name": "ivnvxd/arc-export",
+      "stars": 1165,
+      "enhanced_text": "Export pinned Arc Browser tabs for importing bookmarks into other browsers.\n\n## Installation\n1. Clone the repository:\n2. Navigate to the project folder:\nRun the  script from the command line:\nIf you encounter any problems, manually copy the  file from the  directory to the project's directory and run the script again.\n\n## Overview\nThis project provides a script for converting pinned tabs in the **Arc Browser** to standard HTML bookmarks file. These bookmarks can then be imported into any web browser.\nThis addresses the lack of a pinned tabs export feature in Arc Browser.\n- Arc Browser installed",
+      "tag": "浏览器书签迁移工具"
+    },
+    {
+      "id": 4340323,
+      "name": "jspsych/jsPsych",
+      "stars": 1163,
+      "enhanced_text": "Create behavioral experiments in a browser using JavaScript.",
+      "tag": "浏览器行为实验框架"
+    },
+    {
+      "id": 370396971,
+      "name": "maximecb/noisecraft",
+      "stars": 1163,
+      "enhanced_text": "Browser-based visual programming language and platform for sound synthesis.",
+      "tag": "浏览器音频合成平台"
+    },
+    {
+      "id": 4141506,
+      "name": "crittermike/shortkeys",
+      "stars": 1156,
+      "enhanced_text": "A browser extension for custom keyboard shortcuts.",
+      "tag": "浏览器快捷键扩展"
+    },
+    {
+      "id": 43045691,
+      "name": "KirillOsenkov/SourceBrowser",
+      "stars": 1155,
+      "enhanced_text": "Source browser website generator that powers https://source.dot.net, https://referencesource.microsoft.com and https://sourceroslyn.io.",
+      "tag": "源码浏览器生成器"
+    },
+    {
+      "id": 20765046,
+      "name": "jcubic/sysend",
+      "stars": 1151,
+      "enhanced_text": "Web application synchronization between different tabs.\n\nabout this can be found in #54.\nInformation about the API can also be found in Google Chrome documentation:\nThere is a new API: Storage Access API. It's available when you\nYou can register two and more domains, you will have a token that you need to add to the HTML files (in the head tag):\nYou can also use the HTTP header:\nRight now, the API only works with localStorage fallback (when inside iframes).",
+      "tag": "浏览器跨页签同步库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 99478934,
+        "tag": "前端知识库"
+      },
+      {
+        "id": 813783,
+        "tag": "浏览器自动化测试框架"
+      },
+      {
+        "id": 82470022,
+        "tag": "HTTP请求调试扩展"
+      },
+      {
+        "id": 118652595,
+        "tag": "无头浏览器测试工具"
+      },
+      {
+        "id": 706643137,
+        "tag": "浏览器书签迁移工具"
+      },
+      {
+        "id": 4340323,
+        "tag": "浏览器行为实验框架"
+      },
+      {
+        "id": 370396971,
+        "tag": "浏览器音频合成平台"
+      },
+      {
+        "id": 4141506,
+        "tag": "浏览器快捷键扩展"
+      },
+      {
+        "id": 43045691,
+        "tag": "源码浏览器生成器"
+      },
+      {
+        "id": 20765046,
+        "tag": "浏览器跨页签同步库"
+      }
+    ]
+  }
+}

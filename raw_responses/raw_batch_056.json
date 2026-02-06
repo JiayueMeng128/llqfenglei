@@ -1,0 +1,16 @@
+{
+  "batch_id": 56,
+  "timestamp": "2026-02-05T16:42:38.659879",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1003630893,\n      \"tag\": \"AI网页数据采集SDK\"\n    },\n    {\n      \"id\": 50896111,\n      \"tag\": \"JavaScript入门教程\"\n    },\n    {\n      \"id\": 333501877,\n      \"tag\": \"浏览器隐私安全扩展\"\n    },\n    {\n      \"id\": 78368581,\n      \"tag\": \"Unity原生文件对话框工具\"\n    },\n    {\n      \"id\": 263535757,\n      \"tag\": \"浏览器端科学计算环境\"\n    },\n    {\n      \"id\": 18806010,\n      \"tag\": \"浏览器端数据集合库\"\n    },\n    {\n      \"id\": 67251638,\n      \"tag\": \"浏览器本地存储库\"\n    },\n    {\n      \"id\": 469579425,\n      \"tag\": \"Docker化知识管理应用\"\n    },\n    {\n      \"id\": 266196,\n      \"tag\": \"跨浏览器通信库\"\n    },\n    {\n      \"id\": 74061137,\n      \"tag\": \"Unity资源包调试工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1178,
+    "completion_tokens": 248,
+    "total_tokens": 1426
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c87e4ad07bb3c95fe535bd23480e",
+  "created": 1770309749,
+  "finish_reason": "stop"
+}

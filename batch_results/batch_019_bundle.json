@@ -1,0 +1,125 @@
+{
+  "batch_id": 19,
+  "timestamp": "2026-02-05T16:24:47.905149",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 98770076,
+      "name": "isomorphic-git/isomorphic-git",
+      "stars": 8071,
+      "enhanced_text": "A pure JavaScript implementation of git for node and browsers!",
+      "tag": "Git JavaScript实现"
+    },
+    {
+      "id": 741365632,
+      "name": "apify/crawlee-python",
+      "stars": 8013,
+      "enhanced_text": "Crawlee—A web scraping and browser automation library for Python to build reliable crawlers. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with BeautifulSoup, Playwright, and raw HTTP. Both headful and headless mode. With proxy rotation.\n\n## Installation\nWe recommend visiting the Introduction tutorial in Crawlee documentation for more information.\nCrawlee is available as  package on PyPI. This package includes the core functionality, while additional features are available as optional extras to keep dependencies and package size minimal.\nTo install Crawlee with all features, run the following command:\nThen, install the Playwright dependencies:\nVerify that Crawlee is successfully installed:\nFor detailed installation instructions see the Setting up documentation page.\nThe quickest way to get started with Crawlee is by using the Crawlee CLI and selecting one of the prepared templates. First, ensure you have uv installed:\nIf uv is not installed, follow the official installation guide.\nThen, run the CLI and choose from the available templates:\nIf you already have  installed, you can spin it up by running:\nHere are some practical examples to help you get started with different types of crawlers in Crawlee. Each example demonstrates how to set up and run a crawler for specific use cases, whether you need to handle simple HTML pages or interact with JavaScript-heavy sites. A crawler run will create a  directory in your current working directory.\n### BeautifulSoupCrawler\nThe  downloads web pages using an HTTP library and provides HTML-parsed content to the user. By default it uses  for HTTP communication and BeautifulSoup for parsing HTML. It is ideal for projects that require efficient extraction of data from HTML content. This crawler has very good performance since it does not use a browser. However, if you need to execute client-side JavaScript, to get your content, this is not going to be enough and you will need to use . Also if you want to use this crawler, make sure you install  with  extra.\n### PlaywrightCrawler",
+      "tag": "Python网页爬虫库"
+    },
+    {
+      "id": 230881127,
+      "name": "luruke/browser-2020",
+      "stars": 8000,
+      "enhanced_text": "Things you can do with a browser in 2020 ☕️.\n\nIt's 2020, and browsers can do amazing stuff.\nThis repo contains a non-exhaustive list of less-known features implemented in browsers **today**.\nThis list isn't intended for a technical audience; instead it wants to be a \"I didn't know we could do that in a browser!\" list.\nIn many cases, listed features aren't yet part of the standard, and may only be available on certain browsers or configurations.\nMany OSes provide light or dark color theme (notably dark mode on macOS). Websites can detect the preferred color scheme.\nSimilarly to dark mode, users in their OS can remove/reduce animations, we can also detect that.\nProcess payments via native browser UI which will be autofilled with credit card, shipping info etc.",
+      "tag": "浏览器特性汇编"
+    },
+    {
+      "id": 437505831,
+      "name": "Floorp-Projects/Floorp",
+      "stars": 7976,
+      "enhanced_text": "All of source code of Floorp 12, the most Advanced and Fastest Firefox derivative 🦊.\n\nA browser built for keeping the Open, Private and Sustainable Web alive. Based on Mozilla Firefox.\n[![Contributors][contributors-shield]][contributors-url]\n[![Forks][forks-shield]][forks-url]\n[![Stargazers][stars-shield]][stars-url]\n[![Issues][issues-shield]][issues-url]\n[![License][license-shield]][license-url]\n[contributors-url]: https://github.com/Floorp-Projects/Floorp/graphs/contributors\n[forks-url]: https://github.com/Floorp-Projects/Floorp/network/members\n[stars-url]: https://github.com/Floorp-Projects/Floorp/stargazers",
+      "tag": "Firefox衍生浏览器"
+    },
+    {
+      "id": 62937181,
+      "name": "PrivateBin/PrivateBin",
+      "stars": 7969,
+      "enhanced_text": "A minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256 bits AES.\n\n**PrivateBin** is a minimalist, open source online\nwhere the server has zero knowledge of stored data.\nData is encrypted and decrypted in the browser using 256bit AES in\nThis is a fork of ZeroBin, originally developed by\nSébastien Sauvage. PrivateBin was\nrefactored to allow easier and cleaner extensions and has many additional\n+ As a server administrator you don't have to worry if your users post content",
+      "tag": "浏览器端加密粘贴板"
+    },
+    {
+      "id": 46891997,
+      "name": "brave/browser-laptop",
+      "stars": 7932,
+      "enhanced_text": "[DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave.\n\nInstall from your package manager, nvm, or download from https://nodejs.org\n2. npm version 5 or greater (to make use of the )\n#### On Debian / Ubuntu /Mint",
+      "tag": "浏览器客户端源码"
+    },
+    {
+      "id": 389813360,
+      "name": "ComicSparks/pikapika",
+      "stars": 7875,
+      "enhanced_text": "A comic browser，support Android / iOS / MacOS / Windows / Linux.",
+      "tag": "跨平台漫画浏览器"
+    },
+    {
+      "id": 5839692,
+      "name": "webpack/webpack-dev-server",
+      "stars": 7853,
+      "enhanced_text": "Serves a webpack app. Updates the browser on changes. Documentation https://webpack.js.org/configuration/dev-server/.\n\n## Getting Started\nFirst things first, install the module:\n_Note: While you can install and run webpack-dev-server globally, we recommend",
+      "tag": "Webpack开发服务器"
+    },
+    {
+      "id": 11621778,
+      "name": "danialfarid/ng-file-upload",
+      "stars": 7822,
+      "enhanced_text": "Lightweight Angular directive to upload files with optional FileAPI shim for cross browser support.\n\n##  Features\n* file upload progress, cancel/abort\n* file drag and drop (html5 only)\n* image paste from clipboard and drag and drop from browser pages (html5 only).\n* image resize and center crop (native) and user controlled crop through ngImgCrop. See crop sample (html5 only)\n* orientation fix for jpeg image files with exif orientation data\n* resumable uploads: pause/resume upload (html5 only)\n* native validation support for file type/size, image width/height/aspect ratio, video/audio duration, and  with pluggable custom sync or async validations.\n* show thumbnail or preview of selected images/audio/videos\n* supports CORS and direct upload of file's binary data using\n* plenty of sample server side code, available on nuget\n* on demand flash FileAPI shim loading no extra load for html5 browsers.\n* HTML5 FileReader.readAsDataURL shim for IE8-9\n* available on npm, bower, meteor, nuget",
+      "tag": "Angular文件上传组件"
+    },
+    {
+      "id": 12558645,
+      "name": "violentmonkey/violentmonkey",
+      "stars": 7810,
+      "enhanced_text": "Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support.",
+      "tag": "用户脚本管理器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 98770076,
+        "tag": "Git JavaScript实现"
+      },
+      {
+        "id": 741365632,
+        "tag": "Python网页爬虫库"
+      },
+      {
+        "id": 230881127,
+        "tag": "浏览器特性汇编"
+      },
+      {
+        "id": 437505831,
+        "tag": "Firefox衍生浏览器"
+      },
+      {
+        "id": 62937181,
+        "tag": "浏览器端加密粘贴板"
+      },
+      {
+        "id": 46891997,
+        "tag": "浏览器客户端源码"
+      },
+      {
+        "id": 389813360,
+        "tag": "跨平台漫画浏览器"
+      },
+      {
+        "id": 5839692,
+        "tag": "Webpack开发服务器"
+      },
+      {
+        "id": 11621778,
+        "tag": "Angular文件上传组件"
+      },
+      {
+        "id": 12558645,
+        "tag": "用户脚本管理器"
+      }
+    ]
+  }
+}

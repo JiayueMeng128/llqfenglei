@@ -1,0 +1,125 @@
+{
+  "batch_id": 32,
+  "timestamp": "2026-02-05T16:27:07.270703",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 9503997,
+      "name": "cyrus-and/chrome-remote-interface",
+      "stars": 4488,
+      "enhanced_text": "Chrome Debugging Protocol interface for Node.js.\n\n## Installation\nnpm install chrome-remote-interface\n\nInstall globally () to just use the bundled client.\nThis module should work with every application implementing the\n[Chrome Debugging Protocol]. In particular, it has been tested against the\nfollowing implementations:\nImplementation             | Protocol version   | [Protocol] | [List] | [New] | [Activate] | [Close] | [Version]\n[Chrome][1.1]              | [tip-of-tree][1.2] | yes¹       | yes    | yes   | yes        | yes     | yes\n[Opera][2.1]               | [tip-of-tree][2.2] | yes        | yes    | yes   | yes        | yes     | yes\n[Node.js][3.1] ([v6.3.0]+) | [node][3.2]        | yes        | no     | no    | no         | no      | yes\n[Safari (iOS)][4.1]        | [*partial*][4.2]   | no         | yes    | no    | no         | no      | no\n[Edge][5.1]                | [*partial*][5.2]   | yes        | yes    | no    | no         | no      | yes\n[Firefox (Nightly)][6.1]   | [*partial*][6.2]   | yes        | yes    | no    | yes        | yes     | yes\n¹ Not available on [Chrome for Android][chrome-mobile-protocol], hence a local version of the protocol must be used.\n[chrome-mobile-protocol]: https://bugs.chromium.org/p/chromium/issues/detail?id=824626#c4\n[1.1]: #chromechromium\n[1.2]: https://chromedevtools.github.io/devtools-protocol/tot/",
+      "tag": "浏览器调试协议"
+    },
+    {
+      "id": 52322425,
+      "name": "gitbrent/PptxGenJS",
+      "stars": 4483,
+      "enhanced_text": "Build PowerPoint presentations with JavaScript. Works with Node, React, web browsers, and more.",
+      "tag": "JavaScript库"
+    },
+    {
+      "id": 64409189,
+      "name": "improbable-eng/grpc-web",
+      "stars": 4476,
+      "enhanced_text": "gRPC Web implementation for Golang and TypeScript.",
+      "tag": "gRPC客户端"
+    },
+    {
+      "id": 789725,
+      "name": "unconed/TermKit",
+      "stars": 4431,
+      "enhanced_text": "Experimental Terminal platform built on WebKit + node.js. Currently only for Mac and Windows, though the prototype works 90% in any WebKit browser.",
+      "tag": "WebKit终端"
+    },
+    {
+      "id": 90042534,
+      "name": "pojala/electrino",
+      "stars": 4406,
+      "enhanced_text": "Desktop runtime for apps built on web technologies, using the system's own web browser engine.",
+      "tag": "嵌入式浏览器运行时"
+    },
+    {
+      "id": 40733543,
+      "name": "mdn/webextensions-examples",
+      "stars": 4400,
+      "enhanced_text": "Example Firefox add-ons created using the WebExtensions API.\n\ninstalled inside a web browser that modify the behavior of the browser or\nweb pages loaded by the browser. WebExtensions are built on a set of\ncross-browser APIs, so WebExtensions written for Google Chrome, Opera, or\nEdge will, in most cases, run in Firefox too.\nThe \"webextensions-examples\" repository is a collection of simple,\ncomplete, and installable WebExtensions. The examples show how to use the\nWebExtensions APIs, and you can use them as a starting point for your\nFor an index of all the examples, see the \"Example extensions\" page on MDN.\nThe examples are made available under the\nMozilla Public License 2.0.\n\n## How to use \"webextensions-examples\"\nTo use the repository, first clone it.\nEach example is in a top-level folder and includes a short README explaining\nwhat it does. To see how an example works, install it in Firefox by following\nthe installation instructions.\nTo find your way around a WebExtension's internal structure, have a look at the\nAnatomy of a WebExtension\nTo use these examples in Firefox, use the most recent release of Firefox.\nHowever, most examples work with earlier releases.\nA few examples rely on APIs that are only available in pre-release versions\nof Firefox. Where this is the case, the example declares the minimum version\nthat it needs in the  attribute of the\nin the extension's manifest.json file.",
+      "tag": "浏览器扩展示例"
+    },
+    {
+      "id": 165110580,
+      "name": "auchenberg/vscode-browser-preview",
+      "stars": 4397,
+      "enhanced_text": "A real browser preview inside your editor that you can debug.\n\n## Getting started\n1. Grab extension from marketplace\n2. Click the new \"Browser Preview\" button in the Side Bar to the left or run the command\nMake sure you have Google Chrome installed on your computer.",
+      "tag": "编辑器浏览器预览"
+    },
+    {
+      "id": 79987996,
+      "name": "zufuliu/notepad4",
+      "stars": 4391,
+      "enhanced_text": "Notepad4 (Notepad2⨯2, Notepad2++) is a light-weight Scintilla based text editor for Windows with syntax highlighting, code folding, auto-completion and API list for many programming languages and documents, bundled with file browser plugin matepath.\n\nLatest development builds (artifacts in Release configuration for each compiler and platform) are available on GitHub Actions and AppVeyor. Or you can build from source, see Wiki.\n| GitHub Actions (MSVC, Clang, GCC) | AppVeyor (MSVC, Clang) |\n## Changes compared to Notepad2 or Notepad2-mod:\n* Option to mark all occurrences of a word or selection, and show matched count\n* Enhanced auto-completion for words and functions",
+      "tag": "Scintilla文本编辑器"
+    },
+    {
+      "id": 87006077,
+      "name": "chromiumembedded/cef",
+      "stars": 4348,
+      "enhanced_text": "Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.\n\n# Introduction\nCEF is a BSD-licensed open source project founded by Marshall Greenblatt in 2008 and based on the Google Chromium project. Unlike the Chromium project itself, which focuses mainly on Google Chrome application development, CEF focuses on facilitating embedded browser use cases in third-party applications. CEF insulates the user from the underlying Chromium and Blink code complexity by offering production-quality stable APIs, release branches tracking specific Chromium releases, and binary distributions. Most features in CEF have default implementations that provide rich functionality while requiring little or no integration work from the user. There are currently over 100 million installed instances of CEF around the world embedded in products from a wide range of companies and industries. A partial list of companies and products using CEF is available on the CEF Wikipedia page. Some use cases for CEF include:\n* Embedding an HTML5-compliant Web browser control in an existing native application.\n* Creating a light-weight native “shell” application that hosts a user interface developed primarily using Web technologies.\n* Rendering Web content “off-screen” in applications that have their own custom drawing frameworks.\n* Acting as a host for automated testing of existing Web properties and applications.\nCEF supports a wide range of programming languages and operating systems and can be easily integrated into both new and existing applications. It was designed from the ground up with both performance and ease of use in mind. The base framework includes C and C++ programming interfaces exposed via native libraries that insulate the host application from Chromium and Blink implementation details. It provides close integration between the browser and the host application including support for custom plugins, protocols, JavaScript objects and JavaScript extensions. The host application can optionally control resource loading, navigation, context menus, printing and more, while taking advantage of the same performance and HTML5 technologies available in the Google Chrome Web browser.\nNumerous individuals and organizations contribute time and resources to support CEF development, but more involvement from the community is always welcome. This includes support for both the core CEF project and external projects that integrate CEF with additional programming languages and frameworks (see the \"External Projects\" section below)...",
+      "tag": "Chromium嵌入框架"
+    },
+    {
+      "id": 640819432,
+      "name": "smol-ai/GodMode",
+      "stars": 4327,
+      "enhanced_text": "AI Chat Browser: Fast, Full webapp access to ChatGPT / Claude / Bard / Bing / Llama2! I use this 20 times a day.\n\n## Installation\n**Install here!** And then log in to Google on any one of the providers + refreshing logs you into most of the rest.\nGoogle Bard seems to have weird auth requirements we havent figured out yet - logging into Google via Anthropic Claude first seems to be the most reliable right now while we figure it out.\n- Arm64 for Apple Silicon Macs, non Arm64 (universal) for Intel Macs.\n- We just added Windows/Linux support, but it needs a lot of work. Help wanted!\nYou can also build from source, see instructions below.\n## Mixture of Mixture of Experts\nIt's well discussed by now that GPT4 is a mixture of experts model, which explains its great advancement over GPT3 while not sacrificing speed. It stands to reason that if you can run one chat and get results from all the top closed/open source models, you will get that much more diversity in results for what you seek. As a side benefit, we will add opt-in data submission soon so we can crowdsource statistics on win rates, niche advantages, and show them over time.\n> “That's why it's always worth having a few philosophers around the place. One minute it's all is truth beauty and is beauty truth, and does a falling tree in the forest make a sound if there's no one there to hear it, and then just when you think they're going to start dribbling one of 'em says, incidentally, putting a thirty-foot parabolic reflector on a high place to shoot the rays of the sun at an enemy's ships would be a very interesting demonstration of optical principles.”\n> ― Terry Pratchett, Small Gods\n## Oh so this is like nat.dev?\n1. SOTA functionality is often released without API (eg: ChatGPT Code Interpreter, Bing Image Creator, Bard Multimodal Input, Claude Multifile Upload). **We insist on using webapps** so that you have full access to all functionality on launch day. We also made light/dark mode for each app, just for fun ( (Aug update: currently broken in the GodMode rewrite, will fix))\n2. This is a **secondary browser** that can be pulled up with a keyboard shortcut (, customizable). Feels a LOT faster than having it live in a browser window somewhere and is easy to pull up/dismiss during long generations.\n3. Supports no-API models like Perplexity and Poe, and local models like LLaMa and Vicuna (via OobaBooga).\n4. No paywall, build from source.",
+      "tag": "AI聊天聚合浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 9503997,
+        "tag": "浏览器调试协议"
+      },
+      {
+        "id": 52322425,
+        "tag": "JavaScript库"
+      },
+      {
+        "id": 64409189,
+        "tag": "gRPC客户端"
+      },
+      {
+        "id": 789725,
+        "tag": "WebKit终端"
+      },
+      {
+        "id": 90042534,
+        "tag": "嵌入式浏览器运行时"
+      },
+      {
+        "id": 40733543,
+        "tag": "浏览器扩展示例"
+      },
+      {
+        "id": 165110580,
+        "tag": "编辑器浏览器预览"
+      },
+      {
+        "id": 79987996,
+        "tag": "Scintilla文本编辑器"
+      },
+      {
+        "id": 87006077,
+        "tag": "Chromium嵌入框架"
+      },
+      {
+        "id": 640819432,
+        "tag": "AI聊天聚合浏览器"
+      }
+    ]
+  }
+}

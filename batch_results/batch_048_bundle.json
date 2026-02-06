@@ -1,0 +1,125 @@
+{
+  "batch_id": 48,
+  "timestamp": "2026-02-05T16:41:00.273424",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 237387592,
+      "name": "yume-chan/ya-webadb",
+      "stars": 2870,
+      "enhanced_text": "ADB in your browser.\n\nTango is a TypeScript re-implementation of ADB (Android Debugging Bridge) client that works in Chromium-based browsers (including Chrome for Android), Node.js, and Electron.\nTry it out at https://tangoapp.dev\nCheck the latest documentation at https://tangoadb.dev/\nSee CONTRIBUTING.md for how to run and develop this project.\nThis project is tested with BrowserStack\nBecome a backer and get your image on our README on Github with a link to your site.",
+      "tag": "浏览器ADB客户端"
+    },
+    {
+      "id": 248697283,
+      "name": "remix-project-org/remix-project",
+      "stars": 2868,
+      "enhanced_text": "Remix is a browser-based compiler and IDE that enables users to build Ethereum contracts with Solidity language and to debug transactions.\n\n**Remix Project** is a rich toolset including Remix IDE, a comprehensive smart contract development tool. The Remix Project also includes Remix Plugin Engine and Remix Libraries which are low-level tools for wider use.\n**Remix IDE** is used for the entire journey of contract development by users of any knowledge level. It fosters a fast development cycle and has a rich set of plugins with intuitive GUIs. The IDE comes in 2 flavors and a VSCode extension:\n**Remix Online IDE**, see: https://remix.ethereum.org\n:point_right: Supported browsers: Firefox v100.0.1 & Chrome v101.0.4951.64. No support for Remix's use on tablets or smartphones or telephones.\n**Remix Desktop IDE**, see releases: https://github.com/remix-project-org/remix-desktop/releases\nRemix libraries are essential for Remix IDE's native plugins. Read more about libraries here",
+      "tag": "浏览器IDE"
+    },
+    {
+      "id": 589830814,
+      "name": "easychen/CookieCloud",
+      "stars": 2865,
+      "enhanced_text": "CookieCloud是一个和自架服务器同步浏览器Cookie和LocalStorage的小工具，支持端对端加密，可设定同步时间间隔。本仓库包含了插件和服务器端源码。CookieCloud is a small tool for synchronizing browser cookies and LocalStorage with a self-hosted server. It supports end-to-end encryption and allows for setting the synchronization interval. This repository contains both the plugin and the server-side source code.\n\nCookieCloud is a small tool for syncing cookies with your self-hosted server, allowing you to synchronize browser cookies and local storage to your phone and cloud. It features built-in end-to-end encryption and allows you to set a synchronization interval.\n> Since version 0.3.0, the project has been rewritten using **wxt**. It now supports encryption algorithms with a fixed IV and supports more standard libraries for decryption. See the **wxt** branch for details.\n> The latest version now supports synchronization of local storage under the same domain name.\nTelegram channel | Telegram group\nDue to the high demand for local storage support, plugin version 0.1.5+ now also supports local storage in addition to cookies. This has resulted in a change to the encrypted text format (from a separate cookie object to ).\nFurthermore, to avoid conflicts in configuration synchronization, the configuration storage has been moved from remote to local. Users of previous versions will need to reconfigure their setup.\nWe apologize for any inconvenience this may cause 🙇🏻‍♂️",
+      "tag": "浏览器数据同步扩展"
+    },
+    {
+      "id": 140996605,
+      "name": "casbin/node-casbin",
+      "stars": 2864,
+      "enhanced_text": "An authorization library that supports access control models like ACL, RBAC, ABAC in Node.js and Browser.",
+      "tag": "Web权限控制库"
+    },
+    {
+      "id": 397189231,
+      "name": "miroslavpejic85/mirotalksfu",
+      "stars": 2864,
+      "enhanced_text": "🏆 WebRTC - SFU - Simple, Secure, Scalable Real-Time Video Conferences Up to 8k, compatible with all browsers and platforms.\n\nQuick Start\n- Before running MiroTalk SFU, ensure you have  and all requirements installed. This project has been tested with Node version 22.X.\n- Requirements install example for",
+      "tag": "WebRTC SFU服务"
+    },
+    {
+      "id": 199345033,
+      "name": "d07RiV/diabloweb",
+      "stars": 2856,
+      "enhanced_text": "Diablo 1 for web browsers.\n\nThis project is based on https://github.com/diasurgical/devilution.\nSource code to build the WebAssembly modules is here: https://github.com/d07RiV/devilution\nI've modified the code to remove all dependencies and exposed the minimal required interface with JS, allowing the game to be compiled into WebAssembly.\nEvent handling (especially in the menus) had to be modified significantly to fit the JS model.\nThe project is hosted on https://d07RiV.github.io/diabloweb/ along with spawn.mpq from the shareware version (place it in the public folder to run locally).\nThis allows shareware version to be played anywhere, even on mobile phones. To play the full game, you must use your own DIABDAT.MPQ that you can obtain\nwith the original copy of the game from GoG.",
+      "tag": "WebAssembly游戏"
+    },
+    {
+      "id": 5543656,
+      "name": "meltingice/psd.js",
+      "stars": 2847,
+      "enhanced_text": "A Photoshop PSD file parser for NodeJS and browsers.",
+      "tag": "浏览器文件解析库"
+    },
+    {
+      "id": 148935509,
+      "name": "TokamakUI/Tokamak",
+      "stars": 2842,
+      "enhanced_text": "[Looking for active maintainers] SwiftUI-compatible framework for building browser apps with WebAssembly and native apps for other platforms.\n\n## Getting started\nTokamak relies on  as a primary build tool. As a part of these steps\nyou'll install  via Homebrew on macOS (unfortunately you'll have to build\nit manually on Linux). Assuming you already have Homebrew installed, you can create a new Tokamak\napp by following these steps:\nIf you had  installed before this, make sure you have version 0.15.0 or greater:\n2. Create a directory for your project and make it current:\n3. Initialize the project from a template with :\n4. Build the project and start the development server,  can be kept running\n5. Open http://127.0.0.1:8080/ in your browser to see the app\nrunning. You can edit the app source code in your favorite editor and save it,\nwill immediately rebuild the app and reload all browser tabs that have the app open.\nYou can also clone this repository and run  in its root\ndirectory. This will build the demo app that shows almost all of the currently implemented APIs.\nIf you have any questions, pleaes check out the FAQ document, and/or join the\n\ninstalled. If you don't trust this unofficial release, please follow the manual building and",
+      "tag": "WebAssembly UI框架"
+    },
+    {
+      "id": 15127462,
+      "name": "streamlink/streamlink-twitch-gui",
+      "stars": 2829,
+      "enhanced_text": "A multi platform Twitch.tv browser for Streamlink.\n\n[Streamlink Twitch GUI][Website]\n[![Supported platforms][badge-platforms]][Releases] [![Latest release][badge-release]][Releases] [![Open issues][badge-issues]][Issues] [![Gitter IRC][badge-gitter]][Gitter] [![Build status][badge-actions]][Github-actions] [![Code coverage][badge-codecov]][Codecov]\n> Please see #1045 regarding the development status of this project\n**A multi-platform [Twitch.tv][Twitch] browser for [Streamlink][Streamlink]**\n[![Streamlink Twitch GUI][Preview]][Releases]\nA graphical user interface on top of the [Streamlink][Streamlink] command line interface.\nStreamlink Twitch GUI is an [NW.js][NW.js] application, which means that it is a web application written in JavaScript ([EmberJS][EmberJS]), HTML ([Handlebars][Handlebars]) and CSS ([LessCSS][LessCSS]) and is being run by a [Node.js][Node.js] powered version of [Chromium][Chromium].\n[Recent releases][Releases] / [Changelog][Changelog] / [Wiki][Wiki] / [Chat][Gitter]",
+      "tag": "NW.js桌面应用"
+    },
+    {
+      "id": 88166830,
+      "name": "cstate/cstate",
+      "stars": 2829,
+      "enhanced_text": "🔥 Open source static (serverless) status page. Uses hyperfast Go & Hugo, minimal HTML/CSS/JS, customizable, outstanding browser support (IE8+), preloaded CMS, read-only API, badges & more.\n\n## Features 😎\n**NEW:** HTML Embed now in version 2. Check it out!\n* Fast to load. Even on Internet Explorer 8. Incredible browser support. Minimal JS. No CSS dependencies either.\n* Fast to create incidents. Use the command line or setup a CMS like Netlify CMS or Forestry for a no-code experience. See here\n* Stays fast. Hugo & Golang can build a site with thousands of entries in seconds.\n* Focused, adaptable design. Auto dark mode. Easy customization from one file (or settings page). Statistical calculations show the key take-away (e.g., time spent fixing an issue).\n* Fit for any language. With built-in support for English, German, French, Italian, Lithuanian, Macedonian, Dutch, Portuguese, Turkish, and Tagalog. See here\n* All incidents, sorted. Link incidents to systems/categories, let users know how long previous downtime took, and more.\n* Free hosting. Host on supported platforms like Netlify or manage cState yourself. See here\n* Free your data. Use RSS or the read-only API to create custom HTML/JS integrations or simply embed the built-in badges/shields.\n* Free for developers to expand upon. Integrate monitoring, link to other systems, change any text or style, create custom pages, and more.\n**Please note that with all that cState _can_ do, it cannot do automatic monitoring out of the box. See this thread** You can think of the cState status page as an informational hub. Because the software is static, it cannot directly monitor any services in real time.\nHowever, cState is a perfect option for recording incidents because most of the time your services are functioning, so the status page does not need to be updated. By default, the little bit of JavaScript on the page improves the user experience but is not required to see the most vital information.\nThere are other commercial options that may update faster because of their architecture, have built-in real-time uptime monitoring, send notifications by email or other means, but cState is not supposed to be better than paid solutions.",
+      "tag": "静态状态页生成器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 237387592,
+        "tag": "浏览器ADB客户端"
+      },
+      {
+        "id": 248697283,
+        "tag": "浏览器IDE"
+      },
+      {
+        "id": 589830814,
+        "tag": "浏览器数据同步扩展"
+      },
+      {
+        "id": 140996605,
+        "tag": "Web权限控制库"
+      },
+      {
+        "id": 397189231,
+        "tag": "WebRTC SFU服务"
+      },
+      {
+        "id": 199345033,
+        "tag": "WebAssembly游戏"
+      },
+      {
+        "id": 5543656,
+        "tag": "浏览器文件解析库"
+      },
+      {
+        "id": 148935509,
+        "tag": "WebAssembly UI框架"
+      },
+      {
+        "id": 15127462,
+        "tag": "NW.js桌面应用"
+      },
+      {
+        "id": 88166830,
+        "tag": "静态状态页生成器"
+      }
+    ]
+  }
+}

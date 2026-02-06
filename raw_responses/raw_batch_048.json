@@ -1,0 +1,16 @@
+{
+  "batch_id": 48,
+  "timestamp": "2026-02-05T16:41:00.273013",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 237387592,\n      \"tag\": \"浏览器ADB客户端\"\n    },\n    {\n      \"id\": 248697283,\n      \"tag\": \"浏览器IDE\"\n    },\n    {\n      \"id\": 589830814,\n      \"tag\": \"浏览器数据同步扩展\"\n    },\n    {\n      \"id\": 140996605,\n      \"tag\": \"Web权限控制库\"\n    },\n    {\n      \"id\": 397189231,\n      \"tag\": \"WebRTC SFU服务\"\n    },\n    {\n      \"id\": 199345033,\n      \"tag\": \"WebAssembly游戏\"\n    },\n    {\n      \"id\": 5543656,\n      \"tag\": \"浏览器文件解析库\"\n    },\n    {\n      \"id\": 148935509,\n      \"tag\": \"WebAssembly UI框架\"\n    },\n    {\n      \"id\": 15127462,\n      \"tag\": \"NW.js桌面应用\"\n    },\n    {\n      \"id\": 88166830,\n      \"tag\": \"静态状态页生成器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2436,
+    "completion_tokens": 241,
+    "total_tokens": 2677
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c81cbd816e6966992ea916398afc",
+  "created": 1770309654,
+  "finish_reason": "stop"
+}

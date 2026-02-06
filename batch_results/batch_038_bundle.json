@@ -1,0 +1,125 @@
+{
+  "batch_id": 38,
+  "timestamp": "2026-02-05T16:28:21.943114",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 106959954,
+      "name": "jaredpalmer/react-fns",
+      "stars": 3717,
+      "enhanced_text": "Browser API's turned into declarative React components and HoC's.",
+      "tag": "React浏览器API组件库"
+    },
+    {
+      "id": 610043832,
+      "name": "mlc-ai/web-stable-diffusion",
+      "stars": 3712,
+      "enhanced_text": "Bringing stable diffusion models to web browsers. Everything runs inside the browser with no server support.\n\nThis project brings stable diffusion models onto web browsers. **Everything runs inside the browser with no server support.** To our knowledge, this is the world’s first stable diffusion completely running on the browser. Please checkout our demo webpage to try it out.\nYou are also more than welcomed to checkout Web LLM if you are interested in deploying LLM-based chat bots to browser.\nWe have been seeing amazing progress through AI models recently. Thanks to the open-source effort, developers can now easily compose open-source models together to produce amazing tasks. Stable diffusion enables the automatic creation of photorealistic images as well as images in various styles based on text input. These models are usually big and compute-heavy, which means we have to pipe through all computation requests to (GPU) servers when developing web applications based on these models. Additionally, most of the workloads have to run on a specific type of GPUs where popular deep-learning frameworks are readily available.\nThis project takes a step to change that status quo and bring more diversity to the ecosystem. There are a lot of reasons to get some (or all) of the computation to the client side. There are many possible benefits, such as cost reduction on the service provider side, as well as an enhancement for personalization and privacy protection. The development of personal computers (even mobile devices) is going in the direction that enables such possibilities. The client side is getting pretty powerful.\nBuilding special client apps for those applications is one option (which we also support), but won’t it be even more amazing if we can simply open a browser and directly bring AI natively to your browser tab? There is some level of readiness in the ecosystem. WebAssembly allows us to port more lower-level runtimes onto the web. To solve the compute problem, WebGPU is getting matured lately and enables native GPU executions on the browser.\nWe are just seeing necessary elements coming together on the client side, both in terms of hardware and browser ecosystem. Still, there are big hurdles to cross, to name a few:\n* We need to bring the models somewhere without the relevant GPU-accelerated Python frameworks.\n* Most of the AI frameworks have a heavy reliance on optimized computed libraries that are maintained by hardware vendors. We need to start from zero. To get the maximum benefit, we might also need to produce variants per client environment...",
+      "tag": "浏览器端AI推理引擎"
+    },
+    {
+      "id": 3640925,
+      "name": "github-tools/github",
+      "stars": 3700,
+      "enhanced_text": "A higher-level wrapper around the Github API. Intended for the browser.\n\nprovides a minimal higher-level wrapper around Github's API.\nis tested on node's LTS and current versions.",
+      "tag": "GitHub API浏览器SDK"
+    },
+    {
+      "id": 976095156,
+      "name": "JetBrains/koog",
+      "stars": 3695,
+      "enhanced_text": "Koog is the official Kotlin framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems.",
+      "tag": "跨平台AI代理框架"
+    },
+    {
+      "id": 148713303,
+      "name": "pichillilorenzo/flutter_inappwebview",
+      "stars": 3686,
+      "enhanced_text": "A Flutter plugin that allows you to add an inline webview, to use a headless webview, and to open an in-app browser window.",
+      "tag": "Flutter WebView插件"
+    },
+    {
+      "id": 4617120,
+      "name": "flesler/jquery.scrollTo",
+      "stars": 3669,
+      "enhanced_text": "Lightweight, cross-browser and highly customizable animated scrolling with jQuery.",
+      "tag": "jQuery滚动动画库"
+    },
+    {
+      "id": 326547939,
+      "name": "GRVYDEV/Project-Lightspeed",
+      "stars": 3664,
+      "enhanced_text": "A self contained OBS -> FTL -> WebRTC live streaming server. Comprised of 3 parts once configured anyone can achieve sub-second OBS to the browser livestreaming.\n\nInstallation\nCommunity Installation\n\nAbout The Project\n\n## About The Project\nProject Lightspeed is a fully self-contained live streaming server. With Lightspeed you will be able to deploy your\nown sub-second latency live streaming platform. The Lightspeed repository contains the instructions for installing\nand deploying the entire application. So far, Lightspeed includes an ingest service, broadcast service via webRTC\nand a web application for viewing. Lightspeed is however completely modular. What this means is that you can write\nyour own web app, ingest server or broadcast server.\nLightspeed Ingest listens on port 8084 which is the port used by the FTL protocol. Upon receiving a connection it completes the FTL handshake and negotiates a port (this is currently bugged however and defaults to 65535). Once the negotiation is done Lightspeed WebRTC listens on the negotiated port (in the future Lightspeed WebRTC will listen on the loopback interface so the ingest has more control on what packets we accept) and relays the incoming RTP packets over WebRTC. Lightspeed React communicates via websocket with Lightspeed WebRTC to exchange ICE Candidates and once a connection is established the video can be viewed.\nHere is a diagram that outlines the current implementation and the future implementation that I would like to achieve. The reason I want the packets relayed from Ingest to WebRTC on the loopback interface is so that we have more control over who can send packets. Meaning that when a DISCONNECT command is recieved we can terminate the UDP listener so that someone could not start sending packets that we do not want\nWe now have a Discord server! This is a great way to stay up to date with the project and join in on the conversation! Come stop by!\n\nGetting Started\n\n## Getting Started\nIn order to get a copy running you will need to install all 3 repositories. There are installation instructions in\neach repo however I will include them here for the sake of simplicity.\nIn order to run Lightspeed, Golang, Rust, and npm are required. Additionally the Rust repo requires a C compiler. If you get a  error then you need to install a C compiler.\n\n### Installation\n#### Clone Repository\n#### Build Ingest Server\n#### Build WebRTC Server\n**Warning: Deprecated method (relies on outdated repository)**\n#### Frontend (Based on React.JS)\n### Community Installation (**Warning: Outdated...",
+      "tag": "WebRTC低延迟直播服务器"
+    },
+    {
+      "id": 33659097,
+      "name": "JadenGeller/Helium",
+      "stars": 3663,
+      "enhanced_text": "A floating browser window for OS X.\n\n> :warning: **Helium is no longer maintained.**\nHelium is a floating browser window that allows you to watch media, browse the\nweb and do much more while you stay productive. Your content will never fall\nbehind your other windows even as you switch tasks. Helium supports a\ncustomizable translucency mode that allows you to simultaneously see your\ncontent and your work, without intercepting mouse clicks when it's translucent.\nYou have the ability to click, drag, scroll behind your floating content.",
+      "tag": "macOS悬浮浏览器"
+    },
+    {
+      "id": 11321096,
+      "name": "EFForg/privacybadger",
+      "stars": 3656,
+      "enhanced_text": "Privacy Badger is a browser extension that automatically learns to block hidden trackers.",
+      "tag": "隐私追踪拦截扩展"
+    },
+    {
+      "id": 676211990,
+      "name": "gosub-io/gosub-engine",
+      "stars": 3645,
+      "enhanced_text": "The Gosub browser engine.",
+      "tag": "浏览器渲染引擎"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 106959954,
+        "tag": "React浏览器API组件库"
+      },
+      {
+        "id": 610043832,
+        "tag": "浏览器端AI推理引擎"
+      },
+      {
+        "id": 3640925,
+        "tag": "GitHub API浏览器SDK"
+      },
+      {
+        "id": 976095156,
+        "tag": "跨平台AI代理框架"
+      },
+      {
+        "id": 148713303,
+        "tag": "Flutter WebView插件"
+      },
+      {
+        "id": 4617120,
+        "tag": "jQuery滚动动画库"
+      },
+      {
+        "id": 326547939,
+        "tag": "WebRTC低延迟直播服务器"
+      },
+      {
+        "id": 33659097,
+        "tag": "macOS悬浮浏览器"
+      },
+      {
+        "id": 11321096,
+        "tag": "隐私追踪拦截扩展"
+      },
+      {
+        "id": 676211990,
+        "tag": "浏览器渲染引擎"
+      }
+    ]
+  }
+}

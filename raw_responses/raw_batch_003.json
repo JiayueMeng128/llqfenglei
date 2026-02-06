@@ -1,0 +1,16 @@
+{
+  "batch_id": 3,
+  "timestamp": "2026-02-05T16:21:14.281421",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 7613257,\n      \"tag\": \"浏览器自动化框架\"\n    },\n    {\n      \"id\": 42332863,\n      \"tag\": \"Web文件管理服务器\"\n    },\n    {\n      \"id\": 160083795,\n      \"tag\": \"操作系统（含浏览器）\"\n    },\n    {\n      \"id\": 61412022,\n      \"tag\": \"富文本编辑器框架\"\n    },\n    {\n      \"id\": 15308499,\n      \"tag\": \"拖拽排序库\"\n    },\n    {\n      \"id\": 13584262,\n      \"tag\": \"WebTorrent客户端\"\n    },\n    {\n      \"id\": 46273445,\n      \"tag\": \"文件上传器SDK\"\n    },\n    {\n      \"id\": 51769689,\n      \"tag\": \"GitHub界面增强扩展\"\n    },\n    {\n      \"id\": 14964475,\n      \"tag\": \"跨平台UI框架\"\n    },\n    {\n      \"id\": 21484781,\n      \"tag\": \"Web堡垒机/PAM平台\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2632,
+    "completion_tokens": 245,
+    "total_tokens": 2877
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c37ad638108589bc446a6dbd2093",
+  "created": 1770308470,
+  "finish_reason": "stop"
+}

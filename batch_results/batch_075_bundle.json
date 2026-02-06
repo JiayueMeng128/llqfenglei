@@ -1,0 +1,125 @@
+{
+  "batch_id": 75,
+  "timestamp": "2026-02-05T16:48:51.369705",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 11469930,
+      "name": "vthibault/roBrowser",
+      "stars": 1637,
+      "enhanced_text": "roBrowser is a free and open-source implementation of the Ragnarok Online MMORPG for web browsers written from scratch using the latest web standards (WebGL, HTML5, File API, Javascript, Threads, ...).",
+      "tag": "游戏客户端模拟器"
+    },
+    {
+      "id": 27195805,
+      "name": "foliojs/fontkit",
+      "stars": 1637,
+      "enhanced_text": "An advanced font engine for Node and the browser.\n\n## Features\n* Supports TrueType (.ttf), OpenType (.otf), WOFF, WOFF2, TrueType Collection (.ttc), and Datafork TrueType (.dfont) font files\n* Supports mapping characters to glyphs, including support for ligatures and other advanced substitutions (see below)\n* Supports reading glyph metrics and laying out glyphs, including support for kerning and other advanced layout features (see below)\n* Advanced OpenType features including glyph substitution (GSUB) and positioning (GPOS)\n* Apple Advanced Typography (AAT) glyph substitution features (morx table)\n* Support for getting glyph vector paths and converting them to SVG paths, or rendering them to a graphics context\n* Supports TrueType (glyf) and PostScript (CFF) outlines\n* Support for color glyphs (e.g. emoji), including Apple’s SBIX table, and Microsoft’s COLR table\n* Support for AAT variation glyphs, allowing for nearly infinite design control over weight, width, and other axes.\n* Font subsetting support - create a new font including only the specified glyphs",
+      "tag": "字体引擎库"
+    },
+    {
+      "id": 143921593,
+      "name": "Novage/p2p-media-loader",
+      "stars": 1636,
+      "enhanced_text": "An open-source engine for P2P streaming of live and on demand video directly in a web browser HTML page.\n\n**P2P Media Loader** is an open-source JavaScript library that uses modern browser technologies — like HTML5 video and WebRTC — to enable peer-to-peer (P2P) media delivery. It integrates seamlessly with popular HTML5 video players and requires no additional browser plugins or add-ons. Try the demo to see it in action.\nThis library makes it possible to build large-scale P2P mesh networks — often called peer-to-peer content delivery networks (P2P CDN), Hybrid CDN, Multi CDN, peer-to-peer television (P2PTV), or Enterprise Content Delivery Networks (eCDN) — enabling users who are watching the same live or on-demand (VOD) streams via HLS or MPEG-DASH to share traffic in real time.\n## Why Use Hybrid CDN + P2P Delivery?\nP2P Media Loader **supports all modern desktop and mobile browsers** — Chrome, Safari, Edge, Firefox, and Opera — across Windows, macOS, Android, iOS, iPadOS, and Linux. Check out our guide to set up P2P video in five minutes. You can also embed it into **native iOS and Android** apps and use it with **native players**.\n- **No Setup Cost and No Server Software Needed:**\nFor smaller setups (1,000–2,000 simultaneous viewers), public trackers alone can handle peer connections. This means you **don’t need to install or maintain any additional server-side components** in many cases. **Free** alternatives are available for larger setups that can handle 100k simultaneous peers and above. Check our article on running dedicated trackers.\nOffloading requests from the CDN or media server to peers eases the strain on centralized infrastructure, increasing system reliability.",
+      "tag": "P2P流媒体引擎"
+    },
+    {
+      "id": 178741592,
+      "name": "leggett/simplify",
+      "stars": 1636,
+      "enhanced_text": "Issue tracker for Simplify Gmail, a browser extension to simplify Gmail's interface.",
+      "tag": "Gmail界面优化扩展"
+    },
+    {
+      "id": 124293504,
+      "name": "ghostery/ghostery-extension",
+      "stars": 1633,
+      "enhanced_text": "Ghostery Browser Extension for Firefox, Chrome, Opera, Edge and Safari.\n\nGhostery is a powerful Tracker & Adblocker browser extension with over 100 million downloads. Block ads, stop trackers, and speed up websites. Privacy at its best.\n* Block all ads on websites, including YouTube and Facebook, to focus on the information that matters.\n* Stop trackers from collecting your personal data.\n* Automatically remove intrusive cookie pop-ups and express dissent to online tracking.\n* Get detailed tracker information on any website you visit, including the number of trackers, their type, and the company operating them.\n* Preview tracker information on search engine result pages to make informed choices.\n* Inspect the largest database of trackers, updated fast and reliably for all users.\n* X, formerly Twitter (@ghostery)",
+      "tag": "隐私保护与广告拦截扩展"
+    },
+    {
+      "id": 98123131,
+      "name": "Donaldcwl/browser-image-compression",
+      "stars": 1630,
+      "enhanced_text": "Image compression in web browser.\n\n## Features\n- You can use this module to compress jpeg, png, webp, and bmp images by reducing **resolution** or **storage size** before uploading to the application server to save bandwidth.\n- **Multi-thread** (web worker) non-blocking compression is supported through options.\nopen https://donaldcwl.github.io/browser-image-compression/example/basic.html\nor check the \"[example]\" folder in this repo\n### async await syntax:\n### Promise.then().catch() syntax:",
+      "tag": "浏览器端图像压缩库"
+    },
+    {
+      "id": 18456451,
+      "name": "EddyBorja/EBPhotoPages",
+      "stars": 1627,
+      "enhanced_text": "A photo gallery for iOS with a modern feature set. Similar features as the Facebook photo browser.",
+      "tag": "iOS图片浏览器组件"
+    },
+    {
+      "id": 34648097,
+      "name": "jorgebucaran/colorette",
+      "stars": 1624,
+      "enhanced_text": "🌈Easily set your terminal text color & styles.",
+      "tag": "终端色彩工具库"
+    },
+    {
+      "id": 2185527,
+      "name": "neocotic/qrious",
+      "stars": 1623,
+      "enhanced_text": "Pure JavaScript library for QR code generation using canvas.",
+      "tag": "Canvas二维码生成库"
+    },
+    {
+      "id": 1055738080,
+      "name": "saifyxpro/HeadlessX",
+      "stars": 1623,
+      "enhanced_text": "The undetected self-hosted browser automation platform. Powered by Camoufox (Firefox) for 0% detection rates. Built for speed, privacy, and scalability.\n\n### **The World's Most Advanced Anti-Detection Scraping Full Stack Web App**\n### 🎯 **0% Detection Rate** on all major anti-bot systems\n*Powered by **Camoufox** — Firefox with C++ level fingerprint spoofing*\n📖 Documentation • 🚀 Quick Start • 🐛 Report Bug • ✨ Request Feature\n|           🦊 **Camoufox Engine**           |              🛡️ **0% Detection**              |      ⚡ **3x Faster**      |\n| Firefox with binary-level stealth patches | Passes CreepJS, Sannysoft, & all major tests | Optimized context pooling |\n## 📊 Detection Benchmark Comparison",
+      "tag": "防检测浏览器自动化平台"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 11469930,
+        "tag": "游戏客户端模拟器"
+      },
+      {
+        "id": 27195805,
+        "tag": "字体引擎库"
+      },
+      {
+        "id": 143921593,
+        "tag": "P2P流媒体引擎"
+      },
+      {
+        "id": 178741592,
+        "tag": "Gmail界面优化扩展"
+      },
+      {
+        "id": 124293504,
+        "tag": "隐私保护与广告拦截扩展"
+      },
+      {
+        "id": 98123131,
+        "tag": "浏览器端图像压缩库"
+      },
+      {
+        "id": 18456451,
+        "tag": "iOS图片浏览器组件"
+      },
+      {
+        "id": 34648097,
+        "tag": "终端色彩工具库"
+      },
+      {
+        "id": 2185527,
+        "tag": "Canvas二维码生成库"
+      },
+      {
+        "id": 1055738080,
+        "tag": "防检测浏览器自动化平台"
+      }
+    ]
+  }
+}

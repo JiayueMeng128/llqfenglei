@@ -1,0 +1,16 @@
+{
+  "batch_id": 18,
+  "timestamp": "2026-02-05T16:24:37.066492",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 705574656,\n      \"tag\": \"浏览器集成开发环境\"\n    },\n    {\n      \"id\": 5775917,\n      \"tag\": \"JavaScript代码覆盖率工具\"\n    },\n    {\n      \"id\": 26768643,\n      \"tag\": \"Selenium容器化部署\"\n    },\n    {\n      \"id\": 33816473,\n      \"tag\": \"Java测试容器库\"\n    },\n    {\n      \"id\": 2828239,\n      \"tag\": \"JavaScript维基引擎\"\n    },\n    {\n      \"id\": 814882742,\n      \"tag\": \"自托管Web工具集\"\n    },\n    {\n      \"id\": 51018409,\n      \"tag\": \"Elasticsearch Web界面\"\n    },\n    {\n      \"id\": 12261520,\n      \"tag\": \"Go测试Web界面\"\n    },\n    {\n      \"id\": 802006,\n      \"tag\": \"HTML5媒体播放器库\"\n    },\n    {\n      \"id\": 2931111,\n      \"tag\": \"JavaScript断言库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1373,
+    "completion_tokens": 244,
+    "total_tokens": 1617
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-945b251ce53dc9b6",
+  "created": 1770308658,
+  "finish_reason": "stop"
+}

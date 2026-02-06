@@ -1,0 +1,125 @@
+{
+  "batch_id": 8,
+  "timestamp": "2026-02-05T16:22:06.604954",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 215530281,
+      "name": "ffmpegwasm/ffmpeg.wasm",
+      "stars": 17133,
+      "enhanced_text": "FFmpeg for browser, powered by WebAssembly.\n\nffmpeg.wasm is a pure Webassembly / Javascript port of FFmpeg. It enables video & audio record, convert and stream right inside browsers.\nPlease sponsor ffmpeg.wasm to make it sustainable. :heart:",
+      "tag": "WebAssembly转码库"
+    },
+    {
+      "id": 247350713,
+      "name": "m1k1o/neko",
+      "stars": 16927,
+      "enhanced_text": "A self hosted virtual browser that runs in docker and uses WebRTC.\n\nWelcome to Neko, a self-hosted virtual browser that runs in Docker and uses WebRTC technology. Neko is a powerful tool that allows you to **run a fully-functional browser in a virtual environment**, giving you the ability to **access the internet securely and privately from anywhere**. With Neko, you can browse the web, **run applications**, and perform other tasks just as you would on a regular browser, all within a **secure and isolated environment**. Whether you are a developer looking to test web applications, a **privacy-conscious user seeking a secure browsing experience**, or simply someone who wants to take advantage of the **convenience and flexibility of a virtual browser**, Neko is the perfect solution.\nIn addition to its security and privacy features, Neko offers the **ability for multiple users to access it simultaneously**. This makes it an ideal solution for teams or organizations that need to share access to a browser, as well as for individuals who want to use **multiple devices to access the same virtual environment**. With Neko, you can **easily and securely share access to a browser with others**, without having to worry about maintaining separate configurations or settings. Whether you need to **collaborate on a project**, access shared resources, or simply want to **share access to a browser with friends or family**, Neko makes it easy to do so.\nNeko is also a great tool for **hosting watch parties** and interactive presentations. With its virtual browser capabilities, Neko allows you to host watch parties and presentations that are **accessible from anywhere**, without the need for in-person gatherings. This makes it easy to **stay connected with friends and colleagues**, even when you are unable to meet in person. With Neko, you can easily host a watch party or give an **interactive presentation**, whether it's for leisure or work. Simply invite your guests to join the virtual environment, and you can share the screen and **interact with them in real-time**.\nThis app uses WebRTC to stream a desktop inside of a docker container, original author made this because rabb.it went under and his internet could not handle streaming and discord kept crashing when his friend attempted to. He just wanted to watch anime with his friends ლ(ಠ益ಠლ) so he started digging throughout the internet and found a few *kinda* clones, but none of them had the virtual browser, then he found Turtus and he was able to figure out the rest...",
+      "tag": "虚拟浏览器容器"
+    },
+    {
+      "id": 40518025,
+      "name": "graphql/graphiql",
+      "stars": 16782,
+      "enhanced_text": "GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.",
+      "tag": "GraphQL开发工具"
+    },
+    {
+      "id": 44424200,
+      "name": "vasanthk/how-web-works",
+      "stars": 16697,
+      "enhanced_text": "What happens behind the scenes when we type www.google.com in a browser?\n\nWhat happens behind the scenes when we type google.com in a browser?\n- Opening of a socket + TLS handshake",
+      "tag": "Web网络原理"
+    },
+    {
+      "id": 1607357,
+      "name": "forwardemail/superagent",
+      "stars": 16658,
+      "enhanced_text": "Ajax for Node.js and browsers (JS HTTP client). Maintained for @forwardemail, @ladjs, @spamscanner, @breejs, @cabinjs, and @lassjs.\n\n> Small progressive client-side HTTP request library, and Node.js module with the same API, supporting many high-level HTTP client features.  Maintained for Forward Email and Lad.\n* Upgrading from previous versions\n**The browser-ready, minified version of  is only 50 KB (minified and gzipped).**\nBrowser-ready versions of this module are available via [jsdelivr][], [unpkg][], and also in the  folder in downloads of the  package.",
+      "tag": "跨平台HTTP客户端"
+    },
+    {
+      "id": 40089578,
+      "name": "janeczku/calibre-web",
+      "stars": 16480,
+      "enhanced_text": ":books: Web app for browsing, reading and downloading eBooks stored in a Calibre database.\n\n## Quick Start\n1. **Access Calibre-Web**: Open your browser and navigate to:\nor for the OPDS catalog:\n2. **Log in**: Use the default admin credentials:\n- **Username:** admin\n- **Password:** admin123\n3. **Database Setup**: If you do not have a Calibre database, download a sample from:\nMove it out of the Calibre-Web folder to avoid overwriting during updates.\n4. **Configure Calibre Database**: In the admin interface, set the  to the path of the folder containing your Calibre library (where  is located) and click \"Save\".\n5. **Google Drive Integration**: For hosting your Calibre library on Google Drive, refer to the Google Drive integration guide.\n6. **Admin Configuration**: Configure your instance via the admin page, referring to the Basic Configuration and UI Configuration guides.\n- **Python Version**: Ensure you have Python 3.7 or newer.\n- **Imagemagick**: Required for cover extraction from EPUBs. Windows users may also need to install Ghostscript for PDF cover extraction.\n- **Optional Tools**:\n- **Calibre desktop program**: Recommended for on-the-fly conversion and metadata editing. Set the path to Calibre’s converter tool on the setup page.\n\n### Installation via pip (recommended)\n1. **Create a virtual environment**: It’s essential to isolate your Calibre-Web installation to avoid dependency conflicts. You can create a virtual environment by running:\n2. **Activate the virtual environment**:\n3. **Install Calibre-Web**: Use pip to install the application:\n4. **Install optional features**: For additional functionality, you may need to install optional features. Refer to this page for details on what can be installed.\n5. **Start Calibre-Web**: After installation, you can start the application with:\n*Note: Users of Raspberry Pi OS may encounter installation issues...",
+      "tag": "Calibre电子书Web界面"
+    },
+    {
+      "id": 30064588,
+      "name": "video-dev/hls.js",
+      "stars": 16459,
+      "enhanced_text": "HLS.js is a JavaScript library that plays HLS in browsers with support for MSE.",
+      "tag": "HLS视频播放库"
+    },
+    {
+      "id": 101109137,
+      "name": "PavelDoGreat/WebGL-Fluid-Simulation",
+      "stars": 16099,
+      "enhanced_text": "Play with fluids in your browser (works even on mobile).\n\nhttps://developer.nvidia.com/gpugems/gpugems/part-vi-beyond-triangles/chapter-38-fast-fluid-dynamics-simulation-gpu\nhttps://github.com/mharrys/fluids-2d\nhttps://github.com/haxiomic/GPU-Fluid-Experiments\nThe code is available under the MIT license",
+      "tag": "WebGL流体模拟"
+    },
+    {
+      "id": 591273534,
+      "name": "fathyb/carbonyl",
+      "stars": 15889,
+      "enhanced_text": "Chromium running inside your terminal.\n\nCarbonyl is a Chromium based browser built to run in a terminal. Read the blog post.\nIt supports pretty much all Web APIs including WebGL, WebGPU, audio and video playback, animations, etc..\nIt's snappy, starts in less than a second, runs at 60 FPS, and idles at 0% CPU usage. It does not require a window server (i.e. works in a safe-mode console), and even runs through SSH.\nCarbonyl originally started as  and is now the runtime behind it.\n> Carbonyl on Linux without Docker requires the same dependencies as Chromium.",
+      "tag": "终端渲染Chromium"
+    },
+    {
+      "id": 84009,
+      "name": "jasmine/jasmine",
+      "stars": 15848,
+      "enhanced_text": "Simple JavaScript testing framework for browsers and node.js.",
+      "tag": "JavaScript测试框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 215530281,
+        "tag": "WebAssembly转码库"
+      },
+      {
+        "id": 247350713,
+        "tag": "虚拟浏览器容器"
+      },
+      {
+        "id": 40518025,
+        "tag": "GraphQL开发工具"
+      },
+      {
+        "id": 44424200,
+        "tag": "Web网络原理"
+      },
+      {
+        "id": 1607357,
+        "tag": "跨平台HTTP客户端"
+      },
+      {
+        "id": 40089578,
+        "tag": "Calibre电子书Web界面"
+      },
+      {
+        "id": 30064588,
+        "tag": "HLS视频播放库"
+      },
+      {
+        "id": 101109137,
+        "tag": "WebGL流体模拟"
+      },
+      {
+        "id": 591273534,
+        "tag": "终端渲染Chromium"
+      },
+      {
+        "id": 84009,
+        "tag": "JavaScript测试框架"
+      }
+    ]
+  }
+}

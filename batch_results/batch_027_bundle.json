@@ -1,0 +1,125 @@
+{
+  "batch_id": 27,
+  "timestamp": "2026-02-05T16:26:06.040054",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 145123457,
+      "name": "manojVivek/medium-unlimited",
+      "stars": 5494,
+      "enhanced_text": "A browser extension to read medium.com articles for free without membership.\n\nCode repository for the browser extension to unlock the articles behind the medium.com membership paywall.\nTry the production version of the extension here:\nFor Chrome: https://manojvivek.github.io/medium-unlimited/download/\nFor Firefox: https://addons.mozilla.org/en-US/firefox/addon/medium-unlimited-read-for-free\nRun the following to build the code:\nThis will generate the bundle and other required files in ./dist directory.\nLoad the generated chrome extension in chrome by  and then click on  and select the dist folder.\nChrome extension is loaded and ready to use.",
+      "tag": "内容解锁扩展"
+    },
+    {
+      "id": 6621471,
+      "name": "Dash-Industry-Forum/dash.js",
+      "stars": 5490,
+      "enhanced_text": "A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.",
+      "tag": "媒体播放库"
+    },
+    {
+      "id": 54804539,
+      "name": "dolanmiu/docx",
+      "stars": 5440,
+      "enhanced_text": "Easily generate and modify .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.",
+      "tag": "文档生成库"
+    },
+    {
+      "id": 100657321,
+      "name": "zouhir/jarvis",
+      "stars": 5435,
+      "enhanced_text": "A very intelligent browser based Webpack dashboard.\n\n## About the Project\nJ.A.R.V.I.S. (Just A Rather Very Intelligent System) will put in your browser all the relevant information you need from your webpack build whether in dev or in prod.\nTons of features are on the roadmap but still, this beta version will improve the way you look at webpack-dev-server or webpack production build bundle, chunks and other output assets.\nIt is hugely inspired by other webpack dashboards and the core idea is not original, but here are some features:\n**Original Features**:\n* Shows you the count of ES Harmony module imports which can be treeshakable and the CJS ones which are not.\n* Shows you how well your assets perform in 12 different connection types.\n* Google or Stackoverflow Search for programming errors in 1 button click.\n* Runs in the browser.\n* Beautified errors output.\n* Easy way figure out total assets size and individual bundles and chunks.\n* It's very beautiful.\n* Preact with Sass pre-processor.\n\n## Installation\nIn your webpack config file:\nIn your browser open:\nOptions are (optionally) passed in to the constructor\nThe Jarvis dashboard will open on a localhost server at this port.\nThe Jarvis dashboard will attach to this host, e.g. .\nIf set to false, then Jarvis will also run for non-watch builds, and keep running after the build completes.\nJarvis will look inside this directory for your package.json.\nSetting up the dev environment",
+      "tag": "Webpack可视化工具"
+    },
+    {
+      "id": 743456842,
+      "name": "versotile-org/verso",
+      "stars": 5430,
+      "enhanced_text": "Mirror of https://gitlab.com/verso-browser/verso.",
+      "tag": "隐私安全浏览器"
+    },
+    {
+      "id": 524325124,
+      "name": "extism/extism",
+      "stars": 5411,
+      "enhanced_text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps.\n\nExtism is a lightweight framework for building with WebAssembly (Wasm). It\nsupports running Wasm code on servers, the edge, CLIs, IoT, browsers and\neverything in between. Extism is designed to be \"universal\" in that it supports\na common interface, no matter where it runs.\n> **Note:** One of the primary use cases for Extism is **building extensible\n> software & plugins**. You want to be able to execute arbitrary, untrusted code\n> from your users? Extism makes this safe and practical to do.\nAdditionally, Extism adds some extra utilities on top of standard Wasm runtimes.\nFor example, we support persistent memory/module-scope variables, secure &\nhost-controlled HTTP without WASI, runtime limiters & timers, simpler host",
+      "tag": "WebAssembly框架"
+    },
+    {
+      "id": 25158026,
+      "name": "BrowserWorks/waterfox",
+      "stars": 5393,
+      "enhanced_text": "The official Waterfox 💧 source code repository.\n\n## About Waterfox\nWaterfox is an open-source, privacy-focused browser based on the popular open source browser with a red panda as a mascot. It is designed to be a drop-in replacement for said browser that offers enhanced privacy features, performance improvements, and customizability while maintaining compatibility with existing extensions.\n- **Privacy-focused**: Removal of telemetry and tracking, with bare minimum of data collection for operation.\n- **Performance-oriented**: Optimized for modern systems\n- **Customizable**: Support for classic and modern extensions\n- **Cross-platform**: Available for Windows, macOS, Linux and Android\n- **Modern**: Regular updates to stay current with web standards",
+      "tag": "隐私安全浏览器"
+    },
+    {
+      "id": 12977854,
+      "name": "spolu/breach_core",
+      "stars": 5375,
+      "enhanced_text": "A Browser written in JS. Free. Modular. Hackable.\n\n### Breach: A Browser for the HTML5 Era\nEverything in the browser is a module, a web-app running in its own process.\nConstruct your own browsing experience by selecting the right modules for you.\nWant vertical tabs? Write some JS & CSS! Customised autocomplete engine? JS!\nEvery behavior is programmatic and exposed through APIs.\nThe entire technology stack is open source.\nModify existing modules and you can create your own to extend the behavior of Breach.",
+      "tag": "模块化浏览器"
+    },
+    {
+      "id": 43790903,
+      "name": "Khan/aphrodite",
+      "stars": 5346,
+      "enhanced_text": "Framework-agnostic CSS-in-JS with support for server-side rendering, browser prefixing, and minimum CSS generation.",
+      "tag": "CSS-in-JS库"
+    },
+    {
+      "id": 40006776,
+      "name": "jagenjo/webglstudio.js",
+      "stars": 5315,
+      "enhanced_text": "A full open source 3D graphics editor in the browser, with scene editor, coding pad, graph editor, virtual file system, and many features more.",
+      "tag": "WebGL编辑器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 145123457,
+        "tag": "内容解锁扩展"
+      },
+      {
+        "id": 6621471,
+        "tag": "媒体播放库"
+      },
+      {
+        "id": 54804539,
+        "tag": "文档生成库"
+      },
+      {
+        "id": 100657321,
+        "tag": "Webpack可视化工具"
+      },
+      {
+        "id": 743456842,
+        "tag": "隐私安全浏览器"
+      },
+      {
+        "id": 524325124,
+        "tag": "WebAssembly框架"
+      },
+      {
+        "id": 25158026,
+        "tag": "隐私安全浏览器"
+      },
+      {
+        "id": 12977854,
+        "tag": "模块化浏览器"
+      },
+      {
+        "id": 43790903,
+        "tag": "CSS-in-JS库"
+      },
+      {
+        "id": 40006776,
+        "tag": "WebGL编辑器"
+      }
+    ]
+  }
+}

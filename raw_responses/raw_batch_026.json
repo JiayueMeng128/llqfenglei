@@ -1,0 +1,16 @@
+{
+  "batch_id": 26,
+  "timestamp": "2026-02-05T16:25:55.464221",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 96284790,\n      \"tag\": \"单文件PHP文件管理器\"\n    },\n    {\n      \"id\": 1673025,\n      \"tag\": \"浏览器环境检测库\"\n    },\n    {\n      \"id\": 956283541,\n      \"tag\": \"浏览器自动化控制服务\"\n    },\n    {\n      \"id\": 720466801,\n      \"tag\": \"WebGPU图像处理工具\"\n    },\n    {\n      \"id\": 744296994,\n      \"tag\": \"浏览器数据库GUI\"\n    },\n    {\n      \"id\": 1141441,\n      \"tag\": \"Node.js无头浏览器测试框架\"\n    },\n    {\n      \"id\": 384330997,\n      \"tag\": \"浏览器重定向工具\"\n    },\n    {\n      \"id\": 55001853,\n      \"tag\": \"Web技术兼容性数据集\"\n    },\n    {\n      \"id\": 47010479,\n      \"tag\": \"学术论文聚合Web应用\"\n    },\n    {\n      \"id\": 620476224,\n      \"tag\": \"浏览器网页游戏\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1916,
+    "completion_tokens": 246,
+    "total_tokens": 2162
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b9667cf00df9a1d0",
+  "created": 1770308744,
+  "finish_reason": "stop"
+}

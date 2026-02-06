@@ -1,0 +1,16 @@
+{
+  "batch_id": 84,
+  "timestamp": "2026-02-05T16:50:35.822956",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 309830112,\n      \"tag\": \"WebGPGPU计算库\"\n    },\n    {\n      \"id\": 67946944,\n      \"tag\": \"区块链浏览器工具\"\n    },\n    {\n      \"id\": 390541506,\n      \"tag\": \"网页爬虫浏览器\"\n    },\n    {\n      \"id\": 472962423,\n      \"tag\": \"SMS网关浏览器\"\n    },\n    {\n      \"id\": 1021622,\n      \"tag\": \"JavaScript模板引擎\"\n    },\n    {\n      \"id\": 942672211,\n      \"tag\": \"手势控制扩展\"\n    },\n    {\n      \"id\": 11170365,\n      \"tag\": \"全文搜索库\"\n    },\n    {\n      \"id\": 20490942,\n      \"tag\": \"浏览器调试库\"\n    },\n    {\n      \"id\": 3125454,\n      \"tag\": \"Web代码编辑器\"\n    },\n    {\n      \"id\": 295117653,\n      \"tag\": \"书签管理工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1270,
+    "completion_tokens": 237,
+    "total_tokens": 1507
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984ca5b59e0ab697e2c5b739da989c2",
+  "created": 1770310223,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 46,
+  "timestamp": "2026-02-05T16:40:23.116737",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 166780923,
+      "name": "remirror/remirror",
+      "stars": 3004,
+      "enhanced_text": "ProseMirror toolkit for React 🎉.\n\n## Installation\nIf you run into any issues we recommend any of the following:\n- Open an issue in our github repo.\n- Join our discord server and discuss the problem with our community.\n- Create a pull request with your proposed improvement by clicking the edit button on the relevant page.\nWhatever you decide thanks for taking the time to explore the **remirror** project.\n**Become a sponsor!**\n### Community spotlight\nView our documentation website [**here**][introduction].\n- Use an out-of-the-box editor\n- Create your own editor\n- CodeSandbox starter\n\n## Features\n- A11y focused and ARIA compatible.\n- I18n support via lingui.\n- Great support for mobile devices.\n- Out-of-the-box editors, or create own by composing extensions.\n- Create your own extensions for bare-metal ProseMirror integration.\n- Collaborative editing with yjs or prosemirror-collab.\n- 30+ extensions for creating fully customized editing experiences.\n- TypeScript as a first class citizen for great developer experience.\n\n## Introduction\nWith this code snippet your editor now supports basic editing functionality.\nAlternatively, take a look at our 5 minute tutorial to get up and running with an out-of-the-box WYSIWYG editor.",
+      "tag": "富文本编辑器框架"
+    },
+    {
+      "id": 7136348,
+      "name": "laurentj/slimerjs",
+      "stars": 2995,
+      "enhanced_text": "A scriptable browser like PhantomJS, based on Firefox.",
+      "tag": "无头浏览器引擎"
+    },
+    {
+      "id": 33571868,
+      "name": "chromium/badssl.com",
+      "stars": 2981,
+      "enhanced_text": ":lock: Memorable site for testing clients against bad SSL configs.\n\nVisit  for a list of test subdomains, including:\nStock Ubuntu VM, DNS A records for  and  pointing to the VM.\n1. Follow the instructions to install Docker.\n2. Clone into the badssl repo by running .\n3. In order to access the various badssl subdomains locally you will need to add them to your system hosts file. Run  and copy and paste the output into .\n5. You can now navigate to  in your browser, and you should see a certificate error.\n6. The badssl root certificate is at . In order to get the rest of the badssl subdomains working, you will need to add this to your machine's list of trusted certificates.",
+      "tag": "SSL/TLS测试套件"
+    },
+    {
+      "id": 6180186,
+      "name": "bgrins/devtools-snippets",
+      "stars": 2978,
+      "enhanced_text": "A collection of helpful snippets to use inside of browser devtools.\n\nView them all on a single page: http://bgrins.github.io/devtools-snippets/ or all of them inside of github.  I have a more long winded article about snippets detailing why you might use them and additional features that would be nice, if you are interested.\nIf you have a useful snippet or updates to an existing one that you'd like to share, please contribute it or open an issue!  Feel free to use, modify, or share any of these snippets.\n## To Use DevTools Snippets in Chrome\nYou can read more about snippets at the Chrome developer tools documentation.\n* Go to \"Snippets\" tab, and add whichever ones you want.\n## To Use DevTools Snippets in Firefox Scratchpad\n*Note: you can read more about scratchpad at the  Firefox developers tools documentation.*",
+      "tag": "开发者工具脚本集"
+    },
+    {
+      "id": 103043228,
+      "name": "chromelyapps/Chromely",
+      "stars": 2976,
+      "enhanced_text": "Build Cross Platform HTML Desktop Apps on .NET using native GUI, HTML5, JavaScript, CSS, Owin, AspNetCore (MVC, RazorPages, Blazor).\n\n# ** Announcement ** - Chromely is no longer being maintained!\nFor those who would like to continue working on the project via forks or alternative approaches, please send mattkol the appropriate links and they will be added here.\nThanks to all the contributors over the years for making the platform a great learning place.\nFor developers who are interested in WebView2 there is EdgeSharp, an offshoot of Chromely.\nChromely is a lightweight alternative to Electron.NET, Electron for .NET/.NET Core developers.\nChromely is a .NET/.NET Core HTML5 Chromium desktop framework. It is focused on building apps based on Xilium.CefGlue, CefSharp implementations of  embedded Chromium (CEF) **without WinForms or WPF**, but can be extended to use WinForms or WPF. Chromely uses **Windows**, **Linux** and **MacOS** native GUI API as \"thin\" chromium hosts.\nWith Chromely you can build Single Page Application (SPA) HTML5 desktop apps with or without Node/npm. Building SPA apps using Blazor or javascript frameworks like Angular, React, Vue or similar is easy. You can use Visual Studio Code or any IDE you are familiar with as long as Chromely knows the entry html file from the compiled/bundled files. For more info please see - Blazor-Demos and Chromely-Apps.\nOptions of communicating (IPC) with rendering process are via:\n- Generic Message Routing - more info @ Generic Message Routing.",
+      "tag": "跨平台桌面应用框架"
+    },
+    {
+      "id": 22076748,
+      "name": "morkt/GARbro",
+      "stars": 2966,
+      "enhanced_text": "Visual Novels resource browser.\n\nRequires .NET Framework v4.6 or newer (https://www.microsoft.com/net)\nBrowse through the file system to a file of interest.  If you think it's an\narchive, try to 'enter' inside by pressing 'Enter' on it.  If GARbro\nrecognizes format its contents will be displayed just like regular file\nsystem.  Some archives are encrypted, so you will be asked for credentials or\na supposed game title.  If game is not listed among presented options then\nmost likely archive could not be opened by current GARbro version.",
+      "tag": "游戏资源浏览器"
+    },
+    {
+      "id": 256332800,
+      "name": "argyleink/gui-challenges",
+      "stars": 2966,
+      "enhanced_text": "Components from the YouTube show GUI Challenges: accessible, responsive, adaptive and cross browser components.\n\n> I build interfaces my way, then challenge you to do it your way.\nWith our creative minds combined,\n**we'll find multiple ways to solve these interfaces\nand expand the diversity of our skills.**",
+      "tag": "Web UI组件库"
+    },
+    {
+      "id": 110198384,
+      "name": "brave/brave-core",
+      "stars": 2959,
+      "enhanced_text": "Core engine for the Brave browser for mobile and desktop. For issues https://github.com/brave/brave-browser/issues.\n\nBrave Core is a set of changes, APIs, and scripts used for customizing Chromium to make the Brave browser. Please also check https://github.com/brave/brave-browser\nFollow @brave on Twitter for important announcements.\nYou can ask questions and interact with the community in the following\n-  channel on Brave Software's Slack",
+      "tag": "浏览器核心引擎"
+    },
+    {
+      "id": 849500524,
+      "name": "obsidianmd/obsidian-clipper",
+      "stars": 2956,
+      "enhanced_text": "Highlight and capture the web in your favorite browser. The official Web Clipper extension for Obsidian.\n\nInstall the extension by downloading it from the official directory for your browser:\n- **Chrome Web Store** for Chrome, Brave, Arc, Orion, and other Chromium-based browsers.\n- **Firefox Add-Ons** for Firefox and Firefox Mobile.\n- **Safari Extensions** for macOS, iOS, and iPadOS.\n- **Edge Add-Ons** for Microsoft Edge.\nDocumentation is available on the Obsidian Help site, which covers how to use highlighting, templates, variables, filters, and more.\nYou can help translate Web Clipper into your language. Submit your translation via pull request using the format found in the /_locales folder.\n\n### Features and bug fixes\nSee the help wanted tag for issues where contributions are welcome.\nIn no particular order:\n- [ ] A separate icon for Web Clipper\n- [ ] Translate UI into more languages — help is welcomed\n- [ ] Annotate highlights\n- [ ] Template directory\n- [ ] Template validation\n- [x] Template logic (if/for)\n- [x] Save images locally, added in Obsidian 1.8.0\nTo build the extension:\nThis will create three directories:\n-  for the Chromium version\n-  for the Firefox version\n-  for the Safari version",
+      "tag": "浏览器内容剪辑扩展"
+    },
+    {
+      "id": 47116945,
+      "name": "BrasilAPI/cep-promise",
+      "stars": 2952,
+      "enhanced_text": "Busca por CEP integrado diretamente aos serviços dos Correios, ViaCEP e outros (Node.js e Browser).",
+      "tag": "浏览器端API库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 166780923,
+        "tag": "富文本编辑器框架"
+      },
+      {
+        "id": 7136348,
+        "tag": "无头浏览器引擎"
+      },
+      {
+        "id": 33571868,
+        "tag": "SSL/TLS测试套件"
+      },
+      {
+        "id": 6180186,
+        "tag": "开发者工具脚本集"
+      },
+      {
+        "id": 103043228,
+        "tag": "跨平台桌面应用框架"
+      },
+      {
+        "id": 22076748,
+        "tag": "游戏资源浏览器"
+      },
+      {
+        "id": 256332800,
+        "tag": "Web UI组件库"
+      },
+      {
+        "id": 110198384,
+        "tag": "浏览器核心引擎"
+      },
+      {
+        "id": 849500524,
+        "tag": "浏览器内容剪辑扩展"
+      },
+      {
+        "id": 47116945,
+        "tag": "浏览器端API库"
+      }
+    ]
+  }
+}

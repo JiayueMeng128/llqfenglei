@@ -1,16 +1,16 @@
 {
   "batch_id": 73,
-  "timestamp": "2026-02-05T15:29:34.544366",
+  "timestamp": "2026-02-05T16:47:49.455160",
   "parse_success": true,
   "parse_error": null,
-  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 855713680,\n      \"tag\": \"终端浏览器工具\"\n    },\n    {\n      \"id\": 104543536,\n      \"tag\": \"浏览器AI推理\"\n    },\n    {\n      \"id\": 1139936006,\n      \"tag\": \"专用包管理浏览器\"\n    },\n    {\n      \"id\": 103385166,\n      \"tag\": \"浏览器UA伪装扩展\"\n    },\n    {\n      \"id\": 678822546,\n      \"tag\": \"浏览器TUI运行时\"\n    },\n    {\n      \"id\": 1981208,\n      \"tag\": \"跨浏览器API垫片\"\n    },\n    {\n      \"id\": 265352760,\n      \"tag\": \"包管理器Web前端\"\n    },\n    {\n      \"id\": 26542739,\n      \"tag\": \"CSS浏览器兼容性检查\"\n    },\n    {\n      \"id\": 46504130,\n      \"tag\": \"React元素尺寸监听\"\n    },\n    {\n      \"id\": 281906706,\n      \"tag\": \"浏览器CAD内核\"\n    }\n  ]\n}",
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 102216161,\n      \"tag\": \"跨平台Fetch API\"\n    },\n    {\n      \"id\": 95022732,\n      \"tag\": \"GitLab SDK\"\n    },\n    {\n      \"id\": 23958545,\n      \"tag\": \"Docker镜像管理前端\"\n    },\n    {\n      \"id\": 201809645,\n      \"tag\": \"MTProto客户端库\"\n    },\n    {\n      \"id\": 259131257,\n      \"tag\": \"Chrome扩展代理工具\"\n    },\n    {\n      \"id\": 385179469,\n      \"tag\": \"桌面应用开发框架\"\n    },\n    {\n      \"id\": 10154685,\n      \"tag\": \"键值存储抽象层\"\n    },\n    {\n      \"id\": 44274144,\n      \"tag\": \"Web MIDI API库\"\n    },\n    {\n      \"id\": 58160283,\n      \"tag\": \"浏览器同步扩展\"\n    },\n    {\n      \"id\": 81540012,\n      \"tag\": \"跨标签页通信库\"\n    }\n  ]\n}",
   "usage": {
-    "prompt_tokens": 589,
-    "completion_tokens": 241,
-    "total_tokens": 830
+    "prompt_tokens": 2525,
+    "completion_tokens": 244,
+    "total_tokens": 2769
   },
   "model": "stg/deepseek-ai/deepseek-v3.2",
-  "id": "chatcmpl-bc204621a2d477db",
-  "created": 1770305362,
+  "id": "chatcmpl-9c94b0b6389de98f",
+  "created": 1770310037,
   "finish_reason": "stop"
 }

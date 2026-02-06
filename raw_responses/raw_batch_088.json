@@ -1,0 +1,16 @@
+{
+  "batch_id": 88,
+  "timestamp": "2026-02-05T16:52:10.208557",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 86702842,\n      \"tag\": \"基于Chromium的工作浏览器\"\n    },\n    {\n      \"id\": 12617171,\n      \"tag\": \"浏览器内容过滤扩展\"\n    },\n    {\n      \"id\": 24239833,\n      \"tag\": \"网络连接检测库\"\n    },\n    {\n      \"id\": 80326656,\n      \"tag\": \"Rclone跨平台GUI\"\n    },\n    {\n      \"id\": 256300799,\n      \"tag\": \"服务端渲染Web代理\"\n    },\n    {\n      \"id\": 913574546,\n      \"tag\": \"浏览器端本地LLM\"\n    },\n    {\n      \"id\": 104543536,\n      \"tag\": \"浏览器端神经网络演示\"\n    },\n    {\n      \"id\": 68707338,\n      \"tag\": \"浏览器内网页可视化编辑器\"\n    },\n    {\n      \"id\": 1139936006,\n      \"tag\": \"NPM专用浏览器\"\n    },\n    {\n      \"id\": 38978941,\n      \"tag\": \".NET WebView桌面框架\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1919,
+    "completion_tokens": 248,
+    "total_tokens": 2167
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984cabaf15101815daf4074dc6bb989",
+  "created": 1770310326,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 41,
+  "timestamp": "2026-02-05T16:29:06.283592",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 209153343,\n      \"tag\": \"浏览器自动化测试\"\n    },\n    {\n      \"id\": 138488946,\n      \"tag\": \"Emacs图形应用框架\"\n    },\n    {\n      \"id\": 272808853,\n      \"tag\": \"浏览器KVM远程管理\"\n    },\n    {\n      \"id\": 17147559,\n      \"tag\": \"JWT解码库\"\n    },\n    {\n      \"id\": 83772716,\n      \"tag\": \"媒体资源选择器\"\n    },\n    {\n      \"id\": 25076124,\n      \"tag\": \"Web 3D可视化引擎\"\n    },\n    {\n      \"id\": 14939303,\n      \"tag\": \"HTTPS强制加密扩展\"\n    },\n    {\n      \"id\": 10045915,\n      \"tag\": \"前端资产构建管道\"\n    },\n    {\n      \"id\": 82643171,\n      \"tag\": \"跨浏览器扩展样板\"\n    },\n    {\n      \"id\": 249063259,\n      \"tag\": \"WebRTC视频聊天\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1504,
+    "completion_tokens": 246,
+    "total_tokens": 1750
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c5527bcd73081855c7e6780d82c3",
+  "created": 1770308943,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 29,
+  "timestamp": "2026-02-05T16:26:32.199125",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 456237,
+      "name": "scottschiller/SoundManager2",
+      "stars": 5072,
+      "enhanced_text": "A JavaScript Sound API supporting MP3, MPEG4 and HTML5 audio + RTMP, providing reliable cross-browser/platform audio control in as little as 12 KB. BSD licensed.\n\n# SoundManager 2: JavaScript Sound for the Web 🔊\nBy wrapping and extending HTML5 and Flash Audio APIs, SoundManager 2 brings reliable cross-platform audio to JavaScript.\n* 100% Flash-free MP3 + MP4/AAC (and OGG, FLAC, etc.) where supported\n* Compatible with Apple iPad (iOS 3.2), iPhone/iOS 4 and newer\n* Fallback to Flash for MP3/MP4 support, if needed\n* SM2 API is transparent; HTML5/flash switching handled internally\n* HTML5 API support approximates Flash 8 API features\n* Load, stop, play, pause, mute, seek, pan (Flash-only) and volume control of sounds from JavaScript",
+      "tag": "JavaScript音频库"
+    },
+    {
+      "id": 1239398,
+      "name": "olado/doT",
+      "stars": 5058,
+      "enhanced_text": "The fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 834082440,
+      "name": "daijro/camoufox",
+      "stars": 5052,
+      "enhanced_text": "🦊 Anti-detect browser.\n\n# Introduction\nCamoufox is a modern & effective open source solution for avoiding bot detection and intelligent fingerprint rotation.\n- **Invisible to anti-bot systems** 🎭\n- Page agent is hidden from JavaScript inspection. See the stealth page for more details.\n* **Fingerprint injection & rotation (without JS injection!)**\n- All navigator properties (device, OS, hardware, browser, etc.) ✅\n- Screen size, resolution, window, & viewport properties ✅\n- Geolocation, timezone, locale, & Intl spoofing ✅\n- WebRTC IP spoofing at the protocol level ✅\n- Voices, speech playback rate, etc. ✅\n- And much, much more!\n- **Anti Graphical fingerprinting**\n- WebGL parameters, supported extensions, context attributes, & shader precision formats ✅\n- Font spoofing & anti-fingerprinting ✅\n* **Quality of life features**",
+      "tag": "反检测浏览器"
+    },
+    {
+      "id": 47162528,
+      "name": "longitachi/ZLPhotoBrowser",
+      "stars": 4981,
+      "enhanced_text": "Wechat-like image picker. Support select photos, videos, gif and livePhoto. Support edit image and crop video. 微信样式的图片选择器，支持预览/相册内拍照及录视频、拖拽/滑动选择，编辑图片/视频，支持多语言国际化等功能;.\n\n### Features\n- [x] Support SwiftUI.\n- [x] Portrait and landscape.\n- [x] Two framework style.\n- [x] Support page loading.\n- [x] Preview selection (Support drag and drop).\n- [x] Library selection (Support sliding selection).\n- [x] Image/Gif/LivePhoto/Video.\n- [x] Customize the maximum number of previews or selection, the maximum and minimum optional duration of the video.\n- [x] Customize the number of columns displayed in each row.\n- [x] Image editor (Draw/Crop/Image sticker/Text sticker/Mosaic/Filter/Adjust(Brightness, Contrast and Saturation)), (Draw color can be customized; Crop ratio can be customized; Filter effect can be customized; You can choose the editing tool you want).\n- [x] Multi-language.\n- [x] Selected index.\n- [x] Selected/unselectable state shadow mask.\n- [x] The selected photos are displayed at the bottom of the big picture interface, which can be dragged and sorted.",
+      "tag": "移动端媒体选择器"
+    },
+    {
+      "id": 69674683,
+      "name": "transcranial/keras-js",
+      "stars": 4968,
+      "enhanced_text": "Run Keras models in the browser, with GPU support using WebGL.\n\n**This project is no longer active. Please check out TensorFlow.js.**The Keras.js demos still work but is no longer updated.\nRun Keras models in the browser, with GPU support using WebGL\nRun Keras models in the browser, with GPU support provided by WebGL 2. Models can be run in Node.js as well, but only in CPU mode. Because Keras abstracts away a number of frameworks as backends, the models can be trained in any backend, including TensorFlow, CNTK, etc.\nLibrary version compatibility: Keras 2.1.2\nCheck out the  directory for real examples running Keras.js in VueJS.\n- Convolutional Variational Autoencoder, trained on MNIST",
+      "tag": "浏览器端机器学习"
+    },
+    {
+      "id": 4890177,
+      "name": "sitespeedio/sitespeed.io",
+      "stars": 4965,
+      "enhanced_text": "sitespeed.io is an open-source tool for comprehensive web performance analysis, enabling you to test, monitor, and optimize your website’s speed using real browsers in various environments.\n\n# Installation\n\nGetting started with  is straightforward. You can install it using Docker or NodeJS, depending on your preference and setup. Follow these simple steps to begin optimizing your website's performance.\nUsing Docker is the easiest way to get started with , especially if you don't want to handle dependencies manually. Run the following command to use  in a Docker container:\nThis command pulls the latest sitespeed.io Docker image and runs a test on the sitespeed.io website. The **-v \"$(pwd)\":/sitespeed.io** part mounts the current directory into the container, allowing you to easily access test results.\nIf you prefer installing  as an npm package, ensure you have NodeJS installed on your system. Then, install  globally using npm:\nAfter installation, you can start using sitespeed.io by running:\nReplace https://www.example.com with the URL you wish to test. Note that using NodeJS might require additional dependencies like FFmpeg and Python. Detailed installation instructions for these dependencies can be found here.\nChoose the method that best suits your environment and get ready to dive into web performance optimization with sitespeed.io!\nis tailored to be user-friendly, making web performance testing accessible regardless of your technical expertise. Here's a straightforward guide to help you begin your web performance optimization journey.\nTo start testing your website, simply run  with the URL of the site you want to analyze. For example:\nThis command tests https://www.example.com using Chrome and performs 5 iterations of the test. This approach helps in obtaining a more accurate median performance measurement by testing the site multiple times.\n## Advanced Configuration\nsitespeed.io offers a wide range of configuration options to tailor the tests to your specific needs. You can specify different browsers, adjust connectivity settings, and much more. For a comprehensive list of all available options, visit our configuration documentation.\nAdditionally, for a quick overview of all command-line options, you can run:\nThis command displays all the available flags and settings you can use with sitespeed.io, helping you fine-tune your performance testing to fit your unique requirements.\nWhether you're running a quick check or a detailed analysis, sitespeed.io provides the flexibility and power you need to deeply understand and improve your website's performance.\n\n## What is sitespeed...",
+      "tag": "Web性能测试工具"
+    },
+    {
+      "id": 332240585,
+      "name": "niespodd/browser-fingerprinting",
+      "stars": 4953,
+      "enhanced_text": "Analysis of Bot Protection systems with available countermeasures 🚿. How to defeat anti-bot system 👻 and get around browser fingerprinting scripts 🕵️‍♂️ when scraping the web?\n\n*This repository's development would not have been possible without the support of many partners and sponsors. One of these partners is **ScrapingBee, which is a cloud web scraping service with some neat built-in anti-bot detection features.***\nScrapingBee - Sign up for a free trial and get -10% on the first invoice with code \"NIESPODD\"\n# Avoiding bot detection: How to scrape the web without getting blocked? 👨‍🔧\nWhether you're just starting to build a web scraper from scratch and wondering what you're doing wrong because your solution isn't working, or you've already been working with crawlers for a while and are stuck on a page that gives you an error saying you're a bot, you can't go any further, keep reading.\nAnti-bot solutions have evolved in recent years. More and more websites are introducing security measures: from simple ones, such as filtering IP addresses according to their geolocation, to advanced ones based on in-depth analysis of browser parameters and behavioral analysis. All this makes web scraping content more difficult and costly than a few years ago. Nevertheless, it is still possible. Here I highlight a few tips that you may find helpful.\n## Where to begin building undetectable bot?\nBelow you can find list of curated services that I used to get around different anti-bot protections. Depending on your use-case you may need one of the following:\n| Scenario/use-case  | Solution  | Example   |\n| **Short-lived sessions without auth** | Pool of rotating IP addresses | That comes handy when you scrape websites like Amazon, Walmart or public LinkedIn pages. That is any website where no sign-in is required. You plan to make a high number of short-lived sessions and can afford being blocked every now and then. |\n| **Geographically restricted websites** | Region-specific pool of IP addresses | This is useful when the website uses a firewall similar to the one from Cloudflare to block entire geography from accessing it.  |",
+      "tag": "浏览器指纹对抗指南"
+    },
+    {
+      "id": 716412370,
+      "name": "hslr-s/sun-panel",
+      "stars": 4925,
+      "enhanced_text": "A server, NAS navigation panel, Homepage, browser homepage. | 一个服务器、NAS导航面板、Homepage、浏览器首页。.\n\n[[ 简体中文 ]](https://sun-panel-doc.enianteam.com/zh_cn/introduce/project.html) |\n[[ English ]](https://sun-panel-doc.enianteam.com/introduce/project.html)\n[[ 中文文档 ]](https://sun-panel-doc.enianteam.com/zh_cn) |\n[[ Document ]](https://sun-panel-doc.enianteam.com) |\n[[ Demo ]](http://sunpaneldemo.enianteam.com)\nA server, NAS navigation panel, Homepage, Browser homepage.\n> In order to maintain the livelihood, the author added some [] (https://pro.sun-panel.top) function, so the project temporarily entered a closed source state.; At present, the latest version of the open source is , Please see the latest version of closed source.; When the modular technology is developed, the separation of the PRO and the programs will be opened again, and the closed source will have no effect on ordinary users.; Let's look forward to open source again, and at the same time, we are welcome to supervise and review the security of the program.",
+      "tag": "浏览器主页应用"
+    },
+    {
+      "id": 184366,
+      "name": "opal/opal",
+      "stars": 4910,
+      "enhanced_text": "Ruby ♥︎ JavaScript.\n\nOpal is a Ruby to JavaScript source-to-source compiler.\nIt also has an implementation of the Ruby corelib and stdlib.\nSee the website for more detailed instructions and guides for Rails, jQuery, Sinatra, rack, CDN, etc. https://opalrb.com.\n### Compiling Ruby code with the CLI (Command Line Interface)\nThe resulting JavaScript file can be used normally from an HTML page:\nBe sure to set the page encoding to  inside your  tag as follows:\nJust open this page in a browser and check the JavaScript console.\n### Compiling Ruby code from Ruby",
+      "tag": "Ruby转JavaScript编译器"
+    },
+    {
+      "id": 443774525,
+      "name": "ComicSparks/jasmine",
+      "stars": 4904,
+      "enhanced_text": "A comic browser，support Android / iOS / MacOS / Windows / Linux.",
+      "tag": "跨平台漫画浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 456237,
+        "tag": "JavaScript音频库"
+      },
+      {
+        "id": 1239398,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 834082440,
+        "tag": "反检测浏览器"
+      },
+      {
+        "id": 47162528,
+        "tag": "移动端媒体选择器"
+      },
+      {
+        "id": 69674683,
+        "tag": "浏览器端机器学习"
+      },
+      {
+        "id": 4890177,
+        "tag": "Web性能测试工具"
+      },
+      {
+        "id": 332240585,
+        "tag": "浏览器指纹对抗指南"
+      },
+      {
+        "id": 716412370,
+        "tag": "浏览器主页应用"
+      },
+      {
+        "id": 184366,
+        "tag": "Ruby转JavaScript编译器"
+      },
+      {
+        "id": 443774525,
+        "tag": "跨平台漫画浏览器"
+      }
+    ]
+  }
+}

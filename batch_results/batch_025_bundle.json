@@ -1,0 +1,125 @@
+{
+  "batch_id": 25,
+  "timestamp": "2026-02-05T16:25:43.933654",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 6583352,
+      "name": "alrra/browser-logos",
+      "stars": 6024,
+      "enhanced_text": "🗂 High resolution web browser logos.\n\nBrowser Logos [![Build Status][build icon]][build url]\nYou may want these for a presentation, a blog post or for the site\nfeaturing your brand new awesome lightbox script (please no!). All\nlogos are high resolution with transparent backgrounds.\nFor logos of browsers that are currently active, check the [][src\nFor older logos, or logos of browsers that are no longer active, check\nthe [][archive readme] directory.",
+      "tag": "浏览器图标资源"
+    },
+    {
+      "id": 41906632,
+      "name": "brookhong/Surfingkeys",
+      "stars": 5998,
+      "enhanced_text": "Map your keys for web surfing, expand your browser with javascript and keyboard.\n\n## Installation\n* Surfingkeys - Chrome Web Store for Google Chrome, Chromium based browsers\n* Surfingkeys – Get this Extension for 🦊 Firefox for Firefox\n* Surfingkeys - Microsoft Edge Addons for Microsoft Edge\n* Surfingkeys on the Mac App Store for Safari, works for both macOS and iOS, except that for iOS an external keyboard is required to be connected with your device. There is one exception of the special feature designed for iOS device -- .\n\n### Feature availability\n| Features \\ Browsers | Chromium family (above 45) | Firefox (above 57) | Safari (above 15) |\n| Follow links | Y | Y | Y |\n| Surfingkeys modes | Y | Y | Y |\n| Omnibar | Y | Y | partly |\n| Search selected with | Y | Y | Y |\n| Vim-like marks | Y | Y | Y |\n| Switch tabs | Y | Y | Y |\n| Windows management | Y | Y | N |\n| Commands | Y | Y | Y |\n| Smooth scroll | Y | Y | Y |\n| Session management | Y | Y | Y |\n| Repeats action by pressing number before mapkey | Y | Y | Y |\n| Hotkey to toggle Surfingkeys | Y | Y | Y |\n| VIM editor and Emacs editor | Y | Y | Y |\n\n## Feature list\n* All settings are set up within a javascript file, which makes it easy to create mapping to user customized function.\n* A large cursor in visual mode, which makes visual mode better.\n* Search selected with, which works in both normal mode and visual mode.\n* Help messages are automatically generated for mappings.\n*  to search word under cursor in visual mode.\n* Scroll actions like page up/down ( ) work for not only top window but also scrollable DIV.\n*  to switch frames if there is.\n* A versatile bookmark/url finder\n* Count prefixes to repeat actions\n* Use vim editor to edit input on page\n* Dot to repeat previous action\n*  to preview markdown\n* Emoji completion in Insert mode\n* Rich hints for keystroke",
+      "tag": "键盘驱动型浏览器扩展"
+    },
+    {
+      "id": 1701968,
+      "name": "bitcoinjs/bitcoinjs-lib",
+      "stars": 5967,
+      "enhanced_text": "A javascript Bitcoin library for node.js and browsers.",
+      "tag": "浏览器端JavaScript库"
+    },
+    {
+      "id": 10855394,
+      "name": "itsgoingd/clockwork",
+      "stars": 5930,
+      "enhanced_text": "Clockwork - php dev tools in your browser - server-side component.\n\nInstall the Clockwork library via Composer.\nCongratulations, you are done! To enable more features like commands or queue jobs profiling, publish the configuration file via the  Artisan command.\n**Note:** If you are using the Laravel route cache, you will need to refresh it using the route:cache Artisan command.\nRead full installation instructions on the Clockwork website.\n\n### Installation",
+      "tag": "PHP服务器端调试工具"
+    },
+    {
+      "id": 3069402,
+      "name": "lindell/JsBarcode",
+      "stars": 5829,
+      "enhanced_text": "Barcode generation library written in JavaScript that works in both the browser and on Node.js.",
+      "tag": "跨平台条形码生成库"
+    },
+    {
+      "id": 3238243,
+      "name": "Fyrd/caniuse",
+      "stars": 5809,
+      "enhanced_text": "Raw browser/feature support data from caniuse.com.\n\nThis repo contains raw data from the caniuse.com support tables. It serves two purposes:\n1. The ability for anyone interested to update or add to the support data on the site. If you are interested in this, please read the CONTRIBUTING file.\n2. Access to the site's data for other projects. For this use the  file which includes all support data. ( is also available for backwards compatibility.)\nThe data in this repo is available for use under a CC BY 4.0 license (https://creativecommons.org/licenses/by/4.0/). For attribution just mention somewhere that the source is caniuse.com. If you have any questions about using the data for your project please contact me here: https://a.deveria.com/contact\nSome of the data on caniuse.com is provided by browser-compat-data instead of this repository.\nCaniuse.com is created and maintained by Alexis Deveria",
+      "tag": "浏览器兼容性数据库"
+    },
+    {
+      "id": 6853358,
+      "name": "tape-testing/tape",
+      "stars": 5803,
+      "enhanced_text": "tap-producing test harness for node and browsers.\n\n# tape [![Version Badge][npm-version-svg]][package-url]\nTAP-producing test harness for node and browsers\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n[![npm badge][npm-badge-png]][package-url]\nYou always need to  in test files. You can run the tests by usual node means ( or ).\nYou can also run tests using the  binary to utilize globbing, on Windows for example:\n's arguments are passed to the  module.",
+      "tag": "JavaScript测试框架"
+    },
+    {
+      "id": 518486100,
+      "name": "NirmalScaria/le-git-graph",
+      "stars": 5801,
+      "enhanced_text": "Browser extension to add git graph to GitHub website.\n\nInstall the extension from the link -\nFor Google Chrome, Opera, Vivaldi, Brave, and Microsoft Edge:\nhttps://chrome.google.com/webstore/detail/le-git-graph-commits-grap/joggkdfebigddmaagckekihhfncdobff\nhttps://addons.mozilla.org/firefox/addon/le-git-graph-github-git-graph/\nAfter installation, open any GitHub repository and a new 'Commits' tab will be visible.\nOpen the commits tab and follow the prompt to authenticate with your GitHub account.\n## Why does it need write access\nThe extension asks for permission in the level\nLe Git Graph requires only read access to public or private repositories.\nThe reason is only because there is no  access level supported by Github OAuth.\n(You can read the discussion here https://github.com/orgs/community/discussions/7891 )\nEven though access is requested for read and write, the extension only uses it for read operations, as you can see in the source code.\n## Setup for Private Repos owned by an Organization\nAccess to private repositories owned by an organization is restricted by default. To access the commits graph for such repositories, you need to follow the following steps.\n1. Go to https://github.com/settings/tokens\n\n## Installation",
+      "tag": "GitHub可视化扩展"
+    },
+    {
+      "id": 149144662,
+      "name": "lucaong/minisearch",
+      "stars": 5769,
+      "enhanced_text": "Tiny and powerful JavaScript full-text search engine for browser and Node.\n\n## Features\n* Memory-efficient index, designed to support memory-constrained use cases\nlike mobile browsers.\n* Exact match, prefix search, fuzzy match, field boosting.\n* Auto-suggestion engine, for auto-completion of search queries.\n* Modern search result ranking algorithm.\n* Documents can be added and removed from the index at any time.\n* Zero external dependencies.\nstrives to expose a simple API that provides the building blocks to\nbuild custom solutions, while keeping a small and well tested codebase.",
+      "tag": "JavaScript全文搜索引擎"
+    },
+    {
+      "id": 3618133,
+      "name": "web-platform-tests/wpt",
+      "stars": 5761,
+      "enhanced_text": "Test suites for Web platform specs — including WHATWG, W3C, and others.\n\nThe web-platform-tests Project is a cross-browser test suite for the\nWeb-platform stack. Writing tests in a way that allows them to be run in all\nbrowsers gives browser projects confidence that they are shipping software that\nis compatible with other implementations, and that later implementations will\nbe compatible with their implementations. This in turn gives Web\nauthors/developers confidence that they can actually rely on the Web platform\nto deliver on the promise of working across browsers and devices without\nneeding extra layers of abstraction to paper over the gaps left by\nspecification editors and implementors.",
+      "tag": "Web平台标准测试套件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 6583352,
+        "tag": "浏览器图标资源"
+      },
+      {
+        "id": 41906632,
+        "tag": "键盘驱动型浏览器扩展"
+      },
+      {
+        "id": 1701968,
+        "tag": "浏览器端JavaScript库"
+      },
+      {
+        "id": 10855394,
+        "tag": "PHP服务器端调试工具"
+      },
+      {
+        "id": 3069402,
+        "tag": "跨平台条形码生成库"
+      },
+      {
+        "id": 3238243,
+        "tag": "浏览器兼容性数据库"
+      },
+      {
+        "id": 6853358,
+        "tag": "JavaScript测试框架"
+      },
+      {
+        "id": 518486100,
+        "tag": "GitHub可视化扩展"
+      },
+      {
+        "id": 149144662,
+        "tag": "JavaScript全文搜索引擎"
+      },
+      {
+        "id": 3618133,
+        "tag": "Web平台标准测试套件"
+      }
+    ]
+  }
+}

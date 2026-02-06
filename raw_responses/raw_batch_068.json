@@ -1,0 +1,16 @@
+{
+  "batch_id": 68,
+  "timestamp": "2026-02-05T16:46:57.692392",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 15743523,\n      \"tag\": \"专用桌面浏览器\"\n    },\n    {\n      \"id\": 385263968,\n      \"tag\": \"浏览器认证库\"\n    },\n    {\n      \"id\": 3860377,\n      \"tag\": \"浏览器日志流工具\"\n    },\n    {\n      \"id\": 196062547,\n      \"tag\": \"浏览器文件托管服务\"\n    },\n    {\n      \"id\": 12198882,\n      \"tag\": \"响应式布局库\"\n    },\n    {\n      \"id\": 900152988,\n      \"tag\": \"Web自动化框架\"\n    },\n    {\n      \"id\": 604752123,\n      \"tag\": \"Android链接处理库\"\n    },\n    {\n      \"id\": 11034722,\n      \"tag\": \"用户代理解析库\"\n    },\n    {\n      \"id\": 92241608,\n      \"tag\": \"浏览器检测库\"\n    },\n    {\n      \"id\": 7264874,\n      \"tag\": \"浏览器文件上传库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1953,
+    "completion_tokens": 237,
+    "total_tokens": 2190
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c981661b6b45b8933480f65a99db",
+  "created": 1770310013,
+  "finish_reason": "stop"
+}

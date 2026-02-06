@@ -1,0 +1,16 @@
+{
+  "batch_id": 82,
+  "timestamp": "2026-02-05T16:49:41.416874",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 502105368,\n      \"tag\": \"JavaScript错误处理库\"\n    },\n    {\n      \"id\": 574666627,\n      \"tag\": \"跨平台桌面应用\"\n    },\n    {\n      \"id\": 5194068,\n      \"tag\": \"Android插件化框架\"\n    },\n    {\n      \"id\": 17480011,\n      \"tag\": \"JavaScript哈希生成库\"\n    },\n    {\n      \"id\": 14086422,\n      \"tag\": \"浏览器端编解码工具\"\n    },\n    {\n      \"id\": 16862339,\n      \"tag\": \"Flask API扩展\"\n    },\n    {\n      \"id\": 111427718,\n      \"tag\": \"CSS变量兼容库\"\n    },\n    {\n      \"id\": 5099405,\n      \"tag\": \"Cinnamon文件管理器\"\n    },\n    {\n      \"id\": 46812728,\n      \"tag\": \"隐私保护浏览器扩展\"\n    },\n    {\n      \"id\": 1083887818,\n      \"tag\": \"ESP32 Web管理工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1706,
+    "completion_tokens": 244,
+    "total_tokens": 1950
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984ca25ea4623026dca4d20c99e0b20",
+  "created": 1770310178,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 26,
+  "timestamp": "2026-02-05T16:25:55.464695",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 96284790,
+      "name": "prasathmani/tinyfilemanager",
+      "stars": 5759,
+      "enhanced_text": "Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager.",
+      "tag": "单文件PHP文件管理器"
+    },
+    {
+      "id": 1673025,
+      "name": "bowser-js/bowser",
+      "stars": 5712,
+      "enhanced_text": "a browser detector.\n\nA small, fast and rich-API browser/platform/engine detector for both browser and node.\n- **Small.** Use plain ES5-version which is ~4.8kB gzipped.\n- **Optimized.** Use only those parsers you need — it doesn't do useless work.\n- **Multi-platform.** It's browser- and node-ready, so you can use it in any environment.\nDon't hesitate to support the project on Github or OpenCollective if you like it ❤️ Also, contributors are always welcome!\nThe library is made to help to detect what browser your user has and gives you a convenient API to filter the users somehow depending on their browsers. Check it out on this page: https://bowser-js.github.io/bowser-online/.\n### ⚠️ Version 2.0 breaking changes ⚠️\nVersion 2.0 has drastically changed the API. All available methods are on the docs page.\n_For legacy code, check out the 1.x branch and install it through ._",
+      "tag": "浏览器环境检测库"
+    },
+    {
+      "id": 956283541,
+      "name": "BrowserMCP/mcp",
+      "stars": 5690,
+      "enhanced_text": "Browser MCP is a Model Context Provider (MCP) server that allows AI applications to control your browser.",
+      "tag": "浏览器自动化控制服务"
+    },
+    {
+      "id": 720466801,
+      "name": "lxfater/inpaint-web",
+      "stars": 5664,
+      "enhanced_text": "A free and open-source inpainting & image-upscaling tool powered by webgpu and wasm on the browser。|   基于 Webgpu 技术和 wasm 技术的免费开源 inpainting & image-upscaling 工具, 纯浏览器端实现。.",
+      "tag": "WebGPU图像处理工具"
+    },
+    {
+      "id": 744296994,
+      "name": "outerbase/studio",
+      "stars": 5656,
+      "enhanced_text": "A lightweight Database GUI in your browser. It supports connecting to Postgres, MySQL, and SQLite.",
+      "tag": "浏览器数据库GUI"
+    },
+    {
+      "id": 1141441,
+      "name": "assaf/zombie",
+      "stars": 5640,
+      "enhanced_text": "Insanely fast, full-stack, headless browser testing using node.js.",
+      "tag": "Node.js无头浏览器测试框架"
+    },
+    {
+      "id": 384330997,
+      "name": "rcmaehl/MSEdgeRedirect",
+      "stars": 5621,
+      "enhanced_text": "A Tool to Redirect News, Search, Widgets, Weather and More to Your Default Browser.\n\nA Tool to Redirect News, Search, Widgets, Weather, and More to Your Default Browser\nThis tool filters and passes the command line arguments of Microsoft Edge processes into your default browser instead of hooking into the  handler, this should provide resiliency against future changes. Additionally, an Image File Execution Options mode is available to operate similarly to the Old EdgeDeflector. Additional modes are planned for future versions.\nNo Default App walkthrough or other steps, just set and forget.\n> :warning: PLEASE NOTE: MSEdgeRedirect is still BETA. Changes are to be expected, and performance to be improved.\nLooking for Alternatives? Check Out This Chart\\\nNot looking for Extra Features? Try @AveYo's ChrEdgeFckOff\\\nLooking to Disable Web Search Entirely? Try @krlvm's BeautySearch",
+      "tag": "浏览器重定向工具"
+    },
+    {
+      "id": 55001853,
+      "name": "mdn/browser-compat-data",
+      "stars": 5578,
+      "enhanced_text": "Browser compatibility data for Web technologies as displayed on MDN.\n\n## Installation and Import\nYou can install  as a node package.\nThen, you can import BCD into your project with either  or :\nYou can import  using a CDN.\nYou can obtain the raw compatibility data for  using a CDN and loading the  file included in releases.\nOnce you have imported BCD, you can access the compatibility data for any feature by accessing the properties of the dictionary.\n### TypeScript Support\nBCD exports TypeScript type definitions. Type definitions are automatically generated from the schema definitions.\nThe  package contains a tree of objects, with support and browser data objects at their leaves. There are over 15,000 features in the dataset; this documentation highlights significant portions, but many others exist at various levels of the tree.\nThe definitive description of the format used to represent individual features and browsers is the schema definitions.\nApart from the explicitly documented objects below, feature-level support data may change at any time. See _Semantic versioning policy_ for details.\nThe package contains the following top-level objects:\nAn object containing the following package metadata:\n-  - the package version\n-  - the timestamp of when the package version was built",
+      "tag": "Web技术兼容性数据集"
+    },
+    {
+      "id": 47010479,
+      "name": "karpathy/arxiv-sanity-preserver",
+      "stars": 5554,
+      "enhanced_text": "Web interface for browsing, search and filtering recent arxiv submissions.\n\n**Update Nov 27, 2021**: you may wish to look at my from-scratch re-write of arxiv-sanity: arxiv-sanity-lite. It is a smaller version of arxiv-sanity that focuses on the core value proposition, is significantly less likely to ever go down, scales better, and has a few additional goodies such as multiple possible tags per account, regular emails of new papers of interest, etc. It is also running live on arxiv-sanity-lite.com.\nThis project is a web interface that attempts to tame the overwhelming flood of papers on Arxiv. It allows researchers to keep track of recent papers, search for papers, sort papers by similarity to any paper, see recent popular papers, to add papers to a personal library, and to get personalized recommendations of (new or old) Arxiv papers. This code is currently running live at www.arxiv-sanity.com/, where it's serving 25,000+ Arxiv papers from Machine Learning (cs.[CV|AI|CL|LG|NE]/stat.ML) over the last ~3 years. With this code base you could replicate the website to any of your favorite subsets of Arxiv by simply changing the categories in .\nThere are two large parts of the code:\n**Indexing code**. Uses Arxiv API to download the most recent papers in any categories you like, and then downloads all papers, extracts all text, creates tfidf vectors based on the content of each paper. This code is therefore concerned with the backend scraping and computation: building up a database of arxiv papers, calculating content vectors, creating thumbnails, computing SVMs for people, etc.\n**User interface**. Then there is a web server (based on Flask/Tornado/sqlite) that allows searching through the database and filtering papers by similarity, etc.\nSeveral: You will need numpy, feedparser (to process xml files), scikit learn (for tfidf vectorizer, training of SVM), flask (for serving the results), flask_limiter, and tornado (if you want to run the flask server in production). Also dateutil, and scipy. And sqlite3 for database (accounts, library support, etc.). Most of these are easy to get through , e.g.:\nYou will also need ImageMagick and pdftotext, which you can install on Ubuntu as . Bleh, that's a lot of dependencies isn't it.",
+      "tag": "学术论文聚合Web应用"
+    },
+    {
+      "id": 620476224,
+      "name": "pagefaultgames/pokerogue",
+      "stars": 5537,
+      "enhanced_text": "A browser based Pokémon fangame heavily inspired by the roguelite genre.\n\nSee CONTRIBUTING.md, this includes instructions on how to set up the game locally.\n> If this project contains assets you have produced and you do not see your name, **please** reach out, either here on GitHub or via Discord.\nThank you to all the wonderful people that have contributed to the PokéRogue project! You can find the credits here.\nThis repository seeks to be REUSE compliant: copyright and/or licensing information for each file is stored\neither in the file itself or in an associated  file.\nThe full licensing information for each file can be found by utilizing REUSE's tooling, such as via . \\",
+      "tag": "浏览器网页游戏"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 96284790,
+        "tag": "单文件PHP文件管理器"
+      },
+      {
+        "id": 1673025,
+        "tag": "浏览器环境检测库"
+      },
+      {
+        "id": 956283541,
+        "tag": "浏览器自动化控制服务"
+      },
+      {
+        "id": 720466801,
+        "tag": "WebGPU图像处理工具"
+      },
+      {
+        "id": 744296994,
+        "tag": "浏览器数据库GUI"
+      },
+      {
+        "id": 1141441,
+        "tag": "Node.js无头浏览器测试框架"
+      },
+      {
+        "id": 384330997,
+        "tag": "浏览器重定向工具"
+      },
+      {
+        "id": 55001853,
+        "tag": "Web技术兼容性数据集"
+      },
+      {
+        "id": 47010479,
+        "tag": "学术论文聚合Web应用"
+      },
+      {
+        "id": 620476224,
+        "tag": "浏览器网页游戏"
+      }
+    ]
+  }
+}

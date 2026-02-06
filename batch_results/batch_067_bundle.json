@@ -1,0 +1,125 @@
+{
+  "batch_id": 67,
+  "timestamp": "2026-02-05T16:46:37.287511",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 18131537,
+      "name": "webtorrent/bittorrent-tracker",
+      "stars": 1920,
+      "enhanced_text": "🌊 Simple, robust, BitTorrent tracker (client & server) implementation.",
+      "tag": "BitTorrent协议库"
+    },
+    {
+      "id": 900709814,
+      "name": "adryfish/fingerprint-chromium",
+      "stars": 1907,
+      "enhanced_text": "An open source fingerprint browser based on Ungoogled Chromium. 指纹浏览器 隐私浏览器.\n\n## Installation and Usage\nPlease download the version suitable for your system from the links below. Each major version of Chromium is compiled into a corresponding release. Choose the appropriate version for your operating system:\n| **Version**      | **Source Code**                                                                                      | **Windows**                                                                                   | **Linux** | **MacOS**                                                                                   |\n| **Chrome 142**   | Released with Chrome 143                                                                            | Installer  ZIP | AppImage  TAR.XZ | 142.0.7444.175-1.1_macos.dmg |\n| **Chrome 139**   | 139.0.7258.154              | Installer  ZIP | AppImage  TAR.XZ | 139.0.7258.154-1.1_macos.dmg |\n| **Chrome 138**   | 138.0.7204.183              | Installer  ZIP | 138.0.7204.183-1_linux.tar.xz | |\n| **Chrome 136**   | 136.0.7103.113        | Installer  ZIP | 136.0.7103.113-1_linux.tar.xz | 136.0.7103.113-1.1_macos.dmg |\n| **Chrome 135**   | 135.0.7049.95        | Installer  ZIP | 135.0.7049.95-1_linux.tar.xz | 135.0.7049.95-1.1_macos.dmg |\n| **Chrome 134** | 134.0.6998.165 | Installer  ZIP | 134.0.6998.165-1_linux.tar.xz | |\n| **Chrome 133** | 133.0.6943.126 | Installer  ZIP | 133.0.6943.126-1_linux.tar.xz |  |\n| **Chrome 132**   | 132.0.6834.159               | Installer  ZIP |  132.0.6834.159-1_linux.tar.xz  | 132.0.6834.110-1.1_macos.dmg |\nFor chinese users, you can download via cloud storage\nQuark: https://pan.quark.cn/s/9bb65af874fb\nYou can find the compiled versions for each major Chromium release on the GitHub Release page. Download the appropriate file for your platform.\n### Build from Source\n\n## Features\n### Fingerprint Support\nYou can use creepjs and browserleaks to test fingerprint modification effects.\n* **User-Agent**: Modify the browser's , ,  and  information.\n* **Operating System**\n* **Plugins**: After removal in version 133+, the browser returns a fixed plugin list.\n* **WebGL Metadata**: Modify GPU vendor and graphics card model (currently only supports Linux).\n* **Language Support**\n* **Timezone Support**\n### Automation Support\n**Optimized for automation scenarios, offering the following features:**\n1. **Fake Shadow DOM Support**\nAdds the  property, equivalent to the  property, enabling access to Closed Shadow Root for easier automation handling.\n2...",
+      "tag": "浏览器隐私增强"
+    },
+    {
+      "id": 368257515,
+      "name": "duckdb/duckdb-wasm",
+      "stars": 1902,
+      "enhanced_text": "WebAssembly version of DuckDB.\n\nDuckDB is an in-process SQL OLAP Database Management System.\nDuckDB-Wasm brings DuckDB to every browser thanks to WebAssembly.\nDuckdb-Wasm speaks Arrow fluently, reads Parquet, CSV and JSON files backed by Filesystem APIs or HTTP requests and has been tested with Chrome, Firefox, Safari and Node.js. Learn more about DuckDB-Wasm from our VLDB publication or the recorded talk.\nTry it out at shell.duckdb.org or at duckdb.org/visualizer.\nExternal third party embedding of DuckDB-Wasm, read the API documentation, check out the web-app examples, and chat with us on Discord.\nDuckDB-Wasm is currently based on DuckDB v1.4.4.\n* Default HTTP stack is different between native and Wasm versions of DuckDB",
+      "tag": "WebAssembly数据库"
+    },
+    {
+      "id": 1035210905,
+      "name": "the-ora/browser",
+      "stars": 1898,
+      "enhanced_text": "Less noise, more browsing.\n\n## Features\n### Core Capabilities\n- Native macOS UI built with SwiftUI/AppKit\n- Fast, responsive browsing powered by WebKit\n- Privacy-first browsing with built-in content blocker for tracking prevention and ad blocking\n- Multiple search engine support\n- URL auto-completion and search suggestions\n- Quick Launcher for instant navigation and search\nYou can view our current roadmap to beta in ROADMAP.md.\nSee the Wiki for comprehensive documentation, guides, and project information.",
+      "tag": "WebKit浏览器"
+    },
+    {
+      "id": 547494,
+      "name": "caolan/nodeunit",
+      "stars": 1891,
+      "enhanced_text": "Easy unit testing in node.js and the browser, based on the assert module.",
+      "tag": "JavaScript单元测试框架"
+    },
+    {
+      "id": 14494363,
+      "name": "feross/buffer",
+      "stars": 1879,
+      "enhanced_text": "The buffer module from node.js, for the browser.",
+      "tag": "Node.js兼容层"
+    },
+    {
+      "id": 52015204,
+      "name": "xtianmiller/emergence.js",
+      "stars": 1879,
+      "enhanced_text": "Detect element visibility in the browser.\n\n## Getting Started\nReference emergence.js just before your closing  tag, then simply call .\nGrab the latest code from the following locations:\n- Download from Github",
+      "tag": "DOM可见性检测库"
+    },
+    {
+      "id": 129891715,
+      "name": "Homebrew/formulae.brew.sh",
+      "stars": 1871,
+      "enhanced_text": "🏎 An online formulae browser for Homebrew.\n\nHomebrew Formulae is an online package browser for Homebrew.\nIt displays all packages in the Homebrew/homebrew-core and Homebrew/homebrew-cask. A GitHub Action is run periodically which pulls changes from each tap and deploys the site to GitHub Pages.\nIt also provides a JSON API for all packages (or individual packages) in each tap and their related analytics. This JSON data is used for the creation of the HTML resources on this site.\n- List metadata for all formulae and casks\n- Get metadata for each formula and cask\n- List analytics events for all formulae and casks\n- List analytics events for each formula and cask",
+      "tag": "软件包元数据浏览器"
+    },
+    {
+      "id": 529027653,
+      "name": "WordPress/wordpress-playground",
+      "stars": 1870,
+      "enhanced_text": "Run WordPress in the browser via WebAssembly PHP.",
+      "tag": "WebAssembly应用沙箱"
+    },
+    {
+      "id": 488620801,
+      "name": "apify/fingerprint-suite",
+      "stars": 1868,
+      "enhanced_text": "Browser fingerprinting tools for anonymizing your scrapers. Developed by Apify.\n\n## Overview\nis a modular toolkit for browser fingerprint generation and injection. It consists of the following  packages, which you can use separately, or together:\n- : generates configurable, realistic HTTP headers\n- : generates realistic browser fingerprints, affecting the HTTP headers and browser JS APIs\n- : injects browser fingerprints into your Playwright or Puppeteer managed browser instance\n- : our fast implementation of a Bayesian generative network used to generate realistic browser fingerprints",
+      "tag": "浏览器指纹生成工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 18131537,
+        "tag": "BitTorrent协议库"
+      },
+      {
+        "id": 900709814,
+        "tag": "浏览器隐私增强"
+      },
+      {
+        "id": 368257515,
+        "tag": "WebAssembly数据库"
+      },
+      {
+        "id": 1035210905,
+        "tag": "WebKit浏览器"
+      },
+      {
+        "id": 547494,
+        "tag": "JavaScript单元测试框架"
+      },
+      {
+        "id": 14494363,
+        "tag": "Node.js兼容层"
+      },
+      {
+        "id": 52015204,
+        "tag": "DOM可见性检测库"
+      },
+      {
+        "id": 129891715,
+        "tag": "软件包元数据浏览器"
+      },
+      {
+        "id": 529027653,
+        "tag": "WebAssembly应用沙箱"
+      },
+      {
+        "id": 488620801,
+        "tag": "浏览器指纹生成工具"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 12,
+  "timestamp": "2026-02-05T16:23:17.895091",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 26133979,
+      "name": "mozilla-mobile/firefox-ios",
+      "stars": 12839,
+      "enhanced_text": "Firefox for iOS.\n\n# Firefox for iOS and Focus iOS\nDownload Firefox iOS and Focus iOS on the App Store.\nThis is a mono repository containing both Firefox and Focus iOS projects. For their related build instructions, please follow the project readme:\nWe encourage you to participate in those open source projects. We love Pull Requests, Issue Reports, Feature Requests or any kind of positive contribution. Please read the Mozilla Community Participation Guidelines and our Contributing guidelines first.\n- You can file a new issue or research existing bugs",
+      "tag": "移动端浏览器"
+    },
+    {
+      "id": 487812840,
+      "name": "PlasmoHQ/plasmo",
+      "stars": 12824,
+      "enhanced_text": "🧩 The Browser Extension Framework.\n\nEnglish | 简体中文 | Tiếng Việt | Deutsch | French | Indonesian | Русский | Turkish | 日本語 | 한국어\n**Production Cloud:** We've built a cloud offering for browser extensions called Itero. Check it out if you want instant beta testing and more awesome features.\nThe Plasmo Framework is a battery-packed browser extension SDK made by hackers for hackers. Build your product and stop worrying about config files and the odd peculiarities of building browser extensions.\n> It's like Next.js for browser extensions!\n- First-class React + Typescript Support",
+      "tag": "浏览器扩展框架"
+    },
+    {
+      "id": 79921099,
+      "name": "chromedp/chromedp",
+      "stars": 12707,
+      "enhanced_text": "A faster, simpler way to drive browsers supporting the Chrome DevTools Protocol.\n\nPackage  is a faster, simpler way to drive browsers supporting the\n[Chrome DevTools Protocol][devtools-protocol] in Go without external dependencies.\n[![Unit Tests][chromedp-ci-status]][chromedp-ci]\n[![Go Reference][goref-chromedp-status]][goref-chromedp]\n[![Releases][release-status]][releases]\n\n## Installing",
+      "tag": "浏览器自动化工具"
+    },
+    {
+      "id": 196117722,
+      "name": "ajayyy/SponsorBlock",
+      "stars": 12699,
+      "enhanced_text": "Skip YouTube video sponsors (browser extension).\n\nSponsorBlock is an open-source crowdsourced browser extension to skip sponsor segments in YouTube videos. Users submit when a sponsor happens from the extension, and the extension automatically skips sponsors it knows about. It also supports skipping other categories, such as intros, outros and reminders to subscribe.",
+      "tag": "视频广告拦截扩展"
+    },
+    {
+      "id": 1132001614,
+      "name": "vercel-labs/agent-browser",
+      "stars": 12545,
+      "enhanced_text": "Browser automation CLI for AI agents.\n\n## Installation\n### npm (recommended)\n### Linux Dependencies\nOn Linux, install system dependencies:\n\n## Quick Start\n### Traditional Selectors (also supported)\n### Find Elements (Semantic Locators)\n### Cookies & Storage\nRun multiple isolated browser instances:\nEach session has its own:\n- Cookies and storage\n- Authentication state\n## Persistent Profiles\nBy default, browser state (cookies, localStorage, login sessions) is ephemeral and lost when the browser closes. Use  to persist state across browser restarts:\nThe profile directory stores:\n- Cookies and localStorage\n**Tip**: Use different profile paths for different projects to keep their browser state isolated.\nThe  command supports filtering to reduce output size:\n| Option | Description |",
+      "tag": "AI代理浏览器自动化"
+    },
+    {
+      "id": 7711472,
+      "name": "zealdocs/zeal",
+      "stars": 12515,
+      "enhanced_text": "Offline documentation browser inspired by Dash.",
+      "tag": "离线文档浏览器"
+    },
+    {
+      "id": 119001901,
+      "name": "catdad/canvas-confetti",
+      "stars": 12391,
+      "enhanced_text": "🎉 performant confetti animation in the browser.\n\n[![github actions ci][ci.svg]][ci.link]\n[![jsdelivr][jsdelivr.svg]][jsdelivr.link]\n[![npm-downloads][npm-downloads.svg]][npm.link]\n[![npm-version][npm-version.svg]][npm.link]\n[ci.svg]: https://github.com/catdad/canvas-confetti/actions/workflows/ci.yml/badge.svg\n[ci.link]: https://github.com/catdad/canvas-confetti/actions/workflows/ci.yml?query=branch%3Amaster\n[jsdelivr.svg]: https://data.jsdelivr.com/v1/package/npm/canvas-confetti/badge?style=rounded\n[jsdelivr.link]: https://www.jsdelivr.com/package/npm/canvas-confetti\n[npm.link]: https://www.npmjs.com/package/canvas-confetti\ncatdad.github.io/canvas-confetti",
+      "tag": "Canvas动画库"
+    },
+    {
+      "id": 286179743,
+      "name": "DustinBrett/daedalOS",
+      "stars": 12391,
+      "enhanced_text": "Desktop environment in the browser.",
+      "tag": "浏览器桌面环境"
+    },
+    {
+      "id": 111058386,
+      "name": "browserless/browserless",
+      "stars": 12366,
+      "enhanced_text": "Deploy headless browsers in Docker. Run on our cloud or bring your own. Free for non-commercial uses.\n\n- Customisable Deployment Options\nGet up and running in three simple steps:",
+      "tag": "无头浏览器服务"
+    },
+    {
+      "id": 13527761,
+      "name": "BrowserSync/browser-sync",
+      "stars": 12298,
+      "enhanced_text": "Keep multiple browsers & devices in sync when building websites. https://browsersync.io.\n\n## Features\nPlease visit browsersync.io for a full run-down of features\nBrowsersync works by injecting an asynchronous script tag () right after the  tag\nduring initial request. In order for this to work properly the  tag must be present. Alternatively you\ncan provide a custom rule for the snippet using snippetOptions\n## Upgrading from 1.x to 2.x ?\nProviding you haven't accessed any internal properties, everything will just work as\nthere are no breaking changes to the public API. Internally however, we now use an\nimmutable data structure for storing/retrieving options. So whereas before you could access urls like this...\n... you now access them in the following way:",
+      "tag": "前端开发同步工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 26133979,
+        "tag": "移动端浏览器"
+      },
+      {
+        "id": 487812840,
+        "tag": "浏览器扩展框架"
+      },
+      {
+        "id": 79921099,
+        "tag": "浏览器自动化工具"
+      },
+      {
+        "id": 196117722,
+        "tag": "视频广告拦截扩展"
+      },
+      {
+        "id": 1132001614,
+        "tag": "AI代理浏览器自动化"
+      },
+      {
+        "id": 7711472,
+        "tag": "离线文档浏览器"
+      },
+      {
+        "id": 119001901,
+        "tag": "Canvas动画库"
+      },
+      {
+        "id": 286179743,
+        "tag": "浏览器桌面环境"
+      },
+      {
+        "id": 111058386,
+        "tag": "无头浏览器服务"
+      },
+      {
+        "id": 13527761,
+        "tag": "前端开发同步工具"
+      }
+    ]
+  }
+}

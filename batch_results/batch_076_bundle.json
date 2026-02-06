@@ -1,0 +1,125 @@
+{
+  "batch_id": 76,
+  "timestamp": "2026-02-05T16:49:13.387877",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 23899906,
+      "name": "js-data/js-data",
+      "stars": 1621,
+      "enhanced_text": "Give your data the treatment it deserves with a framework-agnostic, datastore-agnostic JavaScript ORM built for ease of use and peace of mind. Works in Node.js and in the Browser. Main Site: http://js-data.io, API Reference Docs: http://api.js-data.io/js-data.\n\n# js-data v3 [![Slack][1]][2] [![NPM][3]][4] [![Downloads][5]][6] [![Coverage][7]][8]\n| __Browser tests__ | __Node.js tests__ |\n| [![Tests][9]][10] | [![Tests][11]][12] [![Tests][13]][12] [![Tests][14]][12] [![Tests][15]][12] [![Tests][16]][12] [![Tests][17]][12] |\n[1]: http://slack.js-data.io/badge.svg\n[4]: https://www.npmjs.org/package/js-data\n[6]: https://www.npmjs.org/package/js-data\n[8]: https://codecov.io/github/js-data/js-data\n[9]: https://saucelabs.com/browser-matrix/jsdata.svg\n[10]: https://saucelabs.com/u/jsdata",
+      "tag": "JavaScript ORM库"
+    },
+    {
+      "id": 686775715,
+      "name": "CADmium-Co/CADmium",
+      "stars": 1621,
+      "enhanced_text": "A CAD program that runs in the browser.\n\n>This repo is inactive. No PRs or issues will be accepted.\nThis project aims to create a new CAD program from scratch. It is small, it runs in a web browser, and the source code is available for free here on Github.\nLegacy CAD programs have taken many thousands of years of collective engineering time to get where they are so this program will never be able to compete on breadth of features. But CADmium is intended to capture 80% of the most common CAD use cases while doing less than 10% of the work. For now we are targeting the home hobbyist who just wants to design a widget for their 3D printer, not a company that wants to design a car or airplane, although that will come later.\n- A simple, modern, parametric CAD UI that runs in a browser\n- That can export solids as .step, .obj, or .cadmium (a json-based CAD format that this project is inventing)\n- That can export sketches as .svg or .dxf\n- That works without an internet connection\nThen this project may be for you!",
+      "tag": "浏览器CAD应用"
+    },
+    {
+      "id": 116272692,
+      "name": "homerchen19/github-file-icons",
+      "stars": 1619,
+      "enhanced_text": "🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.\n\nA simple browser extension changes file's icon on GitHub, GitLab, Gitea and Gogs.\n- Safari Extension built by @christopherpickering\n> ⚠️ If you enjoy the Safari extension please consider contributing to help cover the App Store fees.\nRight click on the extension's icon to open the menu.\nChange icon's color between colorful and monochrome.",
+      "tag": "文件图标扩展"
+    },
+    {
+      "id": 25791650,
+      "name": "kilianc/rtail",
+      "stars": 1618,
+      "enhanced_text": "rtail(1) - Terminal output to the browser in seconds, using UNIX pipes.\n\n## Installation\n$ npm install -g rtail\nWhether you deploy your code on remote servers using multiple environments or simply have multiple projects, **you must  to each machine running your code, in order to monitor the logs in realtime**.\nThere are many log aggregation tools out there, but few of them are realtime. **Most other tools require you to change your application source code to support their logging protocol/transport**.\nis meant to be a replacement of logio, which isn't actively maintained anymore, doesn't support node v0.12., and uses *TCP. (TCP requires strict client / server handshaking, is resource-hungry, and very difficult to scale.)*\n**The  approach is very simple:**\n* pipe something into  using UNIX I/O redirection [[2]](http://www.codecoffee.com/tipsforlinux/articles2/042.html)\n* broadcast every line using UDP\n* , **if listening**, will dispatch the stream into your browser, using socket.io.\nis a realtime debugging and monitoring tool, which can display multiple aggregate streams via a modern web interface. **There is no persistent layer, nor does the tool store any data**. If you need a persistent layer, use something like loggly.\nIn your app init script:\n$ node server.js 2>&1 | rtail --id \"api.myproject.com\"\n$ mycommand | rtail > server.log\n$ node server.js 2>&1 | rtail --mute\nSupports JSON5 lines:\n\nUsage: cmd | rtail [OPTIONS]\n--host, -h     The server host                 [string] [default: \"127.0.0.1\"]\n--port, -p     The server port                        [string] [default: 9999]\n--id, --name   The log stream id                 [string] [default: (moniker)]\n--mute, -m     Don't pipe stdin with stdout                          [boolean]\n--tty          Keeps ansi colors                     [boolean] [default: true]\n--parse-date   Looks for dates to use as timestamp   [boolean] [default: true]\n--help         Show help                                             [boolean]\n--version, -v  Show version number                                   [boolean]\nserver | rtail > server.log         localhost + file\nserver | rtail --id api.domain.com  Name the log stream\nserver | rtail --host example.com   Sends to example.com\nserver | rtail --port 43567         Uses custom port\nserver | rtail --mute               No stdout\nserver | rtail --no-tty             Strips ansi colors",
+      "tag": "日志流式传输工具"
+    },
+    {
+      "id": 58388867,
+      "name": "mattdesl/color-wander",
+      "stars": 1618,
+      "enhanced_text": ":art: Generative artwork in node/browser based on a seeded random.\n\nGenerative artwork in node/browser based on a seeded random.\nGenerative Art with Node.js and Canvas\nYou can view the algorithm in real-time here:\nIn Chrome, you can right-click the canvas an \"Save As\" to get the full resolution.\nYou can download some of these as lossless PNG here.",
+      "tag": "生成式艺术框架"
+    },
+    {
+      "id": 70820054,
+      "name": "ken107/read-aloud",
+      "stars": 1617,
+      "enhanced_text": "An awesome browser extension that reads aloud webpage content with one click.\n\n## Overview\nRead Aloud is a Chrome and Firefox extension that uses text-to-speech technology to convert webpage text to audio.&nbsp; It works on a variety of websites, including news sites, blogs, fan fiction, publications, textbooks, school and class websites, online universities and course materials.\nRead Aloud is aimed at users who prefer to listen to content instead of reading, people with dyslexia or other learning disabilities, children learning to read, or simply to provide users with alternative way to consume web content.\nRead Aloud allows you to select from a variety of text-to-speech voices, including those provided natively by the browser, as well as by text-to-speech cloud service providers such as Google Wavenet, Amazon Polly, IBM Watson, and Microsoft.&nbsp; Some of the cloud-based voices may require additional in-app purchase to enable.\nYou can change the voice, reading speed, pitch, or enable text highlighting:\n1. Click the Read Aloud icon on the Extensions menu.\n2. Stop any text that may be playing.\n3. Click on the Gear icon in the Read Aloud context menu. (It may take a second or two for settings to appear)\n### Using Premium Voices\nUsing Premium Voices (Google Wavenet & Amazon Polly)",
+      "tag": "文本转语音扩展"
+    },
+    {
+      "id": 230486850,
+      "name": "gautamkrishnar/motrix-webextension",
+      "stars": 1615,
+      "enhanced_text": "A browser extension for the Motrix Download Manager.\n\n## How to use\n1. Open the Motrix download manager installed on your computer, and go to  and create a random secret key and copy it.\nThere is also an option to update the RPC Listen Port, you dont have to do it. If you are updating it please make sure that you set it to the extension  using the set port option in the extension.\n2. Go to chrome extensions, go to Motrix WebExtension settings, paste the key and click on \"SET KEY\" button.\nNote: **You should keep Motrix always running in the background for this extension to work. We cant launch motrix programmatically.**\n\n## Installing\n### Chrome / Opera / Edge\n[link-chrome]: https://chrome.google.com/webstore/detail/motrix-webextension/djlkbfdlljbachafjmfomhaciglnmkgj 'Version published on Chrome Web Store'\n[][link-chrome] [][link-chrome] also compatible with [][link-chrome] [][link-chrome]\n[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/motrixwebextension/ 'Version published on Mozilla Add-ons'\n[][link-firefox] [][link-firefox]\n### Building from sources",
+      "tag": "下载管理器扩展"
+    },
+    {
+      "id": 188643934,
+      "name": "sveltejs/svelte-devtools",
+      "stars": 1613,
+      "enhanced_text": "A browser extension to inspect Svelte application by extending your browser devtools capabilities.\n\nSvelte DevTools is a browser extension for the Svelte framework. It allows you to inspect the Svelte state and component hierarchies in the Developer Tools.\nAfter installing you will see a new tab in Developer Tools. This tab displays a tree of Svelte components, HTMLx blocks, and DOM elements that were rendered on the page. By selecting one of the nodes in the tree, you can inspect and edit its current state in the panel to the right.\n> For Firefox users, you can install the  file of the latest version from the GitHub releases page. Note that if you grab the  file, you will need to load it as a temporary extension and enable \"Always Allow on localhost\" in the extension settings.\nThe  extension requires the following to be true:\n- Chrome or Firefox version 121 or higher\n- Application running Svelte version\n- Application compiled with  (SvelteKit does this automatically for you)",
+      "tag": "Svelte开发者工具"
+    },
+    {
+      "id": 1567795,
+      "name": "minkphp/Mink",
+      "stars": 1611,
+      "enhanced_text": "PHP web browser emulator abstraction.",
+      "tag": "PHP浏览器模拟器"
+    },
+    {
+      "id": 778000,
+      "name": "simplegeo/polymaps",
+      "stars": 1605,
+      "enhanced_text": "Polymaps is a free JavaScript library for making dynamic, interactive maps in modern web browsers.\n\nmodern web browsers. See  for more details.\nThis is the  branch, which contains the Polymaps source code. If\nyou're looking for the Polymaps website, you should checkout the\nYou'll find lots of Polymaps examples in the suitably-named\ndirectory. Open any of the HTML files there in your browser to view the\nexamples, or open them in your text editor of choice to view the source. Most\nof the examples are replicated on the Polymaps website,",
+      "tag": "JavaScript地图库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 23899906,
+        "tag": "JavaScript ORM库"
+      },
+      {
+        "id": 686775715,
+        "tag": "浏览器CAD应用"
+      },
+      {
+        "id": 116272692,
+        "tag": "文件图标扩展"
+      },
+      {
+        "id": 25791650,
+        "tag": "日志流式传输工具"
+      },
+      {
+        "id": 58388867,
+        "tag": "生成式艺术框架"
+      },
+      {
+        "id": 70820054,
+        "tag": "文本转语音扩展"
+      },
+      {
+        "id": 230486850,
+        "tag": "下载管理器扩展"
+      },
+      {
+        "id": 188643934,
+        "tag": "Svelte开发者工具"
+      },
+      {
+        "id": 1567795,
+        "tag": "PHP浏览器模拟器"
+      },
+      {
+        "id": 778000,
+        "tag": "JavaScript地图库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 29,
+  "timestamp": "2026-02-05T16:26:32.197775",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 456237,\n      \"tag\": \"JavaScript音频库\"\n    },\n    {\n      \"id\": 1239398,\n      \"tag\": \"JavaScript模板引擎\"\n    },\n    {\n      \"id\": 834082440,\n      \"tag\": \"反检测浏览器\"\n    },\n    {\n      \"id\": 47162528,\n      \"tag\": \"移动端媒体选择器\"\n    },\n    {\n      \"id\": 69674683,\n      \"tag\": \"浏览器端机器学习\"\n    },\n    {\n      \"id\": 4890177,\n      \"tag\": \"Web性能测试工具\"\n    },\n    {\n      \"id\": 332240585,\n      \"tag\": \"浏览器指纹对抗指南\"\n    },\n    {\n      \"id\": 716412370,\n      \"tag\": \"浏览器主页应用\"\n    },\n    {\n      \"id\": 184366,\n      \"tag\": \"Ruby转JavaScript编译器\"\n    },\n    {\n      \"id\": 443774525,\n      \"tag\": \"跨平台漫画浏览器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2674,
+    "completion_tokens": 235,
+    "total_tokens": 2909
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c4b8ca6fc5bd05ae8a3a89a8f13e",
+  "created": 1770308789,
+  "finish_reason": "stop"
+}

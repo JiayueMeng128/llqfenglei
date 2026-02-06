@@ -1,0 +1,16 @@
+{
+  "batch_id": 13,
+  "timestamp": "2026-02-05T16:23:35.653034",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 229566288,\n      \"tag\": \"浏览器自动化工具\"\n    },\n    {\n      \"id\": 910418754,\n      \"tag\": \"AI自动化扩展\"\n    },\n    {\n      \"id\": 8629417,\n      \"tag\": \"WebGL地图库\"\n    },\n    {\n      \"id\": 2560988,\n      \"tag\": \"JavaScript测试运行器\"\n    },\n    {\n      \"id\": 53538899,\n      \"tag\": \"密码管理器套件\"\n    },\n    {\n      \"id\": 598667202,\n      \"tag\": \"无头浏览器\"\n    },\n    {\n      \"id\": 2871998,\n      \"tag\": \"JavaScript调试工具\"\n    },\n    {\n      \"id\": 21244505,\n      \"tag\": \"键盘驱动浏览器\"\n    },\n    {\n      \"id\": 835510315,\n      \"tag\": \"浏览器引擎\"\n    },\n    {\n      \"id\": 15642233,\n      \"tag\": \"浏览器深度学习库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1865,
+    "completion_tokens": 233,
+    "total_tokens": 2098
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-96625632d58ce532",
+  "created": 1770308598,
+  "finish_reason": "stop"
+}

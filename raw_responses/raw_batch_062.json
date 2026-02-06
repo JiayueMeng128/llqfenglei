@@ -1,0 +1,16 @@
+{
+  "batch_id": 62,
+  "timestamp": "2026-02-05T16:44:27.853617",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 115543662,\n      \"tag\": \"密码管理器扩展\"\n    },\n    {\n      \"id\": 976103,\n      \"tag\": \"前端开发工具\"\n    },\n    {\n      \"id\": 75990052,\n      \"tag\": \"隐私安全浏览器\"\n    },\n    {\n      \"id\": 3008757,\n      \"tag\": \"JavaScript测试断言库\"\n    },\n    {\n      \"id\": 126883328,\n      \"tag\": \"浏览器端机器学习\"\n    },\n    {\n      \"id\": 100034375,\n      \"tag\": \"键盘导航扩展\"\n    },\n    {\n      \"id\": 1130400,\n      \"tag\": \"HTML5音频封装库\"\n    },\n    {\n      \"id\": 22524673,\n      \"tag\": \"浏览器弹窗框架\"\n    },\n    {\n      \"id\": 887031138,\n      \"tag\": \"社交媒体发布扩展\"\n    },\n    {\n      \"id\": 747929369,\n      \"tag\": \"Web日志查看工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1667,
+    "completion_tokens": 235,
+    "total_tokens": 1902
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c8ebd5b4fe681e2675cd7a8263ff",
+  "created": 1770309857,
+  "finish_reason": "stop"
+}

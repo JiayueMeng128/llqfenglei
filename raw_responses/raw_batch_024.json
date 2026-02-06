@@ -1,0 +1,16 @@
+{
+  "batch_id": 24,
+  "timestamp": "2026-02-05T16:25:39.552047",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 12594863,\n      \"tag\": \"Web文件管理器\"\n    },\n    {\n      \"id\": 546129875,\n      \"tag\": \"GPU终端模拟器\"\n    },\n    {\n      \"id\": 734569425,\n      \"tag\": \"浏览器翻译插件\"\n    },\n    {\n      \"id\": 763795053,\n      \"tag\": \"AI网页代理框架\"\n    },\n    {\n      \"id\": 652319769,\n      \"tag\": \"Web文件浏览器\"\n    },\n    {\n      \"id\": 106549179,\n      \"tag\": \"隐私增强型浏览器\"\n    },\n    {\n      \"id\": 1101281251,\n      \"tag\": \"GitHub应用商店\"\n    },\n    {\n      \"id\": 789480255,\n      \"tag\": \"LLM网页数据提取\"\n    },\n    {\n      \"id\": 305646330,\n      \"tag\": \"WhatsApp HTTP API\"\n    },\n    {\n      \"id\": 16231859,\n      \"tag\": \"JavaScript压缩库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1875,
+    "completion_tokens": 239,
+    "total_tokens": 2114
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a8c023139b80bded",
+  "created": 1770308713,
+  "finish_reason": "stop"
+}

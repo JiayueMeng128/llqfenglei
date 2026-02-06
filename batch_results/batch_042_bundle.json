@@ -1,0 +1,125 @@
+{
+  "batch_id": 42,
+  "timestamp": "2026-02-05T16:29:12.133397",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 955169955,
+      "name": "imskyleen/animate-ui",
+      "stars": 3320,
+      "enhanced_text": "Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects.\n\nVisit animate-ui.com to view the documentation.\nVisit our contributing guide to learn how to contribute.\nThis project follows a Code of Conduct to help create a welcoming community.\nPlease read CODE_OF_CONDUCT.md before contributing.\nLicensed under the MIT license.",
+      "tag": "React UI 组件库"
+    },
+    {
+      "id": 229827299,
+      "name": "ahmetb/kubectl-tree",
+      "stars": 3304,
+      "enhanced_text": "kubectl plugin to browse Kubernetes object hierarchies as a tree 🎄 (star the repo if you are using).",
+      "tag": "Kubernetes 命令行工具"
+    },
+    {
+      "id": 15085215,
+      "name": "UI5/openui5",
+      "stars": 3254,
+      "enhanced_text": "OpenUI5 lets you build enterprise-ready web applications, responsive to all devices, running on almost any browser of your choice.",
+      "tag": "企业级前端框架"
+    },
+    {
+      "id": 418086942,
+      "name": "ismartcoding/plain-app",
+      "stars": 3246,
+      "enhanced_text": "PlainApp is an open-source app that lets you securely manage your phone from a web browser. Access files, media, contacts, SMS, calls, and more through a simple, easy-to-use interface on your desktop.",
+      "tag": "移动设备远程管理"
+    },
+    {
+      "id": 11766620,
+      "name": "viliusle/miniPaint",
+      "stars": 3234,
+      "enhanced_text": "online image editor.",
+      "tag": "在线图像编辑器"
+    },
+    {
+      "id": 615439742,
+      "name": "xenova/whisper-web",
+      "stars": 3233,
+      "enhanced_text": "ML-powered speech recognition directly in your browser.\n\n> Experimental WebGPU support has been added to this branch (demo), if you'd like to run with GPU acceleration!\nhttps://github.com/xenova/whisper-web/assets/26504141/fb170d84-9678-41b5-9248-a112ecc74c27\n1. Clone the repo and install dependencies:\n> Firefox users need to change the  setting in  to  to enable Web Workers.",
+      "tag": "浏览器端AI推理"
+    },
+    {
+      "id": 3224614,
+      "name": "cocos2d/cocos2d-html5",
+      "stars": 3232,
+      "enhanced_text": "Cocos2d for Web Browsers. Built using JavaScript.\n\n[Cocos2d-html5][1] is a cross-platform 2D game engine written in JavaScript, based on [Cocos2d-X][2] and licensed under MIT.\nIt incorporates the same high level api as “Cocos2d JS-binding engine” and compatible with Cocos2d-X.\nIt currently supports canvas and WebGL renderer.\n#### Cocos2d-html5 has evolved to [Cocos Creator][11], new generation of Cocos game engine with a full featured editor and content creation friendly workflow. It supports all major platforms allowing games to be quickly released for the web, iOS, Android, Windows, Mac, and various mini-game platforms. A pure JavaScript-developed engine runtime is available on the web and mini-game platforms for better performance and smaller packages. On other native platforms, C++ is used to implement the underlying framework, providing greater operational efficiency. The latest repository is maintained in here [Engine of Cocos Creator][9].\n* Popular browsers:  Chrome 14+, Safari 5.0+, IE9+, Firefox 3.5+.\n* Mobile platforms: Mobile browsers,Facebook Instant Games and Mini Games.\n* Native App: Same piece of code can run on \"Cocos2d JS-Binding Engine\" without or with little modification.",
+      "tag": "HTML5游戏引擎"
+    },
+    {
+      "id": 29885833,
+      "name": "stefanbuck/awesome-browser-extensions-for-github",
+      "stars": 3220,
+      "enhanced_text": "A collection of awesome browser extensions for GitHub.\n\nInstalls: 113 | Stars: 79 | Last update: 2 Jun 2023\nRemoves clutter from your pull request by automatically marking as viewed files that aren't worth reviewing.\n\nInstalls: 39 | Stars: 8 | Last update: n/a\nNext level code navigation for GitHub.\n\nInstalls: 599 | Stars: 65 | Last update: n/a\nVisualize GitHub repos as d3 force-directed graphs. The extension gives you a quick overview of the size and composition of any repo.\n\nInstalls: 18 | Stars: 15 | Last update: 25 Apr 2022\n### CoderStats link for GitHub\nThe CoderStats link for GitHub Chrome extension displays a link to the CoderStats page for the currently displayed user or organization profile page on GitHub.\n\nInstalls: 13 | Stars: 20 | Last update: 2 May 2023\n### Contributors on GitHub\nShow the # of PRs and other contributors stats in the Issues/PRs tab. Can be helpful for maintainers that want to know if it's a contributor's first PR.\n\nInstalls: 6 | Stars: 467 | Last update: 1 Mar 2021\nDisplays size of each file, download link and an option of copying file contents directly to clipboard\n\nInstalls: 626 | Stars: 2071 | Last update: 3 Jun 2024\nEasily search GIPHY to add a GIF into any GitHub comment box.\n\nInstalls: 519 | Stars: 184 | Last update: 18 Jan 2024\n### Gifhub Pull Request\nFind the best GIFs for your awesome pull requests.\n\nInstalls: 136 | Stars: 22 | Last update: n/a\nQuickly browse the history of a file from any git repository.\n\nInstalls: 192 | Stars: 13534 | Last update: 13 Oct 2023\nGitHub provides a page that only shows diffs with a .diff at the end of the URL of the pull request. This browser extension makes it easier to view csv diffs by using daff on that page.\n\nInstalls: 34 | Stars: 4 | Last update: n/a\n### GitHub Code Folding\nCode folding - the ability to selectively hide and display sections of a code - is an invaluable feature in many text editors and IDEs. Now, developers can utilize that same style code-folding while poring over source code on the web in GitHub. Works for any type of indentation- spaces or tabs.\n\nInstalls: 104 | Stars: 289 | Last update: 25 Apr 2024\n### GitHub Custom Tab Size\nSet custom tab size for code view on GitHub.com\n\nInstalls: 558 | Stars: 69 | Last update: n/a\n### GitHub Diff Navigator\nEasily navigate through the changes in a file that has been edited on GitHub.\n\nInstalls: 3 | Stars: 19 | Last update: 24 Jun 2020\nA browser extension which gives different filetypes different icons on GitHub...",
+      "tag": "GitHub 扩展合集"
+    },
+    {
+      "id": 1079107863,
+      "name": "PleasePrompto/notebooklm-skill",
+      "stars": 3206,
+      "enhanced_text": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.\n\n## Installation\n### The simplest installation ever:\nWhen you first use the skill, it automatically:\n- Creates an isolated Python environment ()\n- Installs all dependencies including **Google Chrome**\n- Sets up browser automation with Chrome (not Chromium) for maximum reliability\n- Everything stays contained in the skill folder\n**Note:** The setup uses real Chrome instead of Chromium for cross-platform reliability, consistent browser fingerprinting, and better anti-detection with Google services\n\nInstallation • Quick Start • Why NotebookLM • How It Works • MCP Alternative\n## ⚠️ Important: Local Claude Code Only\n**This skill works ONLY with local Claude Code installations, NOT in the web UI.**\nThe web UI runs skills in a sandbox without network access, which this skill requires for browser automation. You must use Claude Code locally on your machine.\nWhen you tell Claude Code to \"search through my local documentation\", here's what happens:\n- **Massive token consumption**: Searching through documentation means reading multiple files repeatedly\n- **Inaccurate retrieval**: Searches for keywords, misses context and connections between docs\n- **Hallucinations**: When it can't find something, it invents plausible-sounding APIs\n- **Manual copy-paste**: Switching between NotebookLM browser and your editor constantly\nThis Claude Code Skill lets Claude Code chat directly with **NotebookLM** — Google's **source-grounded knowledge base** powered by Gemini 2.5 that provides intelligent, synthesized answers exclusively from your uploaded documents.\n**No more copy-paste dance**: Claude asks questions directly and gets answers straight back in the CLI. It builds deep understanding through automatic follow-ups, getting specific implementation details, edge cases, and best practices.\n## Why NotebookLM, Not Local RAG?\n| Approach | Token Cost | Setup Time | Hallucinations | Answer Quality |\n| **Feed docs to Claude** | 🔴 Very high (multiple file reads) | Instant | Yes - fills gaps | Variable retrieval |\n| **Web search** | 🟡 Medium | Instant | High - unreliable sources | Hit or miss |",
+      "tag": "浏览器自动化集成"
+    },
+    {
+      "id": 51937144,
+      "name": "plasma-umass/browsix",
+      "stars": 3192,
+      "enhanced_text": "Browsix is a Unix-like operating system for the browser.\n\nBrowsix - Bringing Unix to the Browser\nWhile standard operating systems like Unix make it relatively simple\nto build complex applications, web browsers lack the features that\nmake this possible.  This project is Browsix, a JavaScript-only\nframework that brings the essence of Unix to the browser. Browsix\nmakes core Unix features available to web applications (including\npipes, processes, signals, sockets, and a shared file system) and\nextends JavaScript runtimes for C, C++, Go, and Node.js programs so\nthey can run in a Unix-like environment within the browser. Browsix\nalso provides a POSIX-like shell that makes it easy to compose",
+      "tag": "浏览器内Unix内核"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 955169955,
+        "tag": "React UI 组件库"
+      },
+      {
+        "id": 229827299,
+        "tag": "Kubernetes 命令行工具"
+      },
+      {
+        "id": 15085215,
+        "tag": "企业级前端框架"
+      },
+      {
+        "id": 418086942,
+        "tag": "移动设备远程管理"
+      },
+      {
+        "id": 11766620,
+        "tag": "在线图像编辑器"
+      },
+      {
+        "id": 615439742,
+        "tag": "浏览器端AI推理"
+      },
+      {
+        "id": 3224614,
+        "tag": "HTML5游戏引擎"
+      },
+      {
+        "id": 29885833,
+        "tag": "GitHub 扩展合集"
+      },
+      {
+        "id": 1079107863,
+        "tag": "浏览器自动化集成"
+      },
+      {
+        "id": 51937144,
+        "tag": "浏览器内Unix内核"
+      }
+    ]
+  }
+}

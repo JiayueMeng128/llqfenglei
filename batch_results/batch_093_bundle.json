@@ -1,0 +1,125 @@
+{
+  "batch_id": 93,
+  "timestamp": "2026-02-05T16:53:49.776890",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 619909200,
+      "name": "TaxyAI/browser-extension",
+      "stars": 1262,
+      "enhanced_text": "Automate your browser with GPT-4.\n\n## Installing and Running\nCurrently this extension is only available through this GitHub repo. We'll release it on the Chrome Web Store after adding features to increase its usability for a non-technical audience. To build and install the extension locally on your machine, follow the instructions below.",
+      "tag": "浏览器AI自动化"
+    },
+    {
+      "id": 270403199,
+      "name": "michaljaz/webmc",
+      "stars": 1260,
+      "enhanced_text": "PoC Minecraft client written in Javascript (1.16.5 offline mode working).\n\n**Webmc is proof of concept minecraft client written in Javascript.** From web browser this client connects to websocket proxy and then to real minecraft server, so you can play minecraft in the browser.\nLive demo with no installation: https://webmc.js.org.",
+      "tag": "浏览器游戏客户端"
+    },
+    {
+      "id": 287839132,
+      "name": "nang-dev/hover-paywalls-browser-extension",
+      "stars": 1255,
+      "enhanced_text": "Hover is an open-sourced browser extension that bypasses paywalls and blocks ads.\n\n# Installation\n1. Download this repo as a ZIP file from GitHub.\n2. Unzip the file and you should have a folder named .\n3. In Chrome go to the extensions page ().\n4. Enable Developer Mode at the top right.\n5. Drag the  folder that is in  onto anywhere on the Chrome page to import it! (do not delete the folder afterwards)\n## Download from the Chrome Web Store (10,000+ Downloads + 5/5 Rating) (Down because Google does not allow bypassing paywalls):\n## https://chrome.google.com/webstore/detail/hover-paywall-bypasser/ajbennpkmbahpfdalicgaogjbfhngeok",
+      "tag": "内容解锁扩展"
+    },
+    {
+      "id": 45850581,
+      "name": "mozilla-mobile/focus-ios",
+      "stars": 1254,
+      "enhanced_text": "⚠️ Firefox Focus (iOS) has moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-ios.\n\n_Browse like no one’s watching. The new Firefox Focus automatically blocks a wide range of online trackers — from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won’t get followed by things like unwanted ads._\nWe encourage you to participate in this open source project. We love Pull Requests, Bug Reports, ideas, (security) code reviews or any kind of positive contribution. Please read the Community Participation Guidelines.\n* Chat:           See #focus-ios for general discussion\n* Bugs:           File a new bug • Existing bugs\nIf you're looking for a good way to get started contributing, check out some good first issues.\nWe also tag recommended bugs for contributions with help wanted.",
+      "tag": "隐私保护浏览器"
+    },
+    {
+      "id": 28561182,
+      "name": "caiiiycuk/js-dos",
+      "stars": 1251,
+      "enhanced_text": "The best API for running dos programs in browser.\n\nThe simplest API to run **DOS/Win** 9x programs in browser or node. js-dos provides full-featured DOS player that can be easily installed and used to get your DOS program up\nand running in browser quickly. js-dos provide many advanced features like multiplayer and cloud storage. All available features are enabled for any integration and free.\n* Works in **worker** or render thread\n* Support execution in Node and Browsers\n* Multiple backends: DOSBox, DOSBox-X\n* Mobile support (v8 - WIP, v7 - production)\n* Able to run very big games (like Diablo, etc.)",
+      "tag": "浏览器DOS模拟器"
+    },
+    {
+      "id": 943968048,
+      "name": "JustAdumbPrsn/Zen-Nebula",
+      "stars": 1248,
+      "enhanced_text": "A minimalist Glassmorphism based theme to elevate the UI of Zen browser.\n\nNebula is a minimal theme made for Zen Browser which adds a lot of new animations, glass-like blur, UI changes, and more. It is inspired by glassmorphism and minimal gradients.This is my personal userChrome which I made to personalize Zen to my own liking. ❤️If some of you don't like the design choices I made, you can edit the userChrome yourself if you know how to code, and if you don't, you can use ChatGPT to customize it as per your preference.\nIt is so crazy to me that Nebula has become one of the biggest mods for Zen Browser in such a short period of time! really appreciate it\n## 💫 Nebula with Sine Installation Guide\nFollow these steps to install and apply the **Nebula** theme to Zen Browser:\n- Go to Sine's Github and follow its installation process.\n- This includes downloading and setting up FX-Autoconfig using the auto installer or manual installation.",
+      "tag": "浏览器界面主题"
+    },
+    {
+      "id": 610913221,
+      "name": "zanllp/sd-webui-infinite-image-browsing",
+      "stars": 1247,
+      "enhanced_text": "A fast and powerful image/video/audio browser for SD-webui / ComfyUI / Fooocus / NovelAI / StableSwarmUI, featuring infinite scrolling and advanced search capabilities using image parameters. It also supports standalone operation.\n\n# Installation / Running\n## As an extension for SD-webui:\n1. Open the  tab in SD-webui.\n2. Select the  option.\n4. Click on the  button.\n5. Wait for the installation to complete and click on .\n## As a standalone program that runs using Python. (without SD-webui):\nRefer to Can the extension function without the web UI?\nIf you need to view images generated by ComfyUI/Fooocus/NovelAI, please refer to https://github.com/zanllp/sd-webui-infinite-image-browsing/issues/202.\nIf you need a Dockerfile, you can refer to this link.  https://github.com/zanllp/sd-webui-infinite-image-browsing/discussions/366\n## As a desktop application (without SD-webui and Python):\nThe executable version also supports ComfyUI/Fooocus/NovelAI.\nDownload and install the program from the  section on the right-hand side of the repository page.\nIf the antivirus detects a virus, it can be ignored as a false positive. There are two versions of the compiled version for Windows, with the pyinstaller version having a lower false positive rate.\nIf you need to compile it yourself, please refer to https://github.com/zanllp/sd-webui-infinite-image-browsing/blob/main/.github/workflows/tauri_app_build.yml.\n\nInstallation / Running\n#  Stable Diffusion webui Infinite Image Browsing\n### Software Support and Development Progress Overview\n| Software               | Support          | Provided by |\n| Stable Diffusion web UI| Supported        |  Built-in    |\n| Stable Diffusion web UI (Stealth)| Supported  (default: disabled)      |  Built-in    |\n| ComfyUI                | Partially supported |  Built-in    |\n| Fooocus                | Supported        |  Built-in    |\n| NovelAI                | Supported    |  Built-in    |\n| StableSwarmUI          | Supported    |  Built-in    |\n| Invoke.AI          | Supported    |  Built-in    |\n| Pixiv                  | Supported        |  pixiv_iib_plugin |\nIf you would like to support more software, please refer to: parsers or pixiv_iib_plugin\n### 🔥 Excellent Performance\n- Once caching is generated, images can be displayed in just a few milliseconds.",
+      "tag": "AI图像浏览器"
+    },
+    {
+      "id": 960899579,
+      "name": "glide-browser/glide",
+      "stars": 1247,
+      "enhanced_text": "An extensible and keyboard-focused web browser.",
+      "tag": "键盘操作浏览器"
+    },
+    {
+      "id": 606157889,
+      "name": "betterbrowser/arcfox",
+      "stars": 1242,
+      "enhanced_text": "Make your production flow.\n\n# What is ArcFox?\nArcFox is a pack of firefox improvements and modifications inspired by the appearance and some of the features of arc browser to firefox. Developed by a non-profit with the community of passionate browser enthusiats to let people experience a better firefox experience.\nPlease refer to the roadmap to check the development or our discord for helps and leaks :D",
+      "tag": "浏览器界面改造"
+    },
+    {
+      "id": 4172236,
+      "name": "gwatts/jquery.sparkline",
+      "stars": 1241,
+      "enhanced_text": "A plugin for the jQuery javascript library to generate small sparkline charts directly in the browser.\n\nThis jQuery plugin makes it easy to generate a number of different types\nof sparklines directly in the browser, using online a line of two of HTML\nThe plugin has no dependencies other than jQuery and works with all modern\nbrowsers and also Internet Explorer 6 and later (excanvas is not required\nSee the jQuery Sparkline project page\nfor live examples and documentation.\nReleased under the New BSD License",
+      "tag": "浏览器图表插件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 619909200,
+        "tag": "浏览器AI自动化"
+      },
+      {
+        "id": 270403199,
+        "tag": "浏览器游戏客户端"
+      },
+      {
+        "id": 287839132,
+        "tag": "内容解锁扩展"
+      },
+      {
+        "id": 45850581,
+        "tag": "隐私保护浏览器"
+      },
+      {
+        "id": 28561182,
+        "tag": "浏览器DOS模拟器"
+      },
+      {
+        "id": 943968048,
+        "tag": "浏览器界面主题"
+      },
+      {
+        "id": 610913221,
+        "tag": "AI图像浏览器"
+      },
+      {
+        "id": 960899579,
+        "tag": "键盘操作浏览器"
+      },
+      {
+        "id": 606157889,
+        "tag": "浏览器界面改造"
+      },
+      {
+        "id": 4172236,
+        "tag": "浏览器图表插件"
+      }
+    ]
+  }
+}

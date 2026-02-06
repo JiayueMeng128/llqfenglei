@@ -1,0 +1,16 @@
+{
+  "batch_id": 66,
+  "timestamp": "2026-02-05T16:46:00.575967",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 7813799,\n      \"tag\": \"移动设备流媒体服务\"\n    },\n    {\n      \"id\": 53579345,\n      \"tag\": \"远程桌面网关\"\n    },\n    {\n      \"id\": 10487363,\n      \"tag\": \"Qt桌面浏览器\"\n    },\n    {\n      \"id\": 18894771,\n      \"tag\": \"GitHub通知扩展\"\n    },\n    {\n      \"id\": 551312158,\n      \"tag\": \"Web组件库\"\n    },\n    {\n      \"id\": 75691991,\n      \"tag\": \"Laravel端到端测试框架\"\n    },\n    {\n      \"id\": 251604169,\n      \"tag\": \"嵌入式代码编辑器\"\n    },\n    {\n      \"id\": 543359001,\n      \"tag\": \"AI浏览器自动化\"\n    },\n    {\n      \"id\": 788088061,\n      \"tag\": \"自定义浏览器引擎\"\n    },\n    {\n      \"id\": 427706867,\n      \"tag\": \"Neovim文件浏览器扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1640,
+    "completion_tokens": 242,
+    "total_tokens": 1882
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-bdf0279286db79bb",
+  "created": 1770309913,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 81,
+  "timestamp": "2026-02-05T16:49:37.148010",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 99110692,\n      \"tag\": \"网页存档扩展\"\n    },\n    {\n      \"id\": 27718804,\n      \"tag\": \"CSS增强预处理器\"\n    },\n    {\n      \"id\": 4373698,\n      \"tag\": \"浏览器端包管理器\"\n    },\n    {\n      \"id\": 876463956,\n      \"tag\": \"隐私保护浏览器\"\n    },\n    {\n      \"id\": 31642967,\n      \"tag\": \"JavaScript加密库\"\n    },\n    {\n      \"id\": 393117769,\n      \"tag\": \"SVG画板库\"\n    },\n    {\n      \"id\": 61212242,\n      \"tag\": \"轻量级路由库\"\n    },\n    {\n      \"id\": 9672786,\n      \"tag\": \"预处理器构建工具\"\n    },\n    {\n      \"id\": 78135042,\n      \"tag\": \"浏览器安全漏洞演示\"\n    },\n    {\n      \"id\": 37339157,\n      \"tag\": \"以太坊轻钱包库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 241,
+    "total_tokens": 1236
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984ca202afa03f48c1a3ce4a264260c",
+  "created": 1770310173,
+  "finish_reason": "stop"
+}

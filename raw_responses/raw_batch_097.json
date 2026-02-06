@@ -1,0 +1,16 @@
+{
+  "batch_id": 97,
+  "timestamp": "2026-02-05T16:54:43.639030",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 4317381,\n      \"tag\": \"滚动交互库\"\n    },\n    {\n      \"id\": 62868230,\n      \"tag\": \"PWA兼容库\"\n    },\n    {\n      \"id\": 47003121,\n      \"tag\": \"无头浏览器框架\"\n    },\n    {\n      \"id\": 760722197,\n      \"tag\": \"AI网页自动化工具\"\n    },\n    {\n      \"id\": 74329993,\n      \"tag\": \"浏览器IDE\"\n    },\n    {\n      \"id\": 369991603,\n      \"tag\": \"后端SDK\"\n    },\n    {\n      \"id\": 142180965,\n      \"tag\": \"GPU性能检测库\"\n    },\n    {\n      \"id\": 229514441,\n      \"tag\": \"Web Worker工具库\"\n    },\n    {\n      \"id\": 164151,\n      \"tag\": \"Rails内容管理系统\"\n    },\n    {\n      \"id\": 94889537,\n      \"tag\": \"网页存档扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2373,
+    "completion_tokens": 235,
+    "total_tokens": 2608
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-8b38c336b9379ee4",
+  "created": 1770310464,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 20,
+  "timestamp": "2026-02-05T16:24:52.330505",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 89785877,
+      "name": "robinmoisson/staticrypt",
+      "stars": 7808,
+      "enhanced_text": "Password protect a static HTML page, decrypted in-browser in JS with no dependency. No server logic needed.\n\n### Installation\nStaticrypt is available through npm as a CLI, install with\nYou can then run it with . You can also install globally with  and then just call  from anywhere.\n> These examples will create a  file in the current directory (here's why). This file isn't secret and you don't need to protect it. You can prevent this by setting the  flag to  (a string).\nEncrypt  and create a  file (use  to change the output directory):\n#### Encrypt a file with the password in an environment variable\nSet your long password in the  environment variable ( files are supported):\n#### Encrypt multiple HTML files at once\nThis will put the HTML files in an  directory, created where you run the  command. Non-HTML files will be copied as-is from the input directory, so you can easily overwrite it with the encrypted directory if you want.\n#### Replace all the files in a folder with encrypted ones\n#### Get a shareable auto-decrypt link\nThe link contains the hashed password, that will auto-decrypt the file - you can include your file URL or leave blank. (⚠️ you should keep your  so the salt is the same each time you encrypt, or re-encrypting will invalidate the link):\n#### Pin the salt to use staticrypt in your CI or build step\nIf you want want the \"Remember-me\" or share features to work accross multiple pages or multiple successive deployment, the salt needs to stay the same (see why). If you run StatiCrypt in a CI step, you can pin the salt in two ways:\n- either commit the  config file - you can generate a random salt and config file on your local machine with:",
+      "tag": "静态页面加密库"
+    },
+    {
+      "id": 69316510,
+      "name": "weolar/miniblink49",
+      "stars": 7794,
+      "enhanced_text": "a lighter, faster browser kernel of blink to integrate HTML UI in your app. 一个小巧、轻量的浏览器内核，用来取代wke和libcef.\n\n# 特性 Features\n- 极致小巧的体积 (small size)\n- C++，C#，Delphi等语言调用 (support C++，C#，Delphi language to call)\n- 内嵌Nodejs，支持electron (with Nodejs, can run electron)\n- 随心所欲的定制功能、模拟环境 (simulate other browser environment)\n- 支持Windows xp、npapi (support windows xp and npapi)\n- 完善的HTML5支持，对各种前端库友好 (support HTML5, and friendly to front framework)\n- 关闭跨域开关后，可以使用各种跨域功能 (support cross domain)\n- 网络资源拦截，替换任意网站任意js为本地文件 (network intercept, you can replace any resource to local file)\n- headless模式，极大节省资源，适用于爬虫 (headless mode, be suitable for Web Crawler)\n\n# 简介 Abstract\nminiblink is a open source, one file, small browser widget base on chromium.\nBy using C interface, you can create a browser just some line code.\nmore information at http://miniblink.net\nminiblink是一个开源的、单文件、且目前已知的最小的基于chromium的，浏览器控件。\n通过其导出的纯C接口，几行代码即可创建一个浏览器控件。\n您可以通过官网http://miniblink.net 来获取更多的关于miniblink的信息。",
+      "tag": "嵌入式浏览器内核"
+    },
+    {
+      "id": 21251069,
+      "name": "feross/simple-peer",
+      "stars": 7784,
+      "enhanced_text": "📡 Simple WebRTC video, voice, and data channels.",
+      "tag": "WebRTC通信库"
+    },
+    {
+      "id": 109200851,
+      "name": "microsoft/azuredatastudio",
+      "stars": 7719,
+      "enhanced_text": "Azure Data Studio is a data management and development tool with connectivity to popular cloud and on-premises databases. Azure Data Studio supports Windows, macOS, and Linux, with immediate capability to connect to Azure SQL and SQL Server. Browse the extension library for more database support options including MySQL, PostgreSQL, and MongoDB.\n\n> Azure Data Studio will be retired on **February 28, 2026**.  Read more\nAzure Data Studio is a data management and development tool with connectivity to popular cloud and on-premises databases. Azure Data Studio supports Windows, macOS, and Linux, with immediate capability to connect to Azure SQL and SQL Server.  Browse the extension library for additional database support options including MySQL, PostgreSQL, and MongoDB.\n## **Download the latest Azure Data Studio release**\nPlease visit our download page for more specific installation instructions.\nCheck out the change log or release notes for additional details of what's in the each release.\nThe Azure Data Studio documentation includes complete details on getting started, connection quickstarts, and feature tutorials.\nYou can also find the latest release here.",
+      "tag": "数据库开发工具"
+    },
+    {
+      "id": 711976,
+      "name": "octokit/octokit.js",
+      "stars": 7682,
+      "enhanced_text": "The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno.\n\nInstall with npm/pnpm install octokit, or yarn add octokit\n> As we use conditional exports, you will need to adapt your  by setting .\n> See the TypeScript docs on package.json \"exports\".\n> See this helpful guide on transitioning to ESM from @sindresorhus\n**standalone minimal Octokit**: .\nThe  client can be used to send requests to GitHub's REST API and queries to GitHub's GraphQL API.\n**Example**: Get the username for the authenticated user.\n### Constructor options\nThe most commonly used options are\n\ndescription\nSetting a user agent is required for all requests sent to GitHub's Platform APIs. The user agent defaults to something like this: . It is recommend to set your own user agent, which will prepend the default one.\nSee Authentication below.\nSet to a personal access token unless you changed the  option.\nSee Authentication below.\nWhen using with GitHub Enterprise Server, set  to the root URL of the API. For example, if your GitHub Enterprise Server's hostname is , then set  to . Example\n\n## Features\n- **Complete**. All features of GitHub's platform APIs are covered.\n- **Prescriptive**. All recommended best practices are implemented.\n- **Universal**. Works in all modern browsers, Node.js, and Deno.\n- **Tested**. All libraries have a 100% test coverage.\n- **Typed**. All libraries have extensive TypeScript declarations.\n- **Decomposable**. Use only the code you need. You can build your own Octokit in only a few lines of code or use the underlying static methods. Make your own tradeoff between functionality and bundle size.\n- **Extendable**. A feature missing? Add functionalities with plugins, hook into the request or webhook lifecycle or implement your own authentication strategy.\nLoad octokit directly from esm.sh\nLoad octokit directly from esm.sh",
+      "tag": "GitHub API SDK"
+    },
+    {
+      "id": 5694513,
+      "name": "aws/aws-sdk-js",
+      "stars": 7647,
+      "enhanced_text": "AWS SDK for JavaScript in the browser and Node.js (End-of-Life as of 09/08/2025). The AWS SDK for JavaScript v3 in the browser and Node.js is available here: https://github.com/aws/aws-sdk-js-v3.\n\n## 🚫 End-of-support as of **September 8, 2025**\nThe AWS SDK for JavaScript v2 has reached [end-of-support][v2-end-of-support] on **September 8, 2025**.\nIt will no longer receive updates or releases. Previously published versions are available on npm at\n[aws-sdk][], and source code remains on GitHub at [aws/aws-sdk-js][].\nWe recommend that you migrate to [AWS SDK for JavaScript v3][v3-developer-guide], which has been GA\nsince December 2020. Here is [why and how you should use it][v3-recommended-blog]. You can try\nmigration scripts in [aws-sdk-js-codemod][] to migrate your application from v2 to v3.\nTo get help with your migration, please follow our general guidelines to\n[open an issue][v3-new-issue-migration].",
+      "tag": "云服务SDK"
+    },
+    {
+      "id": 60434915,
+      "name": "floccusaddon/floccus",
+      "stars": 7627,
+      "enhanced_text": ":cloud: Sync your bookmarks privately across browsers and devices.\n\n> Sync your bookmarks privately across browsers and devices\n- 🔖 Syncs your real, native browser bookmarks directly\n- ☸ Sync via Nextcloud Bookmarks, Linkwarden, KaraKeep, Google Drive, any Git server (like GitHub, Gitlab, Gitea, etc.) or any WebDAV-compatible service\n- ⚛ Use any browser that supports Web extensions (e.g. Firefox, Chrome, Edge, Opera, Brave, Vivaldi, ...; Safari not yet)\n- 📲 Install the floccus Android/iOS app to access your bookmarks on your phone (Most mobile browsers do not support floccus, sadly)\n- 💼 Create as many sync profiles as you need\n- 🚚 Control sync strategy (i.e. uni- or bidirectional), ⏳ sync interval and 📂 synced folder\n- 📦 Easily export your configuration\nThis is the SHA-256 fingerprint of the certificate used to sign the floccus APKs:\nIf you'd like to support the creation and maintenance of this software, please consider donating. :)",
+      "tag": "书签同步扩展"
+    },
+    {
+      "id": 625486047,
+      "name": "n4ze3m/page-assist",
+      "stars": 7515,
+      "enhanced_text": "Use your locally running AI models to assist you in your web browsing.\n\n## Installation\nPage Assist supports Chromium-based browsers like Chrome, Brave, and Edge, as well as Firefox.\nCheckout the Demo (v1.0.0):",
+      "tag": "AI助手浏览器扩展"
+    },
+    {
+      "id": 21611548,
+      "name": "SVG-Edit/svgedit",
+      "stars": 7483,
+      "enhanced_text": "Powerful SVG-Editor for your browser.\n\n**SVGEdit** is a fast, web-based, JavaScript-driven SVG drawing editor that\nworks in any modern browser. **SVGEdit** is based on a powerful SVG canvas **@svgedit/svgcanvas**\nSVGEdit is the most popular open source SVG editor. It was started more than 15 years ago by a fantastic team of developers. Unfortunately, the product was not maintained for quite a long time. We decided to give this tool a new life by refreshing many aspects.\nPlease let us know by creating an issue or a discussion if you wish to contribute.\nThanks to **Netlify**, you can access the following builds from your favorite browser:\n- Try SVGEdit V7 (master branch on github)\n- Try SVGEdit V7 (latest published version on npm)",
+      "tag": "SVG编辑器"
+    },
+    {
+      "id": 37201011,
+      "name": "ethereum/mist",
+      "stars": 7450,
+      "enhanced_text": "[DEPRECATED] Mist. Browse and use Ðapps on the Ethereum network.\n\n## Installation\nIf you want to install the app from a pre-built version on the release page, you can simply run the executable after download.\nFor updating, simply download the new version and copy it over the old one (keep a backup of the old one if you want to be sure).\n#### Linux .zip installs\nIn order to install from .zip files, please install  first:\nThe data folder for Mist depends on your operating system:\nFor development, a Meteor server assists with live reload and CSS injection.\nOnce a Mist version is released the Meteor frontend part is bundled using the  npm package to create pure static files.\nTo run mist in development you need:\n- Node.js  (use the preferred installation method for your OS)\n- Meteor javascript app framework\n- Yarn package manager",
+      "tag": "以太坊DApp浏览器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 89785877,
+        "tag": "静态页面加密库"
+      },
+      {
+        "id": 69316510,
+        "tag": "嵌入式浏览器内核"
+      },
+      {
+        "id": 21251069,
+        "tag": "WebRTC通信库"
+      },
+      {
+        "id": 109200851,
+        "tag": "数据库开发工具"
+      },
+      {
+        "id": 711976,
+        "tag": "GitHub API SDK"
+      },
+      {
+        "id": 5694513,
+        "tag": "云服务SDK"
+      },
+      {
+        "id": 60434915,
+        "tag": "书签同步扩展"
+      },
+      {
+        "id": 625486047,
+        "tag": "AI助手浏览器扩展"
+      },
+      {
+        "id": 21611548,
+        "tag": "SVG编辑器"
+      },
+      {
+        "id": 37201011,
+        "tag": "以太坊DApp浏览器"
+      }
+    ]
+  }
+}

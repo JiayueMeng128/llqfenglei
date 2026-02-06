@@ -1,0 +1,16 @@
+{
+  "batch_id": 45,
+  "timestamp": "2026-02-05T16:40:10.876594",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 481185579,\n      \"tag\": \"电子书阅读器\"\n    },\n    {\n      \"id\": 622876059,\n      \"tag\": \"终端Markdown浏览器\"\n    },\n    {\n      \"id\": 39774073,\n      \"tag\": \"跨平台本地存储\"\n    },\n    {\n      \"id\": 263157374,\n      \"tag\": \"JavaScript测试框架\"\n    },\n    {\n      \"id\": 1398628,\n      \"tag\": \"浏览器模拟测试库\"\n    },\n    {\n      \"id\": 61934962,\n      \"tag\": \"WebRTC二维码扫描\"\n    },\n    {\n      \"id\": 502586319,\n      \"tag\": \"隐私相册应用\"\n    },\n    {\n      \"id\": 628250345,\n      \"tag\": \"浏览器AI智能体\"\n    },\n    {\n      \"id\": 230036026,\n      \"tag\": \"浏览器爬虫引擎\"\n    },\n    {\n      \"id\": 27359938,\n      \"tag\": \"通配符匹配库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1322,
+    "completion_tokens": 242,
+    "total_tokens": 1564
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-9737eb02f4fc9fd8",
+  "created": 1770309598,
+  "finish_reason": "stop"
+}

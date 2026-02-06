@@ -1,0 +1,125 @@
+{
+  "batch_id": 44,
+  "timestamp": "2026-02-05T16:29:57.454361",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 899184149,
+      "name": "browserbase/mcp-server-browserbase",
+      "stars": 3106,
+      "enhanced_text": "Allow LLMs to control a browser with Browserbase and Stagehand.",
+      "tag": "浏览器自动化控制"
+    },
+    {
+      "id": 94629944,
+      "name": "dessant/search-by-image",
+      "stars": 3104,
+      "enhanced_text": "Browser extension for reverse image search, available for Chrome, Edge and Safari.",
+      "tag": "浏览器图像搜索扩展"
+    },
+    {
+      "id": 355522545,
+      "name": "kalcaddle/kodbox",
+      "stars": 3103,
+      "enhanced_text": "kodbox is a file manager for web. It is a newly designed product based on kodexplorer. It is also a web code editor, which allows you to develop websites directly within the web browser.You can run kodbox either online or locally,on Linux, Windows or Mac based platforms.\n\nMulti-cloud • Filemanager • Collaboration\n> kodbox is a file manager for web. It is also a web code editor, which allows you to develop websites directly within the web browser. Self-hosted file management system with muilt-cloud support. You can run kodbox either online or locally,on Linux, Windows or Mac based platforms. The only requirement is to have PHP 5 available.\n* 🚀 Private cloud disk/enterprise network disk like Windows experience\n* 🌟 Full support for private deployment, secure and controllable storage\n* 👁️‍🗨️ Online preview, editing and playback of hundreds of file formats, both office and entertainment\n* 🚀 Multi-storage fusion: support local disk, ftp, webdav, Alibaba Cloud OSS, Tencent Cloud COS, Qiniu, minio, S3 compatible protocol, etc.\n* 🔗 Easy sharing, efficient collaboration, fine-grained permission control",
+      "tag": "Web文件管理器"
+    },
+    {
+      "id": 153937474,
+      "name": "MaxBittker/sandspiel",
+      "stars": 3098,
+      "enhanced_text": "Creative cellular automata browser game.\n\n\"Imagine the cool phenomenon when the wind blows the falling leaves. This game simulates the phenomenon with powder (dots)!\" -DAN-BALL\nThis is a falling sand game built in rust (via wasm), webgl, and some JS glueing things together.\nYou can play online or read a longer post on the project\nThe goal was to produce an cellular automata environment that's interesting to play with and supports the sharing and forking of fun creations with other players.\nUltimately, I want the platform to support editing and uploading of your own elements via a programmable cellular automata API.\na successor to my previous efforts in javascript and lua\nFluid simulation code adopted from\nhttps://github.com/PavelDoGreat/WebGL-Fluid-Simulation",
+      "tag": "WebGL浏览器游戏"
+    },
+    {
+      "id": 8684805,
+      "name": "jscad/OpenJSCAD.org",
+      "stars": 3087,
+      "enhanced_text": "JSCAD is an open source set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code. It provides a quick, precise and reproducible method for generating 3D models, and is especially useful for creating ready-to-print 3D designs.\n\n# JSCAD (previously known as OpenJSCAD)\n>*JSCAD* is a set of modular, browser and command line tools for creating parametric 2D and 3D designs with JavaScript code.\nThere are many ways to use JSCAD:\nAn online version, self hostable web based ui, as CLI (command-line interface) for server-side computations with Node.js, as well as an experimental desktop app or individual Node.js packages!!\nThis repository is a monorepo (container of multiple packages and tools) maintained with Lerna-Lite",
+      "tag": "Web参数化CAD工具"
+    },
+    {
+      "id": 575485391,
+      "name": "gluon-framework/gluon",
+      "stars": 3074,
+      "enhanced_text": "A new framework for creating desktop apps from websites, using system installed browsers and NodeJS.",
+      "tag": "桌面应用跨平台框架"
+    },
+    {
+      "id": 19239509,
+      "name": "bcoin-org/bcoin",
+      "stars": 3065,
+      "enhanced_text": "Javascript bitcoin library for node.js and browsers.\n\n[![Build Status][circleci-status-img]][circleci-status-url]\n[![Coverage Status][coverage-status-img]][coverage-status-url]\n**Bcoin** is an alternative implementation of the Bitcoin protocol, written in\nJavaScript and C/C++ for Node.js.\nBcoin is well tested and aware of all known consensus rules. It is currently\nused in production as the consensus backend and wallet system for\n- Mining Backend (getblocktemplate support)",
+      "tag": "JavaScript加密货币库"
+    },
+    {
+      "id": 154541438,
+      "name": "gruns/ImmortalDB",
+      "stars": 3064,
+      "enhanced_text": ":nut_and_bolt: A relentless key-value store for the browser.",
+      "tag": "浏览器键值存储库"
+    },
+    {
+      "id": 12105498,
+      "name": "nicoespeon/gitgraph.js",
+      "stars": 3062,
+      "enhanced_text": "[ARCHIVED] A JavaScript library to draw pretty git graphs in the browser.\n\n## Getting started\nGitGraph.js codebase is a monorepo. Packages are released under  scope.\nAs a user, you're probably interested in one of the rendering libraries:\n- [gitgraph-js][gitgraph-js]\n- [gitgraph-react][gitgraph-react]\n- [gitgraph-node][gitgraph-node]\nYou'll find usage details in their README.\nAs a contributor, you might be interested in checking out [gitgraph-core][gitgraph-core]. It contains the core logic for rendering libraries to use.",
+      "tag": "浏览器数据可视化库"
+    },
+    {
+      "id": 125568868,
+      "name": "symfony/panther",
+      "stars": 3059,
+      "enhanced_text": "A browser testing and web crawling library for PHP and Symfony.\n\n**A browser testing and web scraping library for PHP and Symfony**\n*Panther* is a convenient standalone library to scrape websites and to run end-to-end tests **using real browsers**.\nPanther is super powerful. It leverages the W3C's WebDriver protocol to drive native web browsers such as Google Chrome and Firefox.\n* Report issues and send Pull Requests in the main Symfony repository\nMany of the wild cat species are highly threatened.\nIf you like this software, help save the (real) panthers by donating to the Panthera organization.",
+      "tag": "PHP浏览器测试库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 899184149,
+        "tag": "浏览器自动化控制"
+      },
+      {
+        "id": 94629944,
+        "tag": "浏览器图像搜索扩展"
+      },
+      {
+        "id": 355522545,
+        "tag": "Web文件管理器"
+      },
+      {
+        "id": 153937474,
+        "tag": "WebGL浏览器游戏"
+      },
+      {
+        "id": 8684805,
+        "tag": "Web参数化CAD工具"
+      },
+      {
+        "id": 575485391,
+        "tag": "桌面应用跨平台框架"
+      },
+      {
+        "id": 19239509,
+        "tag": "JavaScript加密货币库"
+      },
+      {
+        "id": 154541438,
+        "tag": "浏览器键值存储库"
+      },
+      {
+        "id": 12105498,
+        "tag": "浏览器数据可视化库"
+      },
+      {
+        "id": 125568868,
+        "tag": "PHP浏览器测试库"
+      }
+    ]
+  }
+}

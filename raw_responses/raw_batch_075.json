@@ -1,16 +1,16 @@
 {
   "batch_id": 75,
-  "timestamp": "2026-02-05T15:29:58.575324",
+  "timestamp": "2026-02-05T16:48:51.369198",
   "parse_success": true,
   "parse_error": null,
-  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 3082672,\n      \"tag\": \"jQuery插件库\"\n    },\n    {\n      \"id\": 564141286,\n      \"tag\": \"社交媒体扩展\"\n    },\n    {\n      \"id\": 118652595,\n      \"tag\": \"无头浏览器测试\"\n    },\n    {\n      \"id\": 4340323,\n      \"tag\": \"Web行为实验框架\"\n    },\n    {\n      \"id\": 370396971,\n      \"tag\": \"浏览器音频合成平台\"\n    },\n    {\n      \"id\": 4141506,\n      \"tag\": \"浏览器快捷键扩展\"\n    },\n    {\n      \"id\": 22472379,\n      \"tag\": \"HTML文档转换库\"\n    },\n    {\n      \"id\": 155305174,\n      \"tag\": \"浏览器大数据可视化\"\n    },\n    {\n      \"id\": 198628872,\n      \"tag\": \"实验性浏览器引擎\"\n    },\n    {\n      \"id\": 14976714,\n      \"tag\": \"Laravel浏览器检测包\"\n    }\n  ]\n}",
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 11469930,\n      \"tag\": \"游戏客户端模拟器\"\n    },\n    {\n      \"id\": 27195805,\n      \"tag\": \"字体引擎库\"\n    },\n    {\n      \"id\": 143921593,\n      \"tag\": \"P2P流媒体引擎\"\n    },\n    {\n      \"id\": 178741592,\n      \"tag\": \"Gmail界面优化扩展\"\n    },\n    {\n      \"id\": 124293504,\n      \"tag\": \"隐私保护与广告拦截扩展\"\n    },\n    {\n      \"id\": 98123131,\n      \"tag\": \"浏览器端图像压缩库\"\n    },\n    {\n      \"id\": 18456451,\n      \"tag\": \"iOS图片浏览器组件\"\n    },\n    {\n      \"id\": 34648097,\n      \"tag\": \"终端色彩工具库\"\n    },\n    {\n      \"id\": 2185527,\n      \"tag\": \"Canvas二维码生成库\"\n    },\n    {\n      \"id\": 1055738080,\n      \"tag\": \"防检测浏览器自动化平台\"\n    }\n  ]\n}",
   "usage": {
-    "prompt_tokens": 579,
-    "completion_tokens": 239,
-    "total_tokens": 818
+    "prompt_tokens": 1662,
+    "completion_tokens": 248,
+    "total_tokens": 1910
   },
   "model": "deepseek-v3.2",
-  "id": "msg_6984b776b55c32e7604ea3fa6d44b9a7",
-  "created": 1770305393,
+  "id": "msg_6984c9f3b605780d046a4340dcb7954c",
+  "created": 1770310120,
   "finish_reason": "stop"
 }

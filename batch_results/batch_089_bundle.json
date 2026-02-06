@@ -1,0 +1,125 @@
+{
+  "batch_id": 89,
+  "timestamp": "2026-02-05T16:52:26.422647",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 166713531,
+      "name": "Macro-Deck-App/Macro-Deck",
+      "stars": 1353,
+      "enhanced_text": "Macro Deck transforms your phone, tablet, or any device equipped with a modern internet browser into an efficient remote macro pad. With this tool, you can execute single or multi-step actions seamlessly with just a single tap.\n\n- Built in package manager (to download plugins and icon packs)",
+      "tag": "远程控制工具"
+    },
+    {
+      "id": 110955493,
+      "name": "QuintGao/GKPhotoBrowser",
+      "stars": 1346,
+      "enhanced_text": "iOS仿微信、今日头条等图片浏览器.\n\nGKPhotoBrowser是一个可高度自定义的图片、视频浏览器，支持多种显示、隐藏方式，支持自定义遮罩等\n如果在使用过程中遇到问题，请先检查使用的版本是否是最新版本（可在说明最上面的pod后面查看），如果不是最新版本，请先更新到最后版本，看看问题是否存在，如果依然存在，可提issue说明或加我QQ1094887059直接问我，最好能提供demo。\n** 3.1.0版本之后对项目部分代码进行了拆分，增加了GKPhotoBrowserConfigure配置类，升级后可按以下方式进行配置",
+      "tag": "移动端图片浏览器组件"
+    },
+    {
+      "id": 103385166,
+      "name": "ray-lothian/UserAgent-Switcher",
+      "stars": 1345,
+      "enhanced_text": "A User-Agent spoofer browser extension that is highly configurable.",
+      "tag": "浏览器扩展-用户代理伪装"
+    },
+    {
+      "id": 281976889,
+      "name": "gzuidhof/starboard-notebook",
+      "stars": 1339,
+      "enhanced_text": "In-browser literate notebooks.\n\nIn-browser literal notebook runtime used in **Starboard**.\nRead more about the project on the Starboard About page.\n* The **Starboard Website** front-page has some demo notebooks. This may not be the latest version available.\n* You can view the barebones demo, click the small button in the top right to create the initial cell. This link will always point to the latest version on NPM.",
+      "tag": "浏览器内笔记本文档"
+    },
+    {
+      "id": 678822546,
+      "name": "Textualize/textual-web",
+      "stars": 1334,
+      "enhanced_text": "Run TUIs and terminals in your browser.",
+      "tag": "浏览器终端模拟"
+    },
+    {
+      "id": 12897630,
+      "name": "gorhill/httpswitchboard",
+      "stars": 1330,
+      "enhanced_text": "Point & click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc.",
+      "tag": "浏览器扩展-网络请求拦截"
+    },
+    {
+      "id": 99437640,
+      "name": "truefedex/tv-bro",
+      "stars": 1328,
+      "enhanced_text": "Simple web browser for android optimized to use with TV remote.\n\nSimple web browser optimized to use with TV remote\n- use Android builtin web rendering engine (WebKit/Blink based)",
+      "tag": "Android电视浏览器"
+    },
+    {
+      "id": 2278307,
+      "name": "flatiron/flatiron",
+      "stars": 1326,
+      "enhanced_text": "framework components for node.js and the browser.\n\n## Installation\n\n### Installing NPM (Node Package Manager)\n\n### Installing Flatiron",
+      "tag": "JavaScript应用框架"
+    },
+    {
+      "id": 376269131,
+      "name": "Eugeny/tabby-web",
+      "stars": 1324,
+      "enhanced_text": "Tabby Web - an SSH/Telnet/Serial client in your browser.\n\n> At this time I don't have the time to work on  and won't be able to provide help or support for it. I'm still happy to merge any fixes/improvement PRs. :v:\nThis is the Tabby terminal, served as a web app. It also provides the config sync service for the Tabby app.\nTabby Web serves the Tabby Terminal as a web application while managing multiple config files, authentication, and providing TCP connections via a separate gateway service.\n- **Deployment Guide** - Complete guide for production deployment\n- **Connection Gateway** - For SSH/Telnet connections",
+      "tag": "浏览器SSH终端"
+    },
+    {
+      "id": 29913000,
+      "name": "wnr/element-resize-detector",
+      "stars": 1318,
+      "enhanced_text": "Optimized cross-browser resize listener for elements.\n\nInclude the script in the browser:\nThis will create a global function , which is the maker function that makes an element resize detector instance.\nflex: nonecallOnAddonAnimationStartoptions.idHandler.getdir=RTLuninstalluninstalluninstalluninstalllistenTowindow.getComputedStyle` instead of relying on the method being available in the global scope. This enables this library to be used in simulated browser environments such as jsdom.\n* Event-based solution for detecting attached/rendered events so that detached/unrendered elements can be listened to without polling\n* Now all changes that affects the offset size of an element are properly detected (such as padding and font-size).",
+      "tag": "DOM元素尺寸监听库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 166713531,
+        "tag": "远程控制工具"
+      },
+      {
+        "id": 110955493,
+        "tag": "移动端图片浏览器组件"
+      },
+      {
+        "id": 103385166,
+        "tag": "浏览器扩展-用户代理伪装"
+      },
+      {
+        "id": 281976889,
+        "tag": "浏览器内笔记本文档"
+      },
+      {
+        "id": 678822546,
+        "tag": "浏览器终端模拟"
+      },
+      {
+        "id": 12897630,
+        "tag": "浏览器扩展-网络请求拦截"
+      },
+      {
+        "id": 99437640,
+        "tag": "Android电视浏览器"
+      },
+      {
+        "id": 2278307,
+        "tag": "JavaScript应用框架"
+      },
+      {
+        "id": 376269131,
+        "tag": "浏览器SSH终端"
+      },
+      {
+        "id": 29913000,
+        "tag": "DOM元素尺寸监听库"
+      }
+    ]
+  }
+}

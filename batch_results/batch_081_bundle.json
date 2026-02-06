@@ -1,0 +1,125 @@
+{
+  "batch_id": 81,
+  "timestamp": "2026-02-05T16:49:37.148447",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 99110692,
+      "name": "dessant/web-archives",
+      "stars": 1498,
+      "enhanced_text": "Browser extension for viewing archived and cached versions of web pages, available for Chrome, Edge and Safari.",
+      "tag": "网页存档扩展"
+    },
+    {
+      "id": 27718804,
+      "name": "eqcss/eqcss",
+      "stars": 1493,
+      "enhanced_text": "EQCSS is a CSS Reprocessor that introduces Element Queries, Scoped CSS, a Parent selector, and responsive JavaScript to all browsers IE8 and up.",
+      "tag": "CSS增强预处理器"
+    },
+    {
+      "id": 4373698,
+      "name": "caolan/jam",
+      "stars": 1491,
+      "enhanced_text": "JavaScript package manager - using a browser-focused and RequireJS compatible repository.",
+      "tag": "浏览器端包管理器"
+    },
+    {
+      "id": 876463956,
+      "name": "za515217965/OKBrowser",
+      "stars": 1491,
+      "enhanced_text": "OKBrow指纹浏览器 Free anti fingerprint browser, 指纹浏览器, 隐私浏览器, 免费的web3空投专用指纹浏览器.",
+      "tag": "隐私保护浏览器"
+    },
+    {
+      "id": 31642967,
+      "name": "ricmoo/aes-js",
+      "stars": 1490,
+      "enhanced_text": "A pure JavaScript implementation of the AES block cipher and all common modes of operation for node.js or web browsers.",
+      "tag": "JavaScript加密库"
+    },
+    {
+      "id": 393117769,
+      "name": "antfu/drauu",
+      "stars": 1484,
+      "enhanced_text": "Headless SVG-based drawboard in browser.",
+      "tag": "SVG画板库"
+    },
+    {
+      "id": 61212242,
+      "name": "tj/react-enroute",
+      "stars": 1483,
+      "enhanced_text": "React router with a small footprint for modern browsers.",
+      "tag": "轻量级路由库"
+    },
+    {
+      "id": 9672786,
+      "name": "Subash/Prepros",
+      "stars": 1482,
+      "enhanced_text": "Compile almost any preprocessing language with live browser refresh.\n\nThis repository contains very old Prepros code for archival purposes. Please visit https://prepros.io for latest updates.",
+      "tag": "预处理器构建工具"
+    },
+    {
+      "id": 78135042,
+      "name": "anttiviljami/browser-autofill-phishing",
+      "stars": 1482,
+      "enhanced_text": "A simple demo of phishing by abusing the browser autofill feature.\n\nThis is a simple demonstration of form fields hidden from the user, but will be\nfilled anyways when using the browser form autofill feature, which poses a\nsecurity risk for users, unaware of giving their information to the website.\nHere's the demo in action on the Google Chrome Browser:\nIt works differently in some other browsers. For example:\n* In Safari, it will tell you all the data it is filling into the form, even",
+      "tag": "浏览器安全漏洞演示"
+    },
+    {
+      "id": 37339157,
+      "name": "Consensys/eth-lightwallet",
+      "stars": 1481,
+      "enhanced_text": "Lightweight JS Wallet for Node and the browser.\n\nA minimal ethereum javascript wallet.\nLightWallet is a HD wallet that can store your private keys encrypted in the browser to allow you to run Ethereum dapps even if you're not running a local Ethereum node. It uses [BIP32][] and [BIP39][] to generate an HD tree of addresses from a randomly generated 12-word seed.\nLightWallet is primarily intended to be a signing provider for the Hooked Web3 provider through the  module. This allows you to have full control over your private keys while still connecting to a remote node to relay signed transactions. Moreover, the  functions can be used to construct transactions when offline, for use in e.g. air-gapped coldwallet implementations.\nThe default BIP32 HD derivation path has been , but any HD path can be chosen.\nPlease note that LightWallet has not been through a comprehensive security review at this point. It is still experimental software, intended for small amounts of Ether to be used for interacting with smart contracts on the Ethereum blockchain. Do not rely on it to store larger amounts of Ether yet.\nThe  package contains  that can be included in an HTML page:\nThe file  exposes the global object  to the browser which has the two main modules  and .",
+      "tag": "以太坊轻钱包库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 99110692,
+        "tag": "网页存档扩展"
+      },
+      {
+        "id": 27718804,
+        "tag": "CSS增强预处理器"
+      },
+      {
+        "id": 4373698,
+        "tag": "浏览器端包管理器"
+      },
+      {
+        "id": 876463956,
+        "tag": "隐私保护浏览器"
+      },
+      {
+        "id": 31642967,
+        "tag": "JavaScript加密库"
+      },
+      {
+        "id": 393117769,
+        "tag": "SVG画板库"
+      },
+      {
+        "id": 61212242,
+        "tag": "轻量级路由库"
+      },
+      {
+        "id": 9672786,
+        "tag": "预处理器构建工具"
+      },
+      {
+        "id": 78135042,
+        "tag": "浏览器安全漏洞演示"
+      },
+      {
+        "id": 37339157,
+        "tag": "以太坊轻钱包库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 52,
+  "timestamp": "2026-02-05T16:41:56.766026",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1127001921,\n      \"tag\": \"Web应用工具\"\n    },\n    {\n      \"id\": 11671410,\n      \"tag\": \"前端性能库\"\n    },\n    {\n      \"id\": 100808958,\n      \"tag\": \"浏览器代理扩展\"\n    },\n    {\n      \"id\": 203938031,\n      \"tag\": \"Web应用工具\"\n    },\n    {\n      \"id\": 38794215,\n      \"tag\": \"JavaScript模块加载器\"\n    },\n    {\n      \"id\": 112378220,\n      \"tag\": \"Web实时编码环境\"\n    },\n    {\n      \"id\": 815891082,\n      \"tag\": \"浏览器扩展\"\n    },\n    {\n      \"id\": 99701166,\n      \"tag\": \"Web应用工具\"\n    },\n    {\n      \"id\": 366176025,\n      \"tag\": \"交互式学习应用\"\n    },\n    {\n      \"id\": 1405796,\n      \"tag\": \"iOS原生UI组件\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1420,
+    "completion_tokens": 235,
+    "total_tokens": 1655
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c8542377d9e1979c045ffe6c70fd",
+  "created": 1770309712,
+  "finish_reason": "stop"
+}

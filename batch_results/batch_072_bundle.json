@@ -1,0 +1,125 @@
+{
+  "batch_id": 72,
+  "timestamp": "2026-02-05T16:47:16.841334",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1093708164,
+      "name": "coder/ghostty-web",
+      "stars": 1725,
+      "enhanced_text": "Ghostty for the web with xterm.js API compatibility.",
+      "tag": "浏览器终端模拟"
+    },
+    {
+      "id": 113486284,
+      "name": "brave/brave-ios",
+      "stars": 1723,
+      "enhanced_text": "Brave iOS Browser.\n\nThe iOS codebase has moved to https://github.com/brave/brave-core\nThis respository will be archived in the future.",
+      "tag": "iOS移动浏览器"
+    },
+    {
+      "id": 2955224,
+      "name": "blueimp/JavaScript-Templates",
+      "stars": 1722,
+      "enhanced_text": "1KB lightweight, fast & powerful JavaScript templating engine with zero dependencies. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.\n\n1KB lightweight, fast & powerful JavaScript templating engine with zero\nCompatible with server-side environments like Node.js,\nmodule loaders like RequireJS or\nwebpack and all web browsers.\n\nInstall the **blueimp-tmpl** package with NPM:\nInclude the (minified) JavaScript Templates script in your HTML markup:\nAdd a script section with type **\"text/x-tmpl\"**, a unique **id** property and\nyour template definition as content:\n**\"o\"** (the lowercase letter) is a reference to the data parameter of the\ntemplate function (see the API section on how to modify this identifier).\nIn your application code, create a JavaScript object to use as data for the\nIn a real application, this data could be the result of retrieving a\nRender the result by calling the **tmpl()** method with the id of the template\nand the data object as arguments:\nThe following is an example how to use the JavaScript Templates engine on the\nserver-side with Node.js.",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 120834196,
+      "name": "ninoseki/mitaka",
+      "stars": 1720,
+      "enhanced_text": "A browser extension for OSINT search.\n\n## Features\n### Supported IoCs (Indicators of Compromise)\n| Name      | Desc.                       | E.g.                                         |\n| ANS       | ASN                         |                                     |\n| BTC       | BTC address                 |          |\n| CVE       | CVE number                  |                              |\n| Domain    | Domain name                 |                                  |\n| Email     | Email address               |                               |\n| ETH       | Ethereum address            |  |\n| GaPubID   | Google Adsense Publisher ID |                        |\n| GaTrackID | Google Analytics Tracker ID |                               |\n| Hash      | MD5, SHA1, SHA256           |            |\n| IP        | IPv4 address                |                                     |\n| URL       | URL                         |                          |\n### Supported Search Engines",
+      "tag": "OSINT情报搜索扩展"
+    },
+    {
+      "id": 497608,
+      "name": "coresmart/persistencejs",
+      "stars": 1719,
+      "enhanced_text": "persistence.js is an asynchronous Javascript database mapper library. You can use it in the browser, as well on the server (and you can share data models between them).",
+      "tag": "异步JavaScript ORM"
+    },
+    {
+      "id": 13765363,
+      "name": "FrDH/dotdotdot-js",
+      "stars": 1716,
+      "enhanced_text": "dotdotdot.js, advanced cross-browser ellipsis for multiple line content.\n\nDotdotdot is a javascript plugin for truncating multiple line content on a webpage.\nIt uses an ellipsis to indicate that there is more text than currently visible.\nOptionally, the plugin can keep a \"read more\" anchor visible at the end of the content, after the ellipsis.\nWhen using dotdotdot to truncate HTML, you don't need to worry about your HTML markup, the plugin knows its way around most elements.\nIt's responsive, so when resizing the browser, the ellipsis will update on the fly.\nNeed help? Have a look at the documentation.\nThe dotdotdot javascript plugin is licensed under the CC-BY-NC-4.0 license.\nYou can purchase a license if you want to use it in a commercial project.",
+      "tag": "多行文本截断库"
+    },
+    {
+      "id": 56238870,
+      "name": "samuelsimoes/chrome-extension-webpack-boilerplate",
+      "stars": 1713,
+      "enhanced_text": "A basic foundation boilerplate for rich Chrome Extensions using Webpack to help you write modular and modern Javascript code, load CSS easily and automatic reload the browser on code changes.\n\nA basic foundation boilerplate for rich Chrome Extensions using Webpack to help you write modular and modern Javascript code, load CSS easily and automatic reload the browser on code changes.\n_I'll assume that you already read the Webpack docs and the Chrome Extension docs._\n1. Check if your Node.js version is >= 6.\n5. Change the package's name and description on .\n6. Change the name of your extension on .\n8. Load your extension on Chrome following:",
+      "tag": "Chrome扩展Webpack样板"
+    },
+    {
+      "id": 147433436,
+      "name": "guybedford/es-module-shims",
+      "stars": 1711,
+      "enhanced_text": "Shims for new ES modules features on top of the basic modules support in browsers.",
+      "tag": "ES模块特性垫片"
+    },
+    {
+      "id": 202060742,
+      "name": "twilco/kosmonaut",
+      "stars": 1710,
+      "enhanced_text": "A web browser engine for the space age :rocket:.\n\nKosmonaut is a web browser engine created to serve as the vehicle for your journey across the world wide web.\n> The road to the stars is steep and dangerous.  But we're not afraid...space flights can't be stopped.\nSo far, not much.  Only a very limited subset of CSS is currently supported, so most web pages will not work.  However, given very basic HTML and CSS, Kosmonaut does render the right things — see Kosmonaut's rendering of this code, compared with that of Firefox:\nHere is a summary of things Kosmonaut can do, things I'm currently working on, and things that are towards the front of the todo list.\n- [x] Parse HTML and small subset of CSS into DOM and rules, cascade CSS and apply to DOM\n- [x] Layout and paint of normal flow, non-replaced block-level boxes.\n- [x] Support1 for abstract box layout with  and  properties\n- [x] Layout-tree-dump snapshot-based testing and auto-discovering ref-tests",
+      "tag": "Web浏览器引擎"
+    },
+    {
+      "id": 26687918,
+      "name": "dmester/jdenticon",
+      "stars": 1704,
+      "enhanced_text": "Javascript library for generating identicons. Running in the browser and on Node.js.",
+      "tag": "Identicon生成库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1093708164,
+        "tag": "浏览器终端模拟"
+      },
+      {
+        "id": 113486284,
+        "tag": "iOS移动浏览器"
+      },
+      {
+        "id": 2955224,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 120834196,
+        "tag": "OSINT情报搜索扩展"
+      },
+      {
+        "id": 497608,
+        "tag": "异步JavaScript ORM"
+      },
+      {
+        "id": 13765363,
+        "tag": "多行文本截断库"
+      },
+      {
+        "id": 56238870,
+        "tag": "Chrome扩展Webpack样板"
+      },
+      {
+        "id": 147433436,
+        "tag": "ES模块特性垫片"
+      },
+      {
+        "id": 202060742,
+        "tag": "Web浏览器引擎"
+      },
+      {
+        "id": 26687918,
+        "tag": "Identicon生成库"
+      }
+    ]
+  }
+}

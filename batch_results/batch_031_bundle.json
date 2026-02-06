@@ -1,0 +1,125 @@
+{
+  "batch_id": 31,
+  "timestamp": "2026-02-05T16:26:52.344345",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 16112842,
+      "name": "mholt/json-to-go",
+      "stars": 4622,
+      "enhanced_text": "Translates JSON into a Go type in your browser instantly (original).\n\nTranslates JSON into a Go type definition. Check it out!\nThis is a sister tool to curl-to-Go, which converts curl commands to Go code.\n- The script sometimes has to make some assumptions, so give the output a once-over.\n- In an array of objects, it is assumed that the first object is representative of the rest of them.\n- The output is indented, but not formatted. Use !\nContributions are welcome! Open a pull request to fix a bug, or open an issue to discuss a new feature or change.",
+      "tag": "代码生成工具"
+    },
+    {
+      "id": 86941132,
+      "name": "WorldBrain/Memex",
+      "stars": 4617,
+      "enhanced_text": "Browser extension to curate, annotate, and discuss the most valuable content and ideas on the web. As individuals, teams and communities.",
+      "tag": "浏览器扩展"
+    },
+    {
+      "id": 19901927,
+      "name": "browserify/browserify-handbook",
+      "stars": 4608,
+      "enhanced_text": "how to build modular applications with browserify.",
+      "tag": "模块打包工具"
+    },
+    {
+      "id": 306484159,
+      "name": "extension-js/extension.js",
+      "stars": 4602,
+      "enhanced_text": "🧩 The cross-browser extension framework.\n\n[npm-version-url]: https://www.npmjs.com/package/extension\n[npm-downloads-url]: https://www.npmjs.com/package/extension\n[action-image]: https://github.com/extension-js/extension.js/actions/workflows/ci.yml/badge.svg?branch=main&color=0971fe\n[action-url]: https://github.com/extension-js/extension.js/actions\n[discord-url]: https://discord.gg/v9h2RgeTSN\n[snyk-image]: https://snyk.io/test/github/extension-js/extension/badge.svg?color=0971fe\n[snyk-url]: https://snyk.io/test/github/extension-js/extension\n[![Version][npm-version-image]][npm-version-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![CI][action-image]][action-url] [![Discord][discord-image]][discord-url]\n> The cross-browser extension framework",
+      "tag": "扩展开发框架"
+    },
+    {
+      "id": 343654752,
+      "name": "Mzying2001/CefFlashBrowser",
+      "stars": 4582,
+      "enhanced_text": "Flash浏览器 / Flash Browser.",
+      "tag": "专用浏览器"
+    },
+    {
+      "id": 37319088,
+      "name": "johnste/finicky",
+      "stars": 4579,
+      "enhanced_text": "A macOS app for customizing which browser to start.",
+      "tag": "浏览器启动器"
+    },
+    {
+      "id": 2955178,
+      "name": "blueimp/JavaScript-MD5",
+      "stars": 4565,
+      "enhanced_text": "JavaScript MD5 implementation. Compatible with server-side environments like node.js, module loaders like RequireJS and all web browsers.\n\n## Description\nJavaScript MD5 implementation.\nCompatible with server-side environments like Node.js,\nmodule loaders like RequireJS or\nwebpack and all web browsers.\n\nInstall the **blueimp-md5** package with NPM:\nInclude the (minified) JavaScript MD5\nscript in your HTML markup:\nIn your application code, calculate the\nMD5 hash of a string by calling the **md5**\nmethod with the string as argument:\nThe following is an example how to use the JavaScript MD5 module on the\nserver-side with Node.js.",
+      "tag": "JavaScript库"
+    },
+    {
+      "id": 2692921,
+      "name": "CreateJS/SoundJS",
+      "stars": 4551,
+      "enhanced_text": "A Javascript library for working with Audio. It provides a consistent API for loading and playing audio on different browsers and devices. Currently supports WebAudio, HTML5 Audio, Cordova / PhoneGap, and a Flash fallback.\n\nSoundJS is a library to make working with audio on the web easier. It provides a consistent API for playing audio in\ndifferent browsers, including using a target plugin model to provide an easy way to provide additional audio plugins\nlike a Flash fallback (included, but must be used separately from the combined/minified version).\nA mechanism has been provided for easily tying in audio preloading to PreloadJS.\nBuilt by gskinner.com, and released for free under the MIT license, which means you can use it for almost any purpose\n(including commercial projects). We appreciate credit where possible, but it is not a requirement.\n* Find examples and more information at the SoundJS web site\n* Discuss, share projects, and interact with other users on reddit.",
+      "tag": "音频处理库"
+    },
+    {
+      "id": 490984887,
+      "name": "InfinityLoop1308/PipePipe",
+      "stars": 4531,
+      "enhanced_text": "An open-source Android app to let you browse YouTube and other services freely.\n\n## About this fork\nDue to differences in development philosophy, I forked NewPipe in early 2022 and began independent development based on it.\nThis means that PipePipe neither receives updates from NewPipe nor pushes updates to NewPipe. They have become two separate projects. Issues that occur in NewPipe don't necessarily happen in PipePipe, and changes made in NewPipe may not be adopted by PipePipe. In contrast, forks like Tubular track the latest version of NewPipe and develop based on it.\nMaking a hard fork allows us to effectively address issues with quick fixes and maintain frequent feature updates.",
+      "tag": "移动端浏览器"
+    },
+    {
+      "id": 366844495,
+      "name": "stackblitz/webcontainer-core",
+      "stars": 4522,
+      "enhanced_text": "Dev environments. In your web app.\n\nThis repository serves as a central hub for the GitHub issues and bug reports related to WebContainers for easier tracking and communication.\nFor documentation, visit **webcontainers.io** where you'll find detailed information about WebContainers and the WebContainer API.\n- Docs: StackBlitz classic editor\n- Chat with our team on Discord",
+      "tag": "Web容器运行时"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 16112842,
+        "tag": "代码生成工具"
+      },
+      {
+        "id": 86941132,
+        "tag": "浏览器扩展"
+      },
+      {
+        "id": 19901927,
+        "tag": "模块打包工具"
+      },
+      {
+        "id": 306484159,
+        "tag": "扩展开发框架"
+      },
+      {
+        "id": 343654752,
+        "tag": "专用浏览器"
+      },
+      {
+        "id": 37319088,
+        "tag": "浏览器启动器"
+      },
+      {
+        "id": 2955178,
+        "tag": "JavaScript库"
+      },
+      {
+        "id": 2692921,
+        "tag": "音频处理库"
+      },
+      {
+        "id": 490984887,
+        "tag": "移动端浏览器"
+      },
+      {
+        "id": 366844495,
+        "tag": "Web容器运行时"
+      }
+    ]
+  }
+}

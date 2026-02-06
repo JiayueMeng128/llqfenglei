@@ -1,0 +1,125 @@
+{
+  "batch_id": 87,
+  "timestamp": "2026-02-05T16:52:05.312085",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 494727853,
+      "name": "ComicSparks/wax",
+      "stars": 1379,
+      "enhanced_text": "A comic browser，support Android / iOS / MacOS / Windows / Linux.",
+      "tag": "跨平台漫画浏览器"
+    },
+    {
+      "id": 51061236,
+      "name": "epidemian/snake",
+      "stars": 1378,
+      "enhanced_text": "A silly snake game on the browser URL.\n\nPlay the classic snake game on a URL!\nThis is how the game should look:\nNote that the game might be unplayable on some browsers for different reasons, like the browser not showing the full URL, or not allowing it to change so frequently, or escaping the Braille characters used to display the game.\nAlthough this game is kind of a joke, bug reports, ideas and pull requests are always welcome!",
+      "tag": "URL游戏脚本"
+    },
+    {
+      "id": 44635242,
+      "name": "liaohuqiu/android-UCToast",
+      "stars": 1376,
+      "enhanced_text": "Demonstrate how UC browser display a system overlay view in any platform above API level 9.",
+      "tag": "安卓悬浮窗示例"
+    },
+    {
+      "id": 121137018,
+      "name": "airtap/airtap",
+      "stars": 1376,
+      "enhanced_text": "Run TAP unit tests in 1789+ browsers.\n\n## Getting Started\nYou'll need an entry point for your tests like . For a complete example see . If you already have an entry point, go ahead and run it with:\nOut of the box, this will launch the default browser on your system. To keep the browser open and automatically reload when you make changes to your test files, run:\nIn order to run more browsers, create a  file in your working directory, containing at least one provider and browser. For example:\nProviders discover browsers on a particular platform or remote service. In the above example, [][airtap-system] finds browsers installed on your machine which Airtap then matches against the specified . Providers are npm packages that must be installed separately from the main  package. So that would be:\nYou can include multiple providers and let Airtap find the best matching browser(s):\nYou can also match browsers by provider:\nAirtap, providers and browsers are tied together by manifests. They define the name and other metadata of browsers. You can see these manifests by running  or  which is short for . For example:\nAirtap can match browsers on any manifest property, with the exception of  which exists to customize the browser behavior. Options are specific to a provider. For example, the  provider supports disabling headless mode and setting custom command-line arguments:\nFor more information on the  field, see Configuration.\n## Available Providers\n| **Package**                              | **Description**                                    |\n| [][airtap-system]         | Locally installed browsers on Linux, Mac & Windows |\n| [][airtap-playwright] | Playwright (headless Chromium, FF and WebKit)      |\n| [][airtap-sauce]           | Remote browsers in Sauce Labs                      |",
+      "tag": "跨浏览器测试框架"
+    },
+    {
+      "id": 87784593,
+      "name": "JiongXing/PhotoBrowser",
+      "stars": 1375,
+      "enhanced_text": "Elegant photo browser in Swift. 图片与视频浏览器。.\n\n使用Xcode的包管理器添加本仓库URL。\n把本仓库下载到你本地，然后把文件夹下的文件夹整个拖入Xcode，勾选拷贝文件选项即可，没有其它第三方依赖。\n> 以下代码取自项目Example例子工程，更详细完整的代码请打开例子工程查看，下文是其关键代码的讲解。\n#### 1.先实例化一个图片浏览器对象。\n注意每次打开图片浏览，都应该重新实例化（重新实例化的开销很小，不必担心）。\n因考虑到数据源有可能是在浏览过程中变化的，所以JXPhotoBrowser框架（以下简称'框架'）将会在适当时机调用闭包动态获取当前用户的数据源数量，类似的机制。\n框架的项视图(展示单张图片的View)是复用的，由最多3个视图重复使用来实现无限数量的图片浏览。\n在每个项视图需要被刷新时，闭包将会被调用，用户应当在此时更新对应数据源的视图展示。\n框架默认实现并使用了作为项视图，用户也可以自由定制项视图，更多细节在下文介绍。\n有一个视图，用户只需要对其加载图片即可正常使用。\n#### 4.指定打开图片浏览器时定位到哪一页。\n所赋的值应当在用户数据源的范围内，如数据源共有10项，则允许范围是。\n浏览器主类是一个，支持导航栏，也支持模态。\n无参调用方法的时候，默认使用了模态打开一个不带导航栏的图片浏览器。\n用户可自由编写自己的转场动画，也可以使用框架已实现的三种动画。",
+      "tag": "Swift图片浏览器库"
+    },
+    {
+      "id": 20046426,
+      "name": "obsidianforensics/hindsight",
+      "stars": 1374,
+      "enhanced_text": "Browser forensics tool for Google Chrome (and other Chromium-based browsers).",
+      "tag": "浏览器取证工具"
+    },
+    {
+      "id": 855713680,
+      "name": "Benexl/yt-x",
+      "stars": 1373,
+      "enhanced_text": "Browse youtube from your terminal.",
+      "tag": "终端YouTube客户端"
+    },
+    {
+      "id": 140771377,
+      "name": "Moustachauve/cookie-editor",
+      "stars": 1372,
+      "enhanced_text": "A powerful browser extension to create, edit and delete cookies.\n\n### Install on Opera\nFind this extension on the Opera Extensions site.\n\n## Description\nCookie-Editor is designed to have a simple to use interface that let you do most standard cookie operations quickly. It is ideal for developing and testing web pages.\nYou can easily create, edit and delete a cookie for the current page that you are visiting.\nThere is also a handy button to mass delete all the cookies for the current page.\nCookie-Editor is available for:\nIt should be possible to install it on any webkit browser, but keep in mind that only the previous five browsers are officially supported.\nCookie-Editor is available on mobile devices with an interface optimised for touchscreens:\n- Firefox for Android\n- Edge for Android and iOS\n\n## Installation\n\n### Install on Google Chrome\nFind this extension on the Chrome Web Store.\n\n### Install on Firefox\nFind this extension on the Firefox Add-ons site.\n\n### Install on Safari\nCookie-Editor is available for both Mac and iOS. It has been tested on Mac, iPhone and iPad.\nFind this extension on the App Store.\n\n### Install on Microsoft Edge\nFind this extension on the Microsoft Store.",
+      "tag": "Cookie管理扩展"
+    },
+    {
+      "id": 32997960,
+      "name": "stewdio/beep.js",
+      "stars": 1367,
+      "enhanced_text": "Beep is a JavaScript toolkit for building browser-based synthesizers.\n\nCreate a synthesizer with one line of code:\nOr plink away on the demo synth: http://beepjs.com.\nTap the pulsing Play button for a\nBeep accepts input from MIDI controller keyboards via the brand new\nWeb MIDI API. (Just so we’re clear, this is\nvery awesome ;) You’ll need either Chrome 42 or Chrome 43+. For Chrome 42\nyou must enable the Web MIDI API manually by visiting\n__chrome://flags/#enable-web-midi__ and clicking __Enable__. For Chrome 43 and",
+      "tag": "Web音频合成库"
+    },
+    {
+      "id": 346424381,
+      "name": "fingerprintjs/BotD",
+      "stars": 1367,
+      "enhanced_text": "Free bot detection library that runs in the browser. Detects automation tools and frameworks. No server required, runs 100% on the client. MIT license, no usage restrictions.",
+      "tag": "客户端机器人检测库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 494727853,
+        "tag": "跨平台漫画浏览器"
+      },
+      {
+        "id": 51061236,
+        "tag": "URL游戏脚本"
+      },
+      {
+        "id": 44635242,
+        "tag": "安卓悬浮窗示例"
+      },
+      {
+        "id": 121137018,
+        "tag": "跨浏览器测试框架"
+      },
+      {
+        "id": 87784593,
+        "tag": "Swift图片浏览器库"
+      },
+      {
+        "id": 20046426,
+        "tag": "浏览器取证工具"
+      },
+      {
+        "id": 855713680,
+        "tag": "终端YouTube客户端"
+      },
+      {
+        "id": 140771377,
+        "tag": "Cookie管理扩展"
+      },
+      {
+        "id": 32997960,
+        "tag": "Web音频合成库"
+      },
+      {
+        "id": 346424381,
+        "tag": "客户端机器人检测库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 30,
+  "timestamp": "2026-02-05T16:26:36.787456",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 468168223,\n      \"tag\": \"HTTP客户端模拟\"\n    },\n    {\n      \"id\": 9815120,\n      \"tag\": \"HTML5游戏引擎\"\n    },\n    {\n      \"id\": 1778731,\n      \"tag\": \"浏览器日志监控\"\n    },\n    {\n      \"id\": 427384949,\n      \"tag\": \"Canvas富文本编辑器\"\n    },\n    {\n      \"id\": 744617272,\n      \"tag\": \"视频广告屏蔽扩展\"\n    },\n    {\n      \"id\": 352160885,\n      \"tag\": \"Wasm网页应用\"\n    },\n    {\n      \"id\": 12018530,\n      \"tag\": \"用户代理解析库\"\n    },\n    {\n      \"id\": 1590408,\n      \"tag\": \"实时全栈框架\"\n    },\n    {\n      \"id\": 931243,\n      \"tag\": \"浏览器指纹追踪\"\n    },\n    {\n      \"id\": 30484966,\n      \"tag\": \"终端网页应用\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1613,
+    "completion_tokens": 236,
+    "total_tokens": 1849
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c4bc1cf28747c4cd68bdaa2e11bb",
+  "created": 1770308793,
+  "finish_reason": "stop"
+}

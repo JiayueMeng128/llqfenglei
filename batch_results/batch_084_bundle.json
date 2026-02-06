@@ -1,0 +1,125 @@
+{
+  "batch_id": 84,
+  "timestamp": "2026-02-05T16:50:35.823354",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 309830112,
+      "name": "amandaghassaei/gpu-io",
+      "stars": 1444,
+      "enhanced_text": "A GPU-accelerated computing library for running physics simulations and other GPGPU computations in a web browser.",
+      "tag": "WebGPGPU计算库"
+    },
+    {
+      "id": 67946944,
+      "name": "hyperledger-labs/blockchain-explorer",
+      "stars": 1442,
+      "enhanced_text": "Explorer is a simple, powerful utility to browse activity on the underlying blockchain network.\n\n# Quick start (using Docker)\n* **Note(for v2.0.0 and above):**\nThe following docker images are automatically pulled from **GHCR instead of Docker Hub** when starting docker-compose.\n* Hyperledger Explorer ghcr repository\n* Hyperledger Explorer PostgreSQL ghcr repository\n* **Note(for v1.1.8 and below):**\nThe following docker images are automatically pulled from Docker Hub when starting docker-compose.\n* Hyperledger Explorer docker repository\n* Hyperledger Explorer PostgreSQL docker repository\n## Start Hyperledger Fabric network\nThis guide assumes that you've already started the test network by following Hyperledger Fabric official tutorial.\n* Create a new directory (e.g. )\n* Copy the following files from the repository\n- docker-compose.yaml\n- examples/net1/connection-profile/test-network.json",
+      "tag": "区块链浏览器工具"
+    },
+    {
+      "id": 390541506,
+      "name": "ulixee/hero",
+      "stars": 1440,
+      "enhanced_text": "The web browser built for scraping.",
+      "tag": "网页爬虫浏览器"
+    },
+    {
+      "id": 472962423,
+      "name": "lukeaschenbrenner/TxtNet-Browser",
+      "stars": 1440,
+      "enhanced_text": "An app that lets you browse the web over SMS.\n\n### Browse the Web over SMS, no WiFi or Mobile Data required!\n> Please see this discussion post for updates on the status of this app's development.\nTextNet Browser is an Android app that allows anyone around the world to browse the web without a mobile data connection! It uses SMS as a medium of transmitting HTTP requests to a server where a pre-parsed HTML response is compressed using Google's Brotli compression algorithm and encoded using a custom Base-114 encoding format (based on Basest). All media content, JavaScript, and CSS are removed from the page, but websites that require JavaScript will still render and display. Only HTTP GET requests are implemented.\nThe app also contains TxtNet Server, a background service that enables your own phone, using its primary phone number and a Wi-Fi/data connection, to process requests by any other phones that don't have an internet connection. This means that if you have a phone that has internet access and SMS, you can host your own server without any technical knowledge at the press of a button! See \"Server Hosting\" below for setup instructions.\n### See the **releases page** for an APK download of the TxtNet Browser client.\nTxtNet Browser is currently compatible with **Android 4.4 (KitKat) and up** (yes, your old phone can still install it!)\nA Google Play and F-Droid release is planned, but with low priority.\n> ❗ **If you are a first-time user**, note that there is no public phone number at this time. This means to use this app, you must have a **second phone** connected to the internet with its own phone number.",
+      "tag": "SMS网关浏览器"
+    },
+    {
+      "id": 1021622,
+      "name": "akdubya/dustjs",
+      "stars": 1439,
+      "enhanced_text": "Asynchronous templates for the browser and node.js.\n\nI like Mustache and variants but none of them offers quite what I need.\nUse Dust if you want these things:\n* extended Mustache/ctemplate syntax",
+      "tag": "JavaScript模板引擎"
+    },
+    {
+      "id": 942672211,
+      "name": "lanxiuyun/lazyeat",
+      "stars": 1432,
+      "enhanced_text": "Lazyeat（懒人手势）｜手势隔空控制，比划就行！Lazyeat is a touch-free controller for use while eating! Don't want greasy hands while watching shows or browsing the web during meals? You can pause videos/full screen/switch videos just by gesturing to the camera!",
+      "tag": "手势控制扩展"
+    },
+    {
+      "id": 11170365,
+      "name": "fergiemcdowall/search-index",
+      "stars": 1426,
+      "enhanced_text": "A persistent, network resilient, full text search library for the browser and Node.js.",
+      "tag": "全文搜索库"
+    },
+    {
+      "id": 20490942,
+      "name": "krasimir/deb.js",
+      "stars": 1425,
+      "enhanced_text": "Minimalistic JavaScript library for debugging in the browser.\n\n* groups your  statements and place them in a proper context\n* displays stack traces, passed arguments and execution time\nAdd  at the top of your page. Before every other script file.\nAdd  After the definition of your functions.\nOpen your console. You should see something like that:",
+      "tag": "浏览器调试库"
+    },
+    {
+      "id": 3125454,
+      "name": "icecoder/ICEcoder",
+      "stars": 1421,
+      "enhanced_text": "Browser code editor awesomeness.",
+      "tag": "Web代码编辑器"
+    },
+    {
+      "id": 295117653,
+      "name": "raindropio/app",
+      "stars": 1421,
+      "enhanced_text": "Source code of web app and browser extensions.\n\nMono repo for Raindrop.io web app, browser extension and desktop app\nBe sure to run  before calling any commands below",
+      "tag": "书签管理工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 309830112,
+        "tag": "WebGPGPU计算库"
+      },
+      {
+        "id": 67946944,
+        "tag": "区块链浏览器工具"
+      },
+      {
+        "id": 390541506,
+        "tag": "网页爬虫浏览器"
+      },
+      {
+        "id": 472962423,
+        "tag": "SMS网关浏览器"
+      },
+      {
+        "id": 1021622,
+        "tag": "JavaScript模板引擎"
+      },
+      {
+        "id": 942672211,
+        "tag": "手势控制扩展"
+      },
+      {
+        "id": 11170365,
+        "tag": "全文搜索库"
+      },
+      {
+        "id": 20490942,
+        "tag": "浏览器调试库"
+      },
+      {
+        "id": 3125454,
+        "tag": "Web代码编辑器"
+      },
+      {
+        "id": 295117653,
+        "tag": "书签管理工具"
+      }
+    ]
+  }
+}

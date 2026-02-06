@@ -1,0 +1,125 @@
+{
+  "batch_id": 66,
+  "timestamp": "2026-02-05T16:46:00.576394",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 7813799,
+      "name": "fyhertz/spydroid-ipcamera",
+      "stars": 1953,
+      "enhanced_text": "A powerful and funny android app. that streams the camera and microphone of your phone to your browser or to VLC.\n\n* Spydroid is a little app. that *streams the camera and microphone of your phone to your browser or to VLC !*\n* It is *a fun app for pulling off pranks*: you can remotly trigger funny sounds on your phone or toggle its flash.\n* **Developers, start by reading this to find out how streaming is achieved in Spydroid.**\n* Check out the feature list to see what Spydroid is capable of :) And If you have questions, check out the FAQ.\n* If you enjoyed Spydroid, or its source code, please rate the app on Google Play, I would really appreciate :) And if you go and like the facebook page, you will be rewarded with all my gratitude :p\n* The stream can be directly read by VLC which is great because VLC is a very powerful tool, for example *you can really easily record the stream in a file*. [FAQ See the FAQ to find out how].\n* You can enable/disable sound or video streaming\n* The resolution, the bitrate and the framerate of the stream can be configured... Two video encoders are available for the video streaming: H.263 and H.264. For sound streaming AMR and AAC are available.\n* The flash can be controlled remotly !",
+      "tag": "移动设备流媒体服务"
+    },
+    {
+      "id": 53579345,
+      "name": "cedrozor/myrtille",
+      "stars": 1953,
+      "enhanced_text": "A native HTML4 / HTML5 Remote Desktop Protocol and SSH client.\n\n## Features\n- HTTP(S) to RDP and SSH gateway (new in version 2.0.0)\n- Hyper-V VM direct connection\n- Multi-factor authentication (MFA)\n- Active Directory integration (management of hosts)\n- Session sharing (collaborative mode)\n- Start remote programs from their URLs\n- File transfer (local and roaming accounts)\n- PDF Virtual Printer\n- HTML4 and HTML5 support\n- PNG, JPEG and WebP compression\n- Realtime connection-info\n- On-screen- console, logfile, debug-info\n- On-screen keyboard (multiple languages)\n- REST APIs (i.e.: hide connection info from the browser, tracks connections, monitor remote sessions, etc.)",
+      "tag": "远程桌面网关"
+    },
+    {
+      "id": 10487363,
+      "name": "OtterBrowser/otter-browser",
+      "stars": 1950,
+      "enhanced_text": "Otter Browser aims to recreate the best aspects of the classic Opera (12.x) UI using Qt5.\n\n***A browser controlled by the user, not vice-versa***\n**Otter Browser** aims to recreate the best aspects of **Opera 12** and to revive its spirit. We are focused on providing the powerful features power users want while keeping the browser fast and lightweight. We also learned from history and decided to release the browser under the GNU GPL v3.\nPlanned features are listed in the *TODO* file. Details on already implemented features are available in the *CHANGELOG* file. If you have an idea that has not yet been proposed or rejected, feel free to open a new issue.\nYou can either compile Otter Browser from source or use pre-compiled binaries.\nTo build Otter Browser, you will need the following dependencies: **Qt 5.15.0** (or newer), **OpenSSL 1.0** (or newer, depending on your Qt version), **GStreamer 1.0** (or newer) and codecs, and **CMake 3.7.0** (or newer). At the root of the directory where the source code is stored, execute these commands:\nDetailed instructions are available in the *INSTALL.md* file in the root of the repository.",
+      "tag": "Qt桌面浏览器"
+    },
+    {
+      "id": 18894771,
+      "name": "sindresorhus/notifier-for-github",
+      "stars": 1943,
+      "enhanced_text": "Browser extension - Get notified about new GitHub notifications.\n\nChecks for new GitHub notifications every minute, shows the number of notifications you have, and shows desktop notifications as well.\n[link-chrome]: https://chrome.google.com/webstore/detail/notifier-for-github/lmjdlojahmbbcodnpecnjnmlddbkjhnn 'Version published on Chrome Web Store'\n[link-firefox]: https://addons.mozilla.org/en-US/firefox/addon/notifier-for-github/ 'Version published on Mozilla Add-ons'\n[][link-chrome] [][link-chrome] also compatible with [][link-chrome] [][link-chrome] [][link-chrome]\n[][link-firefox] [][link-firefox]\n- Notification count in the toolbar icon.",
+      "tag": "GitHub通知扩展"
+    },
+    {
+      "id": 551312158,
+      "name": "hellof2e/quark-design",
+      "stars": 1938,
+      "enhanced_text": "Browser-native component library, framework-agnostic, base on web components.(企业级 H5 UI 组件库，无框架，即插即用。).\n\n## Features\n🚀 Cross framework: Any front-end framework can be used.\n❤️ Lightweight: Crafted with minimalistic Code design.\n⚡️ Fast: Native HTML/CSS/JS build.\nFor full documentation, visit https://quark-ecosystem.github.io/quarkd-docs.",
+      "tag": "Web组件库"
+    },
+    {
+      "id": 75691991,
+      "name": "laravel/dusk",
+      "stars": 1937,
+      "enhanced_text": "Laravel Dusk provides simple end-to-end testing and browser automation.",
+      "tag": "Laravel端到端测试框架"
+    },
+    {
+      "id": 251604169,
+      "name": "antonmedv/codejar",
+      "stars": 1936,
+      "enhanced_text": "An embeddable code editor for the browser 🍯.\n\n## Features\n* Lightweight (**2.45 kB** only)\n* Preserves indentation on a new line\n* Adds closing brackets, quotes\n* Indents line with the **Tab** key\n* Supports **undo**/**redo**\n\n## Getting Started",
+      "tag": "嵌入式代码编辑器"
+    },
+    {
+      "id": 543359001,
+      "name": "nat/natbot",
+      "stars": 1935,
+      "enhanced_text": "Drive a browser with GPT-3.\n\nHere's a demo: https://twitter.com/natfriedman/status/1575631194032549888\n- Make a recorder to collect human feedback and do better few-shot\n- Let the agent use multiple tabs and switch between them",
+      "tag": "AI浏览器自动化"
+    },
+    {
+      "id": 788088061,
+      "name": "face-hh/webx",
+      "stars": 1935,
+      "enhanced_text": "An alternative for the World Wide Web - browse websites such as buss://yippie.rizz made in HTML, CSS and Lua. Custom web browser, custom HTML rendering engine, custom search engine, and more.",
+      "tag": "自定义浏览器引擎"
+    },
+    {
+      "id": 427706867,
+      "name": "nvim-telescope/telescope-file-browser.nvim",
+      "stars": 1924,
+      "enhanced_text": "File Browser extension for telescope.nvim.",
+      "tag": "Neovim文件浏览器扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 7813799,
+        "tag": "移动设备流媒体服务"
+      },
+      {
+        "id": 53579345,
+        "tag": "远程桌面网关"
+      },
+      {
+        "id": 10487363,
+        "tag": "Qt桌面浏览器"
+      },
+      {
+        "id": 18894771,
+        "tag": "GitHub通知扩展"
+      },
+      {
+        "id": 551312158,
+        "tag": "Web组件库"
+      },
+      {
+        "id": 75691991,
+        "tag": "Laravel端到端测试框架"
+      },
+      {
+        "id": 251604169,
+        "tag": "嵌入式代码编辑器"
+      },
+      {
+        "id": 543359001,
+        "tag": "AI浏览器自动化"
+      },
+      {
+        "id": 788088061,
+        "tag": "自定义浏览器引擎"
+      },
+      {
+        "id": 427706867,
+        "tag": "Neovim文件浏览器扩展"
+      }
+    ]
+  }
+}

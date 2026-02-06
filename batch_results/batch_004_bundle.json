@@ -1,0 +1,125 @@
+{
+  "batch_id": 4,
+  "timestamp": "2026-02-05T16:21:24.777925",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1200050,
+      "name": "ariya/phantomjs",
+      "stars": 29496,
+      "enhanced_text": "Scriptable Headless Browser.",
+      "tag": "无头浏览器"
+    },
+    {
+      "id": 698041,
+      "name": "caolan/async",
+      "stars": 28210,
+      "enhanced_text": "Async utilities for node and the browser.\n\nAsync is a utility module which provides straight-forward, powerful functions for working with asynchronous JavaScript. Although originally designed for use with Node.js and installable via , it can also be used directly in the browser.  An ESM/MJS version is included in the main  package that should automatically be used with compatible bundlers such as Webpack and Rollup.\nA pure ESM version of Async is available as .\n*For Async v1.5.x documentation, go HERE*",
+      "tag": "JavaScript异步工具"
+    },
+    {
+      "id": 283211901,
+      "name": "yuliskov/SmartTube",
+      "stars": 27955,
+      "enhanced_text": "Browse media content with your own rules on Android TV.\n\n### Installation (Xiaomi devices with Chinese firmware)\nXiaomi's **Chinese firmware** might block the installation **of the beta version**. The international firmware is not affected. Solutions:\n1. Use SmartTube's **stable version** instead (**recommended**)\n2. Use the international firmware for your device\n3. (if your device is from 2020 or before) You can do a factory reset and then install SmartTube beta before doing any system updates. You can then safely update your system, SmartTube should continue working.\nThe app has a built-in updater. You only need to follow the installation procedure **once**. A few seconds after launching SmartTube, it will notify you if there is any update and also show a changelog. You can disable automatic update checks or manually update in the settings under \"about\".\nIf the installation fails, either your **disk space is full** or the update didn't download correctly; clear up space and try updating again (_Settings > About > Check for updates_).\nSmartTube requires Android 4.3 or above. It does not work on non-Android devices (incl. LG or Samsung TVs). On unsupported TVs, you can use a TV stick or TV box. Though this app technically runs on smartphones and tablets, it is not optimized for such and offers no official support!\nIt has been successfully tested on TVs, TV boxes and TV sticks that are based on Android, including:\n- Android TVs & Google TVs (e.g. Philips, Sony)\n- Chromecast with Google TV & TVs with _Chromecast built-in_\n- Amazon FireTV stick (all generations)\n- TV boxes running Android (many cheap chinese no-name boxes)\n\n## Installation\n> video of the installation (note: download url changed to  or )\n**Do not** download SmartTube from any **app store**, APK websites or blogs; these were uploaded by other people and may contain malware or ads. SmartTube is not officially published on any app store. Sadly, the Google PlayStore does not allow ad-free Youtube apps using unofficial APIs.\nThere is a **beta release** (recommended) and a **stable release**. Beta gets new features and bugfixes faster than the stable release.\nYou can use either of the following methods to install the app:\n- (**Easiest**) Install Downloader by AFTVnews on your Android TV, open it and enter  or , then read, understand and confirm the security prompts. (You can also enter **79015** (for beta) or **28544** (for stable), but this requires an extra step to install the AFTVnews Downloader browser addon if you haven't already...",
+      "tag": "Android电视应用"
+    },
+    {
+      "id": 1254497,
+      "name": "codemirror/codemirror5",
+      "stars": 27228,
+      "enhanced_text": "In-browser code editor (version 5, legacy).\n\n### Installation\nEither get the zip file with\nthe latest version, or make sure you have Node",
+      "tag": "浏览器代码编辑器"
+    },
+    {
+      "id": 90356372,
+      "name": "ArchiveBox/ArchiveBox",
+      "stars": 26758,
+      "enhanced_text": "🗃 Open source self-hosted web archiving. Takes URLs/browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more...\n\nInstall Docker on your system (if not already installed).\nDownload the docker-compose.yml file into a new empty directory (can be anywhere).\nmkdir -p ~/archivebox/data && cd ~/archivebox\n# Read and edit docker-compose.yml options as-needed after downloading\ncurl -fsSL 'https://docker-compose.archivebox.io' > docker-compose.yml\nRun the initial setup to create an admin user (or set ADMIN_USER/PASS in docker-compose.yml)\ndocker compose run archivebox init --setup\nNext steps: Start the server then login to the Web UI http://127.0.0.1:8000 ⇢ Admin.\n# completely optional, CLI can always be used without running a server\n# docker compose run [-T] archivebox [subcommand] [--help]\ndocker compose run archivebox add 'https://example.com'\ndocker compose run archivebox help\nFor more info, see Install: Docker Compose in the Wiki. ➡️\nSee below for more usage examples using the CLI, Web UI, or filesystem/SQL/Python to manage your archive.\ndocker run  (macOS/Linux/Windows)\n\nInstall Docker on your system (if not already installed).\nCreate a new empty directory and initialize your collection (can be anywhere).\nmkdir -p ~/archivebox/data && cd ~/archivebox/data\ndocker run -v $PWD:/data -it archivebox/archivebox init --setup\nOptional: Start the server then login to the Web UI http://127.0.0.1:8000 ⇢ Admin.\ndocker run -v $PWD:/data -p 8000:8000 archivebox/archivebox\n# completely optional, CLI can always be used without running a server\n# docker run -v $PWD:/data -it [subcommand] [--help]\ndocker run -v $PWD:/data -it archivebox/archivebox help\nFor more info, see Install: Docker Compose in the Wiki. ➡️\nSee below for more usage examples using the CLI, Web UI, or filesystem/SQL/Python to manage your archive.\nbash auto-setup script  (macOS/Linux)\n\nInstall Docker on your system (optional, highly recommended but not required).\nRun the automatic setup script.\ncurl -fsSL 'https://get.archivebox.io' | bash\nFor more info, see Install: Bare Metal in the Wiki. ➡️\nSee below for more usage examples using the CLI, Web UI, or filesystem/SQL/Python to manage your archive.\nSee setup.sh for the source code of the auto-install script.\nSee \"Against curl | sh as an install method\" blog post for my thoughts on the shortcomings of this install method.\n#### 🛠&nbsp; Package Manager Setup\npip (macOS/Linux/BSD)\n\nInstall Python >= v3.10 and Node >= v18 on your system (if not already installed).\n\nInstall the ArchiveBox package using pip3 (or uvx)...",
+      "tag": "自托管网页归档"
+    },
+    {
+      "id": 30638861,
+      "name": "fingerprintjs/fingerprintjs",
+      "stars": 26420,
+      "enhanced_text": "The most advanced free and open-source browser fingerprinting library.",
+      "tag": "浏览器指纹库"
+    },
+    {
+      "id": 312262,
+      "name": "philc/vimium",
+      "stars": 25974,
+      "enhanced_text": "The hacker's browser.\n\n# Vimium - The Hacker's Browser\nVimium is a browser extension that provides keyboard-based navigation and control of the web in the\nTo install from source, see here.\nVimium's Options page can be reached via a link on the help dialog (type ) or via the button next",
+      "tag": "浏览器键盘扩展"
+    },
+    {
+      "id": 317757,
+      "name": "Modernizr/Modernizr",
+      "stars": 25690,
+      "enhanced_text": "Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser.\n\n- Read this file in Portuguese-BR here\n- Read this file in Indonesian here\n- Read this file in Spanish here\n- Read this file in Swedish here\n- Read this file in Kannada here\n- Our Website is outdated and broken, please DO NOT use it (https://modernizr.com) but rather build your modernizr version from npm.",
+      "tag": "浏览器特性检测库"
+    },
+    {
+      "id": 935604638,
+      "name": "Fosowl/agenticSeek",
+      "stars": 24927,
+      "enhanced_text": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account).",
+      "tag": "本地化AI代理"
+    },
+    {
+      "id": 609416865,
+      "name": "nextai-translator/nextai-translator",
+      "stars": 24845,
+      "enhanced_text": "基于 ChatGPT API 的划词翻译浏览器插件和跨平台桌面端应用    -    Browser extension and cross-platform desktop application for translation based on ChatGPT API.\n\n# How to use\n1. It offers three modes: translation, polishing and summarization.\n2. Our tool allows for mutual translation, polishing and summarization across 55 different languages.\n3. Streaming mode is supported!\n4. It allows users to customize their translation text.\n6. Text-to-Speech (TTS)\n7. Available on all platforms (Windows, macOS, and Linux) for both browsers and Desktop\n8. Support screenshot translation\n9. Support for vocabulary books, as well as support for generating memory aids based on the words in the vocabulary books\n10. Supports both OpenAI and Azure OpenAI Service at the same time\n-   (required) Apply for an OpenAI API key here or Azure OpenAI Service API Key\n-   (optional) If you cannot access OpenAI, you can use the OpenAI API Proxy.\n\n# Installation\n\n### Install Manually\n1. Download the installation package ending in  from the Latest Release page.\n2. Double click the downloaded file to install it.\n3. If prompted as unsafe, you can click on  ->  to proceed with the installation.\n\n### Install Manually\n1. Go to the Latest Release page and download the corresponding chip's  installation package. Note: Use aarch64 version for Apple Silicon machines and run  command below.\n2. Double click the downloaded file to install it.\n-   \"NextAI Translator\" can’t be opened because the developer cannot be verified.\n-   Click the  button, then go to the  ->  page, click the  button, and then click the  button in the pop-up window. After that, there will be no more pop-up warnings when opening . 🎉\n-   If you cannot find the above options in , or get error prompts such as broken files with Apple Silicon machines. Open  and enter the following command (you may need to enter a password halfway through), then restart :\n-   If you encounter a permission prompt every time you open it, or if you cannot perform a shortcut translation, please go to  ->  ->  to remove NextAI Translator, and then re-add NextAI Translator.",
+      "tag": "AI划词翻译扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1200050,
+        "tag": "无头浏览器"
+      },
+      {
+        "id": 698041,
+        "tag": "JavaScript异步工具"
+      },
+      {
+        "id": 283211901,
+        "tag": "Android电视应用"
+      },
+      {
+        "id": 1254497,
+        "tag": "浏览器代码编辑器"
+      },
+      {
+        "id": 90356372,
+        "tag": "自托管网页归档"
+      },
+      {
+        "id": 30638861,
+        "tag": "浏览器指纹库"
+      },
+      {
+        "id": 312262,
+        "tag": "浏览器键盘扩展"
+      },
+      {
+        "id": 317757,
+        "tag": "浏览器特性检测库"
+      },
+      {
+        "id": 935604638,
+        "tag": "本地化AI代理"
+      },
+      {
+        "id": 609416865,
+        "tag": "AI划词翻译扩展"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 88,
+  "timestamp": "2026-02-05T16:52:10.208982",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 86702842,
+      "name": "wavebox/waveboxapp",
+      "stars": 1366,
+      "enhanced_text": "Wavebox, the revolutionary and feature-rich Chromium browser that's built for productive working across Google Workspaces, Microsoft Teams, ClickUp, Monday, Atlassian, Asana, AirTable, Slack, and every other web app you use to get work done.",
+      "tag": "基于Chromium的工作浏览器"
+    },
+    {
+      "id": 12617171,
+      "name": "jordwest/news-feed-eradicator",
+      "stars": 1363,
+      "enhanced_text": "A browser extension that deletes your news feed and replaces it with a nice quote.\n\nInstall Firefox Add-on\n## Contributing to News Feed Eradicator\nFor *bugs only*, please use the issue tracker.\n\nInstall Chrome Extension",
+      "tag": "浏览器内容过滤扩展"
+    },
+    {
+      "id": 24239833,
+      "name": "sindresorhus/is-online",
+      "stars": 1362,
+      "enhanced_text": "Check if the internet connection is up.\n\n> Check if the internet connection is up\nWorks in Node.js and the browser *(with a bundler)*.\nIn the browser, there is already , but it's useless as it only tells you if there's a local connection, and not whether the internet is accessible.\n- Works in modern browsers when bundled (requires  API support)",
+      "tag": "网络连接检测库"
+    },
+    {
+      "id": 80326656,
+      "name": "mmozeiko/RcloneBrowser",
+      "stars": 1358,
+      "enhanced_text": "Simple cross platform GUI for rclone.\n\n**WARNING: This project is not longer active or maintaned.**\n**Initially I created it only because rclone mount did not work in the beginning. Now mount on Windows works fine, so this project is not useful for me anymore.**\n**I suggest to try out rclone built-in web based GUI instead**\n[![Travis CI Build Status][img1]][1] [![AppVeyor Build Status][img2]][2] [![Downloads][img3]][3] [![Release][img4]][4] [![License][img5]][5]\nSimple cross platfrom GUI for rclone command line tool.\nSupports Windows, macOS and GNU/Linux.\n* Allows to browse and modify any rclone remote, including encrypted ones\n* Uses same configuration file as rclone, no extra configuration required\n* Supports custom location and encryption for  configuration file",
+      "tag": "Rclone跨平台GUI"
+    },
+    {
+      "id": 256300799,
+      "name": "ttalvitie/browservice",
+      "stars": 1358,
+      "enhanced_text": "Browservice: Browse the modern web on historical browsers.\n\n# Browservice: Browser as a Service\nA web \"proxy\" server that enables browsing the modern web on historical browsers. It works by rendering the browser viewport into images, which are then shown by a JavaScript application running on the client browser.\nAs some of the users may have noticed, I (@ttalvitie) have already greatly fallen behind in responding to the suggestions and problems in the issues section. The situation now (and for the foreseaable future) is the following: the time I have available for developing Browservice further is very limited (due to work, other projects and other hobbies). Thus my main focus will be regularly providing up-to-date builds with latest Chromium versions (because it is critical for security) and fixing the most critical bugs. Developing new features and improvements will unfortunately have to be put on the back burner: I might add new features occasionally, but very irregularly and mostly based on my own needs as a user. I remind that Browservice is open source and anyone can build and distribute improved or modified versions of it. Thank you in advance for your understanding.\n2025-11-04: Browservice 0.9.12.1 has been released.\n2025-07-13: Browservice 0.9.12.0 has been released.\n2024-12-01: Browservice 0.9.11.0 has been released.\n2024-09-09: Browservice 0.9.10.0 has been released.\n2024-06-27: Browservice 0.9.9.2 has been released. Starting from this release, the binaries for the patched CEF distribution used for building Browservice are also distributed with the release; this makes it possible to build modified versions of Browservice without having to build CEF/Chromium from scratch.\n2024-01-25: Browservice 0.9.9.0 has been released. This release adds support for three new command line arguments:  for making exceptions to SSL/TLS certificate checking,  for hiding the control bar (useful with kiosk software) and  that makes it possible to disable the client back/forward button forwarding feature that may cause compatibility issues with some clients.",
+      "tag": "服务端渲染Web代理"
+    },
+    {
+      "id": 913574546,
+      "name": "sauravpanda/BrowserAI",
+      "stars": 1358,
+      "enhanced_text": "Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser.\n\n### Run Production-Ready LLMs Directly in Your Browser\nSimple • Fast • Private • Open Source\n> 🎉 **Featured Project**: Check out Browseragent.dev - A no-code AI Agent builder powered by BrowserAI with unlimited executions! Build your own AI agents in minutes.\n| Demo | Description | Try It |\n| **Chat** | Multi-model chat interface | chat.browserai.dev |",
+      "tag": "浏览器端本地LLM"
+    },
+    {
+      "id": 104543536,
+      "name": "reiinakano/fast-style-transfer-deeplearnjs",
+      "stars": 1355,
+      "enhanced_text": "Demo of in-browser Fast Neural Style Transfer with deeplearn.js library.",
+      "tag": "浏览器端神经网络演示"
+    },
+    {
+      "id": 68707338,
+      "name": "ascoders/gaea-editor",
+      "stars": 1354,
+      "enhanced_text": "Design websites in your browser. A smart web editor!\n\n## Quick start\nAnd then, it's easy to use:\n- For vue - gaea-editor-vue, thanks CharlieLau.\n## Add custom component to the drag menu\nYou can add any react components to the drag menu, through the following line of code:\n>  support , , , , . And there must be at least one component to set  that can be used as outer container.\n> Generally speaking, with  concat is ok, because the component   offered is a container.\nAdd  to each component props, to let the editor know how to edit it visualizations:\ngaea-editor provides several built-in type editing props. If you need to expand it, you can refer to custom plugin.\n- : which props to edit. EX:   .\n- : If exist, will appear in the form label to prompt the user.\nThe following are the built-in types:\nSuitable for any string editing scene.\nSuitable for any number editing scene.\nIn many cases, it is suggested that  and  be set to the same value.",
+      "tag": "浏览器内网页可视化编辑器"
+    },
+    {
+      "id": 1139936006,
+      "name": "npmx-dev/npmx.dev",
+      "stars": 1354,
+      "enhanced_text": "a fast, modern browser for the npm registry.",
+      "tag": "NPM专用浏览器"
+    },
+    {
+      "id": 38978941,
+      "name": "NeutroniumCore/Neutronium",
+      "stars": 1353,
+      "enhanced_text": "🚀 Build .NET desktop applications using HTML, CSS and javascript.\n\nWhat is Neutronium?\n* Neutronium is a library to create **.NET desktop applications** using **HTML, CSS** and **javascript**.\n* Neutronium uses **MVVM pattern** exactly the same way as WPF application.\n* Neutronium provides bindings with **Vue.js** and **Knockout.js** to build powerful HTML5 UI.\n* Use all the **power of the javascript stack** to build .NET desktop applications.\n* Architecture Neutronium application **just like standard WPF** application.\n* **Compatible** with popular **MVVM libraries** such as MVVM Light Toolkit and reactiveUi\n* Use **standard javascript frameworks** to build UI\n* **Easy to set-up**:\n* **Solution template** available for a quick start\n* **Use javascript framework cli tools** to use the same tool chain as web developmenet taking chance of tools such as live reload.\n* **Reuse** ViewModel designed for WPF with a different View Engine.\n* Build UI on a 100% **Open Source Stack**\n* Create an application from scratch\n* Migrate an existing WPF MVVM application to Neutronium",
+      "tag": ".NET WebView桌面框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 86702842,
+        "tag": "基于Chromium的工作浏览器"
+      },
+      {
+        "id": 12617171,
+        "tag": "浏览器内容过滤扩展"
+      },
+      {
+        "id": 24239833,
+        "tag": "网络连接检测库"
+      },
+      {
+        "id": 80326656,
+        "tag": "Rclone跨平台GUI"
+      },
+      {
+        "id": 256300799,
+        "tag": "服务端渲染Web代理"
+      },
+      {
+        "id": 913574546,
+        "tag": "浏览器端本地LLM"
+      },
+      {
+        "id": 104543536,
+        "tag": "浏览器端神经网络演示"
+      },
+      {
+        "id": 68707338,
+        "tag": "浏览器内网页可视化编辑器"
+      },
+      {
+        "id": 1139936006,
+        "tag": "NPM专用浏览器"
+      },
+      {
+        "id": 38978941,
+        "tag": ".NET WebView桌面框架"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 51,
+  "timestamp": "2026-02-05T16:41:51.780548",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1650371,\n      \"tag\": \"JavaScript模板引擎\"\n    },\n    {\n      \"id\": 74861972,\n      \"tag\": \"XHR拦截代理库\"\n    },\n    {\n      \"id\": 715367684,\n      \"tag\": \"浏览器自动化工具\"\n    },\n    {\n      \"id\": 66257173,\n      \"tag\": \"容器化Selenium网格\"\n    },\n    {\n      \"id\": 72803397,\n      \"tag\": \"浏览器GPGPU计算库\"\n    },\n    {\n      \"id\": 111811015,\n      \"tag\": \"Android应用性能监控\"\n    },\n    {\n      \"id\": 677467268,\n      \"tag\": \"Web技术MMORPG\"\n    },\n    {\n      \"id\": 32592337,\n      \"tag\": \"JavaScript动画引擎\"\n    },\n    {\n      \"id\": 4521626,\n      \"tag\": \"HTML到Canvas渲染库\"\n    },\n    {\n      \"id\": 28800891,\n      \"tag\": \"实验性HTML浏览器UI\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2469,
+    "completion_tokens": 245,
+    "total_tokens": 2714
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c84fa5edf97d95aa85f96f2cb1e6",
+  "created": 1770309703,
+  "finish_reason": "stop"
+}

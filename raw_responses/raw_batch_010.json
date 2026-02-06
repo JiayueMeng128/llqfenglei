@@ -1,0 +1,16 @@
+{
+  "batch_id": 10,
+  "timestamp": "2026-02-05T16:22:24.899804",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 17618901,\n      \"tag\": \"Web音频框架\"\n    },\n    {\n      \"id\": 45213667,\n      \"tag\": \"P2P视频流平台\"\n    },\n    {\n      \"id\": 7323572,\n      \"tag\": \"二维码生成库\"\n    },\n    {\n      \"id\": 709027512,\n      \"tag\": \"Web数据提取平台\"\n    },\n    {\n      \"id\": 122663163,\n      \"tag\": \"WebAssembly Python环境\"\n    },\n    {\n      \"id\": 743723,\n      \"tag\": \"跨浏览器存储库\"\n    },\n    {\n      \"id\": 37834277,\n      \"tag\": \"浏览器远程控制Android\"\n    },\n    {\n      \"id\": 169149127,\n      \"tag\": \"Git历史可视化工具\"\n    },\n    {\n      \"id\": 28704549,\n      \"tag\": \"Flexbox兼容性指南\"\n    },\n    {\n      \"id\": 122835005,\n      \"tag\": \"全文检索引擎\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1917,
+    "completion_tokens": 241,
+    "total_tokens": 2158
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c3c0f2f541a48b8f7de9a1560d26",
+  "created": 1770308540,
+  "finish_reason": "stop"
+}

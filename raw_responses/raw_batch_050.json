@@ -1,0 +1,16 @@
+{
+  "batch_id": 50,
+  "timestamp": "2026-02-05T16:41:41.877730",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 14155824,\n      \"tag\": \"3D地理可视化框架\"\n    },\n    {\n      \"id\": 88184556,\n      \"tag\": \"Electron浏览器基础\"\n    },\n    {\n      \"id\": 54034412,\n      \"tag\": \"HTML5 RTSP播放器\"\n    },\n    {\n      \"id\": 1095948794,\n      \"tag\": \"浏览器自动化扩展\"\n    },\n    {\n      \"id\": 11315781,\n      \"tag\": \"移动端图片浏览器组件\"\n    },\n    {\n      \"id\": 3455070,\n      \"tag\": \"OpenAPI客户端库\"\n    },\n    {\n      \"id\": 25263349,\n      \"tag\": \"无限滚动UI组件\"\n    },\n    {\n      \"id\": 130084383,\n      \"tag\": \"字符串处理工具\"\n    },\n    {\n      \"id\": 794304370,\n      \"tag\": \"浏览器端LLM应用\"\n    },\n    {\n      \"id\": 11459116,\n      \"tag\": \"跨浏览器媒体录制库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1071,
+    "completion_tokens": 246,
+    "total_tokens": 1317
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c845a6eb7569d4532209eb4137a8",
+  "created": 1770309695,
+  "finish_reason": "stop"
+}

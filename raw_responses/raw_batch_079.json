@@ -1,0 +1,16 @@
+{
+  "batch_id": 79,
+  "timestamp": "2026-02-05T16:49:27.621329",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 239951348,\n      \"tag\": \"浏览器文件API封装\"\n    },\n    {\n      \"id\": 203681009,\n      \"tag\": \"Nginx Lua防护\"\n    },\n    {\n      \"id\": 1595792,\n      \"tag\": \"浏览器游戏框架\"\n    },\n    {\n      \"id\": 23304218,\n      \"tag\": \"Go网页抓取库\"\n    },\n    {\n      \"id\": 446242396,\n      \"tag\": \"Emoji数据浏览\"\n    },\n    {\n      \"id\": 51248829,\n      \"tag\": \"iOS文件浏览器\"\n    },\n    {\n      \"id\": 666209424,\n      \"tag\": \"云游戏增强脚本\"\n    },\n    {\n      \"id\": 570427,\n      \"tag\": \"浏览器端存储库\"\n    },\n    {\n      \"id\": 52573367,\n      \"tag\": \"CSS Flex布局库\"\n    },\n    {\n      \"id\": 732151165,\n      \"tag\": \"JavaScript多线程库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1583,
+    "completion_tokens": 239,
+    "total_tokens": 1822
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984ca176555b4bf31afa239ed081618",
+  "created": 1770310164,
+  "finish_reason": "stop"
+}

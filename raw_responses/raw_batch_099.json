@@ -1,0 +1,16 @@
+{
+  "batch_id": 99,
+  "timestamp": "2026-02-05T16:56:26.622402",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 90465794,\n      \"tag\": \"XSS攻击备忘单\"\n    },\n    {\n      \"id\": 588898,\n      \"tag\": \"HTML/XML解析库\"\n    },\n    {\n      \"id\": 22472379,\n      \"tag\": \"HTML转DOCX库\"\n    },\n    {\n      \"id\": 155305174,\n      \"tag\": \"浏览器可视化库\"\n    },\n    {\n      \"id\": 14822868,\n      \"tag\": \"浏览器IRC客户端\"\n    },\n    {\n      \"id\": 198628872,\n      \"tag\": \"浏览器渲染引擎\"\n    },\n    {\n      \"id\": 14976714,\n      \"tag\": \"Laravel浏览器检测\"\n    },\n    {\n      \"id\": 116883257,\n      \"tag\": \"浏览器隐私测试套件\"\n    },\n    {\n      \"id\": 57244664,\n      \"tag\": \"XML编辑器\"\n    },\n    {\n      \"id\": 10452358,\n      \"tag\": \"跨浏览器时间追踪扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 995,
+    "completion_tokens": 241,
+    "total_tokens": 1236
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984cbbafb994aba29f5bb5f2b8f7fdc",
+  "created": 1770310572,
+  "finish_reason": "stop"
+}

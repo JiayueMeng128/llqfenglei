@@ -1,0 +1,16 @@
+{
+  "batch_id": 61,
+  "timestamp": "2026-02-05T16:44:09.115840",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 575445105,\n      \"tag\": \"开发者工具集\"\n    },\n    {\n      \"id\": 266156053,\n      \"tag\": \"Web认证库\"\n    },\n    {\n      \"id\": 1621009,\n      \"tag\": \"前端通知库\"\n    },\n    {\n      \"id\": 17066478,\n      \"tag\": \"JavaScript API 补丁\"\n    },\n    {\n      \"id\": 32695583,\n      \"tag\": \"IPFS浏览器扩展\"\n    },\n    {\n      \"id\": 812156,\n      \"tag\": \"UI组件库\"\n    },\n    {\n      \"id\": 152989255,\n      \"tag\": \"JavaScript 运行时沙盒\"\n    },\n    {\n      \"id\": 208835354,\n      \"tag\": \"浏览器扩展开发框架\"\n    },\n    {\n      \"id\": 182410,\n      \"tag\": \"命令行工具\"\n    },\n    {\n      \"id\": 747776268,\n      \"tag\": \"浏览器UI主题\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2156,
+    "completion_tokens": 234,
+    "total_tokens": 2390
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-bf98785ddfc817ed",
+  "created": 1770309839,
+  "finish_reason": "stop"
+}

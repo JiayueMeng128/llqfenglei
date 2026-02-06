@@ -1,0 +1,125 @@
+{
+  "batch_id": 60,
+  "timestamp": "2026-02-05T16:43:58.773691",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 266286639,
+      "name": "abrahamjuliot/creepjs",
+      "stars": 2222,
+      "enhanced_text": "Creepy device and browser fingerprinting.\n\n> **SECURITY ALERT: EXTERNAL DOMAINS ARE UNSAFE**\n> **The ONLY official live deployment is on GitHub Pages.**\n> Any , , or custom domain claiming to be CreepJS is an **unauthorized mirror** and should be treated as a malicious honeypot designed to steal your fingerprint data.\n> * ❌ **Unsafe:** All other URLs.\nhttps://abrahamjuliot.github.io/creepjs\nThe purpose of this project is to shed light on weaknesses and privacy leaks among modern anti-fingerprinting extensions and browsers.\n1. Detect and ignore JavaScript tampering (prototype lies)",
+      "tag": "浏览器指纹检测工具"
+    },
+    {
+      "id": 184711,
+      "name": "typicaljoe/taffydb",
+      "stars": 2218,
+      "enhanced_text": "TaffyDB - an open source JavaScript Database for your browser.\n\n## Introduction\nHave you ever noticed how JavaScript object literals look a lot like\nrecords? And that if you wrap a group of them up in an array you have\nsomething that looks a lot like a database table?  We did too.\nWe created TaffyDB easily and efficiently manipulate these 'tables'\nwith a uniform and familiar SQL-like interface.\nWe use TaffyDB instead of ad-hoc data manipulation routines throughout\nour applications. This reduces development time, improves performance,\nsimplifies maintenance, *and* increases quality.\nPlease see the official website for more\ncomplete documentation.\n## What makes it sticky\n- Powerful JavaScript-centric data selection engine\n- SQL inspired features such as insert, update, unique, count, and more\n- Robust cross browser support",
+      "tag": "浏览器端JavaScript数据库"
+    },
+    {
+      "id": 76684607,
+      "name": "gautamkrishnar/nothing-private",
+      "stars": 2213,
+      "enhanced_text": "Do you think you are safe using private browsing or incognito mode?. :smile: :imp: This will prove that you're wrong.   Previously hosted at nothingprivate.ml.",
+      "tag": "隐私浏览检测工具"
+    },
+    {
+      "id": 105912444,
+      "name": "csstools/postcss-preset-env",
+      "stars": 2207,
+      "enhanced_text": "Convert modern CSS into something browsers understand.\n\n⚠️ PostCSS Preset Env was moved to @csstools/postcss-plugins. ⚠️\n# PostCSS Preset Env [][postcss]\n[PostCSS Preset Env] lets you convert modern CSS into something most browsers\ncan understand, determining the polyfills you need based on your targeted\nbrowsers or runtime environments.",
+      "tag": "CSS向后兼容工具"
+    },
+    {
+      "id": 242889642,
+      "name": "WindRunnerMax/EveryDay",
+      "stars": 2205,
+      "enhanced_text": "前端基础 个人博客 学习笔记.\n\n这是一个前端小白的学习历程，如果只学习而不记录点什么那基本就等于白学了。这个版本库的名字就是希望激励我能够每天学习，下面的文章就是从开始积累的文章，都是参考众多文章归纳整理学习而写的。文章包括了基础、基础、基础与拓展、浏览器相关、使用与分析、使用与分析、插件相关、富文本、设计模式、命令、题解等类别，内容都是比较基础的，毕竟我也还是个小白。此外基本上每个示例都是本着能够即时运行为目标的，新建一个文件复制之后即可在浏览器运行或者直接可以在中运行。\n如果想按照笔记顺序进行阅读的话可以 查看目录 ，另外如果想更条理地查看的话可以访问 我的博客 独立站点。博客同时也是本版本库的分支，是作为纯静态页面搭建在上的，使用以及作为缓存缓解国内访问速度问题。后期还在分支上部署了版本的 新版博客，并且借助提供了英文翻译版本，分支是部署在上来缓解国内访问速度问题。在博客中的内容就相对比较多了，除了学习笔记之外还有一些做项目时的记录以及遇到的坑等。如果觉得还不错，点个吧，这个对我真的很重要。",
+      "tag": "前端学习笔记"
+    },
+    {
+      "id": 3089049,
+      "name": "zenorocha/browser-diet",
+      "stars": 2189,
+      "enhanced_text": ":fries: The definitive front-end performance guide.\n\n# How to lose weight (in the browser)\nThe definitive front-end performance guide.\nIf you want to add new tips or edit the existing ones, just go to the src/documents folder. There you can find all of them in Markdown (.md) format. Remember to add references on each tip that you write at References wiki.\n#### How can I locally run the project?\n1. Install Git and NodeJS, if you don't have them already.\n2. Open your terminal and download DocPad through this command:\n4. Then go to the project's folder:",
+      "tag": "前端性能优化指南"
+    },
+    {
+      "id": 854084975,
+      "name": "botswin/BotBrowser",
+      "stars": 2187,
+      "enhanced_text": "Advanced Privacy Browser Core with Unified Fingerprint Defense: Cloudflare, Akamai, Kasada, Shape, DataDome, PerimeterX, hCaptcha, FunCaptcha, Imperva, reCAPTCHA, ThreatMetrix, Adscore.\n\n## What Is BotBrowser?\nBotBrowser is a privacy-first browser core designed to protect users from browser fingerprinting, a technique recognized as a privacy threat by W3C, major browser vendors, and EU regulators (see references). It keeps fingerprint signals uniform across every platform, preventing tracking systems from collecting and correlating data to identify users. Run the same profile on Windows, macOS, or Linux and the fingerprint posture stays identical each time.\nAll engineering focuses on privacy research, cross-platform tracking-resistance validation, and maintaining protected environments for authorized defensive benchmarking. Review the project Legal Disclaimer and Responsible Use Guidelines before using the software.\n> **What makes BotBrowser different:** Cross-platform privacy browser core with unified fingerprint technology that prevents tracking data collection and device linkage.\nHigh-fidelity Profile Simulation including Android WebView, keeps synthetic and aggregated fingerprints ready for policy-compliant privacy experiments\nLatest Chromium Base stays synced to the newest stable Chrome so trackers cannot key on stale engines\nAdvanced Programmatic Control offers Playwright/Puppeteer integration with CDP leak blocking so privacy tooling leaves no telemetry residue\nNetwork Stack Parity with Full-Proxy QUIC/STUN (UDP over SOCKS5) delivers Chromium-level tunneling so geo metadata does not leak and privacy labs maintain clean transport parity\nDistributed Privacy Consistency lets you verify privacy protection across multiple browser instances simultaneously with Mirror, validating privacy posture in parallel\nPer-Context Fingerprint enables independent fingerprint bundles per BrowserContext without spawning new processes, with millisecond-level switching and reduced memory overhead\n### Cross-Platform Fingerprint Protection\n- Single profile, every host OS: identical UA, screen metrics, touch surfaces, fonts, and device APIs on Windows, macOS, Linux (ENT Tier1), Android (PRO), and WebView (ENT Tier3) so trackers see the same fingerprint everywhere.\n- Built-in configuration handles touch simulation, device metrics, and locale/timezone detection from the proxy IP while still allowing CLI overrides when privacy experiments require them.\n- Quick demos: ▶️ CreepJS Android • ▶️ Iphey • ▶️ Pixelscan\n\n## Getting Started",
+      "tag": "隐私防护浏览器内核"
+    },
+    {
+      "id": 357335336,
+      "name": "react-hookz/web",
+      "stars": 2183,
+      "enhanced_text": "React hooks done right, for browser and SSR.\n\nis a library of general-purpose React hooks built with care and SSR compatibility in mind.\nThis one is pretty simple, everyone knows what to do:\nAs hooks was introduced to the world in React 16.8,  requires - you guessed it -  and\n16.8+. Also, as React does not support IE,  don't either.\n> This package distributed with ESNext language level and ES modules system. It means that depending on your browser\n> target you might need to transpile it. Every major bundler provides a way to transpile  fully or\n> partially. Address your bundler documentation for more details.\nIn case your bundler supports tree-shaking (most of modern does) - both variants are equal and only necessary code will",
+      "tag": "React Hooks工具库"
+    },
+    {
+      "id": 3434927,
+      "name": "plasma-umass/doppio",
+      "stars": 2182,
+      "enhanced_text": "Breaks the browser language barrier (includes a plugin-free JVM).\n\ndoppio: A JVM in TypeScript v0.5.0\n_doppio_ is a double shot of espresso.\nIn this case, it's also a POSIX-compatible runtime system plus a JVM written in TypeScript and an active research project of the PLASMA group at the University of Massachusetts.\nTo try doppio now, head to the live demo page.\nTo learn more, read some documentation, or read our academic paper (alt. link w/ no paywall) published at PLDI 2014!\nYou can also get in touch via our [mailing list][mail] or via the IRC channel\n[mail]: https://groups.google.com/forum/?fromgroups#!forum/plasma-umass-gsoc\nBefore attempting to build doppio, you must have the following installed:",
+      "tag": "浏览器端JVM运行时"
+    },
+    {
+      "id": 18736041,
+      "name": "yeojz/otplib",
+      "stars": 2181,
+      "enhanced_text": "One Time Password (OTP) / 2FA for Node.js and Browser - Supports HOTP, TOTP and Google Authenticator.\n\n## Features\n- **Zero Configuration** - Works out of the box with sensible defaults\n- **RFC Compliant** - RFC 6238 (TOTP) and RFC 4226 (HOTP)\n- **TypeScript-First** - Full type definitions\n- **Google Authenticator Compatible** - Full otpauth:// URI support\n- **Plugin Interface** - Flexible plugin system for customising your cryptographic and base32 requirements (if you want to deviate from the defaults)\n- **Cross-platform** - Tested against Node.js, Bun, Deno, and browsers\n## Breaking Changes (v13)\n> v13 is a complete rewrite with breaking changes:\n>   - **Security-audited plugins** — Default crypto uses  and , both independently audited\n>   - **Cross-platform defaults** — Works out-of-the-box in Node.js, Bun, Deno, and browsers\n>   - **Full type safety** — Comprehensive TypeScript types with strict mode from the ground up\n>   - **Async-first API** — All operations are async by default; sync variants available for compatible plugins\n>   - **Separate authenticator package** — TOTP now covers all authenticator functionality\n>   - **Outdated plugins** — Legacy crypto adapters removed in favor of modern, audited alternatives",
+      "tag": "跨平台OTP验证库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 266286639,
+        "tag": "浏览器指纹检测工具"
+      },
+      {
+        "id": 184711,
+        "tag": "浏览器端JavaScript数据库"
+      },
+      {
+        "id": 76684607,
+        "tag": "隐私浏览检测工具"
+      },
+      {
+        "id": 105912444,
+        "tag": "CSS向后兼容工具"
+      },
+      {
+        "id": 242889642,
+        "tag": "前端学习笔记"
+      },
+      {
+        "id": 3089049,
+        "tag": "前端性能优化指南"
+      },
+      {
+        "id": 854084975,
+        "tag": "隐私防护浏览器内核"
+      },
+      {
+        "id": 357335336,
+        "tag": "React Hooks工具库"
+      },
+      {
+        "id": 3434927,
+        "tag": "浏览器端JVM运行时"
+      },
+      {
+        "id": 18736041,
+        "tag": "跨平台OTP验证库"
+      }
+    ]
+  }
+}

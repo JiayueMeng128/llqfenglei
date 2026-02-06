@@ -1,0 +1,125 @@
+{
+  "batch_id": 90,
+  "timestamp": "2026-02-05T16:52:31.563906",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 9681561,
+      "name": "XRPLF/xrpl.js",
+      "stars": 1310,
+      "enhanced_text": "A JavaScript/TypeScript API for interacting with the XRP Ledger in Node.js and the browser.\n\n## Features\n1. Managing keys & creating test credentials ( && )\n2. Submitting transactions to the XRP Ledger ( & transaction types)\n3. Sending requests to observe the ledger ( using public API methods)\n4. Subscribing to changes in the ledger (Ex. ledger, transactions, & more...)\n5. Parsing ledger data into more convenient formats ( and )\nAll of which works in Node.js (tested for v20+) & web browsers (tested for Chrome).\n+ **Node.js v22** is recommended. We also support v20. Other versions may work but are not frequently tested.",
+      "tag": "区块链API库"
+    },
+    {
+      "id": 464832370,
+      "name": "lindylearn/unclutter",
+      "stars": 1310,
+      "enhanced_text": "A modern reader mode and article library for your browser.\n\nUnclutter is a modern reader mode and article library for your browser.\nThere many other \"reader modes\", but they all extract article text and re-render it their own format. Unclutter \"unclutters\" the original web pages itself, leaving their visual style and interactive elements intact.\nArticles you read with Unclutter are automatically saved and can be easily added to your read-it-later queue.\nEverything happens instantly in your browser.\n- Crowdsourced blocklists for annoyances on specific websites\n- Automatically activating the reader mode\n- Showing page chapters to navigate long articles",
+      "tag": "浏览器阅读模式"
+    },
+    {
+      "id": 273337347,
+      "name": "makew0rld/amfora",
+      "stars": 1308,
+      "enhanced_text": "A fancy terminal browser for the Gemini protocol.\n\n## Installation\nDownload a binary from the releases page. On Unix-based systems you will have to make the file executable with . You can rename the file to just  for easy access, and move it to .\nOn Windows, make sure you click \"Advanced > Run anyway\" after double-clicking, or something like that.\nUnix systems can install the desktop entry file to get Amfora to appear when they search for applications:\nMake sure to click \"Watch\" in the top right, then \"Custom\" > \"Releases\" to get notified about new releases!\nAmfora is packaged in many Linux distros. It's also on Scoop for Windows users.\nIf you use Homebrew, you can install Amfora with:\nYou can update it with:\nOn macOS, Amfora can also be installed through MacPorts:\nYou can update it with:\n**NOTE:** this installation source is community-maintained. More information here.\nIf you're using Termux on Android you can't just run Amfora like normal. After installing Amfora, run . Then run  before running the Amfora binary. You can exit out of the chroot after closing Amfora. See here for why this is needed.\nThis section is for advanced users who want to install the latest (possibly unstable) version of Amfora.\nPlease note the Makefile does not intend to support Windows, and so there may be issues.\nBecause you installed with the Makefile, running  will tell you exactly what commit the binary was built from.\n\n## Features\n\nFeatures in *italics* are in the master branch, but not in the latest release.\n- URL browsing with TOFU and error handling\n- Support ANSI color codes on pages, even for Windows\n- Styled page content (headings, links)\n- Basic forward/backward history, for each tab\n- Input (Status Code 10 & 11)\n- Multiple charset support (over 55)\n- Built-in search (uses geminispace.info by default)\n- Download pages and arbitrary data\n- Check out the user contributed themes!\n- Schemes like Gopher or HTTP can be proxied through a Gemini server\n- Client certificate support\n- Subscribing to RSS, Atom, and JSON Feeds are all supported\n- So is subscribing to a page, to know when it changes\n- Open non-text files in another application",
+      "tag": "终端Gemini浏览器"
+    },
+    {
+      "id": 113491980,
+      "name": "sindresorhus/refined-twitter",
+      "stars": 1307,
+      "enhanced_text": "Browser extension that simplifies the Twitter interface and adds useful features.\n\n**This project is not maintained anymore. Twitter rewrote their website and completely broke this extension, and it's much harder to reliably modify the new website. I also don't have time to fix these things and no one has stepped up to do so either. It had a great run. Thanks for all the love.**\nWe use Twitter a lot and notice many dumb annoyances we'd like to fix. So here be dragons.\n- **Opera** extension: Use this to enable installing Chrome extensions and then install Refined Twitter\n*Note: You **must** be logged in for this extension to work.*\n*You can configure many of these features in the extension settings.*",
+      "tag": "社交媒体界面优化扩展"
+    },
+    {
+      "id": 108566111,
+      "name": "trustedsec/trevorc2",
+      "stars": 1306,
+      "enhanced_text": "TrevorC2 is a legitimate website (browsable) that tunnels client/server communications for covert command execution.",
+      "tag": "隐蔽通信工具"
+    },
+    {
+      "id": 1981208,
+      "name": "YuzuJS/setImmediate",
+      "stars": 1305,
+      "enhanced_text": "A cross-browser implementation of the new setImmediate API.",
+      "tag": "JavaScript异步API垫片"
+    },
+    {
+      "id": 2521861,
+      "name": "OSBI/saiku",
+      "stars": 1304,
+      "enhanced_text": "Saiku Analytics - The Worlds Greatest Open Source OLAP Browser.\n\nWhen something doesn't work as expected, then please subscribe to the\nand send your doubt. If that doesn't solve your problem, then please ask for help on\nThe world's greatest open source OLAP browser\nSaiku allows business users to explore complex data sources,",
+      "tag": "开源OLAP数据分析前端"
+    },
+    {
+      "id": 80214003,
+      "name": "salvadordf/CEF4Delphi",
+      "stars": 1302,
+      "enhanced_text": "CEF4Delphi is an open source project to embed Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows, Linux and MacOS.\n\nCEF4Delphi is an open source project created by Salvador Díaz Fau to embed Chromium-based browsers in applications made with Delphi or Lazarus/FPC for Windows, Linux and MacOS.\nCEF4Delphi is based on DCEF3 and fpCEF3. The original license of those projects still applies to CEF4Delphi. Read the license terms in the LICENSE.md file.\nCEF4Delphi uses CEF 144.0.12 which includes Chromium 144.0.7559.110.\nThe CEF binaries used by CEF4Delphi are available for download at Spotify :",
+      "tag": "Delphi Chromium嵌入框架"
+    },
+    {
+      "id": 265352760,
+      "name": "omaha-consulting/winstall",
+      "stars": 1301,
+      "enhanced_text": "A web app for browsing and installing Windows Package Manager apps.",
+      "tag": "WinGet应用浏览前端"
+    },
+    {
+      "id": 26542739,
+      "name": "anandthakker/doiuse",
+      "stars": 1299,
+      "enhanced_text": ":bomb: Lint CSS for browser support against caniuse database.",
+      "tag": "CSS浏览器兼容性检查器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 9681561,
+        "tag": "区块链API库"
+      },
+      {
+        "id": 464832370,
+        "tag": "浏览器阅读模式"
+      },
+      {
+        "id": 273337347,
+        "tag": "终端Gemini浏览器"
+      },
+      {
+        "id": 113491980,
+        "tag": "社交媒体界面优化扩展"
+      },
+      {
+        "id": 108566111,
+        "tag": "隐蔽通信工具"
+      },
+      {
+        "id": 1981208,
+        "tag": "JavaScript异步API垫片"
+      },
+      {
+        "id": 2521861,
+        "tag": "开源OLAP数据分析前端"
+      },
+      {
+        "id": 80214003,
+        "tag": "Delphi Chromium嵌入框架"
+      },
+      {
+        "id": 265352760,
+        "tag": "WinGet应用浏览前端"
+      },
+      {
+        "id": 26542739,
+        "tag": "CSS浏览器兼容性检查器"
+      }
+    ]
+  }
+}

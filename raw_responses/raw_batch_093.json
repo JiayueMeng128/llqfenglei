@@ -1,0 +1,16 @@
+{
+  "batch_id": 93,
+  "timestamp": "2026-02-05T16:53:49.776470",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 619909200,\n      \"tag\": \"浏览器AI自动化\"\n    },\n    {\n      \"id\": 270403199,\n      \"tag\": \"浏览器游戏客户端\"\n    },\n    {\n      \"id\": 287839132,\n      \"tag\": \"内容解锁扩展\"\n    },\n    {\n      \"id\": 45850581,\n      \"tag\": \"隐私保护浏览器\"\n    },\n    {\n      \"id\": 28561182,\n      \"tag\": \"浏览器DOS模拟器\"\n    },\n    {\n      \"id\": 943968048,\n      \"tag\": \"浏览器界面主题\"\n    },\n    {\n      \"id\": 610913221,\n      \"tag\": \"AI图像浏览器\"\n    },\n    {\n      \"id\": 960899579,\n      \"tag\": \"键盘操作浏览器\"\n    },\n    {\n      \"id\": 606157889,\n      \"tag\": \"浏览器界面改造\"\n    },\n    {\n      \"id\": 4172236,\n      \"tag\": \"浏览器图表插件\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2057,
+    "completion_tokens": 232,
+    "total_tokens": 2289
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b40aab6bdf3cdbe8",
+  "created": 1770310392,
+  "finish_reason": "stop"
+}

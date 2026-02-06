@@ -1,0 +1,125 @@
+{
+  "batch_id": 45,
+  "timestamp": "2026-02-05T16:40:10.877005",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 481185579,
+      "name": "pacexy/flow",
+      "stars": 3051,
+      "enhanced_text": "Browser-based ePub reader.\n\n## Features\n- Highlight and Annotation\n- Share/Download book with link\nFor planed features, see our roadmap.",
+      "tag": "电子书阅读器"
+    },
+    {
+      "id": 622876059,
+      "name": "Textualize/frogmouth",
+      "stars": 3048,
+      "enhanced_text": "A Markdown browser for your terminal.\n\n## Installing\nThe easiest way to install Frogmouth is with pipx (particularly if you aren't a Python developer).\nYou can also install Frogmouth with :\nOn systems using Homebrew, you can tap into the Textualize tap and install Frogmouth with :\nWhichever method you use, you should have a  command on your path.\nEnter  at the prompt to run the app, optionally followed by a path to a Markdown file:\nYou can navigate with the mouse or the keyboard.\nUse tab and shift+tab to navigate between the various controls on screen.",
+      "tag": "终端Markdown浏览器"
+    },
+    {
+      "id": 39774073,
+      "name": "sunnylqm/react-native-storage",
+      "stars": 3042,
+      "enhanced_text": "local storage wrapper for both react-native and browser. Support size controlling, auto expiring, remote data auto syncing and getting batch data in one query.\n\nThis is a local storage wrapper for both react native apps (using AsyncStorage) and web apps (using localStorage). ES6 syntax, promise for async load, fully tested with jest.\nFor a more modern and unified approach to handling requests, caching, and persistent storage, I recommend using  together with . It’s cleaner, more elegant, and more powerful.\nThere are two ways to set the sync method.\nYou can pass the sync method in the constructor's parameter, as a function in an object,\nor you can define it at any time as shown below:\nIn the following example the sync method is called, when you invoke :",
+      "tag": "跨平台本地存储"
+    },
+    {
+      "id": 263157374,
+      "name": "lukeed/uvu",
+      "stars": 3036,
+      "enhanced_text": "uvu is an extremely fast and lightweight test runner for Node.js and the browser.",
+      "tag": "JavaScript测试框架"
+    },
+    {
+      "id": 1398628,
+      "name": "symfony/browser-kit",
+      "stars": 3024,
+      "enhanced_text": "Simulates the behavior of a web browser, allowing you to make requests, click on links and submit forms programmatically.\n\nto make requests, click on links and submit forms programmatically.\nThe component comes with a concrete implementation that uses the HttpClient\ncomponent to make real HTTP requests.",
+      "tag": "浏览器模拟测试库"
+    },
+    {
+      "id": 61934962,
+      "name": "schmich/instascan",
+      "stars": 3024,
+      "enhanced_text": "HTML5 QR code scanner using your webcam.",
+      "tag": "WebRTC二维码扫描"
+    },
+    {
+      "id": 502586319,
+      "name": "FossifyOrg/Gallery",
+      "stars": 3020,
+      "enhanced_text": "Browse your memories without any interruptions with this photo and video gallery.\n\nUnleash memories, not personal data. Fossify Gallery is the ultimate photo and video app that's as powerful as it is private. No ads, no unnecessary permissions – just a seamless experience tailored for you.\n**🖼️ PHOTO EDITING AT YOUR FINGERTIPS:**\nEnhance your photos with our basic yet powerful photo editor. Crop, resize, rotate, flip, draw, and apply stunning filters, all without compromising your privacy. Take control of your memories like never before.\nYour privacy matters. Ditch the data-hungry giants. Fossify Gallery puts you in control. Strip away EXIF metadata like GPS coordinates and camera details, keeping your memories yours, and yours alone.\nLock down your memories with pin, pattern, or fingerprint protection. Secure specific photos, videos, or the entire app – you decide who gets access. Peace of mind, guaranteed.\nBreathe easy, accidents happen! Fossify Gallery's built-in recycle bin lets you recover deleted photos and videos in seconds. No more lost treasures, just pure relief.",
+      "tag": "隐私相册应用"
+    },
+    {
+      "id": 628250345,
+      "name": "ElricLiu/AutoGPT-Next-Web",
+      "stars": 3018,
+      "enhanced_text": "🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.一键免费部署你的私人AutoGPT 网页应用.",
+      "tag": "浏览器AI智能体"
+    },
+    {
+      "id": 230036026,
+      "name": "Qianlitp/crawlergo",
+      "stars": 3017,
+      "enhanced_text": "A powerful browser crawler for web vulnerability scanners.\n\n## Installation\n**Please read and confirm disclaimer carefully before installing and using。**\n- compilation for current platform\n- compile for all platforms\n1. crawlergo relies only on the chrome environment to run, go to download for the new version of chromium.\n2. Go to download page for the latest version of crawlergo and extract it to any directory. If you are on linux or macOS, please give crawlergo **executable permissions (+x)**.\n3. Or you can modify the code and build it yourself.\n> If you are using a linux system and chrome prompts you with missing dependencies, please see TroubleShooting below",
+      "tag": "浏览器爬虫引擎"
+    },
+    {
+      "id": 27359938,
+      "name": "micromatch/micromatch",
+      "stars": 3008,
+      "enhanced_text": "Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by square, webpack, babel core, yarn, jest, ract-native, taro, bulma, browser-sync, stylelint, nyc, ava, and many others! Follow micromatch's author: https://github.com/jonschlinkert.",
+      "tag": "通配符匹配库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 481185579,
+        "tag": "电子书阅读器"
+      },
+      {
+        "id": 622876059,
+        "tag": "终端Markdown浏览器"
+      },
+      {
+        "id": 39774073,
+        "tag": "跨平台本地存储"
+      },
+      {
+        "id": 263157374,
+        "tag": "JavaScript测试框架"
+      },
+      {
+        "id": 1398628,
+        "tag": "浏览器模拟测试库"
+      },
+      {
+        "id": 61934962,
+        "tag": "WebRTC二维码扫描"
+      },
+      {
+        "id": 502586319,
+        "tag": "隐私相册应用"
+      },
+      {
+        "id": 628250345,
+        "tag": "浏览器AI智能体"
+      },
+      {
+        "id": 230036026,
+        "tag": "浏览器爬虫引擎"
+      },
+      {
+        "id": 27359938,
+        "tag": "通配符匹配库"
+      }
+    ]
+  }
+}

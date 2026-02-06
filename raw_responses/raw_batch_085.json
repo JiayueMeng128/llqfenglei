@@ -1,0 +1,16 @@
+{
+  "batch_id": 85,
+  "timestamp": "2026-02-05T16:50:47.695576",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 746320301,\n      \"tag\": \"反检测浏览器工具集\"\n    },\n    {\n      \"id\": 726478144,\n      \"tag\": \"AI工作流管理扩展\"\n    },\n    {\n      \"id\": 1097428181,\n      \"tag\": \"Rust渲染引擎实验\"\n    },\n    {\n      \"id\": 19702094,\n      \"tag\": \"跨平台音频SDK\"\n    },\n    {\n      \"id\": 113919648,\n      \"tag\": \"隐私保护浏览器扩展\"\n    },\n    {\n      \"id\": 789046020,\n      \"tag\": \"AI网页浏览代理\"\n    },\n    {\n      \"id\": 30087179,\n      \"tag\": \"WebVR兼容层\"\n    },\n    {\n      \"id\": 103822442,\n      \"tag\": \"内容农场拦截扩展\"\n    },\n    {\n      \"id\": 147781722,\n      \"tag\": \"React Native浏览器组件\"\n    },\n    {\n      \"id\": 18685406,\n      \"tag\": \"Markdown渲染扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1804,
+    "completion_tokens": 246,
+    "total_tokens": 2050
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-859c67e9609856b8",
+  "created": 1770310236,
+  "finish_reason": "stop"
+}

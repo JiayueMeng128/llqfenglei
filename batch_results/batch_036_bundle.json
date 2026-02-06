@@ -1,0 +1,125 @@
+{
+  "batch_id": 36,
+  "timestamp": "2026-02-05T16:28:00.358580",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 952018616,
+      "name": "sagekit/magnitude",
+      "stars": 3950,
+      "enhanced_text": "Open-source, vision-first browser agent.\n\n> 🚀 New: Magnitude is state-of-the-art, scoring 94% on WebVoyager!\nMagnitude uses vision AI to enable you to control your browser with natural language.\n- 🧭 **Navigate** - Sees and understands any interface to plan out actions\n- 🖱️ **Interact** - Executes precise actions using mouse and keyboard\n- 🔍 **Extract** - Intelligently extracts useful structured data\n- ✅ **Verify** - Built-in test runner with powerful visual assertions\nYou can use it to automate tasks on the web, integrate between apps without APIs, extract data, test your web apps, or as a building block for your own browser agents.\n### Running your first browser automation",
+      "tag": "视觉AI浏览器自动化"
+    },
+    {
+      "id": 479586,
+      "name": "mathiasbynens/jquery-placeholder",
+      "stars": 3945,
+      "enhanced_text": "A jQuery plugin that enables HTML5 placeholder behavior for browsers that aren’t trying hard enough yet.",
+      "tag": "jQuery兼容性插件"
+    },
+    {
+      "id": 175832658,
+      "name": "crxjs/chrome-extension-tools",
+      "stars": 3927,
+      "enhanced_text": "Build cross-browser extensions with native HMR and zero-config setup.\n\n>  MUST NOT be omitted, otherwise  may resolve to a cached and outdated version of the package.\n- 🧩 **Full Vite Plugin Ecosystem** - Leverage any Vite-compatible plugins with zero extra setup\n- ⚙️ **Zero Configuration** - Start developing immediately with intelligent defaults\n- 3️⃣ **Manifest V3 Support** - Built for modern Chrome extensions with enhanced security\n- 🔥 **True Hot Module Replacement** - Instant UI updates while preserving extension state 🎈**works with content scripts**",
+      "tag": "浏览器扩展构建工具"
+    },
+    {
+      "id": 172636540,
+      "name": "osnr/TabFS",
+      "stars": 3925,
+      "enhanced_text": "🗄 Mount your browser tabs as a filesystem.\n\n(**update**: You can now **sponsor further development of",
+      "tag": "浏览器文件系统映射"
+    },
+    {
+      "id": 63557,
+      "name": "jquery/jquery-mousewheel",
+      "stars": 3917,
+      "enhanced_text": "A jQuery plugin that adds cross-browser mouse wheel support.\n\nIn order to use the plugin, simply bind the  event to an element.\nThe event object is updated with the normalized  and  properties.\nIn addition, there is a new property on the event object called . Multiply\nthe  by  or  to get the scroll distance that the browser\nHere is an example of using both the bind and helper method syntax:\nThe old behavior of adding three arguments (, , and ) to the\nevent handler is now deprecated and will be removed in later releases.",
+      "tag": "jQuery鼠标事件插件"
+    },
+    {
+      "id": 3457006,
+      "name": "mudcube/MIDI.js",
+      "stars": 3916,
+      "enhanced_text": ":musical_keyboard: Making life easy to create a MIDI-app on the web. Includes a library to program synesthesia into your app for memory recognition or for creating trippy effects. Convert soundfonts for Guitar, Bass, Drums, ect. into code that can be read by the browser. Supports multiple simultaneous instruments and perfect timing.\n\n## Code examples - from the repo\n* Basic - the most basic implementation.\n* MIDIPlayer - how to parse MIDI files, and interact with the data stream.\n* WhitneyMusicBox - a audio/visual experiment by Jim Bumgardner\n* 3D Piano Player w/ Three.js by Borja Morales @reality3d\n* Brite Lite by Daniel Christopher @uxmonk\n* Color Piano by Michael Deal @mudcube\n* Euphony 3D Piano by Xueqiao Xu @qiao\n* Piano Typewriter by Andrew Levine",
+      "tag": "Web MIDI音频库"
+    },
+    {
+      "id": 359922324,
+      "name": "linuxserver/docker-webtop",
+      "stars": 3887,
+      "enhanced_text": "Ubuntu, Alpine, Arch, and Fedora based Webtop images, Linux in a web browser supporting popular desktop environments.\n\nThe LinuxServer.io team brings you another container release featuring:\n* regular and timely application updates\n* easy user mappings (PGID, PUID)\n* custom base image with s6 overlay\n* weekly base OS updates with common layers across the entire LinuxServer.io ecosystem to minimise space usage, down time and bandwidth\n* Blog - all the things you can do with our containers including How-To guides, opinions and much more!\n* Discord - realtime support / chat with the community and the team.\n* Discourse - post on our community forum.",
+      "tag": "浏览器桌面环境容器"
+    },
+    {
+      "id": 49692445,
+      "name": "tholman/cursor-effects",
+      "stars": 3882,
+      "enhanced_text": "Old-school cursor effects for your browser built with modern JavaScript.",
+      "tag": "光标特效库"
+    },
+    {
+      "id": 105665728,
+      "name": "googlecreativelab/teachable-machine-v1",
+      "stars": 3880,
+      "enhanced_text": "Explore how machine learning works, live in the browser. No coding required.",
+      "tag": "浏览器端机器学习工具"
+    },
+    {
+      "id": 224599511,
+      "name": "cavi-au/Consent-O-Matic",
+      "stars": 3863,
+      "enhanced_text": "Browser extension that automatically fills out cookie popups based on your preferences.\n\n## Installation\nWe highly recommend installing directly through the official extension store of your browser (mentioned at the top). Installing through the official channels will automatically keep you up-to-date with new versions when they are released.\nIt is also possible to get the extension by other means.",
+      "tag": "隐私偏好自动化扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 952018616,
+        "tag": "视觉AI浏览器自动化"
+      },
+      {
+        "id": 479586,
+        "tag": "jQuery兼容性插件"
+      },
+      {
+        "id": 175832658,
+        "tag": "浏览器扩展构建工具"
+      },
+      {
+        "id": 172636540,
+        "tag": "浏览器文件系统映射"
+      },
+      {
+        "id": 63557,
+        "tag": "jQuery鼠标事件插件"
+      },
+      {
+        "id": 3457006,
+        "tag": "Web MIDI音频库"
+      },
+      {
+        "id": 359922324,
+        "tag": "浏览器桌面环境容器"
+      },
+      {
+        "id": 49692445,
+        "tag": "光标特效库"
+      },
+      {
+        "id": 105665728,
+        "tag": "浏览器端机器学习工具"
+      },
+      {
+        "id": 224599511,
+        "tag": "隐私偏好自动化扩展"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 40,
+  "timestamp": "2026-02-05T16:29:01.849066",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 13100677,
+      "name": "primus/eventemitter3",
+      "stars": 3507,
+      "enhanced_text": "EventEmitter3 - Because there's also a number 2. And we're faster.",
+      "tag": "JavaScript事件库"
+    },
+    {
+      "id": 10098528,
+      "name": "open-xml-templating/docxtemplater",
+      "stars": 3501,
+      "enhanced_text": "Generate docx, pptx, and xlsx from templates (Word, Powerpoint and Excel documents), from Node.js or the browser. Demo: https://www.docxtemplater.com/demo. #docx #office #generator #templating #report #json #generate #generation #template #create #pptx #docx #xlsx #react #vuejs #angularjs #browser #typescript #image #html #table #chart.\n\n## Features\n- Replace a {placeholder} by a value\n- Use loops: {#users} {name} {/users}\n- Use loops in tables to generate columns\n- Use conditions (if users.length>3) with angular Parsing\n- Insert custom XML {@rawXml} (for formatted text for example)\n- Get started with docxtemplater on nodejs\n- Get started with docxtemplater in the browser (react, angular, vue, nextjs)\nThe full documentation of the latest version can be found here.\nSee CHANGELOG.md for information about how to migrate from older versions.\nFunctionality can be added with the following paid modules :\n- Image module to add a given image with the syntax: ;\n- Html Module to insert formatted text in a docx document with the syntax ;\n- XLSX Module to be able to do templating on Excel files (xlsx extension), also with loops and conditions;\n- Chart Module to replace a chart by using data from the JSON object that you give with the syntax ;",
+      "tag": "Office文档模板引擎"
+    },
+    {
+      "id": 3389930,
+      "name": "simple-statistics/simple-statistics",
+      "stars": 3500,
+      "enhanced_text": "simple statistics for node & browser javascript.",
+      "tag": "JavaScript统计库"
+    },
+    {
+      "id": 365565979,
+      "name": "CyberPunkMetalHead/Binance-volatility-trading-bot",
+      "stars": 3490,
+      "enhanced_text": "This is a fully functioning Binance trading bot that measures the volatility of every coin on Binance and places trades with the highest gaining coins If you like this project consider donating though the Brave browser to allow me to continuously improve the script.",
+      "tag": "加密货币交易机器人"
+    },
+    {
+      "id": 269668754,
+      "name": "kiwibrowser/src.next",
+      "stars": 3482,
+      "enhanced_text": "Source-code for Kiwi Next, a Kiwi Browser auto-rebased with latest Chromium.\n\nImportant note: Kiwi Browser is now archived. It will no longer be maintained after January 2025.\nTo support users who rely on extensions, we've partnered with the Microsoft Edge team to offer a smooth migration path.\nClicking the link will prompt you to install Microsoft Edge, reveal a hidden message in the Edge Extensions Hub, and uNBlock a powerful Manifest V2 extension there.\nThe extensions code for Kiwi Browser also has been integrated into the development version of Microsoft Edge: Microsoft Edge Canary.\nTo install extensions on Microsoft Edge Canary:\n1. Open **Microsoft Edge Canary** and go to **Settings > About Microsoft Edge**.\n2. Tap the **Edge build number** (e.g., ) 5 times to enable **Developer Options**.\n3. In Developer Options, select **Extension install by id**.",
+      "tag": "Android浏览器内核"
+    },
+    {
+      "id": 27855953,
+      "name": "google/google-api-javascript-client",
+      "stars": 3470,
+      "enhanced_text": "Google APIs Client Library for browser JavaScript, aka gapi.\n\n## Description\nThe Google API Client Library for JavaScript is designed for JavaScript client-application\ndevelopers. It offers simple, flexible access to many Google APIs.\n> Note: This repo does not contain the source code for the  client.",
+      "tag": "Google API客户端库"
+    },
+    {
+      "id": 8083731,
+      "name": "bastillion-io/Bastillion",
+      "stars": 3444,
+      "enhanced_text": "A modern, web-based SSH console and key management tool.  Bastillion gives you a clean, browser-based way to manage SSH access across all your systems. Think of it like a bastion host with a friendly dashboard.\n\n## Installation Options\n**Free:** https://github.com/bastillion-io/Bastillion/releases\n**AWS Marketplace:** https://aws.amazon.com/marketplace/pp/prodview-x2imjupuydrj6\n### Java 21 (OpenJDK or Oracle JDK)\n> Oracle JDK download: http://www.oracle.com/technetwork/java/javase/downloads/index.html\n### Authenticator (for 2FA)\n| Application | Android | iOS |\n| **Authy** | Google Play | iTunes |\n| **Google Authenticator** | Google Play | iTunes |\n## Run with Jetty (Bundled)\nDownload: https://github.com/bastillion-io/Bastillion/releases\n### Set Environment Variables\nForeground (interactive):\n(or for AMI instances: )",
+      "tag": "Web SSH管理平台"
+    },
+    {
+      "id": 18382480,
+      "name": "matomo-org/device-detector",
+      "stars": 3432,
+      "enhanced_text": "The Universal Device Detection library will parse any User Agent and detect the browser, operating system, device used (desktop, tablet, mobile, tv, cars, console, etc.), brand and model.",
+      "tag": "UA解析库"
+    },
+    {
+      "id": 29791986,
+      "name": "paulirish/git-open",
+      "stars": 3419,
+      "enhanced_text": "Type `git open` to open the GitHub page or website for a repository in your browser.\n\n## Installation\nThe preferred way of installation is to simply add the  script\nsomewhere into your path (e.g. add the directory to your  environment\nor copy  into an existing included path like ).",
+      "tag": "Git命令行工具"
+    },
+    {
+      "id": 1108682714,
+      "name": "SawyerHood/dev-browser",
+      "stars": 3417,
+      "enhanced_text": "A Claude Skill to give your agent the ability to use a web browser.",
+      "tag": "AI代理浏览器工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 13100677,
+        "tag": "JavaScript事件库"
+      },
+      {
+        "id": 10098528,
+        "tag": "Office文档模板引擎"
+      },
+      {
+        "id": 3389930,
+        "tag": "JavaScript统计库"
+      },
+      {
+        "id": 365565979,
+        "tag": "加密货币交易机器人"
+      },
+      {
+        "id": 269668754,
+        "tag": "Android浏览器内核"
+      },
+      {
+        "id": 27855953,
+        "tag": "Google API客户端库"
+      },
+      {
+        "id": 8083731,
+        "tag": "Web SSH管理平台"
+      },
+      {
+        "id": 18382480,
+        "tag": "UA解析库"
+      },
+      {
+        "id": 29791986,
+        "tag": "Git命令行工具"
+      },
+      {
+        "id": 1108682714,
+        "tag": "AI代理浏览器工具"
+      }
+    ]
+  }
+}

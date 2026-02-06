@@ -1,0 +1,16 @@
+{
+  "batch_id": 60,
+  "timestamp": "2026-02-05T16:43:58.773268",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 266286639,\n      \"tag\": \"浏览器指纹检测工具\"\n    },\n    {\n      \"id\": 184711,\n      \"tag\": \"浏览器端JavaScript数据库\"\n    },\n    {\n      \"id\": 76684607,\n      \"tag\": \"隐私浏览检测工具\"\n    },\n    {\n      \"id\": 105912444,\n      \"tag\": \"CSS向后兼容工具\"\n    },\n    {\n      \"id\": 242889642,\n      \"tag\": \"前端学习笔记\"\n    },\n    {\n      \"id\": 3089049,\n      \"tag\": \"前端性能优化指南\"\n    },\n    {\n      \"id\": 854084975,\n      \"tag\": \"隐私防护浏览器内核\"\n    },\n    {\n      \"id\": 357335336,\n      \"tag\": \"React Hooks工具库\"\n    },\n    {\n      \"id\": 3434927,\n      \"tag\": \"浏览器端JVM运行时\"\n    },\n    {\n      \"id\": 18736041,\n      \"tag\": \"跨平台OTP验证库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2421,
+    "completion_tokens": 243,
+    "total_tokens": 2664
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b7a35bfd7aead09e",
+  "created": 1770309825,
+  "finish_reason": "stop"
+}

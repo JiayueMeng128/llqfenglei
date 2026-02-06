@@ -1,0 +1,16 @@
+{
+  "batch_id": 54,
+  "timestamp": "2026-02-05T16:42:16.979064",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 50766155,\n      \"tag\": \"原生UI组件库\"\n    },\n    {\n      \"id\": 33863168,\n      \"tag\": \"浏览器扩展\"\n    },\n    {\n      \"id\": 705820999,\n      \"tag\": \"浏览器音视频处理\"\n    },\n    {\n      \"id\": 47717814,\n      \"tag\": \"JavaScript定时器库\"\n    },\n    {\n      \"id\": 112964403,\n      \"tag\": \"React打印组件\"\n    },\n    {\n      \"id\": 116414510,\n      \"tag\": \"Docker测试框架\"\n    },\n    {\n      \"id\": 952779352,\n      \"tag\": \"浏览器图像处理\"\n    },\n    {\n      \"id\": 773950709,\n      \"tag\": \"AI智能体\"\n    },\n    {\n      \"id\": 31633215,\n      \"tag\": \"OAuth2/OIDC客户端库\"\n    },\n    {\n      \"id\": 198357530,\n      \"tag\": \"浏览器扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1518,
+    "completion_tokens": 238,
+    "total_tokens": 1756
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c8688da0dba66af17503c446a39b",
+  "created": 1770309733,
+  "finish_reason": "stop"
+}

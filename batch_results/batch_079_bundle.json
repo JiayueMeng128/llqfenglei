@@ -1,0 +1,125 @@
+{
+  "batch_id": 79,
+  "timestamp": "2026-02-05T16:49:27.621936",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 239951348,
+      "name": "GoogleChromeLabs/browser-fs-access",
+      "stars": 1546,
+      "enhanced_text": "File System Access API with legacy fallback in the browser.\n\n## Usage Examples\nThe module feature-detects support for the File System Access API and\nonly loads the actually relevant code.\n### Importing what you need\nImport only the features that you need. In the code sample below, all\n\nfeatures are loaded. The imported methods will use the File System\nAccess API or a fallback implementation.\n\n## Installation\nYou can install the module with npm.",
+      "tag": "浏览器文件API封装"
+    },
+    {
+      "id": 203681009,
+      "name": "C0nw0nk/Nginx-Lua-Anti-DDoS",
+      "stars": 1541,
+      "enhanced_text": "A Anti-DDoS script to protect Nginx web servers using Lua with a HTML Javascript based authentication puzzle inspired by Cloudflare I am under attack mode an Anti-DDoS authentication page protect yourself from every attack type All Layer 7 Attacks Mitigating Historic Attacks DoS DoS Implications DDoS All Brute Force Attacks Zero day exploits Social Engineering Rainbow Tables Password Cracking Tools Password Lists Dictionary Attacks Time Delay Any Hosting Provider Any CMS or Custom Website Unlimited Attempt Frequency Search Attacks HTTP Basic Authentication HTTP Digest Authentication HTML Form Based Authentication Mask Attacks Rule-Based Search Attacks Combinator Attacks Botnet Attacks Unauthorized IPs IP Whitelisting Bruter THC Hydra John the Ripper Brutus Ophcrack unauthorized logins Injection Broken Authentication and Session Management Sensitive Data Exposure XML External Entities (XXE) Broken Access Control Security Misconfiguration Cross-Site Scripting (XSS) Insecure Deserialization Using Components with Known Vulnerabilities Insufficient Logging & Monitoring Drupal WordPress Joomla Flash Magento PHP Plone WHMCS Atlassian Products malicious traffic Adult video script avs KVS Kernel Video Sharing Clip Bucket Tube sites Content Management Systems Social networks scripts backends proxy proxies PHP Python Porn sites xxx adult gaming networks servers sites forums vbulletin phpbb mybb smf simple machines forum xenforo web hosting video streaming buffering ldap upstream downstream download upload rtmp vod video over dl hls dash hds mss livestream drm mp4 mp3 swf css js html php python sex m3u zip rar archive compressed mitigation code source sourcecode chan 4chan 4chan.org 8chan.net 8ch 8ch.net infinite chan 8kun 8kun.net anonymous anon tor services .onion torproject.org nginx.org nginx.com openresty.org darknet dark net deepweb deep web darkweb dark web mirror vpn reddit reddit.com adobe flash hackthissite.org dreamhack hack hacked hacking hacker hackers hackerz hackz hacks code coding script scripting scripter source leaks leaked leaking cve vulnerability great firewall china america japan russia .gov government http1 http2 http3 quic q3 litespeedtech litespeed apache torrents torrent torrenting webtorrent bittorrent bitorrent bit-torrent cyberlocker cyberlockers cyber locker cyberbunker warez keygen key generator free irc internet relay chat peer-to-peer p2p cryptocurrency crypto bitcoin miner browser xmr monero coinhive coin hive coin-hive litecoin ethereum cpu cycles popads pop-ads advert advertisement networks banner ads protect ovh blazingfast.io amazon steampowered valve store.steampowered.com steamcommunity thepiratebay lulzsec antisec xhamster pornhub porn.com pornhub.com xhamster.com xvideos xvdideos.com xnxx xnxx.com popads popcash cpm ppc.\n\n# Usage / Installation :\nEdit settings inside  to cater for your own unique needs or improve my work. (Please share your soloutions and additions)\nhttps://github.",
+      "tag": "Nginx Lua防护"
+    },
+    {
+      "id": 1595792,
+      "name": "RSamaium/RPG-JS",
+      "stars": 1538,
+      "enhanced_text": "Framework to create an RPG or MMORPG (with the same code) in the browser with Typescript.",
+      "tag": "浏览器游戏框架"
+    },
+    {
+      "id": 23304218,
+      "name": "headzoo/surf",
+      "stars": 1536,
+      "enhanced_text": "Stateful programmatic web browsing in Go.\n\n### Installation\nDownload the library using go.\nImport the library into your project.",
+      "tag": "Go网页抓取库"
+    },
+    {
+      "id": 446242396,
+      "name": "xsalazar/emoji-kitchen",
+      "stars": 1536,
+      "enhanced_text": "🧑‍🍳 This repository contains the source code for the website https://emojikitchen.dev and allows for quick and easy browsing of the over 100,000 supported emoji mashups as part of Google's Emoji Kitchen.",
+      "tag": "Emoji数据浏览"
+    },
+    {
+      "id": 51248829,
+      "name": "marmelroy/FileBrowser",
+      "stars": 1535,
+      "enhanced_text": "Finder-style iOS file browser written in Swift.",
+      "tag": "iOS文件浏览器"
+    },
+    {
+      "id": 666209424,
+      "name": "redphx/better-xcloud",
+      "stars": 1533,
+      "enhanced_text": "Userscript to improve Xbox Cloud Gaming (xCloud) and Remote Play experiences on web browsers.\n\n### Improve Xbox Cloud Gaming (xCloud) experience on xbox.com/play. It also allows you to use Remote Play on the xCloud website.\n> I only provide Better xCloud on the official repos. Don't download it from anywhere else\n> I only accept pull requests for:",
+      "tag": "云游戏增强脚本"
+    },
+    {
+      "id": 570427,
+      "name": "andris9/jStorage",
+      "stars": 1530,
+      "enhanced_text": "jStorage is a simple key/value database to store data on browser side.",
+      "tag": "浏览器端存储库"
+    },
+    {
+      "id": 52573367,
+      "name": "lzxb/flex.css",
+      "stars": 1529,
+      "enhanced_text": "flex.css is declarative layout which is compatible with wechat, UC, webview and other main-stream mobile browser and surpports react, vue, angular.\n\n### Collection of flex attributes\n### Flex-box attributes description",
+      "tag": "CSS Flex布局库"
+    },
+    {
+      "id": 732151165,
+      "name": "W4G1/multithreading",
+      "stars": 1527,
+      "enhanced_text": "The missing standard library for multithreading in JavaScript (Works in the browser, Node.js, Deno, Bun).\n\n## Installation\nSee: Browser compatibility\nJavaScript is traditionally single-threaded. To achieve true parallelism, this library uses Web Workers. However, unlike standard Workers, this library offers:\n1.  **Managed Worker Pool**: Automatically manages a pool of threads based on hardware concurrency.\n2.  **Shared Memory Primitives**: Tools to safely share state between threads without race conditions.\n3.  **Scoped Imports**: Support for importing external modules and relative files directly within worker tasks.\n4.  **Move Semantics**: Explicit data ownership transfer to prevent cloning overhead.",
+      "tag": "JavaScript多线程库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 239951348,
+        "tag": "浏览器文件API封装"
+      },
+      {
+        "id": 203681009,
+        "tag": "Nginx Lua防护"
+      },
+      {
+        "id": 1595792,
+        "tag": "浏览器游戏框架"
+      },
+      {
+        "id": 23304218,
+        "tag": "Go网页抓取库"
+      },
+      {
+        "id": 446242396,
+        "tag": "Emoji数据浏览"
+      },
+      {
+        "id": 51248829,
+        "tag": "iOS文件浏览器"
+      },
+      {
+        "id": 666209424,
+        "tag": "云游戏增强脚本"
+      },
+      {
+        "id": 570427,
+        "tag": "浏览器端存储库"
+      },
+      {
+        "id": 52573367,
+        "tag": "CSS Flex布局库"
+      },
+      {
+        "id": 732151165,
+        "tag": "JavaScript多线程库"
+      }
+    ]
+  }
+}

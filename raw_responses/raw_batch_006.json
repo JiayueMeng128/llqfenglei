@@ -1,0 +1,16 @@
+{
+  "batch_id": 6,
+  "timestamp": "2026-02-05T16:21:53.837336",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 110178895,\n      \"tag\": \"Chromium分支浏览器\"\n    },\n    {\n      \"id\": 171072967,\n      \"tag\": \"WhatsApp客户端库\"\n    },\n    {\n      \"id\": 412741449,\n      \"tag\": \"浏览器自动化扩展\"\n    },\n    {\n      \"id\": 776908852,\n      \"tag\": \"AI浏览器自动化框架\"\n    },\n    {\n      \"id\": 53256950,\n      \"tag\": \"移动端浏览器控制台\"\n    },\n    {\n      \"id\": 3834332,\n      \"tag\": \"浏览器数据可视化库\"\n    },\n    {\n      \"id\": 764723738,\n      \"tag\": \"AI工作流自动化\"\n    },\n    {\n      \"id\": 11397939,\n      \"tag\": \"Web日志分析器\"\n    },\n    {\n      \"id\": 286047827,\n      \"tag\": \"屏幕串流应用\"\n    },\n    {\n      \"id\": 906022,\n      \"tag\": \"网页保存扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2115,
+    "completion_tokens": 239,
+    "total_tokens": 2354
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a2a06db2317a3f1f",
+  "created": 1770308498,
+  "finish_reason": "stop"
+}

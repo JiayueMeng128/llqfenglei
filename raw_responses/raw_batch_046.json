@@ -1,0 +1,16 @@
+{
+  "batch_id": 46,
+  "timestamp": "2026-02-05T16:40:23.116286",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 166780923,\n      \"tag\": \"富文本编辑器框架\"\n    },\n    {\n      \"id\": 7136348,\n      \"tag\": \"无头浏览器引擎\"\n    },\n    {\n      \"id\": 33571868,\n      \"tag\": \"SSL/TLS测试套件\"\n    },\n    {\n      \"id\": 6180186,\n      \"tag\": \"开发者工具脚本集\"\n    },\n    {\n      \"id\": 103043228,\n      \"tag\": \"跨平台桌面应用框架\"\n    },\n    {\n      \"id\": 22076748,\n      \"tag\": \"游戏资源浏览器\"\n    },\n    {\n      \"id\": 256332800,\n      \"tag\": \"Web UI组件库\"\n    },\n    {\n      \"id\": 110198384,\n      \"tag\": \"浏览器核心引擎\"\n    },\n    {\n      \"id\": 849500524,\n      \"tag\": \"浏览器内容剪辑扩展\"\n    },\n    {\n      \"id\": 47116945,\n      \"tag\": \"浏览器端API库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2021,
+    "completion_tokens": 242,
+    "total_tokens": 2263
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-95e2d74593adf58f",
+  "created": 1770309611,
+  "finish_reason": "stop"
+}

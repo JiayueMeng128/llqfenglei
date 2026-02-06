@@ -1,0 +1,16 @@
+{
+  "batch_id": 12,
+  "timestamp": "2026-02-05T16:23:17.894638",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 26133979,\n      \"tag\": \"移动端浏览器\"\n    },\n    {\n      \"id\": 487812840,\n      \"tag\": \"浏览器扩展框架\"\n    },\n    {\n      \"id\": 79921099,\n      \"tag\": \"浏览器自动化工具\"\n    },\n    {\n      \"id\": 196117722,\n      \"tag\": \"视频广告拦截扩展\"\n    },\n    {\n      \"id\": 1132001614,\n      \"tag\": \"AI代理浏览器自动化\"\n    },\n    {\n      \"id\": 7711472,\n      \"tag\": \"离线文档浏览器\"\n    },\n    {\n      \"id\": 119001901,\n      \"tag\": \"Canvas动画库\"\n    },\n    {\n      \"id\": 286179743,\n      \"tag\": \"浏览器桌面环境\"\n    },\n    {\n      \"id\": 111058386,\n      \"tag\": \"无头浏览器服务\"\n    },\n    {\n      \"id\": 13527761,\n      \"tag\": \"前端开发同步工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1448,
+    "completion_tokens": 236,
+    "total_tokens": 1684
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c3f5d9a4135f6bed7176b26e3fd4",
+  "created": 1770308592,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 91,
+  "timestamp": "2026-02-05T16:52:59.800873",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 46504130,
+      "name": "maslianok/react-resize-detector",
+      "stars": 1299,
+      "enhanced_text": "A Cross-Browser, Event-based, Element Resize Detection for React.",
+      "tag": "React组件工具"
+    },
+    {
+      "id": 281906706,
+      "name": "zalo/CascadeStudio",
+      "stars": 1298,
+      "enhanced_text": "A Full Live-Scripted CAD Kernel in the Browser.",
+      "tag": "Web CAD引擎"
+    },
+    {
+      "id": 77928713,
+      "name": "hectorm/otpauth",
+      "stars": 1297,
+      "enhanced_text": "One Time Password (HOTP/TOTP) library for Node.js, Deno, Bun and browsers.\n\nOne Time Password library for Node.js, Deno, Bun and browsers.\nIt supports the generation and validation of\nHMAC-Based One-Time Passwords (HOTP) as specified in RFC 4226 and\nTime-Based One-Time Passwords (TOTP) as specified in RFC 6238.\nFrequently used in Multi-Factor Authentication (MFA) / Two-Factor Authentication (2FA) systems.\n> You can try the library with the demo application available at otpauth.molinero.dev.\n> If you wish to interact with the library in your browser console, the following snippet can be used:\nThis section presents an overview of the most common usage patterns, along with some security recommendations.",
+      "tag": "JavaScript认证库"
+    },
+    {
+      "id": 1047442186,
+      "name": "enetx/surf",
+      "stars": 1297,
+      "enhanced_text": "SURF - Advanced Go HTTP client with Chrome/Firefox browser impersonation, HTTP/3 with QUIC fingerprinting, JA3/JA4 TLS emulation, and anti-bot bypass for web automation and scraping.\n\nSurf - Advanced HTTP Client for Go\nSurf is a powerful, feature-rich HTTP client library for Go that makes working with HTTP requests intuitive and enjoyable. With advanced features like browser impersonation, JA3/JA4 fingerprinting, and comprehensive middleware support, Surf provides everything you need for modern web interactions.\n### 🎭 **Browser Impersonation**\n- **Chrome & Firefox Support**: Accurately mimic Chrome v144 and Firefox v147 browser fingerprints\n- **Platform Diversity**: Impersonate Windows, macOS, Linux, Android, and iOS devices\n- **TLS Fingerprinting**: Full JA3/JA4 fingerprint customization for enhanced privacy\n- **Automatic Headers**: Proper header ordering and browser-specific values\n- **WebKit Form Boundaries**: Accurate multipart form boundary generation matching real browsers\n### 🔒 **Advanced TLS & Security**",
+      "tag": "Go HTTP客户端"
+    },
+    {
+      "id": 824656296,
+      "name": "damongolding/immich-kiosk",
+      "stars": 1296,
+      "enhanced_text": "Highly configurable slideshows for displaying Immich assets on browsers and devices.",
+      "tag": "Web幻灯片应用"
+    },
+    {
+      "id": 296251053,
+      "name": "zthxxx/react-dev-inspector",
+      "stars": 1295,
+      "enhanced_text": "jump to local IDE code directly from browser React component by just a simple click.\n\n## Introduction\n**react-dev-inspector** is the tool for seamlessly code navigation from browser to IDE.\nWith **just a simple click**, you can jump from a React component on the browser to its source code in your local IDE instantly.\nThink of it as a more advanced version of Chrome's Inspector.\nSee the document on: https://react-dev-inspector.zthxxx.me\n#### Why React Dev Inspector\nHave you ever run into any of these issues 🤔:\n- You've got to fix some bugs in your team's project, but you have no idea where the heck page/component's code is located.\n- You're eager to dive into an open-source project that interests you, but it's hard to find where the code for the page/component is implemented.\n- You may thinking about a component and want to quickly peek at its code, but don't want to memorize or manually expand those never-ending deep file paths.\nThat's exactly why react-dev-inspector was created.\nJust check out this demo below and you'll get it in a snap.\nShowcase: https://react-dev-inspector.zthxxx.me/showcase\nWanna try out the demo right now? Sure, here is the online demo:",
+      "tag": "React开发者工具"
+    },
+    {
+      "id": 628453268,
+      "name": "Uminosachi/sd-webui-inpaint-anything",
+      "stars": 1283,
+      "enhanced_text": "Inpaint Anything extension performs stable diffusion inpainting on a browser UI using masks from Segment Anything.",
+      "tag": "AI图像修复工具"
+    },
+    {
+      "id": 10756392,
+      "name": "contentful/contentful.js",
+      "stars": 1280,
+      "enhanced_text": "JavaScript library for Contentful's Delivery API (node & browser).\n\n## Introduction\nJavaScript library for the Contentful Content Delivery API and Content Preview API. It helps you to easily access your content stored in Contentful with your JavaScript applications.\n**What is Contentful?**\nContentful provides content infrastructure for digital teams to power websites, apps, and devices. Unlike a CMS, Contentful was built to integrate with the modern software stack. It offers a central hub for structured content, powerful management and delivery APIs, and a customizable web app that enables developers and content creators to ship their products faster.\n- Supported browsers and Node.js versions\n- Using in Legacy Environments Without ESM/Import Support\n- Using it directly in the browser\n- Using this library with the Preview API\n- Cursor-based Pagination\n- Documentation \\& References\n- Request configuration options\n- Response configuration options\n- Client chain modifiers\n- Reference documentation\n- Tutorials \\& other resources\n\n## Getting started\nIn order to get started with the Contentful JS library you'll need not only to install it, but also to get credentials which will allow you to have access to your content in Contentful.\n- Using this library with the Preview API\n- Cursor-based pagination\n- Documentation & References",
+      "tag": "JavaScript API客户端"
+    },
+    {
+      "id": 709761,
+      "name": "etianen/html5media",
+      "stars": 1277,
+      "enhanced_text": "Enables <video> and <audio> tags in all major browsers.",
+      "tag": "HTML5多媒体兼容库"
+    },
+    {
+      "id": 366950533,
+      "name": "hikerpig/pintora",
+      "stars": 1276,
+      "enhanced_text": "An extensible text-to-diagrams library that works in both browser and node.js.\n\n> **pintora** Spanish for \"female painter\"\nPintora is an extensible javascript text-to-diagrams library that works in both browser and Node.js.\nExpressing your thoughts in a diagram is better than a thousand words. With the help of pintora.js, you can create diagrams with intuitive text.\nHeavily inspired by Mermaid.js and PlantUML.\n- In browser side, output SVG or Canvas.\n- In Node.js side, output PNG/JPG/SVG file.\n- Outputs are clean and self contained, won't pollute the page with global style.",
+      "tag": "JavaScript图表库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 46504130,
+        "tag": "React组件工具"
+      },
+      {
+        "id": 281906706,
+        "tag": "Web CAD引擎"
+      },
+      {
+        "id": 77928713,
+        "tag": "JavaScript认证库"
+      },
+      {
+        "id": 1047442186,
+        "tag": "Go HTTP客户端"
+      },
+      {
+        "id": 824656296,
+        "tag": "Web幻灯片应用"
+      },
+      {
+        "id": 296251053,
+        "tag": "React开发者工具"
+      },
+      {
+        "id": 628453268,
+        "tag": "AI图像修复工具"
+      },
+      {
+        "id": 10756392,
+        "tag": "JavaScript API客户端"
+      },
+      {
+        "id": 709761,
+        "tag": "HTML5多媒体兼容库"
+      },
+      {
+        "id": 366950533,
+        "tag": "JavaScript图表库"
+      }
+    ]
+  }
+}

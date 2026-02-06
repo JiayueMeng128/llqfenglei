@@ -1,0 +1,125 @@
+{
+  "batch_id": 96,
+  "timestamp": "2026-02-05T16:54:23.946724",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 81371878,
+      "name": "udevbe/greenfield",
+      "stars": 1202,
+      "enhanced_text": "HTML5 Wayland compositor  :seedling:.\n\n### The in-browser wayland compositor\nGreenfield is the Wayland compositor for the web. It runs native Linux applications remotely,\nor WebAssembly applications directly in your browser.\nVisit the documentation, or have a look on how it all began",
+      "tag": "WebAssembly运行时"
+    },
+    {
+      "id": 102083108,
+      "name": "elkokc/reflector",
+      "stars": 1201,
+      "enhanced_text": "Burp plugin able to find reflected XSS on page in real-time while browsing on site.\n\n# Description\nBurp Suite extension is able to find reflected XSS on page in real-time while browsing on web-site and include some features as:\n* Highlighting of reflection in the response tab.\n* Test which symbols is allowed in this reflection.\n* Analyze  of reflection context.\n* Content-Type whitelist.",
+      "tag": "BurpSuite安全插件"
+    },
+    {
+      "id": 113786110,
+      "name": "jmerle/competitive-companion",
+      "stars": 1201,
+      "enhanced_text": "Browser extension which parses competitive programming problems.\n\n[link-cws]: https://chromewebstore.google.com/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl\n[link-amo]: https://addons.mozilla.org/en-US/firefox/addon/competitive-companion/\nA browser extension which parses competitive programming problems from various online judges (like AtCoder and Codeforces) and sends them to various tools (like CP Editor and CPH). Capable of parsing problems and contests and extracting data like the example testcases and the time and memory constraints.",
+      "tag": "竞赛编程助手扩展"
+    },
+    {
+      "id": 15850775,
+      "name": "medialize/sass.js",
+      "stars": 1198,
+      "enhanced_text": "Sass.js - API for emscripted libsass to run in the browser.\n\nSass parser in JavaScript. Have a look at the Interactive Playground to play around with compiling SCSS to CSS in your browser.\nThis is a convenience API for emscripted libsass (at v3.6.2). If you're looking to run Sass in node, you're probably looking for node-sass. Sass.js and node-sass should generate the same results.\nA fair warning: minified the worker weighs 4.5MB, gzipped it's still 827KB. If you're on NodeJS, please use the (considerably faster) node-sass instead.\nYou may also be interested in giving Dart Sass a shot.",
+      "tag": "Sass编译器"
+    },
+    {
+      "id": 26699459,
+      "name": "feross/awesome-mad-science",
+      "stars": 1197,
+      "enhanced_text": "Delightful npm packages that make you say \"wow, didn't know that was possible!\".\n\n- peerwiki - all of wikipedia on bittorrent\n- simple-peer - send video/voice/data p2p in the browser (with webrtc)\n- torrent-docker - realtime boot of remote docker images over bittorrent\n- torrent-mount - mount a torrent as a filesystem\n- webtorrent - streaming torrent client for node & the browser\n- brfs - turn  calls into inlined static assets",
+      "tag": "Node.js包集合"
+    },
+    {
+      "id": 458778240,
+      "name": "RyensX/MediaBox",
+      "stars": 1196,
+      "enhanced_text": "全能媒体容器，插件化网罗天下媒体，畅快浏览视频、漫画和任何你想要的媒体数据。A universal media container, aggregating media through plugins to browse videos, comics and any media data you want.",
+      "tag": "插件化媒体容器"
+    },
+    {
+      "id": 162753411,
+      "name": "pagedjs/pagedjs",
+      "stars": 1195,
+      "enhanced_text": "Display paginated content in the browser and generate print books using web technology.",
+      "tag": "CSS分页引擎"
+    },
+    {
+      "id": 3082672,
+      "name": "morr/jquery.appear",
+      "stars": 1194,
+      "enhanced_text": "jQuery plugin for tracking element's appearance in browser viewport.",
+      "tag": "jQuery视口检测插件"
+    },
+    {
+      "id": 564141286,
+      "name": "wseagar/eight-dollars",
+      "stars": 1191,
+      "enhanced_text": "A browser extension that shows twitter blue vs real verified users.",
+      "tag": "社交媒体标识扩展"
+    },
+    {
+      "id": 137736003,
+      "name": "persian-tools/persian-tools",
+      "stars": 1187,
+      "enhanced_text": "A comprehensive, high-performance TypeScript toolkit for Persian (Farsi) text, numbers, validation, and locale utilities — works in Node.js, Bun, and the browser.\n\n🇮🇷 Persian Tools — The Complete TypeScript Toolkit for Persian (Farsi) Apps\nA comprehensive, library-agnostic TypeScript toolkit for Persian (Farsi) text, numbers, validation, and locale utilities — runs in Node.js, Bun, and the browser.\nPersian Tools provides **27+ utilities** for Persian language processing:\n- **Number Conversion**: Persian words ↔ numbers with fuzzy matching\n- **Digit Conversion**: Persian ↔ Arabic ↔ English digits\n- **Comma Formatting**: Add/remove thousands of separators\n- **Ordinal Numbers**: Convert to/from ordinal forms\n### 🏛️ Validation & Verification",
+      "tag": "波斯语工具库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 81371878,
+        "tag": "WebAssembly运行时"
+      },
+      {
+        "id": 102083108,
+        "tag": "BurpSuite安全插件"
+      },
+      {
+        "id": 113786110,
+        "tag": "竞赛编程助手扩展"
+      },
+      {
+        "id": 15850775,
+        "tag": "Sass编译器"
+      },
+      {
+        "id": 26699459,
+        "tag": "Node.js包集合"
+      },
+      {
+        "id": 458778240,
+        "tag": "插件化媒体容器"
+      },
+      {
+        "id": 162753411,
+        "tag": "CSS分页引擎"
+      },
+      {
+        "id": 3082672,
+        "tag": "jQuery视口检测插件"
+      },
+      {
+        "id": 564141286,
+        "tag": "社交媒体标识扩展"
+      },
+      {
+        "id": 137736003,
+        "tag": "波斯语工具库"
+      }
+    ]
+  }
+}

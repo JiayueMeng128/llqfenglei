@@ -1,0 +1,16 @@
+{
+  "batch_id": 70,
+  "timestamp": "2026-02-05T16:47:06.926313",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 61016843,\n      \"tag\": \"JavaScript模板引擎\"\n    },\n    {\n      \"id\": 51307118,\n      \"tag\": \"Web乐谱渲染器\"\n    },\n    {\n      \"id\": 695250589,\n      \"tag\": \"隐私安全扩展\"\n    },\n    {\n      \"id\": 8328202,\n      \"tag\": \"Web UI组件\"\n    },\n    {\n      \"id\": 1000277419,\n      \"tag\": \"浏览器AI助手扩展\"\n    },\n    {\n      \"id\": 102619418,\n      \"tag\": \"无头浏览器驱动\"\n    },\n    {\n      \"id\": 158181512,\n      \"tag\": \"隐私增强浏览器\"\n    },\n    {\n      \"id\": 35015510,\n      \"tag\": \"垂直领域浏览器\"\n    },\n    {\n      \"id\": 24677116,\n      \"tag\": \"Web文件管理器\"\n    },\n    {\n      \"id\": 55628517,\n      \"tag\": \"Web图数据可视化\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1622,
+    "completion_tokens": 237,
+    "total_tokens": 1859
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c98a1b9d3ccad928af42adc1c746",
+  "created": 1770310023,
+  "finish_reason": "stop"
+}

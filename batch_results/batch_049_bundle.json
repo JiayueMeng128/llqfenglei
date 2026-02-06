@@ -1,0 +1,125 @@
+{
+  "batch_id": 49,
+  "timestamp": "2026-02-05T16:41:03.771891",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 18788804,
+      "name": "altdesktop/playerctl",
+      "stars": 2826,
+      "enhanced_text": "🎧 mpris media player command-line controller for vlc, mpv, RhythmBox, web browsers, cmus, mpd, spotify and others.",
+      "tag": "媒体控制命令行工具"
+    },
+    {
+      "id": 141427485,
+      "name": "MetaMask/metamask-mobile",
+      "stars": 2815,
+      "enhanced_text": "Mobile web browser providing access to websites that use the Ethereum blockchain.\n\n## Getting started\n### Infura Project Setup\nMetaMask Mobile requires an Infura project ID to connect to blockchain networks.\n#### Internal Contributors\n1. Grab the  file from 1Password, ask around for the correct vault. This file contains the .\n#### External Contributors\n1. Go to https://developer.metamask.io and create an account\n2. Generate an API key\n3. Add API key to  in\n> Without an Infura project ID, the app cannot connect to blockchain networks.\n### Using Expo (recommended)\nExpo is the fastest way to start developing. With the Expo framework, developers don't need to compile the native side of the application as before, hence no need for any native environment setup, developers only need to download a precompiled development build and run the javascript bundler. The development build will then connect with the bundler to load the javascript code.\n#### Expo Environment Setup\n\nInstall node, yarn v4 and watchman.\n#### Clone the project\n\n#### Install dependencies\n#### Download and install the development build\n- Expo development builds are hosted in Runway buckets and are made available to all contributors through the public bucket links below. A new build is generated every time a PR is merged into the  branch.\n- Download and install an  file from this Runway bucket onto your Android device or emulator.\n- Your test device needs to first be registered with our Apple developer account.\n- Once registered, download and install an  file from this Runway bucket onto your device.\n- Download and install an  file from this Runway bucket onto your simulator.\n- Note: Our  files are zipped and hosted under  in the bucket. Since this hosting additional artifacts in public buckets is a relatively new feature, contributors may find that some builds are missing additional artifacts. Under the hood, these are usually associated with failed or aborted Bitrise builds. We are working with the Runway team to better filter out these builds and are subject to change in the future.\n- use the initial expo screen that appears when starting the development to choose the bundler url\n- OR press \"a\" for Android or \"i\" for iOS on the terminal where the bundler is running\nIf on a physical device:\n- Use the camera app to scan the QR code presented by the bundler running on the terminal\nThat's it! This will work for any javascript development, if you need to develop or modify native code please see the next section...",
+      "tag": "移动端区块链钱包浏览器"
+    },
+    {
+      "id": 5567476,
+      "name": "grevory/angular-local-storage",
+      "stars": 2814,
+      "enhanced_text": "An AngularJS module that gives you access to the browsers local storage with cookie fallback.\n\nAn Angular module that gives you access to the browsers local storage\n[![NPM version][npm-image]][npm-url]\n[![Build status][travis-image]][travis-url]\n[![Test coverage][coveralls-image]][coveralls-url]\n[![Dependency Status][david-image]][david-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n- [![Gitter][gitter-image]][gitter-url]",
+      "tag": "Angular本地存储模块"
+    },
+    {
+      "id": 37374972,
+      "name": "olebedev/go-starter-kit",
+      "stars": 2801,
+      "enhanced_text": "[abandoned] Golang isomorphic react/hot reloadable/redux/css-modules/SSR  starter kit.\n\nInstall dependencies:\nthat's it. Open http://localhost:5001/(if you use default port) at your browser. Now you ready to start coding your awesome project.\n\nInstall dependencies and type . This rule is producing webpack build and regular golang build after that. Result you can find at . Note that the binary will be named **as the current project directory**.",
+      "tag": "Go全栈开发脚手架"
+    },
+    {
+      "id": 37438565,
+      "name": "sharpie7/circuitjs1",
+      "stars": 2774,
+      "enhanced_text": "Electronic Circuit Simulator in the Browser.\n\n## Introduction\nCircuitJS1 is an electronic circuit simulator that runs in the browser. It was originally written by Paul Falstad as a Java Applet. It was adapted by Iain Sharp to run in the browser using GWT.\nFor a hosted version of the application see:\n* Paul's Page: http://www.falstad.com/circuit/\n* Iain's Page: http://lushprojects.com/circuitjs/\nThanks to: Edward Calver for 15 new components and other improvements; Rodrigo Hausen for file import/export and many other UI improvements; J. Mike Rollins for the Zener diode code; Julius Schmidt for the spark gap code and some examples; Dustin Soodak for help with the user interface improvements; Jacob Calvert for the T Flip Flop; Ben Hayden for scope spectrum; Thomas Reitinger, Krystian Sławiński, Usevalad Khatkevich, Lucio Sciamanna, Mauro Hemerly Gazzani, J. Miguel Silva, and Franck Viard for translations; Andre Adrian for improved emitter coupled oscillator; Felthry for many examples; Colin Howell for code improvements. LZString (c) 2013 pieroxy.\n## Building the web application\nThe tools you will need to build the project are:\n* Eclipse, Oxygen version.\n* GWT plugin for Eclipse.",
+      "tag": "浏览器电路模拟器"
+    },
+    {
+      "id": 114962091,
+      "name": "homebridge/homebridge-config-ui-x",
+      "stars": 2774,
+      "enhanced_text": "The Homebridge UI. Monitor, configure and backup Homebridge from a browser.",
+      "tag": "Homebridge网页管理界面"
+    },
+    {
+      "id": 17406078,
+      "name": "insidegui/AssetCatalogTinkerer",
+      "stars": 2769,
+      "enhanced_text": "An app that lets you open .car files and browse/extract their images.",
+      "tag": "macOS资源文件查看器"
+    },
+    {
+      "id": 2822459,
+      "name": "jeanphix/Ghost.py",
+      "stars": 2763,
+      "enhanced_text": "Webkit based scriptable web browser for python.",
+      "tag": "Python WebKit自动化库"
+    },
+    {
+      "id": 686004733,
+      "name": "vuejs/devtools",
+      "stars": 2759,
+      "enhanced_text": "⚙️ Browser devtools extension for debugging Vue.js applications.",
+      "tag": "Vue.js开发者工具扩展"
+    },
+    {
+      "id": 43936671,
+      "name": "suzuki-0000/SKPhotoBrowser",
+      "stars": 2737,
+      "enhanced_text": "Simple PhotoBrowser/Viewer inspired by facebook, twitter photo browsers written by swift.",
+      "tag": "iOS照片浏览器组件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 18788804,
+        "tag": "媒体控制命令行工具"
+      },
+      {
+        "id": 141427485,
+        "tag": "移动端区块链钱包浏览器"
+      },
+      {
+        "id": 5567476,
+        "tag": "Angular本地存储模块"
+      },
+      {
+        "id": 37374972,
+        "tag": "Go全栈开发脚手架"
+      },
+      {
+        "id": 37438565,
+        "tag": "浏览器电路模拟器"
+      },
+      {
+        "id": 114962091,
+        "tag": "Homebridge网页管理界面"
+      },
+      {
+        "id": 17406078,
+        "tag": "macOS资源文件查看器"
+      },
+      {
+        "id": 2822459,
+        "tag": "Python WebKit自动化库"
+      },
+      {
+        "id": 686004733,
+        "tag": "Vue.js开发者工具扩展"
+      },
+      {
+        "id": 43936671,
+        "tag": "iOS照片浏览器组件"
+      }
+    ]
+  }
+}

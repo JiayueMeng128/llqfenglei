@@ -1,0 +1,16 @@
+{
+  "batch_id": 98,
+  "timestamp": "2026-02-05T16:54:55.907772",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 99478934,\n      \"tag\": \"前端知识库\"\n    },\n    {\n      \"id\": 813783,\n      \"tag\": \"浏览器自动化测试框架\"\n    },\n    {\n      \"id\": 82470022,\n      \"tag\": \"HTTP请求调试扩展\"\n    },\n    {\n      \"id\": 118652595,\n      \"tag\": \"无头浏览器测试工具\"\n    },\n    {\n      \"id\": 706643137,\n      \"tag\": \"浏览器书签迁移工具\"\n    },\n    {\n      \"id\": 4340323,\n      \"tag\": \"浏览器行为实验框架\"\n    },\n    {\n      \"id\": 370396971,\n      \"tag\": \"浏览器音频合成平台\"\n    },\n    {\n      \"id\": 4141506,\n      \"tag\": \"浏览器快捷键扩展\"\n    },\n    {\n      \"id\": 43045691,\n      \"tag\": \"源码浏览器生成器\"\n    },\n    {\n      \"id\": 20765046,\n      \"tag\": \"浏览器跨页签同步库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1183,
+    "completion_tokens": 242,
+    "total_tokens": 1425
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-9006729d9af9ec26",
+  "created": 1770310484,
+  "finish_reason": "stop"
+}

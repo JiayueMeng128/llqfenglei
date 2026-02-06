@@ -1,0 +1,16 @@
+{
+  "batch_id": 23,
+  "timestamp": "2026-02-05T16:25:13.037207",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 274248201,\n      \"tag\": \"渗透测试工具集\"\n    },\n    {\n      \"id\": 24046239,\n      \"tag\": \"浏览器内Python运行时\"\n    },\n    {\n      \"id\": 879320294,\n      \"tag\": \"无头浏览器自动化框架\"\n    },\n    {\n      \"id\": 23971425,\n      \"tag\": \"无头浏览器列表\"\n    },\n    {\n      \"id\": 573759422,\n      \"tag\": \"AI增强扩展\"\n    },\n    {\n      \"id\": 973180254,\n      \"tag\": \"前端代码智能代理\"\n    },\n    {\n      \"id\": 65687570,\n      \"tag\": \"计算机系统课程大纲\"\n    },\n    {\n      \"id\": 126314606,\n      \"tag\": \"安卓移动浏览器\"\n    },\n    {\n      \"id\": 10368942,\n      \"tag\": \"自定义滚动条库\"\n    },\n    {\n      \"id\": 882026761,\n      \"tag\": \"浏览器自动化API\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2538,
+    "completion_tokens": 239,
+    "total_tokens": 2777
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c468458c54e187db432fd936ec06",
+  "created": 1770308709,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 9,
+  "timestamp": "2026-02-05T16:22:19.723842",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 58360147,\n      \"tag\": \"JavaScript代码混淆工具\"\n    },\n    {\n      \"id\": 910986056,\n      \"tag\": \"浏览器端AI智能体框架\"\n    },\n    {\n      \"id\": 924303,\n      \"tag\": \"轻量级JavaScript库\"\n    },\n    {\n      \"id\": 601161044,\n      \"tag\": \"浏览器端机器学习库\"\n    },\n    {\n      \"id\": 2609642,\n      \"tag\": \"实时API框架\"\n    },\n    {\n      \"id\": 144624857,\n      \"tag\": \"浏览器自动化脚本录制扩展\"\n    },\n    {\n      \"id\": 1338813,\n      \"tag\": \"Canvas矢量图形库\"\n    },\n    {\n      \"id\": 51658450,\n      \"tag\": \"GPU加速神经网络库\"\n    },\n    {\n      \"id\": 445599288,\n      \"tag\": \"模拟数据生成库\"\n    },\n    {\n      \"id\": 931039,\n      \"tag\": \"CommonJS模块打包工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1828,
+    "completion_tokens": 243,
+    "total_tokens": 2071
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-8ba0fadd5a8392da",
+  "created": 1770308527,
+  "finish_reason": "stop"
+}

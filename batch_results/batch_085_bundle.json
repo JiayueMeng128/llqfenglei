@@ -1,0 +1,125 @@
+{
+  "batch_id": 85,
+  "timestamp": "2026-02-05T16:50:47.695987",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 746320301,
+      "name": "TheGP/untidetect-tools",
+      "stars": 1420,
+      "enhanced_text": "List of anti-detect and humanizing tools and browsers, including captcha solvers and sms-activation.",
+      "tag": "反检测浏览器工具集"
+    },
+    {
+      "id": 726478144,
+      "name": "11cafe/comfyui-workspace-manager",
+      "stars": 1416,
+      "enhanced_text": "A ComfyUI workflows and models management extension to organize and manage all your workflows, models in one place. Seamlessly switch between workflows, as well as import, export workflows, reuse subworkflows, install models, browse your models in a single workspace.\n\n## Installation\n### [Option 1] via ComfyUI Manager (Preferred)\nSimply search for “ComfyUI Workspace Manager”, install, and restart ComfyUI.\n### [Option 2] via git\nLike any other custom node installation, in your ComfyUI root folder run command and restart your ComfyUI.\nPlease upgrade to V2 asap, you should see an **unicorn🦄** here instead of ☕️ (V1). I will stop supporting V1 soon.\nRecommanded settings for V2 (Do not use these settings if you are on V1):\n- Enable two way sync (‼️ Will stop supporting non-two-way sync mode starting next version)\n- Make sure My Workspace Save Directory is valid path",
+      "tag": "AI工作流管理扩展"
+    },
+    {
+      "id": 1097428181,
+      "name": "wilsonzlin/fastrender",
+      "stars": 1415,
+      "enhanced_text": "Experimental new browser engine.\n\nA browser rendering engine in Rust. Parses HTML/CSS, computes styles, performs layout, and paints pixels. Includes a desktop browser shell and JavaScript execution via an embedded JS engine.\nUnder heavy development. APIs are unstable and change frequently. Not recommended for production use.\nDeveloped as part of research into collaborative parallel AI coding agents.\nEach stage produces an immutable tree consumed by the next. This separation enables caching: change only CSS and re-cascade without re-parsing HTML; scroll without re-laying-out.\nThe box tree is not 1:1 with the DOM.  removes an element's box while keeping its children. Tables generate anonymous row/cell wrappers per CSS 2.1 §17.2. Mixed block/inline children trigger anonymous block box creation.",
+      "tag": "Rust渲染引擎实验"
+    },
+    {
+      "id": 19702094,
+      "name": "superpoweredSDK/Low-Latency-Android-iOS-Linux-Windows-tvOS-macOS-Interactive-Audio-Platform",
+      "stars": 1414,
+      "enhanced_text": "🇸Superpowered Audio, Networking and Cryptographics SDKs. High performance and cross platform on Android, iOS, macOS, tvOS, Linux, Windows and modern web browsers.\n\nSuperpowered Inc develops the leading portable C++ Audio SDK, C++ Networking SDK, and C++ Crypto SDK featuring low-power and real-time latency. With builds for Desktop, Mobile, IoT and Embedded Devices, portable and cross-platform on Android, iOS, macOS, tvOS, Linux and Windows as well as processor-specific builds for ARM32, ARM64, x86, and x64.\nSuperpowered Inc develops the following interactive audio, networking and cryptographics SDKs and infrastructure:\n### 1. Superpowered C++ Audio Library and SDK for Android, iOS, macOS, tvOS, Linux and Windows.\nSuperpowered C++ Audio Library and SDK is the leading C++ Audio Library featuring low-power, real-time latency and cross-platform audio players, audio decoders, Fx (effects), audio I/O, streaming, music analysis and spatialization.\nFor the most up-to-date feature list, see: https://superpowered.com/audio-library-sdk\nFor the latest API reference check the docsite: https://docs.superpowered.com/reference/latest?lang=cpp\n### 2. Superpowered C++ Networking Library and SDK for Android, iOS, macOS, tvOS, Linux and Windows.\nThe Superpowered C++ Networking Library and SDK was designed from the ground-up to provide the easiest cross-platform way for a client to communicate with the back-end. It implements HTTP and HTTPS communication with custom data and header support, progress handling, file uploads/downloads and more. It reduces implementation, debug and maintenance time of typical tasks such as REST API requests, OAuth and bearer token authorization, or digital media streaming. It operates identically on all platforms, removing the pain of writing wrappers and finding quirks around the operating system's networking API, while it's fully self-contained and independent from it. The SDK also has a JSON parser to offer a complete package for your everyday networking and parsing needs.\nFor the most up-to-date feature list, see: https://superpowered.com/networking-library-sdk",
+      "tag": "跨平台音频SDK"
+    },
+    {
+      "id": 113919648,
+      "name": "duckduckgo/duckduckgo-privacy-extension",
+      "stars": 1414,
+      "enhanced_text": "DuckDuckGo Privacy Essentials browser extension for Firefox, Chrome.\n\n# DuckDuckGo Browser Extensions\nDuckDuckGo Firefox, Chrome, and Edge extensions.\nVisit our Web Tracking Protections page to learn how each of our web tracking protections works and how they work together in our browser extensions and apps to provide overlapping protection.\nDuckDuckGo Privacy Extensions is distributed under the Apache 2.0 License.\nThe code for the Safari extension is an Xcode project which you can find here.\nThe Safari extension can be installed from the App Store.\nIf you use another Chromium-based browser like Vivaldi, you can usually install the Chrome version.",
+      "tag": "隐私保护浏览器扩展"
+    },
+    {
+      "id": 789046020,
+      "name": "McGill-NLP/webllama",
+      "stars": 1407,
+      "enhanced_text": "Llama-3 agents that can browse the web by following instructions and talking to you.",
+      "tag": "AI网页浏览代理"
+    },
+    {
+      "id": 30087179,
+      "name": "immersive-web/webvr-polyfill",
+      "stars": 1406,
+      "enhanced_text": "Use WebVR today, without requiring a special browser build.",
+      "tag": "WebVR兼容层"
+    },
+    {
+      "id": 103822442,
+      "name": "danny0838/content-farm-terminator",
+      "stars": 1403,
+      "enhanced_text": "Content Farm Terminator browser extension/「終結內容農場」瀏覽器套件.\n\n# Content Farm Terminator (終結內容農場)\n*Content Farm Terminator* is a cross-platform browser extension that helps the user identify and repel content farms, through marking hyperlinks that targets a content farm in any web page and blocking web requests that targets a content farm.\nHomepage with more detailed introduction (multi-language).\n* Firefox (also: Firefox for Android, Tor Browser, etc.)\n* Google Chrome (also: Opera, Vilvadi, Brave, Kiwi Browser, etc.)\nTo report a content farm to be included in our blacklist, fill the form through the hyerlink at the bottom of the option page of the browser extension, or through this link.",
+      "tag": "内容农场拦截扩展"
+    },
+    {
+      "id": 147781722,
+      "name": "proyecto26/react-native-inappbrowser",
+      "stars": 1402,
+      "enhanced_text": "📱InAppBrowser for React Native (Android & iOS) 🤘.",
+      "tag": "React Native浏览器组件"
+    },
+    {
+      "id": 18685406,
+      "name": "simov/markdown-viewer",
+      "stars": 1399,
+      "enhanced_text": "Markdown Viewer / Browser Extension.\n\n# Markdown Viewer / Browser Extension\n**Install: [Chrome]** / **[Firefox]** / **[Edge]** / **[Opera]**  / **[Brave]** / **[Chromium]** / **[Vivaldi]**\n- Render local and remote file URLs\n- Granular access to remote origins\n- Full control over the compiler options ([markdown-it], [marked], [remark])\n- 30+ Themes ([cleanrmd], [GitHub][github-theme])\n- GitHub Flavored Markdown (GFM)",
+      "tag": "Markdown渲染扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 746320301,
+        "tag": "反检测浏览器工具集"
+      },
+      {
+        "id": 726478144,
+        "tag": "AI工作流管理扩展"
+      },
+      {
+        "id": 1097428181,
+        "tag": "Rust渲染引擎实验"
+      },
+      {
+        "id": 19702094,
+        "tag": "跨平台音频SDK"
+      },
+      {
+        "id": 113919648,
+        "tag": "隐私保护浏览器扩展"
+      },
+      {
+        "id": 789046020,
+        "tag": "AI网页浏览代理"
+      },
+      {
+        "id": 30087179,
+        "tag": "WebVR兼容层"
+      },
+      {
+        "id": 103822442,
+        "tag": "内容农场拦截扩展"
+      },
+      {
+        "id": 147781722,
+        "tag": "React Native浏览器组件"
+      },
+      {
+        "id": 18685406,
+        "tag": "Markdown渲染扩展"
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 65,
+  "timestamp": "2026-02-05T16:45:12.803633",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 135900664,
+      "name": "pubkey/broadcast-channel",
+      "stars": 1980,
+      "enhanced_text": ":satellite: BroadcastChannel to send data between different browser-tabs or nodejs-processes :satellite: + LeaderElection over the channels  https://pubkey.github.io/broadcast-channel/.\n\nA BroadcastChannel to send data across multiple browser-tabs or nodejs-processes or Deno-Deploy-Instances\n+ LeaderElection over the channels\nA BroadcastChannel that allows you to send data between different browser-tabs or nodejs-processes or Deno-Deploy-Instances.\n- It works completely **client-side** and **offline**,\n- Tested on **old browsers**, **new browsers**, **WebWorkers**, **Iframes** and **NodeJs**.\nThis behaves similar to the BroadcastChannel-API which is currently only featured in some browsers.",
+      "tag": "跨浏览器通信库"
+    },
+    {
+      "id": 159969526,
+      "name": "newcat/baklavajs",
+      "stars": 1980,
+      "enhanced_text": "Graph / node editor in the browser using VueJS.\n\n## Introduction\nBaklavaJS is a graph/node editor for the web. It provides an easy-to-use editor together with the ability to create custom nodes. Aditionally, it puts a strong emphasis on extensibility, which leads to a versatile plugin system.\nTo guarantee type safety, the entirety of the BaklavaJS ecosystem is written in TypeScript.\nThe core functionality is shipped in the  package. Any other functionality can be added a-la-carte by installing the desired plugins:\n-   **Engine**: Provides functions to run calculations with the graph.\n-   **Interface Types**: Adds types to node interfaces and allowing connections only between types that you want to. It can also automatically convert values from one type to another.\n-   **Vue Renderer**: Displays the editor in the browser using VueJS\n-   **Themes**: A collection of pre-built themes for BaklavaJS\nThere is also the  package, which contains the core package as well as all plugins.",
+      "tag": "Web节点图编辑器"
+    },
+    {
+      "id": 105154070,
+      "name": "tdurieux/anonymous_github",
+      "stars": 1979,
+      "enhanced_text": "Anonymous Github is a proxy server to support anonymous browsing of Github repositories for open-science code and data.",
+      "tag": "GitHub匿名代理"
+    },
+    {
+      "id": 619823756,
+      "name": "WebAV-Tech/WebAV",
+      "stars": 1977,
+      "enhanced_text": "A web-based Video Editing SDK built on WebCodecs. 基于 WebCodecs 构建的网页视频编辑 SDK。.",
+      "tag": "Web视频编辑SDK"
+    },
+    {
+      "id": 137925467,
+      "name": "wkeeling/selenium-wire",
+      "stars": 1976,
+      "enhanced_text": "Extends Selenium's Python bindings to give you the ability to inspect requests made by the browser.",
+      "tag": "Selenium请求拦截扩展"
+    },
+    {
+      "id": 399821046,
+      "name": "varbhat/exatorrent",
+      "stars": 1976,
+      "enhanced_text": "🧲 Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.",
+      "tag": "WebTorrent客户端"
+    },
+    {
+      "id": 197209898,
+      "name": "graphql-editor/graphql-zeus",
+      "stars": 1973,
+      "enhanced_text": "GraphQL client and GraphQL code generator with GraphQL autocomplete library generation ⚡⚡⚡ for browser,nodejs and react native ( apollo compatible ).",
+      "tag": "GraphQL客户端生成器"
+    },
+    {
+      "id": 368055570,
+      "name": "vytal-io/vytal-extension",
+      "stars": 1972,
+      "enhanced_text": "Browser extension to spoof timezone, geolocation, locale and user agent.\n\n# The Vytal extension was acquired and this repository will no longer receive updates.\nBrowser extension to spoof your timezone, geolocation, locale and user agent.\nThis extension allows you to customize your browser's settings to appear as if you are accessing the internet from a different location, locale, or device. This can be useful for testing websites, bypassing regional restrictions, or protecting your privacy online. With just a few clicks, you can change your time zone, locale, geolocation, and user agent to match your desired settings.\nMost extensions that provide these features rely on content scripts to inject script tags into web pages. There are many limitations to script tag injections which you can read about here: https://palant.info/2020/12/10/how-anti-fingerprinting-extensions-tend-to-make-fingerprinting-easier\nVytal utilizes the chrome.debugger API to spoof this data instead. This allows the data to be spoofed in frames, web workers and during the initial loading of a website. It also makes the spoofing completely undetectable.\nVytal is not a VPN or proxy and will not change your IP. Although it can be used in combination with a VPN to obscure your true location.\nYou can test and compare Vytal and other extensions on https://vytal.io\nVytal contains collects no data and signup is not required.",
+      "tag": "Unknown"
+    },
+    {
+      "id": 80605091,
+      "name": "fengari-lua/fengari",
+      "stars": 1971,
+      "enhanced_text": "🌙 φεγγάρι - The Lua VM written in JS ES6 for Node and the browser.\n\nThis repository contains the core fengari code (which is a port of the Lua C library) which includes parser, virtual machine and base libraries.\nHowever it is rare to use this repository directly.\n- To use fengari in a web browser as easily as you might use JavaScript, see fengari-web\n- fengari-interop is a lua library that makes interoperating with JavaScript objects simple, it is already included in fengari-web.\n- For a clone of the  command line tool, but running under node.js, see fengari-node-cli\nOnce you've loaded fengari, you can use the JS API:\nThe JS API is exactly the same as the C API so  exposes the same constants and functions as ,  the same as  and  the same as . If you're unfamiliar with the C API, you can take a look at the manual.",
+      "tag": "JS Lua虚拟机"
+    },
+    {
+      "id": 78816383,
+      "name": "Cookie-AutoDelete/Cookie-AutoDelete",
+      "stars": 1957,
+      "enhanced_text": "Firefox and Chrome WebExtension that deletes cookies and other browsing site data as soon as the tab closes, domain changes, browser restarts, or a combination of those events.",
+      "tag": "Cookie自动删除扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 135900664,
+        "tag": "跨浏览器通信库"
+      },
+      {
+        "id": 159969526,
+        "tag": "Web节点图编辑器"
+      },
+      {
+        "id": 105154070,
+        "tag": "GitHub匿名代理"
+      },
+      {
+        "id": 619823756,
+        "tag": "Web视频编辑SDK"
+      },
+      {
+        "id": 137925467,
+        "tag": "Selenium请求拦截扩展"
+      },
+      {
+        "id": 399821046,
+        "tag": "WebTorrent客户端"
+      },
+      {
+        "id": 197209898,
+        "tag": "GraphQL客户端生成器"
+      },
+      {
+        "id": 368055370,
+        "tag": "浏览器指纹欺骗扩展"
+      },
+      {
+        "id": 80605091,
+        "tag": "JS Lua虚拟机"
+      },
+      {
+        "id": 78816383,
+        "tag": "Cookie自动删除扩展"
+      }
+    ]
+  }
+}

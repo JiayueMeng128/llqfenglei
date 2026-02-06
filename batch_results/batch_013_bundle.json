@@ -1,0 +1,125 @@
+{
+  "batch_id": 13,
+  "timestamp": "2026-02-05T16:23:35.653474",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 229566288,
+      "name": "ultrafunkamsterdam/undetected-chromedriver",
+      "stars": 12295,
+      "enhanced_text": "Custom Selenium Chromedriver | Zero-Config | Passes ALL bot mitigation systems (like Distil / Imperva/ Datadadome / CloudFlare IUAM).",
+      "tag": "浏览器自动化工具"
+    },
+    {
+      "id": 910418754,
+      "name": "nanobrowser/nanobrowser",
+      "stars": 12147,
+      "enhanced_text": "Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.\n\nNanobrowser is an open-source AI web automation tool that runs in your browser. A free alternative to OpenAI Operator with flexible LLM options and multi-agent system.\n⬇️ Get Nanobrowser from Chrome Web Store for free\n👏 Join the community in Discord | X\n🌟 Loving Nanobrowser? Give us a star  and help spread the word!\n❤️ Support the project by sponsoring us - every contribution helps keep Nanobrowser free and open source!\nNanobrowser's multi-agent system analyzing HuggingFace in real-time, with the Planner intelligently self-correcting when encountering obstacles and dynamically instructing the Navigator to adjust its approach—all running locally in your browser.\nLooking for a powerful AI browser agent without the $200/month price tag of OpenAI Operator? **Nanobrowser** , as a chrome extension, delivers premium web automation capabilities while keeping you in complete control:\n- **100% Free** - No subscription fees or hidden costs. Just install and use your own API keys, and you only pay what you use with your own API keys.",
+      "tag": "AI自动化扩展"
+    },
+    {
+      "id": 8629417,
+      "name": "mapbox/mapbox-gl-js",
+      "stars": 12126,
+      "enhanced_text": "Interactive, thoroughly customizable maps in the browser, powered by vector tiles and WebGL.\n\n**Mapbox GL JS** is a JavaScript library for interactive, customizable vector maps on the web. It takes map styles that conform to the\nMapbox Style Specification, applies them to vector tiles that\nconform to the Mapbox Vector Tile Specification, and renders them using\nMapbox GL JS is part of the cross-platform Mapbox GL ecosystem, which also includes\ncompatible native SDKs for applications on Android,\nQt, and React Native. Mapbox provides building blocks to add location features like maps, search, and navigation into any experience you\ncreate. To get started with GL JS or any of our other building blocks,\nIn addition to GL JS, this repository contains code, issues, and test fixtures that are common to both GL JS and the",
+      "tag": "WebGL地图库"
+    },
+    {
+      "id": 2560988,
+      "name": "karma-runner/karma",
+      "stars": 11974,
+      "enhanced_text": "Spectacular Test Runner for JavaScript.",
+      "tag": "JavaScript测试运行器"
+    },
+    {
+      "id": 53538899,
+      "name": "bitwarden/clients",
+      "stars": 11961,
+      "enhanced_text": "Bitwarden client apps (web, browser extension, desktop, and cli).\n\n# Bitwarden Client Applications\nThis repository houses all Bitwarden client applications except the mobile applications (iOS | android).\nPlease refer to the Clients section of the Contributing Documentation for build instructions, recommended tooling, code style tips, and lots of other great information to get you started.\n- bitwarden/server: The core infrastructure backend (API, database, Docker, etc).\n- bitwarden/ios: Bitwarden iOS Password Manager & Authenticator apps.\n- bitwarden/android: Bitwarden Android Password Manager & Authenticator apps.\n- bitwarden/directory-connector: A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization.\nInterested in contributing in a big way? Consider joining our team! We're hiring for many positions. Please take a look at our Careers page to see what opportunities are currently open as well as what it's like to work at Bitwarden.",
+      "tag": "密码管理器套件"
+    },
+    {
+      "id": 598667202,
+      "name": "lightpanda-io/browser",
+      "stars": 11764,
+      "enhanced_text": "Lightpanda: the headless browser designed for AI and automation.\n\n## Quick start\n\n### Install\n**Install from the nightly builds**\nYou can download the last binary from the nightly\nLinux x86_64 and MacOS aarch64.\nThe Lightpanda browser is compatible to run on windows inside WSL. Follow the Linux instruction for installation from a WSL terminal.\nIt is recommended to install clients like Puppeteer on the Windows host.\n**Install from Docker**\nLightpanda provides official Docker\nimages for both Linux amd64 and\nThe following command fetches the Docker image and starts a new container exposing Lightpanda's CDP server on port .\n### Start a CDP server\nOnce the CDP server started, you can run a Puppeteer script by configuring the\nBy default, Lightpanda collects and sends usage telemetry. This can be disabled by setting an environment variable . You can read Lightpanda's privacy policy at: https://lightpanda.io/privacy-policy.\nLightpanda is in Beta and currently a work in progress. Stability and coverage are improving and many websites now work.\nYou may still encounter errors or crashes. Please open an issue with specifics if so.\n\ninstall it with the right version in order to build the project.\nLightpanda also depends on\nzig-js-runtime (with v8),\nLibcurl and html5ever.\nTo be able to build the v8 engine for zig-js-runtime, you have to install some libs:\nFor **Debian/Ubuntu based Linux**:\nYou also need to install Rust.\nFor systems with **Nix**, you can use the devShell:\nFor **MacOS**, you need cmake and Rust.",
+      "tag": "无头浏览器"
+    },
+    {
+      "id": 2871998,
+      "name": "debug-js/debug",
+      "stars": 11429,
+      "enhanced_text": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers.\n\n## Installation\nexposes a function; simply pass this function the name of your module, and it will return a decorated version of  for you to pass debug statements to. This will allow you to toggle the debug output for different parts of your module as well as the module as a whole.\nThe  environment variable is then used to enable these based on space or\ncomma-delimited names.\nHere are some examples:\n#### Windows command prompt notes\nOn Windows the environment variable is set using the  command.\n##### PowerShell (VS Code default)\nPowerShell uses different syntax to set environment variables.\nThen, run the program to be debugged as usual.\nEvery debug instance has a color generated for it based on its namespace name.\nThis helps when visually parsing the debug output to identify which debug instance\na debug line belongs to.\nIn Node.js, colors are enabled when stderr is a TTY. You also _should_ install\nthe  module alongside debug,",
+      "tag": "JavaScript调试工具"
+    },
+    {
+      "id": 21244505,
+      "name": "qutebrowser/qutebrowser",
+      "stars": 11252,
+      "enhanced_text": "A keyboard-driven, vim-like browser based on Python and Qt.",
+      "tag": "键盘驱动浏览器"
+    },
+    {
+      "id": 835510315,
+      "name": "mozilla-firefox/firefox",
+      "stars": 11167,
+      "enhanced_text": "The official repository of Mozilla's Firefox web browser.\n\nFirefox is a fast, reliable and private web browser from the non-profit Mozilla organization.\nTo learn how to contribute to Firefox read the Firefox Contributors' Quick Reference document.\nWe use bugzilla.mozilla.org as our issue tracker, please file bugs there.\n* Firefox Source Docs is our primary documentation repository\n* Nightly development builds can be downloaded from Firefox Nightly page\nIf you have a question about developing Firefox, and can't find the solution\non Firefox Source Docs, you can try asking your question on Matrix at\nchat.mozilla.org in the Introduction channel.",
+      "tag": "浏览器引擎"
+    },
+    {
+      "id": 15642233,
+      "name": "karpathy/convnetjs",
+      "stars": 11135,
+      "enhanced_text": "Deep Learning in Javascript. Train Convolutional Neural Networks (or ordinary ones) in your browser.",
+      "tag": "浏览器深度学习库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 229566288,
+        "tag": "浏览器自动化工具"
+      },
+      {
+        "id": 910418754,
+        "tag": "AI自动化扩展"
+      },
+      {
+        "id": 8629417,
+        "tag": "WebGL地图库"
+      },
+      {
+        "id": 2560988,
+        "tag": "JavaScript测试运行器"
+      },
+      {
+        "id": 53538899,
+        "tag": "密码管理器套件"
+      },
+      {
+        "id": 598667202,
+        "tag": "无头浏览器"
+      },
+      {
+        "id": 2871998,
+        "tag": "JavaScript调试工具"
+      },
+      {
+        "id": 21244505,
+        "tag": "键盘驱动浏览器"
+      },
+      {
+        "id": 835510315,
+        "tag": "浏览器引擎"
+      },
+      {
+        "id": 15642233,
+        "tag": "浏览器深度学习库"
+      }
+    ]
+  }
+}

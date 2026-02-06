@@ -1,0 +1,125 @@
+{
+  "batch_id": 50,
+  "timestamp": "2026-02-05T16:41:41.878157",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 14155824,
+      "name": "UDST/vizicities",
+      "stars": 2725,
+      "enhanced_text": "A framework for 3D geospatial visualization in the browser.",
+      "tag": "3D地理可视化框架"
+    },
+    {
+      "id": 88184556,
+      "name": "wexond/browser-base",
+      "stars": 2725,
+      "enhanced_text": "Modern and feature-rich web browser base based on Electron.",
+      "tag": "Electron浏览器基础"
+    },
+    {
+      "id": 54034412,
+      "name": "Streamedian/html5_rtsp_player",
+      "stars": 2718,
+      "enhanced_text": "Play RTSP stream from IP camera in browser in this HTML5 player without plugins.",
+      "tag": "HTML5 RTSP播放器"
+    },
+    {
+      "id": 1095948794,
+      "name": "remorses/playwriter",
+      "stars": 2711,
+      "enhanced_text": "Chrome extension to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP.\n\n## Installation\n1. **Install Extension** from Chrome Web Store\n2. Click extension icon on a tab → turns green when connected\n3. Install the CLI and start automating the browser:\n4. Add skill to your agent:",
+      "tag": "浏览器自动化扩展"
+    },
+    {
+      "id": 11315781,
+      "name": "thiagoperes/IDMPhotoBrowser",
+      "stars": 2703,
+      "enhanced_text": "Photo Browser / Viewer inspired by Facebook's and Tweetbot's with ARC support, swipe-to-dismiss, image progress and more.",
+      "tag": "移动端图片浏览器组件"
+    },
+    {
+      "id": 3455070,
+      "name": "swagger-api/swagger-js",
+      "stars": 2692,
+      "enhanced_text": "Javascript library to connect to swagger-enabled APIs via browser or nodejs.\n\n**Swagger Client** is a JavaScript module that allows you to fetch, resolve, and interact with Swagger/OpenAPI documents.\n**This is the new version of swagger-js, 3.x.** The new version supports Swagger 2.0 as well as OpenAPI 3.\nWant to learn more? Check out our FAQ.\nFor features known to be missing from 3.x please see the Graveyard.\nFor the older version of swagger-js, refer to the *2.x branch*.\n> *The npm package is called  and the GitHub repository is .\nWe'll be consolidating that soon. Just giving you the heads-up. You may see references to both names.*\nThe OpenAPI Specification has undergone multiple revisions since initial creation in 2010.",
+      "tag": "OpenAPI客户端库"
+    },
+    {
+      "id": 25263349,
+      "name": "seatgeek/react-infinite",
+      "stars": 2691,
+      "enhanced_text": "A browser-ready efficient scrolling container based on UITableView.",
+      "tag": "无限滚动UI组件"
+    },
+    {
+      "id": 130084383,
+      "name": "sindresorhus/slugify",
+      "stars": 2678,
+      "enhanced_text": "Slugify a string.\n\nUseful for URLs, filenames, and IDs.\nIt handles most major languages, including German (umlauts), Vietnamese, Arabic, Russian, and more.",
+      "tag": "字符串处理工具"
+    },
+    {
+      "id": 794304370,
+      "name": "abi/secret-llama",
+      "stars": 2678,
+      "enhanced_text": "Fully private LLM chatbot that runs entirely with a browser with no server needed. Supports Mistral and LLama 3.\n\nEntirely-in-browser, fully private LLM chatbot supporting Llama 3, Mistral and other open source models.\n- Fully private = No conversation data ever leaves your computer\n- Runs in the browser = No server needed and no install needed!\n- Easy-to-use interface on par with ChatGPT, but for open source LLMs\nBig thanks to the inference engine provided by webllm.",
+      "tag": "浏览器端LLM应用"
+    },
+    {
+      "id": 11459116,
+      "name": "streamproc/MediaStreamRecorder",
+      "stars": 2674,
+      "enhanced_text": "Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs.\n\n# MediaStreamRecorder.js - Demos\n## Demos using MediaStreamRecorder.js library\n| Experiment Name        | Demo           | Source Code |\n| **Audio Recording** | Demo | Source |\n| **Video Recording** | Demo | Source |\n| **Gif Recording** | Demo | Source |\n| **MultiStreamRecorder Demo** | Demo | Source |\nA cross-browser implementation to record\n3. Screen (full screen, apps' screens, tab, HTML elements)",
+      "tag": "跨浏览器媒体录制库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 14155824,
+        "tag": "3D地理可视化框架"
+      },
+      {
+        "id": 88184556,
+        "tag": "Electron浏览器基础"
+      },
+      {
+        "id": 54034412,
+        "tag": "HTML5 RTSP播放器"
+      },
+      {
+        "id": 1095948794,
+        "tag": "浏览器自动化扩展"
+      },
+      {
+        "id": 11315781,
+        "tag": "移动端图片浏览器组件"
+      },
+      {
+        "id": 3455070,
+        "tag": "OpenAPI客户端库"
+      },
+      {
+        "id": 25263349,
+        "tag": "无限滚动UI组件"
+      },
+      {
+        "id": 130084383,
+        "tag": "字符串处理工具"
+      },
+      {
+        "id": 794304370,
+        "tag": "浏览器端LLM应用"
+      },
+      {
+        "id": 11459116,
+        "tag": "跨浏览器媒体录制库"
+      }
+    ]
+  }
+}

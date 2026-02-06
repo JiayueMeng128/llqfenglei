@@ -1,0 +1,125 @@
+{
+  "batch_id": 16,
+  "timestamp": "2026-02-05T16:24:06.878094",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 490677825,
+      "name": "oramasearch/orama",
+      "stars": 10126,
+      "enhanced_text": "🌌  A complete search engine and RAG pipeline in your browser, server or edge network with support for full-text, vector, and hybrid search in less than 2kb.",
+      "tag": "浏览器内搜索引擎"
+    },
+    {
+      "id": 3320710,
+      "name": "faisalman/ua-parser-js",
+      "stars": 10040,
+      "enhanced_text": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side).",
+      "tag": "用户代理解析库"
+    },
+    {
+      "id": 36353527,
+      "name": "typicode/hotel",
+      "stars": 9998,
+      "enhanced_text": "🏩 A simple process manager for developers. Start apps from your browser and access them using local domains.\n\n> Start apps from your browser and use local domains/https automatically\n_Tip: if you don't enable local domains, hotel can still be used as a **catalog of local servers**._\nHotel works great on any OS (macOS, Linux, Windows) and with __all servers :heart:__\n* Ruby (Rails, Sinatra, Jekyll)\n_To all the amazing people who have answered the Hotel survey, thanks so much  [opts]",
+      "tag": "本地进程管理器"
+    },
+    {
+      "id": 249480042,
+      "name": "yokoffing/Betterfox",
+      "stars": 9978,
+      "enhanced_text": "Firefox user.js for optimal privacy and security. Your favorite browser, but better.",
+      "tag": "浏览器隐私配置"
+    },
+    {
+      "id": 618081183,
+      "name": "NopeCHALLC/nopecha-extension",
+      "stars": 9911,
+      "enhanced_text": "Automated CAPTCHA solver for your browser. Works with Selenium, Puppeteer, Playwright, and more.\n\n## Getting Started\nThe fastest way to start is to install our browser extension that automatically detects and solves CAPTCHAs present on the page. It works in both Chrome and Firefox, including all Chromium-based automation tools like Puppeteer and Selenium.\nFree to use for up to 100 requests per day. No sign-up or API key needed! Just install our extension and it will work instantly on any CAPTCHA it detects.\n> *Note: requests made without an API key counts usage by IP address.*\nFor higher limits and more features, sign up at NopeCHA.com to create an API key.\nFor developers integrating NopeCHA into their projects, please see our Documentation and API reference.\n### Supported CAPTCHA Types\nHere is a sample of CAPTCHA types supported by NopeCHA, with more added regularly:\n| reCAPTCHA | FunCAPTCHA |\n| hCaptcha | AWS WAF |\n| Text CAPTCHA | Cloudflare Turnstile |\n- See our latest release notes for the most recent updates and new features.\n- View API reference for the full list of supported endpoints and CAPTCHAs.\n- View documentation for guides on how to automate using the NopeCHA extension.\n- Visit our website for more information about our services and to sign up for an API key.",
+      "tag": "自动化验证码破解"
+    },
+    {
+      "id": 31341340,
+      "name": "kern/filepizza",
+      "stars": 9897,
+      "enhanced_text": ":pizza: Peer-to-peer file transfers in your browser.\n\nPeer-to-peer file transfers in your browser\n*Cooked up by Alex Kern & Neeraj Baid while eating Sliver @ UC Berkeley.*\nUsing WebRTC, FilePizza eliminates the initial upload step required by other web-based file sharing services. Because data is never stored in an intermediary server, the transfer is fast, private, and secure.\nA hosted instance of FilePizza is available at file.pizza.\n## What's new with FilePizza v2\n* A new UI with dark mode support, now built on modern browser technologies.\n* Works on most mobile browsers, including Mobile Safari.\n* Transfers are now directly from the uploader to the downloader's browser (WebRTC without WebTorrent) with faster handshakes.\n* Uploaders can monitor the progress of the transfer and stop it if they want.\n* Better security and safety measures with password protection and reporting.",
+      "tag": "浏览器P2P传输"
+    },
+    {
+      "id": 34262857,
+      "name": "DevExpress/testcafe",
+      "stars": 9897,
+      "enhanced_text": "A Node.js tool to automate end-to-end web testing.\n\n## Features\n**Stable tests and no manual timeouts**\nTestCafe automatically waits for page loads and XHRs before the test starts and after each action.\nIt also features smart test actions and assertions that wait for page elements to appear.\nYou can change the maximum wait time.\nIf elements load faster, tests skip the timeout and continue.\n**Rapid test development tool**\nWhen you enable live mode, changes to test code immediately restart the test, and you instantly see the results.\n**Latest JS and TypeScript support**\nTestCafe supports the most recent JavaScript-related features, including ES2017 (async/await). You can also use TypeScript if you prefer a strongly typed language instead.\n**Detects JS errors in your code**\nTestCafe reports JS errors that it locates on a given webpage. Tests automatically fail if TestCafe encounters such errors.\nYou can, however, disable this option.\n**Concurrent test launch**\nTestCafe can open multiple instances of the same browser and run parallel tests (to help decrease test execution time).\n\n# Getting Started",
+      "tag": "端到端测试框架"
+    },
+    {
+      "id": 319779344,
+      "name": "maplibre/maplibre-gl-js",
+      "stars": 9820,
+      "enhanced_text": "MapLibre GL JS - Interactive vector tile maps in the browser.",
+      "tag": "矢量地图渲染库"
+    },
+    {
+      "id": 2296970,
+      "name": "webdriverio/webdriverio",
+      "stars": 9716,
+      "enhanced_text": "Next-gen browser and mobile automation test framework for Node.js.\n\n### Getting started with GitHub Codespaces\nTo get started, create a codespace for this repository by clicking this 👇\nA codespace will open in a web-based version of Visual Studio Code. The dev container is fully configured with the software needed for this project.\n**Note**: Dev containers are an open spec that is supported by GitHub Codespaces and other tools.",
+      "tag": "浏览器自动化测试框架"
+    },
+    {
+      "id": 320636477,
+      "name": "WebKit/WebKit",
+      "stars": 9584,
+      "enhanced_text": "Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.",
+      "tag": "浏览器渲染引擎"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 490677825,
+        "tag": "浏览器内搜索引擎"
+      },
+      {
+        "id": 3320710,
+        "tag": "用户代理解析库"
+      },
+      {
+        "id": 36353527,
+        "tag": "本地进程管理器"
+      },
+      {
+        "id": 249480042,
+        "tag": "浏览器隐私配置"
+      },
+      {
+        "id": 618081183,
+        "tag": "自动化验证码破解"
+      },
+      {
+        "id": 31341340,
+        "tag": "浏览器P2P传输"
+      },
+      {
+        "id": 34262857,
+        "tag": "端到端测试框架"
+      },
+      {
+        "id": 319779344,
+        "tag": "矢量地图渲染库"
+      },
+      {
+        "id": 2296970,
+        "tag": "浏览器自动化测试框架"
+      },
+      {
+        "id": 320636477,
+        "tag": "浏览器渲染引擎"
+      }
+    ]
+  }
+}

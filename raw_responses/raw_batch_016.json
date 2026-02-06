@@ -1,0 +1,16 @@
+{
+  "batch_id": 16,
+  "timestamp": "2026-02-05T16:24:06.877643",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 490677825,\n      \"tag\": \"浏览器内搜索引擎\"\n    },\n    {\n      \"id\": 3320710,\n      \"tag\": \"用户代理解析库\"\n    },\n    {\n      \"id\": 36353527,\n      \"tag\": \"本地进程管理器\"\n    },\n    {\n      \"id\": 249480042,\n      \"tag\": \"浏览器隐私配置\"\n    },\n    {\n      \"id\": 618081183,\n      \"tag\": \"自动化验证码破解\"\n    },\n    {\n      \"id\": 31341340,\n      \"tag\": \"浏览器P2P传输\"\n    },\n    {\n      \"id\": 34262857,\n      \"tag\": \"端到端测试框架\"\n    },\n    {\n      \"id\": 319779344,\n      \"tag\": \"矢量地图渲染库\"\n    },\n    {\n      \"id\": 2296970,\n      \"tag\": \"浏览器自动化测试框架\"\n    },\n    {\n      \"id\": 320636477,\n      \"tag\": \"浏览器渲染引擎\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1529,
+    "completion_tokens": 240,
+    "total_tokens": 1769
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c4263b9c5c99d8bd87a1dcc7f038",
+  "created": 1770308642,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 14,
+  "timestamp": "2026-02-05T16:23:47.787495",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 375345894,\n      \"tag\": \"命令行媒体播放器\"\n    },\n    {\n      \"id\": 64060314,\n      \"tag\": \"渗透测试框架\"\n    },\n    {\n      \"id\": 933197458,\n      \"tag\": \"隐私优先浏览器\"\n    },\n    {\n      \"id\": 26149893,\n      \"tag\": \"浏览器媒体播放器\"\n    },\n    {\n      \"id\": 87668160,\n      \"tag\": \"键盘驱动浏览器\"\n    },\n    {\n      \"id\": 847885,\n      \"tag\": \"数学渲染引擎\"\n    },\n    {\n      \"id\": 2630230,\n      \"tag\": \"HTML转换工具\"\n    },\n    {\n      \"id\": 614258120,\n      \"tag\": \"浏览器AI助手扩展\"\n    },\n    {\n      \"id\": 2833881,\n      \"tag\": \"浏览器渗透测试框架\"\n    },\n    {\n      \"id\": 1274749,\n      \"tag\": \"浏览器历史API库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 3277,
+    "completion_tokens": 235,
+    "total_tokens": 3512
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b83a8e21c1c3137a",
+  "created": 1770308616,
+  "finish_reason": "stop"
+}

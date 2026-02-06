@@ -1,0 +1,125 @@
+{
+  "batch_id": 62,
+  "timestamp": "2026-02-05T16:44:27.854151",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 115543662,
+      "name": "keepassxreboot/keepassxc-browser",
+      "stars": 2119,
+      "enhanced_text": "KeePassXC Browser Extension.\n\nBrowser extension for KeePassXC with native messaging.\nThis browser extension was first supported in KeePassXC 2.3.0 (release end of 2017). In general it is advised to only use the latest available release.\nGet the extension for Firefox or Chrome/Chromium or Microsoft Edge.\nPlease see this document for instructions how to configure KeePassXC in order to connect the database correctly.\nKeePassXC-Browser communicates with KeePassXC through _keepassxc-proxy_. The proxy handles listening to STDIN/STDOUT\nand transfers these messages through Unix domain sockets / named pipes to KeePassXC. This means KeePassXC can be used and started normally without inteference from\nNative Messaging API. KeePassXC-Browser starts only the proxy application and there's no risk of shutting down KeePassXC or losing any unsaved changes. You don't need to install keepassxc-proxy separately. It is included in the KeePassXC application package. Alternatively you can use",
+      "tag": "密码管理器扩展"
+    },
+    {
+      "id": 976103,
+      "name": "guard/guard-livereload",
+      "stars": 2114,
+      "enhanced_text": "Guard::LiveReload automatically reload your browser when 'view' files are modified.",
+      "tag": "前端开发工具"
+    },
+    {
+      "id": 75990052,
+      "name": "mozilla-mobile/focus-android",
+      "stars": 2101,
+      "enhanced_text": "⚠️ Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android.\n\n_Browse like no one’s watching. The new Firefox Focus automatically blocks a wide range of online trackers — from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won’t get followed by things like unwanted ads._\nFirefox Focus provides automatic ad blocking and tracking protection on an easy-to-use private browser.\n* Google Play: Firefox Focus (Global)\n* Google Play: Firefox Klar (Germany, Austria & Switzerland)\nWe encourage you to participate in this open source project. We love Pull Requests, Bug Reports, ideas, (security) code reviews or any other kind of positive contribution.\nBefore you attempt to make a contribution please read the Community Participation Guidelines.\n* Guide to Contributing (**New contributors start here!**)",
+      "tag": "隐私安全浏览器"
+    },
+    {
+      "id": 3008757,
+      "name": "Automattic/expect.js",
+      "stars": 2099,
+      "enhanced_text": "Minimalistic BDD-style assertions for Node.JS and the browser.\n\n## Features\n- Cross-browser: works on IE6+, Firefox, Safari, Chrome, Opera.\n- Compatible with all test frameworks.\n- Standalone. Single global with no prototype extensions or shims.\n\n## How to use",
+      "tag": "JavaScript测试断言库"
+    },
+    {
+      "id": 126883328,
+      "name": "magenta/magenta-js",
+      "stars": 2099,
+      "enhanced_text": "Magenta.js: Music and Art Generation with Machine Learning in the browser.\n\n**Magenta.js** is a collection of TypeScript libraries for doing inference with pre-trained Magenta models.\nAll libraries are published as npm packages.\nMore information and example applications can be found at g.co/magenta/js.\nComplete documentation is available at https://magenta.github.io/magenta-js.\nLearn more about the Magenta project on our blog and main Magenta repo.\n* music: Contains TensorFlow.js implementations and support libraries for Magenta's musical note-based models including MusicVAE, MelodyRNN, DrumsRNN, PerformanceRNN, and ImprovRNN.\n* sketch: Contains TensorFlow.js implementations and support libraries for Magenta's sketch models including SketchRNN.\n* image: Contains TensorFlow.js implementations and support libraries for Magenta's image models including Arbitrary Style Transfer.",
+      "tag": "浏览器端机器学习"
+    },
+    {
+      "id": 100034375,
+      "name": "ueokande/vim-vixen",
+      "stars": 2094,
+      "enhanced_text": "Accelerates your web browsing with Vim power!!\n\n:warning: **This project is no longer under active maintainenance.  Check the new project Vimmatic.  See the announcement in more details.**\nVim Vixen is a Firefox add-on which allows you to easily navigate the web by\nkeyboard. Since version 57, Firefox has migrated to the WebExtensions API and\nhas dropped support for legacy add-ons. Vim Vixen is a new choice for Vim users\nsince it uses the WebExtensions API.\nTo get Vim Vixen, install it from [Firefox add-ons][AMO].\nFor usage and more detailed information, check out our [documentations][documentations].",
+      "tag": "键盘导航扩展"
+    },
+    {
+      "id": 1130400,
+      "name": "kolber/audiojs",
+      "stars": 2092,
+      "enhanced_text": "A cross-browser javascript wrapper for the html5 audio tag.",
+      "tag": "HTML5音频封装库"
+    },
+    {
+      "id": 22524673,
+      "name": "MohammadYounes/AlertifyJS",
+      "stars": 2092,
+      "enhanced_text": "A javascript framework for developing pretty browser dialogs and notifications.",
+      "tag": "浏览器弹窗框架"
+    },
+    {
+      "id": 887031138,
+      "name": "leaperone/MultiPost-Extension",
+      "stars": 2086,
+      "enhanced_text": "A browser extension that helps users publish content to multiple social media platforms with one click.\n\n> A browser extension that helps users publish content to multiple social media platforms with one click.\n⭐ If you find this project helpful, please consider giving it a star! Your support helps us grow and improve! ⭐\n- 一键发布内容（文本、图片、视频等）到多个平台。（支持知乎、微博、小红书、抖音等10多个主流平台）无需登录、无需注册、无需API Key。完全免费！\nPost your content (text, images, videos, etc.) to multiple platforms with one click. (Over 10 mainstream platforms including TikTok, YouTube Zhihu, Weibo, Xiaohongshu, TikTok, etc.) No login, no registration, no API Key required. Free!\n- 两种API接口 / 2 types of API Interface:\n- 扩展API：在您自己的Web应用中调用扩展的API发布内容。",
+      "tag": "社交媒体发布扩展"
+    },
+    {
+      "id": 747929369,
+      "name": "logdyhq/logdy-core",
+      "stars": 2080,
+      "enhanced_text": "Realtime log viewer with web UI, tail -f for logs with a web interface browser.\n\n## Install with Homebrew (MacOS)\nOn MacOS you can use homebrew to install Logdy.\n## Download precompiled binary\nNavigate to releases Github page and download the latest release for your architecture.\nAdditionally, you can add the binary to your PATH for easier access.\n\n## Install using script\nThe command below will download the latest release and add the executable to your system's PATH. You can also use it to update Logdy.\n\n## Quick start\nWhatever the below command will produce to the output, will be forwarded to a Web UI.\nThe following should appear\nOpen the URL Address and start building parsers, columns and filters.\nThere are multiple other ways you can run Logdy, check the docs.",
+      "tag": "Web日志查看工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 115543662,
+        "tag": "密码管理器扩展"
+      },
+      {
+        "id": 976103,
+        "tag": "前端开发工具"
+      },
+      {
+        "id": 75990052,
+        "tag": "隐私安全浏览器"
+      },
+      {
+        "id": 3008757,
+        "tag": "JavaScript测试断言库"
+      },
+      {
+        "id": 126883328,
+        "tag": "浏览器端机器学习"
+      },
+      {
+        "id": 100034375,
+        "tag": "键盘导航扩展"
+      },
+      {
+        "id": 1130400,
+        "tag": "HTML5音频封装库"
+      },
+      {
+        "id": 22524673,
+        "tag": "浏览器弹窗框架"
+      },
+      {
+        "id": 887031138,
+        "tag": "社交媒体发布扩展"
+      },
+      {
+        "id": 747929369,
+        "tag": "Web日志查看工具"
+      }
+    ]
+  }
+}

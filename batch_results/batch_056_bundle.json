@@ -1,0 +1,125 @@
+{
+  "batch_id": 56,
+  "timestamp": "2026-02-05T16:42:38.660291",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 1003630893,
+      "name": "oxylabs/oxylabs-ai-studio-py",
+      "stars": 2399,
+      "enhanced_text": "Structured data gathering from any website using AI-powered scraper, crawler, and browser automation. Scraping and crawling with natural language prompts. Equip your LLM agents with fresh data. AI Studio python SDK for intelligent web data gathering.",
+      "tag": "AI网页数据采集SDK"
+    },
+    {
+      "id": 50896111,
+      "name": "js-primer/js-primer",
+      "stars": 2398,
+      "enhanced_text": ":book: JavaScript Primer - 迷わないための入門書.",
+      "tag": "JavaScript入门教程"
+    },
+    {
+      "id": 333501877,
+      "name": "zerodytrash/Simple-YouTube-Age-Restriction-Bypass",
+      "stars": 2395,
+      "enhanced_text": "A simple browser extension to bypass YouTube's age verification, disable content warnings and watch age restricted videos without having to sign in!\n\nGetting started |\nA very simple to use browser extension to bypass YouTube's age verification 😎\nThis extension uses some API tricks to access age-restricted videos from YouTube anonymously. As a fallback (in case that the API bypass methods does not work) an open source Account Proxy Server is used. This allows you to watch all types of age-restricted videos on **YouTube** and **YouTube Music** without age verification and without the need to be signed in.\nAll videos will be unlocked automatically!\n\n## Getting started",
+      "tag": "浏览器隐私安全扩展"
+    },
+    {
+      "id": 78368581,
+      "name": "gkngkc/UnityStandaloneFileBrowser",
+      "stars": 2394,
+      "enhanced_text": "A native file browser for unity standalone platforms.\n\n# Unity Standalone File Browser\nA simple wrapper for native file dialogs on Windows/Mac/Linux.\n- Open file/folder, save file dialogs supported.\n- Mono/IL2CPP backends supported.\n- Linux support by Ricardo Rodrigues.",
+      "tag": "Unity原生文件对话框工具"
+    },
+    {
+      "id": 263535757,
+      "name": "Hedgehog-Computing/hedgehog-lab",
+      "stars": 2388,
+      "enhanced_text": "Run, compile and execute JavaScript for Scientific Computing and Data Visualization TOTALLY TOTALLY TOTALLY in your BROWSER! An open source scientific computing environment for JavaScript TOTALLY in your browser, matrix operations with GPU acceleration, TeX support, data visualization and symbolic computation.",
+      "tag": "浏览器端科学计算环境"
+    },
+    {
+      "id": 18806010,
+      "name": "nytimes/pourover",
+      "stars": 2381,
+      "enhanced_text": "A library for simple, fast filtering and sorting of large collections in the browser.   There is a community-maintained fork that addresses a handful of post-NYT issues available via @hhsnopek's https://github.com/hhsnopek/pourover.\n\nPourOver is built around the ideal of simple queries that can be arbitrarily composed with each other, without having to recalculate their results. You can union, intersect, and difference queries. PourOver will remember how your queries were constructed and can smartly update them when items are added or modified. You also get useful features like collections that buffer their information periodically, views that page and cache, fast sorting, and much, much more.\nVisit the PourOver homepage on Github pages for more info.\nPourOver was created by the Interactive News group at the New York Times, and open-sourced in 2014.  We actively use it in production across a number of projects, including:\n* plus a number of internal admin tools that allow newsroom staff to edit and sort large collections of items.\nPourOver is in active, daily use in the newsroom.  As we make bugfixes and enhancements in the course of our NYT work, we'll push them into this repo.",
+      "tag": "浏览器端数据集合库"
+    },
+    {
+      "id": 67251638,
+      "name": "franciscop/brownies",
+      "stars": 2378,
+      "enhanced_text": "🍫 Tastier cookies, local, session, and db storage in a tiny package. Includes subscribe() events for changes.",
+      "tag": "浏览器本地存储库"
+    },
+    {
+      "id": 469579425,
+      "name": "sytone/obsidian-remote",
+      "stars": 2371,
+      "enhanced_text": "Run Obsidian.md in a browser via a docker container.\n\nThis docker image allows you to run obsidian in docker as a container and access it via your web browser.\nUse  to access it locally, do not expose this to the web unless you secure it and know what you are doing!!\n- Enabling GIT for the obsidian-git plugin",
+      "tag": "Docker化知识管理应用"
+    },
+    {
+      "id": 266196,
+      "name": "oyvindkinsey/easyXDM",
+      "stars": 2367,
+      "enhanced_text": "A javascript library providing cross-browser, cross-site messaging/method invocation.",
+      "tag": "跨浏览器通信库"
+    },
+    {
+      "id": 74061137,
+      "name": "Unity-Technologies/AssetBundles-Browser",
+      "stars": 2365,
+      "enhanced_text": "Editor tool for viewing and debugging asset bundle contents before and after builds.",
+      "tag": "Unity资源包调试工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 1003630893,
+        "tag": "AI网页数据采集SDK"
+      },
+      {
+        "id": 50896111,
+        "tag": "JavaScript入门教程"
+      },
+      {
+        "id": 333501877,
+        "tag": "浏览器隐私安全扩展"
+      },
+      {
+        "id": 78368581,
+        "tag": "Unity原生文件对话框工具"
+      },
+      {
+        "id": 263535757,
+        "tag": "浏览器端科学计算环境"
+      },
+      {
+        "id": 18806010,
+        "tag": "浏览器端数据集合库"
+      },
+      {
+        "id": 67251638,
+        "tag": "浏览器本地存储库"
+      },
+      {
+        "id": 469579425,
+        "tag": "Docker化知识管理应用"
+      },
+      {
+        "id": 266196,
+        "tag": "跨浏览器通信库"
+      },
+      {
+        "id": 74061137,
+        "tag": "Unity资源包调试工具"
+      }
+    ]
+  }
+}

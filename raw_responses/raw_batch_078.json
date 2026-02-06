@@ -1,0 +1,16 @@
+{
+  "batch_id": 78,
+  "timestamp": "2026-02-05T16:49:20.889581",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1079469057,\n      \"tag\": \"浏览器自动化工具\"\n    },\n    {\n      \"id\": 74512824,\n      \"tag\": \"隐私安全浏览器\"\n    },\n    {\n      \"id\": 78952857,\n      \"tag\": \"浏览器编辑器组件\"\n    },\n    {\n      \"id\": 734872201,\n      \"tag\": \"反检测浏览器驱动\"\n    },\n    {\n      \"id\": 65116637,\n      \"tag\": \"浏览器P2P通信库\"\n    },\n    {\n      \"id\": 997189255,\n      \"tag\": \"Obsidian插件\"\n    },\n    {\n      \"id\": 16955777,\n      \"tag\": \"Web终端模拟器\"\n    },\n    {\n      \"id\": 23070145,\n      \"tag\": \"CSS参考手册\"\n    },\n    {\n      \"id\": 170111694,\n      \"tag\": \"Electron浏览器\"\n    },\n    {\n      \"id\": 138811196,\n      \"tag\": \"Python性能分析器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2068,
+    "completion_tokens": 238,
+    "total_tokens": 2306
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984ca10990333132704da45c749cb3c",
+  "created": 1770310158,
+  "finish_reason": "stop"
+}

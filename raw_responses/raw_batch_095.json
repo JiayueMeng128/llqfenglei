@@ -1,0 +1,16 @@
+{
+  "batch_id": 95,
+  "timestamp": "2026-02-05T16:54:04.940730",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 5562456,\n      \"tag\": \"计算机视觉库\"\n    },\n    {\n      \"id\": 82913507,\n      \"tag\": \"神经网络库\"\n    },\n    {\n      \"id\": 252358889,\n      \"tag\": \"对象存储管理UI\"\n    },\n    {\n      \"id\": 294501642,\n      \"tag\": \"Web代理服务\"\n    },\n    {\n      \"id\": 465383,\n      \"tag\": \"jQuery插件\"\n    },\n    {\n      \"id\": 160545642,\n      \"tag\": \"Laravel开发者工具\"\n    },\n    {\n      \"id\": 157377758,\n      \"tag\": \"TensorFlow.js应用\"\n    },\n    {\n      \"id\": 3658431,\n      \"tag\": \"BSON解析库\"\n    },\n    {\n      \"id\": 1873461,\n      \"tag\": \"HTML5音频库\"\n    },\n    {\n      \"id\": 10753240,\n      \"tag\": \"Firefox扩展框架\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1804,
+    "completion_tokens": 236,
+    "total_tokens": 2040
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a5224e55b4f624a2",
+  "created": 1770310434,
+  "finish_reason": "stop"
+}

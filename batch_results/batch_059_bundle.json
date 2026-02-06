@@ -1,0 +1,125 @@
+{
+  "batch_id": 59,
+  "timestamp": "2026-02-05T16:43:44.546689",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 905501456,
+      "name": "fal-ai-community/video-starter-kit",
+      "stars": 2273,
+      "enhanced_text": "Enable AI models for video production in the browser.\n\n## Features\n- 🎬 **Browser-Native Video Processing**: Seamless video handling and composition in the browser\n- 🤖 **AI Model Integration**: Direct access to state-of-the-art video models through fal.ai\n- Minimax for video generation\n- Hunyuan for visual synthesis\n- LTX for video manipulation\n- 🎵 **Advanced Media Capabilities**:\n- Multi-clip video composition\n- Audio track integration\n- Extended video duration handling\n- 🛠️ **Developer Utilities**:\n- Video processing pipeline\n- Ready-to-use UI components\n- fal.ai - AI model infrastructure\n- Next.js - React framework",
+      "tag": "浏览器AI视频处理库"
+    },
+    {
+      "id": 108311273,
+      "name": "Azure/azure-sdk-for-js",
+      "stars": 2271,
+      "enhanced_text": "This repository is for active development of the Azure SDK for JavaScript (NodeJS & Browser). For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/javascript/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-js.",
+      "tag": "云服务JavaScript SDK"
+    },
+    {
+      "id": 119921062,
+      "name": "amandakelake/blog",
+      "stars": 2265,
+      "enhanced_text": "think more！learn more!\n\n> 合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下 ————《老子》\n* 【JS进阶】JS执行机制与核心概念(执行上下文、变量提升、作用域链、this)",
+      "tag": "JavaScript技术博客"
+    },
+    {
+      "id": 134539713,
+      "name": "Escapingbug/awesome-browser-exploit",
+      "stars": 2260,
+      "enhanced_text": "awesome list of browser exploitation tutorials.\n\nShare some useful archives about browser exploitation.\nI'm just starting to collect what I can found, and I'm only a starter in this area\nas well. Contributions are welcome.\n* v8 github mirror(docs within)[github]\n* on-stack replacement in v8[article] // multiple articles can be found within\n* A tour of V8: Garbage Collection[article]\n* A tour of V8: object representation[article]",
+      "tag": "浏览器漏洞利用资源集"
+    },
+    {
+      "id": 715769622,
+      "name": "Kaliiiiiiiiii-Vinyzu/patchright",
+      "stars": 2259,
+      "enhanced_text": "Undetected version of the Playwright testing and automation library.\n\n> This repository serves the Patchright Driver. To use Patchright, check out the Python Package, the NodeJS Package or the _community-driven_ .Net Package\n> Patchright only patches CHROMIUM based browsers. Firefox and Webkit are not supported.\nIf you’re looking for a high-performance browser automation platform checkout **Hyperbrowser**. It’s ideal for AI Agents, large-scale web scraping and automated testing.\n**Hyperbrowser** delivers cloud-based browser infrastructure that scales instantly from a few sessions to thousands, with built-in CAPTCHA solving, stealth fingerprinting, and a global proxy network. It integrates seamlessly with Puppeteer, Playwright, and Selenium, so you can be up and running in minutes, no server or proxy management required.\n- **Instant scaling**: Launch 1,000+ concurrent browsers\n- **Captcha Solving**: Handles reCAPTCHA, Cloudflare, AWS, and more",
+      "tag": "Chromium浏览器自动化工具"
+    },
+    {
+      "id": 686537,
+      "name": "xmppjs/xmpp.js",
+      "stars": 2258,
+      "enhanced_text": "XMPP for JavaScript.\n\n> XMPP is the Extensible Messaging and Presence Protocol, a set of open technologies for instant messaging, presence, multi-party chat, voice and video calls, collaboration, lightweight middleware, content syndication, and generalized routing of XML data.\nxmpp.org/about-xmpp/technology-overview/\n**xmpp.js** is a JavaScript library for XMPP.\nRuns everywhere JavaScript runs and makes use of the best network transport available.\nxmpp.js is known to be used with browsers, Node.js, WebWorker, React Native, Bun, Deno, GJS and Duktape.\nBy default, it handles errors and will automatically reconnect. With appropriate configuration it will even loop through a list of endpoints. You don't have to write a single line of code to handle network failures.",
+      "tag": "XMPP JavaScript协议库"
+    },
+    {
+      "id": 824451,
+      "name": "luakit/luakit",
+      "stars": 2252,
+      "enhanced_text": "Fast, small, webkit based browser framework extensible by Lua.\n\n## Installing\nLuakit is available on most Linux Distributions and BSD system via their\npackage managers. A few examples below:\n* Debian/Ubuntu: apt-get install luakit\n* Gentoo: emerge luakit\n* Guix: guix install luakit\n* Arch: pacman -S luakit\n* FreeBSD: pkg install luakit\n* OpenBSD: pkg\\_add luakit\n* Void Linux: xbps-install luakit\n\n## Installing from source\nMake sure you system fulfills the requirements listed above, then",
+      "tag": "Lua脚本化WebKit浏览器"
+    },
+    {
+      "id": 225990209,
+      "name": "SwiftLaTeX/SwiftLaTeX",
+      "stars": 2247,
+      "enhanced_text": "SwiftLaTeX, a WYSIWYG Browser-based LaTeX Editor.",
+      "tag": "浏览器LaTeX编辑器"
+    },
+    {
+      "id": 527309421,
+      "name": "berthubert/googerteller",
+      "stars": 2231,
+      "enhanced_text": "audible feedback on just how much your browsing feeds into google.",
+      "tag": "浏览器隐私监控工具"
+    },
+    {
+      "id": 27465526,
+      "name": "wentin/underlineJS",
+      "stars": 2230,
+      "enhanced_text": "Pushing the boundary of browser typography rendering!",
+      "tag": "浏览器字体渲染库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 905501456,
+        "tag": "浏览器AI视频处理库"
+      },
+      {
+        "id": 108311273,
+        "tag": "云服务JavaScript SDK"
+      },
+      {
+        "id": 119921062,
+        "tag": "JavaScript技术博客"
+      },
+      {
+        "id": 134539713,
+        "tag": "浏览器漏洞利用资源集"
+      },
+      {
+        "id": 715769622,
+        "tag": "Chromium浏览器自动化工具"
+      },
+      {
+        "id": 686537,
+        "tag": "XMPP JavaScript协议库"
+      },
+      {
+        "id": 824451,
+        "tag": "Lua脚本化WebKit浏览器"
+      },
+      {
+        "id": 225990209,
+        "tag": "浏览器LaTeX编辑器"
+      },
+      {
+        "id": 527309421,
+        "tag": "浏览器隐私监控工具"
+      },
+      {
+        "id": 27465526,
+        "tag": "浏览器字体渲染库"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 17,
+  "timestamp": "2026-02-05T16:24:17.641640",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 36502584,\n      \"tag\": \"React富文本编辑器\"\n    },\n    {\n      \"id\": 17592572,\n      \"tag\": \"BPMN建模库\"\n    },\n    {\n      \"id\": 2491285,\n      \"tag\": \"HTML5多人游戏\"\n    },\n    {\n      \"id\": 127247098,\n      \"tag\": \"Blazor资源集合\"\n    },\n    {\n      \"id\": 985839104,\n      \"tag\": \"智能体浏览器\"\n    },\n    {\n      \"id\": 1569980,\n      \"tag\": \"MQTT客户端库\"\n    },\n    {\n      \"id\": 36437041,\n      \"tag\": \"负载测试平台\"\n    },\n    {\n      \"id\": 45319761,\n      \"tag\": \"极简隐私浏览器\"\n    },\n    {\n      \"id\": 260432296,\n      \"tag\": \"平板输入代理\"\n    },\n    {\n      \"id\": 1012503,\n      \"tag\": \"iOS媒体浏览组件\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1407,
+    "completion_tokens": 239,
+    "total_tokens": 1646
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b64681b478493282",
+  "created": 1770308647,
+  "finish_reason": "stop"
+}

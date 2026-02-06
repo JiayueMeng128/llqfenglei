@@ -1,0 +1,16 @@
+{
+  "batch_id": 43,
+  "timestamp": "2026-02-05T16:29:34.484815",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 305972561,\n      \"tag\": \"开发者工具屏蔽库\"\n    },\n    {\n      \"id\": 69679985,\n      \"tag\": \"ESLint兼容性插件\"\n    },\n    {\n      \"id\": 287942241,\n      \"tag\": \"Go浏览器自动化库\"\n    },\n    {\n      \"id\": 9527640,\n      \"tag\": \"浏览器文件系统API\"\n    },\n    {\n      \"id\": 49332125,\n      \"tag\": \"浏览器特性检测库\"\n    },\n    {\n      \"id\": 115411542,\n      \"tag\": \"Linux原生应用封装\"\n    },\n    {\n      \"id\": 62540781,\n      \"tag\": \"Android Chromium内核\"\n    },\n    {\n      \"id\": 149115206,\n      \"tag\": \"HTTP流式传输服务器\"\n    },\n    {\n      \"id\": 1923665,\n      \"tag\": \"数据库子集与浏览工具\"\n    },\n    {\n      \"id\": 1609213,\n      \"tag\": \"浏览器事件发射器库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2043,
+    "completion_tokens": 247,
+    "total_tokens": 2290
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-afbb3c457c3301ce",
+  "created": 1770308952,
+  "finish_reason": "stop"
+}

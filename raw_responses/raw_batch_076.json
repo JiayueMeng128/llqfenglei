@@ -1,16 +1,16 @@
 {
   "batch_id": 76,
-  "timestamp": "2026-02-05T15:30:00.940218",
+  "timestamp": "2026-02-05T16:49:13.387412",
   "parse_success": true,
   "parse_error": null,
-  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 10452358,\n      \"tag\": \"生产力扩展\"\n    },\n    {\n      \"id\": 59907561,\n      \"tag\": \"浏览器AI建模平台\"\n    },\n    {\n      \"id\": 835650091,\n      \"tag\": \"Web视频处理引擎\"\n    },\n    {\n      \"id\": 506162055,\n      \"tag\": \"备份管理工具\"\n    }\n  ]\n}",
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 23899906,\n      \"tag\": \"JavaScript ORM库\"\n    },\n    {\n      \"id\": 686775715,\n      \"tag\": \"浏览器CAD应用\"\n    },\n    {\n      \"id\": 116272692,\n      \"tag\": \"文件图标扩展\"\n    },\n    {\n      \"id\": 25791650,\n      \"tag\": \"日志流式传输工具\"\n    },\n    {\n      \"id\": 58388867,\n      \"tag\": \"生成式艺术框架\"\n    },\n    {\n      \"id\": 70820054,\n      \"tag\": \"文本转语音扩展\"\n    },\n    {\n      \"id\": 230486850,\n      \"tag\": \"下载管理器扩展\"\n    },\n    {\n      \"id\": 188643934,\n      \"tag\": \"Svelte开发者工具\"\n    },\n    {\n      \"id\": 1567795,\n      \"tag\": \"PHP浏览器模拟器\"\n    },\n    {\n      \"id\": 778000,\n      \"tag\": \"JavaScript地图库\"\n    }\n  ]\n}",
   "usage": {
-    "prompt_tokens": 389,
-    "completion_tokens": 100,
-    "total_tokens": 489
+    "prompt_tokens": 2598,
+    "completion_tokens": 238,
+    "total_tokens": 2836
   },
-  "model": "deepseek-v3.2",
-  "id": "msg_6984b778925d4dbb29492fc27c83d5d7",
-  "created": 1770305400,
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-875297c611daf454",
+  "created": 1770310131,
   "finish_reason": "stop"
 }

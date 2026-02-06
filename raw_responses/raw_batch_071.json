@@ -1,0 +1,16 @@
+{
+  "batch_id": 71,
+  "timestamp": "2026-02-05T16:47:12.480857",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 278011746,\n      \"tag\": \"隐私安全扩展\"\n    },\n    {\n      \"id\": 124411852,\n      \"tag\": \"浏览器自动化框架\"\n    },\n    {\n      \"id\": 55375779,\n      \"tag\": \"Web音频应用\"\n    },\n    {\n      \"id\": 34680710,\n      \"tag\": \"前端图像处理库\"\n    },\n    {\n      \"id\": 253150295,\n      \"tag\": \"Android WebView浏览器\"\n    },\n    {\n      \"id\": 451267945,\n      \"tag\": \"安全测试扩展\"\n    },\n    {\n      \"id\": 403928729,\n      \"tag\": \"跨平台应用框架\"\n    },\n    {\n      \"id\": 7810676,\n      \"tag\": \"前端文本编辑库\"\n    },\n    {\n      \"id\": 176058541,\n      \"tag\": \"Web终端共享工具\"\n    },\n    {\n      \"id\": 749283842,\n      \"tag\": \"Firefox界面主题\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2297,
+    "completion_tokens": 237,
+    "total_tokens": 2534
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c990048e75d3e57c3e4066770159",
+  "created": 1770310028,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 58,
+  "timestamp": "2026-02-05T16:43:17.098600",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 141128198,\n      \"tag\": \"Wasm前端框架\"\n    },\n    {\n      \"id\": 469525716,\n      \"tag\": \"React开发工具\"\n    },\n    {\n      \"id\": 18020144,\n      \"tag\": \"DOM操作库\"\n    },\n    {\n      \"id\": 47860620,\n      \"tag\": \"地理空间计算库\"\n    },\n    {\n      \"id\": 190765263,\n      \"tag\": \"设备投屏客户端\"\n    },\n    {\n      \"id\": 297152797,\n      \"tag\": \"数据可视化PWA\"\n    },\n    {\n      \"id\": 65398224,\n      \"tag\": \"GitHub增强扩展\"\n    },\n    {\n      \"id\": 19384606,\n      \"tag\": \"Web Worker工具库\"\n    },\n    {\n      \"id\": 358512963,\n      \"tag\": \"浏览器运维平台\"\n    },\n    {\n      \"id\": 187544570,\n      \"tag\": \"浏览器端加密工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1704,
+    "completion_tokens": 238,
+    "total_tokens": 1942
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c8a4667b599f2d4ba2137c356d8c",
+  "created": 1770309785,
+  "finish_reason": "stop"
+}

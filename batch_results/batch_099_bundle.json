@@ -1,0 +1,125 @@
+{
+  "batch_id": 99,
+  "timestamp": "2026-02-05T16:56:26.622856",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 90465794,
+      "name": "masatokinugawa/filterbypass",
+      "stars": 1150,
+      "enhanced_text": "Browser's XSS Filter Bypass Cheat Sheet.\n\n# Browser's XSS Filter Bypass Cheat Sheet\nhttps://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet",
+      "tag": "XSS攻击备忘单"
+    },
+    {
+      "id": 588898,
+      "name": "tautologistics/node-htmlparser",
+      "stars": 1146,
+      "enhanced_text": "Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers.\n\n##Installing\nnpm install htmlparser\n###Run tests under node:\n###Run tests in browser:\nView runtests.html in any browser\n\n##Usage In Node",
+      "tag": "HTML/XML解析库"
+    },
+    {
+      "id": 22472379,
+      "name": "evidenceprime/html-docx-js",
+      "stars": 1146,
+      "enhanced_text": "Converts HTML documents to DOCX in the browser.",
+      "tag": "HTML转DOCX库"
+    },
+    {
+      "id": 155305174,
+      "name": "nomic-ai/deepscatter",
+      "stars": 1146,
+      "enhanced_text": "Zoomable, animated scatterplots in the browser that scales over a billion points.",
+      "tag": "浏览器可视化库"
+    },
+    {
+      "id": 14822868,
+      "name": "convos-chat/convos",
+      "stars": 1143,
+      "enhanced_text": "Convos :busts_in_silhouette: is the simplest way to use IRC in your browser.\n\n## Quick start guide\nSee \"Getting started\" for other\noptions and more information.",
+      "tag": "浏览器IRC客户端"
+    },
+    {
+      "id": 198628872,
+      "name": "danfragoso/thdwb",
+      "stars": 1143,
+      "enhanced_text": "🌭 The hotdog web browser and browser engine 🌭.",
+      "tag": "浏览器渲染引擎"
+    },
+    {
+      "id": 14976714,
+      "name": "hisorange/browser-detect",
+      "stars": 1140,
+      "enhanced_text": "Browser Detection for Laravel by hisorange!",
+      "tag": "Laravel浏览器检测"
+    },
+    {
+      "id": 116883257,
+      "name": "privacytests/privacytests.org",
+      "stars": 1139,
+      "enhanced_text": "Source code for privacytests.org. Includes browser testing code and site rendering.\n\nPrivacyTests.org is an open-source testing program that measures browser privacy characteristics, and a website, https://privacytests.org, that renders the results for human consumption.\nPrivacyTests.org uses the MIT license.\n* aioquic: a submodule with a fork of the aioquic project for HTTP3-related tests\n* assets: copy, css, icons, images, fonts for running tests and rendering pages\n* live: express JS files for the test server\n* results: raw results are saved in this directory\n* scripts: scripts for running tests and rendering website and results pages\n* static: static files for the test server\n* website: the HTML pages where results are published",
+      "tag": "浏览器隐私测试套件"
+    },
+    {
+      "id": 57244664,
+      "name": "microsoft/XmlNotepad",
+      "stars": 1138,
+      "enhanced_text": "XML Notepad provides a simple intuitive User Interface for browsing and editing XML documents.\n\nXML Notepad is a Windows program that provides a simple intuitive User Interface for browsing and editing XML documents. There are four ways to install it:\n1. ClickOnce® installer - this is the most convenient, install it directly from the web browser.\n2. Standalone downloadable installer if you need something that works offline.\nJust download the zip file, copy it to the machine you want to install it on, unzip the file on that machine and run .\n3. Windows MSIX installer if you need a trusted Windows installer.\n4. You can also use WinGet as follows:\nXML Notepad provides the following useful features:\n- XML Schema aware Intellisense\n- Find dialog that supports XPath",
+      "tag": "XML编辑器"
+    },
+    {
+      "id": 10452358,
+      "name": "toggl/track-extension",
+      "stars": 1135,
+      "enhanced_text": "Toggl Track browser extension for Chrome and Firefox.",
+      "tag": "跨浏览器时间追踪扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 90465794,
+        "tag": "XSS攻击备忘单"
+      },
+      {
+        "id": 588898,
+        "tag": "HTML/XML解析库"
+      },
+      {
+        "id": 22472379,
+        "tag": "HTML转DOCX库"
+      },
+      {
+        "id": 155305174,
+        "tag": "浏览器可视化库"
+      },
+      {
+        "id": 14822868,
+        "tag": "浏览器IRC客户端"
+      },
+      {
+        "id": 198628872,
+        "tag": "浏览器渲染引擎"
+      },
+      {
+        "id": 14976714,
+        "tag": "Laravel浏览器检测"
+      },
+      {
+        "id": 116883257,
+        "tag": "浏览器隐私测试套件"
+      },
+      {
+        "id": 57244664,
+        "tag": "XML编辑器"
+      },
+      {
+        "id": 10452358,
+        "tag": "跨浏览器时间追踪扩展"
+      }
+    ]
+  }
+}

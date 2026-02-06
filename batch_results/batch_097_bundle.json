@@ -1,0 +1,125 @@
+{
+  "batch_id": 97,
+  "timestamp": "2026-02-05T16:54:43.639565",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 4317381,
+      "name": "ftlabs/ftscroller",
+      "stars": 1186,
+      "enhanced_text": "FTScroller is a cross-browser Javascript/CSS library to allow touch, mouse or scrollwheel scrolling within specified elements, with pagination, snapping and bouncing support.\n\nFTScroller is a library for adding momentum scrolling to web content on devices with a touch interface, compatible across most modern platforms including desktop browsers.  Although recently support for  (or touch equivalents) has increased, this is often still not implemented in a cross-platform or backwards-compatible way, and with no support for features like snapping.\nFTScroller is developed by FT Labs, part of the Financial Times.  It is inspired by Touchscroll and Zynga Scroller, but is a complete rewrite.  It is extensively used in the FT Web App, and was developed to achieve better performance and compatibility, including mouse and touch input.\nInclude ftscroller.js in your JavaScript bundle or add it to your HTML page like this:\nThe script must be loaded prior to instantiating a scroller on any element of the page.\nTo create a scroller, with a few minimal options:\nFTScroller is designed to accommodate a range of use cases.  Here are some examples - feel free to copy the code and use as the basis for your own projects.\n* Horizontal paged (and a strict version, constrained to scrolling one page at a time)",
+      "tag": "滚动交互库"
+    },
+    {
+      "id": 62868230,
+      "name": "GoogleChromeLabs/pwacompat",
+      "stars": 1185,
+      "enhanced_text": "PWACompat to bring Web App Manifest to older browsers.\n\nPWACompat is a library that brings the Web App Manifest to non-compliant browsers for better Progressive Web Apps.\nThis mostly means creating splash screens and icons for Mobile Safari, as well as supporting IE/Edge's Pinned Sites feature.\nSo, if you've created a  but want to have wide support everywhere else—through legacy HTML tags for icons and theming—look no further.\nWe recommend including it from a CDN to get the latest version, or bundling it yourself:\nFor more on the Web App Manifest, read 📖 how to add a Web App Manifest and mobile-proof your site, watch 📹 theming as part of The Standard, or check out 📬 the Web Fundamentals post on PWACompat.\nPWACompat takes your regular manifest and enhances other browsers\nWhile PWACompat can generate most icons, meta tags etc that your PWA might need, it's best practice to include at least one .\nThis is standardized and older browsers, along with search engines, may use it from your page to display an icon.",
+      "tag": "PWA兼容库"
+    },
+    {
+      "id": 47003121,
+      "name": "mkoehnke/WKZombie",
+      "stars": 1183,
+      "enhanced_text": "WKZombie is a Swift framework for iOS/OSX to navigate within websites and collect data without the need of User Interface or API, also known as Headless browser. It can be used to run automated tests / snapshots and manipulate websites using Javascript.\n\n# Getting Started\nThe best way to get started is to look at the sample project. Just run the following commands in your shell and you're good to go:\n__Note:__ You will need CocoaPods 1.0 beta4 or higher.\nFor a Command-Line demo, run the following commands inside the  root folder:\nA WKZombie instance equates to a web session. Top-level convenience methods like *WKZombie.open()* use a shared instance, which is configured with the default settings.\nAs such, the following three statements are equivalent:\nApplications can also create their own WKZombie instance:\nBe sure to keep  in a stored property for the time of being used.\n### a. Chaining Actions\nWeb page navigation is based on *Actions*, that can be executed **implicitly** when chaining actions using the  or  (for snapshots) operators. All chained actions pass their result to the next action. The  operator then starts the execution of the action chain.\nThe following snippet demonstrates how you would use WKZombie to **collect all Provisioning Profiles** from the Developer Portal and **take snapshots of every page**:\nIn order to output or process the collected data, one can either use a closure or implement a custom function taking the result as parameter:\n### b. Manual Actions\n*Actions* can also be started manually by calling the *start()* method:\nThis is certainly the less complicated way, but you have to write a lot more code, which might become confusing when you want to execute *Actions* successively.",
+      "tag": "无头浏览器框架"
+    },
+    {
+      "id": 760722197,
+      "name": "tinyfish-io/agentql",
+      "stars": 1177,
+      "enhanced_text": "AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.\n\n## What is AgentQL?\nAgentQL is a suite of tools for extracting data and automating workflows on live web sites featuring an AI-powered query language, Python and JavaScript SDKs, a browser-based debugger, and a REST API endpoint. It uses natural language queries to pinpoint data and elements on any web page, including authenticated and dynamically generated content. Users can define structured data output and apply transforms within queries. AgentQL's natural language selectors find elements intuitively based on the content of the web page and work across similar web sites, self-healing as UI changes over time.\nGet started in 5 minutes with our quick start!",
+      "tag": "AI网页自动化工具"
+    },
+    {
+      "id": 74329993,
+      "name": "facebookarchive/atom-in-orbit",
+      "stars": 1172,
+      "enhanced_text": "Putting Atom in the browser.\n\nThe goal of this project is to produce a version of Atom that runs in Chrome\nfrom Atom's source that is as faithful to the desktop version as possible.\nThere are already many offerings\nthat provide a browser-based IDE: do we really need another one? There are two\n1. Why would someone want a browser-based IDE instead of a desktop one?\n2. Assuming we're convinced we want an IDE in the browser, why should we prefer",
+      "tag": "浏览器IDE"
+    },
+    {
+      "id": 369991603,
+      "name": "supabase/supabase-swift",
+      "stars": 1172,
+      "enhanced_text": "A Swift SDK for Supabase. Query your Supabase database, subscribe to realtime events, upload and download files, browse Swift examples, invoke postgres functions via rpc, invoke supabase edge functions, query pgvector.",
+      "tag": "后端SDK"
+    },
+    {
+      "id": 142180965,
+      "name": "pmndrs/detect-gpu",
+      "stars": 1171,
+      "enhanced_text": "Classifies GPUs based on their 3D rendering benchmark score allowing the developer to provide sensible default settings for graphically intensive applications.",
+      "tag": "GPU性能检测库"
+    },
+    {
+      "id": 229514441,
+      "name": "developit/web-worker",
+      "stars": 1170,
+      "enhanced_text": "Consistent Web Workers in browser and Node.\n\n### Features\n_Here's how this is different from worker_threads:_\n- makes Worker code compatible across browser and Node\n- supports Module Workers () natively in Node 12.8+\n- uses DOM-style events (, , etc)\n- supports event handler properties ()\n-  accepts a module URL, Blob URL or Data URL\n- emulates browser-style [WorkerGlobalScope] within the worker",
+      "tag": "Web Worker工具库"
+    },
+    {
+      "id": 164151,
+      "name": "browsermedia/browsercms",
+      "stars": 1169,
+      "enhanced_text": "BrowserCMS: Humane Content Management for Rails.\n\n## Features\nBrowserCMS is intended to offer features comparable to commercial CMS products, which can support larger teams of editors. This means having a robust set of features as part of its core, as well as the capability to customize it via modules.\nHere's a quick overview of some of the more notable features:\n* Standalone CMS: BrowserCMS is designed to provide a robust CMS capabilities out of the box for content heavy web sites.\n* Mobile Friendly: Sites can be built to use mobile optimized designs that are optimized for small screens, with low bandwidth, with responsive design.\n* In Context Editing: Users can browse their site to locate content and make changes from the page itself.\n* Design friendly Templates: Pages aren't just a template and giant single chunk of HTML. Templates can be built to have multiple editable areas, to allow for rich designs that are still easy to manage by non-technical users.\n* Highly Extensible: Developer have access to the full Rails development stack, and can customize their project by adding their own controllers, views as well as CMS content types.\n* Sitemap: An explorer/finder style view of sections and pages in a site allowing users to add and organize pages.\n* Content Library: Provides a standardized 'CRUD' interface to allow users to manage both core and custom content types.\n* Content API: A set of behaviors added to ActiveRecord which allow for versioning, auditing, tagging and other content services provided by the CMS.\n* Section Based Security: Admins can control which users can access specific sections (public users), as well as who can edit which pages (cms users).\n* Workflow: Supports larger website teams where some users can contribute, but not publish. Users can assign work to other publishers to review.\n* Page Caching: Full page caching allows the web server (Apache) to serve HTML statically when they don't change.\n* CMSify your Rails App: BrowserCMS can be added to existing Rails applications to add content management capabilities.",
+      "tag": "Rails内容管理系统"
+    },
+    {
+      "id": 94889537,
+      "name": "danny0838/webscrapbook",
+      "stars": 1168,
+      "enhanced_text": "A browser extension that captures web pages to local device or backend server for future retrieval, organization, annotation, and edit. This project inherits from legacy Firefox add-on ScrapBook X.\n\n*WebScrapBook* is a browser extension that captures the web page faithfully with various archive formats and customizable configurations, for future retrieval, organization, annotation, and editing. This project inherits from legacy Firefox add-on ScrapBook X.\nThis extension is available for Chromium-based browsers and Firefox-based browsers, and can be installed from the corresponding web store:\n* Known supported Chromium-based browsers: Google Chrome, Microsoft Edge, Chromium, Opera, Vivaldi, Brave. Mobile: Kiwi.\n* Known supported Firefox-based browsers: Firefox, Waterfox, Tor Browser. Mobile: Firefox for Android.\nFor installation and usage guide, frequently asked questions, and further details, visit the documentation wiki.",
+      "tag": "网页存档扩展"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 4317381,
+        "tag": "滚动交互库"
+      },
+      {
+        "id": 62868230,
+        "tag": "PWA兼容库"
+      },
+      {
+        "id": 47003121,
+        "tag": "无头浏览器框架"
+      },
+      {
+        "id": 760722197,
+        "tag": "AI网页自动化工具"
+      },
+      {
+        "id": 74329993,
+        "tag": "浏览器IDE"
+      },
+      {
+        "id": 369991603,
+        "tag": "后端SDK"
+      },
+      {
+        "id": 142180965,
+        "tag": "GPU性能检测库"
+      },
+      {
+        "id": 229514441,
+        "tag": "Web Worker工具库"
+      },
+      {
+        "id": 164151,
+        "tag": "Rails内容管理系统"
+      },
+      {
+        "id": 94889537,
+        "tag": "网页存档扩展"
+      }
+    ]
+  }
+}

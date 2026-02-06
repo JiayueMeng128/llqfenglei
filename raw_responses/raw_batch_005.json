@@ -1,0 +1,16 @@
+{
+  "batch_id": 5,
+  "timestamp": "2026-02-05T16:21:38.091936",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 24579238,\n      \"tag\": \"Vue.js开发者工具\"\n    },\n    {\n      \"id\": 124303364,\n      \"tag\": \"浏览器图像压缩\"\n    },\n    {\n      \"id\": 201570219,\n      \"tag\": \"响应式开发浏览器\"\n    },\n    {\n      \"id\": 19416551,\n      \"tag\": \"SQLite数据库浏览器\"\n    },\n    {\n      \"id\": 1054793726,\n      \"tag\": \"开发者工具MCP协议\"\n    },\n    {\n      \"id\": 1451352,\n      \"tag\": \"JavaScript测试框架\"\n    },\n    {\n      \"id\": 32531480,\n      \"tag\": \"浏览器Cookie操作库\"\n    },\n    {\n      \"id\": 8986773,\n      \"tag\": \"浏览器Markdown编辑器\"\n    },\n    {\n      \"id\": 14158237,\n      \"tag\": \"浏览器x86模拟器\"\n    },\n    {\n      \"id\": 66670819,\n      \"tag\": \"Node.js网页爬虫库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2554,
+    "completion_tokens": 245,
+    "total_tokens": 2799
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-9dde3a06ee9ce6a1",
+  "created": 1770308485,
+  "finish_reason": "stop"
+}

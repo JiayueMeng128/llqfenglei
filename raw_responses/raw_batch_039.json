@@ -1,0 +1,16 @@
+{
+  "batch_id": 39,
+  "timestamp": "2026-02-05T16:28:29.565068",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 1514130,\n      \"tag\": \"Objective-C运行时浏览器\"\n    },\n    {\n      \"id\": 18154829,\n      \"tag\": \"GitHub贡献图美化扩展\"\n    },\n    {\n      \"id\": 79764891,\n      \"tag\": \"极简移动浏览器\"\n    },\n    {\n      \"id\": 323121488,\n      \"tag\": \"Safari内容屏蔽器\"\n    },\n    {\n      \"id\": 31442355,\n      \"tag\": \"主机性能监控框架\"\n    },\n    {\n      \"id\": 17492418,\n      \"tag\": \"编辑器与浏览器同步工具\"\n    },\n    {\n      \"id\": 81035045,\n      \"tag\": \"OSS文件管理客户端\"\n    },\n    {\n      \"id\": 79149882,\n      \"tag\": \"去中心化内容平台浏览器\"\n    },\n    {\n      \"id\": 17667574,\n      \"tag\": \"浏览器版本检测升级工具\"\n    },\n    {\n      \"id\": 5548784,\n      \"tag\": \"JavaScript流处理库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1117,
+    "completion_tokens": 249,
+    "total_tokens": 1366
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c52de390424bbc1fa0320f08020d",
+  "created": 1770308904,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 40,
+  "timestamp": "2026-02-05T16:29:01.848653",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 13100677,\n      \"tag\": \"JavaScript事件库\"\n    },\n    {\n      \"id\": 10098528,\n      \"tag\": \"Office文档模板引擎\"\n    },\n    {\n      \"id\": 3389930,\n      \"tag\": \"JavaScript统计库\"\n    },\n    {\n      \"id\": 365565979,\n      \"tag\": \"加密货币交易机器人\"\n    },\n    {\n      \"id\": 269668754,\n      \"tag\": \"Android浏览器内核\"\n    },\n    {\n      \"id\": 27855953,\n      \"tag\": \"Google API客户端库\"\n    },\n    {\n      \"id\": 8083731,\n      \"tag\": \"Web SSH管理平台\"\n    },\n    {\n      \"id\": 18382480,\n      \"tag\": \"UA解析库\"\n    },\n    {\n      \"id\": 29791986,\n      \"tag\": \"Git命令行工具\"\n    },\n    {\n      \"id\": 1108682714,\n      \"tag\": \"AI代理浏览器工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1434,
+    "completion_tokens": 236,
+    "total_tokens": 1670
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-83e9ce55e112ce34",
+  "created": 1770308910,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,125 @@
+{
+  "batch_id": 92,
+  "timestamp": "2026-02-05T16:53:11.942888",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 206873569,
+      "name": "streamlit/demo-self-driving",
+      "stars": 1275,
+      "enhanced_text": "Streamlit app demonstrating an image browser for the Udacity self-driving-car dataset with realtime object detection using YOLO.\n\n# Streamlit Demo: The Udacity Self-driving Car Image Browser\nThis project demonstrates the Udacity self-driving-car dataset and YOLO object detection into an interactive Streamlit app.\nThe complete demo is implemented in less than 300 lines of Python and illustrates all the major building blocks of Streamlit.\nPlease ask in the Streamlit community.",
+      "tag": "Web应用演示"
+    },
+    {
+      "id": 445686840,
+      "name": "mjakeman/extension-manager",
+      "stars": 1275,
+      "enhanced_text": "A utility for browsing and installing GNOME Shell Extensions.\n\nA native tool for browsing, installing, and managing GNOME Shell Extensions\nWritten with GTK 4 and libadwaita\n- Browsing and searching extensions from",
+      "tag": "桌面扩展管理工具"
+    },
+    {
+      "id": 4528770,
+      "name": "jsxgraph/jsxgraph",
+      "stars": 1274,
+      "enhanced_text": "JSXGraph is a cross-browser library for interactive geometry, function plotting, charting, and data visualization in a web browser.\n\nJavaScript library for interactive math visualizations in the web browser.\n*JSXGraph* is a cross-browser library for interactive geometry, function plotting,\ncharting, and data visualization in a web browser. It is implemented completely\nin JavaScript, does not rely on any other library, and uses SVG, canvas, or even the venerable VML.\n*JSXGraph* is easy to embed and has a small footprint. No plug-ins are required! Special care has been taken\n*JSXGraph* supports multi-touch events and runs on all major browsers.\nLehrstuhl für Mathematik und ihre Didaktik and the Center of Mobile Learning with Digital Technology,\nUniversity of Bayreuth, 95447 Bayreuth, Germany",
+      "tag": "交互式数学可视化库"
+    },
+    {
+      "id": 7656304,
+      "name": "manuels/texlive.js",
+      "stars": 1273,
+      "enhanced_text": "Compiling LaTeX (TeX live) in your browser.\n\nThis is a port of TeX live 2016 to Javascript. It is based on the port of the pdftex TeX compiler to Javascript using emscripten.\nIt creates PDF files from LaTeX code and supports packages.\nFor more information checkout the wiki.\nbibtex.js - bibtex ported to javascript\nep_latex - etherpad-lite plugin for texlive.js",
+      "tag": "WebAssembly编译工具"
+    },
+    {
+      "id": 8956228,
+      "name": "wesbos/aprilFools.css",
+      "stars": 1271,
+      "enhanced_text": "Harmlessly goof up your co-workers browser and chrome dev tools.\n\nPut these CSS definitions into your co-workers css overriding file.  They will be applied to every website they visit. They are commented out by default, so make sure to uncomment your favourite ones!\nMost will work in both firefox and chrome. The  only ones are specific to chrome or dev tools features. Please feel free to add more via PR.\n**Firefox** - Windows, Mac & Linux:\nTurn every website upside down.",
+      "tag": "CSS恶搞工具"
+    },
+    {
+      "id": 637131414,
+      "name": "chase/awrit",
+      "stars": 1271,
+      "enhanced_text": "A full graphical web browser for Kitty terminal with mouse and keyboard support.\n\n# Actual Web Rendering in Terminal\nYep, actual Chromium being rendered in your favorite terminal that supports the Kitty terminal graphics protocol.\n** works best in Kitty v0.31 or newer**\n- Display documentation from DevDocs\n- Watch the changes from Vite come to life\n- Tiled layout without a tiling window manager using Kitty's layouts\n- Add fancy UI using web technologies, so NeoVim can pretend it is Emacs instead of the other way around\nBy default, this will download to  and link to .\nYou can configure  by changing . See Configuration for more information.",
+      "tag": "终端图形浏览器"
+    },
+    {
+      "id": 24230088,
+      "name": "jiacai2050/gooreplacer",
+      "stars": 1270,
+      "enhanced_text": "⚡️⚡️A browser extension to modify HTTP requests :-).\n\n> Repo Move to https://github.com/jiacai2050/my-works/tree/main/gooreplacer\ngooreplacer 最初为解决国内无法访问 Google 资源（Ajax、API等）导致页面加载速度巨慢而生，新版在此基础上，增加了更多实用功能，可以方便用户屏蔽某些请求，修改 HTTP 请求/响应 的 headers。\n- 支持在线规则，主要用于重定向 Google 资源，用户可更改\n- 导入导出规则，方便用户备份、同步（规则可在 Chrome/Firefox/Edge.. 通用）\n> https://raw.githubusercontent.com/jiacai2050/gooreplacer/master/gooreplacer.json",
+      "tag": "HTTP请求修改扩展"
+    },
+    {
+      "id": 59760504,
+      "name": "Song-Li/cross_browser",
+      "stars": 1270,
+      "enhanced_text": "This is a project for a browser fingerprinting technique that can track users not only within a single browser but also across different browsers on the same machine.",
+      "tag": "浏览器指纹追踪技术"
+    },
+    {
+      "id": 359970576,
+      "name": "rhashimoto/wa-sqlite",
+      "stars": 1270,
+      "enhanced_text": "WebAssembly SQLite with support for browser storage extensions.\n\nThis is a WebAssembly build of SQLite with support for writing SQLite virtual filesystems completely in Javascript. This allows alternative browser storage options such as IndexedDB and Origin Private File System. Applications can opt to use either a synchronous or asynchronous (using Asyncify or JSPI) SQLite library build (an asynchronous build is required for asynchronous extensions).\nIndexedDB and several Origin Private File System virtual file systems are among the examples provided as proof of concept. A table comparing the different VFS classes is here.\nTry the demo or run benchmarks with a modern desktop web browser. More information is available in the FAQ, discussion forums, and API reference.\nThe primary motivation for this project is to enable additions to SQLite with only Javascript. Most developers should be able to use the pre-built artifacts in\nNote that earlier versions of the project only provided pre-built artifacts in the\n\"buildless\" branch; that branch will no longer be maintained.\nMinor build customization (e.g. changing build defines or flags) can be done with make arguments, and the helper project sqwab can be used to build without a local build environment.\nIf you do want to build yourself, here are the prerequisites:\n* Building on Debian Linux is known to work, compatibility with other platforms is unknown.",
+      "tag": "WebAssembly SQLite库"
+    },
+    {
+      "id": 7367371,
+      "name": "4ae9b8/browserhacks",
+      "stars": 1266,
+      "enhanced_text": "An extensive list of CSS/JS browserhacks from all over the interwebs.\n\nBrowserhacks is an extensive list of browser specific CSS and JavaScript hacks from all over the interwebs.\nPlease keep in mind using a hack is not always the perfect solution. It can be useful to fix some weird browser specific bug, but in most cases you should fix your CSS/JS.\n2. Copy it into your stylesheet\n3. Add the styles you want between the braces\n4. Enjoy the new styles for the browser you targeted!",
+      "tag": "浏览器Hack代码库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 206873569,
+        "tag": "Web应用演示"
+      },
+      {
+        "id": 445686840,
+        "tag": "桌面扩展管理工具"
+      },
+      {
+        "id": 4528770,
+        "tag": "交互式数学可视化库"
+      },
+      {
+        "id": 7656304,
+        "tag": "WebAssembly编译工具"
+      },
+      {
+        "id": 8956228,
+        "tag": "CSS恶搞工具"
+      },
+      {
+        "id": 637131414,
+        "tag": "终端图形浏览器"
+      },
+      {
+        "id": 24230088,
+        "tag": "HTTP请求修改扩展"
+      },
+      {
+        "id": 59760504,
+        "tag": "浏览器指纹追踪技术"
+      },
+      {
+        "id": 359970576,
+        "tag": "WebAssembly SQLite库"
+      },
+      {
+        "id": 7367371,
+        "tag": "浏览器Hack代码库"
+      }
+    ]
+  }
+}

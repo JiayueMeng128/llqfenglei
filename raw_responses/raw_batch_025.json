@@ -1,0 +1,16 @@
+{
+  "batch_id": 25,
+  "timestamp": "2026-02-05T16:25:43.933052",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 6583352,\n      \"tag\": \"浏览器图标资源\"\n    },\n    {\n      \"id\": 41906632,\n      \"tag\": \"键盘驱动型浏览器扩展\"\n    },\n    {\n      \"id\": 1701968,\n      \"tag\": \"浏览器端JavaScript库\"\n    },\n    {\n      \"id\": 10855394,\n      \"tag\": \"PHP服务器端调试工具\"\n    },\n    {\n      \"id\": 3069402,\n      \"tag\": \"跨平台条形码生成库\"\n    },\n    {\n      \"id\": 3238243,\n      \"tag\": \"浏览器兼容性数据库\"\n    },\n    {\n      \"id\": 6853358,\n      \"tag\": \"JavaScript测试框架\"\n    },\n    {\n      \"id\": 518486100,\n      \"tag\": \"GitHub可视化扩展\"\n    },\n    {\n      \"id\": 149144662,\n      \"tag\": \"JavaScript全文搜索引擎\"\n    },\n    {\n      \"id\": 3618133,\n      \"tag\": \"Web平台标准测试套件\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2036,
+    "completion_tokens": 244,
+    "total_tokens": 2280
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c48783e1cc4a9aae36f0f0b2437b",
+  "created": 1770308740,
+  "finish_reason": "stop"
+}

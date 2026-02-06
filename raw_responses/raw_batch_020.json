@@ -1,0 +1,16 @@
+{
+  "batch_id": 20,
+  "timestamp": "2026-02-05T16:24:52.330072",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 89785877,\n      \"tag\": \"静态页面加密库\"\n    },\n    {\n      \"id\": 69316510,\n      \"tag\": \"嵌入式浏览器内核\"\n    },\n    {\n      \"id\": 21251069,\n      \"tag\": \"WebRTC通信库\"\n    },\n    {\n      \"id\": 109200851,\n      \"tag\": \"数据库开发工具\"\n    },\n    {\n      \"id\": 711976,\n      \"tag\": \"GitHub API SDK\"\n    },\n    {\n      \"id\": 5694513,\n      \"tag\": \"云服务SDK\"\n    },\n    {\n      \"id\": 60434915,\n      \"tag\": \"书签同步扩展\"\n    },\n    {\n      \"id\": 625486047,\n      \"tag\": \"AI助手浏览器扩展\"\n    },\n    {\n      \"id\": 21611548,\n      \"tag\": \"SVG编辑器\"\n    },\n    {\n      \"id\": 37201011,\n      \"tag\": \"以太坊DApp浏览器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2686,
+    "completion_tokens": 239,
+    "total_tokens": 2925
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c4542d28806df80975d94eee6cef",
+  "created": 1770308689,
+  "finish_reason": "stop"
+}

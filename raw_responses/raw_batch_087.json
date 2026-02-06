@@ -1,0 +1,16 @@
+{
+  "batch_id": 87,
+  "timestamp": "2026-02-05T16:52:05.311630",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 494727853,\n      \"tag\": \"跨平台漫画浏览器\"\n    },\n    {\n      \"id\": 51061236,\n      \"tag\": \"URL游戏脚本\"\n    },\n    {\n      \"id\": 44635242,\n      \"tag\": \"安卓悬浮窗示例\"\n    },\n    {\n      \"id\": 121137018,\n      \"tag\": \"跨浏览器测试框架\"\n    },\n    {\n      \"id\": 87784593,\n      \"tag\": \"Swift图片浏览器库\"\n    },\n    {\n      \"id\": 20046426,\n      \"tag\": \"浏览器取证工具\"\n    },\n    {\n      \"id\": 855713680,\n      \"tag\": \"终端YouTube客户端\"\n    },\n    {\n      \"id\": 140771377,\n      \"tag\": \"Cookie管理扩展\"\n    },\n    {\n      \"id\": 32997960,\n      \"tag\": \"Web音频合成库\"\n    },\n    {\n      \"id\": 346424381,\n      \"tag\": \"客户端机器人检测库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1708,
+    "completion_tokens": 237,
+    "total_tokens": 1945
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984cab5c6d06909d80ae3d0b07bb7a5",
+  "created": 1770310312,
+  "finish_reason": "stop"
+}

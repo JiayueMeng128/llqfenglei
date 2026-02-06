@@ -1,0 +1,16 @@
+{
+  "batch_id": 89,
+  "timestamp": "2026-02-05T16:52:26.422177",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 166713531,\n      \"tag\": \"远程控制工具\"\n    },\n    {\n      \"id\": 110955493,\n      \"tag\": \"移动端图片浏览器组件\"\n    },\n    {\n      \"id\": 103385166,\n      \"tag\": \"浏览器扩展-用户代理伪装\"\n    },\n    {\n      \"id\": 281976889,\n      \"tag\": \"浏览器内笔记本文档\"\n    },\n    {\n      \"id\": 678822546,\n      \"tag\": \"浏览器终端模拟\"\n    },\n    {\n      \"id\": 12897630,\n      \"tag\": \"浏览器扩展-网络请求拦截\"\n    },\n    {\n      \"id\": 99437640,\n      \"tag\": \"Android电视浏览器\"\n    },\n    {\n      \"id\": 2278307,\n      \"tag\": \"JavaScript应用框架\"\n    },\n    {\n      \"id\": 376269131,\n      \"tag\": \"浏览器SSH终端\"\n    },\n    {\n      \"id\": 29913000,\n      \"tag\": \"DOM元素尺寸监听库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1139,
+    "completion_tokens": 244,
+    "total_tokens": 1383
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-9afa12be75ef9ea8",
+  "created": 1770310330,
+  "finish_reason": "stop"
+}

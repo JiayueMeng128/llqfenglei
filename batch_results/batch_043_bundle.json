@@ -1,0 +1,125 @@
+{
+  "batch_id": 43,
+  "timestamp": "2026-02-05T16:29:34.485243",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 305972561,
+      "name": "theajack/disable-devtool",
+      "stars": 3162,
+      "enhanced_text": "Disable web developer tools from the f12 button, right-click and browser menu.",
+      "tag": "开发者工具屏蔽库"
+    },
+    {
+      "id": 69679985,
+      "name": "amilajack/eslint-plugin-compat",
+      "stars": 3161,
+      "enhanced_text": "Check the browser compatibility of your code.\n\nLint the browser compatibility of your code\n### 3. Configure Target Browsers\nBrowser targets are configured using browserslist. You can configure browser targets in your :\nIf no configuration is found, browserslist defaults to .\nSee browserslist/browserslist for more details.",
+      "tag": "ESLint兼容性插件"
+    },
+    {
+      "id": 287942241,
+      "name": "playwright-community/playwright-go",
+      "stars": 3157,
+      "enhanced_text": "Playwright for Go a browser automation library to control Chromium, Firefox and WebKit with a single API.",
+      "tag": "Go浏览器自动化库"
+    },
+    {
+      "id": 9527640,
+      "name": "jvilk/BrowserFS",
+      "stars": 3156,
+      "enhanced_text": "BrowserFS is an in-browser filesystem that emulates the Node JS filesystem API and supports storing and retrieving files from various backends.\n\n# DEPRECATED (*Active fork: ZenFS*)\nHey there, this is the current maintainer of BrowserFS.\nI've been working on BrowserFS for over a year now, and have made some big improvements.\nA few months ago, I began seperating some backends from BrowserFS to be placed into different packages. Along with this, I created the browser-fs organization on Github and the browserfs organization on NPM. I made new organizations to keep the repositories and packages organized. Another reason I did so was because John Vilk, the original author of the project, no longer had the time to administer the project. This means at the time of writing this, I still do not have access to the NPM package.\nI feel that now, the project has changed so significantly it is no longer the same BrowserFS. Even the name, *Browser*FS, implies it is meant for browsers, which it has outgrown. For that reason, I think that the project should be something new, but still carry the legacy of BrowserFS. I've decided to call it **ZenFS**, since a core goal of mine is ease of use and peace of mind.\nIn a letter to Robert Hooke in 1675, Isaac Newton famously wrote \"If I have seen further it is by standing on the shoulders of giants\". This is most certainly true in the case of ZenFS. Without the creation of BrowserFS, I would not have found it and been amazed at a complete file system in Typescript/Javascript.\nI would like to extend my deepest thanks to Dr. Emery Berger. Shortly after submitting my first pull request to BrowserFS, I reached out about becoming a maintainer of the project. Dr. Berger welcomed my maintainership of the project, and greatly helped in some other matters.\nThank you very much to the community for helping me with this project by submitting issues and pull requests.\nThe NPM organization  has had all of its packages deprecated, with a message pointing to the new package as well as this notice. All of the versions published under  have also been published under .",
+      "tag": "浏览器文件系统API"
+    },
+    {
+      "id": 49332125,
+      "name": "arielsalminen/feature.js",
+      "stars": 3155,
+      "enhanced_text": "Feature.js is a fast, simple and lightweight browser feature detection library in 1kb.\n\nFeature.js is a fast, simple and lightweight browser feature detection library. It has no dependencies and weighs only 1kb minified and gzipped. Feature.js automatically initializes itself on page load, so you don’t have to. It doesn’t, however, run any tests while initializing, so it will only ever run them when you ask it to. This makes it perform very fast.\nWith Feature.js, it’s simple to build progressively enhanced experiences that use feature detection to determine if a code can be executed in the user’s browser.",
+      "tag": "浏览器特性检测库"
+    },
+    {
+      "id": 115411542,
+      "name": "Figma-Linux/figma-linux",
+      "stars": 3145,
+      "enhanced_text": "Figma is the first interface design tool based in the browser, making it easier for teams to create software. Join us in https://t.me/figma_linux.",
+      "tag": "Linux原生应用封装"
+    },
+    {
+      "id": 62540781,
+      "name": "JackyAndroid/AndroidChromium",
+      "stars": 3132,
+      "enhanced_text": "chrome browser of android version from chromium open project.\n\n* Google browser android version of the source program\n* This project is a world-class android architecture\n* Clarify the project business logic can completely fit for domestic company engineer\n* This project will follow up and update Google browser kernel version for a long time, welcome to the star\nIf you are using AndroidStudio above 2.0 version and open instant run function, suggested to debug after closing (instant run will modify on the Application of the result in chrome provider context reference error)\n### The upgrade Chromium kernel steps are as follows",
+      "tag": "Android Chromium内核"
+    },
+    {
+      "id": 149115206,
+      "name": "nwtgck/piping-server",
+      "stars": 3131,
+      "enhanced_text": "Infinitely transfer between every device over pure HTTP with pipes or browsers.\n\nInfinitely transfer between every device over HTTP/HTTPS\nPiping Server is simple. You can transfer as follows.\nPiping Server transfers data to  or  into . The path  can be anything such as  or . A sender and receivers who specify the same path can transfer. Both the sender and the recipient can start the transfer first. The first one waits for the other.\nYou can also use Web UI like  on your browser. A more modern UI is found in , which supports E2E encryption.\nThe most important thing is that the data are streamed. This means that you can **transfer any data infinitely**. The demo below transfers an infinite text stream with .\nPiping Server is designed based on the ideas as follows.\n- **Infinite transfer**: You can transfer any kind of data infinitely on a stream. Streams are very efficient in terms of both time and space.\n- **Zero installation**: All you need is to have either a Web browser or , which are widely pre-installed. You do not need to install any extra software.",
+      "tag": "HTTP流式传输服务器"
+    },
+    {
+      "id": 1923665,
+      "name": "Wisser/Jailer",
+      "stars": 3123,
+      "enhanced_text": "Database Subsetting and Relational Data Browsing Tool.\n\n## Features\n- Exports consistent and referentially intact row-sets from your productive database\nand imports the data into your development and test environment.\n- Improves database performance by removing and archiving obsolete data without violating integrity.\n- Generates topologically sorted SQL-DML, hierarchically structured JSON, YAML, XML and DbUnit datasets.\n- Data Browsing. Navigate bidirectionally through the database by following foreign-key-based or user-defined relationships.\n- SQL Console with code completion, syntax highlighting and database metadata visualization.\n- A demo database is included with which you can get a first impression without any configuration effort.\n## Supported Databases\nThanks to the JDBC technology used, any DMBS is in principle supported. For best results, specific additional support features are useful, however. These are available for:\n- Microsoft SQL Server\n- Informix Dynamic Server\n- 2024-07-04    Data can now also be exported as structured JSON and YAML files.\n- 2024-06-26    A dark UI theme has been introduced that improves readability in low light environments.\n- 2024-04-18    DDL scripts for creating database objects can now be generated thanks to an integration of the Liquibase tool. This makes it possible to create subset databases from scratch using only on-board means.",
+      "tag": "数据库子集与浏览工具"
+    },
+    {
+      "id": 1609213,
+      "name": "Olical/EventEmitter",
+      "stars": 3107,
+      "enhanced_text": "Evented JavaScript for the browser.\n\n## Event based JavaScript for the browser\nAs the subtitle suggests, this script brings the power of events from platforms such as [node.js][] to your browser. Although it can be used on any other platform, I just built it with browsers in mind.\nThis is actually the fourth full rewrite of EventEmitter, my aim is for it to be faster and lighter than ever before. It also has a remapped API which just makes a lot more sense. Because the methods now have more descriptive names it is friendlier to extend EventEmitter into other classes. You will be able to distinguish event methods from your own methods.\nI have been working on it for over ~~a year~~ ~~two~~ three years so far and in that time my skills in JavaScript have come a long way. This script is a culmination of my learnings which you can hopefully find very useful.\nThere are no hard dependencies. The only reason you will want to run  to grab the development dependencies is to build the documentation or minify the source code. No other scripts are required to actually use EventEmitter.",
+      "tag": "浏览器事件发射器库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 305972561,
+        "tag": "开发者工具屏蔽库"
+      },
+      {
+        "id": 69679985,
+        "tag": "ESLint兼容性插件"
+      },
+      {
+        "id": 287942241,
+        "tag": "Go浏览器自动化库"
+      },
+      {
+        "id": 9527640,
+        "tag": "浏览器文件系统API"
+      },
+      {
+        "id": 49332125,
+        "tag": "浏览器特性检测库"
+      },
+      {
+        "id": 115411542,
+        "tag": "Linux原生应用封装"
+      },
+      {
+        "id": 62540781,
+        "tag": "Android Chromium内核"
+      },
+      {
+        "id": 149115206,
+        "tag": "HTTP流式传输服务器"
+      },
+      {
+        "id": 1923665,
+        "tag": "数据库子集与浏览工具"
+      },
+      {
+        "id": 1609213,
+        "tag": "浏览器事件发射器库"
+      }
+    ]
+  }
+}

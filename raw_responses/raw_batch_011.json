@@ -1,0 +1,16 @@
+{
+  "batch_id": 11,
+  "timestamp": "2026-02-05T16:22:41.827747",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 9795883,\n      \"tag\": \"嵌入式JavaScript数据库\"\n    },\n    {\n      \"id\": 2688455,\n      \"tag\": \"图像颜色提取库\"\n    },\n    {\n      \"id\": 27971466,\n      \"tag\": \"浏览器兼容性配置工具\"\n    },\n    {\n      \"id\": 273132277,\n      \"tag\": \"浏览器数据提取工具\"\n    },\n    {\n      \"id\": 341139727,\n      \"tag\": \"TypeScript SQL查询构建器\"\n    },\n    {\n      \"id\": 7292898,\n      \"tag\": \"WebRTC P2P库\"\n    },\n    {\n      \"id\": 12418999,\n      \"tag\": \"Go语言转JavaScript编译器\"\n    },\n    {\n      \"id\": 42009758,\n      \"tag\": \"以太坊钱包浏览器扩展\"\n    },\n    {\n      \"id\": 2553927,\n      \"tag\": \"浏览器Markdown幻灯片工具\"\n    },\n    {\n      \"id\": 6319157,\n      \"tag\": \"JavaScript拖拽手势库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1836,
+    "completion_tokens": 250,
+    "total_tokens": 2086
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c3d185b88b44f0efffc7a9ddd6e3",
+  "created": 1770308555,
+  "finish_reason": "stop"
+}

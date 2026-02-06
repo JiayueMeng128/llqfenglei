@@ -1,0 +1,16 @@
+{
+  "batch_id": 96,
+  "timestamp": "2026-02-05T16:54:23.946284",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 81371878,\n      \"tag\": \"WebAssembly运行时\"\n    },\n    {\n      \"id\": 102083108,\n      \"tag\": \"BurpSuite安全插件\"\n    },\n    {\n      \"id\": 113786110,\n      \"tag\": \"竞赛编程助手扩展\"\n    },\n    {\n      \"id\": 15850775,\n      \"tag\": \"Sass编译器\"\n    },\n    {\n      \"id\": 26699459,\n      \"tag\": \"Node.js包集合\"\n    },\n    {\n      \"id\": 458778240,\n      \"tag\": \"插件化媒体容器\"\n    },\n    {\n      \"id\": 162753411,\n      \"tag\": \"CSS分页引擎\"\n    },\n    {\n      \"id\": 3082672,\n      \"tag\": \"jQuery视口检测插件\"\n    },\n    {\n      \"id\": 564141286,\n      \"tag\": \"社交媒体标识扩展\"\n    },\n    {\n      \"id\": 137736003,\n      \"tag\": \"波斯语工具库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1254,
+    "completion_tokens": 241,
+    "total_tokens": 1495
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-b0eec5bf018a921e",
+  "created": 1770310445,
+  "finish_reason": "stop"
+}

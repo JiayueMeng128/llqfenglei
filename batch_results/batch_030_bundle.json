@@ -1,0 +1,125 @@
+{
+  "batch_id": 30,
+  "timestamp": "2026-02-05T16:26:36.787861",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 468168223,
+      "name": "lexiforest/curl_cffi",
+      "stars": 4898,
+      "enhanced_text": "Python binding for curl-impersonate fork via cffi. A http client that can impersonate browser tls/ja3/http2 fingerprints.",
+      "tag": "HTTP客户端模拟"
+    },
+    {
+      "id": 9815120,
+      "name": "turbulenz/turbulenz_engine",
+      "stars": 4882,
+      "enhanced_text": "Turbulenz is a modular 3D and 2D game framework for making HTML5 powered games for browsers, desktops and mobile devices.\n\nTurbulenz is an HTML5 game engine and server-side APIs available in JavaScript and TypeScript for building and distributing 2D and 3D games that run on platforms that support HTML5 features such as modern browsers without the need for plugins.\nExamples using the Turbulenz Engine\n* Touch, keyboard, mouse and pad controller input app - __",
+      "tag": "HTML5游戏引擎"
+    },
+    {
+      "id": 1778731,
+      "name": "NarrativeScience-old/log.io",
+      "stars": 4851,
+      "enhanced_text": "Real-time log monitoring in your browser.\n\n## Install & run server\n\nInstall via npm\nConfigure hosts & ports (see example below)\nBrowse to http://localhost:6688\n\n## Install & run file input",
+      "tag": "浏览器日志监控"
+    },
+    {
+      "id": 427384949,
+      "name": "Hufe921/canvas-editor",
+      "stars": 4809,
+      "enhanced_text": "rich text editor by canvas/svg.",
+      "tag": "Canvas富文本编辑器"
+    },
+    {
+      "id": 744617272,
+      "name": "hanydd/BilibiliSponsorBlock",
+      "stars": 4789,
+      "enhanced_text": "一款跳过小电视视频中恰饭片段的浏览器插件，移植自 SponsorBlock。A browser extension to skip sponsored segments in videos, ported from the SponsorBlock.\n\nLogo by @munadikieh. Modified by Yaodong\n受够了视频中无处不在的赞助广告了吗？受够了看了一半才发现的软广视频了吗？小电视空降助手是一款帮你精准空降到广告之后的浏览器插件。插件自动获取并跳过广告片段，让你的视频体验毫无中断！\n除了广告之外，插件还支持跳过其他类别的片段，例如开场结尾的动画、一键三连提示，或者直接空降到视频封面的位置。插件中所有的标注片段都来自网友标注，您也可以提交自己的片段来为空降指挥部添砖加瓦。\n目前本项目由我个人在业余时间维护，如果你想支持我，欢迎查看赞助。\n本插件移植自插件SponsorBlock，保留了大部分的 UI 和使用方法，加入一些了小电视特色的功能。\n- 目前上架了Chrome 应用商店，火狐应用商店。如果你知道更多流行的浏览器插件商店，欢迎留言~\n- 如果你无法打开上面的商店，可以尝试从从 Github Release 页面获取未打包的插件。\n1. 根据您浏览器的类型下载适合的版本，Chrome、Edge、360 和基于 Chromium 的国产浏览器下载 ；火狐浏览器下载。并解压缩。",
+      "tag": "视频广告屏蔽扩展"
+    },
+    {
+      "id": 352160885,
+      "name": "jupyterlite/jupyterlite",
+      "stars": 4743,
+      "enhanced_text": "Wasm powered Jupyter running in the browser 💡.\n\n[![ci-badge]][ci] [![lite-badge]][lite] [![docs-badge]][docs] [![zulip-badge]][zulip]\n[ci-badge]: https://github.com/jupyterlite/jupyterlite/workflows/Build/badge.svg\n[lite-badge]: https://jupyterlite.rtfd.io/en/latest/_static/badge.svg\n[lite]: https://jupyterlite.rtfd.io/en/stable/try/lab\n[ci]: https://github.com/jupyterlite/jupyterlite/actions?query=branch%3Amain\n[docs-badge]: https://readthedocs.org/projects/jupyterlite/badge/?version=latest\n[docs]: https://jupyterlite.readthedocs.io/en/stable/?badge=latest\n[zulip]: https://jupyter.zulipchat.com\nJupyterLite is a JupyterLab distribution that **runs entirely in the browser** built",
+      "tag": "Wasm网页应用"
+    },
+    {
+      "id": 12018530,
+      "name": "jenssegers/agent",
+      "stars": 4731,
+      "enhanced_text": "👮 A PHP desktop/mobile user agent parser with support for Laravel, based on Mobiledetect.",
+      "tag": "用户代理解析库"
+    },
+    {
+      "id": 1590408,
+      "name": "derbyjs/derby",
+      "stars": 4718,
+      "enhanced_text": "MVC framework making it easy to write realtime, collaborative applications that run in both Node.js and browsers.\n\nThe Derby MVC framework makes it easy to write realtime, collaborative applications that run in both Node.js and browsers.\nDerby includes a powerful data synchronization engine called Racer that automatically syncs data among browsers, servers, and a database. Models subscribe to changes on specific objects, enabling granular control of data propagation without defining channels. Racer supports offline usage and conflict resolution out of the box, which greatly simplifies writing multi-user applications.\nDerby applications load immediately and can be indexed by search engines, because the same templates render on both server and client. In addition, templates define bindings, which instantly update the view when the model changes and vice versa. Derby makes it simple to write applications that load as fast as a search engine, are as interactive as a document editor, and work offline.\nSee docs here: **https://derbyjs.github.io/derby/**\nMain site: **https://derbyjs.com/**\nExamples here: **https://github.com/derbyjs/derby-examples**\n> This will prompt to open a browser to run front-end tests",
+      "tag": "实时全栈框架"
+    },
+    {
+      "id": 931243,
+      "name": "samyk/evercookie",
+      "stars": 4704,
+      "enhanced_text": "Produces persistent, respawning \"super\" cookies in a browser, abusing over a dozen techniques. Its goal is to identify users after they've removed standard cookies and other privacy data such as Flash cookies (LSOs), HTML5 storage, SilverLight storage, and others.\n\nEvercookie is a Javascript API that produces extremely persistent cookies in a\nbrowser. Its goal is to identify a client even after they've removed standard\ncookies, Flash cookies (Local Shared Objects or LSOs), and others.\nThis is accomplished by storing the cookie data on as many browser storage\nmechanisms as possible. If cookie data is removed from any of the storage\nmechanisms, evercookie aggressively re-creates it in each mechanism as long as\nIf the Flash LSO, Silverlight or Java mechanism is available, Evercookie can even propagate cookies\nbetween different browsers on the same client machine!\nBy Samy Kamkar, with awesome contributions from others",
+      "tag": "浏览器指纹追踪"
+    },
+    {
+      "id": 30484966,
+      "name": "michael-lazar/rtv",
+      "stars": 4644,
+      "enhanced_text": "Browse Reddit from your terminal.",
+      "tag": "终端网页应用"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 468168223,
+        "tag": "HTTP客户端模拟"
+      },
+      {
+        "id": 9815120,
+        "tag": "HTML5游戏引擎"
+      },
+      {
+        "id": 1778731,
+        "tag": "浏览器日志监控"
+      },
+      {
+        "id": 427384949,
+        "tag": "Canvas富文本编辑器"
+      },
+      {
+        "id": 744617272,
+        "tag": "视频广告屏蔽扩展"
+      },
+      {
+        "id": 352160885,
+        "tag": "Wasm网页应用"
+      },
+      {
+        "id": 12018530,
+        "tag": "用户代理解析库"
+      },
+      {
+        "id": 1590408,
+        "tag": "实时全栈框架"
+      },
+      {
+        "id": 931243,
+        "tag": "浏览器指纹追踪"
+      },
+      {
+        "id": 30484966,
+        "tag": "终端网页应用"
+      }
+    ]
+  }
+}

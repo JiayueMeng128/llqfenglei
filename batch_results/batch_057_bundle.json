@@ -1,0 +1,125 @@
+{
+  "batch_id": 57,
+  "timestamp": "2026-02-05T16:42:50.151496",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 7964711,
+      "name": "anthonycr/Lightning-Browser",
+      "stars": 2364,
+      "enhanced_text": "A lightweight Android browser with modern navigation.",
+      "tag": "轻量安卓浏览器"
+    },
+    {
+      "id": 14311006,
+      "name": "bgrins/videoconverter.js",
+      "stars": 2362,
+      "enhanced_text": "[UNMAINTAINED] Convert videos in your browser.\n\nvideoconverter.js is a library that allows you to convert and manipulate videos inside of your web browser.\nThis is achieved by converting the popular FFmpeg library into JavaScript, using Emscripten.\nIt was originally conceived for a project called Video Funhouse in Node Knockout 2013.\nWant to jump straight to a demo?\n* The terminal demo is here: http://bgrins.github.io/videoconverter.js/demo\n* The Video Funhouse sample application is here: https://video-funhouse.herokuapp.com.\n## Documentation and Build Instructions\nFor more information about building and using the project, visit the project homepage at http://bgrins.github.io/videoconverter.js/.",
+      "tag": "浏览器视频转码库"
+    },
+    {
+      "id": 34313469,
+      "name": "richtr/NoSleep.js",
+      "stars": 2360,
+      "enhanced_text": "Prevent display sleep and enable wake lock in any Android or iOS web browser.\n\n## Installation\nThis library is available on Bower as **nosleep**.\nThis package is published to npm as **nosleep.js** and can be installed with:\nAlternatively, you can manually add NoSleep.js to your project (or the minified version).",
+      "tag": "浏览器防休眠库"
+    },
+    {
+      "id": 176849340,
+      "name": "Ibit-to/google-unlocked",
+      "stars": 2346,
+      "enhanced_text": "Google Unlocked browser extension uncensor google search results.\n\n## Install in Chrome/Opera/Brave/Chromium\n~~[Chrome Web Store]~~\nThe extension was taken down by Google from the Chrome store. Please use manual install.\n\n## Install in Firefox\n~~[Firefox Add-Ons]~~\nTaken down too. So you need to manually install it. With Firefox open, hit Ctrl+ o (or Cmd+ o) > browse to the extension > double click the extension (or select Open) > Install Now.",
+      "tag": "搜索去审查扩展"
+    },
+    {
+      "id": 896595985,
+      "name": "lmnr-ai/index",
+      "stars": 2334,
+      "enhanced_text": "The SOTA Open-Source Browser Agent for autonomously performing complex tasks on the web.\n\n### Install dependencies\n### Setup model API keys\nSetup your model API keys in  file in your project root:\n### Run Index with code\n### Run Index with CLI\n- Browser state persistence between sessions\n- Follow-up messages with support for \"give human control\" action\n- Real-time streaming updates\n- Beautiful terminal UI using Textual\nYou can run Index CLI with the following command.\nOutput will look like this:\n### Running CLI with a personal Chrome instance\nYou can use Index with personal Chrome browser instance instead of launching a new browser. Main advantage is that all your existing logged-in sessions will be available.\nThe easiest way to use Index in production is with serverless API. Index API manages remote browser sessions, agent infrastructure and browser observability. To get started, create a project API key in Laminar.",
+      "tag": "自主网页操作代理"
+    },
+    {
+      "id": 528288530,
+      "name": "snaplet/postgres-wasm",
+      "stars": 2328,
+      "enhanced_text": "A PostgresQL server running in your browser.\n\nA PostgreSQL server instance running in a virtual machine running in the browser\nSince we worked on this project, awesome and more usable solutions exist:\n- PGlite by ElectricSQL which is a native WASM build of Postgres\n- pgmock by Stackframe which is using the same approach as this project, emulating the Postgres server in an x86 emulator",
+      "tag": "浏览器内PostgreSQL"
+    },
+    {
+      "id": 114108768,
+      "name": "nitin42/react-perf-devtool",
+      "stars": 2318,
+      "enhanced_text": "A browser developer tool extension to inspect performance of React components.\n\n## Description\n\n### Overview section\n\n## Introduction\n**React Performance Devtool** is a browser extension for inspecting the performance of React Components. It statistically examines the performance of React components based on the measures which are collected by React using  API.\nAlong with the browser extension, the measures can also be inspected in a console. See the usage section for more details.\nThis project started with a purpose of extending the work done by Will Chen on a proposal for React performance table. You can read more about it here.\n### Browser extension\nA demo of the extension being used to examine the performance of React components on my website.\n### Log the measures to a console\nPerformance measures can also be logged to a console. With every re-render, measures are updated and logged to the console.\n* Remove or unmount the component instances which are not being used.\n* Inspect what is blocking or taking more time after an operation has been started.\n* Examine the table and see for which components, you need to write shouldComponentUpdate lifecycle hook.\n* Examine which components are taking more time to load.\nTo use this devtool, you'll need to install a npm module which will register a listener (read more about this in usage section) and the browser extension.\n**Installing the extension**\nThe below extensions represent the current stable release.",
+      "tag": "React性能开发工具"
+    },
+    {
+      "id": 23404128,
+      "name": "alephdata/aleph",
+      "stars": 2315,
+      "enhanced_text": "Search and browse documents and data; find the people and companies you look for.",
+      "tag": "文档数据检索系统"
+    },
+    {
+      "id": 40242163,
+      "name": "unruledboy/WebFrontEndStack",
+      "stars": 2315,
+      "enhanced_text": "web front end stack: browsers, platforms, libraries, frameworks, tools etc.\n\nThe overflow stack family (Web Front End Stack, Database Stack, .NET Stack etc.):\nhttps://github.com/unruledboy/WebFrontEndStack/blob/master/README.zh-cn.md\nhttps://github.com/unruledboy/WebFrontEndStack/blob/master/README.es-es.md\nWeb front-end stack: browsers, platforms, libraries, frameworks, tools etc.",
+      "tag": "前端技术栈图谱"
+    },
+    {
+      "id": 678360150,
+      "name": "dnakov/little-rat",
+      "stars": 2315,
+      "enhanced_text": "🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls.\n\n# IMPORTANT: It's no longer possible to detect and block traffic from other extension unless you enable the *extensions-on-chrome-urls* flag  or run Chrome with the . See details here.\n🐀 Small chrome extension to monitor (and optionally block) other extensions' network calls\n### Manual Installation (Full Version)\n- Download the ZIP of this repo.\n- Go to chromium/chrome *Extensions*.\n- Click to check *Developer mode*.\n- Click *Load unpacked extension...*.\n- Select the directory  which was created above.",
+      "tag": "扩展网络监控工具"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 7964711,
+        "tag": "轻量安卓浏览器"
+      },
+      {
+        "id": 14311006,
+        "tag": "浏览器视频转码库"
+      },
+      {
+        "id": 34313469,
+        "tag": "浏览器防休眠库"
+      },
+      {
+        "id": 176849340,
+        "tag": "搜索去审查扩展"
+      },
+      {
+        "id": 896595985,
+        "tag": "自主网页操作代理"
+      },
+      {
+        "id": 528288530,
+        "tag": "浏览器内PostgreSQL"
+      },
+      {
+        "id": 114108768,
+        "tag": "React性能开发工具"
+      },
+      {
+        "id": 23404128,
+        "tag": "文档数据检索系统"
+      },
+      {
+        "id": 40242163,
+        "tag": "前端技术栈图谱"
+      },
+      {
+        "id": 678360150,
+        "tag": "扩展网络监控工具"
+      }
+    ]
+  }
+}

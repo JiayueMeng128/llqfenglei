@@ -1,0 +1,16 @@
+{
+  "batch_id": 57,
+  "timestamp": "2026-02-05T16:42:50.151082",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 7964711,\n      \"tag\": \"轻量安卓浏览器\"\n    },\n    {\n      \"id\": 14311006,\n      \"tag\": \"浏览器视频转码库\"\n    },\n    {\n      \"id\": 34313469,\n      \"tag\": \"浏览器防休眠库\"\n    },\n    {\n      \"id\": 176849340,\n      \"tag\": \"搜索去审查扩展\"\n    },\n    {\n      \"id\": 896595985,\n      \"tag\": \"自主网页操作代理\"\n    },\n    {\n      \"id\": 528288530,\n      \"tag\": \"浏览器内PostgreSQL\"\n    },\n    {\n      \"id\": 114108768,\n      \"tag\": \"React性能开发工具\"\n    },\n    {\n      \"id\": 23404128,\n      \"tag\": \"文档数据检索系统\"\n    },\n    {\n      \"id\": 40242163,\n      \"tag\": \"前端技术栈图谱\"\n    },\n    {\n      \"id\": 678360150,\n      \"tag\": \"扩展网络监控工具\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1597,
+    "completion_tokens": 242,
+    "total_tokens": 1839
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-9e89d8357538b7ac",
+  "created": 1770309759,
+  "finish_reason": "stop"
+}

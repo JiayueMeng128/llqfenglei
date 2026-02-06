@@ -1,0 +1,125 @@
+{
+  "batch_id": 18,
+  "timestamp": "2026-02-05T16:24:37.066919",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 705574656,
+      "name": "lencx/Noi",
+      "stars": 8696,
+      "enhanced_text": "🚀 Less chaos. More flow.",
+      "tag": "浏览器集成开发环境"
+    },
+    {
+      "id": 5775917,
+      "name": "gotwarlost/istanbul",
+      "stars": 8684,
+      "enhanced_text": "Yet another JS code coverage tool that computes statement, line, function and branch coverage with module loader hooks to transparently add coverage when running tests. Supports all JS coverage use cases including unit tests, server side functional tests and browser tests. Built for scale.\n\n### Features\n* All-javascript instrumentation library that tracks **statement, branch,\nand function coverage**.\n* **Module loader hooks** to instrument code on the fly\n* **Command line tools** to run node unit tests \"with coverage turned on\" and no cooperation\nwhatsoever from the test runner\n* Multiple report formats: **HTML**, **LCOV**, **Cobertura** and more.\n* Ability to use as middleware when serving JS files that need to be tested on the browser.\n* Can be used on the **command line** as well as a **library**\n* Based on the awesome  parser and the equally awesome  code generator\n* Well-tested on node (prev, current and next versions) and the browser (instrumentation library only)\nSupports the following use cases and more\n* transparent coverage of nodejs unit tests\n* instrumentation/ reporting of files in batch mode for browser tests\n* Server side code coverage for nodejs by embedding it as custom middleware\n\n### Getting started\n$ npm install -g istanbul\nThe best way to see it in action is to run node unit tests. Say you have a test\nscript  that runs all tests for your node project without coverage.\n$ cd /path/to/your/source/root\n$ istanbul cover test.js\nand this should produce a ,  and  under\nSample of code coverage reports produced by this tool (for this tool!):",
+      "tag": "JavaScript代码覆盖率工具"
+    },
+    {
+      "id": 26768643,
+      "name": "SeleniumHQ/docker-selenium",
+      "stars": 8593,
+      "enhanced_text": "Provides a simple way to run Selenium Grid with Chrome, Firefox, and Edge using Container Platform, making it easier to perform browser automation at scale.",
+      "tag": "Selenium容器化部署"
+    },
+    {
+      "id": 33816473,
+      "name": "testcontainers/testcontainers-java",
+      "stars": 8574,
+      "enhanced_text": "Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.\n\nCopyright (c) 2015 - 2021 Richard North and other authors.\nMS SQL Server module is (c) 2017 - 2021 G DATA Software AG and other authors.\nHashicorp Vault module is (c) 2017 - 2021 Capital One Services, LLC and other authors.\nSee contributors for all contributors.",
+      "tag": "Java测试容器库"
+    },
+    {
+      "id": 2828239,
+      "name": "TiddlyWiki/TiddlyWiki5",
+      "stars": 8540,
+      "enhanced_text": "A self-contained JavaScript wiki for the browser, Node.js, AWS Lambda etc.",
+      "tag": "JavaScript维基引擎"
+    },
+    {
+      "id": 814882742,
+      "name": "iib0011/omni-tools",
+      "stars": 8534,
+      "enhanced_text": "Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!",
+      "tag": "自托管Web工具集"
+    },
+    {
+      "id": 51018409,
+      "name": "appbaseio/dejavu",
+      "stars": 8463,
+      "enhanced_text": "A Web UI for Elasticsearch and OpenSearch: Import, browse and edit data with rich filters and query views, create reference search UIs.\n\n# dejavu: The Web UI for OpenSearch and Elasticsearch",
+      "tag": "Elasticsearch Web界面"
+    },
+    {
+      "id": 12261520,
+      "name": "smartystreets/goconvey",
+      "stars": 8419,
+      "enhanced_text": "Go testing in the browser. Integrates with `go test`. Write behavioral tests in Go.\n\nInstallation\n$ go install github.com/smartystreets/goconvey",
+      "tag": "Go测试Web界面"
+    },
+    {
+      "id": 802006,
+      "name": "mediaelement/mediaelement",
+      "stars": 8304,
+      "enhanced_text": "HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.\n\n## Introduction\n_MediaElementPlayer: HTML5  and  player_\nA complete HTML/CSS audio/video player built on top .\nIn general,  supports **IE11+, MS Edge, Chrome, Firefox, Safari, iOS 8+** and **Android 4.0+**.\n**It is strongly recommended to read the entire documentation and check the  folder to get the most out of this package**. Visit here to start.",
+      "tag": "HTML5媒体播放器库"
+    },
+    {
+      "id": 2931111,
+      "name": "chaijs/chai",
+      "stars": 8268,
+      "enhanced_text": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.\n\n## Installation\nis available on npm. To install it, type:\n$ npm install --save-dev chai\nYou can also use it within the browser; install via npm and use the  file found within the download. For example:\nImport the library in your code, and then pick one of the styles you'd like to use - either ,  or :\n### Register the chai testing style globally\n### Import assertion styles as local variables\n\n## What is Chai?\nChai is an _assertion library_, similar to Node's built-in . It makes testing much easier by giving you lots of assertions you can run against your code.",
+      "tag": "JavaScript断言库"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 705574656,
+        "tag": "浏览器集成开发环境"
+      },
+      {
+        "id": 5775917,
+        "tag": "JavaScript代码覆盖率工具"
+      },
+      {
+        "id": 26768643,
+        "tag": "Selenium容器化部署"
+      },
+      {
+        "id": 33816473,
+        "tag": "Java测试容器库"
+      },
+      {
+        "id": 2828239,
+        "tag": "JavaScript维基引擎"
+      },
+      {
+        "id": 814882742,
+        "tag": "自托管Web工具集"
+      },
+      {
+        "id": 51018409,
+        "tag": "Elasticsearch Web界面"
+      },
+      {
+        "id": 12261520,
+        "tag": "Go测试Web界面"
+      },
+      {
+        "id": 802006,
+        "tag": "HTML5媒体播放器库"
+      },
+      {
+        "id": 2931111,
+        "tag": "JavaScript断言库"
+      }
+    ]
+  }
+}

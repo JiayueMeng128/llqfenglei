@@ -1,0 +1,125 @@
+{
+  "batch_id": 17,
+  "timestamp": "2026-02-05T16:24:17.642056",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 36502584,
+      "name": "react-page/react-page",
+      "stars": 9564,
+      "enhanced_text": "Next-gen, highly customizable content editor for the browser - based on React and written in TypeScript. WYSIWYG on steroids.\n\nsee https://github.com/react-page/react-page/issues/1329\nReactPage is a smart, extensible and modern editor (\"WYSIWYG\") for the web written in React. If you are fed up with the limitations of , you are in the right place.\nThere is also a  release channel, which might contain unstable features:\nA demo can be found on Demo which reflects the  release channel on npm.\nthe current  version is also available as a demo: beta Demo\nThe documentation is available at docs\nDocumentation for the current beta is at beta docs",
+      "tag": "React富文本编辑器"
+    },
+    {
+      "id": 17592572,
+      "name": "bpmn-io/bpmn-js",
+      "stars": 9416,
+      "enhanced_text": "A BPMN 2.0 rendering toolkit and web modeler.",
+      "tag": "BPMN建模库"
+    },
+    {
+      "id": 2491285,
+      "name": "mozilla/BrowserQuest",
+      "stars": 9364,
+      "enhanced_text": "DEPRECATED - A HTML5/JavaScript multiplayer game experiment.\n\nBrowserQuest is a HTML5/JavaScript multiplayer game experiment.\nDocumentation is located in client and server directories.\nCode is licensed under MPL 2.0. Content is licensed under CC-BY-SA 3.0.\nSee the LICENSE file for details.\n* Franck Lecollinet - @whatthefranck\n* Guillaume Lecollinet - @glecollinet",
+      "tag": "HTML5多人游戏"
+    },
+    {
+      "id": 127247098,
+      "name": "AdrienTorris/awesome-blazor",
+      "stars": 9293,
+      "enhanced_text": "Resources for Blazor, a .NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly.",
+      "tag": "Blazor资源集合"
+    },
+    {
+      "id": 985839104,
+      "name": "browseros-ai/BrowserOS",
+      "stars": 9188,
+      "enhanced_text": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
+      "tag": "智能体浏览器"
+    },
+    {
+      "id": 1569980,
+      "name": "mqttjs/MQTT.js",
+      "stars": 9033,
+      "enhanced_text": "The MQTT client for Node.js and the browser.\n\n## Installation\nFor the sake of simplicity, let's put the subscriber and the publisher in the same file:\nMQTT.js can be used in React Native applications. To use it, see the React Native example\nIf you want to run your own MQTT broker, you can use\nAedes-cli, and launch it.\nYou can also use a test instance: test.mosquitto.org.\nIf you do not want to install a separate broker, you can try using the\n### CommonJS (Require)\n### ES6 Modules (Import)\n#### Importing individual components\n## Command Line Tools\nMQTT.js bundles a command to interact with a broker.\nIn order to have it available on your path, you should install MQTT.js\nThen, on one terminal\nSee  for the command help.\n\n## About Reconnection\nAn important part of any websocket connection is what to do when a connection\ndrops off and the client needs to reconnect. MQTT has built-in reconnection\nsupport that can be configured to behave in ways that suit the application.\n#### Refresh Authentication Options / Signed Urls with  (Websocket Only)\nWhen an mqtt connection drops and needs to reconnect, it's common to require\nthat any authentication associated with the connection is kept current with\nthe underlying auth mechanism. For instance some applications may pass an auth\ntoken with connection options on the initial connection, while other cloud\nservices may require a url be signed with each connection.\nBy the time the reconnect happens in the application lifecycle, the original\nauth data may have expired.\nTo address this we can use a hook called  to manipulate\neither of the connection url or the client options at the time of a reconnect.\nExample (update clientId & username on each reconnect):",
+      "tag": "MQTT客户端库"
+    },
+    {
+      "id": 36437041,
+      "name": "artilleryio/artillery",
+      "stars": 8881,
+      "enhanced_text": "The complete load testing platform. Everything you need for production-grade load tests. Serverless & distributed. Load test with Playwright. Load test HTTP APIs, GraphQL, WebSocket, and more. Use any Node.js module.",
+      "tag": "负载测试平台"
+    },
+    {
+      "id": 45319761,
+      "name": "minbrowser/min",
+      "stars": 8841,
+      "enhanced_text": "A fast, minimal browser that protects your privacy.\n\n### Installation on Linux\n- To install the .deb file, use\n- To install the RPM build, use\n- On Arch Linux install from AUR.\n- On Raspberry Pi, you can install Min from Pi-Apps.\n\n## Installing\nYou can find prebuilt binaries for Min here. Alternatively, skip to the section below for instructions on how to build Min directly from source.",
+      "tag": "极简隐私浏览器"
+    },
+    {
+      "id": 260432296,
+      "name": "H-M-H/Weylus",
+      "stars": 8787,
+      "enhanced_text": "Use your tablet as graphic tablet/touch screen on your computer.\n\n## Features\n- Control your mouse with your tablet\n- Mirror your screen to your tablet\n- Send keyboard input using physical keyboards\n- Hardware accelerated video encoding\nThe above features are available on all Operating Systems but Weylus works best on Linux. Additional\n\nfeatures on Linux are:\n- Support for a stylus/pen (supports pressure and tilt)\n- Multi-touch: Try it with software that supports multi-touch, like Krita, and see for yourself!\n- Capturing specific windows and only drawing to them\n- Faster screen mirroring\n- Tablet as second screen",
+      "tag": "平板输入代理"
+    },
+    {
+      "id": 1012503,
+      "name": "mwaterfall/MWPhotoBrowser",
+      "stars": 8744,
+      "enhanced_text": "A simple iOS photo and video browser with grid view, captions and selections.",
+      "tag": "iOS媒体浏览组件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 36502584,
+        "tag": "React富文本编辑器"
+      },
+      {
+        "id": 17592572,
+        "tag": "BPMN建模库"
+      },
+      {
+        "id": 2491285,
+        "tag": "HTML5多人游戏"
+      },
+      {
+        "id": 127247098,
+        "tag": "Blazor资源集合"
+      },
+      {
+        "id": 985839104,
+        "tag": "智能体浏览器"
+      },
+      {
+        "id": 1569980,
+        "tag": "MQTT客户端库"
+      },
+      {
+        "id": 36437041,
+        "tag": "负载测试平台"
+      },
+      {
+        "id": 45319761,
+        "tag": "极简隐私浏览器"
+      },
+      {
+        "id": 260432296,
+        "tag": "平板输入代理"
+      },
+      {
+        "id": 1012503,
+        "tag": "iOS媒体浏览组件"
+      }
+    ]
+  }
+}

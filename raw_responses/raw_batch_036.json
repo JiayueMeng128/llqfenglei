@@ -1,0 +1,16 @@
+{
+  "batch_id": 36,
+  "timestamp": "2026-02-05T16:28:00.358124",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 952018616,\n      \"tag\": \"视觉AI浏览器自动化\"\n    },\n    {\n      \"id\": 479586,\n      \"tag\": \"jQuery兼容性插件\"\n    },\n    {\n      \"id\": 175832658,\n      \"tag\": \"浏览器扩展构建工具\"\n    },\n    {\n      \"id\": 172636540,\n      \"tag\": \"浏览器文件系统映射\"\n    },\n    {\n      \"id\": 63557,\n      \"tag\": \"jQuery鼠标事件插件\"\n    },\n    {\n      \"id\": 3457006,\n      \"tag\": \"Web MIDI音频库\"\n    },\n    {\n      \"id\": 359922324,\n      \"tag\": \"浏览器桌面环境容器\"\n    },\n    {\n      \"id\": 49692445,\n      \"tag\": \"光标特效库\"\n    },\n    {\n      \"id\": 105665728,\n      \"tag\": \"浏览器端机器学习工具\"\n    },\n    {\n      \"id\": 224599511,\n      \"tag\": \"隐私偏好自动化扩展\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1320,
+    "completion_tokens": 241,
+    "total_tokens": 1561
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c510a6c3aa32ed691c361280b293",
+  "created": 1770308877,
+  "finish_reason": "stop"
+}

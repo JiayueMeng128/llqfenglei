@@ -1,0 +1,16 @@
+{
+  "batch_id": 19,
+  "timestamp": "2026-02-05T16:24:47.904716",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 98770076,\n      \"tag\": \"Git JavaScript实现\"\n    },\n    {\n      \"id\": 741365632,\n      \"tag\": \"Python网页爬虫库\"\n    },\n    {\n      \"id\": 230881127,\n      \"tag\": \"浏览器特性汇编\"\n    },\n    {\n      \"id\": 437505831,\n      \"tag\": \"Firefox衍生浏览器\"\n    },\n    {\n      \"id\": 62937181,\n      \"tag\": \"浏览器端加密粘贴板\"\n    },\n    {\n      \"id\": 46891997,\n      \"tag\": \"浏览器客户端源码\"\n    },\n    {\n      \"id\": 389813360,\n      \"tag\": \"跨平台漫画浏览器\"\n    },\n    {\n      \"id\": 5839692,\n      \"tag\": \"Webpack开发服务器\"\n    },\n    {\n      \"id\": 11621778,\n      \"tag\": \"Angular文件上传组件\"\n    },\n    {\n      \"id\": 12558645,\n      \"tag\": \"用户脚本管理器\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1766,
+    "completion_tokens": 240,
+    "total_tokens": 2006
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-bd604c6badf8c6c0",
+  "created": 1770308677,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 34,
+  "timestamp": "2026-02-05T16:27:40.736428",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 255242703,\n      \"tag\": \"JavaScript历史文献\"\n    },\n    {\n      \"id\": 326059244,\n      \"tag\": \"WebRTC视频会议\"\n    },\n    {\n      \"id\": 3346928,\n      \"tag\": \"浏览器终端模拟器\"\n    },\n    {\n      \"id\": 123563464,\n      \"tag\": \"YouTube增强扩展\"\n    },\n    {\n      \"id\": 23384104,\n      \"tag\": \"轻量DOM库\"\n    },\n    {\n      \"id\": 10182205,\n      \"tag\": \"无头浏览器服务\"\n    },\n    {\n      \"id\": 618514446,\n      \"tag\": \"AI终端代理\"\n    },\n    {\n      \"id\": 18102026,\n      \"tag\": \"Web UI组件库\"\n    },\n    {\n      \"id\": 46246431,\n      \"tag\": \"命令行新闻客户端\"\n    },\n    {\n      \"id\": 584016836,\n      \"tag\": \"WebAssembly CAD应用\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 2362,
+    "completion_tokens": 238,
+    "total_tokens": 2600
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a1f12720e1f2f286",
+  "created": 1770308848,
+  "finish_reason": "stop"
+}

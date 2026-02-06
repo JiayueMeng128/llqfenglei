@@ -1,0 +1,125 @@
+{
+  "batch_id": 22,
+  "timestamp": "2026-02-05T16:25:06.235662",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 197205035,
+      "name": "DIYgod/RSSHub-Radar",
+      "stars": 6941,
+      "enhanced_text": "🧡 Browser extension that simplifies finding and subscribing RSS and RSSHub.",
+      "tag": "浏览器扩展"
+    },
+    {
+      "id": 24649388,
+      "name": "cazala/synaptic",
+      "stars": 6919,
+      "enhanced_text": "architecture-free neural network library for node.js and the browser.\n\n#### Getting started\nTo try out the examples, checkout the gh-pages branch.\nThis README is also available in other languages.\n- Chinese Simplified | 中文文档, thanks to @noraincode.\n- Chinese Traditional | 繁體中文, by @NoobTW.\n- Japanese | 日本語, thanks to @oshirogo.\n\n#### Introduction\nIf you have no prior knowledge about Neural Networks, you should start by reading this guide.\nIf you want a practical example on how to feed data to a neural network, then take a look at this article.\nYou may also want to take a look at this article.\n- Discrete Sequence Recall Task\n- Learn Image Filters\n- Self Organizing Map\n- Read from Wikipedia\n- Creating a Simple Neural Network (Video)\n- Beer glass classifier\nThe source code of these demos can be found in this branch.\n\n## Overview",
+      "tag": "神经网络库"
+    },
+    {
+      "id": 332757634,
+      "name": "jonasstrehle/supercookie",
+      "stars": 6918,
+      "enhanced_text": "⚠️ Browser fingerprinting via favicon!",
+      "tag": "浏览器指纹"
+    },
+    {
+      "id": 657577902,
+      "name": "imgly/background-removal-js",
+      "stars": 6916,
+      "enhanced_text": "Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns. Explore an interactive demo.",
+      "tag": "浏览器图像处理"
+    },
+    {
+      "id": 6418762,
+      "name": "futurepress/epub.js",
+      "stars": 6856,
+      "enhanced_text": "Enhanced eBooks in the browser.\n\n## Getting Started\nIf using archived  files include JSZip (this must precede inclusion of epub.js):\nGet the minified code from the build folder:\nSet up a element to render to:\nCreate the new ePub, and then render it to that element:\nThe default manager only displays a single section at a time.\nThe continuous manager will display as many sections as need to fill the screen, and preload the next section offscreen. This enables seamless swiping / scrolling between pages on mobile and desktop, but is less performant than the default method.\nFlow will be based on the settings in the OPF, defaults to .\nScripted content, JavasScript the ePub HTML content, is disabled by default due to the potential for executing malicious content.\nThis is done by sandboxing the iframe the content is rendered into, though it is still recommended to sanitize the ePub content server-side as well.\nIf a trusted ePub contains interactivity, it can be enabled by passing  to the  settings.\nThis will allow the sandboxed content to run scripts, but currently makes the sandbox insecure.\nAPI documentation is available at epubjs.org/documentation/0.3/\nA Markdown version is included in the repo at documentation/API.md",
+      "tag": "电子书渲染引擎"
+    },
+    {
+      "id": 130369089,
+      "name": "jdepoix/youtube-transcript-api",
+      "stars": 6842,
+      "enhanced_text": "This is a python API which allows you to get the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles and it does not require an API key nor a headless browser, like other selenium based solutions do!\n\nThis is a python API which allows you to retrieve the transcript/subtitles for a given YouTube video. It also works for automatically generated subtitles, supports translating subtitles and it does not require a headless browser, like other selenium based solutions do!\nMaintenance of this project is made possible by all the contributors and sponsors. If you'd like to sponsor this project and have your avatar or company logo appear below click here. 💖\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\nIt is recommended to install this module by using pip:\nYou can either integrate this module into an existing application or just use it via a CLI.\nThe easiest way to get a transcript for a given video is to execute:\n> **Note:** By default, this will try to access the English transcript of the video. If your video has a different\n> language, or you are interested in fetching a transcript in a different language, please read the section below.",
+      "tag": "Python API"
+    },
+    {
+      "id": 206509491,
+      "name": "rowyio/rowy",
+      "stars": 6800,
+      "enhanced_text": "Low-code backend platform. Manage database on spreadsheet-like UI and build cloud functions workflows in JS/TS, all in your browser.",
+      "tag": "低代码平台"
+    },
+    {
+      "id": 24650236,
+      "name": "google/lovefield",
+      "stars": 6788,
+      "enhanced_text": "Lovefield is a relational database for web apps. Written in JavaScript, works cross-browser. Provides SQL-like APIs that are fast, safe, and easy to use.",
+      "tag": "浏览器数据库"
+    },
+    {
+      "id": 59700207,
+      "name": "beakerbrowser/beaker",
+      "stars": 6761,
+      "enhanced_text": "An experimental peer-to-peer Web browser.",
+      "tag": "P2P浏览器"
+    },
+    {
+      "id": 664226598,
+      "name": "pinokiocomputer/pinokio",
+      "stars": 6659,
+      "enhanced_text": "Pinokio is a 1-click launcher for any open-source project. Think of it as a terminal application with a user-friendly interface that can programmatically interact with scripts.\n1. **Scripts can run anything:** Just like terminal apps can run shell scripts, Pinokio scripts can run any command, download files, and execute them. Essentially, Pinokio is a user-friendly terminal with a UI.\n2. **How scripts can be run:** There are two ways to run scripts on Pinokio:\n1. **Write your own:** Just like writing and executing shell scripts in the terminal, you can create your own scripts and run them locally.\n2. **Install from the \"Discover\" page:** Vetted scripts are manually listed in the directory, tracked via Git, and frozen under the official GitHub organization. These are guaranteed to be secure and safe to install.\n3. **Verified Scripts:** To be featured on the \"Discover\" page, scripts must go through the following strict process:\n1. **Publisher Verification:** You must be personally verified to submit scripts for consideration. Contact the Pinokio admin (https://x.com/cocktailpeanut) to request verification.",
+      "tag": "应用启动器"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 197205035,
+        "tag": "浏览器扩展"
+      },
+      {
+        "id": 24649388,
+        "tag": "神经网络库"
+      },
+      {
+        "id": 332757634,
+        "tag": "浏览器指纹"
+      },
+      {
+        "id": 657577902,
+        "tag": "浏览器图像处理"
+      },
+      {
+        "id": 6418762,
+        "tag": "电子书渲染引擎"
+      },
+      {
+        "id": 130369089,
+        "tag": "Python API"
+      },
+      {
+        "id": 206509491,
+        "tag": "低代码平台"
+      },
+      {
+        "id": 24650236,
+        "tag": "浏览器数据库"
+      },
+      {
+        "id": 59700207,
+        "tag": "P2P浏览器"
+      },
+      {
+        "id": 664226598,
+        "tag": "应用启动器"
+      }
+    ]
+  }
+}

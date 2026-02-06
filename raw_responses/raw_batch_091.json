@@ -1,0 +1,16 @@
+{
+  "batch_id": 91,
+  "timestamp": "2026-02-05T16:52:59.800414",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 46504130,\n      \"tag\": \"React组件工具\"\n    },\n    {\n      \"id\": 281906706,\n      \"tag\": \"Web CAD引擎\"\n    },\n    {\n      \"id\": 77928713,\n      \"tag\": \"JavaScript认证库\"\n    },\n    {\n      \"id\": 1047442186,\n      \"tag\": \"Go HTTP客户端\"\n    },\n    {\n      \"id\": 824656296,\n      \"tag\": \"Web幻灯片应用\"\n    },\n    {\n      \"id\": 296251053,\n      \"tag\": \"React开发者工具\"\n    },\n    {\n      \"id\": 628453268,\n      \"tag\": \"AI图像修复工具\"\n    },\n    {\n      \"id\": 10756392,\n      \"tag\": \"JavaScript API客户端\"\n    },\n    {\n      \"id\": 709761,\n      \"tag\": \"HTML5多媒体兼容库\"\n    },\n    {\n      \"id\": 366950533,\n      \"tag\": \"JavaScript图表库\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1590,
+    "completion_tokens": 234,
+    "total_tokens": 1824
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-a361b95c26db0157",
+  "created": 1770310352,
+  "finish_reason": "stop"
+}

@@ -1,0 +1,16 @@
+{
+  "batch_id": 64,
+  "timestamp": "2026-02-05T16:44:51.792870",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 27469126,\n      \"tag\": \"地理数据切片库\"\n    },\n    {\n      \"id\": 41527911,\n      \"tag\": \"跨浏览器JS框架\"\n    },\n    {\n      \"id\": 60257915,\n      \"tag\": \"iOS图片浏览器\"\n    },\n    {\n      \"id\": 233356362,\n      \"tag\": \"前端图片转换器\"\n    },\n    {\n      \"id\": 126199585,\n      \"tag\": \"安卓浏览器组件库\"\n    },\n    {\n      \"id\": 87403752,\n      \"tag\": \"浏览器DNN推理框架\"\n    },\n    {\n      \"id\": 214834409,\n      \"tag\": \"DNS过滤规则列表\"\n    },\n    {\n      \"id\": 1620438,\n      \"tag\": \"URL重定向扩展\"\n    },\n    {\n      \"id\": 94893151,\n      \"tag\": \"macOS浏览器选择器\"\n    },\n    {\n      \"id\": 2643120,\n      \"tag\": \"表单数据持久化插件\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1400,
+    "completion_tokens": 243,
+    "total_tokens": 1643
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c903595ed8b1af0f5fdfbc5cb139",
+  "created": 1770309882,
+  "finish_reason": "stop"
+}

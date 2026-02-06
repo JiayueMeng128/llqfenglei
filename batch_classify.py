@@ -279,6 +279,96 @@ def save_raw_response(batch_id, response, parse_error=None, output_dir="./raw_re
         print(f"      解析错误: {parse_error}")
     
     return filepath
+#
+import os
+import json
+import sqlite3
+from typing import List, Tuple, Optional
+# ==================== 辅助函数: 获取待处理列表 ====================
+def get_pending_list(db, checkpoint, limit: Optional[int]=None, output_file: Optional[str]=None):
+    """
+    在分批处理前列出（并可保存）将要处理的记录清单（按 stars 降序，排除 checkpoint 中的已处理 id）。
+    
+    参数:
+      db: DBHandler 实例（需有 .conn 属性 sqlite3.Connection）
+      checkpoint: CheckpointManager 实例（需有 get_processed_ids() 方法）
+      limit: 可选，限制返回的记录数（None 表示不限制）
+      output_file: 可选，保存 JSON 到指定路径（若 None，则不保存）
+    
+    返回:
+      pending: List[dict] 每项包含 { "id", "name", "stars" }
+    
+    说明:
+      - 为避免 SQLite 的变量数量上限（当 processed_ids 很多时），该函数会在当前连接上创建临时表 processed_ids_temp
+        并分批插入已处理 id，然后用 NOT EXISTS 排除它们。
+      - 该函数不会修改 checkpoint 内容（仅读），临时表会保留在连接周期内或被覆盖。
+    """
+    conn: sqlite3.Connection = db.conn
+    cur = conn.cursor()
+
+    processed_ids = checkpoint.get_processed_ids() or []
+    pending = []
+
+    # 如果没有已处理 id，直接查询
+    if not processed_ids:
+        q = f"""
+            SELECT {CONFIG['db_id_field']}, {CONFIG['db_name_field']}, {CONFIG['db_stars_field']}
+            FROM {CONFIG['db_table_name']}
+            ORDER BY {CONFIG['db_stars_field']} DESC
+        """
+        if limit:
+            q += " LIMIT ?"
+            cur.execute(q, (limit,))
+        else:
+            cur.execute(q)
+        rows = cur.fetchall()
+        pending = [{"id": r[0], "name": r[1], "stars": r[2]} for r in rows]
+    else:
+        # 创建临时表并分批插入 processed ids，避免占位符过多
+        cur.execute("CREATE TEMP TABLE IF NOT EXISTS processed_ids_temp(id INTEGER PRIMARY KEY)")
+        cur.execute("DELETE FROM processed_ids_temp")
+        chunk = 500  # 每次插入大小，500 通常安全
+        for i in range(0, len(processed_ids), chunk):
+            chunk_ids = processed_ids[i:i+chunk]
+            cur.executemany("INSERT OR IGNORE INTO processed_ids_temp(id) VALUES (?)", [(int(x),) for x in chunk_ids])
+        # 查询未被标记的记录
+        q = f"""
+            SELECT r.{CONFIG['db_id_field']}, r.{CONFIG['db_name_field']}, r.{CONFIG['db_stars_field']}
+            FROM {CONFIG['db_table_name']} r
+            WHERE NOT EXISTS (SELECT 1 FROM processed_ids_temp p WHERE p.id = r.{CONFIG['db_id_field']})
+            ORDER BY r.{CONFIG['db_stars_field']} DESC
+        """
+        if limit:
+            q += " LIMIT ?"
+            cur.execute(q, (limit,))
+        else:
+            cur.execute(q)
+        rows = cur.fetchall()
+        pending = [{"id": r[0], "name": r[1], "stars": r[2]} for r in rows]
+
+    # 可选保存到文件
+    if output_file:
+        os.makedirs(os.path.dirname(output_file) or ".", exist_ok=True)
+        with open(output_file, "w", encoding="utf-8") as f:
+            json.dump({
+                "generated_at": datetime.now().isoformat(),
+                "total_pending": len(pending),
+                "pending": pending
+            }, f, indent=2, ensure_ascii=False)
+
+    # 打印小结（方便交互查看）
+    print(f"📋 待处理记录总数: {len(pending)} (已保存: {output_file if output_file else '未保存'})")
+    if pending:
+        sample = pending[:min(10, len(pending))]
+        print("   前 10 条示例 (id, stars, name):")
+        for it in sample:
+            print(f"    - {it['id']}  ({it['stars']})  {it['name']}")
+    else:
+        print("   无待处理记录。")
+
+    return pending
+
+
 # ==================== 3. 数据绑定与持久化 ====================
 def save_bundle(batch_id, original_batch, ai_results):
     """将分析结果与原始数据绑定并保存到文件"""
@@ -371,7 +461,8 @@ def main():
     # 初始化组件
     db = DBHandler(CONFIG["db_path"])
     checkpoint = CheckpointManager(CONFIG["checkpoint_file"])
-    
+
+    pending = get_pending_list(db, checkpoint, limit=None, output_file="./batch_results/pending_list_full.json") # 获取完整待处理列表并保存
     # 从检查点恢复
     batch_id = checkpoint.data.get(CONFIG["checkpoint_last_id_field"], 0) + 1
     processed_ids = checkpoint.get_processed_ids()

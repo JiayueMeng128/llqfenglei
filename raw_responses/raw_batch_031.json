@@ -1,0 +1,16 @@
+{
+  "batch_id": 31,
+  "timestamp": "2026-02-05T16:26:52.343938",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 16112842,\n      \"tag\": \"代码生成工具\"\n    },\n    {\n      \"id\": 86941132,\n      \"tag\": \"浏览器扩展\"\n    },\n    {\n      \"id\": 19901927,\n      \"tag\": \"模块打包工具\"\n    },\n    {\n      \"id\": 306484159,\n      \"tag\": \"扩展开发框架\"\n    },\n    {\n      \"id\": 343654752,\n      \"tag\": \"专用浏览器\"\n    },\n    {\n      \"id\": 37319088,\n      \"tag\": \"浏览器启动器\"\n    },\n    {\n      \"id\": 2955178,\n      \"tag\": \"JavaScript库\"\n    },\n    {\n      \"id\": 2692921,\n      \"tag\": \"音频处理库\"\n    },\n    {\n      \"id\": 490984887,\n      \"tag\": \"移动端浏览器\"\n    },\n    {\n      \"id\": 366844495,\n      \"tag\": \"Web容器运行时\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1418,
+    "completion_tokens": 228,
+    "total_tokens": 1646
+  },
+  "model": "stg/deepseek-ai/deepseek-v3.2",
+  "id": "chatcmpl-8a2812920611fdee",
+  "created": 1770308797,
+  "finish_reason": "stop"
+}

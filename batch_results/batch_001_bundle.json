@@ -1,0 +1,125 @@
+{
+  "batch_id": 1,
+  "timestamp": "2026-02-05T16:20:58.800307",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 70107786,
+      "name": "vercel/next.js",
+      "stars": 137504,
+      "enhanced_text": "The React Framework.",
+      "tag": "全栈Web框架"
+    },
+    {
+      "id": 23088740,
+      "name": "axios/axios",
+      "stars": 108566,
+      "enhanced_text": "Promise based HTTP client for the browser and node.js.\n\n## Features\n- **Browser Requests:** Make XMLHttpRequests directly from the browser.\n- **Node.js Requests:** Make http requests from Node.js environments.\n- **Promise-based:** Fully supports the Promise API for easier asynchronous code.\n- **Interceptors:** Intercept requests and responses to add custom logic or transform data.\n- **Data Transformation:** Transform request and response data automatically.\n- **Request Cancellation:** Cancel requests using built-in mechanisms.\n- **Automatic JSON Handling:** Automatically serializes and parses JSON data.\n- **Form Serialization:** 🆕 Automatically serializes data objects to  or  formats.\n- **XSRF Protection:** Client-side support to protect against Cross-Site Request Forgery.\n|                                                     Chrome                                                     |                                                      Firefox                                                      |                                                     Safari                                                     |                                                    Opera                                                    |                                                   Edge                                                   |\n|                                                    Latest ✔                                                    |                                                     Latest ✔                                                      |                                                    Latest ✔                                                    |                                                  Latest ✔                                                   |                                                 Latest ✔                                                 |",
+      "tag": "HTTP客户端库"
+    },
+    {
+      "id": 2561582,
+      "name": "animate-css/animate.css",
+      "stars": 82624,
+      "enhanced_text": "🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.\n\nInstall with yarn:\n\n## Installation\n\nInstall with npm:",
+      "tag": "CSS动画库"
+    },
+    {
+      "id": 881458615,
+      "name": "browser-use/browser-use",
+      "stars": 77766,
+      "enhanced_text": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.\n\n🌤️ Want to skip the setup? Use our cloud for faster, scalable, stealth-enabled browser automation!\n1. Direct your favorite coding agent (Cursor, Claude Code, etc) to Agents.md\n**1. Create environment with uv (Python>=3.11):**\n**2. Install Browser-Use package:**\n**3. Get your API key from Browser Use Cloud and add it to your  file (new signups get $10 free credits):**\n**4. Install Chromium browser:**",
+      "tag": "AI浏览器自动化"
+    },
+    {
+      "id": 172953845,
+      "name": "coder/code-server",
+      "stars": 76108,
+      "enhanced_text": "VS Code in the browser.",
+      "tag": "云端IDE"
+    },
+    {
+      "id": 9185792,
+      "name": "apache/echarts",
+      "stars": 65624,
+      "enhanced_text": "Apache ECharts is a powerful, interactive charting and data visualization library for browser.\n\nApache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.\n**中文官网** | **ENGLISH HOMEPAGE**\nYou may choose one of the following methods:\n+ Download from the official website",
+      "tag": "数据可视化库"
+    },
+    {
+      "id": 808045485,
+      "name": "LadybirdBrowser/ladybird",
+      "stars": 58190,
+      "enhanced_text": "Truly independent web browser.",
+      "tag": "浏览器引擎"
+    },
+    {
+      "id": 824874689,
+      "name": "cline/cline",
+      "stars": 57569,
+      "enhanced_text": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+      "tag": "AI编程助手"
+    },
+    {
+      "id": 348060227,
+      "name": "withastro/astro",
+      "stars": 56518,
+      "enhanced_text": "The web framework for content-driven websites. ⭐️ Star to support our work!\n\nAstro is a website build tool for the modern web &mdash;\npowerful developer experience meets lightweight output.\nThe **recommended** way to install the latest version of Astro is by running the command below:\nYou can also install Astro **manually** by running this command instead:\nLooking for help? Start with our Getting Started guide.\nLooking for quick examples? Open a starter project right in your browser.\nVisit our official documentation.\nHaving trouble? Get help in the official Astro Discord.",
+      "tag": "静态站点生成器"
+    },
+    {
+      "id": 31629751,
+      "name": "cypress-io/cypress",
+      "stars": 49557,
+      "enhanced_text": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "tag": "端到端测试框架"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 70107786,
+        "tag": "全栈Web框架"
+      },
+      {
+        "id": 23088740,
+        "tag": "HTTP客户端库"
+      },
+      {
+        "id": 2561582,
+        "tag": "CSS动画库"
+      },
+      {
+        "id": 881458615,
+        "tag": "AI浏览器自动化"
+      },
+      {
+        "id": 172953845,
+        "tag": "云端IDE"
+      },
+      {
+        "id": 9185792,
+        "tag": "数据可视化库"
+      },
+      {
+        "id": 808045485,
+        "tag": "浏览器引擎"
+      },
+      {
+        "id": 824874689,
+        "tag": "AI编程助手"
+      },
+      {
+        "id": 348060227,
+        "tag": "静态站点生成器"
+      },
+      {
+        "id": 31629751,
+        "tag": "端到端测试框架"
+      }
+    ]
+  }
+}

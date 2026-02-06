@@ -1,0 +1,125 @@
+{
+  "batch_id": 64,
+  "timestamp": "2026-02-05T16:44:51.793285",
+  "config_used": {
+    "model": "deepseek-v3.2",
+    "batch_size": 10,
+    "text_truncate_length": 12000
+  },
+  "data": [
+    {
+      "id": 27469126,
+      "name": "mapbox/geojson-vt",
+      "stars": 2011,
+      "enhanced_text": "Slice GeoJSON into vector tiles on the fly in the browser.",
+      "tag": "地理数据切片库"
+    },
+    {
+      "id": 41527911,
+      "name": "linb/CrossUI",
+      "stars": 2010,
+      "enhanced_text": "CrossUI is a free Cross-Browser Javascript framework with cutting-edge functionality for rich web application.",
+      "tag": "跨浏览器JS框架"
+    },
+    {
+      "id": 60257915,
+      "name": "ko1o/PYPhotoBrowser",
+      "stars": 2009,
+      "enhanced_text": "An easy way to browse photo(image) for iOS.\n\n* Who is using PYPhotoBrowser【哪些app使用PYPhotoBrowser】",
+      "tag": "iOS图片浏览器"
+    },
+    {
+      "id": 233356362,
+      "name": "renzhezhilu/webp2jpg-online",
+      "stars": 2003,
+      "enhanced_text": "Use the browser's online image format converter, no need to upload files, you can convert jpeg, jpg, png, gif, webp, svg, ico, bmp files to jpeg, png, webp animation, gif, base64,avif,mozjpeg. 使用浏览器的在线图片格式转化器,无需上传文件,可将jpeg、jpg、png、gif、webp、svg、ico、bmp文件转换为jpeg、png、webp、webp动画、gif、base64、avif、mozjpeg,提供了多个可自定义选项来满足常见需求。.\n\nThis toolbox includes image conversion and image stitching, pure front-end implementation, fast speed, privacy protection, and offline use,20 languages supported.\nA: Because it was originally to convert webp to jpg, I have been using it all the time.\nMultifunctional Image Converter\n- [x] Support for , , , , , , , , , , , Convert  to , , , ,",
+      "tag": "前端图片转换器"
+    },
+    {
+      "id": 126199585,
+      "name": "mozilla-mobile/android-components",
+      "stars": 2000,
+      "enhanced_text": "⚠️ This project moved to a new repository. It is now developed and maintained at: https://github.com/mozilla-mobile/firefox-android.\n\n_A collection of Android libraries to build browsers or browser-like applications._\nℹ️ For more information **see the website**.\nA fully-featured reference browser implementation based on the components can be found in the reference-browser repository.\nWe encourage you to participate in this open source project. We love pull requests, bug reports, ideas, (security) code reviews or any kind of positive contribution.\nBefore you attempt to make a contribution please read the Community Participation Guidelines.\n* View current Issues or View current Pull Requests.\n* List of good first issues (**New contributors start here!**) and List of \"help wanted\" issues.\n* Matrix: android-components:mozilla.org chat room (How to connect).",
+      "tag": "安卓浏览器组件库"
+    },
+    {
+      "id": 87403752,
+      "name": "mil-tokyo/webdnn",
+      "stars": 1998,
+      "enhanced_text": "The Fastest DNN Running Framework on Web Browser.\n\nThis is the alpha version of WebDNN version 2. The main difference between WebDNN 1.x and WebDNN 2.x is that WebDNN 2.x only accepts ONNX models as input, allowing ONNX models to be loaded directly into a web browser without Python preprocessing. In addition, offline model optimization is also possible.\n# Supported backends (acceleration technologies)\nWebGL is available in most modern browsers.\n- The draft version implemented in Chrome Canary.\n- The WebGPU in iOS13 is not supported because it requires shaders based on the deprecated WSL language.\n- Use WebGL2 if available; also supports Safari, which only supports WebGL1.\nThe environment which runs node.js 14, python 3.6+ and emscripten 2.0+.",
+      "tag": "浏览器DNN推理框架"
+    },
+    {
+      "id": 214834409,
+      "name": "badmojr/1Hosts",
+      "stars": 1998,
+      "enhanced_text": "Advanced DNS filter/blocklists for privacy, security, and clean browsing.\n\n***Safeguard your device(s) against pesky ads, trackers, and malware.***\n1Hosts offers 2 blocklist variants tailored to different user needs:\nBalanced version - set & forget, prioritizes smooth UX, ideal for general users.\ndnscrypt-proxy / personalDNSfilter / InviZible Pro",
+      "tag": "DNS过滤规则列表"
+    },
+    {
+      "id": 1620438,
+      "name": "einaregilsson/Redirector",
+      "stars": 1995,
+      "enhanced_text": "Browser extension (Firefox, Chrome, Opera, Edge) to redirect urls based on regex patterns, like a client side mod_rewrite.",
+      "tag": "URL重定向扩展"
+    },
+    {
+      "id": 94893151,
+      "name": "will-stone/browserosaurus",
+      "stars": 1983,
+      "enhanced_text": "🦖 The browser prompter for macOS.\n\n## Installation\nDownload Browserosaurus from the\nGitHub releases page.\nSelect **x64** for Intel machines, or **arm64** for Apple Silicon (M1) machines.\nOr use Homebrew. Thank\nyou very much to @i0ntempest and\n@tk4k for keeping this cask updated 🙏\n> 🚨 **Please note that Browserosaurus only officially supports the version of\n> macOS that I currently use, which you can assume to be the latest stable\nFound a bug? Please log an\nissue. For anything else,\nplease see the documentation below or open a\n## Projects inspired by Browserosaurus\nBrowserosaurus is primarily made for my needs and environment. Therefore, some",
+      "tag": "macOS浏览器选择器"
+    },
+    {
+      "id": 2643120,
+      "name": "simsalabim/sisyphus",
+      "stars": 1982,
+      "enhanced_text": "Gmail-like client-side drafts and bit more. Plugin developed to save html forms data to LocalStorage to restore them after browser crashes, tabs closings and other disasters.",
+      "tag": "表单数据持久化插件"
+    }
+  ],
+  "ai_raw_response": {
+    "classifications": [
+      {
+        "id": 27469126,
+        "tag": "地理数据切片库"
+      },
+      {
+        "id": 41527911,
+        "tag": "跨浏览器JS框架"
+      },
+      {
+        "id": 60257915,
+        "tag": "iOS图片浏览器"
+      },
+      {
+        "id": 233356362,
+        "tag": "前端图片转换器"
+      },
+      {
+        "id": 126199585,
+        "tag": "安卓浏览器组件库"
+      },
+      {
+        "id": 87403752,
+        "tag": "浏览器DNN推理框架"
+      },
+      {
+        "id": 214834409,
+        "tag": "DNS过滤规则列表"
+      },
+      {
+        "id": 1620438,
+        "tag": "URL重定向扩展"
+      },
+      {
+        "id": 94893151,
+        "tag": "macOS浏览器选择器"
+      },
+      {
+        "id": 2643120,
+        "tag": "表单数据持久化插件"
+      }
+    ]
+  }
+}

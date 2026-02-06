@@ -1,0 +1,16 @@
+{
+  "batch_id": 49,
+  "timestamp": "2026-02-05T16:41:03.771511",
+  "parse_success": true,
+  "parse_error": null,
+  "raw_content": "{\n  \"classifications\": [\n    {\n      \"id\": 18788804,\n      \"tag\": \"媒体控制命令行工具\"\n    },\n    {\n      \"id\": 141427485,\n      \"tag\": \"移动端区块链钱包浏览器\"\n    },\n    {\n      \"id\": 5567476,\n      \"tag\": \"Angular本地存储模块\"\n    },\n    {\n      \"id\": 37374972,\n      \"tag\": \"Go全栈开发脚手架\"\n    },\n    {\n      \"id\": 37438565,\n      \"tag\": \"浏览器电路模拟器\"\n    },\n    {\n      \"id\": 114962091,\n      \"tag\": \"Homebridge网页管理界面\"\n    },\n    {\n      \"id\": 17406078,\n      \"tag\": \"macOS资源文件查看器\"\n    },\n    {\n      \"id\": 2822459,\n      \"tag\": \"Python WebKit自动化库\"\n    },\n    {\n      \"id\": 686004733,\n      \"tag\": \"Vue.js开发者工具扩展\"\n    },\n    {\n      \"id\": 43936671,\n      \"tag\": \"iOS照片浏览器组件\"\n    }\n  ]\n}",
+  "usage": {
+    "prompt_tokens": 1599,
+    "completion_tokens": 250,
+    "total_tokens": 1849
+  },
+  "model": "deepseek-v3.2",
+  "id": "msg_6984c81fd30641365ed997b7fb933a87",
+  "created": 1770309661,
+  "finish_reason": "stop"
+}
